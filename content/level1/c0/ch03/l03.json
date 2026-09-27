@@ -1,0 +1,378 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch03",
+  "no": 3,
+  "title": "전기와 자기"
+ },
+ "lesson": {
+  "id": "c0-ch03-l03",
+  "no": 3,
+  "title": "저항의 연결과 전기 에너지",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-middle"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "하나를 꺼도 나머지는 켜진다",
+   "body": [
+    "집에서 텔레비전을 꺼도 냉장고와 전등은 계속 작동합니다. 그런데 옛날 크리스마스 전구 줄은 전구 하나가 끊어지면 모두 꺼졌습니다.",
+    "이 차이는 전기 기구를 연결하는 방법, 곧 직렬과 병렬의 차이입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "멀티탭에 꽂은 전기 기구 중 하나를 꺼도 나머지가 계속 작동하는 것은 기구들이 {{1}}로 연결되어 있기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "병렬"
+     ]
+    }
+   ],
+   "hint": "직렬과 병렬 중 하나입니다.",
+   "explanation": "병렬 연결은 기구마다 전류가 흐르는 길이 따로 있습니다.\n그래서 한 기구를 꺼도 다른 기구의 길은 끊어지지 않습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "직렬 연결",
+   "body": [
+    "저항을 한 줄로 이어 연결하는 것이 직렬 연결입니다. 전류가 흐르는 길이 하나뿐이므로 각 저항에 흐르는 전류가 같습니다.",
+    "전체 전압은 각 저항에 나뉘어 걸리며, 저항이 큰 쪽에 더 큰 전압이 걸립니다. 전체 저항은 각 저항의 합입니다.",
+    "길이 하나뿐이라 한 곳이 끊어지면 회로 전체에 전류가 흐르지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "직렬 연결에서는 각 저항에 흐르는 {{1}}가 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전류"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "직렬 연결은 전류가 지나는 길이 하나입니다.\n그래서 어느 저항에서나 같은 세기의 전류가 흐릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "2 Ω과 4 Ω의 저항을 직렬로 연결하고 12 V를 걸었습니다. 회로에 흐르는 전류는?",
+   "steps": [
+    "직렬 연결의 전체 저항은 2 + 4 = 6 Ω입니다.",
+    "I = V / R = 12 ÷ 6 = 2 A입니다."
+   ],
+   "answer": "2 A"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "3 Ω과 5 Ω의 저항을 직렬로 연결했습니다. 전체 저항은 몇 Ω일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "직렬 연결의 전체 저항은 각 저항의 합입니다.\n3 + 5 = 8 Ω입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "3 Ω과 5 Ω의 저항을 직렬로 연결하고 16 V를 걸었습니다. 흐르는 전류는 몇 A일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "전체 저항은 3 + 5 = 8 Ω입니다.\n16 V ÷ 8 Ω = 2 A입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "3 Ω과 5 Ω의 직렬 회로에 2 A가 흐릅니다. 5 Ω 저항에 걸리는 전압은 몇 V일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "직렬이므로 5 Ω에도 2 A가 흐릅니다.\nV = I × R = 2 × 5 = 10 V입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "병렬 연결",
+   "body": [
+    "저항을 나란히 연결해 전류의 길이 여러 갈래로 나뉘는 것이 병렬 연결입니다. 각 저항의 양 끝이 전원에 바로 연결되므로 각 저항에 걸리는 전압이 같습니다.",
+    "전체 전류는 각 저항에 흐르는 전류의 합입니다. 병렬로 연결하는 저항이 많을수록 길이 늘어나 전체 저항은 작아지고 전체 전류는 커집니다.",
+    "한 갈래가 끊어져도 다른 갈래에는 전류가 계속 흐르므로, 가정의 전기 기구는 병렬로 연결합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "병렬 연결에서는 각 저항에 걸리는 {{1}}이 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전압"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "병렬 연결은 각 저항의 양 끝이 전원의 양 끝과 바로 이어져 있습니다.\n그래서 모든 저항에 전원과 같은 전압이 걸립니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "6 Ω과 3 Ω의 저항을 병렬로 연결하고 6 V를 걸었습니다. 전체 전류는?",
+   "steps": [
+    "병렬이므로 두 저항에 모두 6 V가 걸립니다.",
+    "6 Ω에는 6 ÷ 6 = 1 A, 3 Ω에는 6 ÷ 3 = 2 A가 흐릅니다.",
+    "전체 전류는 1 + 2 = 3 A입니다."
+   ],
+   "answer": "3 A"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "4 Ω과 6 Ω의 저항을 병렬로 연결하고 12 V를 걸었습니다. 전체 전류는 몇 A일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "두 저항에 모두 12 V가 걸립니다.\n4 Ω에는 3 A, 6 Ω에는 2 A가 흐릅니다.\n전체 전류는 3 + 2 = 5 A입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "병렬로 연결하는 저항의 수를 늘리면 전체 전류는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커",
+      "많아",
+      "세"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "저항을 병렬로 더하면 전류가 흐를 길이 늘어납니다.\n전체 저항은 작아지고 전체 전류는 커집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전력과 전력량",
+   "body": [
+    "전기 기구가 1초 동안 사용하는 전기 에너지를 전력이라고 합니다. 전력 = 전압 × 전류이고, 단위는 W(와트)입니다.",
+    "전력량은 전기 기구가 일정 시간 동안 사용한 전기 에너지의 양입니다. 전력량 = 전력 × 시간이고, 단위는 Wh(와트시)나 kWh(킬로와트시)를 씁니다. 1 kWh = 1000 Wh입니다.",
+    "'220 V–1000 W'라고 적힌 기구는 220 V에 연결하면 1000 W의 전력을 사용한다는 뜻입니다. 전기 요금은 사용한 전력량으로 계산합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "전력의 단위 W는 {{1}}라고 읽습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "와트"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전력의 단위는 W(와트)입니다.\n1 W는 1초 동안 1 J의 전기 에너지를 사용하는 것입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "220 V에서 5 A의 전류가 흐르는 전기 기구의 전력은 몇 W일까요?",
+   "answer": "1100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "전력 = 전압 × 전류입니다.\n220 V × 5 A = 1100 W입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "소비 전력이 1000 W인 헤어드라이어를 30분 동안 사용했습니다. 사용한 전력량은 몇 Wh일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "30분은 0.5시간입니다.\n전력량 = 1000 W × 0.5 h = 500 Wh입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "100 W 전구를 하루 5시간씩 30일 동안 켰습니다. 사용한 전력량은 몇 kWh일까요?",
+   "steps": [
+    "전체 사용 시간은 5 × 30 = 150시간입니다.",
+    "전력량 = 100 W × 150 h = 15000 Wh입니다.",
+    "1 kWh = 1000 Wh이므로 15 kWh입니다."
+   ],
+   "answer": "15 kWh"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "소비 전력이 1500 W인 전기 주전자를 2시간 동안 사용했습니다. 사용한 전력량은 몇 kWh일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Wh로 구한 뒤 1000으로 나누세요.",
+   "explanation": "전력량 = 1500 W × 2 h = 3000 Wh입니다.\n1000 Wh = 1 kWh이므로 3 kWh입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "소비 전력이 작은 기구부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "에어컨 2 kW"
+    },
+    {
+     "id": "b",
+     "text": "형광등 40 W"
+    },
+    {
+     "id": "c",
+     "text": "전자레인지 1000 W"
+    },
+    {
+     "id": "d",
+     "text": "텔레비전 0.15 kW"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "c",
+    "a"
+   ],
+   "hint": "1 kW = 1000 W로 바꾸어 비교하세요.",
+   "explanation": "단위를 W로 맞춥니다.\n0.15 kW = 150 W, 2 kW = 2000 W입니다.\n40 < 150 < 1000 < 2000 순서입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "멀티탭에 전기 기구를 너무 많이 꽂으면 병렬 연결이 늘어 전체 {{1}}가 커지고 전선이 과열될 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전류"
+     ]
+    }
+   ],
+   "hint": "병렬 연결을 늘리면 전체 저항과 전체 무엇이 어떻게 되는지 떠올리세요.",
+   "explanation": "병렬로 기구를 더할 때마다 전체 저항은 작아집니다.\n그래서 전선에 흐르는 전체 전류가 커져 열이 많이 발생합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "2 Ω, 4 Ω, 6 Ω의 저항을 직렬로 연결하고 24 V를 걸었습니다. 흐르는 전류는 몇 A일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "직렬 연결의 전체 저항부터 구하세요.",
+   "explanation": "전체 저항은 2 + 4 + 6 = 12 Ω입니다.\nI = 24 V ÷ 12 Ω = 2 A입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "가정의 전기 기구를 직렬이 아니라 병렬로 연결하는 이유를 두 가지 설명해 보세요.",
+   "hint": "전압이 어떻게 걸리는지와 하나를 껐을 때를 생각하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "전압"
+     ],
+     [
+      "같",
+      "일정",
+      "220"
+     ],
+     [
+      "끊어",
+      "꺼도",
+      "고장",
+      "하나"
+     ],
+     [
+      "독립",
+      "계속",
+      "나머지",
+      "따로"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "병렬로 연결하면 모든 기구에 같은 전압(220 V)이 걸려 제 성능을 냅니다. 또 한 기구를 끄거나 고장 나도 다른 기구는 계속 작동합니다."
+  }
+ ]
+}

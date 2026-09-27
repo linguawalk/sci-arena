@@ -1,0 +1,394 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch02",
+  "no": 2,
+  "title": "힘과 운동"
+ },
+ "lesson": {
+  "id": "c0-ch02-l02",
+  "no": 2,
+  "title": "여러 가지 힘",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-middle"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "주변의 힘들",
+   "body": [
+    "사과는 나무에서 땅으로 떨어지고, 늘어난 용수철은 되돌아가며, 밀던 상자는 멈추고, 배는 물 위에 뜹니다.",
+    "모두 서로 다른 힘 때문입니다. 이 레슨에서는 중력, 탄성력, 마찰력, 부력을 차례로 살펴봅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "사과가 나무에서 땅으로 떨어지는 것은 지구가 사과를 끌어당기는 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중력"
+     ]
+    }
+   ],
+   "hint": "지구가 물체를 당기는 힘의 이름입니다.",
+   "explanation": "지구는 주변의 모든 물체를 지구 중심 쪽으로 끌어당깁니다.\n이 힘을 중력이라고 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "중력, 무게, 질량",
+   "body": [
+    "무게는 물체에 작용하는 중력의 크기로, 단위는 N입니다. 질량은 물체를 이루는 물질의 양으로, 단위는 kg이며 장소가 바뀌어도 변하지 않습니다.",
+    "지구에서 무게(N)는 9.8 × 질량(kg)입니다. 질량 1 kg인 물체의 무게는 9.8 N입니다.",
+    "달의 중력은 지구의 약 1/6이라서 달에서 무게는 1/6로 줄지만 질량은 그대로입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "장소가 바뀌어도 변하지 않는, 물체를 이루는 물질의 양을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "질량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "질량은 물질의 양이므로 지구에서나 달에서나 같습니다.\n반면 무게는 중력의 크기라 장소에 따라 달라집니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "지구에서 질량 2 kg인 물체의 무게는 몇 N일까요?",
+   "steps": [
+    "지구에서 무게는 9.8 × 질량입니다.",
+    "9.8 × 2 = 19.6입니다."
+   ],
+   "answer": "19.6 N"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "지구에서 질량 5 kg인 물체의 무게는 몇 N일까요?",
+   "answer": "49",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "지구에서 무게는 9.8 × 질량입니다.\n9.8 × 5 = 49 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "지구에서 무게가 60 N인 물체는 달에서 무게가 몇 N일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "달의 중력은 지구의 1/6입니다.\n60 N × 1/6 = 10 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "지구에서 질량 3 kg인 물체를 달에 가져가면 질량은 몇 kg일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "질량은 물질의 양이라 장소가 바뀌어도 변하지 않습니다.\n따라서 달에서도 3 kg입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "탄성력",
+   "body": [
+    "용수철이나 고무줄처럼 힘을 받아 모양이 변했다가 힘을 없애면 원래 모양으로 돌아가는 성질을 탄성이라고 합니다.",
+    "모양이 변한 물체가 원래 모양으로 돌아가려고 하는 힘이 탄성력입니다. 탄성력의 방향은 물체를 변형시킨 힘의 방향과 반대입니다.",
+    "용수철은 당기는 힘이 2배, 3배가 되면 늘어난 길이도 2배, 3배가 됩니다. 이 성질을 이용한 것이 용수철저울입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "탄성력의 방향은 물체를 변형시킨 힘의 방향과 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반대",
+      "반대 방향"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "늘어난 용수철은 줄어들려고, 눌린 용수철은 늘어나려고 합니다.\n그래서 탄성력은 변형시킨 힘과 반대 방향입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "1 N의 추를 매달면 2 cm 늘어나는 용수철에 3 N의 추를 매달면 몇 cm 늘어날까요?",
+   "steps": [
+    "늘어난 길이는 매단 힘에 비례합니다.",
+    "3 N은 1 N의 3배입니다.",
+    "2 cm × 3 = 6 cm입니다."
+   ],
+   "answer": "6 cm"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "2 N의 힘으로 당기면 4 cm 늘어나는 용수철을 5 N의 힘으로 당기면 몇 cm 늘어날까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1 N당 4 cm ÷ 2 = 2 cm씩 늘어납니다.\n5 N이면 2 cm × 5 = 10 cm입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "마찰력",
+   "body": [
+    "두 물체가 닿아 있을 때 물체의 운동을 방해하는 힘이 마찰력입니다. 마찰력은 물체가 움직이거나 움직이려는 방향과 반대로 작용합니다.",
+    "접촉면이 거칠수록, 물체의 무게가 클수록 마찰력이 커집니다.",
+    "마찰력은 불편하기만 한 것이 아닙니다. 신발 바닥의 홈, 빙판길의 모래는 마찰력을 키워 미끄러지지 않게 합니다. 반대로 기계에 기름을 칠하면 마찰력이 줄어듭니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "겨울철 빙판길에 모래를 뿌리는 것은 마찰력을 {{1}} 하기 위해서입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "크게",
+      "키우게",
+      "늘게",
+      "증가"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "모래는 얼음 표면을 거칠게 만듭니다.\n접촉면이 거칠수록 마찰력이 커져 덜 미끄러집니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 나무 도막을 유리판과 사포 위에서 각각 끌 때, 마찰력이 더 큰 쪽은 {{1}} 위입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "사포"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "사포의 표면이 유리판보다 훨씬 거칩니다.\n접촉면이 거칠수록 마찰력이 크므로 사포 위에서 더 큽니다."
+  },
+  {
+   "type": "explain",
+   "id": "s5",
+   "stage": "summary",
+   "title": "부력",
+   "body": [
+    "물이나 공기 같은 액체와 기체가 그 속에 있는 물체를 위쪽으로 밀어 올리는 힘이 부력입니다.",
+    "부력의 크기는 (공기 중에서 잰 무게) − (물속에서 잰 무게)로 구할 수 있습니다. 물속에서 물체가 가볍게 느껴지는 만큼이 부력입니다.",
+    "부력이 무게보다 크면 물체는 떠오르고, 물 위에 떠서 정지한 물체는 부력과 무게가 평형을 이룹니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "부력은 물체를 {{1}}쪽으로 밀어 올리는 힘입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "위"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "부력은 액체나 기체가 물체를 위쪽으로 미는 힘입니다.\n그래서 물속에서는 물체가 가볍게 느껴집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "용수철저울로 잰 돌의 무게가 공기 중에서 10 N, 물속에서 7 N입니다. 돌이 받는 부력은 몇 N일까요?",
+   "steps": [
+    "물속에서 가벼워진 만큼이 부력입니다.",
+    "10 N − 7 N = 3 N입니다."
+   ],
+   "answer": "3 N"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "어떤 물체의 무게가 공기 중에서 8 N, 물속에서 5 N입니다. 물체가 받는 부력은 몇 N일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "물속에서 가벼워진 만큼을 구하세요.",
+   "explanation": "부력 = 공기 중 무게 − 물속 무게입니다.\n8 N − 5 N = 3 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "공기 중 무게가 6 N인 물체가 물속에서 2 N의 부력을 받습니다. 물속에서 용수철저울은 몇 N을 가리킬까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "부력은 무게를 줄이는 방향으로 작용합니다.",
+   "explanation": "물속에서는 부력만큼 가볍게 측정됩니다.\n6 N − 2 N = 4 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "용수철저울로 부력의 크기를 구하는 순서입니다. 차례대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "물체를 물속에 완전히 잠기게 한다"
+    },
+    {
+     "id": "b",
+     "text": "두 값의 차이로 부력을 구한다"
+    },
+    {
+     "id": "c",
+     "text": "공기 중에서 물체의 무게를 잰다"
+    },
+    {
+     "id": "d",
+     "text": "물속에서 용수철저울의 눈금을 읽는다"
+    }
+   ],
+   "answer_order": [
+    "c",
+    "a",
+    "d",
+    "b"
+   ],
+   "hint": "부력은 두 번 잰 무게의 차이입니다.",
+   "explanation": "먼저 공기 중 무게를 잽니다.\n물체를 물에 잠기게 한 뒤 눈금을 읽습니다.\n공기 중 무게 − 물속 무게가 부력입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "나무토막이 물 위에 떠서 정지해 있습니다. 이때 부력의 크기는 나무토막의 {{1}}와 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무게",
+      "중력"
+     ]
+    }
+   ],
+   "hint": "정지한 물체에 작용하는 힘은 평형을 이룹니다.",
+   "explanation": "정지해 있으므로 나무토막에 작용하는 힘은 평형을 이룹니다.\n위로 미는 부력과 아래로 당기는 중력(무게)의 크기가 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "지구에서 질량 12 kg인 로봇을 달에 보냈습니다. 달에서 이 로봇의 무게는 몇 N일까요?",
+   "answer": "19.6",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "hint": "지구에서의 무게를 먼저 구한 뒤 6으로 나누세요.",
+   "explanation": "지구에서 무게는 9.8 × 12 = 117.6 N입니다.\n달의 중력은 지구의 1/6이므로 117.6 ÷ 6 = 19.6 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "우주인이 지구에서 달로 가면 질량과 무게는 각각 어떻게 되는지, 그 이유와 함께 설명해 보세요.",
+   "hint": "질량과 무게의 정의부터 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "질량"
+     ],
+     [
+      "무게"
+     ],
+     [
+      "변하지 않",
+      "그대로",
+      "같"
+     ],
+     [
+      "1/6",
+      "6분의 1",
+      "줄",
+      "작아",
+      "중력"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "질량은 물질의 양이므로 달에서도 변하지 않습니다. 무게는 중력의 크기인데 달의 중력이 지구의 약 1/6이므로 무게는 1/6로 줄어듭니다."
+  }
+ ]
+}

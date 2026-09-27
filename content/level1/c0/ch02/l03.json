@@ -1,0 +1,431 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch02",
+  "no": 2,
+  "title": "힘과 운동"
+ },
+ "lesson": {
+  "id": "c0-ch02-l03",
+  "no": 3,
+  "title": "속력",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-middle"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "누가 더 빠를까",
+   "body": [
+    "달리기 시합에서는 같은 거리를 누가 더 짧은 시간에 달리는지로 빠르기를 비교합니다.",
+    "그런데 거리와 시간이 모두 다르면 어떻게 비교할까요? 이때 쓰는 것이 속력입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "numeric",
+   "prompt": "100 m를 A는 16초, B는 20초에 달렸습니다. 더 빠른 사람의 기록은 몇 초일까요?",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "같은 거리에서는 시간이 짧은 쪽이 빠릅니다.",
+   "explanation": "같은 거리라면 걸린 시간이 짧을수록 빠릅니다.\n16초가 20초보다 짧으므로 A가 더 빠르고, 기록은 16초입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "속력",
+   "body": [
+    "속력은 단위 시간 동안 이동한 거리입니다. 속력 = 이동 거리 ÷ 걸린 시간으로 구합니다.",
+    "단위는 m/s(미터 매 초)나 km/h(킬로미터 매 시)를 씁니다. 5 m/s는 1초에 5 m를 간다는 뜻입니다.",
+    "식을 바꾸면 이동 거리 = 속력 × 시간, 시간 = 거리 ÷ 속력도 구할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "속력 = 이동 거리 ÷ {{1}}",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "걸린 시간",
+      "시간"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "속력은 1초(또는 1시간) 동안 얼마나 이동했는지를 나타냅니다.\n그래서 이동 거리를 걸린 시간으로 나눕니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "150 m를 30초 동안 이동한 자전거의 속력은?",
+   "steps": [
+    "속력 = 이동 거리 ÷ 걸린 시간입니다.",
+    "150 m ÷ 30 s = 5 m/s입니다."
+   ],
+   "answer": "5 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "자동차가 180 km를 3시간 동안 달렸습니다. 속력은 몇 km/h일까요?",
+   "answer": "60",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "속력 = 이동 거리 ÷ 걸린 시간입니다.\n180 km ÷ 3 h = 60 km/h입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "5 m/s의 속력으로 40초 동안 달리면 몇 m를 이동할까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "이동 거리 = 속력 × 시간입니다.\n5 m/s × 40 s = 200 m입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "36 km/h는 몇 m/s일까요?",
+   "steps": [
+    "36 km는 36000 m이고, 1시간은 3600초입니다.",
+    "36000 m ÷ 3600 s = 10 m/s입니다.",
+    "간단히 km/h 값을 3.6으로 나누어도 됩니다."
+   ],
+   "answer": "10 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "72 km/h는 몇 m/s일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "72 km/h = 72000 m ÷ 3600 s입니다.\n= 20 m/s입니다. (72 ÷ 3.6 = 20)"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "그래프로 보는 등속 운동",
+   "body": [
+    "속력이 일정한 운동을 등속 운동이라고 합니다. 등속 운동을 하면 같은 시간마다 같은 거리를 갑니다.",
+    "이동 거리–시간 그래프를 그리면 원점을 지나는 직선이 되고, 직선의 기울기(거리 ÷ 시간)가 속력입니다.",
+    "속력–시간 그래프는 가로축에 나란한 직선이 되고, 그래프 아래 넓이(속력 × 시간)가 이동 거리입니다."
+   ],
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "초",
+     "ylabel": "m",
+     "xmin": 0,
+     "xmax": 6,
+     "ymin": 0,
+     "ymax": 24,
+     "xstep": 1,
+     "ystep": 4,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0,
+        4
+       ],
+       "from": 0,
+       "to": 6
+      }
+     ],
+     "points": [
+      [
+       5,
+       20,
+       "(5초, 20 m)"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 이동 거리–시간 그래프에서 물체의 속력은 몇 m/s일까요? (가로축 시간(초), 세로축 거리(m))",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "그래프가 5초일 때 20 m를 지납니다.\n속력 = 20 m ÷ 5 s = 4 m/s입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "초",
+     "ylabel": "m",
+     "xmin": 0,
+     "xmax": 6,
+     "ymin": 0,
+     "ymax": 24,
+     "xstep": 1,
+     "ystep": 4,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0,
+        4
+       ],
+       "from": 0,
+       "to": 6
+      }
+     ],
+     "points": [
+      [
+       5,
+       20,
+       "(5초, 20 m)"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "3 m/s로 등속 운동하는 물체의 속력–시간 그래프에서 0초부터 10초까지 그래프 아래의 넓이는 몇 m를 나타낼까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "그래프 아래 넓이는 속력 × 시간입니다.\n3 m/s × 10 s = 30 m로, 이동 거리를 나타냅니다."
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "등속 운동의 이동 거리–시간 그래프는 원점을 지나는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "직선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 시간마다 같은 거리를 가므로 거리가 시간에 비례합니다.\n그래서 그래프는 원점을 지나는 직선이 됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "자유 낙하 운동",
+   "body": [
+    "공기 저항을 무시할 때, 물체가 중력만 받아 떨어지는 운동을 자유 낙하 운동이라고 합니다.",
+    "자유 낙하하는 물체의 속력은 1초마다 9.8 m/s씩 빨라집니다. 1초 뒤 9.8 m/s, 2초 뒤 19.6 m/s입니다.",
+    "속력이 빨라지는 정도는 질량과 관계없습니다. 공기가 없는 진공에서는 쇠구슬과 깃털이 동시에 떨어집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "자유 낙하하는 물체의 속력은 1초마다 {{1}} m/s씩 증가합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "9.8"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지구의 중력 때문에 자유 낙하 물체의 속력은 1초에 9.8 m/s씩 늘어납니다.\n이 값은 물체의 질량과 관계없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "정지 상태에서 자유 낙하를 시작한 물체의 3초 뒤 속력은 몇 m/s일까요?",
+   "answer": "29.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "속력은 1초마다 9.8 m/s씩 증가합니다.\n9.8 × 3 = 29.4 m/s입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "자동차가 60 km를 1시간, 다시 60 km를 2시간 동안 달렸습니다. 전체 평균 속력은?",
+   "steps": [
+    "평균 속력 = 전체 이동 거리 ÷ 전체 걸린 시간입니다.",
+    "전체 거리는 60 + 60 = 120 km, 전체 시간은 1 + 2 = 3시간입니다.",
+    "120 km ÷ 3 h = 40 km/h입니다. 두 속력의 평균(45)과 다르다는 점에 주의합니다."
+   ],
+   "answer": "40 km/h"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "처음 200 m를 40초, 다음 300 m를 60초 동안 달렸습니다. 전체 평균 속력은 몇 m/s일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전체 거리를 전체 시간으로 나누세요.",
+   "explanation": "전체 거리는 200 + 300 = 500 m, 전체 시간은 40 + 60 = 100 s입니다.\n평균 속력 = 500 m ÷ 100 s = 5 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "번개가 친 뒤 3초 후에 천둥소리를 들었습니다. 소리의 속력이 340 m/s라면 번개는 몇 m 떨어진 곳에서 쳤을까요?",
+   "answer": "1020",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "이동 거리 = 속력 × 시간입니다.",
+   "explanation": "빛은 거의 즉시 도착하므로 소리가 3초 동안 이동한 거리를 구합니다.\n340 m/s × 3 s = 1020 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "속력이 느린 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "자동차 72 km/h"
+    },
+    {
+     "id": "b",
+     "text": "치타 30 m/s"
+    },
+    {
+     "id": "c",
+     "text": "걷는 사람 1.5 m/s"
+    },
+    {
+     "id": "d",
+     "text": "자전거 18 km/h"
+    }
+   ],
+   "answer_order": [
+    "c",
+    "d",
+    "a",
+    "b"
+   ],
+   "hint": "km/h 값을 3.6으로 나누어 m/s로 바꾸세요.",
+   "explanation": "단위를 m/s로 맞춥니다.\n18 km/h = 5 m/s, 72 km/h = 20 m/s입니다.\n1.5 < 5 < 20 < 30 순서입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "공기가 없는 진공 속에서 쇠구슬과 깃털을 같은 높이에서 동시에 떨어뜨리면 두 물체는 {{1}} 땅에 닿습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "동시에",
+      "같이",
+      "함께",
+      "같은 시간에"
+     ]
+    }
+   ],
+   "hint": "자유 낙하의 속력 변화가 질량과 관계있는지 떠올리세요.",
+   "explanation": "진공에서는 공기 저항이 없어 두 물체 모두 자유 낙하합니다.\n자유 낙하의 속력 변화는 질량과 관계없으므로 동시에 떨어집니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "100 m를 12.5초에 달린 학생의 속력은 몇 m/s일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "100을 12.5로 나누세요.",
+   "explanation": "속력 = 이동 거리 ÷ 걸린 시간입니다.\n100 m ÷ 12.5 s = 8 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "이동 거리–시간 그래프에서 기울기가 속력을 나타내는 이유를 설명해 보세요.",
+   "hint": "기울기를 구하는 방법과 속력을 구하는 식을 비교해 보세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "기울기"
+     ],
+     [
+      "거리",
+      "세로"
+     ],
+     [
+      "시간",
+      "가로"
+     ],
+     [
+      "나눈",
+      "÷",
+      "비",
+      "나누"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "기울기는 세로축 변화량을 가로축 변화량으로 나눈 값입니다. 이동 거리–시간 그래프에서는 이동 거리를 걸린 시간으로 나눈 값이 되므로 속력과 같습니다."
+  }
+ ]
+}

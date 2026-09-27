@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c0",
+  "chapter": {
+    "id": "c0-ch04",
+    "no": 4,
+    "title": "빛과 파동"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c0-ch04-l01",
+      "title": "빛의 반사",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 2,
+      "id": "c0-ch04-l02",
+      "title": "빛의 굴절과 렌즈",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 3,
+      "id": "c0-ch04-l03",
+      "title": "빛과 색",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c0-ch04-l04",
+      "title": "파동과 소리",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 24
+    }
+  ],
+  "review": {
+    "id": "c0-ch04-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

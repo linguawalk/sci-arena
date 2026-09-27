@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c0",
+  "chapter": {
+    "id": "c0-ch05",
+    "no": 5,
+    "title": "생물의 구성과 기능"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c0-ch05-l01",
+      "title": "세포와 생물의 구성",
+      "file": "l01.json",
+      "questions": 17,
+      "screens": 24
+    },
+    {
+      "no": 2,
+      "id": "c0-ch05-l02",
+      "title": "광합성과 식물의 호흡",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 3,
+      "id": "c0-ch05-l03",
+      "title": "소화와 순환",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c0-ch05-l04",
+      "title": "호흡과 배설",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 24
+    }
+  ],
+  "review": {
+    "id": "c0-ch05-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c0",
+  "chapter": {
+    "id": "c0-ch02",
+    "no": 2,
+    "title": "힘과 운동"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c0-ch02-l01",
+      "title": "힘과 합력",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c0-ch02-l02",
+      "title": "여러 가지 힘",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 3,
+      "id": "c0-ch02-l03",
+      "title": "속력",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c0-ch02-l04",
+      "title": "일과 에너지",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 24
+    }
+  ],
+  "review": {
+    "id": "c0-ch02-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

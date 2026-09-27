@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c0",
+  "chapter": {
+    "id": "c0-ch03",
+    "no": 3,
+    "title": "전기와 자기"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c0-ch03-l01",
+      "title": "정전기",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 2,
+      "id": "c0-ch03-l02",
+      "title": "전류, 전압, 저항",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 3,
+      "id": "c0-ch03-l03",
+      "title": "저항의 연결과 전기 에너지",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c0-ch03-l04",
+      "title": "전류의 자기 작용",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 24
+    }
+  ],
+  "review": {
+    "id": "c0-ch03-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

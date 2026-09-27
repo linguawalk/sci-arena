@@ -1,0 +1,217 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch05",
+  "no": 5,
+  "title": "생물의 구성과 기능"
+ },
+ "review": {
+  "id": "c0-ch05-review",
+  "title": "생물의 구성과 기능 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "양분을 분해해 생명 활동에 필요한 에너지를 만드는 세포 속 구조는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "미토콘드리아"
+     ]
+    }
+   ],
+   "hint": "세포 호흡이 일어나는 곳입니다.",
+   "explanation": "미토콘드리아에서 세포 호흡이 일어나 에너지가 만들어집니다.\n동물 세포와 식물 세포에 모두 있습니다.",
+   "source_lesson": "c0-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "여러 조직이 모여 일정한 형태와 기능을 가진 단계를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기관"
+     ]
+    }
+   ],
+   "hint": "심장과 위가 해당하는 단계입니다.",
+   "explanation": "위, 심장, 잎처럼 여러 조직이 모여 일정한 기능을 하는 단계가 기관입니다.\n동물은 기관이 모여 기관계를 이룹니다.",
+   "source_lesson": "c0-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "광합성으로 만든 포도당은 곧 {{1}}로 바뀌어 잎에 잠시 저장됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "녹말"
+     ]
+    }
+   ],
+   "hint": "아이오딘-아이오딘화 칼륨 용액으로 검출하는 물질입니다.",
+   "explanation": "포도당은 곧 물에 잘 녹지 않는 녹말로 바뀌어 잎에 저장됩니다.\n녹말은 밤에 설탕으로 바뀌어 체관을 통해 운반됩니다.",
+   "source_lesson": "c0-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "잎에서 이산화 탄소와 산소가 드나들고 물이 수증기로 빠져나가는 작은 구멍을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기공"
+     ]
+    }
+   ],
+   "hint": "공변세포가 여닫는 구멍입니다.",
+   "explanation": "기공은 두 개의 공변세포로 둘러싸인 구멍입니다.\n기체 교환과 증산 작용이 기공을 통해 일어납니다.",
+   "source_lesson": "c0-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지방을 분해하는 이자액 속 소화 효소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "라이페이스"
+     ]
+    }
+   ],
+   "hint": "아밀레이스, 트립신, 라이페이스 중 지방에 작용하는 것입니다.",
+   "explanation": "라이페이스는 지방을 지방산과 모노글리세리드로 분해합니다.\n쓸개즙이 지방을 작은 알갱이로 만들어 이 작용을 돕습니다.",
+   "source_lesson": "c0-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "온몸 순환은 좌심실 → {{1}} → 온몸의 모세 혈관 → 대정맥 → 우심방 순서입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대동맥"
+     ]
+    }
+   ],
+   "hint": "심장에서 나가는 가장 큰 동맥입니다.",
+   "explanation": "좌심실은 혈액을 대동맥으로 내보냅니다.\n대동맥에서 갈라진 동맥을 거쳐 온몸의 모세 혈관으로 갑니다.",
+   "source_lesson": "c0-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "적혈구, 백혈구, 혈소판 중 산소를 운반하는 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적혈구"
+     ]
+    }
+   ],
+   "hint": "혈액을 붉게 보이게 하는 혈구입니다.",
+   "explanation": "적혈구는 헤모글로빈으로 산소를 운반합니다.\n백혈구는 식균 작용, 혈소판은 혈액 응고를 맡습니다.",
+   "source_lesson": "c0-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "숨을 내쉴 때 가로막은 {{1}}갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "올라"
+     ]
+    }
+   ],
+   "hint": "들숨 때와 반대입니다.",
+   "explanation": "날숨 때 가로막이 올라가고 갈비뼈가 내려갑니다.\n흉강의 부피가 작아져 공기가 밖으로 나갑니다.",
+   "source_lesson": "c0-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "콩팥의 네프론에서 혈액이 보먼주머니로 걸러지는 곳은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "사구체"
+     ]
+    }
+   ],
+   "hint": "모세 혈관이 뭉쳐 있는 부분입니다.",
+   "explanation": "사구체는 모세 혈관이 실뭉치처럼 뭉친 부분입니다.\n여기서 크기가 작은 물질이 보먼주머니로 여과됩니다.",
+   "source_lesson": "c0-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "ordering",
+   "prompt": "오줌이 만들어지는 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "노폐물이 세뇨관으로 분비된다"
+    },
+    {
+     "id": "b",
+     "text": "사구체에서 보먼주머니로 여과된다"
+    },
+    {
+     "id": "c",
+     "text": "오줌이 방광에 모인다"
+    },
+    {
+     "id": "d",
+     "text": "세뇨관에서 필요한 물질이 재흡수된다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "여과 → 재흡수 → 분비 순서입니다.",
+   "explanation": "여과된 액체에서 필요한 물질을 재흡수합니다.\n노폐물을 더 분비한 뒤 남은 액체가 오줌이 되어 방광에 모입니다.",
+   "source_lesson": "c0-ch05-l04"
+  }
+ ]
+}

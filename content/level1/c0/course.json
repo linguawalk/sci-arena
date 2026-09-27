@@ -7,11 +7,11 @@
     "description": "고교 과학에 필요한 중학 과학 핵심"
   },
   "totals": {
-    "chapters": 1,
-    "lessons": 4,
-    "lesson_questions": 64,
-    "review_questions": 10,
-    "questions": 74
+    "chapters": 6,
+    "lessons": 24,
+    "lesson_questions": 385,
+    "review_questions": 60,
+    "questions": 445
   },
   "chapters": [
     {
@@ -19,6 +19,51 @@
       "id": "c0-ch01",
       "title": "물질의 구성",
       "dir": "ch01",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 2,
+      "id": "c0-ch02",
+      "title": "힘과 운동",
+      "dir": "ch02",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 3,
+      "id": "c0-ch03",
+      "title": "전기와 자기",
+      "dir": "ch03",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 4,
+      "id": "c0-ch04",
+      "title": "빛과 파동",
+      "dir": "ch04",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 5,
+      "id": "c0-ch05",
+      "title": "생물의 구성과 기능",
+      "dir": "ch05",
+      "lessons": 4,
+      "lesson_questions": 65,
+      "review_questions": 10
+    },
+    {
+      "no": 6,
+      "id": "c0-ch06",
+      "title": "지구계와 우주",
+      "dir": "ch06",
       "lessons": 4,
       "lesson_questions": 64,
       "review_questions": 10

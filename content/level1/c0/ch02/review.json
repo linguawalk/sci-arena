@@ -1,0 +1,161 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch02",
+  "no": 2,
+  "title": "힘과 운동"
+ },
+ "review": {
+  "id": "c0-ch02-review",
+  "title": "힘과 운동 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "같은 방향으로 8 N과 5 N, 반대 방향으로 6 N이 작용합니다. 합력의 크기는 몇 N일까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "같은 방향끼리 먼저 더하세요.",
+   "explanation": "같은 방향 힘을 더하면 8 + 5 = 13 N입니다.\n반대 방향 6 N을 빼면 13 − 6 = 7 N입니다.",
+   "source_lesson": "c0-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "합력이 0이 되어 정지한 물체가 계속 정지해 있는 상태를 힘의 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "평형"
+     ]
+    }
+   ],
+   "hint": "줄다리기에서 비길 때를 떠올리세요.",
+   "explanation": "합력이 0이면 힘이 평형을 이룹니다.\n책상 위의 책이 그 예입니다.",
+   "source_lesson": "c0-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "지구에서 질량 10 kg인 물체의 무게는 몇 N일까요?",
+   "answer": "98",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "질량 1 kg의 무게는 9.8 N입니다.",
+   "explanation": "지구에서 무게 = 9.8 × 질량입니다.\n9.8 × 10 = 98 N입니다.",
+   "source_lesson": "c0-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "3 N으로 당기면 6 cm 늘어나는 용수철을 12 cm 늘이려면 몇 N으로 당겨야 할까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "늘어난 길이가 몇 배인지 보세요.",
+   "explanation": "늘어난 길이는 힘에 비례합니다.\n12 cm는 6 cm의 2배이므로 힘도 3 N × 2 = 6 N입니다.",
+   "source_lesson": "c0-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "물체가 움직이는 방향과 반대로 작용해 운동을 방해하는 힘은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "마찰력"
+     ]
+    }
+   ],
+   "hint": "브레이크가 자전거를 멈추게 하는 힘입니다.",
+   "explanation": "접촉면에서 운동을 방해하는 힘은 마찰력입니다.\n면이 거칠수록, 무게가 클수록 커집니다.",
+   "source_lesson": "c0-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "90 km/h로 달리는 자동차의 속력은 몇 m/s일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "km/h 값을 3.6으로 나누세요.",
+   "explanation": "90 km/h = 90000 m ÷ 3600 s입니다.\n= 25 m/s입니다. (90 ÷ 3.6 = 25)",
+   "source_lesson": "c0-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "4 m/s로 등속 운동하는 물체가 1분 동안 이동하는 거리는 몇 m일까요?",
+   "answer": "240",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "시간을 초 단위로 바꾸세요.",
+   "explanation": "1분은 60초입니다.\n이동 거리 = 4 m/s × 60 s = 240 m입니다.",
+   "source_lesson": "c0-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "정지 상태에서 자유 낙하한 물체의 속력이 19.6 m/s가 되는 것은 몇 초 뒤일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1초마다 늘어나는 속력으로 나누세요.",
+   "explanation": "속력은 1초마다 9.8 m/s씩 증가합니다.\n19.6 ÷ 9.8 = 2초입니다.",
+   "source_lesson": "c0-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량 5 kg인 물체를 2 m 높이로 들어 올렸습니다. 이 물체의 위치 에너지는 몇 J일까요?",
+   "answer": "98",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "들어 올린 일만큼 위치 에너지가 저장됩니다.",
+   "explanation": "위치 에너지 = 9.8 × 질량 × 높이입니다.\n9.8 × 5 × 2 = 98 J입니다.",
+   "source_lesson": "c0-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량 1 kg인 공이 4 m/s로 움직일 때 운동 에너지는 몇 J일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "속력을 먼저 제곱하세요.",
+   "explanation": "운동 에너지 = ½ × 질량 × 속력²입니다.\n½ × 1 × 4² = 8 J입니다.",
+   "source_lesson": "c0-ch02-l04"
+  }
+ ]
+}

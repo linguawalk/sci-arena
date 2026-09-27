@@ -1,0 +1,182 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch06",
+  "no": 6,
+  "title": "지구계와 우주"
+ },
+ "review": {
+  "id": "c0-ch06-review",
+  "title": "지구계와 우주 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지구 표면과 내부의 암석과 흙으로 이루어진 권은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지권"
+     ]
+    }
+   ],
+   "hint": "'땅 지(地)' 자가 들어갑니다.",
+   "explanation": "지권은 지각, 맨틀, 외핵, 내핵으로 이루어져 있습니다.\n지표의 암석과 흙도 지권에 속합니다.",
+   "source_lesson": "c0-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "마그마가 식어 굳어진 암석을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "화성암"
+     ]
+    }
+   ],
+   "hint": "'불 화(火)' 자가 들어갑니다.",
+   "explanation": "마그마나 용암이 식어 굳은 암석이 화성암입니다.\n현무암과 화강암이 대표적입니다.",
+   "source_lesson": "c0-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "높이 올라갈수록 기온이 높아지며 오로라가 나타나는 기권의 가장 바깥층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "열권"
+     ]
+    }
+   ],
+   "hint": "기권의 네 층 중 가장 위층입니다.",
+   "explanation": "열권은 태양 에너지를 직접 흡수해 위로 갈수록 기온이 높아집니다.\n극지방에서는 오로라가 나타납니다.",
+   "source_lesson": "c0-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "현재 수증기량이 15 g/kg이고 포화 수증기량이 20 g/kg입니다. 상대 습도는 몇 %일까요?",
+   "answer": "75",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "현재 수증기량을 포화 수증기량으로 나누세요.",
+   "explanation": "상대 습도 = 현재 수증기량 ÷ 포화 수증기량 × 100입니다.\n15 ÷ 20 × 100 = 75%입니다.",
+   "source_lesson": "c0-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "고기압에서는 공기가 {{1}}하므로 날씨가 대체로 맑습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "하강",
+      "내려"
+     ]
+    }
+   ],
+   "hint": "저기압과 반대입니다.",
+   "explanation": "고기압 중심에서는 공기가 내려옵니다.\n내려오는 공기는 압축되어 기온이 올라가므로 구름이 잘 생기지 않습니다.",
+   "source_lesson": "c0-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "지구의 자전 때문에 태양은 1시간에 몇 도씩 움직이는 것처럼 보일까요?",
+   "answer": "15",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "360을 24로 나누세요.",
+   "explanation": "지구가 24시간에 360° 자전합니다.\n360° ÷ 24 = 15°입니다.",
+   "source_lesson": "c0-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "태양–달–지구가 일직선으로 늘어서 달이 태양을 가리는 현상을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일식"
+     ]
+    }
+   ],
+   "hint": "태양(日)이 가려지는 현상입니다.",
+   "explanation": "달이 태양과 지구 사이에 들어와 태양을 가립니다.\n이때 달의 위상은 삭입니다.",
+   "source_lesson": "c0-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "수성, 금성, 지구, 화성처럼 크기가 작고 밀도가 큰 행성을 {{1}} 행성이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지구형"
+     ]
+    }
+   ],
+   "hint": "이 무리에 우리가 사는 행성이 있습니다.",
+   "explanation": "이 네 행성은 단단한 암석 표면이 있어 밀도가 큽니다.\n지구와 비슷해 지구형 행성이라고 합니다.",
+   "source_lesson": "c0-ch06-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "연주 시차가 0.25″인 별까지의 거리는 몇 pc일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1을 연주 시차로 나누세요.",
+   "explanation": "거리(pc) = 1 ÷ 연주 시차(″)입니다.\n1 ÷ 0.25 = 4 pc입니다.",
+   "source_lesson": "c0-ch06-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "1등급 별과 6등급 별의 밝기 차이는 몇 배일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "5등급 차이의 밝기 비를 떠올리세요.",
+   "explanation": "등급 차이는 5등급입니다.\n5등급 차이는 100배의 밝기 차이입니다.",
+   "source_lesson": "c0-ch06-l04"
+  }
+ ]
+}

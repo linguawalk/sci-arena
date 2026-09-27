@@ -1,0 +1,193 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch04",
+  "no": 4,
+  "title": "빛과 파동"
+ },
+ "review": {
+  "id": "c0-ch04-review",
+  "title": "빛과 파동 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "입사각이 35°일 때 반사각은 몇 도일까요?",
+   "answer": "35",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "반사의 법칙을 떠올리세요.",
+   "explanation": "반사의 법칙에 따라 입사각과 반사각은 같습니다.\n따라서 반사각은 35°입니다.",
+   "source_lesson": "c0-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "평면거울 앞 3 m에 선 사람과 거울 속 상 사이의 거리는 몇 m일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "거울에서 상까지의 거리도 3 m입니다.",
+   "explanation": "상은 거울 뒤 3 m에 있는 것처럼 보입니다.\n3 + 3 = 6 m입니다.",
+   "source_lesson": "c0-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "가까운 물체를 크고 바로 선 상으로 보여 주는 돋보기는 {{1}} 렌즈입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "볼록"
+     ]
+    }
+   ],
+   "hint": "빛을 모으는 렌즈입니다.",
+   "explanation": "돋보기는 가운데가 두꺼운 볼록 렌즈입니다.\n물체가 초점 안쪽에 있으면 크고 바로 선 상이 보입니다.",
+   "source_lesson": "c0-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "빛이 물에서 공기로 비스듬히 나올 때 법선에서 {{1}}지는 쪽으로 꺾입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "멀어"
+     ]
+    }
+   ],
+   "hint": "공기에서 물로 들어갈 때와 반대입니다.",
+   "explanation": "빛은 공기에서 더 빠릅니다.\n물에서 공기로 나오면 법선에서 멀어지는 쪽으로 꺾입니다.",
+   "source_lesson": "c0-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "빨간빛과 초록빛, 파란빛을 모두 합성하면 {{1}} 빛이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "흰색",
+      "하얀색",
+      "흰",
+      "하양"
+     ]
+    }
+   ],
+   "hint": "빛의 삼원색을 떠올리세요.",
+   "explanation": "빛의 삼원색을 모두 합성하면 흰색이 됩니다.\n빛은 섞을수록 밝아집니다.",
+   "source_lesson": "c0-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "파란 조명만 비추는 방에서 노란 바나나는 {{1}}으로 보입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "검은색",
+      "검정",
+      "검정색",
+      "검은",
+      "검게"
+     ]
+    }
+   ],
+   "hint": "노란 물체가 반사하는 빛을 떠올리세요.",
+   "explanation": "노란 바나나는 빨간빛과 초록빛을 반사하고 파란빛은 흡수합니다.\n방에 파란빛만 있으므로 반사할 빛이 없어 검게 보입니다.",
+   "source_lesson": "c0-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "햇빛이 프리즘을 지나 여러 색 빛으로 나뉘는 현상을 빛의 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분산"
+     ]
+    }
+   ],
+   "hint": "'분'으로 시작하는 말입니다.",
+   "explanation": "색에 따라 굴절하는 정도가 달라 햇빛이 여러 색으로 나뉩니다.\n이를 빛의 분산이라 하며, 무지개도 같은 원리입니다.",
+   "source_lesson": "c0-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "진동수가 170 Hz인 소리의 파장은 몇 m일까요? (소리의 속력 340 m/s)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "파동의 속력 식을 파장에 대해 바꾸세요.",
+   "explanation": "속력 = 파장 × 진동수이므로 파장 = 속력 ÷ 진동수입니다.\n340 ÷ 170 = 2 m입니다.",
+   "source_lesson": "c0-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "매질의 진동 방향과 파동의 진행 방향이 수직인 파동을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "횡파"
+     ]
+    }
+   ],
+   "hint": "'가로 횡(橫)' 자가 들어갑니다.",
+   "explanation": "진동 방향이 진행 방향과 수직이면 횡파, 나란하면 종파입니다.\n빛과 지진파의 S파가 횡파입니다.",
+   "source_lesson": "c0-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "북을 세게 칠수록 소리가 커지는 것은 소리의 {{1}}이 커지기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진폭"
+     ]
+    }
+   ],
+   "hint": "소리의 크기를 결정하는 요소입니다.",
+   "explanation": "세게 칠수록 북의 막이 크게 흔들립니다.\n진폭이 커지면 소리가 커집니다.",
+   "source_lesson": "c0-ch04-l04"
+  }
+ ]
+}

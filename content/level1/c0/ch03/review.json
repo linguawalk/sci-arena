@@ -1,0 +1,202 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch03",
+  "no": 3,
+  "title": "전기와 자기"
+ },
+ "review": {
+  "id": "c0-ch03-review",
+  "title": "전기와 자기 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "털가죽으로 문지른 고무풍선이 (−)전하를 띠었습니다. 털가죽은 {{1}}전하를 띱니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "(+)",
+      "+",
+      "양",
+      "양(+)"
+     ]
+    }
+   ],
+   "hint": "한쪽이 얻은 전자는 다른 쪽이 잃은 전자입니다.",
+   "explanation": "풍선이 (−)전하를 띤 것은 털가죽의 전자를 얻었기 때문입니다.\n전자를 잃은 털가죽은 (+)전하를 띱니다.",
+   "source_lesson": "c0-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "대전되지 않은 검전기에 대전체를 가까이 하면 금속박이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "벌어"
+     ]
+    }
+   ],
+   "hint": "금속박 두 장이 띠는 전하의 종류가 같은지 생각하세요.",
+   "explanation": "정전기 유도로 두 금속박이 같은 종류의 전하를 띱니다.\n같은 전하끼리 밀어내므로 금속박이 벌어집니다.",
+   "source_lesson": "c0-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "20 Ω의 저항에 6 V의 전압을 걸면 몇 A의 전류가 흐를까요?",
+   "answer": "0.3",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "I = V / R입니다.",
+   "explanation": "전류 = 전압 ÷ 저항입니다.\n6 V ÷ 20 Ω = 0.3 A입니다.",
+   "source_lesson": "c0-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "회로에서 전류는 전지의 {{1}}에서 나와 {{2}}으로 흐른다고 정했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "(+)극",
+      "+극",
+      "양극"
+     ]
+    },
+    {
+     "id": 2,
+     "answers": [
+      "(−)극",
+      "(-)극",
+      "−극",
+      "-극",
+      "음극"
+     ]
+    }
+   ],
+   "hint": "전자의 이동 방향과 반대입니다.",
+   "explanation": "전류의 방향은 (+)극에서 (−)극으로 정했습니다.\n실제 전자는 반대 방향으로 움직입니다.",
+   "source_lesson": "c0-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "3 Ω의 저항에 4 A의 전류가 흐릅니다. 저항에 걸린 전압은 몇 V일까요?",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "V = I × R입니다.",
+   "explanation": "전압 = 전류 × 저항입니다.\n4 A × 3 Ω = 12 V입니다.",
+   "source_lesson": "c0-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "10 Ω의 저항 두 개를 병렬로 연결하고 10 V를 걸었습니다. 전체 전류는 몇 A일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "각 갈래의 전류를 따로 구해 더하세요.",
+   "explanation": "병렬이므로 두 저항에 모두 10 V가 걸립니다.\n각각 10 ÷ 10 = 1 A가 흐르고, 전체는 1 + 1 = 2 A입니다.",
+   "source_lesson": "c0-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "소비 전력 2000 W인 에어컨을 3시간 사용했습니다. 사용한 전력량은 몇 kWh일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Wh를 kWh로 바꾸세요.",
+   "explanation": "전력량 = 2000 W × 3 h = 6000 Wh입니다.\n1000 Wh = 1 kWh이므로 6 kWh입니다.",
+   "source_lesson": "c0-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "직렬 연결에서는 각 저항에 흐르는 {{1}}가 같고, 병렬 연결에서는 각 저항에 걸리는 {{2}}이 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전류"
+     ]
+    },
+    {
+     "id": 2,
+     "answers": [
+      "전압"
+     ]
+    }
+   ],
+   "hint": "길이 하나인지 여러 갈래인지 생각하세요.",
+   "explanation": "직렬은 길이 하나라 전류가 같습니다.\n병렬은 모든 저항이 전원에 바로 연결되어 전압이 같습니다.",
+   "source_lesson": "c0-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "코일 속에 철심을 넣고 전류를 흘려 만든 자석을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전자석"
+     ]
+    }
+   ],
+   "hint": "전기로 만드는 자석입니다.",
+   "explanation": "코일의 자기장이 철심을 자석으로 만들어 자기장이 더 세집니다.\n전류를 끊으면 자석의 성질이 사라집니다.",
+   "source_lesson": "c0-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전동기는 자기장 속에서 전류가 받는 힘을 이용해 전기 에너지를 {{1}} 에너지로 바꿉니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "운동"
+     ]
+    }
+   ],
+   "hint": "선풍기 날개가 도는 것을 떠올리세요.",
+   "explanation": "전동기의 코일은 자기장 속에서 힘을 받아 회전합니다.\n그래서 전기 에너지가 운동 에너지로 바뀝니다.",
+   "source_lesson": "c0-ch03-l04"
+  }
+ ]
+}
