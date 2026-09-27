@@ -1,0 +1,358 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch02",
+  "no": 2,
+  "title": "원운동과 만유인력"
+ },
+ "lesson": {
+  "id": "c5-ch02-l02",
+  "no": 2,
+  "title": "구심력",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "원을 돌게 하는 힘",
+   "body": [
+    "줄에 매단 공을 돌리면 손이 줄을 계속 안쪽으로 당겨야 합니다. 손을 놓는 순간 공은 곧장 날아갑니다.",
+    "원운동을 하려면 원의 중심을 향하는 힘이 계속 작용해야 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "물체가 원운동을 하도록 원의 중심을 향해 작용하는 힘을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "구심력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "구심력의 방향은 구심 가속도와 같이 중심을 향합니다.\n크기는 mv² ÷ r입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "구심력의 크기와 정체",
+   "body": [
+    "뉴턴 운동 제2법칙에 따라 구심력의 크기는 F = ma = mv² ÷ r = mrω²입니다.",
+    "구심력은 새로운 종류의 힘이 아니라, 원운동을 일으키는 역할을 하는 힘의 이름입니다. 줄에 매단 공은 장력, 곡선 도로를 도는 자동차는 타이어와 도로 사이의 마찰력, 지구를 도는 달과 인공위성은 만유인력이 구심력 역할을 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "평평한 곡선 도로를 도는 자동차에서 구심력 역할을 하는 힘은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "마찰력",
+      "정지 마찰력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "타이어와 도로 사이의 마찰력이 자동차를 안쪽으로 밉니다.\n빙판에서는 마찰력이 부족해 미끄러집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 2 kg인 물체가 반지름 1 m인 원을 3 m/s로 돕니다. 구심력은 몇 N일까요?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "F = mv² ÷ r = 2 × 9 ÷ 1 = 18 N입니다.\n방향은 중심을 향합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 1 kg인 물체가 반지름 0.5 m인 원을 각속도 4 rad/s로 돕니다. 구심력은 몇 N일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "F = mrω² = 1 × 0.5 × 16 = 8 N입니다.\nmv²/r로 계산해도 같습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질량 1000 kg인 자동차가 반지름 50 m인 곡선 도로를 10 m/s로 돌 때 필요한 마찰력은?",
+   "steps": [
+    "필요한 구심력 F = mv² ÷ r입니다.",
+    "= 1000 × 100 ÷ 50 = 2000 N입니다.",
+    "마찰력이 2000 N 이상 작용할 수 있어야 미끄러지지 않습니다."
+   ],
+   "answer": "2000 N"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "여러 가지 원운동",
+   "body": [
+    "연직면에서 원운동하는 롤러코스터가 꼭대기를 지날 때 떨어지지 않으려면 중력만으로 구심력을 충분히 제공할 수 있어야 합니다: mg ≤ mv² ÷ r, 곧 v ≥ √(gr).",
+    "곡선 도로는 바깥쪽을 높게 기울여 수직항력의 수평 성분도 구심력 역할을 하게 만듭니다.",
+    "평평한 곡선 도로에서 최대 마찰력이 μmg이면 미끄러지지 않는 최대 속력은 μmg = mv² ÷ r에서 v = √(μgr)입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "반지름 10 m인 연직 원형 궤도의 꼭대기를 떨어지지 않고 지나기 위한 최소 속력은 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v = √(gr) = √(10 × 10) = 10 m/s입니다.\n이때 중력만으로 구심력이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "고속도로의 곡선 구간은 바깥쪽을 높게 {{1}}지게 만들어 자동차가 안전하게 돌게 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기울어"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "수직항력의 수평 성분이 구심력을 보태 줍니다.\n마찰력에만 의존하지 않아도 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "마찰 계수 0.5인 평평한 도로에서 반지름 20 m인 곡선을 미끄러지지 않고 돌 수 있는 최대 속력은 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v = √(μgr) = √(0.5 × 10 × 20) = √100 = 10 m/s입니다.\n더 빠르면 미끄러집니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "회전하는 버스 안에서 몸이 바깥쪽으로 쏠리는 이유는?",
+   "steps": [
+    "버스가 곡선을 돌 때 몸은 관성 때문에 원래 방향으로 직진하려 합니다.",
+    "버스는 안쪽으로 방향을 바꾸므로 몸이 상대적으로 바깥쪽으로 밀리는 것처럼 느껴집니다.",
+    "버스 안의 관찰자는 이를 바깥쪽으로 작용하는 원심력으로 설명합니다."
+   ],
+   "answer": "관성 때문에 직진하려 하기 때문"
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "회전하는 관찰자가 느끼는 바깥쪽 방향의 원심력은 실제 상호작용이 아닌 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "관성력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가속하는 좌표계에서만 나타나는 겉보기 힘입니다.\n바깥에서 보면 관성 때문에 직진하려는 것입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "구심력 정리",
+   "body": [
+    "구심력 F = mv²/r = mrω²는 항상 중심을 향합니다. 장력, 마찰력, 중력, 전기력 등 실제 힘이 구심력 역할을 합니다.",
+    "속력이 클수록, 반지름이 작을수록 큰 구심력이 필요합니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "질량 1000 kg인 자동차가 반지름 100 m인 곡선을 20 m/s로 돌 때 필요한 구심력은?",
+   "steps": [
+    "F = mv² ÷ r = 1000 × 400 ÷ 100입니다.",
+    "= 4000 N입니다."
+   ],
+   "answer": "4000 N"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 1000 kg인 자동차가 반지름 100 m인 곡선을 20 m/s로 돌 때 필요한 구심력은 몇 N일까요?",
+   "answer": "4000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "F = mv² ÷ r입니다.",
+   "explanation": "F = 1000 × 400 ÷ 100 = 4000 N입니다.\n마찰력이 이만큼 제공해야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 곡선에서 속력이 2배가 되면 필요한 구심력은 몇 배가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "속력의 제곱에 비례합니다.",
+   "explanation": "F ∝ v²이므로 4배입니다.\n과속하면 곡선에서 미끄러지기 쉬운 이유입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 속력으로 반지름이 2배인 원을 돌면 필요한 구심력은 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "반지름에 반비례합니다.",
+   "explanation": "F ∝ 1/r이므로 1/2배입니다.\n완만한 곡선이 안전합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "원자핵 주위를 도는 전자에게 구심력 역할을 하는 힘은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전기력",
+      "쿨롱 힘",
+      "정전기력"
+     ]
+    }
+   ],
+   "hint": "전하 사이에 작용하는 힘입니다.",
+   "explanation": "양전하인 원자핵과 음전하인 전자가 서로 당깁니다.\n고전적인 원자 모형의 설명입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지구 주위를 도는 달에게 구심력 역할을 하는 힘은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "만유인력",
+      "중력"
+     ]
+    }
+   ],
+   "hint": "질량을 가진 물체 사이의 힘입니다.",
+   "explanation": "지구와 달 사이의 인력이 달을 붙잡아 원운동하게 합니다.\n다음 레슨에서 자세히 다룹니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 0.5 kg인 공을 줄에 매달아 반지름 2 m로 수평면에서 4 m/s로 돌립니다. 줄의 장력은 몇 N일까요? (중력은 무시)",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "장력이 구심력입니다.",
+   "explanation": "T = mv² ÷ r = 0.5 × 16 ÷ 2 = 4 N입니다.\n장력이 구심력 역할을 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "세탁기 탈수통이 빠르게 돌면 물은 옷에 붙어 있게 하는 힘이 필요한 {{1}}보다 작아 구멍으로 빠져나갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "구심력"
+     ]
+    }
+   ],
+   "hint": "원운동에 필요한 힘입니다.",
+   "explanation": "옷은 통 벽이 받쳐 주지만 물방울은 붙잡아 줄 힘이 부족합니다.\n그래서 접선 방향으로 빠져나갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "구심력이 새로운 종류의 힘이 아니라는 말의 의미를 예를 들어 설명해 보세요.",
+   "hint": "여러 예에서 실제 힘을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "역할"
+     ],
+     [
+      "장력",
+      "마찰력",
+      "중력",
+      "만유인력",
+      "전기력"
+     ],
+     [
+      "중심"
+     ],
+     [
+      "원운동"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "구심력은 원운동하는 물체에서 중심을 향하는 역할을 하는 힘을 부르는 이름입니다. 줄에 매단 공에서는 장력이, 곡선 도로의 자동차에서는 마찰력이, 인공위성에서는 만유인력이 구심력 역할을 합니다."
+  }
+ ]
+}

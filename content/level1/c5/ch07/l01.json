@@ -1,0 +1,392 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch07",
+  "no": 7,
+  "title": "전자기파와 빛"
+ },
+ "lesson": {
+  "id": "c5-ch07-l01",
+  "no": 1,
+  "title": "전자기파의 발생과 스펙트럼",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "빛도 전자기파",
+   "body": [
+    "1860년대 맥스웰은 전기와 자기의 법칙을 정리하다가, 전기장과 자기장이 서로를 만들며 공간을 퍼져 나가는 파동이 있어야 하며 그 속력이 빛의 속력과 같다는 것을 알아냈습니다.",
+    "빛은 전자기파의 한 종류였습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "전기장과 자기장이 서로를 만들어 내며 공간으로 퍼져 나가는 파동을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전자기파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "맥스웰이 이론으로 예측하고 헤르츠가 실험으로 확인했습니다.\n전파, 빛, X선이 모두 전자기파입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "전자기파의 발생과 성질",
+   "body": [
+    "시간에 따라 변하는 전기장은 자기장을 만들고, 변하는 자기장은 전기장을 만듭니다. 안테나 속 전자처럼 가속 운동하는 전하는 주위의 전기장과 자기장을 계속 변하게 하여 전자기파를 내보냅니다.",
+    "전자기파에서 전기장과 자기장은 서로 수직이고 진행 방향에도 수직이므로 전자기파는 횡파입니다.",
+    "전자기파는 매질 없이 진공에서도 전달되며, 진공에서의 속력은 파장과 관계없이 c = 3 × 10⁸ m/s입니다. c = fλ입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자기파는 매질이 없는 {{1}}에서도 전달됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진공"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "그래서 햇빛이 우주 공간을 지나 지구에 옵니다.\n소리는 진공에서 전달되지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "진동수 100 MHz(1 × 10⁸ Hz)인 FM 라디오 전파의 파장은 몇 m일까요? (c = 3 × 10⁸ m/s)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "λ = c ÷ f = 3 × 10⁸ ÷ 10⁸ = 3 m입니다.\n안테나 길이와 비슷한 크기입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자기파는 전기장과 자기장이 진행 방향에 수직으로 진동하는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "횡파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "진동 방향이 진행 방향에 수직입니다.\n그래서 편광이 나타납니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "파장 600 nm인 주황색 빛의 진동수는? (c = 3 × 10⁸ m/s)",
+   "steps": [
+    "600 nm = 6 × 10⁻⁷ m입니다.",
+    "f = c ÷ λ = 3 × 10⁸ ÷ (6 × 10⁻⁷) = 5 × 10¹⁴ Hz입니다."
+   ],
+   "answer": "5 × 10¹⁴ Hz"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "파장 600 nm인 빛의 진동수는 몇 × 10¹⁴ Hz일까요? (c = 3 × 10⁸ m/s)",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "f = 3 × 10⁸ ÷ (6 × 10⁻⁷) = 5 × 10¹⁴ Hz입니다.\n1초에 500조 번 진동합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "전자기파의 스펙트럼",
+   "body": [
+    "전자기파를 파장이 긴 것부터 나열하면 전파, 마이크로파, 적외선, 가시광선, 자외선, X선, 감마선입니다. 파장이 짧을수록 진동수가 크고 에너지가 큽니다.",
+    "전파는 방송과 통신, 마이크로파는 전자레인지와 레이더, 적외선은 열화상 카메라와 리모컨, 가시광선은 우리 눈, 자외선은 살균과 형광, X선은 뼈 촬영과 공항 검색, 감마선은 암 치료에 쓰입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "전자기파를 파장이 긴 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "자외선"
+    },
+    {
+     "id": "b",
+     "text": "전파"
+    },
+    {
+     "id": "c",
+     "text": "X선"
+    },
+    {
+     "id": "d",
+     "text": "적외선"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "전파 > 마이크로파 > 적외선 > 가시광선 > 자외선 > X선 > 감마선 순입니다.\n파장이 짧을수록 진동수가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자레인지는 음식 속 물 분자를 진동시키는 {{1}}를 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "마이크로파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "마이크로파는 파장이 수 cm 정도인 전자기파입니다.\n레이더와 와이파이에도 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "뼈 사진을 찍거나 공항에서 가방을 검색할 때 쓰는 전자기파는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "X선",
+      "엑스선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "X선은 투과력이 커서 몸속을 지나지만 뼈에는 많이 흡수됩니다.\n그래서 뼈가 하얗게 찍힙니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "휴대 전화가 기지국과 신호를 주고받는 원리는?",
+   "steps": [
+    "휴대 전화의 안테나 속 전자가 빠르게 진동하며 전자기파(전파)를 내보냅니다.",
+    "전파는 빛의 속력으로 퍼져 기지국 안테나에 닿습니다.",
+    "기지국 안테나의 전자가 전파에 의해 진동하며 신호를 받습니다."
+   ],
+   "answer": "안테나 속 전자의 진동으로 전파를 주고받는다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전자기파 정리",
+   "body": [
+    "가속하는 전하가 전자기파를 만듭니다. 전자기파는 횡파이고 진공에서도 전달되며, 속력은 c = 3 × 10⁸ m/s로 모두 같습니다.",
+    "파장에 따라 전파부터 감마선까지 이름과 쓰임이 다릅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "진공에서 전파, 가시광선, X선의 속력은 모두 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같다",
+      "같습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "모든 전자기파는 진공에서 빛의 속력으로 진행합니다.\n파장과 진동수만 다릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "와이파이에 쓰이는 2.4 GHz 전자기파의 파장은? (c = 3 × 10⁸ m/s)",
+   "steps": [
+    "2.4 GHz = 2.4 × 10⁹ Hz입니다.",
+    "λ = 3 × 10⁸ ÷ (2.4 × 10⁹) = 0.125 m입니다.",
+    "12.5 cm로 마이크로파 영역입니다."
+   ],
+   "answer": "0.125 m"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "진동수 2.4 GHz(2.4 × 10⁹ Hz)인 전자기파의 파장은 몇 m일까요? (c = 3 × 10⁸ m/s)",
+   "answer": "0.125",
+   "answer_format": "decimal",
+   "tolerance": 0.002,
+   "hint": "λ = c ÷ f입니다.",
+   "explanation": "λ = 3 × 10⁸ ÷ (2.4 × 10⁹) = 0.125 m입니다.\n마이크로파입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "어두운 곳에서 체온을 가진 물체를 찍는 열화상 카메라는 {{1}}을 감지합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "hint": "열선이라고도 부릅니다.",
+   "explanation": "따뜻한 물체는 적외선을 많이 냅니다.\n그래서 빛이 없어도 볼 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "식기 소독기의 살균에 쓰이는 전자기파는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자외선"
+     ]
+    }
+   ],
+   "hint": "보라색 바깥의 빛입니다.",
+   "explanation": "자외선은 세균의 DNA를 손상시킵니다.\n피부를 태우기도 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "전자기파 가운데 진동수가 가장 큰 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감마선"
+     ]
+    }
+   ],
+   "hint": "방사성 원자핵에서 나옵니다.",
+   "explanation": "파장이 가장 짧고 에너지가 가장 큽니다.\n원자핵에서 나옵니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "파장 3 m인 전자기파의 진동수는 몇 MHz일까요? (c = 3 × 10⁸ m/s)",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1 MHz = 10⁶ Hz입니다.",
+   "explanation": "f = 3 × 10⁸ ÷ 3 = 10⁸ Hz = 100 MHz입니다.\nFM 라디오 대역입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "안테나는 그 속의 전자를 빠르게 {{1}}시켜 전자기파를 내보냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진동"
+     ]
+    }
+   ],
+   "hint": "앞뒤로 반복해서 움직이는 것입니다.",
+   "explanation": "가속 운동하는 전하가 전자기파를 만듭니다.\n진동수가 전자기파의 진동수가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "전자기파가 발생하고 퍼져 나가는 원리를 설명해 보세요.",
+   "hint": "전기장과 자기장의 관계를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "가속",
+      "진동"
+     ],
+     [
+      "변하는 전기장",
+      "전기장"
+     ],
+     [
+      "자기장"
+     ],
+     [
+      "서로",
+      "번갈아",
+      "만들"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "안테나 속 전자처럼 가속 운동하는 전하는 주위의 전기장을 변하게 합니다. 변하는 전기장은 자기장을 만들고, 변하는 자기장은 다시 전기장을 만들어 두 장이 서로를 만들며 공간으로 퍼져 나가는 것이 전자기파입니다."
+  }
+ ]
+}

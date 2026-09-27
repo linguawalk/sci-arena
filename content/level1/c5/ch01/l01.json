@@ -1,0 +1,388 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch01",
+  "no": 1,
+  "title": "평면 운동"
+ },
+ "lesson": {
+  "id": "c5-ch01-l01",
+  "no": 1,
+  "title": "벡터의 합성과 분해",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "방향이 있는 양",
+   "body": [
+    "동쪽으로 3 m 걸은 뒤 북쪽으로 4 m 걸으면 7 m를 걸었지만, 출발점에서는 5 m 떨어져 있습니다.",
+    "평면에서 운동을 다루려면 크기와 함께 방향까지 생각하는 방법이 필요합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "변위, 속도, 힘처럼 크기와 방향을 함께 가지는 물리량을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "벡터"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "벡터는 화살표로 나타냅니다.\n화살표의 길이가 크기, 방향이 방향입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "벡터의 합성과 분해",
+   "body": [
+    "질량, 시간, 에너지처럼 크기만 있는 물리량은 스칼라입니다. 벡터를 더할 때는 첫 번째 화살표의 끝에 두 번째 화살표의 시작을 이어 그리거나(삼각형법), 두 화살표로 평행사변형을 그려 대각선을 구합니다(평행사변형법).",
+    "벡터 A를 x축과 θ의 각을 이루는 방향으로 나타내면 x 성분은 A cos θ, y 성분은 A sin θ입니다. 성분을 알면 크기는 √(Ax² + Ay²)입니다.",
+    "이 코스에서는 sin 37° = 0.6, cos 37° = 0.8, sin 30° = 0.5, cos 60° = 0.5를 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "질량, 시간, 에너지처럼 크기만 가지는 물리량을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "스칼라"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "스칼라는 보통의 수처럼 더하고 뺍니다.\n벡터는 방향까지 고려해 더합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 그림처럼 동쪽으로 3 m(A), 북쪽으로 4 m(B) 이동했습니다. 전체 변위의 크기는 몇 m일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "두 변위가 직각이므로 √(3² + 4²) = 5 m입니다.\n이동 거리 7 m와 다릅니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "동(m)",
+     "ylabel": "북(m)",
+     "xmin": 0,
+     "xmax": 5,
+     "ymin": 0,
+     "ymax": 5,
+     "xstep": 1,
+     "ystep": 1,
+     "curves": [
+      {
+       "kind": "arrow",
+       "x1": 0,
+       "y1": 0,
+       "x2": 3,
+       "y2": 0,
+       "label": "A"
+      },
+      {
+       "kind": "arrow",
+       "x1": 3,
+       "y1": 0,
+       "x2": 3,
+       "y2": 4,
+       "label": "B"
+      },
+      {
+       "kind": "arrow",
+       "x1": 0,
+       "y1": 0,
+       "x2": 3,
+       "y2": 4,
+       "label": "A+B",
+       "color": "#1E7A50"
+      }
+     ],
+     "points": []
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "크기가 10 N이고 x축과 60°를 이루는 힘의 x 성분은 몇 N일까요? (cos 60° = 0.5)",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "x 성분 = 10 × cos 60° = 10 × 0.5 = 5 N입니다.\ny 성분은 10 × sin 60° ≈ 8.7 N입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "크기가 10 m/s이고 x축과 37°를 이루는 속도의 성분은?",
+   "steps": [
+    "x 성분 = 10 × cos 37° = 10 × 0.8 = 8 m/s입니다.",
+    "y 성분 = 10 × sin 37° = 10 × 0.6 = 6 m/s입니다.",
+    "확인: √(8² + 6²) = 10 m/s입니다."
+   ],
+   "answer": "x 성분 8 m/s, y 성분 6 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "크기가 20 N이고 x축과 37°를 이루는 힘의 y 성분은 몇 N일까요? (sin 37° = 0.6)",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "y 성분 = 20 × 0.6 = 12 N입니다.\nx 성분은 20 × 0.8 = 16 N입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "벡터의 뺄셈과 변화량",
+   "body": [
+    "벡터 B를 빼는 것은 B와 크기가 같고 방향이 반대인 벡터 −B를 더하는 것과 같습니다: A − B = A + (−B).",
+    "속도의 변화량 Δv = v₂ − v₁은 나중 속도에서 처음 속도를 벡터로 뺀 것입니다. 속력이 같아도 방향이 바뀌면 속도의 변화량은 0이 아닙니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "벡터 A − B는 A에 B와 방향이 {{1}}인 벡터를 더한 것과 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반대"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "−B는 B와 크기가 같고 방향이 반대입니다.\n그래서 뺄셈을 덧셈으로 바꿀 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "동쪽으로 3 m/s로 움직이던 물체가 북쪽으로 4 m/s로 움직이게 되었습니다. 속도 변화량의 크기는 몇 m/s일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Δv = (북 4) − (동 3) = 북 4 + 서 3입니다.\n크기는 √(4² + 3²) = 5 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "동쪽으로 5 m/s로 움직이던 공이 벽에 부딪혀 서쪽으로 5 m/s로 튀어나왔습니다. 속도 변화량의 크기는 몇 m/s일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "동쪽을 +로 하면 Δv = (−5) − (+5) = −10 m/s입니다.\n크기는 10 m/s, 방향은 서쪽입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "크기가 같은 두 힘 10 N이 서로 수직으로 작용할 때 합력은?",
+   "steps": [
+    "두 힘이 수직이므로 피타고라스 정리를 씁니다.",
+    "합력 = √(10² + 10²) = 10√2 ≈ 14.1 N입니다.",
+    "방향은 두 힘의 가운데, 곧 각각과 45°입니다."
+   ],
+   "answer": "약 14.1 N"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "벡터 계산의 요령",
+   "body": [
+    "같은 방향의 벡터는 크기를 더하고, 반대 방향은 뺍니다. 직각인 벡터는 피타고라스 정리를 씁니다.",
+    "각도가 복잡하면 각 벡터를 x, y 성분으로 나누어 성분끼리 더한 뒤 다시 합치면 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "두 벡터로 평행사변형을 그려 대각선으로 합을 구하는 방법을 {{1}}법이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "평행사변형"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "삼각형법과 같은 결과를 줍니다.\n두 벡터의 시작점이 같을 때 편리합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "동쪽 6 m, 북쪽 8 m, 서쪽 6 m를 차례로 이동했을 때 전체 변위는?",
+   "steps": [
+    "동서 성분: 6 − 6 = 0 m입니다.",
+    "남북 성분: 북쪽 8 m입니다.",
+    "전체 변위는 북쪽으로 8 m입니다."
+   ],
+   "answer": "북쪽 8 m"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "동쪽으로 6 m, 북쪽으로 8 m 이동했습니다. 변위의 크기는 몇 m일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "두 변위가 직각입니다.",
+   "explanation": "√(6² + 8²) = √100 = 10 m입니다.\n직각 삼각형 6 : 8 : 10입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 방향으로 3 N과 5 N의 힘이 작용할 때 합력은 몇 N일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "방향이 같습니다.",
+   "explanation": "같은 방향이면 크기를 더합니다.\n3 + 5 = 8 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "반대 방향으로 3 N과 5 N의 힘이 작용할 때 합력의 크기는 몇 N일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "방향이 반대입니다.",
+   "explanation": "반대 방향이면 큰 쪽에서 작은 쪽을 뺍니다.\n5 − 3 = 2 N, 방향은 5 N 쪽입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "성분이 (−6, 8)인 벡터의 크기는 얼마일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "제곱하면 부호가 사라집니다.",
+   "explanation": "√((−6)² + 8²) = √100 = 10입니다.\n성분의 부호는 크기에 영향을 주지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "질량, 시간, 에너지는 모두 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "스칼라"
+     ]
+    }
+   ],
+   "hint": "크기만 있는 물리량입니다.",
+   "explanation": "방향이 없는 물리량입니다.\n변위, 속도, 힘은 벡터입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "크기가 10 N인 두 힘이 서로 수직으로 작용할 때 합력의 크기는 약 몇 N일까요?",
+   "answer": "14.1",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "피타고라스 정리를 쓰세요.",
+   "explanation": "√(10² + 10²) = 10√2 ≈ 14.1 N입니다.\n같은 방향일 때의 20 N보다 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "비스듬한 방향의 벡터를 x, y 성분으로 분해하는 방법과 그 장점을 설명해 보세요.",
+   "hint": "성분 식과 장점을 함께 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "cos",
+      "코사인"
+     ],
+     [
+      "sin",
+      "사인"
+     ],
+     [
+      "성분"
+     ],
+     [
+      "더하",
+      "합",
+      "독립",
+      "나누어"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "x축과 θ의 각을 이루는 크기 A의 벡터는 x 성분 A cos θ, y 성분 A sin θ로 나눌 수 있습니다. 여러 벡터를 성분으로 나누면 x 성분끼리, y 성분끼리 보통의 수처럼 더할 수 있어 복잡한 벡터의 합을 쉽게 구할 수 있습니다."
+  }
+ ]
+}

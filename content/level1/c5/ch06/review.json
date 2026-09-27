@@ -1,0 +1,170 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch06",
+  "no": 6,
+  "title": "자기장과 교류"
+ },
+ "review": {
+  "id": "c5-ch06-review",
+  "title": "자기장과 교류 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "전하량 1 C인 입자가 세기 2 T인 자기장에 수직으로 5 m/s로 움직입니다. 로런츠 힘은 몇 N일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "F = qvB입니다.",
+   "explanation": "F = qvB = 1 × 5 × 2 = 10 N입니다.\n속도에 수직입니다.",
+   "source_lesson": "c5-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "로런츠 힘만 받는 대전 입자는 속력이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지 않는다",
+      "일정하다",
+      "변하지 않습니다",
+      "일정합니다"
+     ]
+    }
+   ],
+   "hint": "힘이 속도에 수직입니다.",
+   "explanation": "로런츠 힘은 일을 하지 않습니다.\n방향만 바뀝니다.",
+   "source_lesson": "c5-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "자기장 속에서 원운동하는 입자의 질량이 2배가 되면 반지름은 몇 배가 될까요? (속력, 전하, 자기장 같음)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "r ∝ m입니다.",
+   "explanation": "r = mv/(qB)이므로 2배입니다.\n질량 분석기의 원리입니다.",
+   "source_lesson": "c5-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "감은 수 200인 코일을 지나는 자기 선속이 0.1초 동안 0.01 Wb 변했습니다. 유도 기전력의 크기는 몇 V일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "ε = NΔΦ/Δt입니다.",
+   "explanation": "ε = 200 × 0.01 ÷ 0.1 = 20 V입니다.\n패러데이 법칙입니다.",
+   "source_lesson": "c5-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "세기 0.5 T인 자기장 속에서 길이 2 m인 막대가 자기장에 수직으로 3 m/s로 움직입니다. 유도 기전력은 몇 V일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "ε = BLv입니다.",
+   "explanation": "ε = BLv = 0.5 × 2 × 3 = 3 V입니다.\n막대 양 끝의 전위차입니다.",
+   "source_lesson": "c5-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "유도 전류가 자기 선속의 변화를 방해하는 방향으로 흐른다는 법칙은 {{1}} 법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "렌츠"
+     ]
+    }
+   ],
+   "hint": "변화를 거스르는 방향입니다.",
+   "explanation": "에너지 보존 법칙과 관계있습니다.\n패러데이 법칙의 (−) 부호가 이를 나타냅니다.",
+   "source_lesson": "c5-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "1차 코일 200회, 2차 코일 50회인 변압기의 1차에 100 V를 걸면 2차 전압은 몇 V일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전압은 감은 수에 비례합니다.",
+   "explanation": "V₂ = 100 × 50 ÷ 200 = 25 V입니다.\n강압 변압기입니다.",
+   "source_lesson": "c5-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "자체 유도 계수 2 H인 코일에 5 A가 흐를 때 저장된 에너지는 몇 J일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "½LI²입니다.",
+   "explanation": "U = ½LI² = ½ × 2 × 25 = 25 J입니다.\n자기장에 저장됩니다.",
+   "source_lesson": "c5-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "최댓값이 141 V인 교류 전압의 실효값은 약 몇 V일까요? (√2 ≈ 1.41)",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "hint": "√2로 나누세요.",
+   "explanation": "141 ÷ 1.41 = 100 V입니다.\n실효값 = 최댓값 ÷ √2입니다.",
+   "source_lesson": "c5-ch06-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "RLC 직렬 회로에서 유도 리액턴스와 용량 리액턴스가 같아져 전류가 최대가 되는 현상을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공명",
+      "공진"
+     ]
+    }
+   ],
+   "hint": "라디오 선국의 원리입니다.",
+   "explanation": "f₀ = 1/(2π√(LC))입니다.\n라디오 선국에 쓰입니다.",
+   "source_lesson": "c5-ch06-l04"
+  }
+ ]
+}

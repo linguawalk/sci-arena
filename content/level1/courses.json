@@ -44,7 +44,7 @@
       "id": "c5",
       "title": "물리Ⅱ",
       "description": "평면 운동과 만유인력, 진동과 열역학, 전자기, 양자",
-      "available": false,
+      "available": true,
       "subject": "physics",
       "grade": "Ⅱ"
     },

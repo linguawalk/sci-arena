@@ -1,0 +1,345 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch05",
+  "no": 5,
+  "title": "전기장과 전위"
+ },
+ "lesson": {
+  "id": "c5-ch05-l04",
+  "no": 4,
+  "title": "직류 회로",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "복잡한 회로 풀기",
+   "body": [
+    "직렬과 병렬만으로는 풀 수 없는 복잡한 회로도 있습니다. 전지가 여러 개이거나 갈래가 얽혀 있을 때가 그렇습니다.",
+    "키르히호프의 두 법칙을 쓰면 어떤 직류 회로도 풀 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "회로의 분기점으로 들어오는 전류의 합은 나가는 전류의 합과 같다는 것은 키르히호프 제{{1}}법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전류 법칙이라고도 합니다.\n전하가 분기점에서 생기거나 사라지지 않기 때문입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "키르히호프 법칙과 내부 저항",
+   "body": [
+    "제1법칙(전류 법칙): 분기점에 들어오는 전류의 합 = 나가는 전류의 합. 전하량 보존에서 나옵니다.",
+    "제2법칙(전압 법칙): 닫힌 회로 한 바퀴를 돌 때 기전력의 합 = 저항에서의 전압 강하(IR)의 합. 에너지 보존에서 나옵니다.",
+    "실제 전지에는 내부 저항 r이 있어서, 기전력 ε인 전지에 전류 I가 흐르면 단자 전압은 V = ε − Ir로 기전력보다 작아집니다. 외부 저항 R과 연결하면 I = ε ÷ (R + r)입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "키르히호프 제2법칙은 {{1}} 보존 법칙에서 나온 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "에너지"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "한 바퀴 돌아 제자리로 오면 전위가 같아야 합니다.\n전지가 준 에너지만큼 저항에서 소모됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "분기점으로 3 A가 들어오고, 한 갈래로 1 A가 나갑니다. 다른 갈래로 나가는 전류는 몇 A일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "들어오는 3 A = 나가는 1 A + x이므로 x = 2 A입니다.\n키르히호프 제1법칙입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "기전력 12 V, 내부 저항 1 Ω인 전지에 5 Ω의 저항을 연결했습니다. 흐르는 전류는 몇 A일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "I = ε ÷ (R + r) = 12 ÷ 6 = 2 A입니다.\n내부 저항도 전체 저항에 포함됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "위 회로에서 전지의 단자 전압은?",
+   "steps": [
+    "V = ε − Ir = 12 − 2 × 1 = 10 V입니다.",
+    "외부 저항의 전압 IR = 2 × 5 = 10 V와 같습니다.",
+    "내부 저항에서 2 V가 소모되었습니다."
+   ],
+   "answer": "10 V"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "기전력 12 V, 내부 저항 1 Ω인 전지에 2 A가 흐를 때 단자 전압은 몇 V일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "V = ε − Ir = 12 − 2 = 10 V입니다.\n전류가 클수록 단자 전압이 낮아집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "전기 계기와 휘트스톤 브리지",
+   "body": [
+    "전류계는 측정할 부분에 직렬로 연결하며 내부 저항이 매우 작아야 합니다. 전압계는 측정할 부분에 병렬로 연결하며 내부 저항이 매우 커야 합니다.",
+    "휘트스톤 브리지는 네 저항 R₁, R₂, R₃, R₄를 마름모 모양으로 연결하고 가운데에 검류계를 단 회로입니다. R₁ ÷ R₂ = R₃ ÷ R₄일 때 검류계에 전류가 흐르지 않으며, 이를 이용해 모르는 저항값을 정밀하게 잴 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전압계는 측정할 부분에 {{1}}로 연결합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "병렬"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 점 사이의 전위차를 재야 하므로 병렬로 잇습니다.\n내부 저항이 커야 회로에 영향을 덜 줍니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "휘트스톤 브리지에서 R₁ = 2 Ω, R₂ = 4 Ω, R₃ = 3 Ω일 때 검류계에 전류가 흐르지 않았습니다. R₄는 몇 Ω일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "R₁/R₂ = R₃/R₄에서 2/4 = 3/R₄입니다.\nR₄ = 6 Ω입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전류계는 회로에 영향을 주지 않도록 내부 저항이 매우 {{1}}아야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "직렬로 연결되므로 저항이 크면 전류를 줄입니다.\n그래서 내부 저항이 거의 0이어야 합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "기전력 12 V와 4 V인 두 전지를 서로 반대 방향으로 직렬 연결하고 4 Ω의 저항을 이었을 때 전류는? (내부 저항 무시)",
+   "steps": [
+    "두 전지가 반대 방향이므로 알짜 기전력은 12 − 4 = 8 V입니다.",
+    "키르히호프 제2법칙: 8 = I × 4입니다.",
+    "I = 2 A입니다. 전류는 12 V 전지가 미는 방향으로 흐릅니다."
+   ],
+   "answer": "2 A"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "직류 회로 정리",
+   "body": [
+    "제1법칙: 분기점 전류의 합 보존(전하량 보존). 제2법칙: 닫힌 회로에서 Σε = ΣIR(에너지 보존).",
+    "실제 전지의 단자 전압 V = ε − Ir. 전류계는 직렬·작은 저항, 전압계는 병렬·큰 저항."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "키르히호프 제1법칙은 {{1}} 보존 법칙에서 나온 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전하량",
+      "전하"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분기점에 전하가 쌓이거나 사라지지 않습니다.\n그래서 들어온 만큼 나갑니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "6 Ω과 3 Ω을 병렬로 연결하고 12 V를 걸었을 때 각 저항의 전류는?",
+   "steps": [
+    "병렬이므로 두 저항에 모두 12 V가 걸립니다.",
+    "6 Ω: 12 ÷ 6 = 2 A, 3 Ω: 12 ÷ 3 = 4 A입니다.",
+    "전체 전류는 6 A이고, 합성 저항은 12 ÷ 6 = 2 Ω입니다."
+   ],
+   "answer": "2 A, 4 A"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "6 Ω과 3 Ω을 병렬로 연결했을 때 합성 저항은 몇 Ω일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1/R = 1/R₁ + 1/R₂입니다.",
+   "explanation": "1/R = 1/6 + 1/3 = 1/2이므로 R = 2 Ω입니다.\n병렬 합성 저항은 가장 작은 저항보다 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "6 Ω과 3 Ω의 병렬 연결에 12 V를 걸면 전체 전류는 몇 A일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "합성 저항을 이용하세요.",
+   "explanation": "I = 12 ÷ 2 = 6 A입니다.\n각 갈래 2 A + 4 A와 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "위 회로에서 6 Ω 저항에 흐르는 전류는 몇 A일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "병렬이면 전압이 같습니다.",
+   "explanation": "6 Ω에 12 V가 걸리므로 12 ÷ 6 = 2 A입니다.\n저항이 큰 쪽에 전류가 적게 흐릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "기전력 12 V와 4 V인 전지를 서로 반대 방향으로 직렬 연결하고 4 Ω의 저항을 이었습니다. 전류는 몇 A일까요? (내부 저항 무시)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "반대 방향 기전력은 뺍니다.",
+   "explanation": "알짜 기전력 8 V ÷ 4 Ω = 2 A입니다.\n키르히호프 제2법칙입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "기전력 9 V, 내부 저항 0.5 Ω인 전지에 4 Ω의 저항을 연결했습니다. 흐르는 전류는 몇 A일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "I = ε ÷ (R + r)입니다.",
+   "explanation": "I = 9 ÷ 4.5 = 2 A입니다.\n단자 전압은 8 V입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "기전력 12 V, 내부 저항 1 Ω인 전지에서 외부 저항으로 얻을 수 있는 최대 전력은 몇 W일까요? (외부 저항 = 내부 저항일 때 최대)",
+   "answer": "36",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "R = 1 Ω을 넣어 계산하세요.",
+   "explanation": "R = r = 1 Ω일 때 I = 12 ÷ 2 = 6 A입니다.\nP = I²R = 36 × 1 = 36 W입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "키르히호프의 두 법칙을 설명하고, 각각 어떤 보존 법칙에서 나왔는지 말해 보세요.",
+   "hint": "두 법칙과 보존 법칙을 짝지어 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "분기점",
+      "들어오는"
+     ],
+     [
+      "닫힌 회로",
+      "한 바퀴"
+     ],
+     [
+      "전하량",
+      "전하"
+     ],
+     [
+      "에너지"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "제1법칙은 분기점에 들어오는 전류의 합과 나가는 전류의 합이 같다는 것으로 전하량 보존 법칙에서 나왔습니다. 제2법칙은 닫힌 회로를 한 바퀴 돌 때 기전력의 합이 전압 강하의 합과 같다는 것으로 에너지 보존 법칙에서 나왔습니다."
+  }
+ ]
+}

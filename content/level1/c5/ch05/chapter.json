@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c5",
+  "chapter": {
+    "id": "c5-ch05",
+    "no": 5,
+    "title": "전기장과 전위"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c5-ch05-l01",
+      "title": "전기장과 전기력선",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c5-ch05-l02",
+      "title": "전위와 전위차",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c5-ch05-l03",
+      "title": "축전기",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c5-ch05-l04",
+      "title": "직류 회로",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c5-ch05-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

@@ -1,0 +1,365 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch07",
+  "no": 7,
+  "title": "전자기파와 빛"
+ },
+ "lesson": {
+  "id": "c5-ch07-l04",
+  "no": 4,
+  "title": "편광",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "선글라스의 비밀",
+   "body": [
+    "편광 선글라스를 쓰면 물 위에서 번쩍이는 반사광이 사라져 물속이 잘 보입니다. 선글라스를 90° 돌리면 다시 번쩍입니다.",
+    "빛의 진동 방향과 관계된 편광 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "빛의 진동 방향이 한 방향으로만 정해진 상태를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편광"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "햇빛 같은 자연광은 모든 방향으로 진동합니다.\n편광판을 지나면 한 방향만 남습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "편광판과 말뤼스 법칙",
+   "body": [
+    "편광판은 특정 방향(투과축)으로 진동하는 빛만 통과시킵니다. 자연광이 편광판을 지나면 세기가 절반으로 줄고 투과축 방향으로 편광됩니다.",
+    "편광된 빛이 투과축과 θ의 각을 이루는 편광판을 지나면 세기는 I = I₀ cos² θ가 됩니다(말뤼스 법칙). 두 편광판의 투과축이 수직이면 빛이 완전히 차단됩니다.",
+    "편광은 진동 방향이 진행 방향에 수직인 횡파에서만 일어나므로, 빛이 횡파라는 증거입니다. 종파인 소리는 편광되지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "편광 현상은 빛이 {{1}}라는 증거입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "횡파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "진동 방향이 진행 방향에 수직이어야 방향을 골라낼 수 있습니다.\n종파는 편광되지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "자연광이 편광판 한 장을 지나면 세기는 처음의 몇 %가 될까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "모든 방향 진동 가운데 평균적으로 절반이 통과합니다.\n세기가 50%가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "편광된 빛이 투과축과 60°를 이루는 편광판을 지나면 세기는 처음의 몇 배가 될까요? (cos 60° = 0.5)",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "I = I₀ cos² 60° = 0.25 I₀입니다.\n말뤼스 법칙입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "편광된 빛이 투과축과 45°를 이루는 편광판을 지나면?",
+   "steps": [
+    "cos 45° = 1/√2이므로 cos² 45° = 1/2입니다.",
+    "I = I₀ × 1/2입니다.",
+    "세기가 절반이 됩니다."
+   ],
+   "answer": "1/2"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "투과축이 서로 수직인 두 편광판을 겹쳐 놓았을 때 통과하는 빛의 세기는 몇 %일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "cos² 90° = 0이므로 빛이 완전히 차단됩니다.\n두 편광판이 검게 보입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "편광의 이용",
+   "body": [
+    "수면이나 도로에서 반사된 빛은 주로 수평 방향으로 편광됩니다. 편광 선글라스는 투과축을 수직으로 두어 이 반사광을 차단합니다.",
+    "액정 디스플레이(LCD)는 두 편광판 사이의 액정이 빛의 편광 방향을 바꾸는 정도를 조절해 밝기를 조절합니다. 3D 영화관은 두 눈에 서로 다른 방향으로 편광된 영상을 보내 입체감을 만듭니다.",
+    "파란 하늘의 빛도 공기 분자에 산란되면서 부분적으로 편광되어 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "수면에서 반사된 빛은 주로 {{1}} 방향으로 편광됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수평"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "그래서 수직 투과축의 편광판으로 차단할 수 있습니다.\n낚시용 선글라스가 이 원리입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "반사광을 줄이는 편광 선글라스의 투과축은 {{1}} 방향입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수직"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "수평으로 편광된 반사광에 수직입니다.\n그래서 반사광이 차단됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "액정 디스플레이(LCD)는 빛의 {{1}}을 이용해 밝기를 조절합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편광"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "액정이 편광 방향을 돌리는 정도를 전압으로 바꿉니다.\n편광판을 통과하는 양이 달라집니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "3D 영화 안경은 어떻게 두 눈에 다른 영상을 보여 줄까요?",
+   "steps": [
+    "영사기는 왼쪽 눈용과 오른쪽 눈용 영상을 서로 다른 방향으로 편광시켜 비춥니다.",
+    "안경의 두 렌즈는 투과축이 달라 각각 한 영상만 통과시킵니다.",
+    "두 눈이 조금 다른 영상을 보아 뇌가 입체로 느낍니다."
+   ],
+   "answer": "편광 방향이 다른 두 영상을 나누어 보여 준다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "편광 정리",
+   "body": [
+    "자연광 → 편광판 → 세기 1/2. 편광된 빛 → 투과축과 θ인 편광판 → I₀ cos² θ. 수직이면 0.",
+    "편광은 빛이 횡파라는 증거이며, 선글라스, LCD, 3D 안경에 쓰입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "소리가 편광되지 않는 것은 소리가 {{1}}이기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "종파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "종파는 진행 방향으로 진동하므로 고를 방향이 없습니다.\n빛은 횡파라 편광됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "자연광이 투과축이 45° 어긋난 두 편광판을 차례로 지나면 세기는?",
+   "steps": [
+    "첫 편광판: 자연광 → I₀/2입니다.",
+    "두 번째 편광판: × cos² 45° = × 1/2입니다.",
+    "최종 세기는 I₀/4 = 25%입니다."
+   ],
+   "answer": "25%"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "자연광이 투과축이 45° 어긋난 두 편광판을 차례로 지나면 세기는 처음의 몇 %가 될까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "자연광은 첫 판에서 절반이 됩니다.",
+   "explanation": "1/2 × 1/2 = 1/4 = 25%입니다.\n첫 판에서 절반, 둘째 판에서 다시 절반입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "편광된 빛이 투과축과 30°를 이루는 편광판을 지나면 세기는 처음의 몇 배가 될까요? (cos 30° ≈ 0.866)",
+   "answer": "0.75",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "I = I₀ cos² θ입니다.",
+   "explanation": "cos² 30° = 0.75이므로 0.75배입니다.\n각이 작을수록 많이 통과합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "투과축이 서로 수직인 두 편광판을 겹치면 {{1}} 보입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "어둡게",
+      "검게",
+      "캄캄하게"
+     ]
+    }
+   ],
+   "hint": "빛이 통과하지 못합니다.",
+   "explanation": "빛이 완전히 차단됩니다.\ncos² 90° = 0입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "파란 하늘의 빛은 공기 분자에 {{1}}되면서 부분적으로 편광됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산란"
+     ]
+    }
+   ],
+   "hint": "빛이 여러 방향으로 흩어지는 현상입니다.",
+   "explanation": "산란된 빛은 산란 방향에 따라 편광됩니다.\n꿀벌은 이를 이용해 방향을 찾습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "3D 영화 안경은 두 렌즈의 투과축을 다르게 해 빛의 {{1}}을 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편광"
+     ]
+    }
+   ],
+   "hint": "이 레슨의 주제입니다.",
+   "explanation": "각 눈에 서로 다른 영상이 들어갑니다.\n뇌가 입체로 합성합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "투과축이 수직인 두 편광판 사이에 45° 기울어진 편광판을 끼우면, 자연광이 세 편광판을 지난 뒤 세기는 처음의 몇 %가 될까요?",
+   "answer": "12.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "단계마다 세기를 곱하세요.",
+   "explanation": "1/2 × cos² 45° × cos² 45° = 1/2 × 1/2 × 1/2 = 1/8 = 12.5%입니다.\n가운데 판을 끼우니 빛이 다시 통과합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "편광 현상이 빛이 횡파라는 증거가 되는 이유를 설명해 보세요.",
+   "hint": "진동 방향과 진행 방향의 관계를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "횡파"
+     ],
+     [
+      "수직"
+     ],
+     [
+      "진동 방향"
+     ],
+     [
+      "종파",
+      "소리"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "편광은 여러 방향 가운데 특정 방향으로 진동하는 빛만 골라내는 현상입니다. 진동 방향이 진행 방향에 수직인 횡파는 진동 방향이 여러 가지여서 골라낼 수 있지만, 진행 방향으로 진동하는 종파(소리)는 편광되지 않으므로 편광이 일어나는 빛은 횡파입니다."
+  }
+ ]
+}

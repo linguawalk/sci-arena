@@ -1,0 +1,161 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch05",
+  "no": 5,
+  "title": "전기장과 전위"
+ },
+ "review": {
+  "id": "c5-ch05-review",
+  "title": "전기장과 전위 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "3 C의 전하가 12 N의 전기력을 받는 곳의 전기장 세기는 몇 N/C일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "E = F ÷ q입니다.",
+   "explanation": "E = F ÷ q = 12 ÷ 3 = 4 N/C입니다.\n그 자리의 성질입니다.",
+   "source_lesson": "c5-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "점전하로부터의 거리가 3배가 되면 전기장의 세기는 몇 분의 1이 될까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "거리의 제곱에 반비례합니다.",
+   "explanation": "E ∝ 1/r²이므로 1/9이 됩니다.\n역제곱 법칙입니다.",
+   "source_lesson": "c5-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전자는 전기장과 {{1}} 방향으로 힘을 받습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반대"
+     ]
+    }
+   ],
+   "hint": "음전하입니다.",
+   "explanation": "전자는 음전하입니다.\nF = qE에서 q < 0입니다.",
+   "source_lesson": "c5-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0.5 C의 전하가 전위차 20 V를 지날 때 전기력이 한 일은 몇 J일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "W = qΔV입니다.",
+   "explanation": "W = qΔV = 0.5 × 20 = 10 J입니다.\n운동 에너지로 바뀔 수 있습니다.",
+   "source_lesson": "c5-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "간격 0.02 m인 평행판에 10 V를 걸었습니다. 판 사이 전기장의 세기는 몇 V/m일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "E = V ÷ d입니다.",
+   "explanation": "E = V ÷ d = 10 ÷ 0.02 = 500 V/m입니다.\n균일한 전기장입니다.",
+   "source_lesson": "c5-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "전기 용량 5 μF인 축전기에 4 V의 전압을 걸면 저장되는 전하량은 몇 μC일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Q = CV입니다.",
+   "explanation": "Q = CV = 5 × 4 = 20 μC입니다.\n전압에 비례합니다.",
+   "source_lesson": "c5-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "2 μF과 2 μF인 축전기를 직렬로 연결하면 합성 전기 용량은 몇 μF일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1/C = 1/C₁ + 1/C₂입니다.",
+   "explanation": "1/C = 1/2 + 1/2 = 1이므로 C = 1 μF입니다.\n같은 두 개를 직렬로 이으면 절반입니다.",
+   "source_lesson": "c5-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "전기 용량 4 F인 축전기에 2 V를 걸면 저장되는 에너지는 몇 J일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "U = ½CV²입니다.",
+   "explanation": "U = ½CV² = ½ × 4 × 4 = 8 J입니다.\n전압의 제곱에 비례합니다.",
+   "source_lesson": "c5-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "기전력 6 V, 내부 저항 1 Ω인 전지에 2 Ω의 저항을 연결했습니다. 흐르는 전류는 몇 A일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "I = ε ÷ (R + r)입니다.",
+   "explanation": "I = 6 ÷ 3 = 2 A입니다.\n단자 전압은 4 V입니다.",
+   "source_lesson": "c5-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "키르히호프 제2법칙은 닫힌 회로에서 기전력의 합이 {{1}} 강하의 합과 같다는 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전압"
+     ]
+    }
+   ],
+   "hint": "IR의 이름입니다.",
+   "explanation": "Σε = ΣIR입니다.\n에너지 보존에서 나옵니다.",
+   "source_lesson": "c5-ch05-l04"
+  }
+ ]
+}

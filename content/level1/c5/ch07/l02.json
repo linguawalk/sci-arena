@@ -1,0 +1,363 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch07",
+  "no": 7,
+  "title": "전자기파와 빛"
+ },
+ "lesson": {
+  "id": "c5-ch07-l02",
+  "no": 2,
+  "title": "빛의 간섭",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "빛이 빛을 지운다",
+   "body": [
+    "1801년 토머스 영은 두 개의 좁은 틈으로 빛을 통과시켜 스크린에 밝고 어두운 줄무늬가 번갈아 생기는 것을 보였습니다.",
+    "빛과 빛이 만나 어둠이 생긴 것은 빛이 파동이라는 강력한 증거였습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "영의 이중 슬릿 실험에서 밝고 어두운 무늬가 생기는 것은 빛의 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "간섭"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 슬릿에서 나온 빛이 겹치며 보강하거나 상쇄합니다.\n빛의 파동성을 보여 줍니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "이중 슬릿 간섭",
+   "body": [
+    "두 슬릿에서 스크린의 한 점까지의 거리 차이(경로차)가 파장의 정수배(0, λ, 2λ, …)이면 두 빛이 같은 위상으로 만나 보강 간섭하여 밝은 무늬가 생깁니다.",
+    "경로차가 반파장의 홀수배(λ/2, 3λ/2, …)이면 반대 위상으로 만나 상쇄 간섭하여 어두운 무늬가 생깁니다.",
+    "슬릿 간격 d, 슬릿에서 스크린까지 거리 L일 때 이웃한 밝은 무늬 사이 간격은 Δx = Lλ ÷ d입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "경로차가 반파장의 홀수배이면 {{1}} 무늬가 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "어두운"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 빛이 반대 위상으로 만나 상쇄됩니다.\n정수배이면 밝은 무늬입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "파장 600 nm인 빛으로 슬릿 간격 0.3 mm, 스크린 거리 1 m인 이중 슬릿 실험을 하면 밝은 무늬 간격은 몇 mm일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Δx = Lλ ÷ d = 1 × 6 × 10⁻⁷ ÷ (3 × 10⁻⁴) = 2 × 10⁻³ m = 2 mm입니다.\n눈으로 볼 수 있는 간격입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "이중 슬릿의 간격 d를 2배로 하면 무늬 간격은 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "Δx ∝ 1/d이므로 1/2배입니다.\n슬릿이 멀어지면 무늬가 촘촘해집니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "이중 슬릿 실험에서 빨간빛을 파란빛으로 바꾸면 무늬 간격은?",
+   "steps": [
+    "Δx = Lλ/d이므로 파장에 비례합니다.",
+    "파란빛은 빨간빛보다 파장이 짧습니다.",
+    "무늬 간격이 좁아집니다."
+   ],
+   "answer": "좁아진다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "이중 슬릿에서 스크린까지의 거리를 2배로 하면 무늬 간격은 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Δx ∝ L이므로 2배입니다.\n멀리 둘수록 무늬가 넓게 퍼집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "얇은 막의 간섭",
+   "body": [
+    "비눗방울이나 물 위 기름막이 무지갯빛을 띠는 것은, 막의 윗면과 아랫면에서 반사된 빛이 간섭하기 때문입니다. 막의 두께와 빛의 파장에 따라 보강되는 색이 달라집니다.",
+    "안경과 카메라 렌즈의 반사 방지 코팅은 두 면에서 반사된 빛이 상쇄 간섭하도록 두께를 맞춘 얇은 막입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "이중 슬릿 실험에서 파장이 긴 빨간빛은 파란빛보다 무늬 간격이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "넓"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Δx ∝ λ입니다.\n빨간빛의 파장이 더 깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "비눗방울이 무지갯빛으로 보이는 것은 얇은 막에서 일어나는 빛의 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "간섭"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "막의 두 면에서 반사된 빛이 겹칩니다.\n두께에 따라 보강되는 색이 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "경로차가 1.5λ인 곳에는 {{1}} 무늬가 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "어두운"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "1.5λ = 3λ/2는 반파장의 홀수배(3배)입니다.\n상쇄 간섭이 일어납니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "밝은 무늬 간격 3 mm, 슬릿 간격 0.2 mm, 스크린 거리 1 m일 때 빛의 파장은?",
+   "steps": [
+    "λ = Δx × d ÷ L입니다.",
+    "= 3 × 10⁻³ × 2 × 10⁻⁴ ÷ 1 = 6 × 10⁻⁷ m입니다.",
+    "600 nm로 주황빛입니다."
+   ],
+   "answer": "600 nm"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "간섭 정리",
+   "body": [
+    "경로차 = mλ → 밝은 무늬(보강), 경로차 = (m + ½)λ → 어두운 무늬(상쇄).",
+    "이중 슬릿 무늬 간격 Δx = Lλ/d. 얇은 막의 간섭은 비눗방울 색과 반사 방지 코팅을 설명합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "영의 이중 슬릿 실험은 빛의 {{1}}을 증명했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "파동성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "간섭은 파동만의 성질입니다.\n입자라면 두 줄의 무늬만 생겨야 합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "파장 500 nm, 슬릿 간격 0.5 mm, 스크린 거리 2 m일 때 무늬 간격은?",
+   "steps": [
+    "Δx = Lλ/d = 2 × 5 × 10⁻⁷ ÷ (5 × 10⁻⁴)입니다.",
+    "= 2 × 10⁻³ m = 2 mm입니다."
+   ],
+   "answer": "2 mm"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "파장 500 nm, 슬릿 간격 0.5 mm, 스크린 거리 2 m인 이중 슬릿 실험에서 밝은 무늬 간격은 몇 mm일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Δx = Lλ/d입니다.",
+   "explanation": "Δx = 2 × 5 × 10⁻⁷ ÷ (5 × 10⁻⁴) = 2 × 10⁻³ m = 2 mm입니다.\n단위를 맞추는 것이 중요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "밝은 무늬 간격 3 mm, 슬릿 간격 0.2 mm, 스크린 거리 1 m일 때 빛의 파장은 몇 nm일까요?",
+   "answer": "600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "λ = Δx × d ÷ L입니다.",
+   "explanation": "λ = Δx × d ÷ L = 6 × 10⁻⁷ m = 600 nm입니다.\n간섭으로 파장을 잴 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "이중 슬릿 무늬의 한가운데(경로차 0)에는 {{1}} 무늬가 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "밝은"
+     ]
+    }
+   ],
+   "hint": "경로차 0은 정수배입니다.",
+   "explanation": "경로차 0은 파장의 정수배(0배)입니다.\n보강 간섭입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "백색광으로 이중 슬릿 실험을 하면 가운데는 흰색이고 양옆 무늬는 {{1}}빛으로 퍼집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무지개"
+     ]
+    }
+   ],
+   "hint": "여러 색이 나란히 나타납니다.",
+   "explanation": "색마다 파장이 달라 무늬 간격이 다릅니다.\n가운데는 모든 색이 보강되어 흰색입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "안경의 반사 방지 코팅은 두 면에서 반사된 빛이 {{1}} 간섭하도록 만든 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상쇄"
+     ]
+    }
+   ],
+   "hint": "서로 지우는 간섭입니다.",
+   "explanation": "반사광을 없애 더 많은 빛이 렌즈를 통과합니다.\n막의 두께를 파장에 맞춰 조절합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "경로차가 2λ인 곳은 가운데에서 몇 번째 밝은 무늬일까요? (가운데를 0번째로 셈)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "경로차 = mλ입니다.",
+   "explanation": "경로차 = mλ에서 m = 2입니다.\n가운데에서 두 번째 밝은 무늬입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "이중 슬릿 실험에서 밝은 무늬와 어두운 무늬가 생기는 조건을 경로차로 설명해 보세요.",
+   "hint": "두 조건을 모두 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "경로차"
+     ],
+     [
+      "정수배",
+      "λ의"
+     ],
+     [
+      "홀수배",
+      "반파장"
+     ],
+     [
+      "보강",
+      "상쇄"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "두 슬릿에서 온 빛의 경로차가 파장의 정수배이면 같은 위상으로 만나 보강 간섭하여 밝은 무늬가 생깁니다. 경로차가 반파장의 홀수배이면 반대 위상으로 만나 상쇄 간섭하여 어두운 무늬가 생깁니다."
+  }
+ ]
+}

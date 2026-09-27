@@ -1,0 +1,347 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch05",
+  "no": 5,
+  "title": "전기장과 전위"
+ },
+ "lesson": {
+  "id": "c5-ch05-l03",
+  "no": 3,
+  "title": "축전기",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "전하를 모아 두는 장치",
+   "body": [
+    "카메라 플래시는 전지로 천천히 모아 둔 전기 에너지를 한순간에 방출해 밝게 빛납니다.",
+    "전하를 저장했다가 필요할 때 내보내는 장치가 축전기입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "두 도체판을 마주 보게 놓아 전하를 저장하는 장치를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "축전기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "콘덴서, 커패시터라고도 부릅니다.\n거의 모든 전자 기기에 들어 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "전기 용량",
+   "body": [
+    "축전기에 저장되는 전하량 Q는 걸어 준 전압 V에 비례합니다: Q = CV. 비례 상수 C를 전기 용량이라고 하며 단위는 F(패럿)입니다. 1 μF = 10⁻⁶ F입니다.",
+    "평행판 축전기의 전기 용량은 판의 넓이 A에 비례하고 판 사이 간격 d에 반비례합니다: C = εA ÷ d.",
+    "판 사이에 유전체(절연체)를 넣으면 유전율 ε이 커져 전기 용량이 커집니다. 진공에 대한 유전율의 비를 유전 상수라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "평행판 축전기의 판 넓이가 클수록 전기 용량이 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "C = εA/d이므로 A에 비례합니다.\n판 간격을 줄여도 커집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "전기 용량 2 μF인 축전기에 10 V의 전압을 걸면 저장되는 전하량은 몇 μC일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Q = CV = 2 μF × 10 V = 20 μC입니다.\n전압에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "평행판 축전기의 판 간격을 2배로 하면 전기 용량은 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "C ∝ 1/d이므로 1/2배입니다.\n판이 멀어지면 전하를 덜 저장합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "판 넓이를 2배, 간격을 절반으로 하면 전기 용량은?",
+   "steps": [
+    "C = εA/d입니다.",
+    "넓이 2배 → 2배, 간격 1/2 → 2배입니다.",
+    "2 × 2 = 4배입니다."
+   ],
+   "answer": "4배"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "평행판 축전기 사이에 유전 상수가 3인 유전체를 채우면 전기 용량은 몇 배가 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "유전율이 3배가 되므로 C도 3배입니다.\n유전체가 판 사이 전기장을 약하게 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "축전기의 에너지와 연결",
+   "body": [
+    "축전기에 저장된 전기 에너지는 U = ½QV = ½CV² = Q² ÷ 2C입니다.",
+    "축전기를 병렬로 연결하면 각 축전기의 전압이 같고, 합성 전기 용량은 C = C₁ + C₂입니다.",
+    "직렬로 연결하면 각 축전기의 전하량이 같고, 합성 전기 용량은 1/C = 1/C₁ + 1/C₂입니다. 저항의 연결과 반대입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "전기 용량 2 F인 축전기에 3 V의 전압을 걸면 저장되는 에너지는 몇 J일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "U = ½CV² = ½ × 2 × 9 = 9 J입니다.\n전압의 제곱에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "2 μF과 3 μF인 축전기를 병렬로 연결하면 합성 전기 용량은 몇 μF일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "병렬: C = C₁ + C₂ = 5 μF입니다.\n판 넓이가 늘어난 것과 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "3 μF과 6 μF인 축전기를 직렬로 연결하면 합성 전기 용량은 몇 μF일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1/C = 1/3 + 1/6 = 1/2이므로 C = 2 μF입니다.\n가장 작은 것보다 작아집니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "전지에 연결된 채로 평행판 축전기의 간격을 2배로 하면 전하량과 에너지는?",
+   "steps": [
+    "전지에 연결되어 있으므로 전압 V는 일정합니다.",
+    "C가 1/2이 되므로 Q = CV도 1/2이 됩니다.",
+    "U = ½CV²도 1/2이 됩니다."
+   ],
+   "answer": "전하량과 에너지 모두 1/2"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "축전기 정리",
+   "body": [
+    "Q = CV, C = εA/d, U = ½CV². 병렬 C = C₁ + C₂(전압 같음), 직렬 1/C = 1/C₁ + 1/C₂(전하량 같음).",
+    "축전기는 전하와 에너지를 저장하고, 전원의 흔들림을 줄이거나 신호를 거르는 데 쓰입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "병렬로 연결된 축전기들은 걸리는 {{1}}이 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전압"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 두 점 사이에 연결되어 있기 때문입니다.\n직렬 연결에서는 전하량이 같습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "4 μF 축전기 두 개를 직렬로 연결하면 합성 전기 용량은?",
+   "steps": [
+    "1/C = 1/4 + 1/4 = 1/2입니다.",
+    "C = 2 μF입니다. 같은 축전기 두 개를 직렬로 이으면 절반이 됩니다."
+   ],
+   "answer": "2 μF"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "4 μF인 축전기 두 개를 직렬로 연결하면 합성 전기 용량은 몇 μF일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1/C = 1/C₁ + 1/C₂입니다.",
+   "explanation": "1/C = 1/4 + 1/4 = 1/2이므로 C = 2 μF입니다.\n간격이 2배인 것과 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 축전기에 걸린 전압을 2배로 하면 저장된 에너지는 몇 배가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전압의 제곱에 비례합니다.",
+   "explanation": "U = ½CV²이므로 4배입니다.\n전하량은 2배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "카메라 플래시는 {{1}}에 모아 둔 에너지를 한순간에 방출해 밝은 빛을 냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "축전기"
+     ]
+    }
+   ],
+   "hint": "이 레슨에서 배운 장치입니다.",
+   "explanation": "전지는 천천히 에너지를 공급합니다.\n축전기는 짧은 시간에 큰 전류를 낼 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "3 μF인 축전기 두 개를 병렬로 연결하고 12 V를 걸었습니다. 저장된 전체 전하량은 몇 μC일까요?",
+   "answer": "72",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "합성 용량을 먼저 구하세요.",
+   "explanation": "합성 용량 6 μF × 12 V = 72 μC입니다.\n각 축전기에 36 μC씩입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "충전한 축전기를 전지에서 떼어 낸 뒤 판 간격을 넓히면 저장된 전하량은 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일정"
+     ]
+    }
+   ],
+   "hint": "전하가 이동할 길이 있는지 보세요.",
+   "explanation": "전하가 빠져나갈 곳이 없습니다.\nC가 줄어 전압은 커집니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "전기 용량 10 μF인 축전기에 50 μC의 전하가 저장되어 있습니다. 축전기의 전압은 몇 V일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "V = Q ÷ C입니다.",
+   "explanation": "V = Q ÷ C = 50 ÷ 10 = 5 V입니다.\nQ = CV를 변형했습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "평행판 축전기의 전기 용량을 크게 하는 방법을 세 가지 설명해 보세요.",
+   "hint": "C = εA/d를 이용하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "넓이",
+      "면적"
+     ],
+     [
+      "간격",
+      "거리"
+     ],
+     [
+      "유전체",
+      "유전율"
+     ],
+     [
+      "크게",
+      "좁",
+      "넣"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "평행판 축전기의 전기 용량은 C = εA/d이므로 판의 넓이를 크게 하거나, 판 사이 간격을 좁히거나, 판 사이에 유전율이 큰 유전체를 넣으면 커집니다."
+  }
+ ]
+}

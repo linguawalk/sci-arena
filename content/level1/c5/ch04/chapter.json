@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c5",
+  "chapter": {
+    "id": "c5-ch04",
+    "no": 4,
+    "title": "열역학과 유체"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c5-ch04-l01",
+      "title": "기체 분자 운동",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c5-ch04-l02",
+      "title": "열역학 과정",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c5-ch04-l03",
+      "title": "유체의 압력과 부력",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c5-ch04-l04",
+      "title": "베르누이 법칙",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c5-ch04-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

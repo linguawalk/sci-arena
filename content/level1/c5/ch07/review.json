@@ -1,0 +1,181 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch07",
+  "no": 7,
+  "title": "전자기파와 빛"
+ },
+ "review": {
+  "id": "c5-ch07-review",
+  "title": "전자기파와 빛 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "진동수 3 × 10⁹ Hz인 전자기파의 파장은 몇 m일까요? (c = 3 × 10⁸ m/s)",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.002,
+   "hint": "λ = c ÷ f입니다.",
+   "explanation": "λ = 3 × 10⁸ ÷ (3 × 10⁹) = 0.1 m입니다.\n마이크로파입니다.",
+   "source_lesson": "c5-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전자기파는 가속 운동하는 {{1}}에 의해 발생합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전하"
+     ]
+    }
+   ],
+   "hint": "전자, 양성자가 가진 것입니다.",
+   "explanation": "안테나 속 전자의 진동이 대표적입니다.\n정지한 전하는 전자기파를 내지 않습니다.",
+   "source_lesson": "c5-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전자기파 가운데 가시광선보다 파장이 조금 길어 열화상 카메라에 쓰이는 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "hint": "빨간색 바깥의 빛입니다.",
+   "explanation": "따뜻한 물체가 많이 냅니다.\n리모컨에도 쓰입니다.",
+   "source_lesson": "c5-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "파장 400 nm, 슬릿 간격 0.2 mm, 스크린 거리 1 m인 이중 슬릿 실험의 밝은 무늬 간격은 몇 mm일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Δx = Lλ/d입니다.",
+   "explanation": "Δx = 1 × 4 × 10⁻⁷ ÷ (2 × 10⁻⁴) = 2 × 10⁻³ m = 2 mm입니다.\n파장에 비례합니다.",
+   "source_lesson": "c5-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "경로차가 파장의 정수배인 곳에서는 {{1}} 간섭이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보강"
+     ]
+    }
+   ],
+   "hint": "밝은 무늬가 생기는 간섭입니다.",
+   "explanation": "같은 위상으로 만나 밝아집니다.\n반파장의 홀수배이면 상쇄 간섭입니다.",
+   "source_lesson": "c5-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "파장이 길수록, 틈이 좁을수록 {{1}}이 잘 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "회절"
+     ]
+    }
+   ],
+   "hint": "틈을 지나 퍼지는 현상입니다.",
+   "explanation": "파동이 틈 뒤로 퍼지는 현상입니다.\n소리가 담장을 넘는 이유입니다.",
+   "source_lesson": "c5-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "틈 간격 2 μm인 회절 격자에 파장 500 nm인 빛을 비출 때 두 번째(m = 2) 밝은 무늬 방향의 sin θ는 얼마일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "sin θ = mλ/d입니다.",
+   "explanation": "sin θ = 2 × 0.5 ÷ 2 = 0.5, 곧 30°입니다.\nd sin θ = mλ입니다.",
+   "source_lesson": "c5-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "망원경의 지름이 클수록, 빛의 파장이 짧을수록 {{1}}이 좋아집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분해능"
+     ]
+    }
+   ],
+   "hint": "두 점을 구별하는 능력입니다.",
+   "explanation": "가까운 두 점을 구별하는 능력입니다.\n회절이 줄어들기 때문입니다.",
+   "source_lesson": "c5-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "편광된 빛이 투과축과 45°를 이루는 편광판을 지나면 세기는 처음의 몇 %가 될까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "I = I₀ cos² θ입니다.",
+   "explanation": "cos² 45° = 1/2이므로 50%입니다.\n말뤼스 법칙입니다.",
+   "source_lesson": "c5-ch07-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "편광은 빛이 {{1}}라는 증거입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "횡파"
+     ]
+    }
+   ],
+   "hint": "진동이 진행 방향에 수직인 파동입니다.",
+   "explanation": "종파인 소리는 편광되지 않습니다.\n진동 방향이 진행 방향에 수직입니다.",
+   "source_lesson": "c5-ch07-l04"
+  }
+ ]
+}

@@ -1,0 +1,421 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch01",
+  "no": 1,
+  "title": "평면 운동"
+ },
+ "lesson": {
+  "id": "c5-ch01-l03",
+  "no": 3,
+  "title": "포물선 운동",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "공이 그리는 곡선",
+   "body": [
+    "비스듬히 차올린 축구공, 분수의 물줄기, 농구 슛은 모두 같은 모양의 곡선, 포물선을 그립니다.",
+    "이 운동을 수평 방향과 연직 방향으로 나누어 보면 간단해집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "비스듬히 던진 물체는 수평 방향으로 등속 운동, 연직 방향으로 {{1}} 운동을 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "등가속도",
+      "등가속도 직선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "수평 방향으로는 힘이 없고, 연직 방향으로는 중력만 작용합니다.\n공기 저항은 무시합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "비스듬히 던진 물체의 운동",
+   "body": [
+    "처음 속력 v₀로 수평면과 θ의 각으로 던지면, 처음 속도의 수평 성분은 v₀ cos θ, 연직 성분은 v₀ sin θ입니다.",
+    "수평 방향: 가속도 0, 속도 vₓ = v₀ cos θ로 일정합니다. 연직 방향: 가속도 −g, 속도 v_y = v₀ sin θ − gt입니다(g = 10 m/s²).",
+    "최고점에서 연직 속도가 0이므로, 최고점에 도달하는 시간은 t = v₀ sin θ ÷ g이고, 최고점 높이는 H = (v₀ sin θ)² ÷ 2g입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "공기 저항이 없을 때 포물선 운동하는 물체의 수평 방향 가속도는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "수평 방향으로 작용하는 힘이 없습니다.\n그래서 수평 속도가 일정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "포물선 운동하는 물체는 최고점에서 속도의 {{1}} 성분만 가집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수평"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "최고점에서 연직 속도는 0입니다.\n그래서 속력이 가장 작습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "20 m/s로 수평면과 30°로 던진 공의 최고점 도달 시간과 높이는?",
+   "steps": [
+    "연직 성분: 20 × sin 30° = 10 m/s입니다.",
+    "최고점 도달 시간 = 10 ÷ 10 = 1초입니다.",
+    "최고점 높이 = 10² ÷ (2 × 10) = 5 m입니다."
+   ],
+   "answer": "1초, 5 m"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "처음 속도의 연직 성분이 20 m/s인 공이 최고점에 도달하는 데 몇 초 걸릴까요? (g = 10 m/s²)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "t = v_y0 ÷ g = 20 ÷ 10 = 2초입니다.\n매초 연직 속도가 10 m/s씩 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "처음 속도의 연직 성분이 20 m/s인 공의 최고점 높이는 몇 m일까요? (g = 10 m/s²)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "H = v_y0² ÷ 2g = 400 ÷ 20 = 20 m입니다.\n연직으로 20 m/s로 던진 것과 높이가 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "50 m/s로 수평면과 37°로 던진 물체가 최고점에 도달하는 데 몇 초 걸릴까요? (sin 37° = 0.6, g = 10 m/s²)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "연직 성분 = 50 × 0.6 = 30 m/s입니다.\nt = 30 ÷ 10 = 3초입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "체공 시간과 수평 도달 거리",
+   "body": [
+    "같은 높이로 되돌아올 때까지의 체공 시간은 최고점 도달 시간의 2배: T = 2v₀ sin θ ÷ g입니다.",
+    "수평 도달 거리는 R = vₓ × T = v₀² sin 2θ ÷ g입니다. sin 2θ가 가장 큰 θ = 45°에서 수평 도달 거리가 최대입니다.",
+    "30°와 60°처럼 합이 90°인 두 각으로 던지면 수평 도달 거리가 같습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "처음 속도의 연직 성분이 20 m/s인 공이 같은 높이로 떨어질 때까지 체공 시간은 몇 초일까요? (g = 10 m/s²)",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "최고점까지 2초, 내려오는 데 2초입니다.\nT = 2 × 20 ÷ 10 = 4초입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "수평 속도가 15 m/s이고 체공 시간이 4초인 공의 수평 도달 거리는 몇 m일까요?",
+   "answer": "60",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "R = vₓ × T = 15 × 4 = 60 m입니다.\n수평 방향은 등속 운동입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "20 m/s로 45°로 던진 공의 수평 도달 거리는 몇 m일까요? (R = v₀² sin 2θ ÷ g, g = 10 m/s²)",
+   "answer": "40",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "sin 90° = 1이므로 R = 400 ÷ 10 = 40 m입니다.\n45°일 때 수평 도달 거리가 최대입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "20 m/s로 30°와 60°로 던진 두 공의 수평 도달 거리를 비교하면?",
+   "steps": [
+    "30°: sin 60° ≈ 0.87이므로 R ≈ 400 × 0.87 ÷ 10 ≈ 34.6 m입니다.",
+    "60°: sin 120° ≈ 0.87이므로 R ≈ 34.6 m입니다.",
+    "수평 도달 거리는 같고, 60°로 던진 공이 더 높이 올라가 더 오래 날아갑니다."
+   ],
+   "answer": "같다(약 34.6 m)"
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 속력으로 던질 때 수평 도달 거리가 최대가 되는 각은 {{1}}°입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "45"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "sin 2θ가 1이 되는 θ = 45°입니다.\n공기 저항이 없을 때의 결과입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "포물선 운동 정리",
+   "body": [
+    "수평: vₓ = v₀ cos θ 일정, x = vₓt. 연직: v_y = v₀ sin θ − gt, 최고점 t = v₀ sin θ ÷ g, H = (v₀ sin θ)² ÷ 2g.",
+    "체공 시간 T = 2v₀ sin θ ÷ g, 수평 도달 거리 R = v₀² sin 2θ ÷ g. 아래 그래프는 수평 속도 10 m/s, 연직 속도 10 m/s로 던진 공의 경로입니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "수평 속도 10 m/s, 연직 속도 10 m/s로 던진 공의 최고점 높이와 수평 도달 거리는?",
+   "steps": [
+    "최고점 높이 = 10² ÷ 20 = 5 m입니다.",
+    "체공 시간 = 2 × 10 ÷ 10 = 2초입니다.",
+    "수평 도달 거리 = 10 × 2 = 20 m입니다."
+   ],
+   "answer": "5 m, 20 m"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "아래 그래프는 수평 속도 10 m/s, 연직 속도 10 m/s로 던진 공의 경로입니다. 최고점 높이는 몇 m일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "연직 성분만 생각하세요.",
+   "explanation": "H = 10² ÷ (2 × 10) = 5 m입니다.\n그래프의 최고점과 같습니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "x(m)",
+     "ylabel": "y(m)",
+     "xmin": 0,
+     "xmax": 22,
+     "ymin": 0,
+     "ymax": 6,
+     "xstep": 5,
+     "ystep": 1,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0,
+        1,
+        -0.05
+       ],
+       "from": 0,
+       "to": 20
+      }
+     ],
+     "points": [
+      [
+       10,
+       5,
+       "최고점"
+      ],
+      [
+       20,
+       0,
+       "착지"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "아래 그래프의 공이 처음 높이로 떨어질 때까지의 수평 도달 거리는 몇 m일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "체공 시간을 먼저 구하세요.",
+   "explanation": "체공 시간 2초 × 수평 속도 10 m/s = 20 m입니다.\n그래프의 착지점과 같습니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "x(m)",
+     "ylabel": "y(m)",
+     "xmin": 0,
+     "xmax": 22,
+     "ymin": 0,
+     "ymax": 6,
+     "xstep": 5,
+     "ystep": 1,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0,
+        1,
+        -0.05
+       ],
+       "from": 0,
+       "to": 20
+      }
+     ],
+     "points": [
+      [
+       10,
+       5,
+       "최고점"
+      ],
+      [
+       20,
+       0,
+       "착지"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 속력으로 30°와 60°로 던지면 {{1}}°로 던진 공이 더 높이 올라갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "60"
+     ]
+    }
+   ],
+   "hint": "연직 성분이 큰 쪽입니다.",
+   "explanation": "연직 성분 v₀ sin θ가 클수록 높이 올라갑니다.\n수평 도달 거리는 두 경우가 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "위 그래프의 공이 최고점에 있을 때의 속력은 몇 m/s일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "수평 성분만 남습니다.",
+   "explanation": "최고점에서는 연직 속도가 0이고 수평 속도만 남습니다.\n10 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "공기 저항을 무시할 때 포물선 운동하는 공의 최고점에서 가속도의 크기는 몇 m/s²일까요? (g = 10 m/s²)",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "어디서나 작용하는 힘을 생각하세요.",
+   "explanation": "최고점에서도 중력만 작용하므로 가속도는 g = 10 m/s²입니다.\n속도가 0이 아니고 가속도도 0이 아닙니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "비스듬히 던진 물체의 운동을 수평 방향과 연직 방향으로 나누어 설명해 보세요.",
+   "hint": "각 방향의 힘과 운동을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "수평"
+     ],
+     [
+      "등속"
+     ],
+     [
+      "연직"
+     ],
+     [
+      "등가속도",
+      "중력",
+      "g"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "수평 방향으로는 작용하는 힘이 없어 처음 속도의 수평 성분으로 등속 운동을 합니다. 연직 방향으로는 중력만 작용해 가속도 g로 등가속도 운동을 하며, 올라가면서 느려져 최고점에서 연직 속도가 0이 되고 다시 빨라지며 떨어집니다."
+  }
+ ]
+}

@@ -1,0 +1,351 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch01",
+  "no": 1,
+  "title": "평면 운동"
+ },
+ "lesson": {
+  "id": "c5-ch01-l02",
+  "no": 2,
+  "title": "평면 운동과 상대 속도",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "흐르는 강을 건너는 배",
+   "body": [
+    "강물이 흐르는 강을 배가 곧장 건너편을 향해 나아가도, 배는 비스듬히 떠내려가며 건너갑니다.",
+    "평면 운동에서는 속도를 벡터로 다뤄야 이런 운동을 정확히 설명할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "속력이 일정해도 운동 방향이 바뀌면 속도가 변하므로 {{1}}가 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가속도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가속도는 속도의 변화율입니다.\n방향만 바뀌어도 속도는 변합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "평면에서의 속도와 가속도",
+   "body": [
+    "평균 속도는 변위를 걸린 시간으로 나눈 벡터이고, 순간 속도의 방향은 운동 경로의 접선 방향입니다.",
+    "가속도는 속도 변화량을 걸린 시간으로 나눈 벡터 a = Δv ÷ Δt입니다. 가속도의 방향은 속도 변화량의 방향이며, 속도의 방향과 다를 수 있습니다.",
+    "곡선 경로를 따라 같은 빠르기로 달리는 자동차도 방향이 바뀌므로 가속도 운동을 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "곡선 운동에서 순간 속도의 방향은 경로의 {{1}} 방향입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "접선",
+      "접선의"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "매 순간 물체는 경로에 접하는 방향으로 움직입니다.\n줄을 놓으면 접선 방향으로 날아갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "물체가 10초 동안 x 방향으로 30 m, y 방향으로 40 m 이동했습니다. 평균 속도의 크기는 몇 m/s일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "변위의 크기는 √(30² + 40²) = 50 m입니다.\n50 ÷ 10 = 5 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "2초 동안 속도 변화량의 크기가 10 m/s였습니다. 평균 가속도의 크기는 몇 m/s²일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a = Δv ÷ Δt = 10 ÷ 2 = 5 m/s²입니다.\n방향은 속도 변화량의 방향입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "북쪽으로 4 m/s로 달리던 물체가 1초 뒤 동쪽으로 3 m/s로 달립니다. 평균 가속도의 크기는?",
+   "steps": [
+    "Δv = (동 3) − (북 4) = 동 3 + 남 4입니다.",
+    "|Δv| = √(3² + 4²) = 5 m/s입니다.",
+    "a = 5 ÷ 1 = 5 m/s²입니다."
+   ],
+   "answer": "5 m/s²"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "상대 속도",
+   "body": [
+    "관찰자 A가 본 물체 B의 속도를 A에 대한 B의 상대 속도라고 하며, v_AB = v_B − v_A로 구합니다.",
+    "같은 방향으로 달리는 두 자동차는 서로 느리게 움직이는 것처럼 보이고, 반대 방향으로 달리면 매우 빠르게 스쳐 지나가는 것처럼 보입니다.",
+    "강을 건너는 배의 실제 속도는 물에 대한 배의 속도와 강물의 속도를 벡터로 더한 것입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "A가 본 B의 상대 속도는 v_B에서 {{1}}를 뺀 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "v_A",
+      "vA",
+      "A의 속도",
+      "v A"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "관찰자의 속도를 뺍니다.\nv_AB = v_B − v_A입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "같은 방향으로 A는 20 m/s, B는 30 m/s로 달립니다. A가 본 B의 속력은 몇 m/s일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v_B − v_A = 30 − 20 = 10 m/s입니다.\nB가 앞으로 천천히 멀어지는 것처럼 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "A는 동쪽으로 20 m/s, B는 서쪽으로 30 m/s로 달립니다. A가 본 B의 속력은 몇 m/s일까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "동쪽을 +로 하면 v_B − v_A = −30 − 20 = −50 m/s입니다.\n속력은 50 m/s, 방향은 서쪽입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "폭 40 m인 강을 배가 물에 대해 강 건너편 쪽으로 4 m/s로 나아가고, 강물은 3 m/s로 흐릅니다. 배의 운동은?",
+   "steps": [
+    "배의 실제 속력은 √(4² + 3²) = 5 m/s입니다.",
+    "건너는 시간은 강을 가로지르는 성분만 보아 40 ÷ 4 = 10초입니다.",
+    "그동안 하류로 3 × 10 = 30 m 떠내려갑니다."
+   ],
+   "answer": "5 m/s, 10초, 하류로 30 m"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "폭 60 m인 강을 배가 물에 대해 건너편 쪽으로 3 m/s로 나아가고, 강물은 4 m/s로 흐릅니다. 건너는 데 몇 초 걸릴까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "강을 가로지르는 성분만 생각합니다.\n60 ÷ 3 = 20초입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 문제에서 배가 건너는 동안 하류로 몇 m 떠내려갈까요?",
+   "answer": "80",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "강물 속도 × 시간 = 4 × 20 = 80 m입니다.\n강물의 흐름은 건너는 시간에 영향을 주지 않습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "운동의 독립성",
+   "body": [
+    "서로 수직인 방향의 운동은 서로 영향을 주지 않고 독립적으로 일어납니다.",
+    "그래서 평면 운동은 x 방향과 y 방향으로 나누어 각각 풀고, 필요하면 다시 벡터로 합칩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "배가 강을 건너는 시간은 강물의 흐름과 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무관",
+      "관계없"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "강물의 속도는 강을 가로지르는 방향과 수직입니다.\n수직인 운동은 서로 독립입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "빗방울이 연직으로 10 m/s로 떨어지고 자동차가 수평으로 10 m/s로 달립니다. 자동차 안에서 본 빗방울은?",
+   "steps": [
+    "v_차,비 = v_비 − v_차입니다.",
+    "연직 아래 10 m/s와 뒤쪽 수평 10 m/s의 합입니다.",
+    "크기는 10√2 ≈ 14.1 m/s이고, 연직선과 45°로 뒤쪽에서 비스듬히 떨어지는 것처럼 보입니다."
+   ],
+   "answer": "약 14.1 m/s, 연직선과 45°"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "빗방울이 연직으로 10 m/s, 자동차가 수평으로 10 m/s로 움직입니다. 자동차 안에서 본 빗방울의 속력은 약 몇 m/s일까요?",
+   "answer": "14.1",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "두 속도가 수직입니다.",
+   "explanation": "√(10² + 10²) ≈ 14.1 m/s입니다.\n비스듬히 떨어지는 것처럼 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "위 문제에서 자동차 안에서 본 빗방울 속도의 수평 성분 크기는 몇 m/s일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "관찰자의 속도를 뺍니다.",
+   "explanation": "빗방울의 수평 속도 0에서 자동차의 속도 10을 뺍니다.\n크기는 10 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "일정한 속력으로 원을 그리며 도는 물체는 가속도가 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "있다",
+      "있습니다",
+      "0이 아니다"
+     ]
+    }
+   ],
+   "hint": "방향 변화도 속도 변화입니다.",
+   "explanation": "속도의 방향이 계속 바뀌기 때문입니다.\n가속도는 원의 중심을 향합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "북쪽으로 4 m/s로 달리던 물체가 1초 뒤 동쪽으로 3 m/s로 달립니다. 평균 가속도의 크기는 몇 m/s²일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "속도 변화량을 벡터로 구하세요.",
+   "explanation": "|Δv| = √(3² + 4²) = 5 m/s입니다.\na = 5 ÷ 1 = 5 m/s²입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "A는 동쪽으로 10 m/s, B는 북쪽으로 10 m/s로 움직입니다. A가 본 B의 속력은 약 몇 m/s일까요?",
+   "answer": "14.1",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "v_B − v_A를 벡터로 구하세요.",
+   "explanation": "v_B − v_A = 북 10 + 서 10입니다.\n크기는 √200 ≈ 14.1 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "강을 건너는 배가 건너는 데 걸리는 시간이 강물의 속력과 관계없는 이유를 설명해 보세요.",
+   "hint": "운동의 독립성을 이용하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "수직"
+     ],
+     [
+      "독립"
+     ],
+     [
+      "성분",
+      "방향"
+     ],
+     [
+      "시간",
+      "폭"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "강물의 속도는 강을 가로지르는 방향과 수직입니다. 수직인 방향의 운동은 서로 독립이므로, 건너는 시간은 강 폭을 배의 가로지르는 속도 성분으로 나눈 값으로만 정해지고 강물의 속력과는 관계없습니다. 강물은 하류로 떠내려가는 거리만 바꿉니다."
+  }
+ ]
+}

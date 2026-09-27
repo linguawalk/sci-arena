@@ -1,0 +1,156 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch01",
+  "no": 1,
+  "title": "평면 운동"
+ },
+ "review": {
+  "id": "c5-ch01-review",
+  "title": "평면 운동 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "크기가 10 N이고 x축과 37°를 이루는 힘의 x 성분은 몇 N일까요? (cos 37° = 0.8)",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "x 성분 = A cos θ입니다.",
+   "explanation": "10 × 0.8 = 8 N입니다.\ny 성분은 6 N입니다.",
+   "source_lesson": "c5-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "동쪽으로 8 m, 북쪽으로 6 m 이동했을 때 변위의 크기는 몇 m일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "피타고라스 정리를 쓰세요.",
+   "explanation": "√(8² + 6²) = 10 m입니다.\n두 변위가 직각입니다.",
+   "source_lesson": "c5-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "같은 방향으로 A는 15 m/s, B는 25 m/s로 달립니다. A가 본 B의 속력은 몇 m/s일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v_B − v_A입니다.",
+   "explanation": "25 − 15 = 10 m/s입니다.\nB가 앞으로 멀어지는 것처럼 보입니다.",
+   "source_lesson": "c5-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "폭 80 m인 강을 배가 물에 대해 건너편 쪽으로 4 m/s로 나아갑니다. 강물이 3 m/s로 흐를 때 건너는 시간은 몇 초일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "가로지르는 성분만 생각하세요.",
+   "explanation": "80 ÷ 4 = 20초입니다.\n강물 속도는 건너는 시간과 무관합니다.",
+   "source_lesson": "c5-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "처음 속도의 연직 성분이 30 m/s인 공의 최고점 높이는 몇 m일까요? (g = 10 m/s²)",
+   "answer": "45",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "H = v_y0² ÷ 2g입니다.",
+   "explanation": "H = 30² ÷ 20 = 45 m입니다.\n최고점까지 3초 걸립니다.",
+   "source_lesson": "c5-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "처음 속도의 연직 성분이 15 m/s인 공의 체공 시간은 몇 초일까요? (같은 높이로 떨어짐, g = 10 m/s²)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "최고점 도달 시간의 2배입니다.",
+   "explanation": "T = 2 × 15 ÷ 10 = 3초입니다.\n최고점까지 1.5초, 내려오는 데 1.5초입니다.",
+   "source_lesson": "c5-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "30 m/s로 45°로 던진 공의 수평 도달 거리는 몇 m일까요? (R = v₀² sin 2θ ÷ g, g = 10 m/s²)",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "sin 90° = 1입니다.",
+   "explanation": "R = 900 × 1 ÷ 10 = 90 m입니다.\n45°에서 최대입니다.",
+   "source_lesson": "c5-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "포물선 운동에서 최고점의 속도는 {{1}} 성분만 남습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수평"
+     ]
+    }
+   ],
+   "hint": "변하지 않는 성분입니다.",
+   "explanation": "연직 속도가 0이 되는 지점입니다.\n속력이 가장 작은 곳입니다.",
+   "source_lesson": "c5-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "마찰이 없는 경사각 37° 경사면에서 질량 4 kg인 물체의 가속도는 몇 m/s²일까요? (sin 37° = 0.6)",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "a = g sin θ입니다.",
+   "explanation": "a = g sin θ = 10 × 0.6 = 6 m/s²입니다.\n질량과 관계없습니다.",
+   "source_lesson": "c5-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "높이 15 m에서 10 m/s로 던진 공이 지면에 닿을 때의 속력은 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "역학적 에너지 보존을 쓰세요.",
+   "explanation": "v² = 100 + 2 × 10 × 15 = 400입니다.\nv = 20 m/s입니다.",
+   "source_lesson": "c5-ch01-l04"
+  }
+ ]
+}

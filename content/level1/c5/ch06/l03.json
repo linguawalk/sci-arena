@@ -1,0 +1,354 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch06",
+  "no": 6,
+  "title": "자기장과 교류"
+ },
+ "lesson": {
+  "id": "c5-ch06-l03",
+  "no": 3,
+  "title": "자체 유도와 상호 유도",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "스스로 변화를 거스르는 코일",
+   "body": [
+    "코일에 흐르는 전류를 갑자기 끊으면 스위치에서 불꽃이 튀기도 합니다. 코일이 전류의 변화를 거스르기 때문입니다.",
+    "코일은 자기 자신의 전류 변화에도, 옆 코일의 전류 변화에도 반응합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "코일에 흐르는 전류가 변할 때 코일 자신에 유도 기전력이 생기는 현상을 {{1}} 유도라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자체"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자기 전류가 만든 자기장의 변화가 자기 자신에 기전력을 만듭니다.\n전류 변화를 방해합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "자체 유도와 상호 유도",
+   "body": [
+    "자체 유도 기전력은 전류의 변화율에 비례합니다: ε = −L × ΔI ÷ Δt. L을 자체 유도 계수(인덕턴스)라고 하며 단위는 H(헨리)입니다. 전류 I가 흐르는 코일에 저장된 에너지는 ½LI²입니다.",
+    "두 코일을 가까이 두면 한 코일(1차)의 전류 변화가 다른 코일(2차)에 유도 기전력을 만듭니다: ε₂ = −M × ΔI₁ ÷ Δt. 이를 상호 유도라고 합니다.",
+    "변압기는 상호 유도를 이용합니다. 전압은 감은 수에 비례하고(V₁ : V₂ = N₁ : N₂), 손실이 없으면 전력이 보존되어 V₁I₁ = V₂I₂입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자체 유도 계수의 단위는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "H",
+      "헨리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "1 H는 전류가 1초에 1 A 변할 때 1 V가 유도되는 값입니다.\n미국 물리학자 헨리의 이름입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "자체 유도 계수 2 H인 코일에서 전류가 0.5초 동안 3 A 변했습니다. 자체 유도 기전력의 크기는 몇 V일까요?",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "ε = L × ΔI ÷ Δt = 2 × 3 ÷ 0.5 = 12 V입니다.\n빠르게 변할수록 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "자체 유도 계수 4 H인 코일에 3 A가 흐를 때 저장된 에너지는 몇 J일까요?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "U = ½LI² = ½ × 4 × 9 = 18 J입니다.\n자기장에 저장된 에너지입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "1차 코일 100회, 2차 코일 500회인 변압기의 1차에 20 V 교류를 걸면 2차 전압은?",
+   "steps": [
+    "V₁ : V₂ = N₁ : N₂입니다.",
+    "V₂ = 20 × 500 ÷ 100 = 100 V입니다.",
+    "감은 수가 5배이므로 전압이 5배로 높아집니다."
+   ],
+   "answer": "100 V"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1차 코일 100회, 2차 코일 500회인 변압기의 1차에 20 V를 걸면 2차 전압은 몇 V일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "V₂ = V₁ × N₂ ÷ N₁ = 20 × 5 = 100 V입니다.\n승압 변압기입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "유도 현상의 이용",
+   "body": [
+    "무선 충전기와 전기 칫솔 충전 거치대는 상호 유도로 선 없이 에너지를 보냅니다. 인덕션 레인지도 변하는 자기장으로 냄비 바닥에 유도 전류를 만들어 가열합니다.",
+    "코일은 전류의 급격한 변화를 막아, 회로에서 전류를 안정시키는 데 쓰입니다. 반대로 전류를 갑자기 끊으면 매우 큰 자체 유도 기전력이 생겨 불꽃이 튈 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "무선 충전은 두 코일 사이의 {{1}} 유도를 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상호"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "충전 패드 코일의 변하는 자기장이 휴대 전화 코일에 기전력을 만듭니다.\n선 없이 에너지를 전달합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 변압기(100회 → 500회)에서 1차 전류가 5 A이면 2차 전류는 몇 A일까요? (손실 무시)",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "V₁I₁ = V₂I₂에서 20 × 5 = 100 × I₂입니다.\nI₂ = 1 A입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "변압기는 전류의 변화가 있어야 작동하므로 {{1}}에서만 쓸 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "교류"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "직류는 전류가 일정해 자기 선속이 변하지 않습니다.\n그래서 2차 코일에 기전력이 생기지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "발전소에서 전기를 보낼 때 전압을 높이는 이유는?",
+   "steps": [
+    "같은 전력을 보낼 때 P = VI이므로 전압을 높이면 전류가 작아집니다.",
+    "송전선에서 열로 잃는 전력은 I²R입니다.",
+    "전류가 1/10이 되면 손실은 1/100이 됩니다."
+   ],
+   "answer": "전류를 줄여 손실을 줄이려고"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "유도 정리",
+   "body": [
+    "자체 유도 ε = −LΔI/Δt, 코일 에너지 ½LI². 상호 유도 ε₂ = −MΔI₁/Δt.",
+    "변압기: V₁/V₂ = N₁/N₂, V₁I₁ = V₂I₂. 교류에서만 작동합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "코일에 흐르던 전류를 갑자기 끊을 때 스위치에서 불꽃이 튀는 것은 {{1}} 유도 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자체"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전류가 급격히 줄면 매우 큰 기전력이 생깁니다.\n전류가 계속 흐르려 하기 때문입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "220 V를 11 V로 낮추는 변압기의 1차 코일이 1000회이면 2차 코일은?",
+   "steps": [
+    "N₂ = N₁ × V₂ ÷ V₁입니다.",
+    "= 1000 × 11 ÷ 220 = 50회입니다."
+   ],
+   "answer": "50회"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "220 V를 11 V로 낮추는 변압기의 1차 코일이 1000회입니다. 2차 코일은 몇 회일까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "V₁ : V₂ = N₁ : N₂입니다.",
+   "explanation": "N₂ = 1000 × 11 ÷ 220 = 50회입니다.\n전압이 1/20이므로 감은 수도 1/20입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "상호 유도 계수 0.5 H인 두 코일에서 1차 전류가 0.2초 동안 4 A 변했습니다. 2차 코일의 유도 기전력은 몇 V일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "ε₂ = MΔI₁/Δt입니다.",
+   "explanation": "ε₂ = M × ΔI₁ ÷ Δt = 0.5 × 4 ÷ 0.2 = 10 V입니다.\n상호 유도입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 코일에 흐르는 전류가 2배가 되면 저장된 에너지는 몇 배가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전류의 제곱입니다.",
+   "explanation": "U = ½LI²이므로 4배입니다.\n전류의 제곱에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "코일은 자체 유도 때문에 전류가 {{1}} 변하는 것을 방해합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "갑자기",
+      "급격히",
+      "빠르게"
+     ]
+    }
+   ],
+   "hint": "변화의 빠르기와 관계있습니다.",
+   "explanation": "전류가 빨리 변할수록 큰 기전력이 반대로 생깁니다.\n그래서 전류 변화가 완만해집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "손실 없는 변압기로 전압을 10배로 높이면 전류는 몇 배가 될까요?",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "전력이 보존됩니다.",
+   "explanation": "V₁I₁ = V₂I₂이므로 전류는 1/10 = 0.1배입니다.\n전력은 그대로입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "발전소는 송전선의 전력 손실을 줄이기 위해 변압기로 전압을 {{1}} 보냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높여"
+     ]
+    }
+   ],
+   "hint": "전류를 작게 하려면 어떻게 해야 할까요?",
+   "explanation": "전압을 높이면 전류가 작아져 I²R 손실이 줄어듭니다.\n가정 근처에서 다시 낮춥니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "변압기가 전압을 바꾸는 원리를 상호 유도와 감은 수로 설명해 보세요.",
+   "hint": "자기 선속 변화와 감은 수를 연결하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "교류"
+     ],
+     [
+      "상호 유도",
+      "자기 선속"
+     ],
+     [
+      "감은 수"
+     ],
+     [
+      "비례"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "1차 코일에 교류가 흐르면 철심 속 자기 선속이 계속 변하고, 이 변화가 상호 유도로 2차 코일에 유도 기전력을 만듭니다. 두 코일에 같은 자기 선속 변화가 있으므로 각 코일의 전압은 감은 수에 비례하여 V₁ : V₂ = N₁ : N₂가 됩니다."
+  }
+ ]
+}

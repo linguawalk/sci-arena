@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c5",
+  "chapter": {
+    "id": "c5-ch08",
+    "no": 8,
+    "title": "양자 세계"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c5-ch08-l01",
+      "title": "광자와 광전 효과",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c5-ch08-l02",
+      "title": "물질파와 전자 현미경",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c5-ch08-l03",
+      "title": "불확정성 원리",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c5-ch08-l04",
+      "title": "터널 효과와 양자 기술",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c5-ch08-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

@@ -1,0 +1,385 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch08",
+  "no": 8,
+  "title": "양자 세계"
+ },
+ "lesson": {
+  "id": "c5-ch08-l03",
+  "no": 3,
+  "title": "불확정성 원리",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "모든 것을 동시에 알 수는 없다",
+   "body": [
+    "고전 역학에서는 물체의 위치와 속도를 정확히 알면 미래를 완벽하게 예측할 수 있다고 보았습니다.",
+    "그러나 양자 세계에서는 위치와 운동량을 동시에 정확히 알 수 없다는 근본적인 한계가 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "입자의 위치와 운동량을 동시에 정확하게 측정할 수 없다는 원리를 {{1}}의 불확정성 원리라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "하이젠베르크"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "1927년 하이젠베르크가 제안했습니다.\n양자 역학의 핵심 원리입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "불확정성 원리",
+   "body": [
+    "입자 위치의 불확정성 Δx와 운동량의 불확정성 Δp의 곱은 일정한 값보다 작아질 수 없습니다: Δx × Δp ≥ h ÷ 4π.",
+    "위치를 정확히 알수록(Δx가 작을수록) 운동량은 더 불확실해집니다. 예를 들어 전자를 보려고 빛(광자)을 쏘면, 광자가 전자와 충돌해 전자의 운동량을 바꿉니다. 위치를 정확히 보려고 파장이 짧은 빛을 쓸수록 광자의 운동량이 커서 전자를 더 크게 교란합니다.",
+    "에너지와 시간 사이에도 ΔE × Δt ≥ h ÷ 4π의 관계가 있습니다. h가 매우 작아 일상의 물체에서는 이 효과가 드러나지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "입자의 위치를 정확히 알수록 운동량의 불확정성은 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Δx × Δp ≥ h/4π입니다.\n하나를 줄이면 다른 하나가 커집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위치의 불확정성 Δx를 절반으로 줄이면 운동량 불확정성 Δp의 최솟값은 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Δx × Δp의 최솟값이 일정하므로 Δp는 2배가 됩니다.\n반비례 관계입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "일상의 물체에서 불확정성이 드러나지 않는 것은 플랑크 상수가 매우 {{1}}기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "h ≈ 6.6 × 10⁻³⁴ J·s로 매우 작습니다.\n원자 규모에서만 효과가 큽니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "원자 속 전자에서 불확정성 원리가 중요한 이유는?",
+   "steps": [
+    "원자 크기는 약 10⁻¹⁰ m이므로 전자의 Δx는 이 정도입니다.",
+    "그러면 Δp ≥ h/(4π × 10⁻¹⁰) ≈ 5 × 10⁻²⁵ kg·m/s입니다.",
+    "전자의 질량이 매우 작아 속도의 불확정성이 수십만 m/s에 이릅니다. 그래서 정해진 궤도를 말할 수 없습니다."
+   ],
+   "answer": "속도의 불확정성이 매우 커 궤도를 정할 수 없다"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "확률로 기술하는 양자 세계",
+   "body": [
+    "양자 역학에서는 전자의 상태를 파동 함수로 나타내며, 파동 함수의 제곱(절댓값의 제곱)은 그 위치에서 전자를 발견할 확률을 나타냅니다.",
+    "그래서 원자 속 전자는 정해진 궤도를 도는 것이 아니라, 발견될 확률이 구름처럼 퍼져 있는 전자 구름으로 나타냅니다.",
+    "전자를 하나씩 이중 슬릿에 쏘면 각 전자는 스크린의 한 점에 찍히지만, 많이 쌓이면 간섭무늬가 나타납니다. 각 전자가 어디에 찍힐지는 확률로만 알 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자 구름은 전자를 발견할 {{1}}의 분포를 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "확률"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "구름이 진한 곳일수록 전자를 발견할 확률이 큽니다.\n정해진 궤도를 뜻하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "파동 함수의 제곱은 그 위치에서 입자를 발견할 {{1}}을 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "확률"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "보른이 제안한 해석입니다.\n양자 역학은 확률로 예측합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자를 한 개씩 이중 슬릿에 쏘아도 많이 쌓이면 {{1}}무늬가 나타납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "간섭"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자 하나하나가 파동처럼 두 슬릿을 함께 지나는 것처럼 행동합니다.\n찍히는 위치는 확률로 정해집니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "짧은 파장의 빛으로 전자의 위치를 보면 어떤 일이 생길까요?",
+   "steps": [
+    "짧은 파장의 빛은 분해능이 좋아 위치를 정확히 알 수 있습니다.",
+    "하지만 짧은 파장의 광자는 운동량(h/λ)이 커서 전자와 충돌할 때 전자의 운동량을 크게 바꿉니다.",
+    "위치는 정확해지지만 운동량은 더 불확실해집니다."
+   ],
+   "answer": "위치는 정확해지고 운동량은 불확실해진다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "불확정성 원리 정리",
+   "body": [
+    "Δx × Δp ≥ h/4π, ΔE × Δt ≥ h/4π.",
+    "불확정성은 측정 장치가 부족해서 생기는 것이 아니라 자연의 근본적인 성질입니다. 양자 역학은 결과를 확률로 예측합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "불확정성은 측정 기술의 한계가 아니라 자연의 {{1}}적인 성질입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "근본",
+      "본질"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아무리 좋은 장치로도 이 한계를 넘을 수 없습니다.\n입자의 파동성에서 비롯됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "위치 불확정성이 3배로 커지면 운동량 불확정성의 최솟값은?",
+   "steps": [
+    "Δx × Δp의 최솟값은 h/4π로 일정합니다.",
+    "Δx가 3배이면 Δp의 최솟값은 1/3배입니다."
+   ],
+   "answer": "1/3배"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "위치의 불확정성이 3배로 커지면 운동량 불확정성의 최솟값은 몇 분의 1이 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "반비례 관계입니다.",
+   "explanation": "Δp의 최솟값 ∝ 1/Δx이므로 1/3이 됩니다.\n3분의 1입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "현대 원자 모형에서는 보어의 정해진 궤도 대신 전자가 발견될 {{1}} 분포(전자 구름)로 전자의 상태를 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "확률"
+     ]
+    }
+   ],
+   "hint": "양자 역학의 예측 방식입니다.",
+   "explanation": "불확정성 원리 때문에 정확한 궤도를 말할 수 없습니다.\n오비탈이라고 부릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "광자로 전자를 관측하면 충돌 때문에 전자의 {{1}}이 변합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "운동량"
+     ]
+    }
+   ],
+   "hint": "p = mv입니다.",
+   "explanation": "관측 행위 자체가 대상을 교란합니다.\n그래서 위치와 운동량을 함께 정확히 알 수 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "전자의 위치를 더 정확히 보려고 파장이 짧은 빛을 쓰면 전자의 운동량은 더 {{1}}해집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "불확실",
+      "부정확"
+     ]
+    }
+   ],
+   "hint": "교란이 커집니다.",
+   "explanation": "짧은 파장의 광자는 운동량이 커서 전자를 세게 튕깁니다.\n위치와 운동량은 맞바꾸는 관계입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "슬릿을 좁혀 전자의 위치를 더 정확히 정하면 슬릿을 지난 전자는 더 넓게 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "퍼"
+     ]
+    }
+   ],
+   "hint": "회절이 커집니다.",
+   "explanation": "위치가 정확해진 만큼 옆 방향 운동량이 불확실해집니다.\n이것이 회절로 나타납니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "에너지–시간 불확정성에 따르면 아주 짧은 시간 동안에는 에너지의 불확정성이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커"
+     ]
+    }
+   ],
+   "hint": "반비례 관계입니다.",
+   "explanation": "ΔE × Δt ≥ h/4π입니다.\nΔt가 작으면 ΔE가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "양자 역학은 한 번의 측정 결과를 정확히 예측하지 않고 {{1}}로 예측합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "확률"
+     ]
+    }
+   ],
+   "hint": "주사위처럼 예측합니다.",
+   "explanation": "많이 측정하면 확률 분포대로 결과가 나옵니다.\n고전 역학과 가장 다른 점입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "불확정성 원리 때문에 원자 속 전자의 정해진 궤도를 말할 수 없는 이유를 설명해 보세요.",
+   "hint": "위치와 운동량을 함께 알아야 궤도를 정할 수 있습니다.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "위치"
+     ],
+     [
+      "운동량",
+      "속도"
+     ],
+     [
+      "동시"
+     ],
+     [
+      "확률",
+      "전자 구름"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "궤도를 정하려면 전자의 위치와 운동량을 동시에 정확히 알아야 하지만, 불확정성 원리에 따라 둘을 동시에 정확히 알 수 없습니다. 원자처럼 작은 공간에 갇힌 전자는 운동량의 불확정성이 매우 크므로, 정해진 궤도 대신 전자를 발견할 확률 분포(전자 구름)로 나타냅니다."
+  }
+ ]
+}

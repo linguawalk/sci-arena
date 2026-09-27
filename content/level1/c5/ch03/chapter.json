@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c5",
+  "chapter": {
+    "id": "c5-ch03",
+    "no": 3,
+    "title": "단진동과 역학적 파동"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c5-ch03-l01",
+      "title": "단진동",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c5-ch03-l02",
+      "title": "용수철 진자",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c5-ch03-l03",
+      "title": "단진자",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c5-ch03-l04",
+      "title": "파동의 에너지와 정상파",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c5-ch03-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

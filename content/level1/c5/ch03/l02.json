@@ -1,0 +1,340 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch03",
+  "no": 3,
+  "title": "단진동과 역학적 파동"
+ },
+ "lesson": {
+  "id": "c5-ch03-l02",
+  "no": 2,
+  "title": "용수철 진자",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "용수철에 매단 추",
+   "body": [
+    "용수철에 추를 매달고 당겼다 놓으면 추는 위아래로 진동합니다. 무거운 추는 천천히, 가벼운 추는 빠르게 진동합니다.",
+    "용수철 진자의 주기는 무엇으로 정해질까요?"
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "용수철의 탄성력이 늘어난 길이에 비례한다는 법칙(F = −kx)을 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "훅"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "k는 용수철 상수로 용수철이 단단할수록 큽니다.\n탄성 한계 안에서 성립합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "용수철 진자의 주기",
+   "body": [
+    "질량 m인 물체에 작용하는 복원력은 F = −kx이므로 가속도는 a = −(k/m)x입니다. 단진동의 a = −ω²x와 비교하면 ω = √(k/m)입니다.",
+    "따라서 주기는 T = 2π√(m/k)입니다. 질량이 클수록 주기가 길고, 용수철 상수가 클수록 주기가 짧습니다.",
+    "용수철 진자의 주기는 진폭과 중력 가속도에 관계없습니다. 연직으로 매달아도 수평일 때와 주기가 같습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "용수철 진자의 추 질량을 4배로 하면 주기는 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "T ∝ √m이므로 √4 = 2배입니다.\n무거울수록 천천히 진동합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "용수철 상수를 4배로 하면 주기는 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "T ∝ 1/√k이므로 1/2 = 0.5배입니다.\n단단한 용수철일수록 빠르게 진동합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 1 kg인 추를 용수철 상수 100 N/m인 용수철에 매달았습니다. 각진동수는 몇 rad/s일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "ω = √(k/m) = √100 = 10 rad/s입니다.\n주기는 2π/10 ≈ 0.63초입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질량 0.5 kg, 용수철 상수 50 N/m인 용수철 진자의 주기는?",
+   "steps": [
+    "ω = √(50 ÷ 0.5) = √100 = 10 rad/s입니다.",
+    "T = 2π ÷ ω = 2π ÷ 10 ≈ 0.628초입니다."
+   ],
+   "answer": "약 0.63초"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 4 kg, 용수철 상수 100 N/m인 용수철 진자의 주기는 약 몇 초일까요? (π = 3.14)",
+   "answer": "1.256",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "T = 2π√(4 ÷ 100) = 2π × 0.2 ≈ 1.256초입니다.\n√(m/k)를 먼저 구합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "용수철 진자의 에너지",
+   "body": [
+    "용수철을 x만큼 늘이거나 압축했을 때 저장되는 탄성 퍼텐셜 에너지는 ½kx²입니다.",
+    "진폭 A로 진동하면 양 끝에서 탄성 에너지 ½kA², 중심에서 운동 에너지 ½mv_max²이며, 두 값이 같습니다: ½kA² = ½mv_max², 곧 v_max = A√(k/m)입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "용수철 상수 200 N/m인 용수철 진자가 진폭 0.1 m로 진동합니다. 역학적 에너지는 몇 J일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "E = ½kA² = ½ × 200 × 0.01 = 1 J입니다.\n진동하는 동안 일정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 진자의 추 질량이 2 kg이면 최대 속력은 몇 m/s일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "½mv² = 1 J이므로 v² = 1, v = 1 m/s입니다.\nA√(k/m) = 0.1 × 10 = 1로도 확인됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "용수철 상수 50 N/m인 용수철을 0.2 m 늘였을 때 탄성력의 크기는 몇 N일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "F = kx = 50 × 0.2 = 10 N입니다.\n방향은 원래 길이로 되돌아가려는 쪽입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "진폭을 2배로 하면 용수철 진자의 주기와 에너지는 어떻게 될까요?",
+   "steps": [
+    "주기 T = 2π√(m/k)에는 진폭이 없으므로 주기는 변하지 않습니다.",
+    "에너지 ½kA²는 A²에 비례하므로 4배가 됩니다.",
+    "최대 속력 A√(k/m)은 2배가 됩니다."
+   ],
+   "answer": "주기는 그대로, 에너지는 4배"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "용수철 진자 정리",
+   "body": [
+    "T = 2π√(m/k): 질량이 클수록, 용수철이 부드러울수록 주기가 깁니다. 진폭과 중력 가속도와는 무관합니다.",
+    "에너지 ½kA² = ½mv_max²."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "용수철 진자를 달에 가져가도 주기는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같다",
+      "변하지 않는다",
+      "같습니다",
+      "변하지 않습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "용수철 진자의 주기는 m과 k로만 정해집니다.\n중력 가속도와 관계없습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "질량 1 kg, 용수철 상수 100 N/m인 진자가 진폭 0.2 m로 진동할 때 최대 속력은?",
+   "steps": [
+    "ω = √(100 ÷ 1) = 10 rad/s입니다.",
+    "v_max = Aω = 0.2 × 10 = 2 m/s입니다."
+   ],
+   "answer": "2 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 1 kg, 용수철 상수 100 N/m인 진자가 진폭 0.2 m로 진동합니다. 최대 속력은 몇 m/s일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "ω를 먼저 구하세요.",
+   "explanation": "v_max = A√(k/m) = 0.2 × 10 = 2 m/s입니다.\n진동 중심에서의 속력입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "용수철 진자의 주기를 2배로 만들려면 추의 질량을 몇 배로 해야 할까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "주기는 질량의 제곱근에 비례합니다.",
+   "explanation": "T ∝ √m이므로 T가 2배이려면 m이 4배여야 합니다.\n2² = 4입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "용수철 상수 100 N/m인 용수철을 0.3 m 압축했을 때 저장된 탄성 에너지는 몇 J일까요?",
+   "answer": "4.5",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "hint": "½kx²입니다.",
+   "explanation": "½kx² = ½ × 100 × 0.09 = 4.5 J입니다.\n압축해도 늘인 것과 같은 식을 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 추와 용수철을 연직으로 매단 진자의 주기는 수평으로 놓은 진자의 주기와 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같다",
+      "같습니다"
+     ]
+    }
+   ],
+   "hint": "주기 식에 g가 있는지 보세요.",
+   "explanation": "중력은 평형 위치만 바꾸고 주기는 바꾸지 않습니다.\n주기는 m과 k로만 정해집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 2 kg인 추가 최대 속력 3 m/s로 진동합니다. 용수철 진자의 역학적 에너지는 몇 J일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "진동 중심의 운동 에너지입니다.",
+   "explanation": "E = ½mv_max² = ½ × 2 × 9 = 9 J입니다.\n양 끝의 탄성 에너지와 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "용수철 상수가 큰 단단한 용수철일수록 용수철 진자의 주기가 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": "복원력이 크면 빨리 돌아옵니다.",
+   "explanation": "T ∝ 1/√k입니다.\n단단한 용수철은 복원력이 커서 빠르게 되돌아옵니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "용수철 진자의 주기를 결정하는 요인과 주기에 영향을 주지 않는 요인을 설명해 보세요.",
+   "hint": "주기 식에 들어 있는 것과 없는 것을 구분하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "질량"
+     ],
+     [
+      "용수철 상수"
+     ],
+     [
+      "진폭"
+     ],
+     [
+      "중력",
+      "무관",
+      "관계없"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "용수철 진자의 주기는 T = 2π√(m/k)이므로 추의 질량이 클수록 길고 용수철 상수가 클수록 짧습니다. 진폭과 중력 가속도는 주기에 영향을 주지 않습니다."
+  }
+ ]
+}

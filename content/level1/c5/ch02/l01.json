@@ -1,0 +1,341 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch02",
+  "no": 2,
+  "title": "원운동과 만유인력"
+ },
+ "lesson": {
+  "id": "c5-ch02-l01",
+  "no": 1,
+  "title": "등속 원운동",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "빙글빙글 도는 운동",
+   "body": [
+    "놀이공원의 회전목마, 세탁기의 탈수통, 지구 주위를 도는 달은 모두 원을 그리며 움직입니다.",
+    "일정한 속력으로 원을 도는 운동을 등속 원운동이라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "원운동하는 물체가 한 바퀴 도는 데 걸리는 시간을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "주기의 기호는 T, 단위는 초(s)입니다.\n1초 동안 도는 횟수는 진동수입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "원운동을 나타내는 양",
+   "body": [
+    "주기 T는 한 바퀴 도는 시간, 진동수 f는 1초 동안 도는 횟수로 f = 1 ÷ T입니다(단위 Hz).",
+    "한 바퀴 거리는 원둘레 2πr이므로 속력 v = 2πr ÷ T입니다.",
+    "각속도 ω는 1초 동안 회전한 각도(라디안)로 ω = 2π ÷ T이며, 속력과 v = rω의 관계가 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "진동수는 {{1}}의 역수입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "f = 1 ÷ T입니다.\n주기가 짧을수록 진동수가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "주기가 0.5초인 원운동의 진동수는 몇 Hz일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "f = 1 ÷ 0.5 = 2 Hz입니다.\n1초에 두 바퀴 돕니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "반지름 2 m인 원 위를 각속도 3 rad/s로 도는 물체의 속력은 몇 m/s일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v = rω = 2 × 3 = 6 m/s입니다.\n반지름이 클수록 같은 각속도에서 빠릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "반지름 1 m인 원을 주기 2초로 도는 물체의 속력과 각속도는?",
+   "steps": [
+    "v = 2πr ÷ T = 2π × 1 ÷ 2 = π ≈ 3.14 m/s입니다.",
+    "ω = 2π ÷ T = π ≈ 3.14 rad/s입니다.",
+    "r = 1 m이므로 v = rω로 확인됩니다."
+   ],
+   "answer": "약 3.14 m/s, 약 3.14 rad/s"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1분 동안 30바퀴 도는 물체의 주기는 몇 초일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "60초 ÷ 30바퀴 = 2초입니다.\n진동수는 0.5 Hz입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "구심 가속도",
+   "body": [
+    "등속 원운동하는 물체는 속력이 일정해도 속도의 방향이 계속 바뀌므로 가속도가 있습니다.",
+    "이 가속도는 항상 원의 중심을 향하므로 구심 가속도라고 하며, 크기는 a = v² ÷ r = rω²입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "등속 원운동하는 물체의 가속도는 항상 원의 {{1}}을 향합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중심"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "속도 변화량의 방향이 중심을 향합니다.\n그래서 구심 가속도라고 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "반지름 5 m인 원을 10 m/s로 도는 물체의 구심 가속도는 몇 m/s²일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a = v² ÷ r = 100 ÷ 5 = 20 m/s²입니다.\n중력 가속도의 2배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "반지름 2 m인 원을 각속도 3 rad/s로 도는 물체의 구심 가속도는 몇 m/s²일까요?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a = rω² = 2 × 9 = 18 m/s²입니다.\nv = 6 m/s로 v²/r로 계산해도 같습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "같은 원에서 속력을 2배로 하면 구심 가속도는?",
+   "steps": [
+    "a = v² ÷ r이므로 a는 v²에 비례합니다.",
+    "속력이 2배이면 v²은 4배입니다.",
+    "구심 가속도는 4배가 됩니다."
+   ],
+   "answer": "4배"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "등속 원운동 정리",
+   "body": [
+    "f = 1/T, v = 2πr/T = rω, ω = 2π/T, a = v²/r = rω².",
+    "속력은 일정하지만 속도의 방향이 계속 바뀌고, 가속도는 크기가 일정하며 방향은 항상 중심을 향합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "등속 원운동에서 가속도의 크기는 일정하지만 {{1}}은 계속 바뀝니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "방향"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "항상 중심을 향하므로 물체의 위치에 따라 방향이 바뀝니다.\n그래서 등가속도 운동이 아닙니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "반지름 2 m인 원을 4 m/s로 도는 물체의 주기와 구심 가속도는?",
+   "steps": [
+    "T = 2πr ÷ v = 4π ÷ 4 = π ≈ 3.14초입니다.",
+    "a = v² ÷ r = 16 ÷ 2 = 8 m/s²입니다."
+   ],
+   "answer": "약 3.14초, 8 m/s²"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "반지름 2 m인 원을 4 m/s로 도는 물체의 구심 가속도는 몇 m/s²일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "a = v² ÷ r입니다.",
+   "explanation": "a = 16 ÷ 2 = 8 m/s²입니다.\n방향은 중심을 향합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 반지름에서 속력이 2배가 되면 구심 가속도는 몇 배가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "속력의 제곱에 비례합니다.",
+   "explanation": "a ∝ v²이므로 4배입니다.\n빠르게 돌수록 훨씬 큰 힘이 필요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "반지름 0.5 m인 원을 각속도 2 rad/s로 도는 물체의 속력은 몇 m/s일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = rω입니다.",
+   "explanation": "v = rω = 0.5 × 2 = 1 m/s입니다.\n각속도가 같아도 반지름에 따라 속력이 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "원운동하던 돌의 줄이 끊어지면 돌은 원의 {{1}} 방향으로 날아갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "접선"
+     ]
+    }
+   ],
+   "hint": "순간 속도의 방향입니다.",
+   "explanation": "구심력이 사라지면 그 순간의 속도 방향으로 등속 직선 운동합니다.\n그 방향이 접선 방향입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "주기가 0.25초인 원운동의 진동수는 몇 Hz일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "주기의 역수입니다.",
+   "explanation": "f = 1 ÷ 0.25 = 4 Hz입니다.\n1초에 4바퀴 돕니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "반지름 3 m인 원을 6 m/s로 도는 물체의 각속도는 몇 rad/s일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = rω를 이용하세요.",
+   "explanation": "ω = v ÷ r = 6 ÷ 3 = 2 rad/s입니다.\nv = rω를 변형했습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "속력이 일정한 등속 원운동에서도 가속도가 있는 이유와 그 가속도의 방향을 설명해 보세요.",
+   "hint": "속도의 어떤 요소가 변하는지 생각하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "방향"
+     ],
+     [
+      "속도"
+     ],
+     [
+      "중심"
+     ],
+     [
+      "v²",
+      "구심"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "등속 원운동에서는 속력은 일정하지만 운동 방향이 계속 바뀌므로 속도가 변하고, 따라서 가속도가 있습니다. 이 가속도는 항상 원의 중심을 향하는 구심 가속도이며 크기는 v² ÷ r입니다."
+  }
+ ]
+}

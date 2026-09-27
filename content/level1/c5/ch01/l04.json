@@ -1,0 +1,345 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch01",
+  "no": 1,
+  "title": "평면 운동"
+ },
+ "lesson": {
+  "id": "c5-ch01-l04",
+  "no": 4,
+  "title": "경사면 운동과 에너지",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "미끄럼틀의 물리",
+   "body": [
+    "미끄럼틀이 가파를수록 더 빨리 미끄러져 내려옵니다. 경사면 위에서는 중력의 일부만 물체를 내려보냅니다.",
+    "힘을 경사면에 나란한 방향과 수직인 방향으로 나누면 경사면 운동을 쉽게 다룰 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "마찰이 없는 경사각 θ의 경사면에서 물체의 가속도 크기는 g {{1}} θ입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "sin",
+      "사인"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "중력의 경사면 방향 성분이 mg sin θ이기 때문입니다.\n질량과 관계없습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "경사면에서 힘의 분해",
+   "body": [
+    "경사각 θ인 경사면 위의 물체에 작용하는 중력 mg는 경사면에 나란한 성분 mg sin θ와 경사면에 수직인 성분 mg cos θ로 나눌 수 있습니다.",
+    "경사면에 수직인 방향으로는 수직항력 N이 mg cos θ와 평형을 이룹니다: N = mg cos θ.",
+    "마찰이 없으면 경사면 방향의 알짜힘은 mg sin θ이므로 가속도는 a = g sin θ입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "마찰이 없는 경사각 30° 경사면에서 물체의 가속도는 몇 m/s²일까요? (g = 10 m/s²)",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a = g sin 30° = 10 × 0.5 = 5 m/s²입니다.\n물체의 질량과 관계없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 2 kg인 물체가 경사각 30°인 경사면 위에 있습니다. 중력의 경사면 방향 성분은 몇 N일까요? (g = 10 m/s²)",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "mg sin 30° = 2 × 10 × 0.5 = 10 N입니다.\n이 힘이 물체를 경사면 아래로 끌어내립니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "마찰이 없는 경사각 37° 경사면에서 물체의 가속도는 몇 m/s²일까요? (sin 37° = 0.6)",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a = 10 × 0.6 = 6 m/s²입니다.\n경사각이 클수록 가속도가 큽니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질량 5 kg인 물체가 경사각 37°인 매끄러운 경사면에 있을 때 수직항력과 가속도는?",
+   "steps": [
+    "수직항력 N = mg cos 37° = 5 × 10 × 0.8 = 40 N입니다.",
+    "경사면 방향 힘 = mg sin 37° = 5 × 10 × 0.6 = 30 N입니다.",
+    "가속도 = 30 ÷ 5 = 6 m/s²입니다."
+   ],
+   "answer": "수직항력 40 N, 가속도 6 m/s²"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "마찰력",
+   "body": [
+    "운동 마찰력의 크기는 수직항력에 비례합니다: f = μN (μ: 운동 마찰 계수). 마찰력은 운동을 방해하는 방향, 곧 운동 방향의 반대로 작용합니다.",
+    "경사면을 미끄러져 내려오는 물체에는 mg sin θ가 아래로, μmg cos θ가 위로 작용하므로 가속도는 a = g(sin θ − μ cos θ)입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "경사각 37°, 운동 마찰 계수 0.5인 경사면을 미끄러져 내려오는 물체의 가속도는 몇 m/s²일까요? (sin 37° = 0.6, cos 37° = 0.8)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a = 10 × (0.6 − 0.5 × 0.8) = 10 × 0.2 = 2 m/s²입니다.\n마찰 때문에 가속도가 6에서 2로 줄었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "수평면에서 질량 2 kg인 물체가 미끄러질 때 운동 마찰 계수가 0.3이면 마찰력은 몇 N일까요? (g = 10 m/s²)",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "수평면에서 N = mg = 20 N입니다.\nf = 0.3 × 20 = 6 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "운동 마찰력은 물체의 운동 방향과 {{1}} 방향으로 작용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반대"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "마찰력은 운동을 방해합니다.\n그래서 운동 방향의 반대로 작용합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "평면 운동과 역학적 에너지",
+   "body": [
+    "마찰과 공기 저항이 없으면 물체가 곡선이나 비스듬한 경로로 움직여도 역학적 에너지가 보존됩니다: ½mv² + mgh = 일정.",
+    "그래서 어떤 높이에서의 속력은 경로나 던진 방향과 관계없이 높이 차이만으로 정해집니다: v² = v₀² − 2gh(올라갈 때) 또는 v² = v₀² + 2gh(내려갈 때)."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "20 m/s로 비스듬히 던진 공이 높이 15 m를 지날 때의 속력은?",
+   "steps": [
+    "역학적 에너지 보존: ½v₀² = ½v² + gh입니다.",
+    "v² = 400 − 2 × 10 × 15 = 100입니다.",
+    "v = 10 m/s입니다. 던진 각도와 관계없습니다."
+   ],
+   "answer": "10 m/s"
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "마찰이 없을 때 같은 높이에서 같은 속력으로 던진 공은 던진 방향과 관계없이 같은 높이에서 속력이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같다",
+      "같습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "역학적 에너지가 보존되기 때문입니다.\n속력은 높이 차이로만 정해집니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "높이 20 m에서 10 m/s로 던진 공이 지면에 닿을 때의 속력은 약 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "22.4",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": null,
+   "explanation": "v² = 10² + 2 × 10 × 20 = 500입니다.\nv = √500 ≈ 22.4 m/s입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "경사각 30°인 매끄러운 경사면 꼭대기에서 정지 상태로 출발한 물체가 10 m를 미끄러져 내려왔을 때의 속력은?",
+   "steps": [
+    "가속도 a = 10 × 0.5 = 5 m/s²입니다.",
+    "v² = 2as = 2 × 5 × 10 = 100입니다.",
+    "v = 10 m/s입니다. 높이 5 m를 내려온 것과 같습니다."
+   ],
+   "answer": "10 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "경사각 30°인 매끄러운 경사면을 정지 상태에서 40 m 미끄러져 내려오면 속력은 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v² = 2as를 쓰세요.",
+   "explanation": "a = 5 m/s², v² = 2 × 5 × 40 = 400입니다.\nv = 20 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 2 kg인 물체가 경사각 37°인 경사면에 놓여 있습니다. 수직항력은 몇 N일까요? (cos 37° = 0.8, g = 10 m/s²)",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "경사면에 수직인 성분입니다.",
+   "explanation": "N = mg cos 37° = 2 × 10 × 0.8 = 16 N입니다.\n수평면에서의 20 N보다 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "마찰이 없는 경사각 60° 경사면에서 물체의 가속도는 약 몇 m/s²일까요? (sin 60° ≈ 0.866)",
+   "answer": "8.66",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "hint": "a = g sin θ입니다.",
+   "explanation": "a = 10 × 0.866 ≈ 8.66 m/s²입니다.\n90°이면 자유 낙하로 10 m/s²가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "마찰이 없는 경사면에서 경사각이 커질수록 물체의 가속도는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커"
+     ]
+    }
+   ],
+   "hint": "sin θ의 변화를 생각하세요.",
+   "explanation": "sin θ가 커지기 때문입니다.\n가파른 미끄럼틀이 더 빠릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "20 m/s로 비스듬히 던진 공이 높이 15 m를 지날 때의 속력은 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "역학적 에너지 보존을 쓰세요.",
+   "explanation": "v² = 400 − 2 × 10 × 15 = 100입니다.\nv = 10 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "마찰이 있으면 역학적 에너지의 일부가 열로 바뀌어 역학적 에너지는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "hint": "열로 빠져나갑니다.",
+   "explanation": "마찰력이 한 일만큼 역학적 에너지가 줄어듭니다.\n전체 에너지는 보존됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "경사면 위 물체에 작용하는 중력을 두 성분으로 나누고, 각 성분이 하는 역할을 설명해 보세요.",
+   "hint": "두 성분의 식과 역할을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "sin"
+     ],
+     [
+      "cos"
+     ],
+     [
+      "수직항력"
+     ],
+     [
+      "가속",
+      "경사면 아래",
+      "미끄러"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "중력 mg는 경사면에 나란한 성분 mg sin θ와 수직인 성분 mg cos θ로 나눌 수 있습니다. 나란한 성분은 물체를 경사면 아래로 가속시키고, 수직인 성분은 수직항력 N과 평형을 이루므로 N = mg cos θ입니다."
+  }
+ ]
+}

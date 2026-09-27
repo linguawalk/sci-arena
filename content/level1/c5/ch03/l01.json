@@ -1,0 +1,362 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch03",
+  "no": 3,
+  "title": "단진동과 역학적 파동"
+ },
+ "lesson": {
+  "id": "c5-ch03-l01",
+  "no": 1,
+  "title": "단진동",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "같은 모양으로 반복되는 운동",
+   "body": [
+    "용수철에 매단 추, 그네, 기타 줄은 한 점을 중심으로 같은 모양의 왕복 운동을 되풀이합니다.",
+    "이런 운동 가운데 가장 기본이 되는 것이 단진동입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "변위에 비례하고 변위와 반대 방향으로 작용하는 복원력을 받아 일어나는 왕복 운동을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단진동"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "복원력 F = −kx 꼴입니다.\n용수철 진자와 진폭이 작은 단진자가 대표적입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "단진동의 특징",
+   "body": [
+    "등속 원운동하는 물체에 옆에서 빛을 비추면 그림자는 한 직선 위에서 단진동을 합니다. 그래서 단진동의 변위는 x = A sin ωt로 나타낼 수 있습니다. A는 진폭, ω는 각진동수(ω = 2π/T)입니다.",
+    "단진동의 가속도는 a = −ω²x로 변위에 비례하고 변위와 반대 방향입니다. 그래서 진동 중심(x = 0)에서 가속도가 0이고, 양 끝(x = ±A)에서 가속도 크기가 최대 Aω²입니다.",
+    "속력은 반대로 진동 중심에서 최대 Aω이고, 양 끝에서 0입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "단진동하는 물체의 가속도는 변위와 {{1}} 방향입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반대"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "a = −ω²x이므로 항상 진동 중심을 향합니다.\n그래서 물체가 중심으로 되돌아옵니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "단진동하는 물체의 속력은 진동 {{1}}에서 가장 큽니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중심"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "중심에서 위치 에너지가 가장 작고 운동 에너지가 가장 큽니다.\n양 끝에서는 속력이 0입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "진폭 0.2 m, 각진동수 5 rad/s로 단진동하는 물체의 최대 속력은 몇 m/s일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v_max = Aω = 0.2 × 5 = 1 m/s입니다.\n진동 중심에서의 속력입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "진폭 0.2 m, 각진동수 5 rad/s로 단진동하는 물체의 최대 가속도는 몇 m/s²일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a_max = Aω² = 0.2 × 25 = 5 m/s²입니다.\n양 끝에서의 가속도입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "변위가 x = 0.1 sin 2t(m)인 단진동의 진폭, 각진동수, 주기는?",
+   "steps": [
+    "x = A sin ωt와 비교하면 A = 0.1 m, ω = 2 rad/s입니다.",
+    "T = 2π ÷ ω = 2π ÷ 2 = π ≈ 3.14초입니다."
+   ],
+   "answer": "0.1 m, 2 rad/s, 약 3.14초"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "단진동의 에너지",
+   "body": [
+    "단진동하는 물체의 운동 에너지와 위치 에너지는 계속 서로 바뀌지만, 마찰이 없으면 두 에너지의 합인 역학적 에너지는 일정합니다.",
+    "진동 중심에서는 운동 에너지가 최대이고, 양 끝에서는 운동 에너지가 0이고 위치 에너지가 최대입니다.",
+    "단진동의 주기는 진폭과 관계없이 일정합니다(등시성)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "마찰이 없는 단진동에서 역학적 에너지는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일정"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "운동 에너지와 위치 에너지가 서로 전환됩니다.\n합은 변하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "단진동의 양 끝에서 운동 에너지는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "양 끝에서는 순간적으로 멈춥니다.\n위치 에너지가 최대입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "주기가 2초인 단진동의 진동수는 몇 Hz일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "f = 1 ÷ T = 0.5 Hz입니다.\n1초에 반 번 왕복합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "단진동하는 물체의 변위가 진폭의 절반일 때 가속도의 크기는 최댓값의 몇 배일까요?",
+   "steps": [
+    "가속도는 변위에 비례합니다: |a| = ω²|x|.",
+    "x = A/2이면 |a| = ω²A/2입니다.",
+    "최대 가속도 ω²A의 1/2배입니다."
+   ],
+   "answer": "1/2배"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "단진동 정리",
+   "body": [
+    "x = A sin ωt, ω = 2π/T. 가속도 a = −ω²x (중심에서 0, 양 끝에서 최대 Aω²).",
+    "속력: 중심에서 최대 Aω, 양 끝에서 0. 역학적 에너지 일정, 주기는 진폭과 무관."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "등속 원운동하는 물체의 그림자는 {{1}} 운동을 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단진동"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원운동의 한 방향 성분이 단진동입니다.\n그래서 원운동의 식으로 단진동을 다룹니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "진폭 0.5 m, 주기 2π초인 단진동의 최대 속력은?",
+   "steps": [
+    "ω = 2π ÷ T = 1 rad/s입니다.",
+    "v_max = Aω = 0.5 × 1 = 0.5 m/s입니다."
+   ],
+   "answer": "0.5 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "진폭 0.5 m, 주기 2π초인 단진동의 최대 속력은 몇 m/s일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "ω = 2π ÷ T를 먼저 구하세요.",
+   "explanation": "ω = 1 rad/s이므로 v_max = 0.5 × 1 = 0.5 m/s입니다.\n진동 중심에서의 속력입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "각진동수 10 rad/s인 단진동에서 변위가 0.1 m일 때 가속도의 크기는 몇 m/s²일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "a = −ω²x입니다.",
+   "explanation": "|a| = ω²x = 100 × 0.1 = 10 m/s²입니다.\n방향은 중심을 향합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "단진동의 진동 중심에서 가속도는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": "a = −ω²x에 x = 0을 넣으세요.",
+   "explanation": "변위가 0이므로 가속도도 0입니다.\n속력은 최대입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "진폭 4 cm인 단진동에서 물체가 한 주기 동안 움직인 거리는 몇 cm일까요?",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "진폭의 몇 배인지 생각하세요.",
+   "explanation": "한 주기 동안 중심 → 끝 → 중심 → 반대 끝 → 중심으로 4A를 움직입니다.\n4 × 4 = 16 cm입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "단진동의 주기는 진폭과 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무관",
+      "관계없"
+     ]
+    }
+   ],
+   "hint": "등시성을 떠올리세요.",
+   "explanation": "진폭이 커져도 주기는 같습니다(등시성).\n시계에 이용됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "주기가 0.5초인 단진동은 1분 동안 몇 번 왕복할까요?",
+   "answer": "120",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1분은 60초입니다.",
+   "explanation": "60 ÷ 0.5 = 120번입니다.\n진동수 2 Hz입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "단진동에서 속력과 가속도의 크기가 각각 가장 큰 위치와 그 이유를 설명해 보세요.",
+   "hint": "속력과 가속도를 나누어 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "중심"
+     ],
+     [
+      "양 끝",
+      "끝"
+     ],
+     [
+      "속력"
+     ],
+     [
+      "가속도"
+     ],
+     [
+      "변위",
+      "운동 에너지",
+      "위치 에너지"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "속력은 진동 중심에서 가장 큰데, 이곳에서 위치 에너지가 가장 작고 운동 에너지가 가장 크기 때문입니다. 가속도의 크기는 양 끝에서 가장 큰데, 가속도가 변위에 비례하고 양 끝에서 변위가 가장 크기 때문입니다."
+  }
+ ]
+}

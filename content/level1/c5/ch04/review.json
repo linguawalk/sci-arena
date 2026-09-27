@@ -1,0 +1,161 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch04",
+  "no": 4,
+  "title": "열역학과 유체"
+ },
+ "review": {
+  "id": "c5-ch04-review",
+  "title": "열역학과 유체 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "온도가 일정할 때 기체의 압력을 3배로 하면 부피는 몇 분의 1이 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "PV = 일정입니다.",
+   "explanation": "보일 법칙에 따라 PV가 일정합니다.\n부피는 1/3이 됩니다.",
+   "source_lesson": "c5-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "같은 온도에서 분자의 질량이 4배인 기체의 평균 속력은 몇 배일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "평균 운동 에너지가 같습니다.",
+   "explanation": "v ∝ 1/√m이므로 1/2 = 0.5배입니다.\n평균 운동 에너지는 같습니다.",
+   "source_lesson": "c5-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "기체의 절대 온도가 3배가 되면 분자의 평균 운동 에너지는 몇 배가 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "절대 온도에 비례합니다.",
+   "explanation": "Eₖ ∝ T이므로 3배입니다.\n섭씨온도가 아닌 절대 온도입니다.",
+   "source_lesson": "c5-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "압력 3 × 10⁵ Pa로 일정하게 유지하며 기체가 0.002 m³ 팽창했습니다. 기체가 한 일은 몇 J일까요?",
+   "answer": "600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "W = PΔV입니다.",
+   "explanation": "W = PΔV = 3 × 10⁵ × 0.002 = 600 J입니다.\nP–V 그래프 아래 넓이입니다.",
+   "source_lesson": "c5-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "열의 출입이 없는 과정을 {{1}} 과정이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단열"
+     ]
+    }
+   ],
+   "hint": "열을 끊는다는 뜻입니다.",
+   "explanation": "Q = 0이므로 W = −ΔU입니다.\n팽창하면 온도가 내려갑니다.",
+   "source_lesson": "c5-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "등압 과정에서 기체에 800 J의 열을 가했더니 기체가 300 J의 일을 했습니다. 내부 에너지 증가량은 몇 J일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Q = ΔU + W입니다.",
+   "explanation": "ΔU = Q − W = 800 − 300 = 500 J입니다.\n열역학 제1법칙입니다.",
+   "source_lesson": "c5-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "부피 0.005 m³인 물체가 물속에 완전히 잠겨 있습니다. 부력은 몇 N일까요? (ρ = 1000 kg/m³, g = 10 m/s²)",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "B = ρVg입니다.",
+   "explanation": "B = 1000 × 0.005 × 10 = 50 N입니다.\n밀어낸 물의 무게입니다.",
+   "source_lesson": "c5-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "유압기의 두 피스톤 면적 비가 1 : 50입니다. 작은 피스톤에 20 N을 가하면 큰 피스톤은 몇 N의 힘을 낼까요?",
+   "answer": "1000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "면적에 비례합니다.",
+   "explanation": "F₂ = 20 × 50 = 1000 N입니다.\n파스칼 원리입니다.",
+   "source_lesson": "c5-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "단면적 6 cm²인 관에서 1 m/s로 흐르던 물이 단면적 2 cm²인 곳을 지날 때 속력은 몇 m/s일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "A₁v₁ = A₂v₂입니다.",
+   "explanation": "v₂ = 6 × 1 ÷ 2 = 3 m/s입니다.\n연속 방정식입니다.",
+   "source_lesson": "c5-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "같은 높이에서 흐르는 유체의 속력이 빠를수록 압력이 낮아진다는 법칙을 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "베르누이"
+     ]
+    }
+   ],
+   "hint": "스위스 과학자의 이름입니다.",
+   "explanation": "P + ½ρv² + ρgh = 일정입니다.\n비행기의 양력을 설명합니다.",
+   "source_lesson": "c5-ch04-l04"
+  }
+ ]
+}

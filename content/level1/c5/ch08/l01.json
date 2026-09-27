@@ -1,0 +1,353 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch08",
+  "no": 8,
+  "title": "양자 세계"
+ },
+ "lesson": {
+  "id": "c5-ch08-l01",
+  "no": 1,
+  "title": "광자와 광전 효과",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "빛의 알갱이",
+   "body": [
+    "빛은 간섭과 회절을 하는 파동이지만, 금속에 빛을 비출 때 전자가 튀어나오는 현상은 파동으로 설명할 수 없었습니다.",
+    "아인슈타인은 빛이 에너지 덩어리의 흐름이라고 보아 이 문제를 풀었습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "빛을 이루는 에너지 알갱이를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "광자"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "광자 하나의 에너지는 진동수에 비례합니다.\n아인슈타인이 광양자설로 제안했습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "광자의 에너지",
+   "body": [
+    "진동수 f인 빛의 광자 하나의 에너지는 E = hf입니다. h는 플랑크 상수(약 6.6 × 10⁻³⁴ J·s)입니다.",
+    "c = fλ이므로 E = hc ÷ λ로도 쓸 수 있습니다. 원자 규모에서는 에너지를 eV로 나타내면 편리하며, hc ≈ 1240 eV·nm이므로 E(eV) = 1240 ÷ λ(nm)입니다.",
+    "진동수가 클수록(파장이 짧을수록) 광자 하나의 에너지가 큽니다. 그래서 자외선은 피부를 태우지만 적외선은 그렇지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "빛의 진동수가 클수록 광자 하나의 에너지가 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "E = hf입니다.\n파장이 짧을수록 에너지가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "파장 620 nm인 빨간빛 광자의 에너지는 몇 eV일까요? (hc = 1240 eV·nm)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "E = 1240 ÷ 620 = 2 eV입니다.\n가시광선 광자는 1.6~3.1 eV 정도입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "파장 400 nm인 보랏빛 광자의 에너지는 몇 eV일까요? (hc = 1240 eV·nm)",
+   "answer": "3.1",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "hint": null,
+   "explanation": "E = 1240 ÷ 400 = 3.1 eV입니다.\n빨간빛보다 에너지가 큽니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "진동수 5 × 10¹⁴ Hz인 빛의 광자 에너지는 몇 J일까요? (h = 6.6 × 10⁻³⁴ J·s)",
+   "steps": [
+    "E = hf = 6.6 × 10⁻³⁴ × 5 × 10¹⁴입니다.",
+    "= 3.3 × 10⁻¹⁹ J입니다.",
+    "1 eV = 1.6 × 10⁻¹⁹ J이므로 약 2.1 eV입니다."
+   ],
+   "answer": "3.3 × 10⁻¹⁹ J"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "광전 효과",
+   "body": [
+    "금속에서 전자 하나를 떼어 내는 데 필요한 최소 에너지를 일함수 W라고 합니다. 광자 한 개가 전자 한 개에 에너지를 주므로, 튀어나온 광전자의 최대 운동 에너지는 Eₖ = hf − W입니다.",
+    "hf < W이면 빛이 아무리 세도 광전자가 나오지 않습니다. 광전자가 나오는 최소 진동수를 문턱 진동수 f₀ = W ÷ h라고 합니다.",
+    "빛의 세기를 키우면 광자의 수가 늘어 광전자의 수가 늘지만, 광전자의 최대 운동 에너지는 변하지 않습니다. 광전자를 멈추게 하는 정지 전압 V_s는 eV_s = Eₖ,max를 만족합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "문턱 진동수보다 큰 빛의 세기를 키우면 튀어나오는 광전자의 {{1}}가 늘어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세기가 크면 광자가 많아집니다.\n광전자 하나의 최대 에너지는 그대로입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "에너지 5 eV인 광자를 일함수 2 eV인 금속에 비추면 광전자의 최대 운동 에너지는 몇 eV일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Eₖ = hf − W = 5 − 2 = 3 eV입니다.\n나머지는 전자를 떼어 내는 데 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 광전자를 멈추게 하는 정지 전압은 몇 V일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "eV_s = 3 eV이므로 V_s = 3 V입니다.\n최대 운동 에너지를 전압으로 나타낸 것입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "일함수 2.48 eV인 금속의 문턱 파장은 몇 nm일까요? (hc = 1240 eV·nm)",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "λ₀ = 1240 ÷ 2.48 = 500 nm입니다.\n이보다 긴 파장의 빛으로는 광전자가 나오지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "빛의 파동설로 광전 효과를 설명할 수 없었던 이유는?",
+   "steps": [
+    "파동설에 따르면 빛이 세면 에너지가 커서 어떤 진동수로도 전자가 나와야 합니다.",
+    "하지만 실제로는 문턱 진동수보다 작으면 아무리 센 빛도 전자를 떼어 내지 못했습니다.",
+    "광자설은 광자 하나의 에너지 hf가 일함수보다 커야 한다고 설명합니다."
+   ],
+   "answer": "문턱 진동수의 존재를 설명하지 못했다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "광자의 운동량과 콤프턴 효과",
+   "body": [
+    "광자는 질량이 없지만 운동량 p = h ÷ λ를 가집니다.",
+    "콤프턴은 X선을 전자에 쏘았을 때 산란된 X선의 파장이 길어지는 것을 발견했습니다. 광자가 전자와 당구공처럼 충돌해 에너지와 운동량의 일부를 전자에 주었기 때문입니다. 이는 빛의 입자성을 보여 주는 또 하나의 증거입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "콤프턴 효과에서 전자와 충돌한 뒤 산란된 X선의 파장은 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "길어"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "광자가 전자에 에너지를 주어 에너지가 줄었습니다.\n에너지가 줄면 파장이 길어집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "일함수 2 eV인 금속에 파장 248 nm인 자외선을 비추면 광전자의 최대 운동 에너지는?",
+   "steps": [
+    "광자 에너지 = 1240 ÷ 248 = 5 eV입니다.",
+    "Eₖ = 5 − 2 = 3 eV입니다."
+   ],
+   "answer": "3 eV"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "에너지 4 eV인 광자를 일함수 4.5 eV인 금속에 아무리 세게 비추어도 튀어나오는 광전자는 몇 개일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "hf와 W를 비교하세요.",
+   "explanation": "광자 에너지가 일함수보다 작으므로 전자가 나오지 않습니다.\n세기와 관계없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "빛의 진동수가 2배가 되면 광자 하나의 에너지는 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "E = hf입니다.",
+   "explanation": "E = hf이므로 2배입니다.\n진동수에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "문턱 진동수보다 작은 진동수의 빛은 세기를 아무리 키워도 광전자가 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "나오지 않는다",
+      "나오지 않습니다",
+      "방출되지 않는다"
+     ]
+    }
+   ],
+   "hint": "광자 하나의 에너지가 부족합니다.",
+   "explanation": "광자 하나의 에너지가 일함수보다 작습니다.\n광자를 여러 개 모아 쓸 수 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "파장 310 nm인 자외선 광자의 에너지는 몇 eV일까요? (hc = 1240 eV·nm)",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "E = 1240 ÷ λ입니다.",
+   "explanation": "E = 1240 ÷ 310 = 4 eV입니다.\n가시광선보다 에너지가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "광자의 파장이 짧을수록 운동량이 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": "p = h/λ입니다.",
+   "explanation": "p = h/λ입니다.\nX선, 감마선의 광자는 운동량이 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "일함수 2 eV인 금속에 파장 248 nm인 빛을 비추면 광전자의 최대 운동 에너지는 몇 eV일까요? (hc = 1240 eV·nm)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "광자 에너지를 먼저 구하세요.",
+   "explanation": "광자 에너지 = 1240 ÷ 248 = 5 eV입니다.\nEₖ = 5 − 2 = 3 eV입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "광전 효과를 광자설로 설명하고, 빛의 세기와 진동수가 각각 무엇에 영향을 주는지 말해 보세요.",
+   "hint": "진동수와 세기의 역할을 나누어 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "광자"
+     ],
+     [
+      "hf",
+      "진동수"
+     ],
+     [
+      "일함수",
+      "문턱"
+     ],
+     [
+      "세기",
+      "수"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "빛은 에너지 hf를 가진 광자의 흐름이며, 광자 하나가 전자 하나에 에너지를 줍니다. 광자 에너지가 일함수보다 커야 전자가 튀어나오므로 문턱 진동수가 있고, 진동수가 클수록 광전자의 최대 운동 에너지가 커집니다. 빛의 세기는 광자의 수를 늘려 광전자의 수만 늘립니다."
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch06",
+  "no": 6,
+  "title": "자기장과 교류"
+ },
+ "lesson": {
+  "id": "c5-ch06-l02",
+  "no": 2,
+  "title": "전자기 유도와 유도 기전력",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "움직이는 자석이 만드는 전기",
+   "body": [
+    "코일 가까이에서 자석을 움직이면 전지가 없어도 코일에 전류가 흐릅니다. 발전소의 발전기, 교통 카드, 무선 충전기가 모두 이 원리를 씁니다.",
+    "이번에는 유도 기전력의 크기를 계산해 봅시다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "코일을 지나는 자기 선속이 변하면 유도 기전력이 생긴다는 법칙을 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "패러데이"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자기 선속이 빠르게 변할수록 유도 기전력이 큽니다.\n코일의 감은 수에도 비례합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "자기 선속과 유도 기전력",
+   "body": [
+    "자기장 B에 수직인 면적 A를 지나는 자기력선의 양을 자기 선속이라고 합니다: Φ = BA(단위 Wb).",
+    "감은 수 N인 코일의 유도 기전력은 ε = −N × ΔΦ ÷ Δt입니다(패러데이 법칙). 부호 (−)는 유도 전류가 자기 선속의 변화를 방해하는 방향으로 흐른다는 뜻입니다(렌츠 법칙).",
+    "자기장 B 속에서 길이 L인 도체 막대가 자기장에 수직으로 속력 v로 움직이면 유도 기전력은 ε = BLv입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "유도 전류는 자기 선속의 변화를 방해하는 방향으로 흐른다는 법칙을 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "렌츠"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "변화를 거스르는 방향입니다.\n에너지 보존 법칙과 맞아떨어집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "세기 0.2 T인 자기장에 수직인 면적 0.5 m²를 지나는 자기 선속은 몇 Wb일까요?",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": null,
+   "explanation": "Φ = BA = 0.2 × 0.5 = 0.1 Wb입니다.\n자기력선의 양입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "감은 수 100인 코일을 지나는 자기 선속이 0.5초 동안 0.02 Wb 변했습니다. 유도 기전력의 크기는 몇 V일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "ε = N × ΔΦ ÷ Δt = 100 × 0.02 ÷ 0.5 = 4 V입니다.\n빨리 변할수록 커집니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "감은 수 50인 코일(면적 0.1 m²)을 지나는 자기장이 0.2초 동안 0에서 0.4 T로 커지면 유도 기전력은?",
+   "steps": [
+    "ΔΦ = ΔB × A = 0.4 × 0.1 = 0.04 Wb입니다.",
+    "ε = 50 × 0.04 ÷ 0.2 = 10 V입니다."
+   ],
+   "answer": "10 V"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "세기 0.5 T인 자기장 속에서 길이 0.4 m인 도체 막대가 자기장에 수직으로 10 m/s로 움직입니다. 유도 기전력은 몇 V일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "ε = BLv = 0.5 × 0.4 × 10 = 2 V입니다.\n막대가 쓸고 지나가는 면적이 늘어나기 때문입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "도체 막대 회로와 에너지",
+   "body": [
+    "도체 막대가 레일 위를 움직이며 저항 R인 회로를 이루면 유도 전류 I = BLv ÷ R이 흐릅니다.",
+    "이 전류가 흐르는 막대는 자기장으로부터 F = BIL의 힘을 받는데, 렌츠 법칙에 따라 이 힘은 막대의 운동을 방해하는 방향입니다. 막대를 계속 움직이려면 외부에서 일을 해야 하고, 그 일이 전기 에너지로 바뀝니다. 이것이 발전기의 원리입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "유도 전류가 흐르는 도체 막대가 자기장에서 받는 힘은 막대의 운동을 {{1}}하는 방향입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "방해"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "렌츠 법칙 때문입니다.\n그래서 전기를 얻으려면 일을 해야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "유도 기전력 2 V인 도체 막대 회로의 저항이 4 Ω이면 유도 전류는 몇 A일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "I = ε ÷ R = 2 ÷ 4 = 0.5 A입니다.\n옴의 법칙입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자석의 N극을 코일에 가까이 가져가면 코일의 자석 쪽 끝은 {{1}}극이 되어 자석을 밀어냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "N"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "다가오는 것을 방해하려면 밀어내야 합니다.\n렌츠 법칙입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "렌츠 법칙이 에너지 보존 법칙과 관계있는 이유는?",
+   "steps": [
+    "유도 전류가 변화를 도와주는 방향이라면 자석이 저절로 더 빨라지고 전류도 커질 것입니다.",
+    "그러면 아무 일도 하지 않고 에너지가 계속 생기므로 에너지 보존에 어긋납니다.",
+    "실제로는 변화를 방해하므로 외부에서 한 일만큼만 전기 에너지가 생깁니다."
+   ],
+   "answer": "변화를 방해해야 에너지가 보존된다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전자기 유도 정리",
+   "body": [
+    "Φ = BA, ε = −NΔΦ/Δt(패러데이 법칙, 렌츠 법칙), 움직이는 막대 ε = BLv.",
+    "유도 전류는 변화를 방해하므로, 발전기에서 외부가 한 일이 전기 에너지로 바뀝니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "자기 선속의 단위는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Wb",
+      "웨버"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "1 Wb = 1 T·m²입니다.\n독일 물리학자 베버의 이름입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "도체 막대의 속력을 2배로 하면 유도 기전력은?",
+   "steps": [
+    "ε = BLv이므로 v에 비례합니다.",
+    "유도 기전력은 2배가 됩니다."
+   ],
+   "answer": "2배"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "감은 수 50, 면적 0.1 m²인 코일을 지나는 자기장이 0.2초 동안 0에서 0.4 T로 변했습니다. 유도 기전력의 크기는 몇 V일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "ΔΦ = ΔB × A입니다.",
+   "explanation": "ΔΦ = 0.04 Wb, ε = 50 × 0.04 ÷ 0.2 = 10 V입니다.\n패러데이 법칙입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "자기장 속에서 도체 막대의 속력을 2배로 하면 유도 기전력은 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "ε ∝ v입니다.",
+   "explanation": "ε = BLv이므로 2배입니다.\n빠르게 움직일수록 전기가 많이 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "자석을 코일 안에 넣고 가만히 두면 코일에 흐르는 유도 전류는 몇 A일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "자기 선속이 변하는지 생각하세요.",
+   "explanation": "자기 선속이 변하지 않으므로 유도 기전력이 없습니다.\n변화가 있어야 전류가 유도됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "교통 카드는 단말기의 변하는 자기장에 의한 {{1}}로 카드 속 칩에 전력을 얻습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전자기 유도",
+      "전자기유도",
+      "유도"
+     ]
+    }
+   ],
+   "hint": "자기 선속의 변화로 전류가 생기는 현상입니다.",
+   "explanation": "카드 속 코일에 유도 전류가 흐릅니다.\n전지가 없어도 작동합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "세기 1 T인 자기장 속에서 길이 0.5 m인 막대가 자기장에 수직으로 4 m/s로 움직입니다. 유도 기전력은 몇 V일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "ε = BLv입니다.",
+   "explanation": "ε = BLv = 1 × 0.5 × 4 = 2 V입니다.\n막대 양 끝에 전위차가 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "발전기는 {{1}} 에너지를 전기 에너지로 바꾸는 장치입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역학적"
+     ]
+    }
+   ],
+   "hint": "운동과 관련된 에너지입니다.",
+   "explanation": "코일이나 자석을 돌리는 일이 전기 에너지가 됩니다.\n전동기는 반대로 바꿉니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "렌츠 법칙의 내용을 설명하고, 이것이 에너지 보존 법칙과 어떤 관계가 있는지 말해 보세요.",
+   "hint": "방해하지 않는다면 어떻게 될지 생각하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "방해",
+      "반대"
+     ],
+     [
+      "변화"
+     ],
+     [
+      "에너지"
+     ],
+     [
+      "일"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "렌츠 법칙은 유도 전류가 자기 선속의 변화를 방해하는 방향으로 흐른다는 것입니다. 변화를 방해하므로 자석이나 도체를 움직이려면 외부에서 일을 해야 하고, 그 일이 전기 에너지로 바뀌므로 에너지 보존 법칙이 성립합니다."
+  }
+ ]
+}

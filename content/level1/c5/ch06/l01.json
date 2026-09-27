@@ -1,0 +1,362 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch06",
+  "no": 6,
+  "title": "자기장과 교류"
+ },
+ "lesson": {
+  "id": "c5-ch06-l01",
+  "no": 1,
+  "title": "로런츠 힘",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "자기장 속의 전하",
+   "body": [
+    "극지방의 오로라는 태양에서 날아온 대전 입자가 지구 자기장에 붙잡혀 휘어지며 극 쪽으로 몰려들어 생깁니다.",
+    "자기장은 움직이는 전하에 힘을 작용합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "자기장 속에서 움직이는 전하가 받는 힘을 {{1}} 힘이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "로런츠"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전하가 정지해 있으면 자기장은 힘을 주지 않습니다.\n움직일 때만 힘을 받습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "로런츠 힘의 크기와 방향",
+   "body": [
+    "전하 q가 세기 B인 자기장에 수직으로 속력 v로 움직이면 받는 힘의 크기는 F = qvB입니다. 자기장과 나란하게 움직이면 힘을 받지 않습니다.",
+    "힘의 방향은 오른손을 펴서 네 손가락을 자기장 방향, 엄지를 양전하의 운동 방향으로 할 때 손바닥이 향하는 방향입니다. 음전하는 반대입니다.",
+    "로런츠 힘은 항상 속도에 수직이므로 전하에 일을 하지 않아 속력은 변하지 않고 방향만 바뀝니다. 전류가 흐르는 도선이 받는 힘 F = BIL도 로런츠 힘이 모인 것입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "로런츠 힘이 운동하는 전하에 하는 일은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "힘이 항상 속도에 수직이기 때문입니다.\n그래서 속력은 변하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "전하량 2 C인 입자가 세기 0.5 T인 자기장에 수직으로 3 m/s로 움직입니다. 로런츠 힘은 몇 N일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "F = qvB = 2 × 3 × 0.5 = 3 N입니다.\n방향은 속도와 자기장에 모두 수직입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "세기 0.2 T인 자기장에 수직으로 놓인 길이 0.5 m 도선에 5 A가 흐릅니다. 도선이 받는 힘은 몇 N일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "F = BIL = 0.2 × 5 × 0.5 = 0.5 N입니다.\n전동기가 이 힘으로 돕니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "전자와 양성자가 같은 속도로 같은 자기장에 수직으로 들어가면 받는 힘은?",
+   "steps": [
+    "전하량의 크기가 같으므로 힘의 크기 qvB는 같습니다.",
+    "전하의 부호가 반대이므로 힘의 방향은 서로 반대입니다.",
+    "전자가 훨씬 가벼워 더 작은 원을 그리며 휩니다."
+   ],
+   "answer": "크기는 같고 방향은 반대"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "자기장 속 원운동",
+   "body": [
+    "균일한 자기장에 수직으로 들어간 대전 입자는 로런츠 힘을 구심력으로 하여 등속 원운동합니다: qvB = mv² ÷ r, 곧 r = mv ÷ (qB).",
+    "주기 T = 2πr ÷ v = 2πm ÷ (qB)로 속력과 관계없습니다. 이를 이용한 입자 가속기가 사이클로트론입니다.",
+    "질량 분석기는 같은 속력의 이온들이 질량에 따라 다른 반지름으로 휘는 것을 이용해 질량을 구분합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자기장 속에서 원운동하는 대전 입자는 속력이 클수록 원의 반지름이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "r = mv/(qB)이므로 v에 비례합니다.\n빠른 입자는 덜 휘어집니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 2 kg, 전하량 1 C인 입자가 세기 2 T인 자기장에 수직으로 3 m/s로 들어갔습니다. 원운동의 반지름은 몇 m일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "r = mv ÷ (qB) = 2 × 3 ÷ (1 × 2) = 3 m입니다.\n실제 입자는 매우 가볍지만 원리는 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자기장 속에서 원운동하는 대전 입자의 주기는 속력과 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무관",
+      "관계없"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "T = 2πm/(qB)에 v가 없습니다.\n빠르면 큰 원을 돌아 같은 시간이 걸립니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질량 분석기에서 같은 전하, 같은 속력의 두 이온 중 무거운 이온의 경로는?",
+   "steps": [
+    "r = mv/(qB)에서 q, v, B가 같으면 r ∝ m입니다.",
+    "무거운 이온은 큰 반지름으로 휩니다.",
+    "도착 위치가 달라져 질량을 구분할 수 있습니다."
+   ],
+   "answer": "반지름이 더 크다"
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자기장 방향과 나란하게 움직이는 전하가 받는 로런츠 힘은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "v와 B가 나란하면 수직 성분이 없습니다.\n그래서 휘지 않고 직진합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "로런츠 힘 정리",
+   "body": [
+    "F = qvB(수직일 때), 도선 F = BIL. 힘은 속도에 수직이라 일을 하지 않습니다.",
+    "균일한 자기장에서 원운동: r = mv/(qB), T = 2πm/(qB)."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "같은 자기장에서 입자의 속력을 2배로 하면 원운동의 반지름과 주기는?",
+   "steps": [
+    "r = mv/(qB)이므로 반지름은 2배입니다.",
+    "T = 2πm/(qB)에는 v가 없으므로 주기는 그대로입니다."
+   ],
+   "answer": "반지름 2배, 주기 그대로"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "자기장 속에서 원운동하는 입자의 속력이 2배가 되면 반지름은 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "r = mv/(qB)입니다.",
+   "explanation": "r ∝ v이므로 2배입니다.\n주기는 변하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "자기장의 세기가 2배가 되면 대전 입자의 원운동 반지름은 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "r = mv/(qB)입니다.",
+   "explanation": "r ∝ 1/B이므로 1/2배입니다.\n강한 자기장은 입자를 더 많이 휘게 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "오로라는 태양에서 온 대전 입자가 지구 {{1}}에 의해 휘어져 극지방으로 모여들어 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자기장",
+      "자기권"
+     ]
+    }
+   ],
+   "hint": "나침반을 움직이는 것입니다.",
+   "explanation": "대전 입자는 자기력선을 따라 나선 운동하며 극으로 갑니다.\n대기와 충돌해 빛을 냅니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "세기 1 T인 자기장에 수직으로 놓인 길이 3 m 도선에 2 A가 흐릅니다. 도선이 받는 힘은 몇 N일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "F = BIL입니다.",
+   "explanation": "F = BIL = 1 × 2 × 3 = 6 N입니다.\n플레밍 왼손 법칙으로 방향을 찾습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "질량 분석기에서 같은 전하, 같은 속력의 이온 중 무거운 이온은 반지름이 더 {{1}} 원을 그립니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큰"
+     ]
+    }
+   ],
+   "hint": "r = mv/(qB)입니다.",
+   "explanation": "r ∝ m입니다.\n그래서 질량별로 분리됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 자기장, 같은 속력에서 입자의 전하량이 2배가 되면 로런츠 힘은 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "F ∝ q입니다.",
+   "explanation": "F = qvB이므로 2배입니다.\n반지름은 1/2배가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "전동기는 자기장 속 도선이 받는 {{1}}을 이용해 회전합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자기력",
+      "로런츠 힘",
+      "힘"
+     ]
+    }
+   ],
+   "hint": "자기장이 도선에 주는 힘입니다.",
+   "explanation": "코일에 전류가 흐르면 양쪽이 반대 방향 힘을 받아 돌아갑니다.\n전기 에너지가 역학적 에너지로 바뀝니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "균일한 자기장에 수직으로 들어간 대전 입자가 등속 원운동하는 이유를 설명해 보세요.",
+   "hint": "힘과 속도의 방향 관계를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "로런츠"
+     ],
+     [
+      "수직"
+     ],
+     [
+      "구심력"
+     ],
+     [
+      "속력",
+      "일",
+      "크기"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "대전 입자가 받는 로런츠 힘은 항상 속도에 수직이므로 일을 하지 않아 속력은 변하지 않고 방향만 바뀝니다. 힘의 크기 qvB가 일정하고 항상 속도에 수직이므로 이 힘이 구심력 역할을 하여 등속 원운동을 합니다."
+  }
+ ]
+}

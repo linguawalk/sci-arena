@@ -1,0 +1,351 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch04",
+  "no": 4,
+  "title": "열역학과 유체"
+ },
+ "lesson": {
+  "id": "c5-ch04-l03",
+  "no": 3,
+  "title": "유체의 압력과 부력",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "깊을수록 커지는 압력",
+   "body": [
+    "잠수를 하면 깊이 내려갈수록 귀가 먹먹해집니다. 물의 무게가 위에서 누르기 때문입니다.",
+    "그런데 무거운 쇠로 만든 배는 어떻게 물에 뜰까요?"
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "단위 면적에 수직으로 작용하는 힘을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "압력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "P = F ÷ A이고 단위는 Pa(N/m²)입니다.\n같은 힘도 좁은 면적에 가하면 압력이 큽니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "유체의 압력과 파스칼 원리",
+   "body": [
+    "밀도 ρ인 유체 속 깊이 h에서의 압력은 P = P₀ + ρgh입니다(P₀: 수면의 대기압). 물(ρ = 1000 kg/m³)은 10 m마다 약 1기압(10⁵ Pa)씩 압력이 커집니다.",
+    "밀폐된 유체의 한 부분에 가한 압력은 유체의 모든 부분에 같은 크기로 전달됩니다(파스칼 원리).",
+    "유압기는 이를 이용합니다: F₁ ÷ A₁ = F₂ ÷ A₂이므로 넓은 피스톤에서 큰 힘을 얻습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "물 속 깊이 10 m에서 물에 의한 압력(ρgh)은 몇 kPa일까요? (ρ = 1000 kg/m³, g = 10 m/s²)",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "ρgh = 1000 × 10 × 10 = 10⁵ Pa = 100 kPa입니다.\n대기압과 거의 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "100 N의 힘이 0.5 m²의 면적에 수직으로 작용합니다. 압력은 몇 Pa일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "P = F ÷ A = 100 ÷ 0.5 = 200 Pa입니다.\n면적이 작을수록 압력이 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "유압기의 작은 피스톤 면적이 0.01 m², 큰 피스톤 면적이 1 m²입니다. 작은 피스톤에 50 N을 가하면 큰 피스톤은 몇 N의 힘을 낼까요?",
+   "answer": "5000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "F₂ = F₁ × A₂ ÷ A₁ = 50 × 100 = 5000 N입니다.\n면적이 100배이므로 힘도 100배입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "유압기로 힘을 100배 얻으면 에너지도 100배가 될까요?",
+   "steps": [
+    "작은 피스톤을 누르면 밀려난 유체의 부피만큼 큰 피스톤이 올라갑니다.",
+    "면적이 100배이므로 큰 피스톤은 1/100만큼만 움직입니다.",
+    "일 = 힘 × 거리이므로 두 쪽의 일은 같습니다. 에너지는 늘지 않습니다."
+   ],
+   "answer": "아니다, 일은 같다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "밀폐된 유체에 가한 압력이 모든 곳에 같은 크기로 전달된다는 원리를 {{1}} 원리라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "파스칼"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자동차 브레이크와 굴착기가 이 원리를 이용합니다.\n작은 힘으로 큰 힘을 얻을 수 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "부력",
+   "body": [
+    "유체 속 물체는 아래쪽이 위쪽보다 깊어 더 큰 압력을 받으므로 위로 향하는 알짜힘을 받습니다. 이것이 부력입니다.",
+    "부력의 크기는 물체가 밀어낸 유체의 무게와 같습니다: B = ρ_유체 × V_잠긴 부피 × g (아르키메데스 원리).",
+    "물체의 평균 밀도가 유체보다 작으면 떠오르고, 크면 가라앉습니다. 떠 있는 물체는 부력과 중력이 같습니다(B = mg)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "부력의 크기가 물체가 밀어낸 유체의 무게와 같다는 원리를 {{1}} 원리라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아르키메데스"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "왕관의 금 함량을 알아내다가 발견했다는 이야기가 전해집니다.\n기체 속에서도 성립합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "부피 0.002 m³인 물체가 물속에 완전히 잠겨 있습니다. 부력은 몇 N일까요? (ρ = 1000 kg/m³, g = 10 m/s²)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "B = 1000 × 0.002 × 10 = 20 N입니다.\n물체의 재질과 관계없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "밀도 600 kg/m³인 나무토막이 물(1000 kg/m³)에 떠 있습니다. 부피의 몇 %가 물에 잠길까요?",
+   "answer": "60",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "떠 있으면 부력 = 중력: 1000 × V_잠김 = 600 × V입니다.\nV_잠김 ÷ V = 0.6 = 60%입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "쇠로 만든 배가 물에 뜨는 이유는?",
+   "steps": [
+    "쇠의 밀도는 물보다 약 8배 큽니다.",
+    "배는 속이 비어 있어 전체 부피가 크고 평균 밀도가 물보다 작습니다.",
+    "그래서 많은 물을 밀어내 자신의 무게만큼 부력을 받아 뜹니다."
+   ],
+   "answer": "평균 밀도가 물보다 작기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 5 kg인 장난감 배가 물에 떠 있습니다. 배가 받는 부력은 몇 N일까요? (g = 10 m/s²)",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "떠 있으면 부력 = 중력 = 5 × 10 = 50 N입니다.\n밀어낸 물의 무게도 50 N입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "압력과 부력 정리",
+   "body": [
+    "유체 압력 P = P₀ + ρgh, 파스칼 원리 F₁/A₁ = F₂/A₂.",
+    "부력 B = ρ_유체 V_잠김 g. 평균 밀도가 유체보다 작으면 뜨고 크면 가라앉습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "평균 밀도가 물보다 큰 물체는 물에 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가라앉는다",
+      "가라앉습니다",
+      "가라앉"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "중력이 부력보다 커서 가라앉습니다.\n쇠구슬이 그 예입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "공기 중 무게 30 N인 물체를 물속에 완전히 잠그니 저울 눈금이 20 N이 되었습니다. 부력과 부피는?",
+   "steps": [
+    "부력 = 30 − 20 = 10 N입니다.",
+    "10 = 1000 × V × 10이므로 V = 0.001 m³ = 1 L입니다."
+   ],
+   "answer": "부력 10 N, 부피 1 L"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "공기 중 무게 30 N인 물체를 물속에 완전히 잠그니 저울 눈금이 20 N이 되었습니다. 물체의 부피는 몇 L일까요? (ρ = 1000 kg/m³, g = 10 m/s²)",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "부력 = 무게 차이입니다.",
+   "explanation": "부력 10 N = 1000 × V × 10이므로 V = 0.001 m³ = 1 L입니다.\n밀어낸 물 1 L의 무게가 10 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "물 속 깊이 20 m에서 물에 의한 압력은 몇 kPa일까요? (ρ = 1000 kg/m³, g = 10 m/s²)",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "ρgh입니다.",
+   "explanation": "ρgh = 1000 × 10 × 20 = 2 × 10⁵ Pa = 200 kPa입니다.\n대기압까지 더하면 약 300 kPa입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "유체 속에서 깊이 내려갈수록 압력이 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": "ρgh를 보세요.",
+   "explanation": "위에 있는 유체의 무게가 늘어나기 때문입니다.\nP = P₀ + ρgh입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "밀도가 더 큰 바닷물에서는 같은 배가 민물에서보다 더 {{1}} 뜹니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높이",
+      "높게"
+     ]
+    }
+   ],
+   "hint": "덜 잠긴다는 뜻입니다.",
+   "explanation": "밀도가 크면 적게 잠겨도 같은 부력을 얻습니다.\n그래서 배가 덜 잠깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "수면의 대기압이 100 kPa일 때 물 속 깊이 10 m에서의 전체 압력은 몇 kPa일까요? (ρ = 1000 kg/m³, g = 10 m/s²)",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "대기압을 더하세요.",
+   "explanation": "P = P₀ + ρgh = 100 + 100 = 200 kPa입니다.\n약 2기압입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "유체 속 물체가 부력을 받는 이유와 부력의 크기를 설명해 보세요.",
+   "hint": "압력 차이와 아르키메데스 원리를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "압력"
+     ],
+     [
+      "아래",
+      "깊"
+     ],
+     [
+      "밀어낸",
+      "잠긴"
+     ],
+     [
+      "무게"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "유체의 압력은 깊을수록 크므로 물체의 아랫면이 윗면보다 더 큰 압력을 받아 위쪽으로 알짜힘이 작용하는데, 이것이 부력입니다. 부력의 크기는 물체가 밀어낸 유체의 무게와 같습니다(B = ρVg)."
+  }
+ ]
+}

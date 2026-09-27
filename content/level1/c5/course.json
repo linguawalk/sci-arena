@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "level": 1,
+  "course": {
+    "id": "c5",
+    "title": "물리Ⅱ",
+    "description": "평면 운동과 만유인력, 진동과 열역학, 전자기, 양자"
+  },
+  "totals": {
+    "chapters": 8,
+    "lessons": 32,
+    "lesson_questions": 512,
+    "review_questions": 80,
+    "questions": 592
+  },
+  "chapters": [
+    {
+      "no": 1,
+      "id": "c5-ch01",
+      "title": "평면 운동",
+      "dir": "ch01",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 2,
+      "id": "c5-ch02",
+      "title": "원운동과 만유인력",
+      "dir": "ch02",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 3,
+      "id": "c5-ch03",
+      "title": "단진동과 역학적 파동",
+      "dir": "ch03",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 4,
+      "id": "c5-ch04",
+      "title": "열역학과 유체",
+      "dir": "ch04",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 5,
+      "id": "c5-ch05",
+      "title": "전기장과 전위",
+      "dir": "ch05",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 6,
+      "id": "c5-ch06",
+      "title": "자기장과 교류",
+      "dir": "ch06",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 7,
+      "id": "c5-ch07",
+      "title": "전자기파와 빛",
+      "dir": "ch07",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 8,
+      "id": "c5-ch08",
+      "title": "양자 세계",
+      "dir": "ch08",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    }
+  ]
+}

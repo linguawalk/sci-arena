@@ -1,0 +1,166 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch02",
+  "no": 2,
+  "title": "원운동과 만유인력"
+ },
+ "review": {
+  "id": "c5-ch02-review",
+  "title": "원운동과 만유인력 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "1초에 5바퀴 도는 물체의 주기는 몇 초일까요?",
+   "answer": "0.2",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "진동수의 역수입니다.",
+   "explanation": "T = 1 ÷ f = 1 ÷ 5 = 0.2초입니다.\n진동수는 5 Hz입니다.",
+   "source_lesson": "c5-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "반지름 4 m인 원을 6 m/s로 도는 물체의 구심 가속도는 몇 m/s²일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "a = v² ÷ r입니다.",
+   "explanation": "a = 36 ÷ 4 = 9 m/s²입니다.\n방향은 중심을 향합니다.",
+   "source_lesson": "c5-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량 3 kg인 물체가 반지름 2 m인 원을 4 m/s로 돕니다. 구심력은 몇 N일까요?",
+   "answer": "24",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "F = mv² ÷ r입니다.",
+   "explanation": "F = 3 × 16 ÷ 2 = 24 N입니다.\n중심을 향합니다.",
+   "source_lesson": "c5-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "반지름 40 m인 연직 원형 궤도의 꼭대기를 떨어지지 않고 지나기 위한 최소 속력은 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "mg = mv² ÷ r입니다.",
+   "explanation": "v = √(gr) = √400 = 20 m/s입니다.\n중력만으로 구심력이 되는 속력입니다.",
+   "source_lesson": "c5-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "행성은 근일점에서 빠르고 원일점에서 느린데, 이는 케플러 제{{1}}법칙으로 설명됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "hint": "면적 속도 일정 법칙입니다.",
+   "explanation": "면적 속도 일정 법칙입니다.\n가까울 때 더 빨리 움직여야 같은 면적을 쓸습니다.",
+   "source_lesson": "c5-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "궤도 긴반지름이 지구의 4배인 행성의 공전 주기는 몇 년일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "T² = a³입니다.",
+   "explanation": "T² = 4³ = 64이므로 T = 8년입니다.\n케플러 제3법칙입니다.",
+   "source_lesson": "c5-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "두 물체 사이의 거리가 3배가 되면 만유인력은 몇 분의 1이 될까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "거리의 제곱에 반비례합니다.",
+   "explanation": "F ∝ 1/r²이므로 1/9배가 됩니다.\n9분의 1입니다.",
+   "source_lesson": "c5-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "인공위성의 궤도 반지름이 클수록 공전 주기는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "길어"
+     ]
+    }
+   ],
+   "hint": "멀리 도는 위성일수록입니다.",
+   "explanation": "궤도가 길어지고 속력은 느려집니다.\n케플러 제3법칙과도 맞습니다.",
+   "source_lesson": "c5-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "궤도 반지름이 9배인 인공위성의 공전 속력은 몇 분의 1이 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = √(GM ÷ r)입니다.",
+   "explanation": "v ∝ 1/√r이므로 1/√9 = 1/3배입니다.\n3분의 1입니다.",
+   "source_lesson": "c5-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "공전 주기가 지구 자전 주기와 같아 지상에서 멈춰 보이는 위성을 {{1}} 궤도 위성이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정지"
+     ]
+    }
+   ],
+   "hint": "멈춰 있는 것처럼 보입니다.",
+   "explanation": "적도 상공 약 36000 km에 있습니다.\n방송·통신에 쓰입니다.",
+   "source_lesson": "c5-ch02-l04"
+  }
+ ]
+}

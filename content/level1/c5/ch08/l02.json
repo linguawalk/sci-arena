@@ -1,0 +1,369 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch08",
+  "no": 8,
+  "title": "양자 세계"
+ },
+ "lesson": {
+  "id": "c5-ch08-l02",
+  "no": 2,
+  "title": "물질파와 전자 현미경",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "입자도 파동이다",
+   "body": [
+    "빛이 입자의 성질을 가진다면, 거꾸로 전자 같은 입자도 파동의 성질을 가지지 않을까요?",
+    "1924년 드브로이는 모든 입자가 파동성을 가진다고 제안했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "운동하는 입자가 나타내는 파동을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "물질파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "드브로이파라고도 합니다.\n전자 회절 실험으로 확인되었습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "드브로이 파장",
+   "body": [
+    "운동량 p = mv인 입자의 물질파 파장은 λ = h ÷ p = h ÷ (mv)입니다. 운동량이 클수록 파장이 짧습니다.",
+    "데이비슨과 거머는 니켈 결정에 전자를 쏘아 X선처럼 회절 무늬가 생기는 것을 확인해 물질파를 증명했습니다.",
+    "야구공처럼 큰 물체는 운동량이 커서 파장이 원자보다 훨씬 작으므로 파동성이 드러나지 않습니다. 전자처럼 가벼운 입자에서만 파동성이 뚜렷합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "입자의 운동량이 클수록 물질파 파장은 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "λ = h/p이므로 운동량에 반비례합니다.\n빠르고 무거울수록 파장이 짧습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "전자의 속력이 2배가 되면 물질파 파장은 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "λ = h/(mv)이므로 1/2배입니다.\n운동량이 2배가 되었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "입자의 운동량이 4배가 되면 물질파 파장은 몇 배가 될까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "λ ∝ 1/p이므로 1/4배입니다.\n반비례 관계입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질량 0.15 kg인 야구공이 40 m/s로 날아갈 때 물질파 파장은? (h = 6.6 × 10⁻³⁴ J·s)",
+   "steps": [
+    "p = 0.15 × 40 = 6 kg·m/s입니다.",
+    "λ = 6.6 × 10⁻³⁴ ÷ 6 = 1.1 × 10⁻³⁴ m입니다.",
+    "원자핵보다도 훨씬 작아 파동성을 전혀 관찰할 수 없습니다."
+   ],
+   "answer": "약 1.1 × 10⁻³⁴ m"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "니켈 결정에 전자를 쏘아 회절 무늬를 얻어 물질파를 확인한 과학자는 데이비슨과 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "거머"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자가 결정에 의해 회절했습니다.\n입자인 전자가 파동처럼 행동한 것입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "전자 현미경",
+   "body": [
+    "전자를 전압 V로 가속하면 운동 에너지 eV를 얻고, 운동량은 p = √(2meV)입니다. 따라서 가속 전압이 높을수록 전자의 파장이 짧아집니다.",
+    "전자의 파장은 가시광선보다 수만 배 짧아서, 전자 현미경은 광학 현미경보다 훨씬 작은 구조를 구별할 수 있습니다(분해능이 좋습니다). 유리 렌즈 대신 자기장으로 전자의 경로를 휘게 하는 자기 렌즈를 씁니다.",
+    "투과 전자 현미경(TEM)은 얇은 시료를 투과한 전자로 내부 구조를, 주사 전자 현미경(SEM)은 표면에서 튀어나온 전자로 표면의 입체 모습을 봅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "전자 현미경의 가속 전압을 4배로 높이면 전자의 물질파 파장은 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "p = √(2meV)이므로 운동량은 2배, 파장은 1/2배입니다.\n전압을 높이면 분해능이 좋아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자 현미경은 전자의 파장이 매우 짧아 광학 현미경보다 분해능이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "좋"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "파장이 짧으면 회절이 적어 작은 것도 구별합니다.\n바이러스와 원자 배열까지 볼 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "시료 표면의 입체적인 모습을 관찰하는 전자 현미경은 {{1}} 전자 현미경(SEM)입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주사"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자빔으로 표면을 훑으며 튀어나온 전자를 모읍니다.\n곤충 눈의 입체 사진이 대표적입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "같은 운동 에너지를 가진 전자와 양성자 중 물질파 파장이 짧은 것은?",
+   "steps": [
+    "운동 에너지가 같으면 p = √(2mEₖ)이므로 질량이 클수록 운동량이 큽니다.",
+    "양성자는 전자보다 약 1840배 무겁습니다.",
+    "따라서 양성자의 운동량이 커서 파장이 더 짧습니다."
+   ],
+   "answer": "양성자"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "물질파 정리",
+   "body": [
+    "λ = h/p = h/(mv), 전압 V로 가속한 전자는 p = √(2meV).",
+    "빛과 물질 모두 파동성과 입자성을 함께 가집니다(파동–입자 이중성). 어느 성질이 드러나는지는 실험에 따라 다릅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "빛과 물질이 모두 파동과 입자의 성질을 함께 가지는 것을 파동–입자 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이중성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "간섭·회절에서는 파동성, 광전 효과·충돌에서는 입자성이 드러납니다.\n양자 역학의 기본 개념입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "운동 에너지가 4배가 된 전자의 물질파 파장은?",
+   "steps": [
+    "p = √(2mEₖ)이므로 운동량은 √4 = 2배입니다.",
+    "λ = h/p이므로 파장은 1/2배입니다."
+   ],
+   "answer": "1/2배"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "운동 에너지가 같은 전자와 양성자 중 물질파 파장이 더 짧은 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "양성자"
+     ]
+    }
+   ],
+   "hint": "무거운 쪽입니다.",
+   "explanation": "질량이 크면 같은 에너지에서 운동량이 큽니다.\n그래서 파장이 짧습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "전자의 운동 에너지가 4배가 되면 물질파 파장은 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "운동량은 운동 에너지의 제곱근에 비례합니다.",
+   "explanation": "운동량은 √4 = 2배, 파장은 1/2배입니다.\nEₖ = p²/2m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "야구공이 담장 틈을 지날 때 회절하는 모습을 볼 수 없는 것은 물질파 파장이 너무 {{1}}기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": "큰 운동량의 결과입니다.",
+   "explanation": "운동량이 매우 커서 파장이 원자보다 훨씬 작습니다.\n틈에 비해 너무 작아 회절이 드러나지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "전자 현미경의 가속 전압을 100배로 높이면 전자의 물질파 파장은 몇 배가 될까요?",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "p = √(2meV)입니다.",
+   "explanation": "운동량이 √100 = 10배이므로 파장은 1/10배입니다.\n분해능이 좋아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "전자 현미경은 유리 렌즈 대신 {{1}}으로 전자의 경로를 휘게 해 초점을 맞춥니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자기장",
+      "자기 렌즈",
+      "전자기장"
+     ]
+    }
+   ],
+   "hint": "로런츠 힘을 주는 것입니다.",
+   "explanation": "전자는 대전 입자라 자기장에서 로런츠 힘을 받습니다.\n코일로 만든 자기 렌즈를 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "보어 원자 모형의 궤도에서 전자의 물질파는 원둘레에 딱 맞는 {{1}}를 이룬다고 해석할 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정상파"
+     ]
+    }
+   ],
+   "hint": "제자리에서 진동하는 파동입니다.",
+   "explanation": "원둘레가 파장의 정수배일 때만 안정한 궤도가 됩니다.\n그래서 에너지가 불연속적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "전자 현미경이 광학 현미경보다 작은 것을 볼 수 있는 이유를 물질파와 분해능으로 설명해 보세요.",
+   "hint": "파장과 분해능의 관계를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "물질파"
+     ],
+     [
+      "파장"
+     ],
+     [
+      "짧"
+     ],
+     [
+      "분해능",
+      "회절"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "전자는 물질파의 성질을 가지며, 높은 전압으로 가속하면 운동량이 커져 파장이 가시광선보다 훨씬 짧아집니다. 파장이 짧을수록 회절이 적어 분해능이 좋아지므로, 전자 현미경은 광학 현미경보다 훨씬 작은 구조를 구별할 수 있습니다."
+  }
+ ]
+}

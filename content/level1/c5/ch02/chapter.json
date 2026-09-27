@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c5",
+  "chapter": {
+    "id": "c5-ch02",
+    "no": 2,
+    "title": "원운동과 만유인력"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c5-ch02-l01",
+      "title": "등속 원운동",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c5-ch02-l02",
+      "title": "구심력",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c5-ch02-l03",
+      "title": "케플러 법칙",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c5-ch02-l04",
+      "title": "만유인력과 인공위성",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c5-ch02-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

@@ -1,0 +1,361 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch04",
+  "no": 4,
+  "title": "열역학과 유체"
+ },
+ "lesson": {
+  "id": "c5-ch04-l04",
+  "no": 4,
+  "title": "베르누이 법칙",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "흐르는 유체의 비밀",
+   "body": [
+    "정원 호스 끝을 손가락으로 막아 좁히면 물이 훨씬 빠르게 뿜어져 나옵니다. 두 종이 사이로 바람을 불면 종이가 벌어지지 않고 오히려 붙습니다.",
+    "흐르는 유체에서는 속력과 압력 사이에 흥미로운 관계가 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "관이 좁아지는 곳에서 유체의 속력은 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빨라"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 시간에 같은 양의 유체가 지나가야 하기 때문입니다.\n연속 방정식이 이를 설명합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "연속 방정식",
+   "body": [
+    "압축되지 않는 유체가 관을 따라 흐를 때 단위 시간 동안 지나가는 유체의 부피는 어디서나 같습니다: A₁v₁ = A₂v₂ (A: 단면적, v: 속력).",
+    "그래서 단면적이 좁은 곳에서는 빠르게, 넓은 곳에서는 느리게 흐릅니다. 강폭이 좁은 곳에서 물살이 빠른 것도 같은 원리입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "연속 방정식에 따르면 단면적과 유체 속력의 곱은 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일정"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "A₁v₁ = A₂v₂입니다.\n질량 보존에서 나온 식입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "단면적 4 cm²인 관에서 2 m/s로 흐르던 물이 단면적 1 cm²인 곳을 지날 때 속력은 몇 m/s일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v₂ = A₁v₁ ÷ A₂ = 4 × 2 ÷ 1 = 8 m/s입니다.\n면적이 1/4이므로 속력이 4배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "관의 반지름이 절반이 되면 유체의 속력은 몇 배가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "단면적은 반지름의 제곱에 비례하므로 1/4이 됩니다.\n속력은 4배입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "강폭 20 m인 곳에서 1 m/s로 흐르던 강물이 폭 5 m인 협곡을 지날 때 속력은? (깊이는 같다고 가정)",
+   "steps": [
+    "단면적은 폭에 비례하므로 1/4이 됩니다.",
+    "A₁v₁ = A₂v₂에서 v₂ = 4 × 1 = 4 m/s입니다."
+   ],
+   "answer": "4 m/s"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "베르누이 법칙",
+   "body": [
+    "흐르는 유체에서 에너지 보존을 적용하면 P + ½ρv² + ρgh = 일정입니다(베르누이 법칙). 같은 높이에서는 속력이 빠른 곳의 압력이 낮습니다.",
+    "비행기 날개는 윗면을 지나는 공기가 아랫면보다 빠르게 흐르도록 만들어져, 윗면의 압력이 낮아 위로 뜨는 힘(양력)을 받습니다.",
+    "분무기, 커브볼, 강풍에 지붕이 들리는 현상도 베르누이 법칙으로 설명합니다. 수조 바닥 근처 구멍으로 나오는 물의 속력은 v = √(2gh)입니다(토리첼리 정리)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "베르누이 법칙에 따르면 같은 높이에서 유체의 속력이 빠른 곳일수록 압력이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "운동 에너지가 커진 만큼 압력 에너지가 줄어듭니다.\n에너지 보존의 결과입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "비행기 날개의 윗면과 아랫면의 압력 차이로 생기는 위쪽 힘을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "양력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "윗면의 공기가 더 빠르게 흘러 압력이 낮습니다.\n양력이 비행기 무게를 떠받칩니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "수평인 관에서 물(ρ = 1000 kg/m³)의 속력이 1 m/s에서 3 m/s로 빨라졌습니다. 압력은 몇 Pa 낮아질까요?",
+   "answer": "4000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "ΔP = ½ρ(v₂² − v₁²) = ½ × 1000 × (9 − 1) = 4000 Pa입니다.\n빠른 곳의 압력이 낮습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "물 높이 5 m인 수조 아래쪽 구멍으로 나오는 물의 속력은?",
+   "steps": [
+    "토리첼리 정리 v = √(2gh)를 씁니다.",
+    "v = √(2 × 10 × 5) = √100 = 10 m/s입니다.",
+    "높이 5 m에서 자유 낙하한 물체의 속력과 같습니다."
+   ],
+   "answer": "10 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "수면에서 20 m 아래에 있는 구멍으로 나오는 물의 속력은 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v = √(2gh) = √400 = 20 m/s입니다.\n깊을수록 세게 뿜어져 나옵니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "유체 흐름 정리",
+   "body": [
+    "연속 방정식 A₁v₁ = A₂v₂: 좁은 곳에서 빠르다.",
+    "베르누이 법칙 P + ½ρv² + ρgh = 일정: 빠른 곳에서 압력이 낮다. 토리첼리 정리 v = √(2gh)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "나란히 든 두 종이 사이로 바람을 불면 종이 사이의 압력이 낮아져 두 종이가 서로 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "붙는다",
+      "가까워진다",
+      "붙습니다",
+      "가까워집니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "빠르게 흐르는 공기의 압력이 바깥보다 낮습니다.\n바깥의 공기가 종이를 안쪽으로 밉니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "단면적 0.02 m²인 관에서 3 m/s로 흐르는 물이 단면적 0.01 m²인 관으로 들어가면 속력은?",
+   "steps": [
+    "A₁v₁ = A₂v₂입니다.",
+    "v₂ = 0.02 × 3 ÷ 0.01 = 6 m/s입니다."
+   ],
+   "answer": "6 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "단면적 0.02 m²인 관에서 3 m/s로 흐르는 물이 단면적 0.01 m²인 관으로 들어가면 속력은 몇 m/s일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "A₁v₁ = A₂v₂입니다.",
+   "explanation": "v₂ = 0.02 × 3 ÷ 0.01 = 6 m/s입니다.\n면적이 절반이면 속력은 2배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "분무기는 빠르게 흐르는 공기 때문에 관 위쪽의 압력이 {{1}}져 액체가 빨려 올라오는 원리를 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮아"
+     ]
+    }
+   ],
+   "hint": "빠른 곳의 압력입니다.",
+   "explanation": "빠른 공기 흐름이 관 끝의 압력을 낮춥니다.\n대기압이 액체를 위로 밀어 올립니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "빠르게 지나가는 기차 가까이에 서면 기차 쪽 공기의 압력이 낮아져 몸이 기차 쪽으로 {{1}} 위험합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빨려",
+      "끌려",
+      "밀려"
+     ]
+    }
+   ],
+   "hint": "기차 쪽으로 가게 됩니다.",
+   "explanation": "기차 옆 공기가 빠르게 흘러 압력이 낮아집니다.\n반대편 공기가 몸을 기차 쪽으로 밉니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "수평인 관에서 물(ρ = 1000 kg/m³)의 속력이 2 m/s에서 4 m/s로 빨라지면 압력은 몇 Pa 낮아질까요?",
+   "answer": "6000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "½ρ(v₂² − v₁²)입니다.",
+   "explanation": "ΔP = ½ × 1000 × (16 − 4) = 6000 Pa입니다.\n속력 제곱의 차이에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "수면에서 1.25 m 아래 구멍으로 나오는 물의 속력은 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = √(2gh)입니다.",
+   "explanation": "v = √(2 × 10 × 1.25) = √25 = 5 m/s입니다.\n토리첼리 정리입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "베르누이 법칙은 흐르는 유체에 {{1}} 보존 법칙을 적용한 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "에너지"
+     ]
+    }
+   ],
+   "hint": "보존되는 물리량입니다.",
+   "explanation": "압력 에너지, 운동 에너지, 위치 에너지의 합이 일정합니다.\n역학적 에너지 보존과 같은 원리입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "비행기 날개에 양력이 생기는 원리를 베르누이 법칙으로 설명해 보세요.",
+   "hint": "속력과 압력의 관계를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "윗면"
+     ],
+     [
+      "빠르"
+     ],
+     [
+      "압력",
+      "낮"
+     ],
+     [
+      "양력",
+      "위로"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "비행기 날개는 윗면을 지나는 공기가 아랫면을 지나는 공기보다 빠르게 흐르도록 만들어져 있습니다. 베르누이 법칙에 따라 속력이 빠른 윗면의 압력이 아랫면보다 낮아지므로, 압력 차이에 의해 날개를 위로 미는 양력이 생깁니다."
+  }
+ ]
+}

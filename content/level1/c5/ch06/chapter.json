@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c5",
+  "chapter": {
+    "id": "c5-ch06",
+    "no": 6,
+    "title": "자기장과 교류"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c5-ch06-l01",
+      "title": "로런츠 힘",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c5-ch06-l02",
+      "title": "전자기 유도와 유도 기전력",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c5-ch06-l03",
+      "title": "자체 유도와 상호 유도",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c5-ch06-l04",
+      "title": "교류 회로",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c5-ch06-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

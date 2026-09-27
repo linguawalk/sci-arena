@@ -1,0 +1,471 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch04",
+  "no": 4,
+  "title": "열역학과 유체"
+ },
+ "lesson": {
+  "id": "c5-ch04-l02",
+  "no": 2,
+  "title": "열역학 과정",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "기체가 일을 한다",
+   "body": [
+    "엔진의 실린더 속 기체는 가열되면 팽창하며 피스톤을 밀어냅니다. 열이 일로 바뀌는 순간입니다.",
+    "기체에 열을 가하는 방식에 따라 기체의 변화가 달라집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "기체에 가한 열 Q는 내부 에너지 증가 ΔU와 기체가 외부에 한 일 W의 합(Q = ΔU + W)이라는 법칙은 열역학 제{{1}}법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "에너지 보존 법칙을 열까지 확장한 것입니다.\n물리Ⅰ에서 배운 내용입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "기체가 하는 일과 네 가지 과정",
+   "body": [
+    "압력 P가 일정할 때 기체가 ΔV만큼 팽창하며 한 일은 W = PΔV입니다. 압력–부피(P–V) 그래프 아래의 넓이가 기체가 한 일입니다.",
+    "등적 과정: 부피가 일정해 W = 0, 가한 열이 모두 내부 에너지가 됩니다(Q = ΔU). 등압 과정: 열의 일부는 내부 에너지, 일부는 일이 됩니다(Q = ΔU + PΔV).",
+    "등온 과정: 온도가 일정해 ΔU = 0, 가한 열이 모두 일이 됩니다(Q = W). 단열 과정: 열 출입이 없어 Q = 0이므로 W = −ΔU입니다. 단열 팽창하면 온도가 내려가고, 단열 압축하면 온도가 올라갑니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "압력–부피 그래프 아래의 넓이는 기체가 한 {{1}}을 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "W = PΔV를 그래프로 나타낸 것입니다.\n압력이 변해도 넓이로 구할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "압력 2 × 10⁵ Pa로 일정하게 유지하며 기체가 0.01 m³ 팽창했습니다. 기체가 한 일은 몇 J일까요?",
+   "answer": "2000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "W = PΔV = 2 × 10⁵ × 0.01 = 2000 J입니다.\n팽창하면 외부에 일을 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "등적 과정에서 기체가 한 일은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "부피가 변하지 않으면 피스톤을 밀지 못합니다.\n가한 열은 모두 내부 에너지가 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "등압 과정에서 기체에 5000 J의 열을 가했더니 기체가 2000 J의 일을 했습니다. 내부 에너지 변화는?",
+   "steps": [
+    "Q = ΔU + W입니다.",
+    "ΔU = 5000 − 2000 = 3000 J입니다.",
+    "내부 에너지가 늘었으므로 온도가 올라갔습니다."
+   ],
+   "answer": "3000 J 증가"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "등온 과정에서 기체에 500 J의 열을 가했습니다. 기체가 한 일은 몇 J일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "등온 과정에서는 ΔU = 0이므로 Q = W입니다.\n가한 열이 모두 일로 바뀝니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기체가 단열 팽창하면 온도가 {{1}}갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "내려"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Q = 0이므로 한 일만큼 내부 에너지가 줄어듭니다.\n그래서 온도가 내려갑니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "P–V 그래프로 일 구하기",
+   "body": [
+    "아래 그래프는 기체가 압력 2 × 10⁵ Pa를 유지하며 A(1 L)에서 B(3 L)로 등압 팽창하는 과정입니다.",
+    "그래프 아래 직사각형의 넓이가 기체가 한 일입니다. 1 L = 10⁻³ m³이므로 단위를 맞춰 계산해야 합니다."
+   ],
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "V(L)",
+     "ylabel": "P(10⁵Pa)",
+     "xmin": 0,
+     "xmax": 4,
+     "ymin": 0,
+     "ymax": 3,
+     "xstep": 1,
+     "ystep": 1,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        2,
+        0
+       ],
+       "from": 1,
+       "to": 3
+      },
+      {
+       "kind": "arrow",
+       "x1": 1,
+       "y1": 0,
+       "x2": 1,
+       "y2": 2,
+       "color": "#94A3B8"
+      },
+      {
+       "kind": "arrow",
+       "x1": 3,
+       "y1": 0,
+       "x2": 3,
+       "y2": 2,
+       "color": "#94A3B8"
+      }
+     ],
+     "points": [
+      [
+       1,
+       2,
+       "A"
+      ],
+      [
+       3,
+       2,
+       "B"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "등온 과정에서는 온도가 변하지 않으므로 내부 에너지 변화가 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이상 기체의 내부 에너지는 온도로만 정해집니다.\n그래서 Q = W입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 그래프에서 기체가 A에서 B로 팽창하며 한 일은 몇 J일까요?",
+   "answer": "400",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "W = PΔV = 2 × 10⁵ Pa × 2 × 10⁻³ m³ = 400 J입니다.\n그래프 아래 넓이입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "V(L)",
+     "ylabel": "P(10⁵Pa)",
+     "xmin": 0,
+     "xmax": 4,
+     "ymin": 0,
+     "ymax": 3,
+     "xstep": 1,
+     "ystep": 1,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        2,
+        0
+       ],
+       "from": 1,
+       "to": 3
+      },
+      {
+       "kind": "arrow",
+       "x1": 1,
+       "y1": 0,
+       "x2": 1,
+       "y2": 2,
+       "color": "#94A3B8"
+      },
+      {
+       "kind": "arrow",
+       "x1": 3,
+       "y1": 0,
+       "x2": 3,
+       "y2": 2,
+       "color": "#94A3B8"
+      }
+     ],
+     "points": [
+      [
+       1,
+       2,
+       "A"
+      ],
+      [
+       3,
+       2,
+       "B"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "디젤 엔진은 공기를 빠르게 단열 압축해 온도를 {{1}} 연료에 불을 붙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높여",
+      "올려"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "단열 압축하면 외부에서 받은 일만큼 내부 에너지가 늘어납니다.\n점화 플러그 없이 연료가 발화합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "기체가 여러 과정을 거쳐 처음 상태로 돌아오는 순환 과정에서 에너지 관계는?",
+   "steps": [
+    "처음과 나중 상태가 같으므로 내부 에너지 변화는 0입니다.",
+    "따라서 한 바퀴 동안 흡수한 알짜 열 = 기체가 한 알짜 일입니다.",
+    "알짜 일은 P–V 그래프에서 순환 경로가 둘러싼 넓이입니다."
+   ],
+   "answer": "알짜 열 = 알짜 일"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "열역학 과정 정리",
+   "body": [
+    "등적: W = 0, Q = ΔU. 등압: W = PΔV, Q = ΔU + W. 등온: ΔU = 0, Q = W. 단열: Q = 0, W = −ΔU.",
+    "열기관은 이 과정들을 이어 붙인 순환 과정으로 열을 일로 바꿉니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "순환 과정에서 한 바퀴를 돌면 내부 에너지 변화는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "처음 상태로 돌아오므로 온도가 같습니다.\n그래서 알짜 열 = 알짜 일입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "기체가 단열 팽창하며 200 J의 일을 했다면 내부 에너지 변화는?",
+   "steps": [
+    "단열 과정이므로 Q = 0입니다.",
+    "0 = ΔU + 200이므로 ΔU = −200 J입니다.",
+    "내부 에너지가 줄어 온도가 내려갑니다."
+   ],
+   "answer": "−200 J"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "등적 과정에서 기체에 300 J의 열을 가했습니다. 내부 에너지 변화는 몇 J일까요?",
+   "answer": "300",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "부피가 일정하면 일이 없습니다.",
+   "explanation": "W = 0이므로 ΔU = Q = 300 J입니다.\n온도가 올라갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "기체가 단열 팽창하며 200 J의 일을 했습니다. 내부 에너지 변화는 몇 J일까요?",
+   "answer": "-200",
+   "answer_format": "decimal",
+   "tolerance": 0.5,
+   "hint": "열 출입이 없습니다.",
+   "explanation": "Q = 0이므로 ΔU = −W = −200 J입니다.\n내부 에너지가 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "공기 덩어리가 상승하면 주위 기압이 낮아져 {{1}} 팽창하며 식어 구름이 만들어집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단열"
+     ]
+    }
+   ],
+   "hint": "열 출입이 없는 팽창입니다.",
+   "explanation": "공기는 열을 잘 전달하지 않아 열 출입이 거의 없습니다.\n팽창하며 온도가 내려가 수증기가 응결합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "압력 1 × 10⁵ Pa로 일정하게 유지하며 기체의 부피가 2 L에서 5 L가 되었습니다. 기체가 한 일은 몇 J일까요?",
+   "answer": "300",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "L를 m³로 바꾸세요.",
+   "explanation": "ΔV = 3 L = 3 × 10⁻³ m³입니다.\nW = 10⁵ × 3 × 10⁻³ = 300 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "자전거 펌프로 공기를 빠르게 압축하면 펌프가 뜨거워지는 것은 {{1}} 압축 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단열"
+     ]
+    }
+   ],
+   "hint": "열 출입이 없는 압축입니다.",
+   "explanation": "빠르게 압축하면 열이 빠져나갈 시간이 없습니다.\n받은 일만큼 온도가 올라갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "등적, 등압, 등온, 단열 과정에서 열역학 제1법칙이 각각 어떻게 표현되는지 설명해 보세요.",
+   "hint": "네 과정을 모두 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "등적",
+      "W = 0"
+     ],
+     [
+      "등압"
+     ],
+     [
+      "등온",
+      "ΔU = 0"
+     ],
+     [
+      "단열",
+      "Q = 0"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "등적 과정은 일이 0이므로 가한 열이 모두 내부 에너지가 됩니다(Q = ΔU). 등압 과정은 열이 내부 에너지 증가와 일로 나뉩니다(Q = ΔU + PΔV). 등온 과정은 내부 에너지 변화가 0이므로 열이 모두 일이 됩니다(Q = W). 단열 과정은 열 출입이 없으므로 한 일만큼 내부 에너지가 줄어듭니다(W = −ΔU)."
+  }
+ ]
+}

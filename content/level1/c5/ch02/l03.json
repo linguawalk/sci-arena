@@ -1,0 +1,361 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch02",
+  "no": 2,
+  "title": "원운동과 만유인력"
+ },
+ "lesson": {
+  "id": "c5-ch02-l03",
+  "no": 3,
+  "title": "케플러 법칙",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "행성 운동의 규칙",
+   "body": [
+    "케플러는 스승 티코 브라헤가 20년 넘게 기록한 정밀한 화성 관측 자료를 분석해 행성 운동의 세 가지 법칙을 찾아냈습니다.",
+    "행성은 원이 아니라 약간 찌그러진 타원을 그리며 돕니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "행성은 태양을 한 초점으로 하는 {{1}} 궤도를 따라 공전합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "타원"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "케플러 제1법칙(타원 궤도 법칙)입니다.\n대부분의 행성 궤도는 원에 가까운 타원입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "케플러의 세 법칙",
+   "body": [
+    "제1법칙(타원 궤도 법칙): 행성은 태양을 한 초점으로 하는 타원 궤도를 돕니다.",
+    "제2법칙(면적 속도 일정 법칙): 태양과 행성을 잇는 선분이 같은 시간 동안 쓸고 지나가는 면적은 항상 같습니다. 그래서 태양에 가까운 근일점에서 빠르고, 먼 원일점에서 느립니다.",
+    "제3법칙(조화 법칙): 공전 주기 T의 제곱은 궤도 긴반지름 a의 세제곱에 비례합니다: T² ∝ a³."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 시간 동안 쓸고 지나가는 면적이 같다는 것은 케플러 제{{1}}법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "면적 속도 일정 법칙입니다.\n각운동량 보존과 같은 내용입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "행성은 태양에 가까운 근일점에서 가장 {{1}}게 움직입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빠르"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 면적을 쓸려면 가까울 때 더 많이 이동해야 합니다.\n원일점에서는 가장 느립니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "공전 주기의 제곱이 궤도 긴반지름의 세제곱에 비례한다는 것은 케플러 제{{1}}법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "3"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "조화 법칙이라고도 합니다.\n멀리 있는 행성일수록 공전 주기가 깁니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "긴반지름이 4배인 행성의 공전 주기는 몇 배일까요?",
+   "steps": [
+    "T² ∝ a³이므로 T ∝ a^(3/2)입니다.",
+    "a가 4배이면 a³은 64배, T²도 64배입니다.",
+    "T는 √64 = 8배입니다."
+   ],
+   "answer": "8배"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "긴반지름이 9배인 행성의 공전 주기는 몇 배일까요?",
+   "answer": "27",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a³ = 729배이므로 T² = 729배입니다.\nT = 27배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "공전 주기가 8배인 행성의 궤도 긴반지름은 몇 배일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "T² = 64배이므로 a³ = 64배입니다.\na = 4배입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "케플러 법칙의 적용",
+   "body": [
+    "지구의 궤도 긴반지름을 1 AU, 공전 주기를 1년으로 하면, 태양계 행성에 대해 T²(년²) = a³(AU³)입니다. 목성은 a ≈ 5.2 AU이므로 T ≈ 11.9년입니다.",
+    "케플러 법칙은 같은 중심 천체를 도는 모든 천체에 적용됩니다. 지구를 도는 달과 인공위성들도 서로 조화 법칙을 만족합니다(지구 둘레의 비례 상수는 태양 둘레와 다릅니다)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "궤도 긴반지름이 4 AU인 소행성의 공전 주기는 몇 년일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "T² = a³ = 64이므로 T = 8년입니다.\n단위를 AU와 년으로 쓰면 비례 상수가 1입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "공전 주기가 27년인 천체의 궤도 긴반지름은 몇 AU일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a³ = T² = 729이므로 a = 9 AU입니다.\n태양계 바깥쪽 영역입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "케플러 제3법칙의 비례 상수는 {{1}} 천체를 도는 천체들 사이에서만 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같은 중심",
+      "같은"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "비례 상수는 중심 천체의 질량에 따라 달라집니다.\n태양 둘레와 지구 둘레의 상수는 다릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "근일점 거리 r₁, 원일점 거리 r₂인 행성의 두 지점에서 속력의 비는?",
+   "steps": [
+    "근일점과 원일점에서 속도는 태양 방향에 수직입니다.",
+    "짧은 시간 동안 쓸고 지나는 면적은 ½ × r × v × Δt로 같아야 합니다.",
+    "따라서 r₁v₁ = r₂v₂, 곧 v₁ : v₂ = r₂ : r₁입니다."
+   ],
+   "answer": "거리에 반비례"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "어떤 혜성의 근일점 거리가 1 AU, 원일점 거리가 3 AU입니다. 근일점 속력은 원일점 속력의 몇 배일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "r₁v₁ = r₂v₂이므로 v₁ ÷ v₂ = r₂ ÷ r₁ = 3배입니다.\n가까울수록 빠릅니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "케플러 법칙에서 뉴턴으로",
+   "body": [
+    "케플러 법칙은 관측에서 찾은 규칙이었지만, 왜 그런지는 설명하지 못했습니다.",
+    "뉴턴은 만유인력 법칙과 운동 법칙으로 케플러의 세 법칙을 모두 유도해 냈습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "케플러가 행성 운동 법칙을 찾는 데 사용한 정밀한 관측 자료는 {{1}}가 남긴 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "티코 브라헤",
+      "브라헤",
+      "티코"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "망원경이 없던 시대에 매우 정확한 관측을 했습니다.\n특히 화성의 관측 자료가 중요했습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "궤도 긴반지름이 지구의 1/4인 행성의 공전 주기는?",
+   "steps": [
+    "T² = a³ = (1/4)³ = 1/64입니다.",
+    "T = 1/8년 = 0.125년입니다.",
+    "약 46일입니다."
+   ],
+   "answer": "0.125년"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "궤도 긴반지름이 1/4 AU인 행성의 공전 주기는 몇 년일까요?",
+   "answer": "0.125",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "T² = a³입니다.",
+   "explanation": "T² = (1/4)³ = 1/64이므로 T = 1/8 = 0.125년입니다.\n약 46일입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "행성은 태양에서 가장 먼 원일점에서 가장 {{1}}게 움직입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "느리"
+     ]
+    }
+   ],
+   "hint": "근일점과 반대입니다.",
+   "explanation": "면적 속도 일정 법칙 때문입니다.\n지구는 7월 초에 가장 느립니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "행성의 타원 궤도에서 태양은 타원의 {{1}}에 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "초점",
+      "한 초점"
+     ]
+    }
+   ],
+   "hint": "타원의 특별한 두 점 가운데 하나입니다.",
+   "explanation": "타원에는 두 초점이 있고, 태양은 그중 하나에 있습니다.\n중심에 있는 것이 아닙니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "궤도 긴반지름이 16 AU인 천체의 공전 주기는 몇 년일까요?",
+   "answer": "64",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "16³을 먼저 구하세요.",
+   "explanation": "T² = 16³ = 4096이므로 T = 64년입니다.\n√4096 = 64입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "케플러의 세 법칙을 각각 설명해 보세요.",
+   "hint": "세 법칙을 모두 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "타원"
+     ],
+     [
+      "면적"
+     ],
+     [
+      "주기"
+     ],
+     [
+      "긴반지름",
+      "세제곱"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "제1법칙은 행성이 태양을 한 초점으로 하는 타원 궤도를 돈다는 것입니다. 제2법칙은 태양과 행성을 잇는 선분이 같은 시간 동안 쓸고 지나는 면적이 일정하다는 것입니다. 제3법칙은 공전 주기의 제곱이 궤도 긴반지름의 세제곱에 비례한다는 것입니다."
+  }
+ ]
+}

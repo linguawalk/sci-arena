@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c5",
+  "chapter": {
+    "id": "c5-ch01",
+    "no": 1,
+    "title": "평면 운동"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c5-ch01-l01",
+      "title": "벡터의 합성과 분해",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c5-ch01-l02",
+      "title": "평면 운동과 상대 속도",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c5-ch01-l03",
+      "title": "포물선 운동",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c5-ch01-l04",
+      "title": "경사면 운동과 에너지",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c5-ch01-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

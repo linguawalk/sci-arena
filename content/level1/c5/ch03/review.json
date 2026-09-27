@@ -1,0 +1,166 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c5",
+  "title": "물리Ⅱ"
+ },
+ "chapter": {
+  "id": "c5-ch03",
+  "no": 3,
+  "title": "단진동과 역학적 파동"
+ },
+ "review": {
+  "id": "c5-ch03-review",
+  "title": "단진동과 역학적 파동 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "진폭 0.1 m, 각진동수 4 rad/s인 단진동의 최대 속력은 몇 m/s일까요?",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "v_max = Aω입니다.",
+   "explanation": "v_max = Aω = 0.4 m/s입니다.\n진동 중심에서의 속력입니다.",
+   "source_lesson": "c5-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "단진동에서 가속도의 크기는 진동의 양 {{1}}에서 가장 큽니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "끝"
+     ]
+    }
+   ],
+   "hint": "변위가 가장 큰 곳입니다.",
+   "explanation": "가속도는 변위에 비례합니다.\n중심에서는 0입니다.",
+   "source_lesson": "c5-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "용수철 진자의 추 질량을 9배로 하면 주기는 몇 배가 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "질량의 제곱근에 비례합니다.",
+   "explanation": "T ∝ √m이므로 3배입니다.\n용수철은 같을 때입니다.",
+   "source_lesson": "c5-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "용수철 상수 400 N/m인 용수철 진자가 진폭 0.1 m로 진동합니다. 역학적 에너지는 몇 J일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "½kA²입니다.",
+   "explanation": "E = ½ × 400 × 0.01 = 2 J입니다.\n진동 내내 일정합니다.",
+   "source_lesson": "c5-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "단진자의 길이를 9배로 하면 주기는 몇 배가 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "길이의 제곱근에 비례합니다.",
+   "explanation": "T ∝ √l이므로 3배입니다.\n질량과 관계없습니다.",
+   "source_lesson": "c5-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "길이 10 m인 단진자의 주기는 약 몇 초일까요? (g = 10 m/s², π = 3.14)",
+   "answer": "6.28",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "hint": "T = 2π√(l/g)입니다.",
+   "explanation": "T = 2π√(10/10) = 2π ≈ 6.28초입니다.\n긴 진자는 천천히 흔들립니다.",
+   "source_lesson": "c5-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "단진자 시계를 중력 가속도가 작은 곳에 가져가면 주기가 길어져 시계가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "느려"
+     ]
+    }
+   ],
+   "hint": "주기가 길어집니다.",
+   "explanation": "T ∝ 1/√g입니다.\n한 번 똑딱이는 데 시간이 더 걸립니다.",
+   "source_lesson": "c5-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "진동수 50 Hz, 파장 4 m인 파동의 속력은 몇 m/s일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = fλ입니다.",
+   "explanation": "v = fλ = 50 × 4 = 200 m/s입니다.\n1초에 50파장 진행합니다.",
+   "source_lesson": "c5-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "양 끝이 고정된 길이 0.6 m인 줄에서 파동 속력이 240 m/s일 때 기본 진동수는 몇 Hz일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "기본 진동 파장은 2L입니다.",
+   "explanation": "f₁ = v ÷ 2L = 240 ÷ 1.2 = 200 Hz입니다.\n양 끝이 마디입니다.",
+   "source_lesson": "c5-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "정상파에서 이웃한 두 마디 사이의 거리는 {{1}}파장입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반"
+     ]
+    }
+   ],
+   "hint": "파장의 절반입니다.",
+   "explanation": "마디 사이 = λ/2입니다.\n배 사이도 같습니다.",
+   "source_lesson": "c5-ch03-l04"
+  }
+ ]
+}
