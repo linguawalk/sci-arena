@@ -1,0 +1,402 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch06",
+  "no": 6,
+  "title": "산·염기 평형"
+ },
+ "lesson": {
+  "id": "c6-ch06-l03",
+  "no": 3,
+  "title": "염의 가수 분해",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "중성이 아닌 염",
+   "body": [
+    "산과 염기가 중화해 생긴 염의 수용액은 항상 중성일 것 같지만, 베이킹 소다(NaHCO₃) 수용액은 염기성이고 염화 암모늄(NH₄Cl) 수용액은 산성입니다.",
+    "염의 이온 일부가 물과 반응하기 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "염에서 나온 이온이 물과 반응해 H₃O⁺나 OH⁻를 만드는 현상을 염의 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가수 분해"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "약한 산의 짝염기나 약한 염기의 짝산이 가수 분해합니다.\n그래서 수용액이 산성이나 염기성이 됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "염의 종류와 액성",
+   "body": [
+    "강한 산 + 강한 염기의 염(NaCl, KNO₃): 이온이 가수 분해하지 않아 중성입니다.",
+    "약한 산 + 강한 염기의 염(CH₃COONa, NaHCO₃): 약한 산의 짝염기가 가수 분해해 OH⁻를 만들어 염기성입니다. CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻.",
+    "강한 산 + 약한 염기의 염(NH₄Cl): 약한 염기의 짝산이 가수 분해해 H₃O⁺를 만들어 산성입니다. NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "아세트산 나트륨(CH₃COONa) 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "CH₃COO⁻가 물과 반응해 OH⁻를 만듭니다.\n약한 산 + 강한 염기의 염입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "염화 암모늄(NH₄Cl) 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "NH₄⁺가 물과 반응해 H₃O⁺를 만듭니다.\n강한 산 + 약한 염기의 염입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "염화 나트륨(NaCl) 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Na⁺와 Cl⁻는 모두 가수 분해하지 않습니다.\n강한 산 + 강한 염기의 염입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "CH₃COONa 수용액이 염기성인 이유는?",
+   "steps": [
+    "CH₃COONa는 물에서 Na⁺와 CH₃COO⁻로 나뉩니다.",
+    "CH₃COO⁻는 약한 산의 짝염기라 물에서 H⁺를 받아 CH₃COOH가 되며 OH⁻를 남깁니다.",
+    "OH⁻가 생기므로 염기성입니다. Na⁺는 반응하지 않습니다."
+   ],
+   "answer": "CH₃COO⁻가 가수 분해해 OH⁻를 만들기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "베이킹 소다(NaHCO₃) 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "HCO₃⁻가 가수 분해해 OH⁻를 만듭니다.\n그래서 위산을 중화하는 데 쓰입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "중화점의 pH와 지시약",
+   "body": [
+    "중화점에서는 염만 남으므로 중화점의 pH는 생성된 염의 액성에 따라 다릅니다. 강한 산–강한 염기는 pH 7, 약한 산–강한 염기는 pH > 7, 강한 산–약한 염기는 pH < 7입니다.",
+    "그래서 중화 적정의 지시약은 중화점의 pH에서 색이 변하는 것을 골라야 합니다. 약한 산을 강한 염기로 적정할 때는 염기성 영역에서 변색하는 페놀프탈레인, 강한 산을 약한 염기로 적정할 때는 산성 영역에서 변색하는 메틸 오렌지를 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "약한 산을 강한 염기로 적정하면 중화점의 pH는 7보다 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "생성된 염의 음이온이 가수 분해해 염기성을 띱니다.\n아세트산과 NaOH의 적정이 그 예입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "아세트산을 수산화 나트륨으로 적정할 때 알맞은 지시약은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "페놀프탈레인"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "중화점이 염기성이므로 염기성 영역(pH 8~10)에서 변색하는 지시약을 씁니다.\n무색에서 붉은색이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "염산을 암모니아수로 적정할 때 알맞은 지시약은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "메틸 오렌지"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "중화점이 산성이므로 산성 영역(pH 3~4.5)에서 변색하는 지시약을 씁니다.\n붉은색에서 노란색이 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "탄산 나트륨(Na₂CO₃) 수용액의 액성은?",
+   "steps": [
+    "Na₂CO₃는 강한 염기(NaOH)와 약한 산(H₂CO₃)의 염입니다.",
+    "CO₃²⁻가 물과 반응해 HCO₃⁻와 OH⁻를 만듭니다.",
+    "그래서 염기성입니다."
+   ],
+   "answer": "염기성"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "가수 분해 정리",
+   "body": [
+    "강산 + 강염기 염 → 중성, 약산 + 강염기 염 → 염기성, 강산 + 약염기 염 → 산성.",
+    "가수 분해하는 것은 약한 산의 짝염기(음이온)와 약한 염기의 짝산(양이온)입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "염의 가수 분해를 일으키는 음이온은 {{1}} 산의 짝염기입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "약한"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "약한 산의 짝염기는 H⁺를 받아들이는 힘이 있습니다.\n강한 산의 짝염기는 가수 분해하지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "질산 칼륨(KNO₃) 수용액의 액성은?",
+   "steps": [
+    "KNO₃는 강한 산(HNO₃)과 강한 염기(KOH)의 염입니다.",
+    "K⁺와 NO₃⁻ 모두 가수 분해하지 않습니다.",
+    "중성입니다."
+   ],
+   "answer": "중성"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "탄산 나트륨(Na₂CO₃) 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성"
+     ]
+    }
+   ],
+   "hint": "약한 산 + 강한 염기의 염입니다.",
+   "explanation": "CO₃²⁻가 가수 분해해 OH⁻를 만듭니다.\n세탁용 소다로 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "질산 칼륨(KNO₃) 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중성"
+     ]
+    }
+   ],
+   "hint": "HNO₃와 KOH의 염입니다.",
+   "explanation": "강한 산과 강한 염기의 염입니다.\n가수 분해하는 이온이 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "CH₃COO⁻가 가수 분해하면 {{1}}이 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "OH⁻",
+      "OH-",
+      "수산화 이온"
+     ]
+    }
+   ],
+   "hint": "염기성을 만드는 이온입니다.",
+   "explanation": "CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻입니다.\n그래서 염기성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "NH₄⁺가 가수 분해하면 {{1}}이 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "H₃O⁺",
+      "H3O+",
+      "하이드로늄 이온"
+     ]
+    }
+   ],
+   "hint": "산성을 만드는 이온입니다.",
+   "explanation": "NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺입니다.\n그래서 산성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "약한 산과 약한 염기로 된 염의 액성은 K_a와 K_b의 {{1}}로 정해집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "크기",
+      "대소",
+      "비교"
+     ]
+    }
+   ],
+   "hint": "두 값을 비교합니다.",
+   "explanation": "양이온과 음이온이 모두 가수 분해합니다.\nK_a > K_b이면 산성, K_a < K_b이면 염기성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지방산의 나트륨염인 비누의 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성"
+     ]
+    }
+   ],
+   "hint": "약한 산 + 강한 염기의 염입니다.",
+   "explanation": "약한 산(지방산)과 강한 염기(NaOH)의 염입니다.\n그래서 미끈거리는 느낌이 납니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "아세트산 나트륨 수용액이 염기성을 띠는 이유를 가수 분해로 설명해 보세요.",
+   "hint": "어떤 이온이 물과 반응하는지 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "CH₃COO⁻",
+      "아세트산 이온"
+     ],
+     [
+      "약한 산",
+      "짝염기"
+     ],
+     [
+      "OH⁻",
+      "수산화 이온"
+     ],
+     [
+      "물",
+      "가수 분해"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "아세트산 나트륨은 물에서 Na⁺와 CH₃COO⁻로 나뉩니다. CH₃COO⁻는 약한 산인 아세트산의 짝염기이므로 물과 반응(가수 분해)해 CH₃COOH와 OH⁻를 만들고, 이 OH⁻ 때문에 수용액이 염기성을 띱니다."
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch06",
+  "no": 6,
+  "title": "산·염기 평형"
+ },
+ "review": {
+  "id": "c6-ch06-review",
+  "title": "산·염기 평형 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "[H₃O⁺] = 1 × 10⁻⁴ M인 용액의 pH는 얼마일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "pH = −log[H₃O⁺]입니다.",
+   "explanation": "pH = −log(10⁻⁴) = 4입니다.\n산성입니다.",
+   "source_lesson": "c6-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "25 °C에서 0.01 M NaOH 수용액의 pH는 얼마일까요? (완전 이온화)",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "pH + pOH = 14입니다.",
+   "explanation": "pOH = 2이므로 pH = 12입니다.\n강한 염기성입니다.",
+   "source_lesson": "c6-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "pH 2인 용액의 [H₃O⁺]는 pH 6인 용액의 몇 배일까요?",
+   "answer": "10000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "pH 1 차이는 10배입니다.",
+   "explanation": "pH 차이 4이므로 10⁴ = 10000배입니다.\npH는 로그 눈금입니다.",
+   "source_lesson": "c6-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "K_a = 1 × 10⁻⁶인 약한 산 1 M 수용액의 pH는 얼마일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "√(K_a × C)입니다.",
+   "explanation": "[H₃O⁺] ≈ √(10⁻⁶ × 1) = 10⁻³ M입니다.\npH = 3입니다.",
+   "source_lesson": "c6-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "짝산과 짝염기의 이온화 상수를 곱하면 물의 이온곱 상수 {{1}}가 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "K_w",
+      "Kw"
+     ]
+    }
+   ],
+   "hint": "물의 이온곱 상수 기호입니다.",
+   "explanation": "K_a × K_b = K_w입니다.\n25 °C에서 10⁻¹⁴입니다.",
+   "source_lesson": "c6-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "CH₃COONa 수용액은 CH₃COO⁻의 가수 분해 때문에 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성"
+     ]
+    }
+   ],
+   "hint": "OH⁻가 생깁니다.",
+   "explanation": "OH⁻가 생깁니다.\n약한 산 + 강한 염기의 염입니다.",
+   "source_lesson": "c6-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "NH₄Cl 수용액은 NH₄⁺의 가수 분해 때문에 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산성"
+     ]
+    }
+   ],
+   "hint": "H₃O⁺가 생깁니다.",
+   "explanation": "H₃O⁺가 생깁니다.\n강한 산 + 약한 염기의 염입니다.",
+   "source_lesson": "c6-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "강한 산을 약한 염기로 적정할 때는 산성 영역에서 변색하는 {{1}}를 지시약으로 씁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "메틸 오렌지"
+     ]
+    }
+   ],
+   "hint": "붉은색에서 노란색으로 변하는 지시약입니다.",
+   "explanation": "중화점이 산성이기 때문입니다.\n약한 산–강한 염기는 페놀프탈레인입니다.",
+   "source_lesson": "c6-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "pK_a = 6이고 [A⁻] = [HA]인 완충 용액의 pH는 얼마일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "log 1 = 0입니다.",
+   "explanation": "농도가 같으면 pH = pK_a = 6입니다.\n완충 능력이 가장 큽니다.",
+   "source_lesson": "c6-ch06-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "혈액은 H₂CO₃와 {{1}}의 완충계로 pH를 약 7.4로 유지합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "HCO₃⁻",
+      "HCO3-",
+      "탄산수소 이온"
+     ]
+    }
+   ],
+   "hint": "탄산의 짝염기입니다.",
+   "explanation": "산이 들어오면 HCO₃⁻가 중화합니다.\n약한 산과 그 짝염기입니다.",
+   "source_lesson": "c6-ch06-l04"
+  }
+ ]
+}

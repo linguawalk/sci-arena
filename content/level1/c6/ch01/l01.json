@@ -1,0 +1,349 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch01",
+  "no": 1,
+  "title": "기체"
+ },
+ "lesson": {
+  "id": "c6-ch01-l01",
+  "no": 1,
+  "title": "기체의 압력과 보일 법칙",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "누르면 줄어드는 기체",
+   "body": [
+    "주사기 끝을 막고 피스톤을 누르면 공기의 부피는 줄지만 손을 미는 힘은 커집니다. 기체는 압력에 따라 부피가 크게 변합니다.",
+    "기체의 압력과 부피 사이에는 간단한 규칙이 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "기체의 압력은 기체 분자들이 용기 벽에 {{1}}하여 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충돌"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "많은 분자가 끊임없이 벽에 부딪히며 힘을 줍니다.\n단위 면적당 힘이 압력입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "압력의 단위",
+   "body": [
+    "1643년 토리첼리는 수은을 채운 유리관을 수은 그릇에 거꾸로 세워, 수은 기둥이 약 76 cm 높이에서 멈추는 것을 보여 대기압을 쟀습니다.",
+    "그래서 1기압(1 atm) = 76 cmHg = 760 mmHg = 약 101.3 kPa입니다.",
+    "화학에서는 주로 atm과 mmHg 단위를 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1 atm은 몇 mmHg일까요?",
+   "answer": "760",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1 atm = 76 cmHg = 760 mmHg입니다.\n토리첼리 실험의 수은 기둥 높이입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "380 mmHg는 몇 atm일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "380 ÷ 760 = 0.5 atm입니다.\n높은 산 위의 기압 정도입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "수은 기둥으로 처음 대기압을 측정한 과학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "토리첼리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "수은 기둥의 높이가 약 76 cm였습니다.\n기둥 위쪽에는 진공이 생깁니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "2 atm은 몇 mmHg이고 몇 kPa일까요?",
+   "steps": [
+    "1 atm = 760 mmHg이므로 2 atm = 1520 mmHg입니다.",
+    "1 atm ≈ 101.3 kPa이므로 2 atm ≈ 202.6 kPa입니다."
+   ],
+   "answer": "1520 mmHg, 약 202.6 kPa"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "보일 법칙",
+   "body": [
+    "온도와 기체의 양이 일정할 때 기체의 부피는 압력에 반비례합니다: PV = 일정, 곧 P₁V₁ = P₂V₂. 이를 보일 법칙이라고 합니다.",
+    "부피가 절반으로 줄면 같은 수의 분자가 좁은 공간에 모여 벽에 더 자주 충돌하므로 압력이 2배가 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "온도가 일정할 때 기체의 부피는 압력에 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반비례"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "보일 법칙입니다.\n압력이 2배가 되면 부피는 1/2이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1 atm에서 6 L인 기체를 같은 온도에서 3 atm으로 압축하면 부피는 몇 L가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "P₁V₁ = P₂V₂에서 1 × 6 = 3 × V₂입니다.\nV₂ = 2 L입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "2 atm에서 4 L인 기체를 같은 온도에서 8 L로 팽창시키면 압력은 몇 atm이 될까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "2 × 4 = P₂ × 8이므로 P₂ = 1 atm입니다.\n부피가 2배이면 압력은 1/2입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "잠수부가 수심 10 m(약 2 atm)에서 내뱉은 1 L의 공기 방울은 수면(1 atm)에서 몇 L가 될까요?",
+   "steps": [
+    "온도가 같다고 보면 P₁V₁ = P₂V₂입니다.",
+    "2 × 1 = 1 × V₂이므로 V₂ = 2 L입니다.",
+    "그래서 잠수부는 올라올 때 숨을 참으면 안 됩니다. 폐 속 공기가 팽창하기 때문입니다."
+   ],
+   "answer": "2 L"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "수심 10 m(2 atm)에서 부피 1 L인 공기 방울이 수면(1 atm)까지 올라오면 부피는 몇 L가 될까요? (온도 일정)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "2 × 1 = 1 × V₂이므로 V₂ = 2 L입니다.\n압력이 줄면 부피가 커집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "보일 법칙 정리",
+   "body": [
+    "1 atm = 760 mmHg ≈ 101.3 kPa. 온도와 양이 일정하면 P₁V₁ = P₂V₂입니다.",
+    "부피가 줄면 단위 부피당 분자 수가 늘어 충돌이 잦아지므로 압력이 커집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "온도가 일정할 때 기체의 부피를 줄이면 분자가 벽에 충돌하는 횟수가 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 수의 분자가 좁은 공간에 모입니다.\n그래서 압력이 커집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "760 mmHg에서 5 L인 기체를 같은 온도에서 380 mmHg로 하면 부피는?",
+   "steps": [
+    "P₁V₁ = P₂V₂입니다.",
+    "760 × 5 = 380 × V₂이므로 V₂ = 10 L입니다."
+   ],
+   "answer": "10 L"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "760 mmHg에서 5 L인 기체를 같은 온도에서 380 mmHg로 하면 부피는 몇 L가 될까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "P₁V₁ = P₂V₂입니다.",
+   "explanation": "760 × 5 = 380 × V₂이므로 V₂ = 10 L입니다.\n압력이 절반이면 부피는 2배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "온도가 일정할 때 기체의 부피를 1/3로 줄이면 압력은 몇 배가 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "보일 법칙을 쓰세요.",
+   "explanation": "PV = 일정이므로 3배입니다.\n반비례 관계입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "과자 봉지를 들고 높은 산에 올라가면 바깥 기압이 낮아져 봉지가 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "부푼다",
+      "부풀어 오른다",
+      "부풉니다",
+      "커진다"
+     ]
+    }
+   ],
+   "hint": "압력이 줄면 부피는 어떻게 될까요?",
+   "explanation": "외부 압력이 낮아지면 봉지 속 기체의 부피가 커집니다.\n보일 법칙의 예입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "2 atm은 몇 mmHg일까요?",
+   "answer": "1520",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1 atm = 760 mmHg입니다.",
+   "explanation": "2 × 760 = 1520 mmHg입니다.\n단위 환산입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "보일 법칙에 따르면 온도와 기체의 양이 일정할 때 압력과 부피의 곱은 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일정"
+     ]
+    }
+   ],
+   "hint": "변하지 않습니다.",
+   "explanation": "PV = k입니다.\n그래프로 그리면 반비례 곡선입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "주사기 속 1 atm, 20 mL의 공기를 같은 온도에서 5 mL로 압축하면 압력은 몇 atm이 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "P₁V₁ = P₂V₂입니다.",
+   "explanation": "1 × 20 = P₂ × 5이므로 P₂ = 4 atm입니다.\n부피가 1/4이므로 압력은 4배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "온도가 일정할 때 기체의 부피를 줄이면 압력이 커지는 이유를 분자 운동으로 설명해 보세요.",
+   "hint": "충돌 횟수를 생각하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "분자"
+     ],
+     [
+      "충돌"
+     ],
+     [
+      "부피",
+      "공간"
+     ],
+     [
+      "압력",
+      "커"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "온도가 일정하면 분자의 평균 속력은 변하지 않지만, 부피가 줄면 같은 수의 분자가 더 좁은 공간에 모입니다. 그래서 단위 시간 동안 벽에 충돌하는 분자 수가 늘어나 압력이 커집니다."
+  }
+ ]
+}

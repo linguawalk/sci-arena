@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c6",
+  "chapter": {
+    "id": "c6-ch08",
+    "no": 8,
+    "title": "전기 화학"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c6-ch08-l01",
+      "title": "화학 전지",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c6-ch08-l02",
+      "title": "표준 환원 전위와 기전력",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c6-ch08-l03",
+      "title": "실용 전지",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c6-ch08-l04",
+      "title": "전기 분해",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c6-ch08-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

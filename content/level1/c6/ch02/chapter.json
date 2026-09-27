@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c6",
+  "chapter": {
+    "id": "c6-ch02",
+    "no": 2,
+    "title": "분자 간 힘과 물질의 상태"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c6-ch02-l01",
+      "title": "분산력과 쌍극자–쌍극자 힘",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c6-ch02-l02",
+      "title": "수소 결합",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c6-ch02-l03",
+      "title": "액체의 성질",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c6-ch02-l04",
+      "title": "고체와 결정 구조",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c6-ch02-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

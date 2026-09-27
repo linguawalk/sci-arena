@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c6",
+  "chapter": {
+    "id": "c6-ch05",
+    "no": 5,
+    "title": "화학 평형"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c6-ch05-l01",
+      "title": "평형 상수",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c6-ch05-l02",
+      "title": "반응 지수와 평형의 방향",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c6-ch05-l03",
+      "title": "농도와 압력 변화에 따른 평형 이동",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c6-ch05-l04",
+      "title": "온도 변화와 평형",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c6-ch05-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

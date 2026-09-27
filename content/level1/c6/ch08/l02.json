@@ -1,0 +1,363 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch08",
+  "no": 8,
+  "title": "전기 화학"
+ },
+ "lesson": {
+  "id": "c6-ch08-l02",
+  "no": 2,
+  "title": "표준 환원 전위와 기전력",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "전지의 전압은 어떻게 정해질까",
+   "body": [
+    "다니엘 전지는 약 1.1 V, 은과 아연으로 만든 전지는 약 1.56 V의 전압을 냅니다.",
+    "전극마다 전자를 받아들이려는 경향이 다르고, 그 차이가 전압이 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "표준 환원 전위를 정하는 기준으로, 전위를 0 V로 정한 전극은 표준 {{1}} 전극입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "2H⁺ + 2e⁻ → H₂의 전위를 0 V로 정했습니다.\n다른 전극은 이와 비교해 전위를 정합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "표준 환원 전위",
+   "body": [
+    "25 °C, 1 M, 1 atm의 표준 상태에서 반쪽 전지의 환원 반응이 표준 수소 전극에 비해 얼마나 잘 일어나는지 나타낸 값을 표준 환원 전위 E°라고 합니다.",
+    "E°가 클수록 환원되기 쉽고(산화제로 강함), 작을수록 그 금속은 산화되기 쉽습니다. 예: Ag⁺/Ag +0.80 V, Cu²⁺/Cu +0.34 V, Zn²⁺/Zn −0.76 V.",
+    "전지의 표준 기전력은 E°_전지 = E°(환원 전극, (+)극) − E°(산화 전극, (−)극)입니다. 반쪽 반응식에 계수를 곱해도 E°는 변하지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "표준 환원 전위가 클수록 {{1}}되기 쉽습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "환원"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자를 받아들이려는 경향이 큽니다.\n두 전극 중 E°가 큰 쪽이 (+)극입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "다니엘 전지(Zn–Cu)의 표준 기전력은 몇 V일까요? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+   "answer": "1.1",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "E° = 0.34 − (−0.76) = 1.10 V입니다.\n구리가 (+)극입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아연과 은으로 만든 전지의 표준 기전력은 몇 V일까요? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+   "answer": "1.56",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "E° = 0.80 − (−0.76) = 1.56 V입니다.\n은이 (+)극입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "구리와 은으로 만든 전지의 (+)극과 표준 기전력은? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+   "steps": [
+    "E°가 큰 은(+0.80 V)이 (+)극, 구리(+0.34 V)가 (−)극입니다.",
+    "E° = 0.80 − 0.34 = 0.46 V입니다."
+   ],
+   "answer": "은이 (+)극, 0.46 V"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "구리와 은으로 만든 전지의 표준 기전력은 몇 V일까요? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+   "answer": "0.46",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "E° = 0.80 − 0.34 = 0.46 V입니다.\n구리가 (−)극이 됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "기전력과 자발성",
+   "body": [
+    "산화 환원 반응의 기전력 E°가 양수이면 그 반응은 자발적으로 일어나고, 음수이면 자발적으로 일어나지 않습니다.",
+    "예를 들어 Zn + Cu²⁺ → Zn²⁺ + Cu는 E° = +1.10 V로 자발적이지만, 그 역반응 Cu + Zn²⁺ → Cu²⁺ + Zn은 E° = −1.10 V로 일어나지 않습니다.",
+    "E°가 가장 작은 리튬(−3.04 V)은 가장 산화되기 쉬운 금속입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "산화 환원 반응의 기전력이 양수이면 그 반응은 {{1}}적으로 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자발"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "외부 에너지 없이 저절로 일어납니다.\n음수이면 역반응이 자발적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "황산 아연 수용액에 구리판을 넣으면 반응이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일어나지 않는다",
+      "일어나지 않습니다",
+      "없다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Cu + Zn²⁺ → Cu²⁺ + Zn의 E°가 음수입니다.\n구리가 아연보다 반응성이 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "표준 환원 전위가 가장 작은 금속은 가장 {{1}}되기 쉽습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산화"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자를 잃고 양이온이 되기 쉽습니다.\n리튬이 대표적입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질산 은 수용액에 구리선을 넣으면 어떻게 될까요? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+   "steps": [
+    "Cu + 2Ag⁺ → Cu²⁺ + 2Ag의 E° = 0.80 − 0.34 = +0.46 V입니다.",
+    "양수이므로 자발적으로 일어납니다.",
+    "구리선 표면에 은이 석출되고 용액은 Cu²⁺ 때문에 파랗게 변합니다."
+   ],
+   "answer": "은이 석출되고 용액이 파래진다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "표준 환원 전위 정리",
+   "body": [
+    "E°가 클수록 환원되기 쉬움(+극), 작을수록 산화되기 쉬움(−극). E°_전지 = E°(+극) − E°(−극).",
+    "E° > 0 → 자발적. 계수를 곱해도 E°는 그대로입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "반쪽 반응식에 계수를 곱해도 표준 환원 전위는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지 않는다",
+      "변하지 않습니다",
+      "그대로이다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전위는 전자 1개당 에너지와 관련된 세기 성질입니다.\n양에 비례하지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "마그네슘과 구리로 만든 전지의 표준 기전력은? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+   "steps": [
+    "E° = E°(Cu) − E°(Mg) = 0.34 − (−2.37)입니다.",
+    "= 2.71 V입니다."
+   ],
+   "answer": "2.71 V"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "마그네슘과 구리로 만든 전지의 표준 기전력은 몇 V일까요? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+   "answer": "2.71",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "(+)극 − (−)극입니다.",
+   "explanation": "E° = 0.34 − (−2.37) = 2.71 V입니다.\n반응성 차이가 클수록 전압이 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "두 전극 중 표준 환원 전위가 {{1}} 쪽이 (+)극이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큰"
+     ]
+    }
+   ],
+   "hint": "환원되기 쉬운 쪽입니다.",
+   "explanation": "환원이 잘 일어나는 쪽입니다.\n전자를 받아들입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "질산 은 수용액에 구리선을 넣으면 구리선 표면에 {{1}}이 석출됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "은"
+     ]
+    }
+   ],
+   "hint": "Ag⁺가 환원됩니다.",
+   "explanation": "기전력이 양수라 자발적으로 일어납니다.\n'은 나무' 실험입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "철과 구리로 만든 전지의 표준 기전력은 몇 V일까요? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+   "answer": "0.78",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "E°(+) − E°(−)입니다.",
+   "explanation": "E° = 0.34 − (−0.44) = 0.78 V입니다.\n철이 (−)극입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "표준 환원 전위를 정하는 표준 상태에서 이온의 농도는 몇 M일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "가장 간단한 농도입니다.",
+   "explanation": "25 °C, 1 M, 1 atm이 표준 상태입니다.\n농도가 다르면 전위도 달라집니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "표준 수소 전극의 표준 환원 전위는 몇 V일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "기준값입니다.",
+   "explanation": "기준으로 0 V로 정했습니다.\n다른 전극의 전위는 이것과 비교한 값입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "표준 환원 전위로 전지의 (+)극을 정하고 표준 기전력을 구하는 방법, 반응의 자발성을 판단하는 방법을 설명해 보세요.",
+   "hint": "세 가지를 차례로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "표준 환원 전위",
+      "E°"
+     ],
+     [
+      "큰",
+      "(+)극"
+     ],
+     [
+      "빼",
+      "−"
+     ],
+     [
+      "양수",
+      "자발"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "두 반쪽 전지 중 표준 환원 전위가 큰 쪽에서 환원이 일어나므로 그쪽이 (+)극이 됩니다. 표준 기전력은 (+)극의 E°에서 (−)극의 E°를 빼서 구하며, 이 값이 양수이면 그 산화 환원 반응은 자발적으로 일어납니다."
+  }
+ ]
+}

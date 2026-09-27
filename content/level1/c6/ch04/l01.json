@@ -1,0 +1,370 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch04",
+  "no": 4,
+  "title": "반응열"
+ },
+ "lesson": {
+  "id": "c6-ch04-l01",
+  "no": 1,
+  "title": "엔탈피와 반응열",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "반응과 열",
+   "body": [
+    "가스레인지의 불꽃은 열을 내고, 냉찜질 팩은 주위의 열을 빼앗아 차가워집니다.",
+    "화학 반응은 물질만 바꾸는 것이 아니라 에너지도 주고받습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "화학 반응이 일어날 때 방출하거나 흡수하는 열을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반응열"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "일정한 압력에서의 반응열은 엔탈피 변화(ΔH)와 같습니다.\n단위는 kJ/mol입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "엔탈피 변화",
+   "body": [
+    "물질이 가진 에너지를 엔탈피(H)라고 하며, 반응열은 ΔH = H_생성물 − H_반응물입니다.",
+    "발열 반응은 생성물의 엔탈피가 작아 ΔH < 0이고, 흡열 반응은 생성물의 엔탈피가 커서 ΔH > 0입니다.",
+    "반응식에 물질의 상태와 ΔH를 함께 쓴 것을 열화학 반응식이라고 합니다. 예: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ. 계수를 2배로 하면 ΔH도 2배, 반응을 거꾸로 쓰면 ΔH의 부호가 바뀝니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "발열 반응의 ΔH는 {{1}}의 값을 가집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "음",
+      "음수",
+      "(−)",
+      "-"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "에너지가 주위로 빠져나가 생성물의 엔탈피가 작습니다.\n흡열 반응은 양의 값입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "메테인의 연소는 {{1}} 반응입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "발열"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "연소 반응은 대부분 열을 내놓습니다.\nΔH가 음수입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)의 ΔH가 −890 kJ일 때, 메테인 2 mol이 연소하면 ΔH는 몇 kJ일까요?",
+   "answer": "-1780",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "hint": null,
+   "explanation": "계수를 2배로 하면 ΔH도 2배입니다.\n2 × (−890) = −1780 kJ입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286 kJ일 때 물의 분해 반응의 ΔH는?",
+   "steps": [
+    "물의 분해는 생성 반응을 거꾸로 쓴 것입니다: H₂O(l) → H₂(g) + ½O₂(g).",
+    "반응을 거꾸로 쓰면 ΔH의 부호가 바뀝니다.",
+    "ΔH = +286 kJ로 흡열 반응입니다."
+   ],
+   "answer": "+286 kJ"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "CH₄의 연소 ΔH가 −890 kJ일 때, 그 역반응(CO₂와 H₂O에서 CH₄와 O₂가 생기는 반응)의 ΔH는 몇 kJ일까요?",
+   "answer": "890",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "역반응은 부호가 바뀌므로 +890 kJ입니다.\n흡열 반응입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "생성 엔탈피",
+   "body": [
+    "25 °C, 1 atm에서 가장 안정한 성분 원소로부터 화합물 1 mol이 생성될 때의 엔탈피 변화를 표준 생성 엔탈피(ΔH_f)라고 합니다. 가장 안정한 홑원소 물질(O₂, H₂, 흑연 등)의 생성 엔탈피는 0입니다.",
+    "반응열은 생성 엔탈피로 계산할 수 있습니다: ΔH = Σ(생성물의 ΔH_f) − Σ(반응물의 ΔH_f).",
+    "같은 물질이라도 상태에 따라 엔탈피가 달라 H₂O(l)과 H₂O(g)의 생성 엔탈피는 다릅니다. 그래서 열화학 반응식에는 상태를 꼭 표시합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "O₂(g), H₂(g)처럼 가장 안정한 홑원소 물질의 표준 생성 엔탈피는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기준으로 삼기 때문입니다.\n화합물의 생성 엔탈피는 이를 기준으로 잽니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "ΔH_f가 CH₄ −75, CO₂ −394, H₂O(l) −286 kJ/mol일 때 CH₄ + 2O₂ → CO₂ + 2H₂O(l)의 ΔH는 몇 kJ일까요?",
+   "answer": "-891",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "hint": null,
+   "explanation": "ΔH = [−394 + 2 × (−286)] − [−75 + 0] = −966 + 75 = −891 kJ입니다.\n생성물 합 − 반응물 합입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "열화학 반응식에 물질의 상태를 표시하는 것은 상태에 따라 {{1}}가 다르기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "엔탈피"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물이 수증기일 때와 액체일 때 에너지가 다릅니다.\n그래서 ΔH도 달라집니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "흡열 반응의 에너지 도표는 어떤 모양일까요?",
+   "steps": [
+    "흡열 반응은 주위에서 에너지를 흡수합니다.",
+    "생성물의 엔탈피가 반응물보다 높은 곳에 그려집니다.",
+    "화살표는 위쪽을 향하고 그 높이 차이가 ΔH(> 0)입니다."
+   ],
+   "answer": "생성물이 반응물보다 높다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "반응열 정리",
+   "body": [
+    "ΔH = H_생성물 − H_반응물. 발열 ΔH < 0, 흡열 ΔH > 0.",
+    "계수 n배 → ΔH n배, 역반응 → 부호 반대. ΔH = ΣΔH_f(생성물) − ΣΔH_f(반응물)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "흡열 반응에서는 생성물의 엔탈피가 반응물보다 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크",
+      "높습"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "주위에서 흡수한 에너지만큼 커집니다.\nΔH > 0입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286 kJ일 때 물 2 mol이 생성되면 ΔH는?",
+   "steps": [
+    "계수를 2배로 하면 2H₂ + O₂ → 2H₂O(l)입니다.",
+    "ΔH = 2 × (−286) = −572 kJ입니다."
+   ],
+   "answer": "−572 kJ"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "H₂(g) + ½O₂(g) → H₂O(l)의 ΔH가 −286 kJ일 때, 물 2 mol이 생성되는 반응의 ΔH는 몇 kJ일까요?",
+   "answer": "-572",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "hint": "계수를 2배로 하세요.",
+   "explanation": "2 × (−286) = −572 kJ입니다.\n계수에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "주위의 열을 흡수해 차가워지는 냉찜질 팩 속 반응은 {{1}} 반응입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "흡열"
+     ]
+    }
+   ],
+   "hint": "열을 빨아들이는 반응입니다.",
+   "explanation": "질산 암모늄이 물에 녹으며 열을 흡수합니다.\nΔH > 0입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "H₂O(l) → H₂O(g)의 ΔH가 +44 kJ일 때, 수증기 1 mol이 물로 응축하는 반응의 ΔH는 몇 kJ일까요?",
+   "answer": "-44",
+   "answer_format": "decimal",
+   "tolerance": 0.5,
+   "hint": "역반응은 부호가 반대입니다.",
+   "explanation": "역반응이므로 −44 kJ입니다.\n응축은 발열 과정입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "빛에너지를 흡수해 포도당을 만드는 광합성은 {{1}} 반응입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "흡열"
+     ]
+    }
+   ],
+   "hint": "에너지를 흡수합니다.",
+   "explanation": "생성물인 포도당과 산소가 반응물보다 에너지가 큽니다.\n호흡은 그 반대인 발열 반응입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "C(s) + O₂(g) → CO₂(g)의 ΔH가 −394 kJ일 때, 탄소 6 g(0.5 mol)이 연소하면 ΔH는 몇 kJ일까요?",
+   "answer": "-197",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "hint": "몰수를 곱하세요.",
+   "explanation": "0.5 × (−394) = −197 kJ입니다.\n몰수에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "발열 반응의 생성물은 반응물보다 엔탈피가 낮아 에너지적으로 더 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "안정"
+     ]
+    }
+   ],
+   "hint": "에너지가 낮은 상태입니다.",
+   "explanation": "에너지가 낮을수록 안정합니다.\n그래서 발열 반응이 잘 일어나는 경향이 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "발열 반응과 흡열 반응을 엔탈피 변화로 비교해 설명해 보세요.",
+   "hint": "ΔH의 부호로 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "발열"
+     ],
+     [
+      "흡열"
+     ],
+     [
+      "ΔH",
+      "엔탈피"
+     ],
+     [
+      "음",
+      "양",
+      "크",
+      "작"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "발열 반응은 반응 중 열을 방출하므로 생성물의 엔탈피가 반응물보다 작아 ΔH < 0입니다. 흡열 반응은 열을 흡수하므로 생성물의 엔탈피가 반응물보다 커서 ΔH > 0입니다."
+  }
+ ]
+}

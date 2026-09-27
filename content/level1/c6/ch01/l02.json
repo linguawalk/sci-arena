@@ -1,0 +1,356 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch01",
+  "no": 1,
+  "title": "기체"
+ },
+ "lesson": {
+  "id": "c6-ch01-l02",
+  "no": 2,
+  "title": "샤를 법칙과 절대 온도",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "데우면 커지는 기체",
+   "body": [
+    "찌그러진 탁구공을 뜨거운 물에 넣으면 다시 둥글게 펴집니다. 공 속 공기가 데워져 부피가 커지기 때문입니다.",
+    "기체의 부피와 온도 사이에도 규칙이 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "압력이 일정할 때 기체의 부피가 절대 온도에 비례한다는 법칙을 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "샤를"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "1787년 샤를이 발견했습니다.\n열기구의 원리이기도 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "샤를 법칙과 절대 온도",
+   "body": [
+    "압력이 일정할 때 기체의 온도가 1 °C 오를 때마다 0 °C 부피의 1/273씩 늘어납니다: V = V₀(1 + t/273).",
+    "이 관계를 거꾸로 따라가면 −273 °C에서 기체의 부피가 0이 됩니다. 이 온도를 절대 영도(0 K)라고 하며, 여기서부터 잰 온도가 절대 온도 T(K) = t(°C) + 273입니다.",
+    "절대 온도로 쓰면 샤를 법칙은 V ∝ T, 곧 V₁ ÷ T₁ = V₂ ÷ T₂로 간단해집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기체의 부피가 이론적으로 0이 되는 −273 °C를 절대 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "영도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "0 K입니다.\n실제 기체는 그 전에 액체나 고체가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0 °C에서 273 mL인 기체를 압력을 일정하게 하고 27 °C로 데우면 부피는 몇 mL가 될까요?",
+   "answer": "300",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1 °C마다 273 mL의 1/273 = 1 mL씩 늘어납니다.\n273 + 27 = 300 mL입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "300 K에서 2 L인 기체를 압력을 일정하게 하고 450 K로 데우면 부피는 몇 L가 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "V₁/T₁ = V₂/T₂에서 V₂ = 2 × 450 ÷ 300 = 3 L입니다.\n절대 온도에 비례합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "27 °C에서 3 L인 기체를 압력을 일정하게 하고 127 °C로 데우면 부피는?",
+   "steps": [
+    "절대 온도로 바꾸면 300 K → 400 K입니다.",
+    "V₂ = 3 × 400 ÷ 300 = 4 L입니다.",
+    "섭씨온도로 비례식을 세우면 3 × 127 ÷ 27 ≈ 14 L로 틀린 답이 나옵니다."
+   ],
+   "answer": "4 L"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "보일–샤를 법칙",
+   "body": [
+    "보일 법칙과 샤를 법칙을 합치면, 기체의 양이 일정할 때 PV ÷ T = 일정입니다: P₁V₁/T₁ = P₂V₂/T₂.",
+    "압력, 부피, 온도가 모두 변할 때 이 식으로 나중 상태를 구할 수 있습니다. 온도는 반드시 절대 온도를 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "P₁V₁/T₁ = P₂V₂/T₂를 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보일–샤를",
+      "보일-샤를",
+      "보일 샤를"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 법칙을 합친 것입니다.\n기체의 양이 일정할 때 성립합니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1 atm, 300 K에서 6 L인 기체를 2 atm, 400 K로 하면 부피는 몇 L가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "V₂ = V₁ × (P₁/P₂) × (T₂/T₁) = 6 × 1/2 × 4/3 = 4 L입니다.\n두 효과를 곱합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "샤를 법칙에서 부피는 섭씨온도가 아니라 {{1}} 온도에 비례합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "절대"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "섭씨 0 °C에서 부피가 0이 아니므로 섭씨온도에는 비례하지 않습니다.\n절대 온도(K)를 써야 합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "열기구가 떠오르는 원리는?",
+   "steps": [
+    "버너로 기구 속 공기를 데우면 샤를 법칙에 따라 부피가 커집니다.",
+    "기구 입구로 공기 일부가 빠져나가 기구 속 공기의 밀도가 작아집니다.",
+    "바깥 공기보다 가벼워져 부력으로 떠오릅니다."
+   ],
+   "answer": "데운 공기의 밀도가 작아지기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "열기구 속 공기를 데우면 부피가 커져 공기의 {{1}}가 작아지므로 떠오릅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "밀도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 질량이 더 큰 부피를 차지합니다.\n그래서 바깥 공기보다 가벼워집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "샤를 법칙 정리",
+   "body": [
+    "T(K) = t(°C) + 273. 압력 일정: V₁/T₁ = V₂/T₂. 기체의 양 일정: P₁V₁/T₁ = P₂V₂/T₂.",
+    "온도가 오르면 분자가 빨라져 벽을 세게 치므로, 압력을 일정하게 유지하려면 부피가 커져야 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "27 °C는 절대 온도로 몇 K일까요?",
+   "answer": "300",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "27 + 273 = 300 K입니다.\n기체 계산에는 항상 절대 온도를 씁니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "2 atm, 300 K, 3 L인 기체를 1 atm, 600 K로 하면 부피는?",
+   "steps": [
+    "압력 1/2 → 부피 2배, 온도 2배 → 부피 2배입니다.",
+    "V₂ = 3 × 2 × 2 = 12 L입니다."
+   ],
+   "answer": "12 L"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "압력이 일정할 때 27 °C, 3 L인 기체를 127 °C로 데우면 부피는 몇 L가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "섭씨온도를 절대 온도로 바꾸세요.",
+   "explanation": "300 K → 400 K이므로 V₂ = 3 × 4/3 = 4 L입니다.\n절대 온도로 바꾸어 계산합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "압력이 일정할 때 300 K인 기체의 부피를 2배로 하려면 몇 K로 데워야 할까요?",
+   "answer": "600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "V ∝ T입니다.",
+   "explanation": "V ∝ T이므로 T도 2배인 600 K입니다.\n섭씨로는 327 °C입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "샤를 법칙을 거꾸로 따라가면 절대 영도에서 기체의 부피는 이론적으로 {{1}}이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "hint": "T = 0을 넣어 보세요.",
+   "explanation": "V ∝ T이므로 T = 0이면 V = 0입니다.\n실제로는 그 전에 액화됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "2 atm, 300 K에서 3 L인 기체를 1 atm, 600 K로 하면 부피는 몇 L가 될까요?",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "P₁V₁/T₁ = P₂V₂/T₂입니다.",
+   "explanation": "V₂ = 3 × (2/1) × (600/300) = 12 L입니다.\n보일–샤를 법칙입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "부피가 거의 일정한 자동차 타이어는 여름에 온도가 오르면 속 공기의 압력이 {{1}}갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "올라"
+     ]
+    }
+   ],
+   "hint": "분자가 벽을 더 세게 칩니다.",
+   "explanation": "부피가 일정하면 압력은 절대 온도에 비례합니다.\n그래서 여름에는 공기압을 조금 낮게 넣습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "부피가 일정한 용기 속 기체의 온도를 300 K에서 450 K로 올리면 1 atm이던 압력은 몇 atm이 될까요?",
+   "answer": "1.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "P₁/T₁ = P₂/T₂입니다.",
+   "explanation": "부피 일정: P ∝ T이므로 1 × 450/300 = 1.5 atm입니다.\n게이뤼삭 법칙이라고도 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "압력이 일정할 때 기체의 온도를 높이면 부피가 커지는 이유를 분자 운동으로 설명해 보세요.",
+   "hint": "분자의 속력과 충돌을 연결하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "분자"
+     ],
+     [
+      "빨라",
+      "운동 에너지",
+      "활발"
+     ],
+     [
+      "충돌",
+      "세게"
+     ],
+     [
+      "부피",
+      "커"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "온도가 높아지면 기체 분자의 평균 운동 에너지가 커져 분자가 더 빠르게 움직이고 벽에 더 세게, 더 자주 충돌합니다. 압력이 일정하게 유지되려면 분자가 벽에 부딪히는 효과가 줄어들도록 부피가 커져야 합니다."
+  }
+ ]
+}

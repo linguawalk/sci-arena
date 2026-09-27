@@ -1,0 +1,174 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch04",
+  "no": 4,
+  "title": "반응열"
+ },
+ "review": {
+  "id": "c6-ch04-review",
+  "title": "반응열 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "흡열 반응의 ΔH는 {{1}}의 값을 가집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "양",
+      "양수",
+      "(+)",
+      "+"
+     ]
+    }
+   ],
+   "hint": "발열 반응과 반대입니다.",
+   "explanation": "생성물의 엔탈피가 반응물보다 큽니다.\n주위에서 열을 흡수합니다.",
+   "source_lesson": "c6-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "A + B → C의 ΔH가 −120 kJ일 때 C → A + B의 ΔH는 몇 kJ일까요?",
+   "answer": "120",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "부호를 바꾸세요.",
+   "explanation": "역반응은 부호가 반대이므로 +120 kJ입니다.\n흡열 반응입니다.",
+   "source_lesson": "c6-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "ΔH_f가 CO₂ −394, H₂O(l) −286 kJ/mol일 때 C(흑연) + O₂ + 2H₂ → CO₂ + 2H₂O(l)의 ΔH는 몇 kJ일까요?",
+   "answer": "-966",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "hint": "홑원소의 생성 엔탈피는 0입니다.",
+   "explanation": "홑원소의 ΔH_f는 0이므로 ΔH = −394 + 2 × (−286) = −966 kJ입니다.\n생성물 합 − 반응물 합입니다.",
+   "source_lesson": "c6-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "물 100 g의 온도가 20 °C 올라갔습니다. 물이 얻은 열은 몇 J일까요? (물의 비열 4.2 J/(g·°C))",
+   "answer": "8400",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Q = cmΔT입니다.",
+   "explanation": "Q = 4.2 × 100 × 20 = 8400 J입니다.\nQ = cmΔT입니다.",
+   "source_lesson": "c6-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "열용량 5 kJ/°C인 통열량계에서 어떤 물질 0.2 mol을 태우니 온도가 4 °C 올랐습니다. 1 mol당 방출한 열은 몇 kJ일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Q = CΔT입니다.",
+   "explanation": "Q = 5 × 4 = 20 kJ, 20 ÷ 0.2 = 100 kJ/mol입니다.\n연소 ΔH는 −100 kJ입니다.",
+   "source_lesson": "c6-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "반응열은 반응 경로와 관계없이 처음과 나중 상태로만 정해진다는 것을 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "헤스"
+     ]
+    }
+   ],
+   "hint": "스위스 출신 러시아 화학자의 이름입니다.",
+   "explanation": "총열량 불변 법칙입니다.\n반응식을 더하고 빼서 반응열을 구합니다.",
+   "source_lesson": "c6-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "X → Y의 ΔH가 +30 kJ, Y → Z의 ΔH가 −80 kJ일 때 X → Z의 ΔH는 몇 kJ일까요?",
+   "answer": "-50",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "hint": "두 반응식을 더하세요.",
+   "explanation": "30 + (−80) = −50 kJ입니다.\n두 식을 더합니다.",
+   "source_lesson": "c6-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "결합 에너지는 기체 분자의 결합 1 mol을 {{1}} 데 필요한 에너지입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "끊는"
+     ]
+    }
+   ],
+   "hint": "결합을 어떻게 하는 에너지일까요?",
+   "explanation": "결합을 끊으려면 에너지를 흡수해야 합니다.\n단위는 kJ/mol입니다.",
+   "source_lesson": "c6-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "결합 에너지가 H–H 436, F–F 159, H–F 567 kJ/mol일 때 H₂ + F₂ → 2HF의 ΔH는 몇 kJ일까요?",
+   "answer": "-539",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "hint": "끊는 합 − 생기는 합입니다.",
+   "explanation": "(436 + 159) − 2 × 567 = 595 − 1134 = −539 kJ입니다.\n격렬한 발열 반응입니다.",
+   "source_lesson": "c6-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "같은 원자 사이에서 결합 에너지가 가장 큰 것은 {{1}} 결합입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "삼중"
+     ]
+    }
+   ],
+   "hint": "공유 전자쌍이 가장 많은 결합입니다.",
+   "explanation": "단일 < 이중 < 삼중 순입니다.\n결합 길이는 가장 짧습니다.",
+   "source_lesson": "c6-ch04-l04"
+  }
+ ]
+}

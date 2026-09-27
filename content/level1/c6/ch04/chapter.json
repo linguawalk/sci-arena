@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c6",
+  "chapter": {
+    "id": "c6-ch04",
+    "no": 4,
+    "title": "반응열"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c6-ch04-l01",
+      "title": "엔탈피와 반응열",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c6-ch04-l02",
+      "title": "열량 측정",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c6-ch04-l03",
+      "title": "헤스 법칙",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c6-ch04-l04",
+      "title": "결합 에너지",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c6-ch04-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

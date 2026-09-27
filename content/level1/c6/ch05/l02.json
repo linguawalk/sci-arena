@@ -1,0 +1,367 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch05",
+  "no": 5,
+  "title": "화학 평형"
+ },
+ "lesson": {
+  "id": "c6-ch05-l02",
+  "no": 2,
+  "title": "반응 지수와 평형의 방향",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "어느 쪽으로 반응할까",
+   "body": [
+    "어떤 혼합물이 평형에 있는지, 아니라면 정반응과 역반응 중 어느 쪽으로 진행할지 어떻게 알 수 있을까요?",
+    "현재 농도로 평형 상수와 같은 식을 계산해 K와 비교하면 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "평형이 아닌 임의의 상태에서 평형 상수 식에 현재 농도를 넣어 계산한 값을 반응 {{1}}(Q)라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지수"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "식의 모양은 K와 같습니다.\nQ와 K를 비교해 반응 방향을 예측합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "Q와 K의 비교",
+   "body": [
+    "Q < K이면 생성물이 평형보다 적으므로 정반응이 일어나 평형에 도달합니다.",
+    "Q > K이면 생성물이 평형보다 많으므로 역반응이 일어납니다.",
+    "Q = K이면 이미 평형 상태입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "Q < K이면 {{1}}이 우세하게 일어나 평형에 도달합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정반응"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "생성물이 모자라므로 생성물이 늘어나는 방향입니다.\nQ가 커져 K에 가까워집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "Q > K이면 {{1}}이 우세하게 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역반응"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "생성물이 너무 많아 반응물 쪽으로 되돌아갑니다.\nQ가 작아져 K에 가까워집니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "H₂ + I₂ ⇌ 2HI(K = 64)에서 현재 [H₂] = 0.2 M, [I₂] = 0.2 M, [HI] = 0.4 M입니다. 반응 지수 Q는 얼마일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Q = 0.4² ÷ (0.2 × 0.2) = 0.16 ÷ 0.04 = 4입니다.\nK와 같은 식으로 계산합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "위 혼합물(Q = 4, K = 64)은 어느 방향으로 반응할까요?",
+   "steps": [
+    "Q = 4 < K = 64입니다.",
+    "생성물(HI)이 평형보다 적습니다.",
+    "정반응이 일어나 HI가 늘어납니다."
+   ],
+   "answer": "정반응"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "Q = 4, K = 64인 혼합물에서는 {{1}}이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정반응"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Q < K이므로 생성물이 늘어나는 방향입니다.\nHI가 더 생깁니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "평형 농도 구하기",
+   "body": [
+    "K와 처음 농도를 알면 평형 농도를 구할 수 있습니다. 변화량을 x로 두고 평형 농도를 x로 나타낸 뒤 K 식에 넣어 풉니다.",
+    "예: A ⇌ B, K = 4, 처음 [A] = 1 M이면 평형에서 [A] = 1 − x, [B] = x입니다. x ÷ (1 − x) = 4에서 x = 0.8 M입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "A ⇌ B(K = 4)에서 처음 [A] = 1 M, [B] = 0이면 평형에서 [B]는 몇 M일까요?",
+   "answer": "0.8",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "x ÷ (1 − x) = 4에서 x = 4 − 4x, 5x = 4, x = 0.8 M입니다.\n[A]는 0.2 M입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "A ⇌ B(K = 1)에서 처음 [A] = 2 M, [B] = 0이면 평형에서 [B]는 몇 M일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "x ÷ (2 − x) = 1에서 x = 1 M입니다.\nK = 1이면 두 농도가 같아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "Q = K이면 반응은 이미 {{1}} 상태입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "평형"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "정반응과 역반응의 속도가 같습니다.\n농도가 더 변하지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "빈 용기에 생성물만 넣으면 어느 방향으로 반응할까요?",
+   "steps": [
+    "반응물 농도가 0이므로 Q의 분모가 0이 되어 Q는 매우 큽니다(무한대).",
+    "Q > K입니다.",
+    "역반응이 일어나 반응물이 생겨납니다."
+   ],
+   "answer": "역반응"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "반응 방향 정리",
+   "body": [
+    "Q < K → 정반응, Q > K → 역반응, Q = K → 평형.",
+    "평형 농도는 변화량 x로 나타내 K 식에 넣어 구합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "반응 지수 Q는 평형 농도가 아닌 {{1}}의 농도로 계산합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "현재",
+      "그 순간"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "평형인지 아닌지 모르는 상태의 농도입니다.\n평형이면 Q = K입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "A ⇌ B(K = 0.5)에서 현재 [A] = 1 M, [B] = 2 M이면?",
+   "steps": [
+    "Q = [B]/[A] = 2입니다.",
+    "Q = 2 > K = 0.5입니다.",
+    "역반응이 일어나 B가 줄고 A가 늘어납니다."
+   ],
+   "answer": "역반응"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "A ⇌ B에서 현재 [A] = 1 M, [B] = 2 M입니다. 반응 지수 Q는 얼마일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "K와 같은 식입니다.",
+   "explanation": "Q = [B] ÷ [A] = 2 ÷ 1 = 2입니다.\nK와 비교해 방향을 정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "위 반응의 K가 0.5라면 {{1}}이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역반응"
+     ]
+    }
+   ],
+   "hint": "Q와 K를 비교하세요.",
+   "explanation": "Q = 2 > K = 0.5입니다.\nB가 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "H₂ + I₂ ⇌ 2HI(K = 64)의 평형에서 [H₂] = [I₂] = 0.1 M입니다. [HI]는 몇 M일까요?",
+   "answer": "0.8",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "[HI]² = K × [H₂][I₂]입니다.",
+   "explanation": "[HI]² = 64 × 0.01 = 0.64이므로 [HI] = 0.8 M입니다.\nK 식을 거꾸로 풉니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "빈 용기에 생성물만 넣으면 {{1}}이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역반응"
+     ]
+    }
+   ],
+   "hint": "반응물 농도가 0입니다.",
+   "explanation": "Q가 매우 커서 K보다 큽니다.\n반응물이 생겨납니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "A ⇌ B + C에서 현재 [A] = [B] = [C] = 0.5 M입니다. 반응 지수 Q는 얼마일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "Q = [B][C] ÷ [A]입니다.",
+   "explanation": "Q = (0.5 × 0.5) ÷ 0.5 = 0.5입니다.\n생성물 곱 ÷ 반응물입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "평형 상수가 매우 큰 반응은 거의 {{1}}까지 진행합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "끝",
+      "완결",
+      "완전히"
+     ]
+    }
+   ],
+   "hint": "반응물이 거의 없어질 때까지입니다.",
+   "explanation": "평형에서 반응물이 거의 남지 않습니다.\n연소 반응이 그 예입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "반응 지수 Q와 평형 상수 K를 비교해 반응의 진행 방향을 예측하는 방법을 설명해 보세요.",
+   "hint": "세 경우를 모두 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "Q"
+     ],
+     [
+      "K"
+     ],
+     [
+      "정반응"
+     ],
+     [
+      "역반응"
+     ],
+     [
+      "평형"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "현재 농도로 반응 지수 Q를 계산해 평형 상수 K와 비교합니다. Q < K이면 생성물이 부족하므로 정반응이, Q > K이면 생성물이 많으므로 역반응이 일어나며, Q = K이면 이미 평형 상태입니다."
+  }
+ ]
+}

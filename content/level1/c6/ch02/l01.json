@@ -1,0 +1,413 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch02",
+  "no": 2,
+  "title": "분자 간 힘과 물질의 상태"
+ },
+ "lesson": {
+  "id": "c6-ch02-l01",
+  "no": 1,
+  "title": "분산력과 쌍극자–쌍극자 힘",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "분자들을 붙잡는 힘",
+   "body": [
+    "상온에서 산소는 기체, 물은 액체, 설탕은 고체입니다. 모두 분자로 이루어졌는데 왜 상태가 다를까요?",
+    "분자와 분자 사이에 작용하는 힘의 크기가 다르기 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "분자와 분자 사이에 작용하는 인력을 분자 {{1}} 힘이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "간"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분자 간 힘은 분자 속 원자를 잇는 공유 결합보다 훨씬 약합니다.\n물질의 녹는점과 끓는점을 결정합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "분산력과 쌍극자–쌍극자 힘",
+   "body": [
+    "분산력은 분자 속 전자가 순간적으로 한쪽에 치우쳐 생긴 순간 쌍극자가 이웃 분자에 쌍극자를 유도하여 생기는 힘입니다. 모든 분자 사이에 작용하며, 분자량이 클수록(전자가 많을수록) 커집니다.",
+    "그래서 할로젠 분자는 분자량이 커질수록 끓는점이 높아져, 상온에서 F₂와 Cl₂는 기체, Br₂는 액체, I₂는 고체입니다.",
+    "극성 분자 사이에는 분산력에 더해 부분 양전하(δ+)와 부분 음전하(δ−)가 서로 끌어당기는 쌍극자–쌍극자 힘이 작용합니다. 분자 간 힘이 클수록 녹는점과 끓는점이 높습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "무극성 분자와 극성 분자를 포함한 모든 분자 사이에 작용하는 분자 간 힘은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분산력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "순간 쌍극자에 의한 힘입니다.\n분자량이 클수록 커집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "F₂, Cl₂, Br₂, I₂ 가운데 끓는점이 가장 높은 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "I₂",
+      "I2",
+      "아이오딘"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분자량이 가장 커서 분산력이 가장 큽니다.\n상온에서 고체입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "극성 분자 사이에 작용하는 분자 간 힘에는 분산력과 {{1}} 힘이 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "쌍극자–쌍극자",
+      "쌍극자-쌍극자",
+      "쌍극자 쌍극자"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "δ+와 δ−가 서로 끌어당깁니다.\n무극성 분자에는 없습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "분자량이 28로 같은 일산화 탄소(CO)와 질소(N₂) 중 끓는점이 높은 것은?",
+   "steps": [
+    "분자량이 같으므로 분산력은 비슷합니다.",
+    "CO는 극성 분자라 쌍극자–쌍극자 힘이 더해지고, N₂는 무극성입니다.",
+    "따라서 CO의 끓는점이 더 높습니다(CO −191 °C, N₂ −196 °C)."
+   ],
+   "answer": "CO"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "분자량이 같은 CO와 N₂ 가운데 끓는점이 높은 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CO",
+      "일산화 탄소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "CO는 극성 분자라 쌍극자–쌍극자 힘이 추가됩니다.\n분자량이 비슷하면 극성 분자의 끓는점이 높습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "분자 모양과 분산력",
+   "body": [
+    "분자량이 같아도 분자 모양에 따라 분산력이 다릅니다. 길쭉한 분자는 이웃 분자와 닿는 면적이 넓어 분산력이 크고, 둥글게 가지가 많은 분자는 닿는 면적이 작아 분산력이 작습니다.",
+    "예를 들어 분자식이 C₅H₁₂로 같은 펜테인(사슬 모양)은 끓는점이 36 °C이고, 네오펜테인(공 모양)은 10 °C입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "분자식이 같을 때 가지가 많아 공 모양에 가까운 분자일수록 끓는점이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이웃 분자와 닿는 표면적이 작아 분산력이 작습니다.\n길쭉한 분자는 끓는점이 높습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "끓는점이 낮은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Br₂"
+    },
+    {
+     "id": "b",
+     "text": "F₂"
+    },
+    {
+     "id": "c",
+     "text": "I₂"
+    },
+    {
+     "id": "d",
+     "text": "Cl₂"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "분자량이 클수록 분산력이 커서 끓는점이 높습니다.\nF₂ < Cl₂ < Br₂ < I₂입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "상온에서 브로민(Br₂)은 {{1}} 상태입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "액체"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "상온에서 액체인 비금속 원소는 브로민뿐입니다.\n적갈색 액체입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "메테인(CH₄), 에테인(C₂H₆), 프로페인(C₃H₈)의 끓는점 순서는?",
+   "steps": [
+    "세 분자 모두 무극성이므로 분산력만 작용합니다.",
+    "분자량은 CH₄ 16 < C₂H₆ 30 < C₃H₈ 44입니다.",
+    "분자량이 클수록 분산력이 커서 끓는점도 CH₄ < C₂H₆ < C₃H₈입니다."
+   ],
+   "answer": "CH₄ < C₂H₆ < C₃H₈"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "분자 간 힘 정리",
+   "body": [
+    "분산력: 모든 분자, 분자량과 표면적이 클수록 큼. 쌍극자–쌍극자 힘: 극성 분자 사이.",
+    "분자 간 힘이 클수록 분자를 떼어 놓기 어려워 녹는점과 끓는점이 높습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "분자 간 힘이 클수록 물질의 끓는점이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "끓으려면 분자 사이의 인력을 끊어야 합니다.\n힘이 클수록 더 많은 에너지가 필요합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "분자량이 비슷한 HCl(36.5)과 F₂(38) 중 끓는점이 높은 것은?",
+   "steps": [
+    "분자량이 비슷해 분산력은 비슷합니다.",
+    "HCl은 극성, F₂는 무극성입니다.",
+    "HCl에 쌍극자–쌍극자 힘이 더해져 끓는점이 높습니다."
+   ],
+   "answer": "HCl"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "분자 간 힘은 분자 속 원자 사이의 공유 결합보다 훨씬 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "약합",
+      "약하"
+     ]
+    }
+   ],
+   "hint": "끓는 물의 분자는 부서지지 않습니다.",
+   "explanation": "물이 끓어도 H₂O 분자는 그대로입니다.\n분자 사이의 인력만 끊어집니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "물이 끓을 때 끊어지는 것은 공유 결합이 아니라 분자 {{1}} 힘입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "간"
+     ]
+    }
+   ],
+   "hint": "분자와 분자 사이의 힘입니다.",
+   "explanation": "끓어도 H₂O 분자는 그대로 수증기가 됩니다.\n분자 사이의 인력만 끊어집니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "CH₄ < C₂H₆ < C₃H₈ 순으로 끓는점이 높아지는 것은 분자량이 커질수록 {{1}}이 커지기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분산력"
+     ]
+    }
+   ],
+   "hint": "무극성 분자 사이의 힘입니다.",
+   "explanation": "세 분자 모두 무극성입니다.\n분자량이 클수록 전자가 많아 순간 쌍극자가 커집니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "상온에서 아이오딘(I₂)은 {{1}} 상태입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "고체"
+     ]
+    }
+   ],
+   "hint": "할로젠 중 가장 무겁습니다.",
+   "explanation": "분자량이 커서 분산력이 큽니다.\n가열하면 승화합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "전자가 순간적으로 치우쳐 생긴 쌍극자 때문에 생기는 분자 간 힘은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분산력"
+     ]
+    }
+   ],
+   "hint": "모든 분자 사이에 작용합니다.",
+   "explanation": "런던 분산력이라고도 합니다.\n모든 분자에 작용합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "무극성 분자로 된 물질의 끓는점은 주로 {{1}}의 크기로 결정됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분산력"
+     ]
+    }
+   ],
+   "hint": "무극성 분자 사이의 유일한 힘입니다.",
+   "explanation": "무극성 분자 사이에는 분산력만 작용합니다.\n분자량과 모양이 중요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "분자량이 비슷한 극성 분자와 무극성 분자의 끓는점을 비교하고 그 이유를 설명해 보세요.",
+   "hint": "두 종류의 분자 간 힘을 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "극성"
+     ],
+     [
+      "분산력"
+     ],
+     [
+      "쌍극자"
+     ],
+     [
+      "높"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "분자량이 비슷하면 두 물질의 분산력은 비슷합니다. 극성 분자는 분산력 외에 쌍극자–쌍극자 힘이 추가로 작용하므로 분자 간 힘이 더 커서 무극성 분자보다 끓는점이 높습니다."
+  }
+ ]
+}

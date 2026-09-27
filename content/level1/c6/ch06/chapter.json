@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c6",
+  "chapter": {
+    "id": "c6-ch06",
+    "no": 6,
+    "title": "산·염기 평형"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c6-ch06-l01",
+      "title": "물의 이온화와 pH",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c6-ch06-l02",
+      "title": "산과 염기의 이온화 상수",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c6-ch06-l03",
+      "title": "염의 가수 분해",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c6-ch06-l04",
+      "title": "완충 용액",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c6-ch06-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

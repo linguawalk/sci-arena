@@ -1,0 +1,187 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch08",
+  "no": 8,
+  "title": "전기 화학"
+ },
+ "review": {
+  "id": "c6-ch08-review",
+  "title": "전기 화학 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "화학 전지에서 반응성이 큰 금속은 산화되어 {{1}}극이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "(−)",
+      "−",
+      "-",
+      "음"
+     ]
+    }
+   ],
+   "hint": "전자가 나가는 극입니다.",
+   "explanation": "전자를 내놓는 전극입니다.\n다니엘 전지에서는 아연입니다.",
+   "source_lesson": "c6-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "다니엘 전지에서 구리 12.8 g이 석출되었다면 이동한 전자는 몇 mol일까요? (Cu 64)",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "Cu 1 mol에 전자 2 mol입니다.",
+   "explanation": "12.8 ÷ 64 = 0.2 mol Cu, 전자는 2배인 0.4 mol입니다.\nCu²⁺ + 2e⁻ → Cu입니다.",
+   "source_lesson": "c6-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "철과 은으로 만든 전지의 표준 기전력은 몇 V일까요? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+   "answer": "1.24",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "E°(+) − E°(−)입니다.",
+   "explanation": "E° = 0.80 − (−0.44) = 1.24 V입니다.\n은이 (+)극입니다.",
+   "source_lesson": "c6-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "산화 환원 반응의 표준 기전력이 음수이면 그 반응은 자발적으로 일어나지 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "않는다",
+      "않습니다"
+     ]
+    }
+   ],
+   "hint": "양수일 때와 반대입니다.",
+   "explanation": "역반응이 자발적입니다.\n양수여야 자발적입니다.",
+   "source_lesson": "c6-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "납축전지는 충전해서 다시 쓸 수 있는 {{1}}차 전지입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "hint": "충전 가능한 전지입니다.",
+   "explanation": "방전하면 두 전극이 PbSO₄가 됩니다.\n충전하면 되돌아갑니다.",
+   "source_lesson": "c6-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "수소 연료 전지의 전체 반응 생성물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "물",
+      "H₂O",
+      "H2O"
+     ]
+    }
+   ],
+   "hint": "수소와 산소의 화합물입니다.",
+   "explanation": "2H₂ + O₂ → 2H₂O입니다.\n오염 물질이 거의 없습니다.",
+   "source_lesson": "c6-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전기 분해에서 전원의 (+)극에 연결된 전극에서는 {{1}}가 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산화"
+     ]
+    }
+   ],
+   "hint": "환원의 반대입니다.",
+   "explanation": "음이온이나 물이 전자를 잃습니다.\n전지와 극의 부호가 반대로 대응합니다.",
+   "source_lesson": "c6-ch08-l04"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "NaCl 수용액을 전기 분해하면 (+)극에서 {{1}} 기체가 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염소"
+     ]
+    }
+   ],
+   "hint": "황록색 기체입니다.",
+   "explanation": "2Cl⁻ → Cl₂ + 2e⁻입니다.\n(−)극에서는 수소가 생깁니다.",
+   "source_lesson": "c6-ch08-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "AgNO₃ 수용액에 0.5 F의 전하량을 흘리면 석출되는 은은 몇 g일까요? (Ag 108)",
+   "answer": "54",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Ag⁺ + e⁻ → Ag입니다.",
+   "explanation": "전자 0.5 mol → Ag 0.5 mol = 54 g입니다.\nAg⁺는 전자 1개로 환원됩니다.",
+   "source_lesson": "c6-ch08-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "3 A의 전류를 3217초 동안 흘리면 흘려 준 전하량은 약 몇 F일까요? (1 F = 96500 C)",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "Q = It입니다.",
+   "explanation": "Q = 3 × 3217 ≈ 9651 C ≈ 0.1 F입니다.\n전자 약 0.1 mol입니다.",
+   "source_lesson": "c6-ch08-l04"
+  }
+ ]
+}

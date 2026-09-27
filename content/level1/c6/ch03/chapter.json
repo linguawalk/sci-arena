@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c6",
+  "chapter": {
+    "id": "c6-ch03",
+    "no": 3,
+    "title": "용액"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c6-ch03-l01",
+      "title": "농도 표현",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c6-ch03-l02",
+      "title": "증기 압력 내림",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c6-ch03-l03",
+      "title": "끓는점 오름과 어는점 내림",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c6-ch03-l04",
+      "title": "삼투압",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c6-ch03-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

@@ -1,0 +1,189 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch02",
+  "no": 2,
+  "title": "분자 간 힘과 물질의 상태"
+ },
+ "review": {
+  "id": "c6-ch02-review",
+  "title": "분자 간 힘과 물질의 상태 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "분자량이 클수록 커지며 모든 분자 사이에 작용하는 힘은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분산력"
+     ]
+    }
+   ],
+   "hint": "모든 분자에 작용합니다.",
+   "explanation": "순간 쌍극자에 의한 힘입니다.\n할로젠의 끓는점 순서를 설명합니다.",
+   "source_lesson": "c6-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "분자량이 비슷할 때 극성 분자는 {{1}} 힘이 더해져 무극성 분자보다 끓는점이 높습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "쌍극자–쌍극자",
+      "쌍극자-쌍극자",
+      "쌍극자 쌍극자"
+     ]
+    }
+   ],
+   "hint": "극성 분자 사이의 힘입니다.",
+   "explanation": "δ+와 δ−가 끌어당깁니다.\nCO가 N₂보다 끓는점이 높은 이유입니다.",
+   "source_lesson": "c6-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "H₂O, HF, NH₃의 끓는점이 비정상적으로 높은 것은 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소 결합"
+     ]
+    }
+   ],
+   "hint": "F, O, N과 H 사이의 분자 간 힘입니다.",
+   "explanation": "F, O, N에 결합한 H가 이웃 분자에 강하게 끌립니다.\n분자 간 힘 가운데 가장 강합니다.",
+   "source_lesson": "c6-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "물의 밀도가 가장 큰 온도는 몇 °C일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "0 °C보다 조금 높습니다.",
+   "explanation": "4 °C입니다.\n얼음은 물보다 밀도가 작습니다.",
+   "source_lesson": "c6-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "액체는 증기 압력이 {{1}}과 같아질 때 끓습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "외부 압력",
+      "대기압"
+     ]
+    }
+   ],
+   "hint": "바깥에서 누르는 압력입니다.",
+   "explanation": "그래서 끓는점은 외부 압력에 따라 달라집니다.\n산 위에서는 낮아집니다.",
+   "source_lesson": "c6-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "분자 간 힘이 큰 액체는 같은 온도에서 증기 압력이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": "증발하기 어렵습니다.",
+   "explanation": "잘 증발하지 못합니다.\n끓는점이 높습니다.",
+   "source_lesson": "c6-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "드라이아이스와 아이오딘은 분자 간 힘으로 이루어진 {{1}} 결정입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분자"
+     ]
+    }
+   ],
+   "hint": "분자로 이루어진 결정입니다.",
+   "explanation": "녹는점이 낮고 승화합니다.\n분자 간 힘이 약하기 때문입니다.",
+   "source_lesson": "c6-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "고체 상태에서 전기가 통하지 않지만 녹이면 전기가 통하는 결정은 {{1}} 결정입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이온"
+     ]
+    }
+   ],
+   "hint": "양이온과 음이온으로 된 결정입니다.",
+   "explanation": "녹이면 이온이 움직일 수 있습니다.\nNaCl이 대표적입니다.",
+   "source_lesson": "c6-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "면심 입방 구조의 단위 세포에 들어 있는 원자는 몇 개일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "8 × 1/8 + 6 × 1/2입니다.",
+   "explanation": "꼭짓점 1개 + 면 3개 = 4개입니다.\n배위수는 12입니다.",
+   "source_lesson": "c6-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "체심 입방 구조에서 한 원자의 배위수는 얼마일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "정육면체의 꼭짓점 수입니다.",
+   "explanation": "중심 원자는 8개의 꼭짓점 원자와 가장 가깝습니다.\n단위 세포 속 원자는 2개입니다.",
+   "source_lesson": "c6-ch02-l04"
+  }
+ ]
+}

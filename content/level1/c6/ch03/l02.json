@@ -1,0 +1,355 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch03",
+  "no": 3,
+  "title": "용액"
+ },
+ "lesson": {
+  "id": "c6-ch03-l02",
+  "no": 2,
+  "title": "증기 압력 내림",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "바닷물이 느리게 마르는 이유",
+   "body": [
+    "같은 조건에서 민물과 바닷물을 놓아두면 바닷물이 더 천천히 증발합니다.",
+    "용질이 녹아 있으면 용매의 증발이 방해받기 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "비휘발성 용질이 녹은 용액의 증기 압력이 순수한 용매보다 낮아지는 현상을 증기 압력 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "내림"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "용질 입자가 표면의 일부를 차지해 용매의 증발을 방해합니다.\n끓는점 오름과 어는점 내림의 원인입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "라울 법칙",
+   "body": [
+    "용액 표면에는 용매 분자뿐 아니라 증발하지 않는 용질 입자도 있어, 증발할 수 있는 용매 분자의 비율이 줄어듭니다.",
+    "묽은 용액에서 용액의 증기 압력은 용매의 몰 분율에 비례합니다: P = x_용매 × P°(P°: 순수한 용매의 증기 압력). 이를 라울 법칙이라고 합니다.",
+    "증기 압력 내림은 ΔP = P° − P = x_용질 × P°입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "라울 법칙에 따르면 용액의 증기 압력은 용매의 {{1}}에 비례합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "몰 분율",
+      "몰분율"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "P = x_용매 × P°입니다.\n용질이 많을수록 용매의 몰 분율이 작아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "순수한 용매의 증기 압력이 100 mmHg이고 용액에서 용매의 몰 분율이 0.9입니다. 용액의 증기 압력은 몇 mmHg일까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "P = 0.9 × 100 = 90 mmHg입니다.\n10 mmHg 낮아졌습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 용액의 증기 압력 내림(ΔP)은 몇 mmHg일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "ΔP = x_용질 × P° = 0.1 × 100 = 10 mmHg입니다.\n용질의 몰 분율에 비례합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "물 9 mol에 설탕 1 mol을 녹였습니다. 이 온도에서 물의 증기 압력이 30 mmHg이면 용액의 증기 압력은?",
+   "steps": [
+    "x_물 = 9 ÷ 10 = 0.9입니다.",
+    "P = 0.9 × 30 = 27 mmHg입니다.",
+    "증기 압력 내림은 3 mmHg입니다."
+   ],
+   "answer": "27 mmHg"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "물 4 mol에 포도당 1 mol을 녹였습니다. 물의 증기 압력이 25 mmHg이면 용액의 증기 압력은 몇 mmHg일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "x_물 = 4 ÷ 5 = 0.8입니다.\nP = 0.8 × 25 = 20 mmHg입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "총괄성과 전해질",
+   "body": [
+    "증기 압력 내림, 끓는점 오름, 어는점 내림, 삼투압은 용질의 종류와 관계없이 용액 속 용질 입자의 수에만 의존합니다. 이런 성질을 총괄성이라고 합니다.",
+    "NaCl처럼 물에 녹아 이온으로 나뉘는 전해질은 입자 수가 늘어납니다. NaCl 1 mol은 Na⁺ 1 mol과 Cl⁻ 1 mol, 곧 2 mol의 입자가 됩니다. CaCl₂ 1 mol은 3 mol의 입자가 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "용질의 종류가 아니라 입자 수에만 의존하는 용액의 성질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "총괄성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "증기 압력 내림, 끓는점 오름, 어는점 내림, 삼투압이 있습니다.\n전해질은 이온 수를 세어야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "NaCl 1 mol이 물에 완전히 이온화하면 용질 입자는 몇 mol이 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "NaCl → Na⁺ + Cl⁻이므로 2 mol입니다.\n설탕 1 mol은 1 mol 그대로입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 양의 물에 설탕 1 mol과 NaCl 1 mol을 각각 녹이면 증기 압력이 더 낮은 것은 {{1}} 수용액입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "NaCl",
+      "염화 나트륨"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "NaCl은 이온화해 입자 수가 2배입니다.\n입자가 많을수록 증기 압력 내림이 큽니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "순수한 물과 설탕물을 밀폐된 상자 안에 나란히 두면 시간이 지나 어떻게 될까요?",
+   "steps": [
+    "설탕물의 증기 압력이 물보다 낮습니다.",
+    "물에서 증발한 수증기가 설탕물에 응축되는 양이 더 많습니다.",
+    "결국 순수한 물은 줄고 설탕물은 늘어납니다."
+   ],
+   "answer": "물이 설탕물 쪽으로 옮겨 간다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "증기 압력 내림 정리",
+   "body": [
+    "라울 법칙: P = x_용매 × P°, ΔP = x_용질 × P°.",
+    "총괄성은 입자 수에만 의존하며, 전해질은 이온화한 입자 수로 계산합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "비휘발성 용질이 녹은 용액의 증기 압력은 순수한 용매보다 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "증발할 수 있는 용매 분자의 비율이 줄어듭니다.\n그래서 끓는점이 높아집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "용질의 몰 분율이 0.05인 용액에서 용매의 증기 압력이 760 mmHg일 때 증기 압력 내림은?",
+   "steps": [
+    "ΔP = x_용질 × P°입니다.",
+    "= 0.05 × 760 = 38 mmHg입니다."
+   ],
+   "answer": "38 mmHg"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "용질의 몰 분율이 0.05인 용액에서 순수한 용매의 증기 압력이 760 mmHg이면 증기 압력 내림은 몇 mmHg일까요?",
+   "answer": "38",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "ΔP = x_용질 × P°입니다.",
+   "explanation": "ΔP = 0.05 × 760 = 38 mmHg입니다.\n용액의 증기 압력은 722 mmHg입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 조건에서 바닷물은 민물보다 {{1}} 증발합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "느리게",
+      "천천히"
+     ]
+    }
+   ],
+   "hint": "증기 압력이 낮습니다.",
+   "explanation": "녹아 있는 염류 때문에 증기 압력이 낮습니다.\n증발하는 물 분자가 적습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "CaCl₂ 1 mol이 물에 완전히 이온화하면 용질 입자는 몇 mol이 될까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "이온 수를 세어 보세요.",
+   "explanation": "CaCl₂ → Ca²⁺ + 2Cl⁻이므로 3 mol입니다.\n그래서 제설제로 효과가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "순수한 용매의 증기 압력이 50 mmHg이고 용액의 증기 압력이 45 mmHg입니다. 용질의 몰 분율은 얼마일까요?",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "ΔP ÷ P°입니다.",
+   "explanation": "ΔP = 5 mmHg = x_용질 × 50이므로 x_용질 = 0.1입니다.\n용매의 몰 분율은 0.9입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "총괄성은 용질 입자의 수에만 의존하고 용질의 {{1}}와는 관계없습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "종류"
+     ]
+    }
+   ],
+   "hint": "무엇이 녹았는지와 관계없습니다.",
+   "explanation": "설탕이든 포도당이든 같은 몰수면 효과가 같습니다.\n전해질은 이온 수를 셉니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "물 99 mol에 설탕 1 mol을 녹였습니다. 물의 증기 압력이 100 mmHg이면 용액의 증기 압력은 몇 mmHg일까요?",
+   "answer": "99",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "용매의 몰 분율을 구하세요.",
+   "explanation": "x_물 = 99/100 = 0.99입니다.\nP = 0.99 × 100 = 99 mmHg입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "비휘발성 용질을 녹이면 용액의 증기 압력이 낮아지는 이유를 설명해 보세요.",
+   "hint": "표면의 용매 분자를 생각하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "용질"
+     ],
+     [
+      "표면"
+     ],
+     [
+      "용매 분자",
+      "증발"
+     ],
+     [
+      "몰 분율",
+      "줄"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "비휘발성 용질 입자가 용액 표면의 일부를 차지하므로, 표면에서 증발할 수 있는 용매 분자의 비율이 줄어듭니다. 그래서 같은 온도에서 증발하는 용매 분자가 적어져 증기 압력이 낮아지며, 용액의 증기 압력은 용매의 몰 분율에 비례합니다."
+  }
+ ]
+}

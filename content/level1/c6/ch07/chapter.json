@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c6",
+  "chapter": {
+    "id": "c6-ch07",
+    "no": 7,
+    "title": "반응 속도"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c6-ch07-l01",
+      "title": "반응 속도와 속도식",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c6-ch07-l02",
+      "title": "1차 반응과 반감기",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c6-ch07-l03",
+      "title": "활성화 에너지와 온도",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c6-ch07-l04",
+      "title": "촉매",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c6-ch07-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

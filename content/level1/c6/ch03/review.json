@@ -1,0 +1,169 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch03",
+  "no": 3,
+  "title": "용액"
+ },
+ "review": {
+  "id": "c6-ch03-review",
+  "title": "용액 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "소금 15 g을 물 135 g에 녹인 소금물의 퍼센트 농도는 몇 %일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "용액 = 용질 + 용매입니다.",
+   "explanation": "15 ÷ 150 × 100 = 10%입니다.\n용액 질량으로 나눕니다.",
+   "source_lesson": "c6-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "NaOH 0.2 mol을 녹여 용액 500 mL를 만들었습니다. 몰 농도는 몇 M일까요?",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "몰수 ÷ 용액 L입니다.",
+   "explanation": "0.2 ÷ 0.5 = 0.4 M입니다.\n부피를 L로 바꿉니다.",
+   "source_lesson": "c6-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "3 M 용액 200 mL를 물로 묽혀 600 mL로 만들면 몰 농도는 몇 M일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "M₁V₁ = M₂V₂입니다.",
+   "explanation": "3 × 200 = M₂ × 600이므로 1 M입니다.\n용질 몰수는 그대로입니다.",
+   "source_lesson": "c6-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "온도가 변해도 값이 변하지 않아 끓는점 오름 계산에 쓰는 농도는 {{1}} 농도입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "몰랄"
+     ]
+    }
+   ],
+   "hint": "용매 kg을 기준으로 합니다.",
+   "explanation": "용매의 질량을 기준으로 합니다.\n질량은 온도에 따라 변하지 않습니다.",
+   "source_lesson": "c6-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "순수한 용매의 증기 압력이 200 mmHg이고 용매의 몰 분율이 0.95입니다. 용액의 증기 압력은 몇 mmHg일까요?",
+   "answer": "190",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "P = x_용매 × P°입니다.",
+   "explanation": "P = 0.95 × 200 = 190 mmHg입니다.\n라울 법칙입니다.",
+   "source_lesson": "c6-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "증기 압력 내림, 끓는점 오름, 어는점 내림, 삼투압처럼 입자 수에만 의존하는 성질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "총괄성"
+     ]
+    }
+   ],
+   "hint": "묶어서 부르는 이름입니다.",
+   "explanation": "용질의 종류와 관계없습니다.\n전해질은 이온 수를 셉니다.",
+   "source_lesson": "c6-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "1 m 포도당 수용액의 어는점은 몇 °C일까요? (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "answer": "-1.86",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "0 °C에서 어는점 내림을 빼세요.",
+   "explanation": "ΔT_f = 1.86 × 1 = 1.86 °C이므로 어는점은 −1.86 °C입니다.\n비전해질입니다.",
+   "source_lesson": "c6-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0.5 m NaCl 수용액의 끓는점 오름은 몇 °C일까요? (완전 이온화) (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "answer": "0.52",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "이온 수를 곱하세요.",
+   "explanation": "입자 농도 1 m이므로 0.52 × 1 = 0.52 °C입니다.\n끓는점은 100.52 °C입니다.",
+   "source_lesson": "c6-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0.05 M 포도당 수용액의 300 K에서 삼투압은 몇 atm일까요? (R = 0.082 atm·L/(mol·K))",
+   "answer": "1.23",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "π = CRT입니다.",
+   "explanation": "π = 0.05 × 0.082 × 300 = 1.23 atm입니다.\n반트호프 식입니다.",
+   "source_lesson": "c6-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "적혈구를 진한 소금물(고장액)에 넣으면 물이 빠져나가 적혈구가 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "쭈그러든다",
+      "쭈그러듭니다",
+      "수축한다",
+      "줄어든다"
+     ]
+    }
+   ],
+   "hint": "물을 잃으면 어떻게 될까요?",
+   "explanation": "세포 속보다 바깥이 진해 물이 밖으로 이동합니다.\n저장액에서는 반대로 터집니다.",
+   "source_lesson": "c6-ch03-l04"
+  }
+ ]
+}

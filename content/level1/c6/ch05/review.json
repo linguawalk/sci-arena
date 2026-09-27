@@ -1,0 +1,187 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch05",
+  "no": 5,
+  "title": "화학 평형"
+ },
+ "review": {
+  "id": "c6-ch05-review",
+  "title": "화학 평형 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "A(g) ⇌ B(g)의 평형에서 [A] = 0.2 M, [B] = 0.6 M입니다. K는 얼마일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "K = [B] ÷ [A]입니다.",
+   "explanation": "K = 0.6 ÷ 0.2 = 3입니다.\n생성물 ÷ 반응물입니다.",
+   "source_lesson": "c6-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "평형 상수 식에는 기체와 수용액의 농도만 쓰고 고체와 순수한 {{1}}는 쓰지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "액체"
+     ]
+    }
+   ],
+   "hint": "물 같은 순수한 물질의 상태입니다.",
+   "explanation": "농도가 일정하기 때문입니다.\nCaCO₃ 분해의 K = [CO₂]입니다.",
+   "source_lesson": "c6-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "어떤 반응의 평형 상수가 5일 때 역반응의 평형 상수는 얼마일까요?",
+   "answer": "0.2",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "역수를 구하세요.",
+   "explanation": "역반응은 역수이므로 1/5 = 0.2입니다.\n반응식을 뒤집은 것입니다.",
+   "source_lesson": "c6-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "반응 지수 Q가 평형 상수 K보다 작으면 {{1}}이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정반응"
+     ]
+    }
+   ],
+   "hint": "Q를 키우는 방향입니다.",
+   "explanation": "생성물이 부족합니다.\nQ가 K에 가까워지는 방향입니다.",
+   "source_lesson": "c6-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "A ⇌ B(K = 3)에서 처음 [A] = 2 M, [B] = 0이면 평형에서 [B]는 몇 M일까요?",
+   "answer": "1.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "변화량을 x로 두세요.",
+   "explanation": "x ÷ (2 − x) = 3에서 x = 6 − 3x, x = 1.5 M입니다.\n[A]는 0.5 M입니다.",
+   "source_lesson": "c6-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "평형 상태에서 생성물을 제거하면 평형은 {{1}} 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정반응"
+     ]
+    }
+   ],
+   "hint": "생성물을 다시 만드는 방향입니다.",
+   "explanation": "줄어든 생성물을 보충하는 방향입니다.\n르샤틀리에 원리입니다.",
+   "source_lesson": "c6-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "N₂ + 3H₂ ⇌ 2NH₃에서 압력을 낮추면 평형은 {{1}} 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역반응"
+     ]
+    }
+   ],
+   "hint": "몰수가 많은 쪽입니다.",
+   "explanation": "몰수가 많은 반응물(4몰) 쪽으로 이동합니다.\nNH₃가 줄어듭니다.",
+   "source_lesson": "c6-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "정반응이 발열인 평형에서 온도를 높이면 평형 상수는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "hint": "흡열 방향으로 이동합니다.",
+   "explanation": "흡열인 역반응 쪽으로 이동합니다.\n온도만 K를 바꿉니다.",
+   "source_lesson": "c6-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "촉매는 평형에 {{1}} 도달하게 할 뿐 평형 위치는 바꾸지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빨리",
+      "빠르게"
+     ]
+    }
+   ],
+   "hint": "속도와 관련된 역할입니다.",
+   "explanation": "정반응과 역반응을 똑같이 빠르게 합니다.\nK도 변하지 않습니다.",
+   "source_lesson": "c6-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "하버 공정에서 너무 낮은 온도를 쓰지 않는 까닭은 반응 {{1}}가 느려지기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "속도"
+     ]
+    }
+   ],
+   "hint": "평형이 아닌 다른 고려 요소입니다.",
+   "explanation": "평형에서는 저온이 유리하지만 속도가 느립니다.\n그래서 절충한 온도를 씁니다.",
+   "source_lesson": "c6-ch05-l04"
+  }
+ ]
+}

@@ -52,7 +52,7 @@
       "id": "c6",
       "title": "화학Ⅱ",
       "description": "기체와 용액, 반응열, 화학 평형, 반응 속도, 전기 화학",
-      "available": false,
+      "available": true,
       "subject": "chemistry",
       "grade": "Ⅱ"
     },

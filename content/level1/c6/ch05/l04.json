@@ -1,0 +1,399 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch05",
+  "no": 5,
+  "title": "화학 평형"
+ },
+ "lesson": {
+  "id": "c6-ch05-l04",
+  "no": 4,
+  "title": "온도 변화와 평형",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "데우면 색이 변하는 기체",
+   "body": [
+    "적갈색 NO₂와 무색 N₂O₄가 섞인 유리관을 뜨거운 물에 넣으면 색이 진해지고, 얼음물에 넣으면 옅어집니다.",
+    "온도는 평형의 위치뿐 아니라 평형 상수 자체를 바꿉니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "평형 상태에서 온도를 높이면 평형은 {{1}} 반응 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "흡열"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가해진 열을 흡수해 온도 상승을 줄이는 방향입니다.\n온도를 낮추면 발열 쪽으로 이동합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "온도와 촉매의 영향",
+   "body": [
+    "온도를 높이면 흡열 방향으로, 낮추면 발열 방향으로 평형이 이동합니다. 이때는 평형 상수 K 자체가 변합니다.",
+    "정반응이 발열이면 온도를 높일 때 K가 작아지고, 정반응이 흡열이면 온도를 높일 때 K가 커집니다.",
+    "촉매는 정반응과 역반응의 속도를 똑같이 빠르게 하여 평형에 빨리 도달하게 하지만, 평형의 위치와 K는 바꾸지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "정반응이 발열 반응일 때 온도를 높이면 평형 상수는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "평형이 흡열인 역반응 쪽으로 이동합니다.\n생성물이 줄어 K가 작아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "N₂O₄(무색) ⇌ 2NO₂(적갈색)는 정반응이 흡열이므로, 가열하면 색이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진해"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "흡열인 정반응 쪽으로 이동해 NO₂가 늘어납니다.\n적갈색이 진해집니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "촉매를 넣으면 평형의 위치는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지 않는다",
+      "변하지 않습니다",
+      "그대로이다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "정반응과 역반응을 똑같이 빠르게 합니다.\n평형에 빨리 도달할 뿐입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "N₂ + 3H₂ ⇌ 2NH₃(ΔH < 0)에서 온도를 낮추면?",
+   "steps": [
+    "정반응이 발열이므로 온도를 낮추면 발열 쪽, 곧 정반응 쪽으로 이동합니다.",
+    "NH₃가 늘어나고 평형 상수도 커집니다."
+   ],
+   "answer": "정반응 쪽으로 이동, K 증가"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "정반응이 발열인 평형에서 온도를 낮추면 평형은 {{1}} 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정반응"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "열을 내놓아 온도 하강을 줄이는 방향입니다.\n생성물이 늘어납니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "하버 공정의 조건",
+   "body": [
+    "암모니아 합성 N₂ + 3H₂ ⇌ 2NH₃은 발열 반응이고 기체 몰수가 줄어드는 반응입니다. 평형만 보면 낮은 온도와 높은 압력이 유리합니다.",
+    "그러나 온도가 너무 낮으면 반응 속도가 매우 느려집니다. 그래서 실제로는 약 400~500 °C, 200 atm 정도에서 철 촉매를 쓰고, 생성된 NH₃를 냉각해 계속 빼냅니다.",
+    "평형(수득률)과 속도를 함께 고려해 조건을 정하는 것입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "하버 공정에서 온도를 너무 낮추지 않는 것은 반응 {{1}}가 너무 느려지기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "속도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "평형에서는 저온이 유리하지만 도달하는 데 너무 오래 걸립니다.\n그래서 절충한 온도를 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "하버 공정에서 반응 속도를 높이기 위해 쓰는 촉매는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "철",
+      "Fe"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "철 촉매가 활성화 에너지를 낮춥니다.\n평형 위치는 바꾸지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "하버 공정에서 높은 압력을 쓰면 NH₃의 수득률이 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "몰수가 줄어드는 정반응 쪽으로 이동합니다.\n4몰 → 2몰입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "하버 공정의 조건을 평형과 속도 관점에서 정리하면?",
+   "steps": [
+    "평형: 발열 반응이므로 저온, 몰수 감소이므로 고압이 유리합니다.",
+    "속도: 고온과 촉매가 유리합니다.",
+    "그래서 적당히 높은 온도, 높은 압력, 철 촉매, NH₃ 제거를 함께 씁니다."
+   ],
+   "answer": "적당한 고온, 고압, 촉매, 생성물 제거"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "평형 이동 정리",
+   "body": [
+    "농도·압력 변화: 평형 이동, K 불변. 온도 변화: 평형 이동, K 변함(흡열 방향으로 이동). 촉매: 평형 이동 없음, K 불변, 평형 도달 시간 단축.",
+    "르샤틀리에 원리는 화학 평형뿐 아니라 용해 평형, 상평형 등 모든 평형에 적용됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "평형 상수를 변화시키는 요인은 {{1}}뿐입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "온도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "농도, 압력, 촉매는 K를 바꾸지 않습니다.\n온도만 K를 바꿉니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "정반응이 흡열인 반응에서 온도를 높이면 K는?",
+   "steps": [
+    "온도를 높이면 흡열 방향, 곧 정반응 쪽으로 이동합니다.",
+    "생성물이 늘고 반응물이 줄어 K가 커집니다."
+   ],
+   "answer": "커진다"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "정반응이 흡열인 반응에서 온도를 높이면 평형 상수는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": "흡열 방향으로 이동합니다.",
+   "explanation": "정반응 쪽으로 이동해 생성물이 늘어납니다.\n발열 반응과 반대입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "NO₂와 N₂O₄ 혼합 기체를 얼음물에 넣으면 적갈색이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "옅어"
+     ]
+    }
+   ],
+   "hint": "발열 방향으로 이동합니다.",
+   "explanation": "온도를 낮추면 발열인 역반응(2NO₂ → N₂O₄) 쪽으로 이동합니다.\nNO₂가 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "촉매는 정반응과 역반응의 속도를 모두 {{1}} 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빠르게",
+      "빨라지게"
+     ]
+    }
+   ],
+   "hint": "속도를 높입니다.",
+   "explanation": "활성화 에너지를 두 방향 모두 낮춥니다.\n그래서 평형 위치는 그대로입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "발열 반응의 평형 수득률을 높이려면 온도를 {{1}} 해야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮게",
+      "낮추어"
+     ]
+    }
+   ],
+   "hint": "열을 내는 쪽으로 이동시킵니다.",
+   "explanation": "발열 방향(정반응)으로 이동시킵니다.\n다만 속도는 느려집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "[CoCl₄]²⁻(파란색) 생성이 흡열인 평형 혼합물을 가열하면 용액이 {{1}}색으로 변합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "파란",
+      "파랑",
+      "푸른"
+     ]
+    }
+   ],
+   "hint": "흡열 방향 생성물의 색입니다.",
+   "explanation": "흡열 방향으로 이동해 [CoCl₄]²⁻가 늘어납니다.\n식히면 분홍색으로 돌아갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "르샤틀리에 원리는 화학 평형뿐 아니라 용해 평형, 상평형 등 모든 {{1}}에 적용됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "평형"
+     ]
+    }
+   ],
+   "hint": "동적 평형 상태 전체입니다.",
+   "explanation": "변화를 줄이는 방향으로 이동한다는 일반 원리입니다.\n얼음의 녹는점 변화도 설명합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "하버 공정의 반응 조건(온도, 압력, 촉매)을 평형과 반응 속도를 함께 고려해 설명해 보세요.",
+   "hint": "온도, 압력, 촉매를 각각 설명하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "발열"
+     ],
+     [
+      "압력",
+      "몰수"
+     ],
+     [
+      "속도"
+     ],
+     [
+      "촉매",
+      "철"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "암모니아 합성은 발열 반응이므로 평형만 보면 낮은 온도가 유리하지만, 온도가 너무 낮으면 반응 속도가 느려 약 400~500 °C의 절충한 온도를 씁니다. 기체 몰수가 줄어드는 반응이므로 높은 압력을 걸어 평형을 정반응 쪽으로 이동시키고, 철 촉매로 속도를 높이며 생성된 NH₃를 계속 제거합니다."
+  }
+ ]
+}

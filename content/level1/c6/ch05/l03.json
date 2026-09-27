@@ -1,0 +1,403 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch05",
+  "no": 5,
+  "title": "화학 평형"
+ },
+ "lesson": {
+  "id": "c6-ch05-l03",
+  "no": 3,
+  "title": "농도와 압력 변화에 따른 평형 이동",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "평형을 흔들면",
+   "body": [
+    "평형 상태에 있는 혼합물에 반응물을 더 넣거나 압력을 바꾸면 평형이 깨집니다. 그러면 계는 어떻게 반응할까요?",
+    "르샤틀리에는 평형이 그 변화를 줄이는 방향으로 이동한다는 원리를 발견했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "평형 상태의 계에 변화를 주면 그 변화를 줄이는 방향으로 평형이 이동한다는 원리를 {{1}} 원리라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "르샤틀리에"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "농도, 압력, 온도 변화에 모두 적용됩니다.\n화학 공업에서 수득률을 높이는 데 쓰입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "농도와 압력의 영향",
+   "body": [
+    "농도: 반응물을 더 넣거나 생성물을 없애면 정반응 쪽으로, 생성물을 더 넣거나 반응물을 없애면 역반응 쪽으로 평형이 이동합니다.",
+    "압력: 기체 반응에서 부피를 줄여 압력을 높이면 기체 분자 수(몰수)가 줄어드는 쪽으로, 압력을 낮추면 몰수가 늘어나는 쪽으로 이동합니다. 반응 전후 기체 몰수가 같으면 압력 변화의 영향이 없습니다.",
+    "부피를 일정하게 유지하고 반응에 참여하지 않는 기체(He 등)를 넣으면 각 성분의 농도가 변하지 않아 평형이 이동하지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "평형 상태에 반응물을 더 넣으면 평형은 {{1}} 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정반응"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "늘어난 반응물을 줄이는 방향입니다.\n생성물이 늘어납니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)에서 압력을 높이면 평형은 {{1}} 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정반응"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반응물 4몰 → 생성물 2몰로 몰수가 줄어드는 방향입니다.\n압력 증가를 줄입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "H₂(g) + I₂(g) ⇌ 2HI(g)는 압력을 바꾸어도 평형이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이동하지 않는다",
+      "이동하지 않습니다",
+      "변하지 않는다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반응 전후 기체 몰수가 2몰로 같습니다.\n압력 변화를 줄일 방향이 없습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "Fe³⁺ + SCN⁻ ⇌ FeSCN²⁺(붉은색)의 평형에 Fe³⁺를 더 넣으면?",
+   "steps": [
+    "Fe³⁺ 농도가 늘었으므로 이를 줄이는 방향으로 이동합니다.",
+    "정반응이 일어나 FeSCN²⁺가 늘어납니다.",
+    "용액의 붉은색이 진해집니다."
+   ],
+   "answer": "정반응, 붉은색이 진해진다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "평형 상태에서 생성물을 계속 없애면 평형은 {{1}} 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정반응"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "줄어든 생성물을 보충하는 방향입니다.\n수득률을 높이는 방법입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "평형 이동과 평형 상수",
+   "body": [
+    "농도나 압력을 바꾸면 반응 지수 Q가 변해 K와 달라지고, Q가 다시 K와 같아지는 방향으로 반응이 진행합니다. 평형 상수 K 자체는 변하지 않습니다.",
+    "평형 이동은 가한 변화를 완전히 없애지 못하고 일부만 줄입니다. 예를 들어 반응물을 넣으면 일부는 반응하지만 새 평형에서도 그 반응물 농도는 처음보다 큽니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "압력이나 농도를 바꾸어도 평형 상수는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지 않는다",
+      "변하지 않습니다",
+      "같다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Q가 변해 평형이 이동할 뿐입니다.\nK는 온도에만 의존합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "N₂O₄(g) ⇌ 2NO₂(g)에서 부피를 줄여 압력을 높이면 평형은 {{1}} 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역반응"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "몰수가 적은 N₂O₄(1몰) 쪽으로 이동합니다.\nNO₂(2몰)가 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "부피를 일정하게 하고 헬륨을 넣으면 평형은 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이동하지 않는다",
+      "이동하지 않습니다",
+      "변하지 않는다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반응 물질들의 농도(부분 압력)가 변하지 않습니다.\n전체 압력만 커집니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "탄산음료 병을 열면 거품이 생기는 이유는?",
+   "steps": [
+    "병 속에서 CO₂(g) ⇌ CO₂(aq)가 높은 압력으로 평형을 이루고 있습니다.",
+    "병을 열면 CO₂의 압력이 갑자기 낮아집니다.",
+    "압력 감소를 줄이는 방향, 곧 기체 CO₂가 생기는 방향으로 이동해 거품이 생깁니다."
+   ],
+   "answer": "압력이 낮아져 기체 쪽으로 평형이 이동하기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "농도·압력 변화 정리",
+   "body": [
+    "반응물 추가·생성물 제거 → 정반응. 압력 증가 → 기체 몰수 감소 쪽, 압력 감소 → 기체 몰수 증가 쪽.",
+    "몰수가 같으면 압력 영향 없음. 부피 일정 비활성 기체 첨가 → 영향 없음. K는 변하지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "기체 반응에서 부피를 늘려 압력을 낮추면 평형은 기체 몰수가 {{1}}는 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "늘어나"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "압력 감소를 줄이려면 분자 수가 늘어야 합니다.\n압력 증가와 반대입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "하버 공정(N₂ + 3H₂ ⇌ 2NH₃)에서 생성된 NH₃를 냉각해 액체로 빼내는 이유는?",
+   "steps": [
+    "NH₃를 제거하면 생성물 농도가 줄어듭니다.",
+    "평형이 이를 보충하는 정반응 쪽으로 이동합니다.",
+    "그래서 더 많은 NH₃를 얻을 수 있습니다."
+   ],
+   "answer": "정반응 쪽으로 평형을 이동시키려고"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "하버 공정에서 생성된 NH₃를 계속 제거하면 평형이 {{1}} 쪽으로 이동해 수득률이 높아집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정반응"
+     ]
+    }
+   ],
+   "hint": "생성물이 줄었습니다.",
+   "explanation": "생성물을 보충하는 방향입니다.\n르샤틀리에 원리의 응용입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "CO(g) + 2H₂(g) ⇌ CH₃OH(g)에서 압력을 낮추면 평형은 {{1}} 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역반응"
+     ]
+    }
+   ],
+   "hint": "몰수가 많은 쪽을 찾으세요.",
+   "explanation": "몰수가 많은 반응물(3몰) 쪽으로 이동합니다.\n메탄올이 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "탄산음료 병을 열어 압력이 낮아지면 CO₂가 {{1}}로 빠져나옵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기체",
+      "거품"
+     ]
+    }
+   ],
+   "hint": "기체 몰수가 늘어나는 방향입니다.",
+   "explanation": "압력 감소를 줄이는 방향, 곧 기체가 생기는 방향입니다.\n그래서 거품이 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "Fe³⁺ + SCN⁻ ⇌ FeSCN²⁺(붉은색) 평형에 SCN⁻을 더 넣으면 용액의 붉은색이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진해"
+     ]
+    }
+   ],
+   "hint": "정반응이 일어납니다.",
+   "explanation": "정반응이 일어나 FeSCN²⁺가 늘어납니다.\n반응물을 추가한 경우입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "평형 상태에 반응물을 더 넣으면 평형이 이동하지만, 새 평형에서 그 반응물의 농도는 넣기 전보다 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "크다",
+      "큽니다",
+      "높다"
+     ]
+    }
+   ],
+   "hint": "완전히 상쇄되는지 생각하세요.",
+   "explanation": "평형 이동은 변화를 일부만 줄입니다.\n완전히 되돌리지는 못합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "2SO₂(g) + O₂(g) ⇌ 2SO₃(g)에서 압력을 높이면 SO₃의 양이 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": "몰수를 비교하세요.",
+   "explanation": "몰수가 줄어드는 정반응 쪽(3몰 → 2몰)으로 이동합니다.\n황산 제조에 이용됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "기체 반응에서 압력을 높였을 때 평형이 이동하는 방향을 르샤틀리에 원리로 설명해 보세요.",
+   "hint": "압력과 분자 수의 관계를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "르샤틀리에",
+      "변화를 줄"
+     ],
+     [
+      "압력"
+     ],
+     [
+      "몰수",
+      "분자 수"
+     ],
+     [
+      "줄어드는",
+      "적은"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "르샤틀리에 원리에 따라 평형은 가해진 변화를 줄이는 방향으로 이동합니다. 압력을 높이면 기체 분자 수가 줄어들어야 압력이 낮아지므로, 평형은 기체 몰수가 적은 쪽으로 이동합니다. 반응 전후 몰수가 같으면 이동하지 않습니다."
+  }
+ ]
+}

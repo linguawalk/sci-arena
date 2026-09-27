@@ -1,0 +1,346 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch03",
+  "no": 3,
+  "title": "용액"
+ },
+ "lesson": {
+  "id": "c6-ch03-l01",
+  "no": 1,
+  "title": "농도 표현",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "얼마나 진한가",
+   "body": [
+    "같은 설탕물이라도 어떤 것은 달고 어떤 것은 싱겁습니다. 용액에 용질이 얼마나 녹아 있는지를 나타내는 방법이 필요합니다.",
+    "목적에 따라 여러 가지 농도 표현을 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "용액 속에 녹아 있는 용질의 양을 나타낸 것을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "농도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "퍼센트 농도, 몰 농도, 몰랄 농도 등이 있습니다.\n목적에 따라 알맞은 것을 씁니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "세 가지 농도",
+   "body": [
+    "퍼센트 농도(%) = 용질의 질량 ÷ 용액의 질량 × 100입니다.",
+    "몰 농도(M) = 용질의 몰수 ÷ 용액의 부피(L)입니다. 용액을 부피로 재기 편리하지만, 온도가 변하면 부피가 변해 몰 농도도 조금 변합니다.",
+    "몰랄 농도(m) = 용질의 몰수 ÷ 용매의 질량(kg)입니다. 질량은 온도에 따라 변하지 않으므로 몰랄 농도는 온도와 관계없습니다. 끓는점 오름과 어는점 내림을 다룰 때 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "온도가 변해도 값이 변하지 않는 농도는 {{1}} 농도입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "몰랄"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "용매의 질량을 기준으로 하기 때문입니다.\n몰 농도는 부피를 기준으로 해 온도에 따라 변합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "설탕 20 g을 물 80 g에 녹인 용액의 퍼센트 농도는 몇 %일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "용액 질량 = 20 + 80 = 100 g입니다.\n20 ÷ 100 × 100 = 20%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "NaOH 0.5 mol을 녹여 용액 250 mL를 만들었습니다. 몰 농도는 몇 M일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "M = 0.5 mol ÷ 0.25 L = 2 M입니다.\n부피를 L로 바꾸어 계산합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "NaCl 5.85 g(화학식량 58.5)을 물 500 g에 녹인 용액의 몰랄 농도는?",
+   "steps": [
+    "NaCl의 몰수 = 5.85 ÷ 58.5 = 0.1 mol입니다.",
+    "용매의 질량 = 500 g = 0.5 kg입니다.",
+    "몰랄 농도 = 0.1 ÷ 0.5 = 0.2 m입니다."
+   ],
+   "answer": "0.2 m"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "요소(분자량 60) 6 g을 물 200 g에 녹인 용액의 몰랄 농도는 몇 m일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "몰수 = 6 ÷ 60 = 0.1 mol, 용매 = 0.2 kg입니다.\n0.1 ÷ 0.2 = 0.5 m입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "희석과 농도 환산",
+   "body": [
+    "용액에 물을 넣어 묽혀도 용질의 몰수는 변하지 않습니다. 그래서 M₁V₁ = M₂V₂가 성립합니다.",
+    "퍼센트 농도를 몰 농도로 바꿀 때는 용액의 밀도를 이용해 용액 1 L의 질량을 구한 뒤, 그 속 용질의 질량과 몰수를 계산합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "용액을 물로 묽혀도 용질의 {{1}}는 변하지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "몰수"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물만 더해지고 용질은 그대로입니다.\n그래서 M₁V₁ = M₂V₂입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "6 M 염산 100 mL를 1 M로 묽히려면 전체 부피를 몇 mL로 해야 할까요?",
+   "answer": "600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "6 × 100 = 1 × V₂이므로 V₂ = 600 mL입니다.\n물 500 mL를 더합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "2 M 용액 50 mL에 물을 더해 250 mL로 만들면 몰 농도는 몇 M일까요?",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "2 × 50 = M₂ × 250이므로 M₂ = 0.4 M입니다.\n부피가 5배이면 농도는 1/5입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "36.5% 염산(밀도 1.2 g/mL, HCl 분자량 36.5)의 몰 농도는?",
+   "steps": [
+    "용액 1 L의 질량 = 1000 mL × 1.2 g/mL = 1200 g입니다.",
+    "그 속 HCl의 질량 = 1200 × 0.365 = 438 g, 몰수 = 438 ÷ 36.5 = 12 mol입니다.",
+    "몰 농도 = 12 mol ÷ 1 L = 12 M입니다."
+   ],
+   "answer": "12 M"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "농도 정리",
+   "body": [
+    "퍼센트 농도 = 용질 g ÷ 용액 g × 100. 몰 농도 = 용질 mol ÷ 용액 L. 몰랄 농도 = 용질 mol ÷ 용매 kg.",
+    "희석: M₁V₁ = M₂V₂. 몰 농도는 온도에 따라 조금 변하고, 몰랄 농도는 변하지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "몰 농도가 온도에 따라 변하는 것은 온도가 변하면 용액의 {{1}}가 변하기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "부피"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "액체는 데우면 조금 팽창합니다.\n몰수는 같은데 부피가 변합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "0.1 M NaOH 수용액 500 mL를 만들려면 NaOH(화학식량 40)가 몇 g 필요할까요?",
+   "steps": [
+    "필요한 몰수 = 0.1 M × 0.5 L = 0.05 mol입니다.",
+    "질량 = 0.05 × 40 = 2 g입니다.",
+    "2 g을 녹인 뒤 부피 플라스크로 전체 부피를 500 mL로 맞춥니다."
+   ],
+   "answer": "2 g"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "0.1 M NaOH 수용액 500 mL를 만들려면 NaOH(화학식량 40)가 몇 g 필요할까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "몰수를 먼저 구하세요.",
+   "explanation": "0.1 × 0.5 = 0.05 mol, 0.05 × 40 = 2 g입니다.\n물을 더해 500 mL로 맞춥니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "포도당(분자량 180) 18 g을 물 1 kg에 녹인 용액의 몰랄 농도는 몇 m일까요?",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "용매 kg으로 나누세요.",
+   "explanation": "18 ÷ 180 = 0.1 mol, 0.1 ÷ 1 = 0.1 m입니다.\n용매의 질량으로 나눕니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "10% 설탕물 200 g에 녹아 있는 설탕은 몇 g일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "용액 질량 × 퍼센트입니다.",
+   "explanation": "200 × 0.1 = 20 g입니다.\n물은 180 g입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "0.2 M NaCl 수용액 1 L에 녹아 있는 NaCl은 몇 mol일까요?",
+   "answer": "0.2",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "몰수 = 몰 농도 × 부피입니다.",
+   "explanation": "0.2 M × 1 L = 0.2 mol입니다.\n몰 농도 × 부피입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "몰 농도의 단위는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "mol/L",
+      "M",
+      "몰/L"
+     ]
+    }
+   ],
+   "hint": "몰수 ÷ 부피입니다.",
+   "explanation": "용액 1 L 속 용질의 몰수입니다.\nM(몰라)으로도 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1 M NaCl 수용액 1 L를 만들려면 NaCl(화학식량 58.5)이 몇 g 필요할까요?",
+   "answer": "58.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "1 mol의 질량입니다.",
+   "explanation": "1 mol × 58.5 g/mol = 58.5 g입니다.\n녹인 뒤 전체 부피를 1 L로 맞춥니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "몰 농도와 몰랄 농도의 차이를 설명하고, 몰랄 농도가 온도와 관계없는 이유를 말해 보세요.",
+   "hint": "기준이 무엇인지 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "몰 농도",
+      "용액의 부피"
+     ],
+     [
+      "몰랄",
+      "용매의 질량"
+     ],
+     [
+      "온도"
+     ],
+     [
+      "질량",
+      "변하지"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "몰 농도는 용액 1 L에 녹아 있는 용질의 몰수이고, 몰랄 농도는 용매 1 kg에 녹아 있는 용질의 몰수입니다. 부피는 온도에 따라 변하지만 질량은 변하지 않으므로, 질량을 기준으로 하는 몰랄 농도는 온도와 관계없습니다."
+  }
+ ]
+}

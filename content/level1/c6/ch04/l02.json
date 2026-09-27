@@ -1,0 +1,351 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch04",
+  "no": 4,
+  "title": "반응열"
+ },
+ "lesson": {
+  "id": "c6-ch04-l02",
+  "no": 2,
+  "title": "열량 측정",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "반응열 재기",
+   "body": [
+    "음식 포장지의 열량(kcal)은 음식을 태워 나오는 열로 물을 데워 측정한 값입니다.",
+    "반응열은 반응이 주거나 빼앗은 열로 물의 온도가 얼마나 변했는지를 재서 구합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "반응열을 측정하는 장치를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "열량계"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "간이 열량계와 통열량계가 있습니다.\n열이 바깥으로 새지 않게 만듭니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "열량과 비열",
+   "body": [
+    "물질 1 g의 온도를 1 °C 올리는 데 필요한 열량을 비열 c라고 합니다. 물의 비열은 약 4.2 J/(g·°C)입니다.",
+    "질량 m인 물질의 온도가 ΔT만큼 변할 때 출입한 열량은 Q = cmΔT입니다.",
+    "스타이로폼 컵으로 만든 간이 열량계는 중화 반응이나 용해처럼 용액 속 반응의 열을 잽니다. 반응이 낸 열은 모두 용액(대부분 물)의 온도를 올린다고 봅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물질 1 g의 온도를 1 °C 올리는 데 필요한 열량을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비열"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물의 비열은 4.2 J/(g·°C)로 매우 큽니다.\n그래서 온도가 쉽게 변하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "물 100 g의 온도가 10 °C 올라가려면 몇 J의 열이 필요할까요? (물의 비열 4.2 J/(g·°C))",
+   "answer": "4200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Q = 4.2 × 100 × 10 = 4200 J입니다.\nQ = cmΔT입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "물 200 g의 온도가 5 °C 올라갔습니다. 물이 얻은 열은 몇 J일까요? (물의 비열 4.2 J/(g·°C))",
+   "answer": "4200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Q = 4.2 × 200 × 5 = 4200 J입니다.\n질량과 온도 변화를 곱합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "1 M HCl 50 mL와 1 M NaOH 50 mL를 섞었더니 용액(100 g)의 온도가 6.7 °C 올랐습니다. 중화열은? (물의 비열 4.2 J/(g·°C))",
+   "steps": [
+    "Q = 4.2 × 100 × 6.7 = 2814 J = 2.814 kJ입니다.",
+    "반응한 H⁺(또는 OH⁻)의 양은 1 M × 0.05 L = 0.05 mol입니다.",
+    "물 1 mol이 생성될 때의 중화열 = 2.814 ÷ 0.05 ≈ 56 kJ/mol, 곧 ΔH ≈ −56 kJ입니다."
+   ],
+   "answer": "약 56 kJ/mol (ΔH ≈ −56 kJ)"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "중화 반응에서 물 0.05 mol이 생성되며 2814 J의 열이 발생했습니다. 물 1 mol당 중화열은 약 몇 kJ일까요?",
+   "answer": "56",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "hint": null,
+   "explanation": "2.814 kJ ÷ 0.05 mol ≈ 56 kJ/mol입니다.\n강산과 강염기의 중화열은 약 56 kJ/mol입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "통열량계",
+   "body": [
+    "연소열처럼 기체가 관여하는 반응은 단단한 금속 통(봄베) 속에서 시료를 태우고, 통을 둘러싼 물의 온도 변화를 잽니다.",
+    "통열량계 전체의 열용량 C(온도를 1 °C 올리는 데 필요한 열량)를 미리 알면, 발생한 열은 Q = CΔT입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "열용량이 10 kJ/°C인 통열량계의 온도가 3 °C 올랐습니다. 발생한 열은 몇 kJ일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Q = CΔT = 10 × 3 = 30 kJ입니다.\n열용량은 장치 전체의 값입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 실험에서 태운 물질이 0.1 mol이었다면 이 물질 1 mol이 연소할 때 방출하는 열은 몇 kJ일까요?",
+   "answer": "300",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "30 kJ ÷ 0.1 mol = 300 kJ/mol입니다.\n연소 ΔH는 −300 kJ입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "열량계에서 열이 바깥으로 새어 나가면 측정한 반응열은 실제보다 {{1}}게 나옵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물의 온도가 덜 올라가기 때문입니다.\n그래서 단열이 중요합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "간이 열량계를 스타이로폼 컵으로 만드는 이유는?",
+   "steps": [
+    "스타이로폼은 열을 잘 전달하지 않는 단열재입니다.",
+    "반응열이 바깥으로 새거나 바깥 열이 들어오는 것을 줄입니다.",
+    "그래서 반응열이 모두 용액의 온도 변화로 나타난다고 볼 수 있습니다."
+   ],
+   "answer": "열 출입을 줄이기 위해"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "열량 측정 정리",
+   "body": [
+    "Q = cmΔT(간이 열량계), Q = CΔT(통열량계). 몰당 반응열 = Q ÷ 반응한 몰수.",
+    "용액의 온도가 오르면 발열 반응, 내려가면 흡열 반응입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "열량계 속 물의 온도가 올라갔다면 반응은 {{1}} 반응입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "발열"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반응이 낸 열이 물을 데웠습니다.\n온도가 내려가면 흡열 반응입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "질산 암모늄을 물에 녹였더니 물의 온도가 내려갔습니다. 용해 반응은?",
+   "steps": [
+    "물의 온도가 내려갔다는 것은 물이 열을 잃었다는 뜻입니다.",
+    "그 열은 질산 암모늄이 녹는 데 흡수되었습니다.",
+    "따라서 흡열 반응(ΔH > 0)입니다."
+   ],
+   "answer": "흡열 반응"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "질산 암모늄을 물에 녹였더니 물의 온도가 내려갔습니다. 이 용해는 {{1}} 반응입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "흡열"
+     ]
+    }
+   ],
+   "hint": "온도가 내려갔습니다.",
+   "explanation": "물의 열을 흡수했습니다.\n냉찜질 팩에 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "물 50 g의 온도가 4 °C 내려갔습니다. 물이 잃은 열은 몇 J일까요? (물의 비열 4.2 J/(g·°C))",
+   "answer": "840",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Q = cmΔT입니다.",
+   "explanation": "Q = 4.2 × 50 × 4 = 840 J입니다.\n반응이 이만큼 흡수했습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "에탄올 1 g을 태워 물 500 g의 온도를 14 °C 올렸습니다. 에탄올 1 g이 낸 열은 몇 kJ일까요? (열 손실 없음) (물의 비열 4.2 J/(g·°C))",
+   "answer": "29.4",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "J를 kJ로 바꾸세요.",
+   "explanation": "Q = 4.2 × 500 × 14 = 29400 J = 29.4 kJ입니다.\n에탄올의 연소열입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "간이 열량계를 스타이로폼 컵으로 만드는 것은 열의 출입을 막는 {{1}} 효과 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단열"
+     ]
+    }
+   ],
+   "hint": "열을 막는 성질입니다.",
+   "explanation": "열이 새지 않아야 정확합니다.\n보온병도 같은 원리입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "물 1 kg의 온도를 1 °C 올리는 데 필요한 열은 몇 J일까요? (물의 비열 4.2 J/(g·°C))",
+   "answer": "4200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1 kg = 1000 g입니다.",
+   "explanation": "4.2 × 1000 × 1 = 4200 J입니다.\n약 1 kcal입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "중화 반응에서 물 0.1 mol이 생성되며 5.6 kJ의 열이 발생했습니다. 물 1 mol당 중화열은 몇 kJ일까요?",
+   "answer": "56",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "몰수로 나누세요.",
+   "explanation": "5.6 ÷ 0.1 = 56 kJ/mol입니다.\n강산–강염기 중화열입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "간이 열량계로 반응열을 측정하는 원리를 설명해 보세요.",
+   "hint": "측정값과 계산 과정을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "온도"
+     ],
+     [
+      "Q = cmΔT",
+      "cmΔT",
+      "비열"
+     ],
+     [
+      "몰",
+      "나누"
+     ],
+     [
+      "단열",
+      "열 출입",
+      "새"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "반응에서 나온 열이 모두 용액(물)의 온도를 바꾼다고 보고, 물의 비열, 질량, 온도 변화로 Q = cmΔT를 계산합니다. 이 열을 반응한 물질의 몰수로 나누면 몰당 반응열을 구할 수 있으며, 정확하게 재려면 열 출입이 없도록 단열해야 합니다."
+  }
+ ]
+}

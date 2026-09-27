@@ -1,0 +1,161 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch01",
+  "no": 1,
+  "title": "기체"
+ },
+ "review": {
+  "id": "c6-ch01-review",
+  "title": "기체 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "1520 mmHg는 몇 atm일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "760으로 나누세요.",
+   "explanation": "1520 ÷ 760 = 2 atm입니다.\n1 atm = 760 mmHg입니다.",
+   "source_lesson": "c6-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "3 atm에서 2 L인 기체를 같은 온도에서 1 atm으로 하면 부피는 몇 L가 될까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "P₁V₁ = P₂V₂입니다.",
+   "explanation": "3 × 2 = 1 × V₂이므로 V₂ = 6 L입니다.\n보일 법칙입니다.",
+   "source_lesson": "c6-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "압력이 일정할 때 200 K에서 4 L인 기체를 300 K로 데우면 부피는 몇 L가 될까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "V₁/T₁ = V₂/T₂입니다.",
+   "explanation": "V₂ = 4 × 300 ÷ 200 = 6 L입니다.\n샤를 법칙입니다.",
+   "source_lesson": "c6-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "절대 온도는 섭씨온도에 {{1}}을 더한 값입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "273"
+     ]
+    }
+   ],
+   "hint": "절대 영도의 섭씨온도 크기입니다.",
+   "explanation": "T(K) = t(°C) + 273입니다.\n0 K는 −273 °C입니다.",
+   "source_lesson": "c6-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "1 atm, 300 K에서 4 L인 기체를 2 atm, 600 K로 하면 부피는 몇 L가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "보일–샤를 법칙입니다.",
+   "explanation": "V₂ = 4 × (1/2) × (600/300) = 4 L입니다.\n두 효과가 상쇄되었습니다.",
+   "source_lesson": "c6-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0 °C, 1 atm에서 부피 5.6 L인 기체는 몇 mol일까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "22.4 L로 나누세요.",
+   "explanation": "5.6 ÷ 22.4 = 0.25 mol입니다.\n1 mol은 22.4 L입니다.",
+   "source_lesson": "c6-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0 °C, 1 atm에서 22.4 L의 질량이 44 g인 기체의 분자량은 얼마일까요?",
+   "answer": "44",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "22.4 L는 1 mol입니다.",
+   "explanation": "1 mol의 질량이 44 g이므로 분자량은 44입니다.\n이산화 탄소(CO₂)입니다.",
+   "source_lesson": "c6-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "같은 온도와 압력에서 같은 부피의 기체 속에는 같은 수의 분자가 있다는 것은 {{1}} 법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아보가드로"
+     ]
+    }
+   ],
+   "hint": "아보가드로수의 그 이름입니다.",
+   "explanation": "기체의 종류와 관계없습니다.\n0 °C, 1 atm에서 1 mol은 22.4 L입니다.",
+   "source_lesson": "c6-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질소의 부분 압력 1.5 atm, 산소의 부분 압력 0.5 atm인 혼합 기체의 전체 압력은 몇 atm일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "부분 압력을 더하세요.",
+   "explanation": "1.5 + 0.5 = 2 atm입니다.\n돌턴 법칙입니다.",
+   "source_lesson": "c6-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "A 1 mol, B 4 mol이 섞인 혼합 기체의 전체 압력이 10 atm입니다. A의 부분 압력은 몇 atm일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "몰 분율 × 전체 압력입니다.",
+   "explanation": "x_A = 1/5이므로 P_A = 10 × 1/5 = 2 atm입니다.\n몰수에 비례합니다.",
+   "source_lesson": "c6-ch01-l04"
+  }
+ ]
+}

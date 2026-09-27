@@ -1,0 +1,386 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch02",
+  "no": 2,
+  "title": "분자 간 힘과 물질의 상태"
+ },
+ "lesson": {
+  "id": "c6-ch02-l03",
+  "no": 3,
+  "title": "액체의 성질",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "왜 산 위에서는 밥이 설익을까",
+   "body": [
+    "높은 산에서 밥을 지으면 설익기 쉽습니다. 물이 100 °C보다 낮은 온도에서 끓기 때문입니다.",
+    "액체가 끓는 온도는 액체의 증기 압력과 외부 압력에 따라 정해집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "액체 표면의 분자가 분자 간 힘을 이기고 기체로 빠져나가는 현상을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증발"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "증발은 끓는점보다 낮은 온도에서도 일어납니다.\n운동 에너지가 큰 분자가 빠져나갑니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "증기 압력과 끓는점",
+   "body": [
+    "밀폐된 용기에 액체를 넣으면 증발하는 분자 수와 응축하는 분자 수가 같아지는 동적 평형에 이릅니다. 이때 증기가 나타내는 압력을 증기 압력이라고 합니다.",
+    "온도가 높을수록 증발하는 분자가 많아 증기 압력이 커집니다. 분자 간 힘이 큰 액체는 증발하기 어려워 같은 온도에서 증기 압력이 작습니다.",
+    "액체의 증기 압력이 외부 압력과 같아지면 액체 내부에서도 기화가 일어나 끓습니다. 외부 압력이 1 atm일 때의 끓는점을 기준 끓는점이라고 합니다(물 100 °C)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "액체의 증기 압력이 외부 압력과 같아지면 액체가 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "끓는다",
+      "끓습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "액체 내부에서도 기포가 생깁니다.\n그래서 끓는점은 외부 압력에 따라 달라집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기압이 낮은 높은 산에서는 물이 100 °C보다 {{1}} 온도에서 끓습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮은"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "외부 압력이 낮으면 증기 압력이 더 낮은 온도에서 외부 압력에 도달합니다.\n그래서 밥이 설익습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "분자 간 힘이 큰 액체일수록 같은 온도에서 증기 압력이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분자가 서로 강하게 붙잡혀 잘 증발하지 못합니다.\n그래서 끓는점이 높습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "압력솥으로 음식을 빨리 익힐 수 있는 이유는?",
+   "steps": [
+    "압력솥은 뚜껑을 밀폐해 안쪽 압력을 약 2 atm까지 높입니다.",
+    "외부 압력이 높으므로 물의 증기 압력이 그만큼 커져야 끓습니다.",
+    "끓는점이 약 120 °C로 높아져 음식이 더 빨리 익습니다."
+   ],
+   "answer": "끓는점이 높아지기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "압력솥 안에서는 압력이 높아 물의 끓는점이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "증기 압력이 더 높은 외부 압력에 도달해야 끓습니다.\n약 120 °C에서 끓습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "표면 장력과 점성",
+   "body": [
+    "액체 표면의 분자는 안쪽으로만 끌려 표면을 최소로 만들려는 힘, 곧 표면 장력이 생깁니다. 물방울이 둥근 것도 표면 장력 때문입니다.",
+    "점성은 액체가 흐르기 어려운 정도입니다. 분자 간 힘이 클수록, 분자가 크고 얽히기 쉬울수록 표면 장력과 점성이 큽니다. 꿀과 글리세롤은 수소 결합이 많아 점성이 큽니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물방울이 둥근 모양이 되는 것은 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표면 장력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "표면적을 최소로 하려는 힘입니다.\n같은 부피에서 구의 표면적이 가장 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "꿀처럼 잘 흐르지 않는 정도를 나타내는 액체의 성질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "점성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분자 간 힘이 클수록 점성이 큽니다.\n온도가 오르면 점성이 작아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "물의 기준 끓는점(1 atm)은 몇 °C일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1 atm에서 물은 100 °C에서 끓습니다.\n이때 물의 증기 압력은 760 mmHg입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "같은 온도에서 다이에틸 에터의 증기 압력이 물보다 훨씬 큰 이유는?",
+   "steps": [
+    "다이에틸 에터 분자 사이에는 수소 결합이 없고 분자 간 힘이 약합니다.",
+    "그래서 분자가 쉽게 증발해 증기 압력이 큽니다.",
+    "증기 압력이 크면 휘발성이 크고 끓는점(35 °C)이 낮습니다."
+   ],
+   "answer": "분자 간 힘이 약하기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "액체의 성질 정리",
+   "body": [
+    "증기 압력: 온도가 높을수록 크고, 분자 간 힘이 클수록 작다. 끓는점: 증기 압력 = 외부 압력.",
+    "표면 장력과 점성은 분자 간 힘이 클수록 크다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "쉽게 증발하는 휘발성이 큰 액체는 같은 온도에서 증기 압력이 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분자 간 힘이 약해 잘 증발합니다.\n끓는점이 낮습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "증기 압력 곡선에서 증기 압력이 760 mmHg가 되는 온도가 에탄올 78 °C, 물 100 °C라면?",
+   "steps": [
+    "증기 압력이 760 mmHg(1 atm)가 되는 온도가 기준 끓는점입니다.",
+    "에탄올의 기준 끓는점은 78 °C, 물은 100 °C입니다.",
+    "같은 온도에서 에탄올의 증기 압력이 더 크고, 분자 간 힘은 물이 더 큽니다."
+   ],
+   "answer": "에탄올 78 °C, 물 100 °C"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "액체의 증기 압력은 온도가 높을수록 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": "따뜻할수록 잘 증발합니다.",
+   "explanation": "운동 에너지가 큰 분자가 많아져 더 많이 증발합니다.\n증기 압력 곡선은 오른쪽 위로 올라갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 온도에서 에탄올과 물 중 증기 압력이 큰 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "에탄올",
+      "C₂H₅OH"
+     ]
+    }
+   ],
+   "hint": "끓는점이 낮은 쪽입니다.",
+   "explanation": "에탄올은 물보다 수소 결합이 적어 분자 간 힘이 약합니다.\n그래서 끓는점도 낮습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "물이 100 °C에서 가지는 증기 압력은 몇 mmHg일까요?",
+   "answer": "760",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1 atm입니다.",
+   "explanation": "기준 끓는점에서 증기 압력은 1 atm = 760 mmHg입니다.\n외부 압력과 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "온도가 높을수록 액체의 증발 속도는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빨라"
+     ]
+    }
+   ],
+   "hint": "따뜻할수록 잘 마릅니다.",
+   "explanation": "분자 간 힘을 이길 만한 에너지를 가진 분자가 많아집니다.\n빨래가 여름에 잘 마르는 이유입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "밀폐 용기 속 액체가 동적 평형에 있을 때 증발 속도와 응축 속도는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같다",
+      "같습니다"
+     ]
+    }
+   ],
+   "hint": "동적 평형의 뜻입니다.",
+   "explanation": "겉보기에는 변화가 없지만 증발과 응축이 계속 일어납니다.\n이때의 압력이 증기 압력입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 온도에서 증기 압력이 큰 액체일수록 끓는점이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮"
+     ]
+    }
+   ],
+   "hint": "쉽게 끓습니다.",
+   "explanation": "조금만 데워도 증기 압력이 외부 압력에 도달합니다.\n휘발성 액체가 그 예입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "액체의 끓는점이 외부 압력에 따라 달라지는 이유를 증기 압력으로 설명해 보세요.",
+   "hint": "끓는 조건을 먼저 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "증기 압력"
+     ],
+     [
+      "외부 압력"
+     ],
+     [
+      "같아"
+     ],
+     [
+      "낮",
+      "높"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "액체는 증기 압력이 외부 압력과 같아질 때 끓습니다. 외부 압력이 낮으면 더 낮은 온도에서 증기 압력이 외부 압력에 도달하므로 끓는점이 낮아지고, 외부 압력이 높으면 끓는점이 높아집니다."
+  }
+ ]
+}

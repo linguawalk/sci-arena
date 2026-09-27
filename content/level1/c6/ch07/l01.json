@@ -1,0 +1,343 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch07",
+  "no": 7,
+  "title": "반응 속도"
+ },
+ "lesson": {
+  "id": "c6-ch07-l01",
+  "no": 1,
+  "title": "반응 속도와 속도식",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "빠른 반응, 느린 반응",
+   "body": [
+    "폭죽은 순식간에 터지고, 쇠는 몇 년에 걸쳐 녹슬며, 석회 동굴은 수만 년에 걸쳐 만들어집니다.",
+    "반응이 얼마나 빨리 일어나는지 수로 나타내고, 무엇이 속도를 정하는지 알아봅시다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "단위 시간 동안 반응물이나 생성물의 농도가 변하는 정도를 반응 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "속도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "보통 M/s 단위로 나타냅니다.\n반응물은 줄고 생성물은 늘어납니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "반응 속도와 속도식",
+   "body": [
+    "반응 속도는 v = −Δ[반응물] ÷ Δt = Δ[생성물] ÷ Δt입니다. 반응식의 계수가 다르면 물질마다 농도 변화 속도가 계수비만큼 다릅니다.",
+    "반응 속도와 반응물 농도의 관계를 속도식으로 나타냅니다: v = k[A]ᵐ[B]ⁿ. k는 속도 상수로 온도에 따라 변합니다. m, n은 반응 차수이며, 반응식의 계수와 같다는 보장이 없어 반드시 실험으로 정합니다.",
+    "반응물의 처음 농도를 바꾸어 처음 속도가 어떻게 변하는지 비교해 차수를 정하는 방법을 초기 속도법이라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "속도식의 반응 차수는 반드시 {{1}}으로 정합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "실험"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반응식의 계수와 다를 수 있습니다.\n초기 속도법 등으로 측정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "반응물 A의 농도가 20초 동안 1.0 M에서 0.6 M로 줄었습니다. 평균 반응 속도는 몇 M/s일까요?",
+   "answer": "0.02",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "v = (1.0 − 0.6) ÷ 20 = 0.02 M/s입니다.\n반응물 감소량으로 구합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "2A → B 반응에서 A가 0.04 M/s로 소모될 때 B는 몇 M/s로 생성될까요?",
+   "answer": "0.02",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "계수비 A : B = 2 : 1이므로 B는 절반인 0.02 M/s입니다.\n계수가 다르면 속도도 다릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "[A]를 2배로 했더니 처음 속도가 4배가 되었습니다. A에 대한 반응 차수는?",
+   "steps": [
+    "v ∝ [A]ᵐ이므로 2ᵐ = 4입니다.",
+    "m = 2입니다. A에 대해 2차 반응입니다."
+   ],
+   "answer": "2차"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "[A]를 2배로 했더니 처음 반응 속도가 2배가 되었습니다. A에 대한 반응 차수는 얼마일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "2ᵐ = 2이므로 m = 1입니다.\n1차 반응입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "초기 속도법으로 차수 구하기",
+   "body": [
+    "A + B → C 반응의 실험 결과가 다음과 같습니다. 실험 1: [A] = 0.1, [B] = 0.1, v = 1 × 10⁻³ M/s. 실험 2: [A] = 0.2, [B] = 0.1, v = 2 × 10⁻³ M/s. 실험 3: [A] = 0.1, [B] = 0.2, v = 4 × 10⁻³ M/s.",
+    "실험 1과 2를 비교하면 [A] 2배 → v 2배이므로 A에 대해 1차, 실험 1과 3을 비교하면 [B] 2배 → v 4배이므로 B에 대해 2차입니다.",
+    "속도식은 v = k[A][B]²이고 전체 반응 차수는 1 + 2 = 3입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 실험에서 전체 반응 차수는 얼마일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "A에 대해 1차, B에 대해 2차이므로 1 + 2 = 3차입니다.\n차수는 지수의 합입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 실험에서 A에 대한 반응 차수는 얼마일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "[B]가 같은 실험 1, 2에서 [A] 2배 → v 2배입니다.\n1차입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 실험에서 B에 대한 반응 차수는 얼마일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "[A]가 같은 실험 1, 3에서 [B] 2배 → v 4배입니다.\n2차입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "속도식이 v = k[A][B]²일 때 [A]와 [B]를 모두 2배로 하면?",
+   "steps": [
+    "[A] 2배 → 2배, [B] 2배 → 2² = 4배입니다.",
+    "전체 속도는 2 × 4 = 8배입니다."
+   ],
+   "answer": "8배"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "속도식 정리",
+   "body": [
+    "v = −Δ[반응물]/Δt, 속도식 v = k[A]ᵐ[B]ⁿ. 차수는 실험으로 정하며 전체 차수는 m + n입니다.",
+    "속도 상수 k는 온도와 촉매에 따라 변하고, 농도에는 관계없습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "속도 상수 k는 농도와 관계없고 {{1}}에 따라 변합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "온도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "온도가 높으면 k가 커집니다.\n촉매도 k를 바꿉니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "v = k[A]²인 반응에서 [A]를 3배로 하면 속도는?",
+   "steps": [
+    "v ∝ [A]²입니다.",
+    "3² = 9배입니다."
+   ],
+   "answer": "9배"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "속도식이 v = k[A][B]²인 반응에서 [A]와 [B]를 모두 2배로 하면 속도는 몇 배가 될까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "각 농도의 효과를 곱하세요.",
+   "explanation": "2 × 2² = 8배입니다.\n지수만큼 곱합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "0차 반응에서 반응물의 농도를 2배로 하면 반응 속도는 몇 배가 될까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "[A]⁰ = 1입니다.",
+   "explanation": "v = k[A]⁰ = k이므로 농도와 관계없습니다.\n속도는 그대로입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "반응식의 계수와 속도식의 반응 차수는 {{1}} 같지는 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반드시"
+     ]
+    }
+   ],
+   "hint": "항상 그렇지는 않습니다.",
+   "explanation": "반응이 여러 단계로 일어나면 달라질 수 있습니다.\n그래서 실험으로 정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "속도식이 v = k[A]²인 반응에서 [A]를 3배로 하면 속도는 몇 배가 될까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "농도의 제곱에 비례합니다.",
+   "explanation": "3² = 9배입니다.\n2차 반응입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "N₂ + 3H₂ → 2NH₃ 반응에서 N₂가 0.1 M/s로 소모될 때 NH₃는 몇 M/s로 생성될까요?",
+   "answer": "0.2",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "계수비를 보세요.",
+   "explanation": "계수비 N₂ : NH₃ = 1 : 2이므로 0.2 M/s입니다.\n계수비를 이용합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "대리석과 염산의 반응에서는 CO₂가 빠져나가므로 시간에 따른 {{1}} 감소를 재어 반응 속도를 구할 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "질량"
+     ]
+    }
+   ],
+   "hint": "저울로 잴 수 있는 양입니다.",
+   "explanation": "기체가 빠져나간 만큼 가벼워집니다.\n발생한 기체의 부피를 재기도 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "초기 속도법으로 반응 차수를 정하는 방법을 설명해 보세요.",
+   "hint": "변인 통제와 비교 방법을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "농도"
+     ],
+     [
+      "처음 반응 속도",
+      "처음 속도",
+      "초기 속도"
+     ],
+     [
+      "비교",
+      "같게"
+     ],
+     [
+      "차수",
+      "배"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "한 반응물의 처음 농도만 바꾸고 나머지는 같게 한 여러 실험에서 처음 반응 속도를 측정합니다. 그 반응물의 농도를 2배로 했을 때 속도가 2배이면 1차, 4배이면 2차, 변하지 않으면 0차로 정하고, 이를 반응물마다 반복합니다."
+  }
+ ]
+}

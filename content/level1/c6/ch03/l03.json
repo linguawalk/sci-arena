@@ -1,0 +1,359 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch03",
+  "no": 3,
+  "title": "용액"
+ },
+ "lesson": {
+  "id": "c6-ch03-l03",
+  "no": 3,
+  "title": "끓는점 오름과 어는점 내림",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "겨울 도로의 염화 칼슘",
+   "body": [
+    "눈이 오면 도로에 염화 칼슘을 뿌립니다. 소금물은 0 °C보다 낮은 온도에서 얼기 때문에 눈이 녹고 도로가 얼지 않습니다.",
+    "용질을 녹이면 끓는점과 어는점이 모두 변합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "바닷물의 끓는점은 순수한 물보다 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "용액의 증기 압력이 낮아 더 높은 온도에서 외부 압력에 도달합니다.\n이를 끓는점 오름이라고 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "끓는점 오름과 어는점 내림",
+   "body": [
+    "용액은 증기 압력이 낮아 순수한 용매보다 높은 온도에서 끓고(끓는점 오름), 용질 입자가 용매 분자의 규칙적 배열을 방해해 더 낮은 온도에서 업니다(어는점 내림).",
+    "묽은 용액에서 끓는점 오름과 어는점 내림은 몰랄 농도에 비례합니다: ΔT_b = K_b × m, ΔT_f = K_f × m. 물의 K_b = 0.52 °C/m, K_f = 1.86 °C/m입니다.",
+    "전해질은 이온화한 입자 수를 곱합니다. NaCl 0.5 m은 입자 1 m으로 계산합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "끓는점 오름과 어는점 내림은 용액의 {{1}} 농도에 비례합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "몰랄"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "ΔT = K × m입니다.\n온도가 변하는 상황이라 몰랄 농도를 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1 m 설탕 수용액의 끓는점 오름은 몇 °C일까요? (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "answer": "0.52",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "ΔT_b = 0.52 × 1 = 0.52 °C입니다.\n끓는점은 100.52 °C입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.5 m 포도당 수용액의 어는점 내림은 몇 °C일까요? (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "answer": "0.93",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "ΔT_f = 1.86 × 0.5 = 0.93 °C입니다.\n어는점은 −0.93 °C입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "0.5 m NaCl 수용액의 어는점은? (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "steps": [
+    "NaCl은 Na⁺와 Cl⁻로 이온화하므로 입자 농도는 2 × 0.5 = 1 m입니다.",
+    "ΔT_f = 1.86 × 1 = 1.86 °C입니다.",
+    "어는점은 −1.86 °C입니다."
+   ],
+   "answer": "−1.86 °C"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.5 m NaCl 수용액의 어는점은 몇 °C일까요? (완전 이온화) (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "answer": "-1.86",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "입자 농도 1 m이므로 ΔT_f = 1.86 °C입니다.\n어는점은 −1.86 °C입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "이용",
+   "body": [
+    "도로에 뿌리는 염화 칼슘, 자동차 냉각수에 넣는 부동액(에틸렌 글리콜)은 물의 어는점을 낮춥니다. 아이스크림을 만들 때 얼음에 소금을 섞으면 0 °C보다 훨씬 차가워집니다.",
+    "어는점 내림을 측정하면 용질의 분자량을 구할 수 있습니다: m = ΔT_f ÷ K_f에서 몰수를 구하고, 용질의 질량을 몰수로 나눕니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "겨울 도로에 염화 칼슘을 뿌리는 것은 물의 {{1}} 내림을 이용한 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "어는점"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "소금물은 0 °C보다 낮은 온도에서 업니다.\nCaCl₂는 이온 3개로 나뉘어 효과가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "어떤 비전해질 9 g을 물 100 g에 녹였더니 어는점이 0.93 °C 내려갔습니다. 이 물질의 분자량은 얼마일까요? (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "answer": "180",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "m = 0.93 ÷ 1.86 = 0.5 m, 몰수 = 0.5 × 0.1 kg = 0.05 mol입니다.\n분자량 = 9 ÷ 0.05 = 180입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자동차 냉각수에 부동액을 넣으면 겨울에 냉각수의 어는점이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "에틸렌 글리콜이 물의 어는점을 낮춥니다.\n엔진이 얼어 터지는 것을 막습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "순수한 물과 설탕물을 가열할 때 끓는 동안의 온도 변화는?",
+   "steps": [
+    "순수한 물은 끓는 동안 100 °C로 일정합니다.",
+    "설탕물은 끓으며 물이 증발해 농도가 점점 진해집니다.",
+    "농도가 커질수록 끓는점 오름이 커져 끓는 동안에도 온도가 계속 올라갑니다."
+   ],
+   "answer": "설탕물은 끓는 동안 온도가 계속 올라간다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "정리",
+   "body": [
+    "ΔT_b = K_b m, ΔT_f = K_f m (전해질은 입자 수를 곱함). 물: K_b = 0.52, K_f = 1.86 °C/m.",
+    "어는점 내림으로 분자량을 측정할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "용액이 끓는 동안에는 용매가 증발해 농도가 진해지므로 온도가 계속 {{1}}갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "올라"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "몰랄 농도가 커지면 끓는점 오름도 커집니다.\n순수한 용매는 끓는 동안 온도가 일정합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "1 m CaCl₂ 수용액의 어는점 내림은? (완전 이온화) (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "steps": [
+    "CaCl₂ → Ca²⁺ + 2Cl⁻이므로 입자 농도는 3 m입니다.",
+    "ΔT_f = 1.86 × 3 = 5.58 °C입니다."
+   ],
+   "answer": "5.58 °C"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "2 m 설탕 수용액의 끓는점은 몇 °C일까요? (1 atm) (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "answer": "101.04",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "100 °C에 끓는점 오름을 더하세요.",
+   "explanation": "ΔT_b = 0.52 × 2 = 1.04 °C입니다.\n끓는점은 101.04 °C입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1 m CaCl₂ 수용액의 어는점 내림은 몇 °C일까요? (완전 이온화) (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "answer": "5.58",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "이온 수를 곱하세요.",
+   "explanation": "입자 농도 3 m이므로 1.86 × 3 = 5.58 °C입니다.\n그래서 제설 효과가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "순수한 물이 끓는 동안 온도는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일정"
+     ]
+    }
+   ],
+   "hint": "농도가 변하지 않습니다.",
+   "explanation": "가한 열이 기화에 쓰입니다.\n용액과 다른 점입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "어떤 비전해질 수용액의 끓는점 오름이 0.26 °C입니다. 몰랄 농도는 몇 m일까요? (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "m = ΔT_b ÷ K_b입니다.",
+   "explanation": "m = 0.26 ÷ 0.52 = 0.5 m입니다.\nΔT_b = K_b m을 변형했습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 몰랄 농도의 NaCl 수용액과 설탕 수용액 중 어는점이 더 크게 내려가는 것은 {{1}} 수용액입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "NaCl",
+      "염화 나트륨"
+     ]
+    }
+   ],
+   "hint": "입자 수가 많은 쪽입니다.",
+   "explanation": "NaCl은 이온화해 입자 수가 2배입니다.\n총괄성은 입자 수에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "얼음에 소금을 섞으면 0 °C보다 차가워지는 것은 소금물의 {{1}} 내림 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "어는점"
+     ]
+    }
+   ],
+   "hint": "아이스크림을 만드는 원리입니다.",
+   "explanation": "얼음이 녹으며 주위의 열을 빼앗습니다.\n소금물은 더 낮은 온도까지 얼지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "겨울철 도로에 염화 칼슘을 뿌리면 눈이 녹고 도로가 잘 얼지 않는 이유를 설명해 보세요.",
+   "hint": "어는점 내림과 입자 수를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "어는점"
+     ],
+     [
+      "내림",
+      "낮아"
+     ],
+     [
+      "이온",
+      "입자"
+     ],
+     [
+      "용액",
+      "녹"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "염화 칼슘이 눈 녹은 물에 녹으면 용액이 되어 어는점이 0 °C보다 낮아집니다(어는점 내림). 염화 칼슘은 이온 3개로 나뉘어 입자 수가 많으므로 어는점을 크게 낮추어, 영하의 날씨에도 눈이 녹고 도로가 잘 얼지 않습니다."
+  }
+ ]
+}

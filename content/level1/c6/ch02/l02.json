@@ -1,0 +1,416 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch02",
+  "no": 2,
+  "title": "분자 간 힘과 물질의 상태"
+ },
+ "lesson": {
+  "id": "c6-ch02-l02",
+  "no": 2,
+  "title": "수소 결합",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "물의 이상한 끓는점",
+   "body": [
+    "16족 수소 화합물 H₂S, H₂Se, H₂Te는 분자량이 클수록 끓는점이 높아집니다. 이 규칙대로라면 가장 가벼운 H₂O는 약 −80 °C에서 끓어야 합니다.",
+    "그런데 물은 100 °C에서 끓습니다. 물 분자 사이에 특별히 강한 힘이 있기 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "F, O, N에 결합한 수소 원자와 이웃 분자의 F, O, N 사이에 작용하는 강한 분자 간 힘을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소 결합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분자 간 힘 가운데 가장 강합니다.\n이름에 '결합'이 있지만 공유 결합이 아닌 분자 간 힘입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "수소 결합",
+   "body": [
+    "F, O, N은 전기 음성도가 매우 커서 이들과 결합한 H는 강한 부분 양전하를 띱니다. 이 H가 이웃 분자의 F, O, N의 비공유 전자쌍에 강하게 끌리는 것이 수소 결합입니다.",
+    "그래서 HF, H₂O, NH₃는 같은 족의 다른 수소 화합물보다 끓는점이 비정상적으로 높습니다.",
+    "CH₄처럼 H가 C에 결합한 분자는 수소 결합을 하지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "수소 결합은 H가 F, O, {{1}} 원자에 결합한 분자 사이에서 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "N",
+      "질소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세 원소는 전기 음성도가 매우 큽니다.\n그래서 H가 강한 δ+를 띱니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "H₂O와 H₂S 가운데 끓는점이 높은 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "H₂O",
+      "H2O",
+      "물"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H₂O 분자 사이에 수소 결합이 있습니다.\n분자량은 H₂S가 크지만 끓는점은 훨씬 낮습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "메테인(CH₄) 분자 사이에는 수소 결합이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "없다",
+      "없습니다",
+      "생기지 않는다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H가 결합한 C는 전기 음성도가 크지 않습니다.\nCH₄는 분산력만 작용합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "14족 수소 화합물(CH₄, SiH₄ …)에서는 끓는점이 규칙적인데 15~17족에서는 첫 화합물만 튀는 이유는?",
+   "steps": [
+    "14족 수소 화합물은 모두 무극성이고 수소 결합이 없어 분자량 순서대로 끓는점이 높아집니다.",
+    "15~17족의 NH₃, H₂O, HF는 수소 결합을 합니다.",
+    "그래서 분자량이 가장 작은데도 끓는점이 비정상적으로 높습니다."
+   ],
+   "answer": "NH₃, H₂O, HF만 수소 결합을 하기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "HF의 끓는점이 HCl보다 높은 것은 HF 분자 사이에 {{1}}이 있기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소 결합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "F의 전기 음성도가 매우 큽니다.\nHCl에는 수소 결합이 없습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "수소 결합과 물의 성질",
+   "body": [
+    "물은 수소 결합 덕분에 분자량에 비해 끓는점, 녹는점, 비열, 표면 장력이 큽니다.",
+    "얼음에서는 물 분자가 수소 결합으로 빈 공간이 많은 육각형 구조를 이루어, 얼음의 밀도가 물보다 작습니다. 그래서 얼음이 물에 뜨고, 물은 4 °C에서 밀도가 가장 큽니다.",
+    "DNA의 두 가닥은 염기 사이의 수소 결합으로 연결되어 있고, 단백질의 구조도 수소 결합으로 유지됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "얼음은 물보다 밀도가 작아 물 위에 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "뜬다",
+      "뜹니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "수소 결합으로 빈 공간이 많은 구조를 이룹니다.\n대부분의 물질은 고체가 더 무거운데 물은 예외입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "물의 밀도가 가장 큰 온도는 몇 °C일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "4 °C에서 물의 밀도가 가장 큽니다.\n그래서 겨울 호수 바닥의 물은 약 4 °C입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA의 두 가닥은 염기 사이의 {{1}}으로 연결되어 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소 결합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "A–T 사이 2개, G–C 사이 3개의 수소 결합이 있습니다.\n그래서 복제할 때 쉽게 풀립니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "겨울에 호수가 표면부터 어는 것이 생물에게 중요한 이유는?",
+   "steps": [
+    "물은 4 °C에서 가장 무거워 바닥으로 가라앉습니다.",
+    "표면이 얼면 밀도가 작은 얼음이 떠서 아래 물을 덮어 보온합니다.",
+    "그래서 호수 바닥까지 얼지 않아 물고기가 겨울을 날 수 있습니다."
+   ],
+   "answer": "얼음이 떠서 아래 물을 보온하기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "분자 간 힘의 크기",
+   "body": [
+    "일반적으로 분자 간 힘의 세기는 분산력 < 쌍극자–쌍극자 힘 < 수소 결합 순입니다. 다만 분자량이 매우 큰 분자는 분산력만으로도 큰 힘을 가집니다.",
+    "모든 분자 간 힘은 원자 사이의 공유 결합보다 훨씬 약합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "힘의 세기가 약한 것부터 순서대로 배열하세요. (분자량이 비슷한 작은 분자 기준)",
+   "items": [
+    {
+     "id": "a",
+     "text": "수소 결합"
+    },
+    {
+     "id": "b",
+     "text": "분산력"
+    },
+    {
+     "id": "c",
+     "text": "공유 결합"
+    },
+    {
+     "id": "d",
+     "text": "쌍극자–쌍극자 힘"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "분자 간 힘 가운데 수소 결합이 가장 강합니다.\n원자 사이의 공유 결합은 그보다 훨씬 강합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "분자식이 C₂H₆O로 같은 에탄올(CH₃CH₂OH)과 다이메틸 에터(CH₃OCH₃)의 끓는점을 비교하면?",
+   "steps": [
+    "에탄올에는 O–H 결합이 있어 분자 사이에 수소 결합을 합니다.",
+    "다이메틸 에터에는 O–H가 없어 수소 결합을 하지 않습니다.",
+    "그래서 에탄올은 78 °C, 다이메틸 에터는 −24 °C로 크게 다릅니다."
+   ],
+   "answer": "에탄올이 훨씬 높다"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "에탄올 분자 사이에 수소 결합이 생기는 것은 분자 속에 {{1}} 결합이 있기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "O–H",
+      "O-H",
+      "OH"
+     ]
+    }
+   ],
+   "hint": "하이드록시기의 결합입니다.",
+   "explanation": "O에 결합한 H가 이웃 분자의 O에 끌립니다.\n다이메틸 에터에는 O–H가 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "겨울에 호수는 {{1}}부터 얼기 시작합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표면",
+      "위",
+      "수면"
+     ]
+    }
+   ],
+   "hint": "얼음이 뜨는 것을 생각하세요.",
+   "explanation": "4 °C의 무거운 물은 아래로 가라앉고 차가운 물이 위에 남습니다.\n얼음은 물에 뜹니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "물은 수소 결합 때문에 비열이 {{1}}서 온도가 쉽게 변하지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커"
+     ]
+    }
+   ],
+   "hint": "데우기 어렵습니다.",
+   "explanation": "온도를 올리려면 수소 결합을 흔드는 데 에너지가 많이 듭니다.\n해안 지방의 기온 변화가 작은 이유입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "NH₃는 수소 결합 때문에 PH₃보다 끓는점이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": "15족의 첫 화합물입니다.",
+   "explanation": "N은 전기 음성도가 커서 수소 결합을 합니다.\nPH₃는 수소 결합이 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "소금쟁이가 물 위를 걸을 수 있는 것은 수소 결합으로 물의 {{1}}이 크기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표면 장력"
+     ]
+    }
+   ],
+   "hint": "표면이 막처럼 버티는 힘입니다.",
+   "explanation": "표면의 물 분자들이 서로 강하게 끌어당깁니다.\n물방울이 둥근 것도 같은 이유입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "다이메틸 에터(CH₃OCH₃) 분자 사이에는 수소 결합이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "없다",
+      "없습니다",
+      "생기지 않는다"
+     ]
+    }
+   ],
+   "hint": "O–H 결합이 있는지 보세요.",
+   "explanation": "O는 있지만 O에 결합한 H가 없습니다.\nH는 모두 C에 결합해 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "얼음이 물에 뜨는 이유를 수소 결합으로 설명해 보세요.",
+   "hint": "구조와 밀도를 연결하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "수소 결합"
+     ],
+     [
+      "빈 공간",
+      "육각형"
+     ],
+     [
+      "밀도"
+     ],
+     [
+      "작"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "얼음에서는 물 분자들이 수소 결합으로 규칙적인 육각형 구조를 이루며, 이 구조에는 빈 공간이 많습니다. 그래서 같은 질량의 얼음이 물보다 부피가 커서 밀도가 작으므로 얼음이 물에 뜹니다."
+  }
+ ]
+}

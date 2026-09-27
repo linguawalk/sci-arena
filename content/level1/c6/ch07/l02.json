@@ -1,0 +1,912 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch07",
+  "no": 7,
+  "title": "반응 속도"
+ },
+ "lesson": {
+  "id": "c6-ch07-l02",
+  "no": 2,
+  "title": "1차 반응과 반감기",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "절반씩 줄어드는 반응",
+   "body": [
+    "방사성 원소의 붕괴나 약물이 몸에서 분해되는 반응은 일정한 시간마다 남은 양이 절반씩 줄어듭니다.",
+    "이런 반응은 1차 반응의 특징을 보입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "반응물의 농도가 처음의 절반이 되는 데 걸리는 시간을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반감기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기호는 t½입니다.\n반응이 얼마나 빠른지 나타냅니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "1차 반응",
+   "body": [
+    "속도식이 v = k[A]인 1차 반응에서는 반응물 농도에 관계없이 반감기가 일정합니다: t½ = 0.693 ÷ k.",
+    "그래서 반감기가 한 번 지나면 1/2, 두 번 지나면 1/4, 세 번 지나면 1/8이 남습니다.",
+    "방사성 붕괴, N₂O₅의 분해, 몸속 약물의 분해가 대표적인 1차 반응입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "1차 반응의 반감기는 반응물의 처음 농도와 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무관",
+      "관계없"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "t½ = 0.693/k로 k에만 의존합니다.\n농도가 얼마든 절반이 되는 시간은 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "반감기가 10분인 1차 반응에서 30분 뒤 남은 반응물은 처음의 몇 %일까요?",
+   "answer": "12.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": null,
+   "explanation": "30분은 반감기 3번이므로 (1/2)³ = 1/8 = 12.5%입니다.\n매번 절반씩 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1차 반응에서 반응물이 1 M에서 0.25 M가 되는 데 20분 걸렸습니다. 반감기는 몇 분일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "0.25 = 1/4이므로 반감기 2번이 지났습니다.\n20 ÷ 2 = 10분입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "속도 상수 k = 0.0693 s⁻¹인 1차 반응의 반감기는?",
+   "steps": [
+    "t½ = 0.693 ÷ k입니다.",
+    "= 0.693 ÷ 0.0693 = 10초입니다."
+   ],
+   "answer": "10초"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "속도 상수가 0.0693 s⁻¹인 1차 반응의 반감기는 몇 초일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "t½ = 0.693 ÷ 0.0693 = 10초입니다.\nk가 클수록 반감기가 짧습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "농도–시간 그래프",
+   "body": [
+    "아래 그래프는 처음 농도 1 M인 1차 반응의 농도 변화입니다. 곡선은 처음에 빠르게, 나중에 천천히 줄어듭니다.",
+    "1 M → 0.5 M, 0.5 M → 0.25 M에 걸리는 시간이 같은 것이 1차 반응의 특징입니다.",
+    "2차 반응은 농도가 작아질수록 반감기가 길어집니다."
+   ],
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "분",
+     "ylabel": "[A](M)",
+     "xmin": 0,
+     "xmax": 40,
+     "ymin": 0,
+     "ymax": 1,
+     "xstep": 10,
+     "ystep": 0.25,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        1.0,
+        -0.06364
+       ],
+       "from": 0.0,
+       "to": 2.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.97469,
+        -0.05352
+       ],
+       "from": 2.5,
+       "to": 5.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.93211,
+        -0.045
+       ],
+       "from": 5.0,
+       "to": 7.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.87841,
+        -0.03784
+       ],
+       "from": 7.5,
+       "to": 10.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.81821,
+        -0.03182
+       ],
+       "from": 10.0,
+       "to": 12.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.75492,
+        -0.02676
+       ],
+       "from": 12.5,
+       "to": 15.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.69106,
+        -0.0225
+       ],
+       "from": 15.0,
+       "to": 17.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.62841,
+        -0.01892
+       ],
+       "from": 17.5,
+       "to": 20.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.56821,
+        -0.01591
+       ],
+       "from": 20.0,
+       "to": 22.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.51125,
+        -0.01338
+       ],
+       "from": 22.5,
+       "to": 25.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.45803,
+        -0.01125
+       ],
+       "from": 25.0,
+       "to": 27.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.40881,
+        -0.00946
+       ],
+       "from": 27.5,
+       "to": 30.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.36366,
+        -0.00796
+       ],
+       "from": 30.0,
+       "to": 32.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.32252,
+        -0.00669
+       ],
+       "from": 32.5,
+       "to": 35.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.28527,
+        -0.00563
+       ],
+       "from": 35.0,
+       "to": 37.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.25171,
+        -0.00473
+       ],
+       "from": 37.5,
+       "to": 40.0,
+       "color": "#1D3FA8"
+      }
+     ],
+     "points": [
+      [
+       10,
+       0.5,
+       "0.5"
+      ],
+      [
+       20,
+       0.25,
+       "0.25"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 그래프의 1차 반응에서 반감기는 몇 분일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1 M이 0.5 M가 되는 데 10분 걸립니다.\n0.5 → 0.25 M도 10분입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "분",
+     "ylabel": "[A](M)",
+     "xmin": 0,
+     "xmax": 40,
+     "ymin": 0,
+     "ymax": 1,
+     "xstep": 10,
+     "ystep": 0.25,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        1.0,
+        -0.06364
+       ],
+       "from": 0.0,
+       "to": 2.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.97469,
+        -0.05352
+       ],
+       "from": 2.5,
+       "to": 5.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.93211,
+        -0.045
+       ],
+       "from": 5.0,
+       "to": 7.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.87841,
+        -0.03784
+       ],
+       "from": 7.5,
+       "to": 10.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.81821,
+        -0.03182
+       ],
+       "from": 10.0,
+       "to": 12.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.75492,
+        -0.02676
+       ],
+       "from": 12.5,
+       "to": 15.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.69106,
+        -0.0225
+       ],
+       "from": 15.0,
+       "to": 17.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.62841,
+        -0.01892
+       ],
+       "from": 17.5,
+       "to": 20.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.56821,
+        -0.01591
+       ],
+       "from": 20.0,
+       "to": 22.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.51125,
+        -0.01338
+       ],
+       "from": 22.5,
+       "to": 25.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.45803,
+        -0.01125
+       ],
+       "from": 25.0,
+       "to": 27.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.40881,
+        -0.00946
+       ],
+       "from": 27.5,
+       "to": 30.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.36366,
+        -0.00796
+       ],
+       "from": 30.0,
+       "to": 32.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.32252,
+        -0.00669
+       ],
+       "from": 32.5,
+       "to": 35.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.28527,
+        -0.00563
+       ],
+       "from": 35.0,
+       "to": 37.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.25171,
+        -0.00473
+       ],
+       "from": 37.5,
+       "to": 40.0,
+       "color": "#1D3FA8"
+      }
+     ],
+     "points": [
+      [
+       10,
+       0.5,
+       "0.5"
+      ],
+      [
+       20,
+       0.25,
+       "0.25"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 그래프의 반응에서 30분 뒤 반응물 농도는 몇 M일까요?",
+   "answer": "0.125",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": null,
+   "explanation": "반감기 3번이므로 1 × (1/2)³ = 0.125 M입니다.\n그래프에서도 확인할 수 있습니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "분",
+     "ylabel": "[A](M)",
+     "xmin": 0,
+     "xmax": 40,
+     "ymin": 0,
+     "ymax": 1,
+     "xstep": 10,
+     "ystep": 0.25,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        1.0,
+        -0.06364
+       ],
+       "from": 0.0,
+       "to": 2.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.97469,
+        -0.05352
+       ],
+       "from": 2.5,
+       "to": 5.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.93211,
+        -0.045
+       ],
+       "from": 5.0,
+       "to": 7.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.87841,
+        -0.03784
+       ],
+       "from": 7.5,
+       "to": 10.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.81821,
+        -0.03182
+       ],
+       "from": 10.0,
+       "to": 12.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.75492,
+        -0.02676
+       ],
+       "from": 12.5,
+       "to": 15.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.69106,
+        -0.0225
+       ],
+       "from": 15.0,
+       "to": 17.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.62841,
+        -0.01892
+       ],
+       "from": 17.5,
+       "to": 20.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.56821,
+        -0.01591
+       ],
+       "from": 20.0,
+       "to": 22.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.51125,
+        -0.01338
+       ],
+       "from": 22.5,
+       "to": 25.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.45803,
+        -0.01125
+       ],
+       "from": 25.0,
+       "to": 27.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.40881,
+        -0.00946
+       ],
+       "from": 27.5,
+       "to": 30.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.36366,
+        -0.00796
+       ],
+       "from": 30.0,
+       "to": 32.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.32252,
+        -0.00669
+       ],
+       "from": 32.5,
+       "to": 35.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.28527,
+        -0.00563
+       ],
+       "from": 35.0,
+       "to": 37.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.25171,
+        -0.00473
+       ],
+       "from": 37.5,
+       "to": 40.0,
+       "color": "#1D3FA8"
+      }
+     ],
+     "points": [
+      [
+       10,
+       0.5,
+       "0.5"
+      ],
+      [
+       20,
+       0.25,
+       "0.25"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "2차 반응은 농도가 작아질수록 반감기가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "길어"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "농도가 작으면 충돌이 줄어 훨씬 느려집니다.\n반감기가 일정한 것은 1차 반응뿐입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "어떤 약의 몸속 분해가 반감기 4시간인 1차 반응이면, 먹은 뒤 12시간 뒤 남은 양은?",
+   "steps": [
+    "12시간은 반감기 3번입니다.",
+    "(1/2)³ = 1/8이 남습니다.",
+    "처음 양의 12.5%입니다."
+   ],
+   "answer": "처음의 1/8"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "1차 반응 정리",
+   "body": [
+    "v = k[A], t½ = 0.693/k(농도와 무관). n번의 반감기 뒤 (1/2)ⁿ이 남습니다.",
+    "반감기가 일정하면 1차 반응임을 알 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "반감기가 처음 농도와 관계없이 일정한 반응은 {{1}}차 반응입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "t½ = 0.693/k입니다.\n방사성 붕괴가 대표적입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "반감기 5분인 1차 반응에서 1 M가 0.0625 M로 되는 데 걸리는 시간은?",
+   "steps": [
+    "0.0625 = 1/16 = (1/2)⁴이므로 반감기가 4번 지납니다.",
+    "5 × 4 = 20분입니다."
+   ],
+   "answer": "20분"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "반감기 5분인 1차 반응에서 반응물이 1 M에서 0.0625 M가 되는 데 몇 분 걸릴까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "몇 번 절반이 되었는지 세세요.",
+   "explanation": "1/16 = (1/2)⁴이므로 반감기 4번, 20분입니다.\n1차 반응입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1차 반응의 반감기가 2배가 되면 속도 상수는 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "t½ = 0.693/k입니다.",
+   "explanation": "t½ = 0.693/k이므로 k는 1/2배입니다.\n반비례 관계입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "방사성 원소의 붕괴는 반감기가 일정한 {{1}}차 반응입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1"
+     ]
+    }
+   ],
+   "hint": "반감기가 일정합니다.",
+   "explanation": "남은 원자 수에 비례해 붕괴합니다.\n지학의 절대 연령 측정에 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1차 반응으로 분해되는 물질 80 g이 반감기 3번 뒤에는 몇 g 남을까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "세 번 절반으로 줄이세요.",
+   "explanation": "80 × (1/2)³ = 10 g입니다.\n40 → 20 → 10 g입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "1차 반응의 반응 속도는 반응물의 농도에 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비례"
+     ]
+    }
+   ],
+   "hint": "지수가 1입니다.",
+   "explanation": "v = k[A]입니다.\n농도가 절반이면 속도도 절반입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "반감기가 20초인 1차 반응에서 60초 뒤 남은 반응물은 처음의 몇 %일까요?",
+   "answer": "12.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "반감기 횟수를 세세요.",
+   "explanation": "60초는 반감기 3번이므로 1/8 = 12.5%입니다.\n87.5%가 반응했습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "1차 반응의 반감기가 가지는 특징을 설명하고, 반감기로 남은 양을 구하는 방법을 말해 보세요.",
+   "hint": "특징과 계산 방법을 함께 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "1차"
+     ],
+     [
+      "일정",
+      "무관"
+     ],
+     [
+      "절반",
+      "1/2"
+     ],
+     [
+      "반감기"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "1차 반응의 반감기는 t½ = 0.693/k로 반응물의 처음 농도와 관계없이 일정합니다. 그래서 반감기가 한 번 지날 때마다 남은 양이 절반씩 줄어, n번의 반감기가 지나면 처음 양의 (1/2)ⁿ이 남습니다."
+  }
+ ]
+}

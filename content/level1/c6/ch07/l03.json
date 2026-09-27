@@ -1,0 +1,376 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch07",
+  "no": 7,
+  "title": "반응 속도"
+ },
+ "lesson": {
+  "id": "c6-ch07-l03",
+  "no": 3,
+  "title": "활성화 에너지와 온도",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "넘어야 할 언덕",
+   "body": [
+    "종이는 공기 중의 산소와 반응하면 에너지를 내놓지만, 그냥 두어서는 불이 붙지 않습니다. 성냥으로 불을 붙여 주어야 반응이 시작됩니다.",
+    "반응이 시작되려면 먼저 넘어야 할 에너지 언덕이 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "반응이 일어나기 위해 반응물이 가져야 하는 최소한의 에너지를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "활성화 에너지"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기호는 Eₐ입니다.\n클수록 반응이 느립니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "충돌 이론과 활성화 에너지",
+   "body": [
+    "반응이 일어나려면 반응물 입자가 충돌해야 하는데, 활성화 에너지 이상의 에너지를 가지고 알맞은 방향으로 충돌해야 반응이 일어납니다. 이런 충돌을 유효 충돌이라고 합니다.",
+    "에너지 도표에서 반응물과 가장 높은 지점(활성화 상태) 사이의 에너지 차이가 활성화 에너지입니다.",
+    "정반응과 역반응의 활성화 에너지 차이가 반응열입니다: ΔH = Eₐ(정) − Eₐ(역)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "반응을 일으키는 충돌을 {{1}} 충돌이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유효"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "충분한 에너지와 알맞은 방향을 가진 충돌입니다.\n모든 충돌이 반응으로 이어지지는 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정반응의 활성화 에너지가 50 kJ이고 ΔH = −30 kJ일 때 역반응의 활성화 에너지는 몇 kJ일까요?",
+   "answer": "80",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Eₐ(역) = Eₐ(정) − ΔH = 50 − (−30) = 80 kJ입니다.\n발열 반응은 역반응의 활성화 에너지가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "활성화 에너지가 클수록 반응 속도가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "느려"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "그 에너지를 넘는 입자가 적어 유효 충돌이 줄어듭니다.\n그래서 반응이 느립니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "정반응 Eₐ가 100 kJ, 역반응 Eₐ가 60 kJ인 반응의 ΔH와 종류는?",
+   "steps": [
+    "ΔH = Eₐ(정) − Eₐ(역) = 100 − 60 = +40 kJ입니다.",
+    "ΔH > 0이므로 흡열 반응입니다."
+   ],
+   "answer": "+40 kJ, 흡열"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정반응의 활성화 에너지가 100 kJ, 역반응의 활성화 에너지가 60 kJ인 반응의 ΔH는 몇 kJ일까요?",
+   "answer": "40",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "ΔH = 100 − 60 = +40 kJ입니다.\n흡열 반응입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "속도에 영향을 주는 요인",
+   "body": [
+    "온도가 높아지면 분자의 평균 운동 에너지가 커지고, 활성화 에너지 이상의 에너지를 가진 분자의 비율이 크게 늘어나 반응 속도가 빨라집니다. 대체로 10 °C 오를 때마다 속도가 2~3배가 됩니다.",
+    "반응물의 농도가 크거나 고체의 표면적이 넓으면 충돌 횟수가 늘어 반응 속도가 빨라집니다.",
+    "온도를 높여도 활성화 에너지 자체는 변하지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "온도가 높아지면 활성화 에너지 이상의 에너지를 가진 분자의 수가 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분자의 운동 에너지 분포가 높은 쪽으로 넓어집니다.\n그래서 유효 충돌이 늘어납니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "덩어리 설탕보다 가루 설탕이 물에 빨리 녹는 것은 {{1}}이 넓기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표면적"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물과 닿는 면이 넓어 충돌이 많아집니다.\n반응 속도도 같은 원리로 빨라집니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "10 °C 오를 때마다 반응 속도가 2배가 되는 반응의 온도를 30 °C 올리면 속도는 몇 배가 될까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "10 °C씩 3번 오르므로 2³ = 8배입니다.\n온도 효과는 매우 큽니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "음식을 냉장고에 넣으면 오래 보관할 수 있는 이유는?",
+   "steps": [
+    "음식이 상하는 것은 미생물의 효소 반응과 산화 반응 때문입니다.",
+    "온도를 낮추면 활성화 에너지 이상의 에너지를 가진 분자가 줄어 반응이 느려집니다.",
+    "그래서 음식이 천천히 상합니다."
+   ],
+   "answer": "반응 속도가 느려지기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "속도 요인 정리",
+   "body": [
+    "활성화 에너지 Eₐ: 클수록 느림. ΔH = Eₐ(정) − Eₐ(역).",
+    "온도↑: Eₐ 이상 분자 비율↑ → 빠름. 농도·표면적↑: 충돌 횟수↑ → 빠름."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "온도를 높여도 활성화 에너지는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지 않는다",
+      "변하지 않습니다",
+      "그대로이다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "넘어야 할 언덕의 높이는 같습니다.\n언덕을 넘는 분자가 많아질 뿐입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "20 °C에서 40 °C로 올리면 반응 속도는? (10 °C마다 2배)",
+   "steps": [
+    "20 °C 올랐으므로 10 °C씩 2번입니다.",
+    "2² = 4배입니다."
+   ],
+   "answer": "4배"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "냉장고에 음식을 넣으면 음식이 상하는 반응의 속도가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "느려"
+     ]
+    }
+   ],
+   "hint": "온도가 낮아졌습니다.",
+   "explanation": "온도가 낮아 유효 충돌이 줄어듭니다.\n그래서 오래 보관할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "반응물의 농도가 커지면 입자 사이의 {{1}} 횟수가 늘어 반응이 빨라집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충돌"
+     ]
+    }
+   ],
+   "hint": "입자들이 부딪히는 것입니다.",
+   "explanation": "같은 부피에 입자가 많아집니다.\n유효 충돌도 늘어납니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "10 °C마다 반응 속도가 2배가 되는 반응을 20 °C에서 40 °C로 가열하면 속도는 몇 배가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "10 °C씩 몇 번 올랐는지 세세요.",
+   "explanation": "20 °C 상승 → 2² = 4배입니다.\n온도는 속도에 큰 영향을 줍니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "발열 반응에서는 역반응의 활성화 에너지가 정반응보다 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": "생성물의 위치를 생각하세요.",
+   "explanation": "생성물이 반응물보다 낮은 곳에 있어 언덕까지 더 멉니다.\nEₐ(역) = Eₐ(정) − ΔH입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "반응 경로에서 에너지가 가장 높은 불안정한 상태를 {{1}} 상태라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "활성화"
+     ]
+    }
+   ],
+   "hint": "활성화 에너지의 꼭대기입니다.",
+   "explanation": "활성화 착물이라고도 합니다.\n반응물과 이 상태의 에너지 차가 활성화 에너지입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "장작보다 톱밥이 더 격렬하게 타는 것은 {{1}}이 넓기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표면적"
+     ]
+    }
+   ],
+   "hint": "잘게 쪼갤수록 넓어집니다.",
+   "explanation": "산소와 닿는 면이 넓습니다.\n그래서 밀가루 분진이 폭발하기도 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "온도가 높아지면 반응 속도가 빨라지는 이유를 활성화 에너지와 충돌로 설명해 보세요.",
+   "hint": "분자 에너지 분포를 생각하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "운동 에너지"
+     ],
+     [
+      "활성화 에너지"
+     ],
+     [
+      "분자",
+      "비율",
+      "수"
+     ],
+     [
+      "유효 충돌",
+      "충돌"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "온도가 높아지면 분자의 평균 운동 에너지가 커져 활성화 에너지 이상의 에너지를 가진 분자의 비율이 크게 늘어납니다. 그래서 유효 충돌이 많아져 반응 속도가 빨라지며, 활성화 에너지 자체는 변하지 않습니다."
+  }
+ ]
+}

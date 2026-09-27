@@ -1,0 +1,380 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch06",
+  "no": 6,
+  "title": "산·염기 평형"
+ },
+ "lesson": {
+  "id": "c6-ch06-l04",
+  "no": 4,
+  "title": "완충 용액",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "pH를 지키는 용액",
+   "body": [
+    "우리 혈액의 pH는 7.35~7.45로 거의 일정합니다. 산성 음식을 먹거나 운동으로 젖산이 생겨도 pH가 크게 변하지 않습니다.",
+    "혈액이 완충 용액이기 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "산이나 염기를 조금 넣어도 pH가 거의 변하지 않는 용액을 {{1}} 용액이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "완충"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "약한 산과 그 짝염기(또는 약한 염기와 그 짝산)를 함께 녹여 만듭니다.\n생명체와 실험에서 중요합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "완충 작용",
+   "body": [
+    "약한 산 CH₃COOH와 그 짝염기 CH₃COO⁻(CH₃COONa)를 비슷한 양으로 녹인 용액을 예로 들어 봅시다.",
+    "산(H₃O⁺)을 넣으면 CH₃COO⁻가 이를 받아 CH₃COOH가 되고, 염기(OH⁻)를 넣으면 CH₃COOH가 이를 중화해 CH₃COO⁻가 됩니다. 그래서 H₃O⁺ 농도가 크게 변하지 않습니다.",
+    "완충 용액의 pH는 pH = pK_a + log([A⁻] ÷ [HA])로 구합니다(pK_a = −log K_a). [HA] = [A⁻]이면 pH = pK_a입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "완충 용액은 약한 산과 그 {{1}}를 함께 녹여 만듭니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짝염기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 성분이 각각 염기와 산을 중화합니다.\n약한 염기와 그 짝산으로도 만듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "아세트산 완충 용액에 산을 넣으면 {{1}}이 H₃O⁺와 반응합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CH₃COO⁻",
+      "CH3COO-",
+      "아세트산 이온"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "CH₃COO⁻ + H₃O⁺ → CH₃COOH + H₂O입니다.\n넣은 산이 약한 산으로 바뀝니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "K_a = 1 × 10⁻⁵인 약한 산과 그 짝염기를 같은 농도로 녹인 완충 용액의 pH는 얼마일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "[HA] = [A⁻]이면 pH = pK_a = −log 10⁻⁵ = 5입니다.\n완충 능력이 가장 큰 조건입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "pK_a = 5인 약한 산과 짝염기의 농도비가 [A⁻] : [HA] = 10 : 1인 완충 용액의 pH는?",
+   "steps": [
+    "pH = pK_a + log([A⁻]/[HA])입니다.",
+    "= 5 + log 10 = 5 + 1 = 6입니다."
+   ],
+   "answer": "6"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "pK_a = 5이고 [A⁻] ÷ [HA] = 10인 완충 용액의 pH는 얼마일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "pH = 5 + log 10 = 6입니다.\n짝염기가 많을수록 pH가 큽니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "혈액의 완충 작용",
+   "body": [
+    "혈액은 탄산(H₂CO₃)과 탄산수소 이온(HCO₃⁻)의 완충계로 pH를 약 7.4로 유지합니다. 산이 들어오면 HCO₃⁻가, 염기가 들어오면 H₂CO₃가 이를 중화합니다.",
+    "완충 용액도 한계가 있어, 넣은 산이나 염기의 양이 완충 성분보다 많아지면 pH가 크게 변합니다(완충 능력). 혈액의 pH가 정상보다 낮아지면 산증, 높아지면 알칼리증이 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "사람 혈액의 정상 pH는 약 얼마일까요?",
+   "answer": "7.4",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "hint": null,
+   "explanation": "혈액의 pH는 7.35~7.45로 약 7.4입니다.\n약한 염기성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "혈액에서 들어온 산(H₃O⁺)을 중화하는 완충 성분은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "HCO₃⁻",
+      "HCO3-",
+      "탄산수소 이온"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "HCO₃⁻ + H₃O⁺ → H₂CO₃ + H₂O입니다.\n탄산은 CO₂로 폐에서 배출됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "완충 성분보다 많은 산을 넣으면 완충 {{1}}을 넘어 pH가 크게 변합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "능력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "짝염기가 모두 소모되면 더 이상 중화하지 못합니다.\n완충 용액에도 한계가 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "HCl과 NaCl을 섞은 용액은 완충 용액이 될까요?",
+   "steps": [
+    "HCl은 강한 산이고 Cl⁻는 매우 약한 염기입니다.",
+    "Cl⁻는 들어온 H₃O⁺를 받아들이지 못합니다.",
+    "그래서 완충 작용이 없습니다. 완충 용액은 약한 산(또는 약한 염기)으로 만들어야 합니다."
+   ],
+   "answer": "아니다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "완충 용액 정리",
+   "body": [
+    "약한 산 + 짝염기(또는 약한 염기 + 짝산). 산을 넣으면 짝염기가, 염기를 넣으면 약한 산이 중화합니다.",
+    "pH = pK_a + log([A⁻]/[HA]). 혈액은 H₂CO₃/HCO₃⁻ 완충계로 pH 약 7.4를 유지합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "완충 용액의 pH가 pK_a와 같아지는 것은 약한 산과 짝염기의 농도가 {{1}} 때입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같을",
+      "같은"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "log 1 = 0이므로 pH = pK_a입니다.\n이때 완충 능력이 가장 큽니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "pK_a = 4.7인 아세트산과 아세트산 나트륨을 같은 농도로 섞은 완충 용액의 pH는?",
+   "steps": [
+    "[HA] = [A⁻]이므로 log 1 = 0입니다.",
+    "pH = pK_a = 4.7입니다."
+   ],
+   "answer": "4.7"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "pK_a = 4.7인 아세트산과 아세트산 나트륨을 같은 농도로 섞은 완충 용액의 pH는 얼마일까요?",
+   "answer": "4.7",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "hint": "log 1 = 0입니다.",
+   "explanation": "농도가 같으면 pH = pK_a = 4.7입니다.\n실험실에서 자주 쓰는 완충 용액입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "pK_a = 5이고 [A⁻] ÷ [HA] = 0.1인 완충 용액의 pH는 얼마일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "log 0.1 = −1입니다.",
+   "explanation": "pH = 5 + log 0.1 = 5 − 1 = 4입니다.\n약한 산이 많을수록 pH가 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "강한 산과 그 짝염기를 섞은 용액은 완충 작용을 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "하지 못한다",
+      "하지 못합니다",
+      "하지 않는다",
+      "못한다"
+     ]
+    }
+   ],
+   "hint": "Cl⁻가 산을 중화할 수 있을까요?",
+   "explanation": "강한 산의 짝염기는 H₃O⁺를 받아들이지 못합니다.\n약한 산을 써야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "아세트산 완충 용액에 염기(OH⁻)를 넣으면 {{1}}이 이를 중화합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CH₃COOH",
+      "CH3COOH",
+      "아세트산"
+     ]
+    }
+   ],
+   "hint": "약한 산 성분입니다.",
+   "explanation": "CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O입니다.\n넣은 염기가 물로 바뀝니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "암모니아(NH₃)와 염화 암모늄(NH₄Cl)을 섞은 용액은 약한 염기와 그 짝산으로 된 {{1}} 용액입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "완충"
+     ]
+    }
+   ],
+   "hint": "pH를 일정하게 유지하는 용액입니다.",
+   "explanation": "NH₃는 산을, NH₄⁺는 염기를 중화합니다.\n염기성 영역의 완충 용액입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "혈액의 pH가 정상 범위보다 낮아진 상태를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산증"
+     ]
+    }
+   ],
+   "hint": "산성 쪽으로 치우친 상태입니다.",
+   "explanation": "호흡이나 대사에 문제가 생기면 나타납니다.\n반대는 알칼리증입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "아세트산과 아세트산 나트륨으로 만든 완충 용액이 산과 염기를 넣어도 pH가 거의 변하지 않는 이유를 설명해 보세요.",
+   "hint": "산과 염기를 각각 누가 중화하는지 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "CH₃COO⁻",
+      "아세트산 이온",
+      "짝염기"
+     ],
+     [
+      "CH₃COOH",
+      "아세트산",
+      "약한 산"
+     ],
+     [
+      "H₃O⁺",
+      "산"
+     ],
+     [
+      "OH⁻",
+      "염기"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "산(H₃O⁺)을 넣으면 짝염기인 CH₃COO⁻가 이를 받아 약한 산인 CH₃COOH가 되고, 염기(OH⁻)를 넣으면 CH₃COOH가 이를 중화해 CH₃COO⁻와 물이 됩니다. 넣은 산과 염기가 약한 산과 짝염기로 바뀌므로 H₃O⁺ 농도가 크게 변하지 않아 pH가 거의 일정합니다."
+  }
+ ]
+}

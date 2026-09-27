@@ -1,0 +1,356 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c6",
+  "title": "화학Ⅱ"
+ },
+ "chapter": {
+  "id": "c6-ch05",
+  "no": 5,
+  "title": "화학 평형"
+ },
+ "lesson": {
+  "id": "c6-ch05-l01",
+  "no": 1,
+  "title": "평형 상수",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "멈춘 것처럼 보이는 반응",
+   "body": [
+    "밀폐된 용기에서 수소와 아이오딘을 반응시키면 아이오딘화 수소가 생기다가, 어느 순간부터 세 물질의 농도가 더 이상 변하지 않습니다.",
+    "반응이 멈춘 것이 아니라 정반응과 역반응이 같은 속도로 계속 일어나는 동적 평형 상태입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "가역 반응에서 정반응 속도와 역반응 속도가 같아 농도가 일정하게 유지되는 상태를 화학 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "평형"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "겉보기에는 멈춘 것 같지만 두 반응이 계속 일어납니다.\n화학Ⅰ에서 배운 동적 평형입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "평형 상수",
+   "body": [
+    "반응 aA + bB ⇌ cC + dD가 평형에 있을 때, K = [C]ᶜ[D]ᵈ ÷ ([A]ᵃ[B]ᵇ)의 값은 처음 농도와 관계없이 일정한 온도에서 항상 같습니다. 이 값을 평형 상수라고 합니다. [ ]는 평형 몰 농도입니다.",
+    "고체와 순수한 액체(용매인 물 등)는 농도가 일정하므로 평형 상수 식에 쓰지 않습니다.",
+    "K가 크면 평형에서 생성물이 많고, 작으면 반응물이 많습니다. K는 온도에 의해서만 변합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "평형 상수 K의 값을 변화시키는 조건은 {{1}}뿐입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "온도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "농도, 압력, 촉매는 K를 바꾸지 않습니다.\n온도가 변하면 K가 변합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "H₂(g) + I₂(g) ⇌ 2HI(g)가 평형일 때 [H₂] = 0.1 M, [I₂] = 0.1 M, [HI] = 0.8 M입니다. 평형 상수 K는 얼마일까요?",
+   "answer": "64",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "K = [HI]² ÷ ([H₂][I₂]) = 0.64 ÷ 0.01 = 64입니다.\n계수가 지수가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "평형 상수 식에는 고체와 순수한 {{1}}의 농도를 쓰지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "액체"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이들의 농도는 양과 관계없이 일정합니다.\n그래서 K 속에 포함된 것으로 봅니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "N₂O₄(g) ⇌ 2NO₂(g)의 평형에서 [N₂O₄] = 0.04 M, [NO₂] = 0.2 M이면 K는?",
+   "steps": [
+    "K = [NO₂]² ÷ [N₂O₄]입니다.",
+    "= 0.04 ÷ 0.04 = 1입니다."
+   ],
+   "answer": "1"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "N₂O₄(g) ⇌ 2NO₂(g)의 평형에서 [N₂O₄] = 0.04 M, [NO₂] = 0.2 M입니다. K는 얼마일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "K = 0.2² ÷ 0.04 = 0.04 ÷ 0.04 = 1입니다.\nNO₂의 계수 2가 지수입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "평형 상수 계산",
+   "body": [
+    "처음 농도와 평형에서의 한 물질 농도를 알면 반응식의 계수비로 나머지 평형 농도를 구해 K를 계산합니다(처음–변화–평형 표).",
+    "반응식을 거꾸로 쓰면 평형 상수는 역수(1/K)가 되고, 계수를 n배 하면 K는 n제곱(Kⁿ)이 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "평형 상수가 매우 크면 평형에서 {{1}}이 많습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "생성물"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "K의 분자가 생성물 농도입니다.\n반응이 거의 끝까지 진행된 것입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1 L 용기에서 A(g) ⇌ B(g) 반응을 A 1 mol로 시작해 평형에서 B가 0.8 mol이 되었습니다. K는 얼마일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "평형: [A] = 0.2 M, [B] = 0.8 M입니다.\nK = 0.8 ÷ 0.2 = 4입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "A ⇌ B의 평형 상수가 4일 때 B ⇌ A의 평형 상수는 얼마일까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": null,
+   "explanation": "역반응의 평형 상수는 역수입니다.\n1 ÷ 4 = 0.25입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "반응식의 계수를 2배로 하면 평형 상수는 어떻게 될까요?",
+   "steps": [
+    "A ⇌ B의 K = [B]/[A]입니다.",
+    "2A ⇌ 2B의 K' = [B]²/[A]² = K²입니다.",
+    "계수를 2배 하면 평형 상수는 제곱이 됩니다."
+   ],
+   "answer": "제곱이 된다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "평형 상수 정리",
+   "body": [
+    "K = [생성물]^계수 ÷ [반응물]^계수 (고체·순수한 액체 제외). K는 온도에만 의존합니다.",
+    "역반응: 1/K, 계수 n배: Kⁿ. K가 클수록 생성물 쪽으로 치우친 평형입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "촉매를 넣어도 평형 상수는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지 않는다",
+      "변하지 않습니다",
+      "같다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "촉매는 정반응과 역반응을 똑같이 빠르게 합니다.\n평형에 빨리 도달할 뿐입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "1 L 용기에 H₂ 1 mol과 I₂ 1 mol을 넣어 평형에서 HI가 1.6 mol 생겼다면 K는?",
+   "steps": [
+    "HI 1.6 mol이 생기려면 H₂와 I₂가 각각 0.8 mol 반응합니다.",
+    "평형: [H₂] = [I₂] = 0.2 M, [HI] = 1.6 M입니다.",
+    "K = 1.6² ÷ (0.2 × 0.2) = 2.56 ÷ 0.04 = 64입니다."
+   ],
+   "answer": "64"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1 L 용기에 H₂ 1 mol과 I₂ 1 mol을 넣었더니 평형에서 HI가 1.6 mol 생겼습니다. K는 얼마일까요?",
+   "answer": "64",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "계수비로 반응한 양을 구하세요.",
+   "explanation": "[H₂] = [I₂] = 0.2 M, [HI] = 1.6 M입니다.\nK = 2.56 ÷ 0.04 = 64입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "어떤 반응의 평형 상수가 3일 때 계수를 모두 2배로 한 반응의 평형 상수는 얼마일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Kⁿ입니다.",
+   "explanation": "계수 2배 → K² = 3² = 9입니다.\n지수가 2배가 되기 때문입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "CaCO₃(s) ⇌ CaO(s) + CO₂(g)의 평형 상수는 [{{1}}]입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CO₂",
+      "CO2"
+     ]
+    }
+   ],
+   "hint": "기체만 남깁니다.",
+   "explanation": "고체인 CaCO₃와 CaO는 식에 쓰지 않습니다.\nK = [CO₂]입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "어떤 반응의 평형 상수가 100일 때 역반응의 평형 상수는 얼마일까요?",
+   "answer": "0.01",
+   "answer_format": "decimal",
+   "tolerance": 0.0005,
+   "hint": "역수입니다.",
+   "explanation": "1 ÷ 100 = 0.01입니다.\n역반응 쪽으로는 거의 진행하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "평형 상태에서 반응물과 생성물의 농도는 시간이 지나도 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일정"
+     ]
+    }
+   ],
+   "hint": "변하지 않습니다.",
+   "explanation": "정반응과 역반응의 속도가 같기 때문입니다.\n농도가 같다는 뜻은 아닙니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "A(g) ⇌ 2B(g)의 평형에서 [A] = 0.5 M, [B] = 1 M입니다. K는 얼마일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "K = [B]² ÷ [A]입니다.",
+   "explanation": "K = [B]² ÷ [A] = 1 ÷ 0.5 = 2입니다.\n계수를 지수로 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "평형 상수의 의미와, 평형 상수가 클 때와 작을 때 평형 상태가 어떻게 다른지 설명해 보세요.",
+   "hint": "정의와 크기의 의미를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "평형 상수",
+      "K"
+     ],
+     [
+      "온도"
+     ],
+     [
+      "생성물"
+     ],
+     [
+      "반응물",
+      "크",
+      "작"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "평형 상수는 평형 상태에서 생성물 농도의 곱을 반응물 농도의 곱으로 나눈 값으로, 일정한 온도에서 처음 농도와 관계없이 항상 같습니다. K가 크면 평형에서 생성물이 많아 반응이 많이 진행된 것이고, K가 작으면 반응물이 많이 남아 있는 것입니다."
+  }
+ ]
+}

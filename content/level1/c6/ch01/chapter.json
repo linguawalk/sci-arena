@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c6",
+  "chapter": {
+    "id": "c6-ch01",
+    "no": 1,
+    "title": "기체"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c6-ch01-l01",
+      "title": "기체의 압력과 보일 법칙",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c6-ch01-l02",
+      "title": "샤를 법칙과 절대 온도",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c6-ch01-l03",
+      "title": "이상 기체 방정식",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c6-ch01-l04",
+      "title": "부분 압력",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c6-ch01-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}
