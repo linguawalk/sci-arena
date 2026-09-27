@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c2",
+  "chapter": {
+    "id": "c2-ch06",
+    "no": 6,
+    "title": "동적 평형과 산·염기"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c2-ch06-l01",
+      "title": "가역 반응과 동적 평형",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c2-ch06-l02",
+      "title": "산과 염기의 정의",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c2-ch06-l03",
+      "title": "물의 자동 이온화",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c2-ch06-l04",
+      "title": "pH",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c2-ch06-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

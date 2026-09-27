@@ -1,0 +1,192 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch05",
+  "no": 5,
+  "title": "분자의 구조와 성질"
+ },
+ "review": {
+  "id": "c2-ch05-review",
+  "title": "분자의 구조와 성질 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "산소 원자의 루이스 전자점식에는 점이 몇 개 있을까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "족 번호의 일의 자리입니다.",
+   "explanation": "산소는 16족으로 원자가 전자가 6개입니다.\n두 쌍과 홀전자 2개로 그립니다.",
+   "source_lesson": "c2-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "암모니아(NH₃) 분자의 공유 전자쌍은 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "N–H 결합 수를 세세요.",
+   "explanation": "질소와 수소 3개가 각각 단일 결합을 합니다.\n공유 전자쌍은 3개입니다.",
+   "source_lesson": "c2-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "메탄올(CH₃OH)의 원자가 전자 총수는 몇 개일까요?",
+   "answer": "14",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "각 원자의 원자가 전자를 더하세요.",
+   "explanation": "C 4 + H 1 × 4 + O 6입니다.\n= 14개입니다.",
+   "source_lesson": "c2-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "중심 원자 주위에 전자쌍 3개가 있고 모두 공유 전자쌍이면 분자 모양은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "평면 삼각형",
+      "평면삼각형"
+     ]
+    }
+   ],
+   "hint": "결합각이 120°입니다.",
+   "explanation": "세 전자쌍이 평면에서 120°씩 벌어집니다.\nBF₃가 그 예입니다.",
+   "source_lesson": "c2-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "메테인(CH₄) 분자의 모양은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정사면체형",
+      "정사면체",
+      "사면체형",
+      "사면체"
+     ]
+    }
+   ],
+   "hint": "결합각이 109.5°인 입체 구조입니다.",
+   "explanation": "탄소 주위에 공유 전자쌍 4개가 입체적으로 가장 멀리 퍼집니다.\n결합각은 109.5°입니다.",
+   "source_lesson": "c2-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "물의 결합각(104.5°)이 메테인(109.5°)보다 작은 것은 산소의 {{1}}이 결합을 더 강하게 밀어내기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비공유 전자쌍",
+      "비공유전자쌍"
+     ]
+    }
+   ],
+   "hint": "결합에 참여하지 않는 전자쌍입니다.",
+   "explanation": "비공유 전자쌍은 공유 전자쌍보다 반발력이 큽니다.\n물에는 비공유 전자쌍이 2개 있어 결합각이 더 좁아집니다.",
+   "source_lesson": "c2-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "정사면체 구조인 CF₄는 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무극성"
+     ]
+    }
+   ],
+   "hint": "CCl₄와 같은 구조입니다.",
+   "explanation": "C–F 결합은 극성이지만 네 결합이 대칭이라 상쇄됩니다.\n그래서 분자 전체는 무극성입니다.",
+   "source_lesson": "c2-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "삼각뿔형 구조인 NH₃는 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "극성"
+     ]
+    }
+   ],
+   "hint": "대칭이 아닙니다.",
+   "explanation": "N–H 쌍극자가 상쇄되지 않습니다.\n질소 쪽이 δ−를 띠는 극성 분자입니다.",
+   "source_lesson": "c2-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "극성 물질은 {{1}} 용매에 잘 녹습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "극성"
+     ]
+    }
+   ],
+   "hint": "물은 극성 용매입니다.",
+   "explanation": "비슷한 것끼리 잘 녹습니다.\n설탕과 소금은 극성 용매인 물에 잘 녹습니다.",
+   "source_lesson": "c2-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "NH₃의 끓는점이 PH₃보다 높은 것은 NH₃ 분자 사이에 {{1}}이 있기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소 결합",
+      "수소결합"
+     ]
+    }
+   ],
+   "hint": "F, O, N에 붙은 수소가 만드는 결합입니다.",
+   "explanation": "질소는 전기 음성도가 커서 N–H…N 수소 결합을 만듭니다.\n인은 수소 결합을 거의 하지 않습니다.",
+   "source_lesson": "c2-ch05-l04"
+  }
+ ]
+}

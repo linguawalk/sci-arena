@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "level": 1,
+  "course": {
+    "id": "c2",
+    "title": "화학Ⅰ",
+    "description": "화학의 언어, 원자와 주기율, 화학 결합, 산·염기와 산화 환원"
+  },
+  "totals": {
+    "chapters": 8,
+    "lessons": 32,
+    "lesson_questions": 512,
+    "review_questions": 80,
+    "questions": 592
+  },
+  "chapters": [
+    {
+      "no": 1,
+      "id": "c2-ch01",
+      "title": "화학의 언어",
+      "dir": "ch01",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 2,
+      "id": "c2-ch02",
+      "title": "원소의 기원과 원자 구조",
+      "dir": "ch02",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 3,
+      "id": "c2-ch03",
+      "title": "주기율표와 주기적 성질",
+      "dir": "ch03",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 4,
+      "id": "c2-ch04",
+      "title": "화학 결합",
+      "dir": "ch04",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 5,
+      "id": "c2-ch05",
+      "title": "분자의 구조와 성질",
+      "dir": "ch05",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 6,
+      "id": "c2-ch06",
+      "title": "동적 평형과 산·염기",
+      "dir": "ch06",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 7,
+      "id": "c2-ch07",
+      "title": "중화 반응",
+      "dir": "ch07",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 8,
+      "id": "c2-ch08",
+      "title": "산화와 환원",
+      "dir": "ch08",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    }
+  ]
+}

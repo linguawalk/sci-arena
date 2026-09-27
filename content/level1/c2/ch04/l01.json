@@ -1,0 +1,413 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch04",
+  "no": 4,
+  "title": "화학 결합"
+ },
+ "lesson": {
+  "id": "c2-ch04-l01",
+  "no": 1,
+  "title": "이온 결합",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "전기로 쪼갠 물질",
+   "body": [
+    "순수한 물에 전해질을 조금 넣고 전류를 흘리면 (−)극에서 수소, (+)극에서 산소가 2 : 1의 부피비로 나옵니다. 녹인 염화 나트륨에 전류를 흘리면 나트륨과 염소로 나뉩니다.",
+    "전기로 화합물이 분해된다는 것은 원자들을 묶는 화학 결합에 전자가 관여한다는 증거입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "양이온과 음이온 사이의 정전기적 인력으로 이루어진 결합을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이온 결합",
+      "이온결합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "금속 원소가 전자를 잃어 양이온, 비금속 원소가 전자를 얻어 음이온이 됩니다.\n두 이온이 전기적 인력으로 결합합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "옥텟 규칙과 이온의 형성",
+   "body": [
+    "18족 원소는 가장 바깥 껍질에 전자가 8개(헬륨은 2개) 있어 안정합니다. 다른 원자들도 전자를 잃거나 얻어 18족 원소와 같은 전자 배치가 되려는 경향이 있는데, 이를 옥텟 규칙이라고 합니다.",
+    "나트륨은 전자 1개를 잃어 Na⁺(네온과 같은 배치)이 되고, 염소는 전자 1개를 얻어 Cl⁻(아르곤과 같은 배치)이 됩니다. 1족은 +1, 2족은 +2, 16족은 −2, 17족은 −1인 이온이 되기 쉽습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "원자가 가장 바깥 껍질에 전자 8개를 채워 안정해지려는 경향을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "옥텟 규칙",
+      "옥텟규칙",
+      "팔전자 규칙"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "18족 원소와 같은 전자 배치가 되려는 경향입니다.\n이온 결합과 공유 결합을 모두 이 규칙으로 이해할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "2족 원소인 마그네슘이 이온이 될 때 이온의 전하는 +몇일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "마그네슘은 원자가 전자가 2개입니다.\n2개를 잃고 Mg²⁺이 되어 네온과 같은 배치가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "16족 원소인 산소가 이온이 될 때 이온의 전하는 얼마일까요?",
+   "answer": "-2",
+   "answer_format": "decimal",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "산소는 원자가 전자가 6개입니다.\n전자 2개를 얻어 O²⁻이 되며 전하는 −2입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "이온 결합의 형성과 에너지",
+   "body": [
+    "양이온과 음이온이 가까워지면 인력으로 에너지가 낮아집니다. 너무 가까워지면 원자핵끼리, 전자끼리 반발해 에너지가 다시 높아집니다.",
+    "인력과 반발력이 균형을 이루어 에너지가 가장 낮은 거리에서 이온 결합이 형성되며, 이때 두 이온 중심 사이 거리를 이온 사이 거리라고 합니다.",
+    "이온 결합 물질은 수많은 양이온과 음이온이 규칙적으로 번갈아 배열된 결정을 이루며, 양이온과 음이온의 전하 합이 0이 되는 비율로 결합합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "이온 결합은 인력과 반발력이 균형을 이루어 에너지가 가장 낮은 {{1}}에서 형성됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이온 사이 거리",
+      "이온 사이의 거리",
+      "결합 길이",
+      "거리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "너무 멀면 인력이 약하고 너무 가까우면 반발이 큽니다.\n에너지가 가장 낮은 거리에서 결합이 가장 안정합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "마그네슘 이온과 염화 이온이 만드는 화합물의 화학식은?",
+   "steps": [
+    "Mg²⁺은 +2, Cl⁻은 −1입니다.",
+    "전하의 합이 0이 되려면 Mg²⁺ 1개에 Cl⁻ 2개가 필요합니다.",
+    "화학식은 MgCl₂입니다."
+   ],
+   "answer": "MgCl₂"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "Al³⁺과 O²⁻이 결합한 산화 알루미늄의 화학식은 Al{{1}}O₃입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Al³⁺ 2개는 +6, O²⁻ 3개는 −6입니다.\n전하 합이 0이 되므로 Al₂O₃입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "Ca²⁺과 F⁻이 결합한 플루오린화 칼슘의 화학식은 CaF{{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Ca²⁺ 1개(+2)에 F⁻ 2개(−2)가 결합합니다.\n화학식은 CaF₂입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "이온 결합 물질의 성질",
+   "body": [
+    "이온 사이의 인력이 강해 대부분 상온에서 고체이고 녹는점이 높습니다. 이온의 전하가 클수록, 이온 사이 거리가 짧을수록 인력이 커서 녹는점이 높습니다. MgO(2852 °C)가 NaCl(801 °C)보다 훨씬 높습니다.",
+    "단단하지만 힘을 받아 이온 층이 밀리면 같은 전하끼리 마주쳐 반발하므로 쉽게 쪼개집니다.",
+    "고체에서는 이온이 움직이지 못해 전기가 통하지 않지만, 녹이거나 물에 녹이면 이온이 자유롭게 움직여 전기가 통합니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "NaCl보다 MgO의 녹는점이 훨씬 높은 이유는?",
+   "steps": [
+    "NaCl은 +1과 −1, MgO는 +2와 −2 이온으로 되어 있습니다.",
+    "MgO의 이온 전하가 더 크고 이온 사이 거리도 더 짧습니다.",
+    "그래서 이온 사이 인력이 훨씬 커 녹이는 데 더 많은 에너지가 필요합니다."
+   ],
+   "answer": "이온의 전하가 크고 거리가 짧아 인력이 크기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "이온 결합 물질은 고체 상태에서 전기가 {{1}} 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "통하지",
+      "흐르지"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "고체에서는 이온이 제자리에 고정되어 움직이지 못합니다.\n전하를 옮길 입자가 없어 전기가 통하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "이온 결합 물질을 녹는점이 낮은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "NaF"
+    },
+    {
+     "id": "b",
+     "text": "KCl"
+    },
+    {
+     "id": "c",
+     "text": "MgO"
+    },
+    {
+     "id": "d",
+     "text": "NaCl"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "이온 사이 거리가 짧을수록(KCl > NaCl > NaF), 전하가 클수록(MgO) 인력이 커 녹는점이 높습니다.\n녹는점은 약 770, 801, 993, 2852 °C입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "이온 결정에 힘을 가하면 같은 전하의 이온끼리 마주쳐 반발하므로 쉽게 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "쪼개",
+      "부서",
+      "깨"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이온 층이 조금만 밀려도 +와 +, −와 −가 마주칩니다.\n이 반발 때문에 결정이 쪼개집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s5",
+   "stage": "summary",
+   "title": "화학 결합에 전자가 관여한다는 증거",
+   "body": [
+    "물을 전기 분해하면 (−)극에서 수소, (+)극에서 산소가 발생합니다. 녹인 염화 나트륨을 전기 분해하면 (−)극에서 나트륨, (+)극에서 염소가 생깁니다.",
+    "전자를 주고받는 전기 에너지로 화합물의 결합이 끊어진다는 것은, 화학 결합이 전자와 관련되어 있다는 것을 보여 줍니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "물을 전기 분해할 때 (−)극에서 수소 40 mL가 발생했습니다. (+)극에서 발생하는 산소는?",
+   "steps": [
+    "2H₂O → 2H₂ + O₂이므로 수소와 산소의 몰비는 2 : 1입니다.",
+    "같은 조건의 기체이므로 부피비도 2 : 1입니다.",
+    "산소는 20 mL입니다."
+   ],
+   "answer": "20 mL"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "물을 전기 분해할 때 (−)극에서 수소 20 mL가 발생했습니다. (+)극에서 발생하는 산소는 몇 mL일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "2H₂O → 2H₂ + O₂의 계수비를 보세요.",
+   "explanation": "수소와 산소의 부피비는 2 : 1입니다.\n20 ÷ 2 = 10 mL입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "녹인 염화 나트륨을 전기 분해하면 (−)극에서 {{1}}이 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "나트륨",
+      "Na",
+      "금속 나트륨"
+     ]
+    }
+   ],
+   "hint": "양이온이 (−)극에서 전자를 얻습니다.",
+   "explanation": "(−)극으로 이동한 Na⁺이 전자를 얻어 나트륨 금속이 됩니다.\n(+)극에서는 Cl⁻이 전자를 잃고 염소 기체가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "염화 나트륨 수용액이 전기를 통하는 것은 물속에서 {{1}}이 자유롭게 움직이기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이온"
+     ]
+    }
+   ],
+   "hint": "이온 결합 물질을 이루는 입자입니다.",
+   "explanation": "물에 녹으면 Na⁺과 Cl⁻이 흩어져 자유롭게 움직입니다.\n이 이온들이 전하를 옮겨 전류가 흐릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "산화 나트륨(Na₂O)에서 O²⁻ 이온 1개당 Na⁺ 이온은 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전하의 합이 0이 되어야 합니다.",
+   "explanation": "O²⁻의 −2를 상쇄하려면 Na⁺ 2개가 필요합니다.\n그래서 화학식이 Na₂O입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "이온 결합 물질은 양이온과 음이온의 전하 합이 0이 되도록 결합하므로 전체적으로 전기적으로 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중성"
+     ]
+    }
+   ],
+   "hint": "전하를 띠지 않는 상태입니다.",
+   "explanation": "양이온의 (+)전하 합과 음이온의 (−)전하 합이 같습니다.\n그래서 화합물 전체는 전하를 띠지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "이온 결합 물질이 고체 상태에서는 전기가 통하지 않지만 녹이거나 물에 녹이면 전기가 통하는 이유를 설명해 보세요.",
+   "hint": "이온이 움직일 수 있는지 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "이온"
+     ],
+     [
+      "고체",
+      "고정"
+     ],
+     [
+      "움직",
+      "이동"
+     ],
+     [
+      "액체",
+      "수용액",
+      "녹이"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "고체 상태에서는 이온이 결정 속에 고정되어 움직이지 못하므로 전기가 통하지 않습니다. 녹이거나 물에 녹이면 이온이 자유롭게 움직여 전하를 옮기므로 전기가 통합니다."
+  }
+ ]
+}

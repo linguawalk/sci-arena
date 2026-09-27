@@ -1,0 +1,416 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch06",
+  "no": 6,
+  "title": "동적 평형과 산·염기"
+ },
+ "lesson": {
+  "id": "c2-ch06-l02",
+  "no": 2,
+  "title": "산과 염기의 정의",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "신맛과 쓴맛",
+   "body": [
+    "레몬과 식초는 신맛이 나고, 비눗물은 쓴맛이 나며 손에 미끈거립니다. 오래전부터 사람들은 맛과 성질로 산과 염기를 구별했습니다.",
+    "화학자들은 산과 염기가 공통된 성질을 보이는 이유를 입자 수준에서 설명하려 했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "아레니우스에 따르면 물에 녹아 수소 이온(H⁺)을 내놓는 물질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "HCl → H⁺ + Cl⁻처럼 물에서 H⁺을 내놓습니다.\n산의 공통 성질은 H⁺ 때문입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "아레니우스의 산과 염기",
+   "body": [
+    "아레니우스는 물에 녹아 H⁺을 내놓는 물질을 산, OH⁻을 내놓는 물질을 염기라고 정의했습니다. HCl → H⁺ + Cl⁻, NaOH → Na⁺ + OH⁻입니다.",
+    "산은 신맛이 나고, 마그네슘이나 아연 같은 금속과 반응해 수소 기체를 내며, 푸른 리트머스 종이를 붉게 합니다.",
+    "염기는 쓴맛이 나고, 단백질을 녹여 미끈거리며, 붉은 리트머스 종이를 푸르게, 페놀프탈레인 용액을 붉게 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "아레니우스에 따르면 염기 수용액에 공통으로 들어 있는 이온은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "OH⁻",
+      "OH-",
+      "수산화 이온"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "NaOH, KOH, Ca(OH)₂는 물에서 OH⁻을 내놓습니다.\n염기의 공통 성질은 OH⁻ 때문입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "산 수용액에 마그네슘 조각을 넣으면 {{1}} 기체가 발생합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소",
+      "H₂",
+      "H2"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Mg + 2H⁺ → Mg²⁺ + H₂입니다.\n산의 H⁺이 금속과 반응해 수소 기체가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "페놀프탈레인 용액은 염기성 용액에서 {{1}}색을 띱니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "붉은",
+      "빨간",
+      "분홍"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "페놀프탈레인은 산성과 중성에서는 무색, 염기성에서는 붉은색입니다.\n그래서 염기를 확인하는 데 씁니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "염산과 수산화 나트륨 수용액이 각각 산과 염기의 성질을 보이는 이유를 이온화 식으로 설명해 보세요.",
+   "steps": [
+    "HCl(aq) → H⁺(aq) + Cl⁻(aq): 수소 이온을 내놓으므로 산입니다.",
+    "NaOH(aq) → Na⁺(aq) + OH⁻(aq): 수산화 이온을 내놓으므로 염기입니다.",
+    "공통 성질은 각각 H⁺과 OH⁻ 때문에 나타납니다."
+   ],
+   "answer": "HCl은 H⁺, NaOH는 OH⁻을 내놓기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "브뢴스테드–로리의 산과 염기",
+   "body": [
+    "아레니우스 정의로는 OH⁻이 없는 암모니아가 염기성인 이유나, 물이 없는 반응을 설명하기 어렵습니다.",
+    "브뢴스테드와 로리는 H⁺(양성자)을 주는 물질을 산, H⁺을 받는 물질을 염기라고 정의했습니다. HCl + H₂O → H₃O⁺ + Cl⁻에서 HCl은 산, H₂O는 염기입니다.",
+    "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻에서는 H₂O가 H⁺을 주므로 산, NH₃는 받으므로 염기입니다. 물처럼 산도 되고 염기도 되는 물질을 양쪽성 물질이라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "브뢴스테드–로리 정의에서 H⁺(양성자)을 받는 물질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H⁺을 주면 산, 받으면 염기입니다.\n반응에 따라 같은 물질이 산도 되고 염기도 될 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ 반응에서 H₂O는 브뢴스테드–로리 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H₂O가 NH₃에게 H⁺을 주고 OH⁻이 됩니다.\nH⁺을 주었으므로 산입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "HCl + H₂O → H₃O⁺ + Cl⁻ 반응에서 H₂O는 브뢴스테드–로리 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H₂O가 HCl에게서 H⁺을 받아 H₃O⁺이 됩니다.\nH⁺을 받았으므로 염기입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물처럼 반응에 따라 산으로도 염기로도 작용하는 물질을 {{1}} 물질이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "양쪽성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H₂O, HCO₃⁻, HSO₄⁻ 등이 양쪽성 물질입니다.\n상대가 산이면 염기로, 염기면 산으로 작용합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "염화 수소 기체와 암모니아 기체가 만나 흰 연기(NH₄Cl)가 생깁니다. 산과 염기는?",
+   "steps": [
+    "HCl(g) + NH₃(g) → NH₄Cl(s)입니다.",
+    "HCl이 NH₃에게 H⁺을 주므로 HCl이 산, NH₃가 염기입니다.",
+    "물이 없는 반응이므로 아레니우스 정의로는 설명할 수 없고, 브뢴스테드–로리 정의로 설명됩니다."
+   ],
+   "answer": "HCl 산, NH₃ 염기"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "짝산–짝염기와 산·염기의 세기",
+   "body": [
+    "산이 H⁺을 내놓고 남은 것을 그 산의 짝염기, 염기가 H⁺을 받아 된 것을 그 염기의 짝산이라고 합니다. HCl과 Cl⁻, NH₄⁺과 NH₃는 짝산–짝염기 관계입니다.",
+    "물에서 거의 모두 이온화하는 산을 강산(HCl, HNO₃, H₂SO₄), 일부만 이온화하는 산을 약산(CH₃COOH, H₂CO₃)이라고 합니다. 염기도 강염기(NaOH, KOH)와 약염기(NH₃)가 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "NH₄⁺의 짝염기는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "NH₃",
+      "NH3",
+      "암모니아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "NH₄⁺이 H⁺을 하나 내놓으면 NH₃가 됩니다.\n둘은 H⁺ 하나 차이인 짝산–짝염기입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "물에서 일부만 이온화하는 아세트산(CH₃COOH)은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "약산"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아세트산은 대부분 분자 상태로 있고 일부만 H⁺을 내놓습니다.\n그래서 같은 농도의 염산보다 산성이 약합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "탄산수소 이온(HCO₃⁻)이 양쪽성 물질인 이유를 두 반응으로 보여 주세요.",
+   "steps": [
+    "산과 만나면 H⁺을 받습니다: HCO₃⁻ + H₃O⁺ → H₂CO₃ + H₂O (염기로 작용).",
+    "염기와 만나면 H⁺을 줍니다: HCO₃⁻ + OH⁻ → CO₃²⁻ + H₂O (산으로 작용).",
+    "상대에 따라 산도 염기도 되므로 양쪽성 물질입니다."
+   ],
+   "answer": "H⁺을 받을 수도 줄 수도 있기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "물 분자가 H⁺을 받아 생긴 H₃O⁺을 {{1}} 이온이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "하이드로늄",
+      "히드로늄",
+      "옥소늄"
+     ]
+    }
+   ],
+   "hint": "H₃O⁺의 이름입니다.",
+   "explanation": "수용액에서 H⁺은 혼자 있지 않고 물 분자와 결합해 H₃O⁺으로 존재합니다.\n그래서 H⁺ 대신 H₃O⁺으로 쓰기도 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "HCl(g) + NH₃(g) → NH₄Cl(s) 반응에서 NH₃는 브뢴스테드–로리 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기"
+     ]
+    }
+   ],
+   "hint": "H⁺을 받는지 주는지 보세요.",
+   "explanation": "NH₃가 HCl에게서 H⁺을 받아 NH₄⁺이 됩니다.\nH⁺을 받으므로 염기입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "OH⁻을 가지고 있지 않은 암모니아가 염기인 이유는 {{1}} 정의로 설명할 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "브뢴스테드–로리",
+      "브뢴스테드-로리",
+      "브뢴스테드",
+      "브뢴스테드 로리",
+      "브뢴스테드로리"
+     ]
+    }
+   ],
+   "hint": "H⁺을 주고받는 것으로 정의한 과학자들입니다.",
+   "explanation": "암모니아는 물에서 H⁺을 받아 NH₄⁺이 되고, 그 결과 OH⁻이 생깁니다.\nH⁺을 받는 물질을 염기로 보는 정의가 필요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "아세트산(CH₃COOH)의 짝염기는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CH₃COO⁻",
+      "CH3COO-",
+      "아세트산 이온"
+     ]
+    }
+   ],
+   "hint": "H⁺을 하나 뺀 것입니다.",
+   "explanation": "아세트산이 H⁺ 하나를 내놓으면 CH₃COO⁻이 됩니다.\n둘은 짝산–짝염기입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "붉은 리트머스 종이를 염기성 용액에 담그면 {{1}}색으로 변합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "푸른",
+      "파란",
+      "청"
+     ]
+    }
+   ],
+   "hint": "푸른 리트머스를 붉게 하는 것은 산입니다.",
+   "explanation": "리트머스는 산성에서 붉은색, 염기성에서 푸른색입니다.\n붉은 리트머스가 푸르게 변하면 염기성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "아레니우스의 산·염기 정의와 브뢴스테드–로리의 정의를 비교하고, 브뢴스테드–로리 정의가 더 넓게 쓰이는 이유를 설명해 보세요.",
+   "hint": "각 정의의 기준과 설명 범위를 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "H⁺",
+      "수소 이온",
+      "양성자"
+     ],
+     [
+      "OH⁻",
+      "수산화 이온"
+     ],
+     [
+      "주",
+      "받"
+     ],
+     [
+      "암모니아",
+      "물이 없는",
+      "기체"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "아레니우스는 물에서 H⁺을 내놓는 물질을 산, OH⁻을 내놓는 물질을 염기로 정의했습니다. 브뢴스테드–로리는 H⁺을 주는 물질을 산, 받는 물질을 염기로 정의해, OH⁻이 없는 암모니아나 물이 없는 기체 반응까지 설명할 수 있어 더 넓게 쓰입니다."
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch02",
+  "no": 2,
+  "title": "원소의 기원과 원자 구조"
+ },
+ "lesson": {
+  "id": "c2-ch02-l02",
+  "no": 2,
+  "title": "원자의 구성 입자와 동위 원소",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "쪼갤 수 없다던 원자",
+   "body": [
+    "원자(atom)는 '더 쪼갤 수 없는 것'이라는 뜻입니다. 하지만 19세기 말부터 과학자들은 원자 속에 더 작은 입자들이 있다는 것을 차례로 밝혀냈습니다.",
+    "1911년 러더퍼드는 금박에 알파 입자를 쏘는 실험으로 원자 중심에 아주 작고 무거운 핵이 있다는 것을 알아냈습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "원자의 중심에 있으며 (+)전하와 원자 질량의 대부분이 모여 있는 작은 부분을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원자핵"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원자핵은 원자 크기의 약 10만분의 1밖에 안 되지만 질량의 대부분을 차지합니다.\n원자핵 주위를 전자가 둘러싸고 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "구성 입자의 발견",
+   "body": [
+    "톰슨은 음극선이 (−)전하를 띤 입자의 흐름이라는 것을 밝혀 전자를 발견했습니다(1897).",
+    "러더퍼드의 알파 입자 산란 실험에서 대부분의 알파 입자는 금박을 그대로 통과했지만, 아주 일부는 크게 튕겨 나왔습니다. 원자의 대부분은 빈 공간이고, 중심에 작고 무거운 (+)전하의 원자핵이 있다는 뜻이었습니다.",
+    "이후 원자핵 속의 양성자가 확인되었고, 1932년 채드윅이 전하가 없는 중성자를 발견했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "톰슨은 음극선 실험으로 {{1}}를 발견했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전자"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "음극선은 전기장과 자기장에서 (+)극 쪽으로 휘었습니다.\n그래서 (−)전하를 띤 입자, 곧 전자의 흐름임이 밝혀졌습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "알파 입자 산란 실험에서 대부분의 알파 입자가 금박을 그대로 통과한 것은 원자의 대부분이 {{1}}이기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빈 공간",
+      "빈공간",
+      "비어 있는 공간"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "알파 입자가 부딪칠 것이 거의 없었습니다.\n일부가 크게 튕겨 나온 것은 작고 무거운 원자핵 때문입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "원자 번호와 질량수",
+   "body": [
+    "양성자는 +1, 전자는 −1의 전하를 띠고 중성자는 전하가 없습니다. 양성자와 중성자의 질량은 비슷하고, 전자의 약 1840배입니다.",
+    "원자 번호는 양성자 수이며 원소의 종류를 정합니다. 중성 원자에서는 전자 수가 양성자 수와 같습니다. 질량수는 양성자 수와 중성자 수의 합입니다.",
+    "원소 기호의 왼쪽 위에 질량수, 왼쪽 아래에 원자 번호를 씁니다. ²³₁₁Na는 양성자 11개, 중성자 12개입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "원자핵 속 양성자의 수를 {{1}}라고 하며, 원소의 종류를 결정합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원자 번호",
+      "원자번호"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "양성자 수가 같으면 같은 원소입니다.\n중성자 수는 같은 원소라도 다를 수 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "²³₁₁Na 원자의 양성자, 중성자, 전자 수는?",
+   "steps": [
+    "원자 번호가 11이므로 양성자는 11개입니다.",
+    "중성자 = 질량수 − 원자 번호 = 23 − 11 = 12개입니다.",
+    "중성 원자이므로 전자는 양성자 수와 같은 11개입니다."
+   ],
+   "answer": "양성자 11, 중성자 12, 전자 11"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량수 35, 원자 번호 17인 염소 원자(³⁵Cl)의 중성자 수는 몇 개일까요?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "중성자 수 = 질량수 − 원자 번호입니다.\n35 − 17 = 18개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "원자 번호 13인 알루미늄 원자(²⁷Al)의 전자 수는 몇 개일까요?",
+   "answer": "13",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "중성 원자의 전자 수는 원자 번호(양성자 수)와 같습니다.\n13개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "원자 번호 12인 마그네슘이 전자 2개를 잃고 Mg²⁺ 이온이 되었습니다. 이온의 전자 수는 몇 개일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "중성 원자의 전자는 12개입니다.\n2개를 잃었으므로 10개입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "동위 원소",
+   "body": [
+    "양성자 수는 같지만 중성자 수가 달라 질량수가 다른 원자를 서로 동위 원소라고 합니다. 수소에는 ¹H, ²H(중수소), ³H(삼중수소)가 있고, 탄소에는 ¹²C, ¹³C, ¹⁴C가 있습니다.",
+    "동위 원소는 전자 수와 전자 배치가 같아 화학적 성질이 같고, 질량만 다릅니다.",
+    "원소의 평균 원자량은 동위 원소의 원자량을 자연에 존재하는 비율로 평균한 값입니다. 염소는 ³⁵Cl 75%, ³⁷Cl 25%라서 평균 원자량이 35.5입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "동위 원소는 양성자 수가 같고 {{1}} 수가 다른 원자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중성자"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "양성자 수가 같으므로 같은 원소입니다.\n중성자 수가 달라 질량수만 다릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "염소의 동위 원소 ³⁵Cl(75%)과 ³⁷Cl(25%)로 평균 원자량을 구해 보세요.",
+   "steps": [
+    "각 동위 원소의 원자량에 존재 비율을 곱해 더합니다.",
+    "35 × 0.75 + 37 × 0.25 = 26.25 + 9.25입니다.",
+    "= 35.5입니다."
+   ],
+   "answer": "35.5"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "붕소의 동위 원소가 ¹⁰B 20%, ¹¹B 80%로 존재합니다. 붕소의 평균 원자량은 얼마일까요?",
+   "answer": "10.8",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "10 × 0.2 + 11 × 0.8 = 2 + 8.8입니다.\n= 10.8입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "동위 원소는 전자 배치가 같으므로 화학적 성질이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "화학적 성질은 전자, 특히 바깥 전자가 정합니다.\n동위 원소는 전자 수가 같으므로 화학적 성질이 같고 질량만 다릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "유물의 나이를 알아내는 탄소 연대 측정은 어떤 원리일까요?",
+   "steps": [
+    "생물은 살아 있는 동안 대기와 같은 비율로 ¹⁴C를 몸에 받아들입니다.",
+    "죽으면 더 이상 받아들이지 않고, 몸속 ¹⁴C는 일정한 속도로 붕괴해 줄어듭니다.",
+    "남아 있는 ¹⁴C의 비율을 재면 죽은 뒤 흐른 시간을 알 수 있습니다."
+   ],
+   "answer": "¹⁴C가 일정한 속도로 붕괴하는 것을 이용"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "수소의 동위 원소인 삼중수소(³H, 원자 번호 1)의 중성자 수는 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "질량수 − 원자 번호입니다.",
+   "explanation": "중성자 수 = 3 − 1 = 2개입니다.\n일반 수소 ¹H는 중성자가 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "중수소(²H)로 이루어진 물(²H₂O, 중수)의 분자량은 얼마일까요? (O의 원자량 16)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "²H의 원자량은 2입니다.",
+   "explanation": "²H의 원자량은 2입니다.\n2 × 2 + 16 = 20으로, 보통 물(18)보다 무겁습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "원자의 구성 요소가 발견된 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "양성자"
+    },
+    {
+     "id": "b",
+     "text": "전자 (톰슨)"
+    },
+    {
+     "id": "c",
+     "text": "중성자 (채드윅)"
+    },
+    {
+     "id": "d",
+     "text": "원자핵 (러더퍼드)"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "전하가 없는 입자가 가장 늦게 발견되었습니다.",
+   "explanation": "전자(1897) → 원자핵(1911) → 양성자(1919 무렵) → 중성자(1932) 순입니다.\n전하가 없는 중성자는 발견하기 가장 어려웠습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "어떤 원소의 동위 원소가 질량수 63인 것 70%, 65인 것 30%로 존재합니다. 평균 원자량은 얼마일까요?",
+   "answer": "63.6",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "존재 비율로 가중 평균하세요.",
+   "explanation": "63 × 0.7 + 65 × 0.3 = 44.1 + 19.5입니다.\n= 63.6입니다(구리)."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "원자 질량의 대부분은 {{1}}이 차지합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원자핵"
+     ]
+    }
+   ],
+   "hint": "양성자와 중성자가 있는 곳입니다.",
+   "explanation": "양성자와 중성자는 전자보다 약 1840배 무겁고 모두 원자핵에 있습니다.\n그래서 원자의 질량은 거의 원자핵의 질량입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "동위 원소가 무엇인지 설명하고, 동위 원소끼리 같은 점과 다른 점을 말해 보세요.",
+   "hint": "양성자 수와 중성자 수를 비교해 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "양성자"
+     ],
+     [
+      "중성자"
+     ],
+     [
+      "질량"
+     ],
+     [
+      "화학적 성질"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "동위 원소는 양성자 수(원자 번호)는 같지만 중성자 수가 달라 질량수가 다른 원자입니다. 전자 수와 배치가 같아 화학적 성질은 같고, 질량이 다릅니다."
+  }
+ ]
+}

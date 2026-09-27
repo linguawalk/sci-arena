@@ -20,7 +20,7 @@
       "id": "c2",
       "title": "화학Ⅰ",
       "description": "화학의 언어, 원자와 주기율, 화학 결합, 산·염기와 산화 환원",
-      "available": false,
+      "available": true,
       "subject": "chemistry",
       "grade": "Ⅰ"
     },

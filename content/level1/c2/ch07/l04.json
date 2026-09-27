@@ -1,0 +1,429 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch07",
+  "no": 7,
+  "title": "중화 반응"
+ },
+ "lesson": {
+  "id": "c2-ch07-l04",
+  "no": 4,
+  "title": "염과 생활 속 중화 반응",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "중화 반응이 남기는 것",
+   "body": [
+    "중화 반응이 끝나면 물과 함께 염이 남습니다. 염화 나트륨처럼 음식에 쓰는 것도 있고, 황산 바륨처럼 물에 녹지 않아 가라앉는 것도 있습니다.",
+    "염의 성질과 중화 반응을 알면 생활 속 여러 문제를 해결할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "중화 반응에서 산의 음이온과 염기의 양이온이 결합해 생긴 물질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "HCl과 NaOH에서는 NaCl, H₂SO₄와 KOH에서는 K₂SO₄가 염입니다.\n염은 대부분 이온 결합 물질입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "염의 성질",
+   "body": [
+    "NaCl, KNO₃처럼 물에 잘 녹는 염도 있고, AgCl, BaSO₄, CaCO₃처럼 물에 잘 녹지 않아 앙금이 되는 염도 있습니다.",
+    "염의 수용액이 항상 중성인 것은 아닙니다. 강산과 강염기로 만든 염(NaCl)은 중성, 강산과 약염기로 만든 염(NH₄Cl)은 산성, 약산과 강염기로 만든 염(CH₃COONa, NaHCO₃)은 염기성입니다.",
+    "약한 쪽에서 온 이온이 물과 반응해 H₃O⁺이나 OH⁻을 만들기 때문입니다(이 내용은 화학Ⅱ에서 자세히 다룹니다)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "강산과 강염기로 만든 염화 나트륨(NaCl)의 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Na⁺과 Cl⁻ 모두 물과 반응하지 않습니다.\n그래서 NaCl 수용액은 중성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "약산과 강염기로 만든 아세트산 나트륨(CH₃COONa)의 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "CH₃COO⁻이 물에서 H⁺을 받아 OH⁻을 만듭니다.\n그래서 수용액이 염기성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "강산과 약염기로 만든 염화 암모늄(NH₄Cl)의 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "NH₄⁺이 물에 H⁺을 내주어 H₃O⁺을 만듭니다.\n그래서 수용액이 산성입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "베이킹 소다(탄산수소 나트륨, NaHCO₃)의 수용액은 어떤 액성일까요?",
+   "steps": [
+    "NaHCO₃는 약산인 탄산과 강염기인 수산화 나트륨으로 만든 염으로 볼 수 있습니다.",
+    "HCO₃⁻이 물에서 H⁺을 받아 OH⁻을 만듭니다.",
+    "그래서 약한 염기성이며, 제산제나 요리에서 산을 중화하는 데 씁니다."
+   ],
+   "answer": "약한 염기성"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "생활 속 중화 반응",
+   "body": [
+    "제산제의 수산화 마그네슘은 위산을, 약한 염기성인 치약은 충치균이 만든 입안의 산을 중화합니다. 벌에 쏘이면 산성 독을 암모니아수 같은 약한 염기로 중화하기도 합니다.",
+    "산성화된 토양이나 호수에는 석회를 뿌리고, 발전소 굴뚝의 탈황 설비는 석회석으로 산성 기체인 이산화 황을 흡수해 산성비를 줄입니다.",
+    "시어진 김치에 베이킹 소다를 조금 넣어 신맛을 줄이는 것도 중화 반응입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "제산제의 수산화 마그네슘은 위산을 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중화"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O입니다.\n위산이 줄어 속쓰림이 가라앉습니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "치약은 입안의 산을 중화하기 위해 약한 {{1}}을 띱니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성",
+      "염기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "충치균은 당분을 분해해 산을 만들고, 이 산이 치아를 녹입니다.\n약한 염기성 치약이 산을 중화합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "벌에 쏘였을 때 암모니아수를 바르는 것은 벌독의 {{1}}을 중화하기 위해서입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산",
+      "산성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "벌독에는 산성 물질이 들어 있습니다.\n약한 염기인 암모니아수로 중화해 통증을 줄입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "화력 발전소 굴뚝의 탈황 설비는 어떤 원리로 산성비를 줄일까요?",
+   "steps": [
+    "석탄을 태우면 황이 산화되어 산성 기체인 이산화 황(SO₂)이 생깁니다.",
+    "배기가스를 석회석(CaCO₃)이나 석회를 섞은 물에 통과시킵니다.",
+    "SO₂가 염기성인 석회와 반응해 황산 칼슘(석고) 같은 염으로 붙잡혀 대기로 나가지 않습니다."
+   ],
+   "answer": "석회로 산성 기체를 중화해 붙잡는다"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "산성비로 산성화된 호수에는 {{1}}을 뿌려 중화합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "석회",
+      "염기",
+      "석회석"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "석회는 염기성이라 호수의 산을 중화합니다.\n물고기가 살 수 있는 pH로 되돌립니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "안전하게 다루기",
+   "body": [
+    "진한 산과 염기는 피부와 눈을 상하게 하므로 보안경과 장갑을 끼고 다룹니다. 피부에 묻으면 먼저 많은 물로 씻어 냅니다.",
+    "진한 황산을 묽힐 때는 물에 황산을 조금씩 부어야 합니다. 반대로 하면 많은 열이 한꺼번에 나며 용액이 튈 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "진한 황산을 묽힐 때는 {{1}}에 진한 황산을 조금씩 부어야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "물"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "황산이 물에 녹을 때 많은 열이 납니다.\n물이 많은 쪽에 황산을 조금씩 넣어야 열이 분산되어 튀지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "베이킹 소다에 식초를 부으면 거품이 나는 이유는?",
+   "steps": [
+    "NaHCO₃ + CH₃COOH → CH₃COONa + H₂O + CO₂입니다.",
+    "탄산수소 이온이 산의 H⁺과 반응해 이산화 탄소 기체가 생깁니다.",
+    "기체가 빠져나오며 거품이 생깁니다."
+   ],
+   "answer": "이산화 탄소가 발생하기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "베이킹 소다와 식초가 반응할 때 발생하는 기체는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이산화 탄소",
+      "이산화탄소",
+      "CO₂",
+      "CO2"
+     ]
+    }
+   ],
+   "hint": "탄산음료의 거품과 같은 기체입니다.",
+   "explanation": "탄산수소 이온이 H⁺과 반응해 탄산이 되고, 탄산이 물과 이산화 탄소로 분해됩니다.\n그래서 거품이 납니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "너무 시어진 김치에 베이킹 소다를 조금 넣으면 신맛이 줄어드는 것은 베이킹 소다가 {{1}}이라 산을 중화하기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성",
+      "염기"
+     ]
+    }
+   ],
+   "hint": "베이킹 소다 수용액의 액성입니다.",
+   "explanation": "김치의 신맛은 젖산 같은 산 때문입니다.\n약한 염기성인 베이킹 소다가 산을 중화합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "황산과 수산화 바륨의 중화로 생긴 황산 바륨은 물에 잘 {{1}} 않는 앙금입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "녹지"
+     ]
+    }
+   ],
+   "hint": "앙금의 성질입니다.",
+   "explanation": "BaSO₄는 물에 거의 녹지 않아 흰 앙금으로 가라앉습니다.\nX선 촬영의 조영제로도 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "같은 농도의 수용액을 pH가 낮은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "NaCl"
+    },
+    {
+     "id": "b",
+     "text": "HCl"
+    },
+    {
+     "id": "c",
+     "text": "CH₃COONa"
+    },
+    {
+     "id": "d",
+     "text": "NH₄Cl"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "강산 → 산성 염 → 중성 염 → 염기성 염 순서입니다.",
+   "explanation": "강산 HCl이 가장 산성이고, NH₄Cl은 약한 산성, NaCl은 중성, CH₃COONa는 약한 염기성입니다.\n염의 액성은 만든 산과 염기의 세기로 정해집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "발전소 굴뚝의 탈황 설비는 산성 기체인 {{1}}를 석회로 흡수해 산성비를 줄입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이산화 황",
+      "이산화황",
+      "SO₂",
+      "SO2"
+     ]
+    }
+   ],
+   "hint": "황이 탈 때 생기는 기체입니다.",
+   "explanation": "석탄 속 황이 타서 생긴 SO₂는 빗물에 녹아 산성비를 만듭니다.\n염기성인 석회와 반응시켜 제거합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "생선 비린내를 내는 아민 성분은 {{1}}이므로 레몬즙으로 중화할 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성",
+      "염기"
+     ]
+    }
+   ],
+   "hint": "레몬즙과 반대 성질입니다.",
+   "explanation": "아민은 암모니아와 비슷한 약한 염기입니다.\n산성인 레몬즙과 반응해 냄새가 덜 나는 염이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "생활 속에서 중화 반응을 이용하는 예를 두 가지 들고, 각각 무엇이 무엇을 중화하는지 설명해 보세요.",
+   "hint": "산과 염기가 각각 무엇인지 밝혀 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "제산제",
+      "위산",
+      "치약",
+      "석회",
+      "토양",
+      "벌",
+      "베이킹 소다",
+      "김치",
+      "레몬",
+      "생선"
+     ],
+     [
+      "산"
+     ],
+     [
+      "염기"
+     ],
+     [
+      "중화"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "제산제의 수산화 마그네슘은 염기로서 위산(염산)을 중화해 속쓰림을 줄입니다. 산성화된 토양에 뿌리는 석회는 염기로서 토양 속 산을 중화해 작물이 잘 자라게 합니다."
+  }
+ ]
+}

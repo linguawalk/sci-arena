@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c2",
+  "chapter": {
+    "id": "c2-ch02",
+    "no": 2,
+    "title": "원소의 기원과 원자 구조"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c2-ch02-l01",
+      "title": "빅뱅과 원소의 생성",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 2,
+      "id": "c2-ch02-l02",
+      "title": "원자의 구성 입자와 동위 원소",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c2-ch02-l03",
+      "title": "현대 원자 모형과 오비탈",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 4,
+      "id": "c2-ch02-l04",
+      "title": "전자 배치",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c2-ch02-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

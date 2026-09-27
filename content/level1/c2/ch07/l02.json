@@ -1,0 +1,341 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch07",
+  "no": 7,
+  "title": "중화 반응"
+ },
+ "lesson": {
+  "id": "c2-ch07-l02",
+  "no": 2,
+  "title": "중화 반응의 양적 관계",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "딱 맞는 양",
+   "body": [
+    "산을 중화하려면 염기를 얼마나 넣어야 할까요? 너무 적으면 산성이 남고, 너무 많으면 염기성이 됩니다.",
+    "중화 반응은 H⁺과 OH⁻이 1 : 1로 반응하므로 두 이온의 몰수만 비교하면 필요한 양을 계산할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "산과 염기가 완전히 중화되려면 산의 H⁺ 몰수와 염기의 OH⁻ 몰수가 {{1}}아야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H⁺ + OH⁻ → H₂O에서 1 : 1로 반응합니다.\n두 몰수가 같을 때 남는 이온 없이 중화됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "중화의 양적 관계",
+   "body": [
+    "산 한 분자가 내놓을 수 있는 H⁺의 수를 산의 가수라고 합니다. HCl은 1가, H₂SO₄는 2가 산입니다. 염기도 NaOH는 1가, Ca(OH)₂는 2가 염기입니다.",
+    "H⁺ 몰수 = 가수 × 몰 농도 × 부피, OH⁻ 몰수 = 가수 × 몰 농도 × 부피입니다.",
+    "완전히 중화되는 조건은 n M V = n′ M′ V′입니다(n, n′: 가수, M: 몰 농도, V: 부피). 부피는 양쪽이 같은 단위(mL끼리)면 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "황산(H₂SO₄)은 몇 가 산일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "황산 한 분자는 H⁺을 2개 내놓을 수 있습니다.\n그래서 2가 산입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "0.1 M 염산 20 mL를 완전히 중화하는 데 필요한 0.2 M 수산화 나트륨 수용액의 부피는?",
+   "steps": [
+    "nMV = n′M′V′에서 1 × 0.1 × 20 = 1 × 0.2 × V′입니다.",
+    "2 = 0.2V′이므로 V′ = 10 mL입니다."
+   ],
+   "answer": "10 mL"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.2 M 염산 50 mL를 완전히 중화하는 데 필요한 0.1 M 수산화 나트륨 수용액은 몇 mL일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1 × 0.2 × 50 = 1 × 0.1 × V′입니다.\nV′ = 10 ÷ 0.1 = 100 mL입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.1 M 황산 10 mL를 완전히 중화하는 데 필요한 0.1 M 수산화 나트륨 수용액은 몇 mL일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "황산은 2가 산이므로 2 × 0.1 × 10 = 1 × 0.1 × V′입니다.\nV′ = 20 mL입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.5 M 수산화 나트륨 수용액 20 mL를 완전히 중화하는 데 필요한 HCl은 몇 mol일까요?",
+   "answer": "0.01",
+   "answer_format": "decimal",
+   "tolerance": 0.0001,
+   "hint": null,
+   "explanation": "OH⁻ 몰수 = 0.5 × 0.02 = 0.01 mol입니다.\nHCl도 0.01 mol 필요합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "혼합 용액의 액성",
+   "body": [
+    "산과 염기를 섞은 뒤의 액성은 H⁺ 몰수와 OH⁻ 몰수를 비교해 정합니다. H⁺이 더 많으면 남은 H⁺ 때문에 산성, OH⁻이 더 많으면 염기성, 같으면 중성입니다.",
+    "남은 이온의 몰농도는 남은 몰수를 혼합 용액 전체 부피로 나누어 구합니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "0.1 M 염산 30 mL와 0.1 M 수산화 나트륨 수용액 20 mL를 섞었습니다. 액성과 남은 H⁺의 농도는?",
+   "steps": [
+    "H⁺ = 0.1 × 0.03 = 0.003 mol, OH⁻ = 0.1 × 0.02 = 0.002 mol입니다.",
+    "H⁺이 0.001 mol 남으므로 산성입니다.",
+    "전체 부피 50 mL = 0.05 L이므로 [H⁺] = 0.001 ÷ 0.05 = 0.02 M입니다."
+   ],
+   "answer": "산성, 0.02 M"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "0.1 M 염산 10 mL와 0.1 M 수산화 나트륨 수용액 20 mL를 섞은 용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H⁺ 0.001 mol, OH⁻ 0.002 mol입니다.\nOH⁻이 남으므로 염기성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.2 M 염산 50 mL와 0.1 M 수산화 나트륨 수용액 50 mL를 섞었습니다. 반응 후 남은 H⁺은 몇 mol일까요?",
+   "answer": "0.005",
+   "answer_format": "decimal",
+   "tolerance": 0.0001,
+   "hint": null,
+   "explanation": "H⁺ = 0.2 × 0.05 = 0.01 mol, OH⁻ = 0.1 × 0.05 = 0.005 mol입니다.\n남은 H⁺ = 0.005 mol입니다."
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "산과 염기를 섞은 뒤 H⁺이 남으면 혼합 용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반응하지 못하고 남은 이온이 액성을 정합니다.\nH⁺이 남으면 산성, OH⁻이 남으면 염기성입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "생성되는 물의 양",
+   "body": [
+    "중화 반응으로 생기는 물의 몰수는 실제로 반응한 H⁺(또는 OH⁻)의 몰수와 같습니다.",
+    "따라서 H⁺과 OH⁻ 중 몰수가 작은 쪽이 생성되는 물의 양을 정합니다. 한계 반응물과 같은 원리입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "0.1 M 염산 100 mL와 0.1 M 수산화 나트륨 수용액 50 mL를 섞었습니다. 생성된 물은 몇 mol일까요?",
+   "answer": "0.005",
+   "answer_format": "decimal",
+   "tolerance": 0.0001,
+   "hint": null,
+   "explanation": "H⁺ 0.01 mol, OH⁻ 0.005 mol입니다.\n작은 쪽인 0.005 mol만큼 물이 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "1 M 수산화 나트륨 수용액 1 L를 완전히 중화하는 데 필요한 황산은 몇 mol일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "OH⁻은 1 mol입니다.\n황산 1 mol은 H⁺ 2 mol을 내므로 0.5 mol이 필요합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "식초 10 mL를 0.5 M 수산화 나트륨 수용액으로 중화하는 데 20 mL가 들었습니다. 식초 속 아세트산(1가 산)의 몰 농도는?",
+   "steps": [
+    "1 × M × 10 = 1 × 0.5 × 20입니다.",
+    "10M = 10이므로 M = 1 M입니다."
+   ],
+   "answer": "1 M"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "식초 10 mL를 0.1 M 수산화 나트륨 수용액으로 중화하는 데 50 mL가 들었습니다. 아세트산의 몰 농도는 몇 M일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "nMV = n′M′V′을 쓰세요.",
+   "explanation": "M × 10 = 0.1 × 50입니다.\nM = 5 ÷ 10 = 0.5 M입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "0.05 M 수산화 칼슘(Ca(OH)₂) 수용액 100 mL를 완전히 중화하는 데 필요한 0.1 M 염산은 몇 mL일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "수산화 칼슘의 가수를 생각하세요.",
+   "explanation": "Ca(OH)₂는 2가 염기입니다: 2 × 0.05 × 100 = 10입니다.\n1 × 0.1 × V = 10이므로 V = 100 mL입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "0.3 M 염산 20 mL와 0.2 M 수산화 나트륨 수용액 30 mL를 섞었습니다. 반응 후 남는 H⁺은 몇 mol일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "두 이온의 몰수를 비교하세요.",
+   "explanation": "H⁺ = 0.3 × 0.02 = 0.006 mol, OH⁻ = 0.2 × 0.03 = 0.006 mol입니다.\n같으므로 남는 H⁺은 0입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "앞 문제의 혼합 용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중성"
+     ]
+    }
+   ],
+   "hint": "남는 이온이 없습니다.",
+   "explanation": "H⁺과 OH⁻의 몰수가 같아 완전히 중화되었습니다.\n강산과 강염기의 중화이므로 중성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "0.11 M 염산 50 mL와 0.09 M 수산화 나트륨 수용액 50 mL를 섞었습니다. 혼합 용액의 pH는 얼마일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "남은 H⁺의 몰수를 전체 부피로 나누세요.",
+   "explanation": "H⁺ 0.0055 mol, OH⁻ 0.0045 mol이므로 H⁺ 0.001 mol이 남습니다.\n부피 0.1 L이므로 [H⁺] = 0.01 M, pH = 2입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "산과 염기가 완전히 중화되는 조건을 가수, 몰 농도, 부피로 설명해 보세요.",
+   "hint": "H⁺과 OH⁻의 몰수를 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "H⁺",
+      "수소 이온"
+     ],
+     [
+      "OH⁻",
+      "수산화 이온"
+     ],
+     [
+      "몰수",
+      "mol"
+     ],
+     [
+      "같"
+     ],
+     [
+      "가수",
+      "nMV"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "중화 반응에서 H⁺과 OH⁻은 1 : 1로 반응하므로, 산이 내놓는 H⁺의 몰수와 염기가 내놓는 OH⁻의 몰수가 같을 때 완전히 중화됩니다. 몰수는 가수 × 몰 농도 × 부피이므로 nMV = n′M′V′일 때입니다."
+  }
+ ]
+}

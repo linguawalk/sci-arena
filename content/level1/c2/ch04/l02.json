@@ -1,0 +1,394 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch04",
+  "no": 4,
+  "title": "화학 결합"
+ },
+ "lesson": {
+  "id": "c2-ch04-l02",
+  "no": 2,
+  "title": "공유 결합",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "나누어 갖는 전자",
+   "body": [
+    "물 분자에서 산소와 수소는 전자를 완전히 주고받지 않습니다. 대신 전자를 한 쌍씩 함께 가지며 서로를 붙잡습니다.",
+    "비금속 원자끼리는 둘 다 전자를 얻고 싶어 하므로 전자를 나누어 가지는 방식으로 결합합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "비금속 원자들이 서로 전자쌍을 내놓아 함께 가지며 이루는 결합을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공유 결합",
+      "공유결합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "공유한 전자쌍을 두 원자가 모두 자기 것처럼 사용합니다.\n그 결과 두 원자 모두 18족 원소와 같은 배치가 됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "공유 전자쌍과 다중 결합",
+   "body": [
+    "수소 원자 2개가 전자를 1개씩 내놓아 한 쌍을 공유하면 각 수소는 헬륨과 같은 배치가 됩니다(H–H).",
+    "두 원자가 공유하는 전자쌍을 공유 전자쌍, 결합에 참여하지 않는 전자쌍을 비공유 전자쌍이라고 합니다.",
+    "공유 전자쌍이 1개면 단일 결합(H–H), 2개면 2중 결합(O=O), 3개면 3중 결합(N≡N)입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "두 원자가 결합하며 함께 가지는 전자쌍을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공유 전자쌍",
+      "공유전자쌍"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "결합에 참여하지 않고 한 원자에만 속한 전자쌍은 비공유 전자쌍입니다.\n두 전자쌍을 구별하는 것이 분자 구조를 이해하는 첫걸음입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질소 분자(N≡N)에서 두 질소 원자가 공유하는 전자쌍은 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "질소는 원자가 전자가 5개라 3개를 더 채워야 합니다.\n그래서 전자쌍 3개를 공유하는 3중 결합입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "산소 분자(O=O)에서 두 산소 원자가 공유하는 전자쌍은 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "산소는 원자가 전자가 6개라 2개를 더 채워야 합니다.\n그래서 전자쌍 2개를 공유하는 2중 결합입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "물(H₂O) 분자의 공유 전자쌍과 비공유 전자쌍은 각각 몇 개일까요?",
+   "steps": [
+    "산소는 원자가 전자 6개 중 2개를 수소 2개와 하나씩 공유합니다: 공유 전자쌍 2개.",
+    "산소에 남은 전자 4개는 2쌍을 이룹니다.",
+    "따라서 공유 전자쌍 2개, 비공유 전자쌍 2개입니다."
+   ],
+   "answer": "공유 2개, 비공유 2개"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "암모니아(NH₃) 분자에서 질소 원자의 비공유 전자쌍은 몇 개일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "질소의 원자가 전자 5개 중 3개를 수소 3개와 공유합니다.\n남은 2개가 비공유 전자쌍 1개를 이룹니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "결합 길이와 결합 에너지",
+   "body": [
+    "공유 결합한 두 원자핵 사이의 거리를 결합 길이, 결합 1 mol을 끊는 데 필요한 에너지를 결합 에너지라고 합니다.",
+    "같은 원자 사이에서는 공유 전자쌍이 많을수록 결합이 짧고 강합니다. 탄소–탄소 결합의 길이는 단일 결합 154 pm, 2중 결합 134 pm, 3중 결합 120 pm입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 두 원자 사이에서 공유 전자쌍 수가 많을수록 결합 길이는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "공유 전자쌍이 많으면 두 원자핵을 더 강하게 끌어당깁니다.\n그래서 결합이 짧고 강해집니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "결합 길이가 짧은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "C–C (154 pm)"
+    },
+    {
+     "id": "b",
+     "text": "C≡C (120 pm)"
+    },
+    {
+     "id": "c",
+     "text": "Si–Si (235 pm)"
+    },
+    {
+     "id": "d",
+     "text": "C=C (134 pm)"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "같은 원자 사이에서는 다중 결합일수록 짧습니다.\nSi는 C보다 원자 반지름이 커서 결합이 더 깁니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "공유 결합 물질의 성질",
+   "body": [
+    "분자로 이루어진 물질(분자 결정)은 분자 안의 결합은 강하지만 분자 사이의 힘이 약해 녹는점과 끓는점이 낮습니다. 드라이아이스, 설탕, 얼음이 그 예입니다.",
+    "원자들이 공유 결합으로 끝없이 연결된 공유 결정(원자 결정)은 녹는점이 매우 높고 단단합니다. 다이아몬드, 석영(SiO₂)이 그 예입니다.",
+    "공유 결합 물질은 대부분 전기가 통하지 않지만, 흑연은 층 안에 자유롭게 움직이는 전자가 있어 예외적으로 전기가 통합니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "다이아몬드와 설탕은 모두 공유 결합 물질인데 녹는점이 크게 다른 이유는?",
+   "steps": [
+    "설탕은 분자들이 약한 분자 사이 힘으로 모여 있어 이 힘만 끊으면 녹습니다.",
+    "다이아몬드는 모든 탄소가 강한 공유 결합으로 연결되어 있습니다.",
+    "녹이려면 강한 공유 결합을 끊어야 하므로 녹는점이 매우 높습니다."
+   ],
+   "answer": "끊어야 하는 힘이 다르기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "다이아몬드처럼 원자들이 공유 결합으로 끝없이 연결된 결정을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공유 결정",
+      "원자 결정",
+      "공유결정",
+      "원자결정"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "결정 전체가 하나의 거대한 분자처럼 연결되어 있습니다.\n그래서 녹는점이 매우 높고 단단합니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "탄소로만 이루어졌지만 전기가 통하는 물질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "흑연",
+      "그래파이트"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "흑연은 탄소가 층을 이루고 층마다 자유롭게 움직이는 전자가 있습니다.\n그래서 연필심과 전극에 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "분자 결정은 분자 사이의 힘이 약해 녹는점이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분자 안의 공유 결합은 강하지만 녹을 때는 분자 사이의 힘만 끊으면 됩니다.\n그래서 녹는점이 낮습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "이산화 탄소(O=C=O)의 공유 전자쌍과 비공유 전자쌍은 각각 몇 개일까요?",
+   "steps": [
+    "탄소는 산소 2개와 각각 2중 결합을 이룹니다: 공유 전자쌍 2 + 2 = 4개.",
+    "각 산소는 원자가 전자 6개 중 2개를 공유하고 4개(2쌍)가 남습니다.",
+    "비공유 전자쌍은 2 × 2 = 4개입니다."
+   ],
+   "answer": "공유 4개, 비공유 4개"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "이산화 탄소(O=C=O) 분자의 공유 전자쌍은 모두 몇 개일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "2중 결합 하나에 공유 전자쌍이 2개입니다.",
+   "explanation": "2중 결합 2개이므로 공유 전자쌍은 2 × 2 = 4개입니다.\n탄소는 4쌍을 공유해 옥텟을 이룹니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "사이안화 수소(H–C≡N) 분자의 공유 전자쌍은 모두 몇 개일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "단일 결합 1쌍, 3중 결합 3쌍입니다.",
+   "explanation": "H–C 단일 결합 1개와 C≡N 3중 결합 3개입니다.\n1 + 3 = 4개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "녹는점이 매우 높고 단단하며 전기가 통하지 않는 석영(SiO₂)은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공유 결정",
+      "원자 결정",
+      "공유결정",
+      "원자결정"
+     ]
+    }
+   ],
+   "hint": "다이아몬드와 같은 종류의 결정입니다.",
+   "explanation": "석영은 규소와 산소가 공유 결합으로 끝없이 연결되어 있습니다.\n그래서 다이아몬드처럼 단단하고 녹는점이 높습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "메테인(CH₄) 분자에서 탄소 원자의 비공유 전자쌍은 몇 개일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "탄소의 원자가 전자 수를 떠올리세요.",
+   "explanation": "탄소의 원자가 전자 4개가 모두 수소 4개와 공유됩니다.\n남는 전자가 없으므로 비공유 전자쌍은 0개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "이온 결합은 주로 금속과 비금속 원소 사이에서, 공유 결합은 주로 {{1}} 원소끼리 형성됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비금속"
+     ]
+    }
+   ],
+   "hint": "전자를 얻으려는 원소들입니다.",
+   "explanation": "비금속 원자는 모두 전자를 얻으려 하므로 한쪽이 완전히 내주지 않습니다.\n그래서 전자쌍을 공유합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "이온 결합과 공유 결합이 형성되는 방식을 비교해 설명해 보세요.",
+   "hint": "전자를 주고받는지, 나누어 갖는지 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "이온 결합",
+      "이온"
+     ],
+     [
+      "잃",
+      "얻",
+      "주고받"
+     ],
+     [
+      "공유"
+     ],
+     [
+      "전자쌍"
+     ],
+     [
+      "금속",
+      "비금속"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "이온 결합은 주로 금속 원자가 전자를 잃어 양이온, 비금속 원자가 전자를 얻어 음이온이 된 뒤 정전기적 인력으로 결합합니다. 공유 결합은 비금속 원자끼리 전자쌍을 내놓아 함께 가지며 결합합니다."
+  }
+ ]
+}

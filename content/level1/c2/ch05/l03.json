@@ -1,0 +1,405 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch05",
+  "no": 5,
+  "title": "분자의 구조와 성질"
+ },
+ "lesson": {
+  "id": "c2-ch05-l03",
+  "no": 3,
+  "title": "결합의 극성과 분자의 극성",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "휘어지는 물줄기",
+   "body": [
+    "털가죽으로 문지른 플라스틱 막대를 가느다란 물줄기에 가까이 가져가면 물줄기가 막대 쪽으로 휩니다. 사염화 탄소 줄기는 휘지 않습니다.",
+    "물 분자는 한쪽이 약간 (−), 다른 쪽이 약간 (+)전하를 띠기 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "분자 전체로 보아 전하가 한쪽으로 치우쳐 부분적인 (+)와 (−)를 띠는 분자를 {{1}} 분자라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "극성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "극성 분자는 전기장 속에서 방향을 맞추며 대전체에 끌립니다.\n물이 대표적인 극성 분자입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "결합의 극성과 분자의 극성",
+   "body": [
+    "전기 음성도가 다른 원자 사이의 공유 결합은 전자쌍이 한쪽으로 치우친 극성 결합입니다. 치우친 정도를 쌍극자 모멘트라 하고, (+)에서 (−) 쪽을 향하는 화살표로 나타냅니다.",
+    "분자의 극성은 각 결합의 쌍극자 모멘트를 더한 결과로 정해지므로 분자 모양이 중요합니다.",
+    "CO₂는 C=O 결합이 극성이지만 직선형이라 두 쌍극자가 반대 방향으로 상쇄되어 무극성 분자입니다. H₂O는 굽은형이라 상쇄되지 않아 극성 분자입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "분자 안에 극성 결합이 있어도 모양이 대칭이라 쌍극자 모멘트가 상쇄되면 {{1}} 분자가 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무극성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "결합의 극성과 분자의 극성은 다릅니다.\nCO₂, CH₄, BF₃는 극성 결합이 있지만 대칭 구조라 무극성 분자입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "직선형 구조인 CO₂는 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무극성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 C=O 결합의 쌍극자가 크기가 같고 방향이 정반대입니다.\n서로 상쇄되어 분자 전체의 쌍극자 모멘트는 0입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "굽은형 구조인 H₂O는 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "극성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 O–H 결합의 쌍극자가 비스듬히 같은 쪽을 향합니다.\n상쇄되지 않아 산소 쪽이 δ−, 수소 쪽이 δ+인 극성 분자입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "CH₄와 CH₃Cl의 극성을 비교해 보세요.",
+   "steps": [
+    "CH₄는 정사면체의 네 꼭짓점이 모두 H라 C–H 쌍극자가 완전히 상쇄됩니다: 무극성.",
+    "CH₃Cl은 한 꼭짓점이 Cl로 바뀌어 대칭이 깨집니다.",
+    "C–Cl 결합의 극성이 C–H보다 커서 상쇄되지 않으므로 극성 분자입니다."
+   ],
+   "answer": "CH₄ 무극성, CH₃Cl 극성"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "클로로메테인(CH₃Cl)은 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "극성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "정사면체이지만 네 꼭짓점의 원자가 같지 않아 대칭이 아닙니다.\n쌍극자가 상쇄되지 않아 극성 분자입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "극성을 확인하는 실험",
+   "body": [
+    "대전된 막대를 액체 줄기에 가까이 하면 극성 분자로 된 물 줄기는 막대 쪽으로 휩니다. 막대의 전하가 (+)이든 (−)이든 분자가 방향을 바꾸어 끌려오기 때문입니다.",
+    "무극성 분자로 된 사염화 탄소(CCl₄)나 헥세인 줄기는 휘지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "대전된 막대에 액체 줄기가 끌려 휜다면 그 액체는 {{1}} 분자로 되어 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "극성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "극성 분자는 막대 쪽으로 반대 전하를 띤 부분을 향해 끌립니다.\n그래서 줄기가 휩니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "정사면체 구조인 사염화 탄소(CCl₄)는 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무극성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "C–Cl 결합은 극성이지만 네 결합이 정사면체로 대칭입니다.\n쌍극자가 모두 상쇄되어 무극성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "삼각뿔형 구조인 암모니아(NH₃)는 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "극성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세 N–H 결합이 모두 아래쪽을 향해 상쇄되지 않습니다.\n질소 쪽이 δ−, 수소 쪽이 δ+인 극성 분자입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "분자의 극성 판단하기",
+   "body": [
+    "① 결합에 극성이 있는지 전기 음성도로 확인합니다. 모든 결합이 무극성이면 분자도 무극성입니다(H₂, Cl₂).",
+    "② 극성 결합이 있으면 분자 모양을 봅니다. ③ 대칭 구조(직선형 AB₂, 평면 삼각형 AB₃, 정사면체형 AB₄)이고 주변 원자가 모두 같으면 무극성, 그렇지 않으면 극성입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "분자의 극성을 판단하는 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "쌍극자 모멘트가 상쇄되는지 본다"
+    },
+    {
+     "id": "b",
+     "text": "결합의 극성 여부를 확인한다"
+    },
+    {
+     "id": "c",
+     "text": "극성 또는 무극성으로 판단한다"
+    },
+    {
+     "id": "d",
+     "text": "분자의 모양을 정한다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "결합의 극성과 모양을 모두 알아야 합니다.\n쌍극자 모멘트의 합이 0이면 무극성입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "summary",
+   "title": "예제",
+   "problem": "BF₃는 극성 분자일까요, 무극성 분자일까요?",
+   "steps": [
+    "B–F 결합은 전기 음성도 차이가 커서 극성 결합입니다.",
+    "BF₃는 평면 삼각형이고 세 꼭짓점이 모두 F입니다.",
+    "세 쌍극자가 120°씩 벌어져 상쇄되므로 무극성 분자입니다."
+   ],
+   "answer": "무극성"
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "HCN은 직선형인데 극성 분자일까요?",
+   "steps": [
+    "HCN은 H–C≡N으로 직선형입니다.",
+    "하지만 양쪽 끝이 H와 N으로 달라 대칭이 아닙니다.",
+    "C≡N 쪽으로 전자가 치우친 쌍극자가 상쇄되지 않으므로 극성 분자입니다."
+   ],
+   "answer": "극성"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "직선형이지만 양 끝 원자가 서로 다른 HCN은 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "극성"
+     ]
+    }
+   ],
+   "hint": "대칭이 되려면 양 끝이 같아야 합니다.",
+   "explanation": "직선형이라도 주변 원자가 다르면 쌍극자가 상쇄되지 않습니다.\n모양뿐 아니라 주변 원자의 종류도 확인해야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "무극성 공유 결합만으로 이루어진 분자는 모양과 관계없이 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무극성"
+     ]
+    }
+   ],
+   "hint": "쌍극자가 하나도 없습니다.",
+   "explanation": "결합 자체에 치우침이 없으므로 더할 쌍극자도 없습니다.\nH₂, O₂, N₂ 같은 분자가 그렇습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "평면 삼각형 구조인 삼염화 붕소(BCl₃)는 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무극성"
+     ]
+    }
+   ],
+   "hint": "BF₃와 비교하세요.",
+   "explanation": "BF₃와 같이 세 결합이 120°로 대칭입니다.\n쌍극자가 상쇄되어 무극성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "CO₂ 분자 전체의 쌍극자 모멘트 합은 얼마일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "직선형 대칭 구조입니다.",
+   "explanation": "두 C=O 쌍극자가 크기가 같고 정반대 방향입니다.\n합이 0이므로 무극성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "굽은형 구조인 이플루오린화 산소(OF₂)는 {{1}} 분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "극성"
+     ]
+    }
+   ],
+   "hint": "굽은형은 대칭이 아닙니다.",
+   "explanation": "물처럼 굽은형이라 두 O–F 쌍극자가 상쇄되지 않습니다.\n그래서 극성 분자입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "두 원자의 전기 음성도 차이가 클수록 결합의 극성이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커"
+     ]
+    }
+   ],
+   "hint": "전자쌍의 치우침 정도를 생각하세요.",
+   "explanation": "차이가 클수록 전자쌍이 한쪽으로 더 많이 치우칩니다.\n차이가 매우 크면 이온 결합이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "CO₂와 H₂O는 모두 극성 결합을 가지고 있는데 CO₂는 무극성, H₂O는 극성 분자인 이유를 설명해 보세요.",
+   "hint": "분자 모양과 쌍극자 모멘트의 상쇄를 연결하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "극성 결합",
+      "쌍극자"
+     ],
+     [
+      "직선형",
+      "직선"
+     ],
+     [
+      "굽은형",
+      "굽은"
+     ],
+     [
+      "상쇄"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "두 분자 모두 극성 결합을 가지고 있지만 모양이 다릅니다. CO₂는 직선형이라 두 결합의 쌍극자 모멘트가 반대 방향으로 상쇄되어 무극성이고, H₂O는 굽은형이라 쌍극자 모멘트가 상쇄되지 않아 극성 분자입니다."
+  }
+ ]
+}

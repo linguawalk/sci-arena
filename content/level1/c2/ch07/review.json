@@ -1,0 +1,192 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch07",
+  "no": 7,
+  "title": "중화 반응"
+ },
+ "review": {
+  "id": "c2-ch07-review",
+  "title": "중화 반응 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "염산과 수산화 칼륨의 중화 반응에서 구경꾼 이온은 K⁺과 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Cl⁻",
+      "Cl-",
+      "염화 이온"
+     ]
+    }
+   ],
+   "hint": "산의 음이온입니다.",
+   "explanation": "H⁺과 OH⁻만 반응해 물이 되고 K⁺과 Cl⁻은 그대로 남습니다.\n그래서 구경꾼 이온입니다.",
+   "source_lesson": "c2-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "염산에 수산화 나트륨 수용액을 넣을 때 용액의 온도가 가장 높은 지점이 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중화점",
+      "완전 중화점"
+     ]
+    }
+   ],
+   "hint": "산과 염기가 모두 반응한 지점입니다.",
+   "explanation": "중화 반응은 발열 반응이라 반응한 양이 가장 많을 때 온도가 가장 높습니다.\n그 지점이 중화점입니다.",
+   "source_lesson": "c2-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "HCl + NaOH 반응에서 중화점 이후 수가 늘어나는 이온은 Na⁺과 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "OH⁻",
+      "OH-",
+      "수산화 이온"
+     ]
+    }
+   ],
+   "hint": "반응할 H⁺이 없어졌습니다.",
+   "explanation": "중화점 이후에는 넣은 NaOH가 반응하지 않고 그대로 남습니다.\n그래서 Na⁺과 OH⁻이 늘어납니다.",
+   "source_lesson": "c2-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0.2 M 염산 30 mL를 완전히 중화하는 데 필요한 0.3 M 수산화 나트륨 수용액은 몇 mL일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "nMV = n′M′V′을 쓰세요.",
+   "explanation": "0.2 × 30 = 0.3 × V입니다.\nV = 6 ÷ 0.3 = 20 mL입니다.",
+   "source_lesson": "c2-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0.1 M 황산 20 mL를 완전히 중화하는 데 필요한 0.2 M 수산화 나트륨 수용액은 몇 mL일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "황산은 2가 산입니다.",
+   "explanation": "2 × 0.1 × 20 = 1 × 0.2 × V입니다.\nV = 4 ÷ 0.2 = 20 mL입니다.",
+   "source_lesson": "c2-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "0.1 M 염산 40 mL와 0.1 M 수산화 나트륨 수용액 30 mL를 섞은 용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산성"
+     ]
+    }
+   ],
+   "hint": "두 이온의 몰수를 비교하세요.",
+   "explanation": "H⁺ 0.004 mol, OH⁻ 0.003 mol입니다.\nH⁺이 남으므로 산성입니다.",
+   "source_lesson": "c2-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "중화 적정에서 표준 용액을 넣어 떨어뜨린 부피를 재는 기구는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "뷰렛"
+     ]
+    }
+   ],
+   "hint": "꼭지가 달린 긴 눈금관입니다.",
+   "explanation": "뷰렛의 처음과 나중 눈금의 차가 사용한 부피입니다.\n시료는 피펫으로 잽니다.",
+   "source_lesson": "c2-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "수산화 나트륨 수용액 25 mL를 0.2 M 염산으로 적정했더니 50 mL가 들었습니다. 수산화 나트륨의 몰 농도는 몇 M일까요?",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "nMV = n′M′V′을 쓰세요.",
+   "explanation": "M × 25 = 0.2 × 50입니다.\nM = 10 ÷ 25 = 0.4 M입니다.",
+   "source_lesson": "c2-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "약산과 강염기로 만든 탄산수소 나트륨(NaHCO₃)의 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성"
+     ]
+    }
+   ],
+   "hint": "베이킹 소다의 액성입니다.",
+   "explanation": "HCO₃⁻이 물에서 OH⁻을 만듭니다.\n그래서 약한 염기성이며 산을 중화하는 데 씁니다.",
+   "source_lesson": "c2-ch07-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "산성화된 토양에 석회를 뿌리는 것은 석회가 {{1}}이라 토양의 산을 중화하기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성",
+      "염기"
+     ]
+    }
+   ],
+   "hint": "산을 중화하는 성질입니다.",
+   "explanation": "석회(산화 칼슘, 수산화 칼슘)는 염기입니다.\n토양의 산과 중화 반응을 합니다.",
+   "source_lesson": "c2-ch07-l04"
+  }
+ ]
+}

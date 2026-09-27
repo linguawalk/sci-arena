@@ -1,0 +1,359 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch01",
+  "no": 1,
+  "title": "화학의 언어"
+ },
+ "lesson": {
+  "id": "c2-ch01-l04",
+  "no": 4,
+  "title": "용액의 농도",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "0.9%의 비밀",
+   "body": [
+    "병원에서 쓰는 생리 식염수는 소금 농도가 0.9%입니다. 이보다 진하거나 묽으면 혈액 속 세포가 쪼그라들거나 부풀어 터질 수 있습니다.",
+    "용액에 용질이 얼마나 녹아 있는지 정확히 나타내는 방법이 농도입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "용액에서 다른 물질을 녹이는 물질을 {{1}}, 녹는 물질을 용질이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "용매"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "소금물에서 물은 용매, 소금은 용질입니다.\n용매 + 용질 = 용액입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "퍼센트 농도",
+   "body": [
+    "퍼센트 농도는 용액의 질량에 대한 용질의 질량 비율입니다: 퍼센트 농도(%) = 용질의 질량 ÷ 용액의 질량 × 100.",
+    "분모는 용매가 아니라 용액(용매 + 용질)의 질량이라는 점에 주의합니다.",
+    "아주 적은 양이 녹아 있을 때는 백만분율인 ppm을 씁니다. 1 ppm은 용액 1 kg 속 용질 1 mg입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "소금 10 g을 물 90 g에 녹였습니다. 퍼센트 농도는 몇 %일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "용액의 질량은 10 + 90 = 100 g입니다.\n10 ÷ 100 × 100 = 10%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "20% 설탕물 200 g 속에 녹아 있는 설탕은 몇 g일까요?",
+   "answer": "40",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "용질의 질량 = 용액의 질량 × 농도입니다.\n200 × 0.2 = 40 g입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.9% 생리 식염수 1000 g 속에 녹아 있는 소금은 몇 g일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1000 × 0.009 = 9 g입니다.\n나머지 991 g이 물입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "몰 농도",
+   "body": [
+    "몰 농도는 용액 1 L 속에 녹아 있는 용질의 몰수입니다: 몰 농도(M) = 용질의 몰수(mol) ÷ 용액의 부피(L). 단위는 M 또는 mol/L입니다.",
+    "화학 반응은 입자 수(몰수)로 일어나므로, 반응에 쓰는 용액은 몰 농도로 나타내는 것이 편리합니다. 부피를 재면 용질의 몰수를 바로 알 수 있습니다: 몰수 = 몰 농도 × 부피(L)."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "수산화 나트륨(NaOH) 4 g을 녹여 용액 500 mL를 만들었습니다. 몰 농도는?",
+   "steps": [
+    "NaOH의 몰 질량은 23 + 16 + 1 = 40 g/mol이므로 4 g = 0.1 mol입니다.",
+    "500 mL = 0.5 L입니다.",
+    "몰 농도 = 0.1 ÷ 0.5 = 0.2 M입니다."
+   ],
+   "answer": "0.2 M"
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "용액 1 L 속에 녹아 있는 용질의 몰수를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "몰 농도",
+      "몰농도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "단위는 M(mol/L)입니다.\n용매가 아니라 용액 1 L 기준이라는 점에 주의합니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "용질 0.5 mol을 녹여 용액 250 mL를 만들었습니다. 몰 농도는 몇 M일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "250 mL = 0.25 L입니다.\n0.5 ÷ 0.25 = 2 M입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.1 M 염화 나트륨 수용액 2 L 속에 녹아 있는 NaCl은 몇 mol일까요?",
+   "answer": "0.2",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "몰수 = 몰 농도 × 부피입니다.\n0.1 × 2 = 0.2 mol입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1 M 수산화 나트륨 수용액 500 mL를 만들려면 NaOH가 몇 g 필요할까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "필요한 몰수 = 1 × 0.5 = 0.5 mol입니다.\n0.5 × 40 = 20 g입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "용액 만들기와 희석",
+   "body": [
+    "정확한 몰 농도의 용액은 부피 플라스크로 만듭니다. 용질을 적은 양의 물에 녹여 부피 플라스크에 옮긴 뒤, 표선까지 물을 채우고 잘 섞습니다.",
+    "진한 용액에 물을 넣어 묽히는 것을 희석이라고 합니다. 희석해도 용질의 몰수는 변하지 않으므로 M₁V₁ = M₂V₂가 성립합니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "2 M 염산 100 mL에 물을 넣어 500 mL로 만들었습니다. 몰 농도는?",
+   "steps": [
+    "용질의 몰수 = 2 × 0.1 = 0.2 mol로 희석 후에도 같습니다.",
+    "희석 후 부피는 0.5 L입니다.",
+    "0.2 ÷ 0.5 = 0.4 M입니다."
+   ],
+   "answer": "0.4 M"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "6 M 용액 50 mL에 물을 넣어 300 mL로 만들었습니다. 몰 농도는 몇 M일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "M₁V₁ = M₂V₂에서 6 × 50 = M₂ × 300입니다.\nM₂ = 1 M입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "일정한 몰 농도의 수용액을 만드는 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "표선까지 물을 채우고 잘 섞는다"
+    },
+    {
+     "id": "b",
+     "text": "비커에서 적은 양의 물에 녹인다"
+    },
+    {
+     "id": "c",
+     "text": "필요한 용질의 질량을 계산해 잰다"
+    },
+    {
+     "id": "d",
+     "text": "용액을 부피 플라스크에 옮긴다"
+    }
+   ],
+   "answer_order": [
+    "c",
+    "b",
+    "d",
+    "a"
+   ],
+   "hint": null,
+   "explanation": "용질을 먼저 녹인 뒤 부피 플라스크로 옮겨야 정확한 부피를 맞출 수 있습니다.\n처음부터 물 1 L에 녹이면 용액의 부피가 1 L가 되지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "용액을 희석해도 변하지 않는 것은 용질의 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "몰수",
+      "양",
+      "질량",
+      "mol"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물만 더하므로 용질의 양은 그대로입니다.\n부피가 늘어 농도만 작아집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "1 M 용액 100 mL와 3 M 용액 100 mL를 섞었습니다. 섞은 용액의 몰 농도는? (부피는 더해진다고 가정)",
+   "steps": [
+    "용질의 몰수: 0.1 + 0.3 = 0.4 mol입니다.",
+    "전체 부피: 0.2 L입니다.",
+    "0.4 ÷ 0.2 = 2 M입니다."
+   ],
+   "answer": "2 M"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "0.2 M 용액 300 mL와 0.6 M 용액 100 mL를 섞었습니다. 섞은 용액의 몰 농도는 몇 M일까요? (부피는 더해진다고 가정)",
+   "answer": "0.3",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "각 용액의 용질 몰수를 먼저 더하세요.",
+   "explanation": "몰수: 0.2 × 0.3 + 0.6 × 0.1 = 0.06 + 0.06 = 0.12 mol입니다.\n부피 0.4 L이므로 0.12 ÷ 0.4 = 0.3 M입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "5% 소금물 200 g에 물 50 g을 더 넣었습니다. 퍼센트 농도는 몇 %일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "용질의 질량은 변하지 않습니다.",
+   "explanation": "소금의 질량은 200 × 0.05 = 10 g으로 그대로입니다.\n용액 250 g이므로 10 ÷ 250 × 100 = 4%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "물 2 kg 속에 납이 0.006 g(6 mg) 녹아 있습니다. 납의 농도는 몇 ppm일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "mg/kg으로 바꾸세요.",
+   "explanation": "1 ppm은 1 kg 속 1 mg입니다.\n6 mg ÷ 2 kg = 3 ppm입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "0.25 M 염산 400 mL 속에 녹아 있는 HCl은 몇 mol일까요?",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "mL를 L로 바꾸세요.",
+   "explanation": "몰수 = 0.25 × 0.4입니다.\n= 0.1 mol입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "퍼센트 농도와 몰 농도의 차이를 설명하고, 화학 반응을 다룰 때 몰 농도가 편리한 이유를 말해 보세요.",
+   "hint": "각각 무엇을 기준으로 하는지 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "질량"
+     ],
+     [
+      "몰수",
+      "mol"
+     ],
+     [
+      "부피",
+      "1 L"
+     ],
+     [
+      "반응",
+      "입자"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "퍼센트 농도는 용액의 질량에 대한 용질의 질량 비율이고, 몰 농도는 용액 1 L 속 용질의 몰수입니다. 화학 반응은 입자 수(몰수)의 비로 일어나므로, 부피만 재면 몰수를 알 수 있는 몰 농도가 편리합니다."
+  }
+ ]
+}

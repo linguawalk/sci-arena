@@ -1,0 +1,373 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch06",
+  "no": 6,
+  "title": "동적 평형과 산·염기"
+ },
+ "lesson": {
+  "id": "c2-ch06-l04",
+  "no": 4,
+  "title": "pH",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "숫자로 나타낸 산성",
+   "body": [
+    "수용액의 [H₃O⁺]는 10⁻¹ M부터 10⁻¹⁴ M까지 매우 넓게 변합니다. 이렇게 작은 수를 매번 쓰기는 불편합니다.",
+    "그래서 지수만 뽑아 0~14 정도의 간단한 수로 나타낸 것이 pH입니다. 위액은 pH 약 2, 혈액은 약 7.4입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "수용액의 수소 이온 농도를 간단한 수로 나타낸 값을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "pH",
+      "수소 이온 농도 지수"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "pH = −log[H₃O⁺]입니다.\n[H₃O⁺] = 10⁻ⁿ M이면 pH = n입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "pH와 pOH",
+   "body": [
+    "pH = −log[H₃O⁺]입니다. [H₃O⁺] = 1 × 10⁻³ M이면 pH = 3입니다.",
+    "같은 방법으로 pOH = −log[OH⁻]입니다. 25 °C에서 [H₃O⁺][OH⁻] = 10⁻¹⁴이므로 pH + pOH = 14입니다.",
+    "pH가 1 작아지면 [H₃O⁺]는 10배 커집니다. pH 3인 용액은 pH 5인 용액보다 [H₃O⁺]가 100배 큽니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "[H₃O⁺] = 1 × 10⁻³ M인 수용액의 pH는 얼마일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "pH = −log(10⁻³) = 3입니다.\n지수의 부호를 바꾼 값입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "25 °C에서 pH가 5인 수용액의 pOH는 얼마일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "pH + pOH = 14입니다.\n14 − 5 = 9입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "pH 2인 수용액의 [H₃O⁺]는 pH 4인 수용액의 몇 배일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "pH가 2 작으므로 [H₃O⁺]는 10² = 100배입니다.\n10⁻² ÷ 10⁻⁴ = 100입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "0.01 M 염산의 pH는?",
+   "steps": [
+    "염산은 강산이라 [H₃O⁺] = 0.01 = 10⁻² M입니다.",
+    "pH = −log(10⁻²) = 2입니다."
+   ],
+   "answer": "2"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "pH와 액성",
+   "body": [
+    "25 °C에서 pH < 7이면 산성, pH = 7이면 중성, pH > 7이면 염기성입니다. pH가 작을수록 산성이 강하고, 클수록 염기성이 강합니다.",
+    "생활 속 pH: 위액 1~2, 레몬즙 약 2, 식초 약 3, 보통 빗물 약 5.6, 우유 약 6.5, 혈액 약 7.4, 바닷물 약 8, 비눗물 약 10, 표백제 약 12."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "25 °C에서 pH가 7보다 큰 수용액은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "pH가 7보다 크면 [H₃O⁺] < 10⁻⁷ M이고 [OH⁻]가 더 많습니다.\n그래서 염기성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "pH가 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "혈액"
+    },
+    {
+     "id": "b",
+     "text": "위액"
+    },
+    {
+     "id": "c",
+     "text": "비눗물"
+    },
+    {
+     "id": "d",
+     "text": "식초"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "위액 약 1~2, 식초 약 3, 혈액 약 7.4, 비눗물 약 10입니다.\npH가 작을수록 산성이 강합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.001 M 수산화 나트륨 수용액의 pH는 얼마일까요? (25 °C)",
+   "answer": "11",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "[OH⁻] = 10⁻³ M이므로 pOH = 3입니다.\npH = 14 − 3 = 11입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "0.1 M 수산화 나트륨 수용액의 pH는? (25 °C)",
+   "steps": [
+    "NaOH는 강염기라 [OH⁻] = 0.1 = 10⁻¹ M입니다.",
+    "pOH = 1입니다.",
+    "pH = 14 − 1 = 13입니다."
+   ],
+   "answer": "13"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "pH 측정",
+   "body": [
+    "pH 시험지나 만능 지시약은 pH에 따라 색이 달라져 대략적인 pH를 알려 줍니다. 만능 지시약은 강한 산성에서 붉은색, 중성에서 초록색, 강한 염기성에서 보라색입니다.",
+    "pH 미터는 전극으로 [H₃O⁺]를 측정해 pH를 소수점 자리까지 정밀하게 알려 줍니다.",
+    "빗물은 공기 중 CO₂가 녹아 원래 약산성(약 5.6)이며, 이보다 pH가 낮은 비를 산성비라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "pH를 소수점 자리까지 정밀하게 측정하는 기기를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "pH 미터",
+      "pH미터",
+      "pH 측정기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "pH 미터는 전극으로 용액의 수소 이온 농도를 측정합니다.\n지시약보다 훨씬 정밀합니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "pH가 약 5.6보다 낮은 비를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산성비"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "황산화물과 질소 산화물이 빗물에 녹아 산성이 강해진 비입니다.\n건물, 숲, 호수에 피해를 줍니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "pH 3인 강산 수용액을 물로 10배 희석하면 pH는 얼마가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "[H₃O⁺]가 10⁻³에서 10⁻⁴ M으로 1/10이 됩니다.\npH는 1 커져 4가 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "사람의 혈액 pH가 7.35~7.45로 유지되어야 하는 이유는?",
+   "steps": [
+    "몸속 효소와 단백질은 특정 pH에서만 제대로 작동합니다.",
+    "혈액의 pH가 이 범위를 벗어나면 산증이나 알칼리증이 생겨 생명이 위험해질 수 있습니다.",
+    "그래서 혈액에는 pH 변화를 막는 완충 작용이 있습니다."
+   ],
+   "answer": "효소와 단백질이 제대로 작동하기 위해"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "25 °C에서 [OH⁻] = 1 × 10⁻⁵ M인 수용액의 pH는 얼마일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "pH + pOH = 14입니다.",
+   "explanation": "pOH = 5이므로 pH = 14 − 5 = 9입니다.\n염기성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "25 °C에서 pH 6인 수용액의 pOH는 얼마일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "pH + pOH = 14입니다.",
+   "explanation": "pOH = 14 − 6 = 8입니다.\n약한 산성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "pH 3인 수용액의 [H₃O⁺]는 pH 6인 수용액의 몇 배일까요?",
+   "answer": "1000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "pH 1 차이마다 10배입니다.",
+   "explanation": "pH 차이가 3이므로 10³ = 1000배입니다.\npH 1 차이는 10배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "만능 지시약은 강한 염기성 용액에서 {{1}}색을 띱니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보라",
+      "보랏",
+      "푸른",
+      "파란"
+     ]
+    }
+   ],
+   "hint": "강한 산성에서는 붉은색입니다.",
+   "explanation": "만능 지시약은 산성에서 붉은색, 중성에서 초록색, 염기성으로 갈수록 파란색을 거쳐 보라색이 됩니다.\npH를 색으로 어림할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "0.01 M 염산 100 mL에 물 900 mL를 넣어 1 L로 만들었습니다. pH는 얼마일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "희석 배수를 먼저 구하세요.",
+   "explanation": "부피가 10배가 되었으므로 [H₃O⁺] = 0.01 ÷ 10 = 10⁻³ M입니다.\npH = 3입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "pH가 1 차이 나는 두 용액의 수소 이온 농도는 어떤 관계인지, 그 이유와 함께 설명해 보세요.",
+   "hint": "pH의 정의에서 출발하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "10배"
+     ],
+     [
+      "log",
+      "로그",
+      "지수"
+     ],
+     [
+      "[H₃O⁺]",
+      "수소 이온",
+      "농도"
+     ],
+     [
+      "작을수록",
+      "산성"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "pH는 −log[H₃O⁺], 곧 수소 이온 농도의 지수이므로 pH가 1 차이 나면 [H₃O⁺]는 10배 차이 납니다. pH가 1 작은 용액의 수소 이온 농도가 10배 커서 산성이 더 강합니다."
+  }
+ ]
+}

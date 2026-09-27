@@ -1,0 +1,410 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch07",
+  "no": 7,
+  "title": "중화 반응"
+ },
+ "lesson": {
+  "id": "c2-ch07-l01",
+  "no": 1,
+  "title": "중화 반응과 알짜 이온 반응식",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "쓰린 속을 달래는 약",
+   "body": [
+    "위산이 너무 많이 나와 속이 쓰릴 때 먹는 제산제에는 수산화 마그네슘 같은 염기가 들어 있습니다. 염기가 위산을 없애 주기 때문입니다.",
+    "산과 염기가 만나 서로의 성질을 없애는 반응은 우리 생활 곳곳에서 일어납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "산과 염기가 반응해 물이 생성되며 산과 염기의 성질이 약해지는 반응을 {{1}} 반응이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중화"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "산의 H⁺과 염기의 OH⁻이 만나 물이 됩니다.\n그래서 산성과 염기성이 함께 약해집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "중화 반응과 알짜 이온 반응식",
+   "body": [
+    "염산과 수산화 나트륨 수용액을 섞으면 HCl + NaOH → NaCl + H₂O 반응이 일어납니다.",
+    "이온으로 나누어 보면 H⁺ + Cl⁻ + Na⁺ + OH⁻ → Na⁺ + Cl⁻ + H₂O입니다. Na⁺과 Cl⁻은 반응 전후 그대로 있어 실제 반응에 참여하지 않는데, 이런 이온을 구경꾼 이온이라고 합니다.",
+    "실제로 반응한 이온만 나타낸 알짜 이온 반응식은 H⁺ + OH⁻ → H₂O입니다. 어떤 산과 염기든 중화 반응의 본질은 이 반응입니다. 산의 음이온과 염기의 양이온이 만든 물질을 염이라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "반응에 참여하지 않고 반응 전후 그대로 남아 있는 이온을 {{1}} 이온이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "구경꾼"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "HCl과 NaOH의 반응에서 Na⁺과 Cl⁻이 구경꾼 이온입니다.\n알짜 이온 반응식에서는 빼고 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "중화 반응의 알짜 이온 반응식은 H⁺ + OH⁻ → {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "H₂O",
+      "H2O",
+      "물"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "산의 H⁺과 염기의 OH⁻이 1 : 1로 반응해 물이 됩니다.\n모든 중화 반응의 공통 반응입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "질산(HNO₃)과 수산화 칼륨(KOH)이 중화 반응하면 생기는 염은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "KNO₃",
+      "KNO3",
+      "질산 칼륨"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "염은 염기의 양이온(K⁺)과 산의 음이온(NO₃⁻)으로 이루어집니다.\n그래서 KNO₃입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "황산(H₂SO₄)과 수산화 나트륨의 중화 반응식을 완성해 보세요.",
+   "steps": [
+    "황산은 H⁺을 2개 내놓으므로 OH⁻ 2개, 곧 NaOH 2개가 필요합니다.",
+    "염은 Na⁺ 2개와 SO₄²⁻ 1개로 Na₂SO₄입니다.",
+    "H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O입니다."
+   ],
+   "answer": "H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "중화열",
+   "body": [
+    "중화 반응은 열을 방출하는 발열 반응입니다. 이때 나오는 열을 중화열이라고 합니다.",
+    "산에 염기를 조금씩 넣으면 반응하는 양이 늘어 온도가 올라가다가, 모두 반응한 지점(중화점)에서 가장 높아집니다. 그 뒤에 더 넣는 염기는 반응하지 못하고 용액을 식혀 온도가 내려갑니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "중화 반응은 열을 {{1}}하는 발열 반응입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "방출"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H⁺과 OH⁻이 결합해 물이 되면서 에너지가 나옵니다.\n그래서 용액의 온도가 올라갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "산에 염기를 조금씩 넣을 때 용액의 온도가 가장 높은 지점에서 산과 염기가 {{1}} 중화됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "완전히",
+      "모두",
+      "완전"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반응한 양이 가장 많을 때 중화열도 가장 많습니다.\n그래서 최고 온도 지점이 중화점입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "묽은 황산에 수산화 바륨 수용액을 넣으면 어떤 변화가 일어날까요?",
+   "steps": [
+    "H⁺ + OH⁻ → H₂O의 중화 반응이 일어납니다.",
+    "동시에 Ba²⁺ + SO₄²⁻ → BaSO₄의 흰색 앙금이 생깁니다.",
+    "이 반응에서는 구경꾼 이온이 없어 중화점에서 용액 속 이온이 거의 사라집니다."
+   ],
+   "answer": "중화와 함께 흰 앙금(BaSO₄)이 생긴다"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "묽은 황산과 수산화 바륨 수용액이 반응하면 흰색 앙금인 {{1}}이 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "BaSO₄",
+      "BaSO4",
+      "황산 바륨"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Ba²⁺과 SO₄²⁻이 만나 물에 녹지 않는 황산 바륨이 됩니다.\n그래서 흰 앙금이 가라앉습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "HCl + NaOH 중화 반응으로 물 1 mol이 생길 때 반응한 H⁺은 몇 mol일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "H⁺ + OH⁻ → H₂O에서 계수비가 1 : 1 : 1입니다.\n물 1 mol에 H⁺ 1 mol이 반응합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "중화 반응에서 이온 수의 변화",
+   "body": [
+    "염산에 수산화 나트륨 수용액을 조금씩 넣으면 H⁺은 OH⁻과 반응해 줄어들고, 넣은 Na⁺은 늘어납니다. Cl⁻은 반응하지 않으므로 수가 그대로입니다.",
+    "중화점까지는 줄어든 H⁺만큼 Na⁺이 늘어 전체 이온 수가 일정합니다. 중화점 이후에는 넣은 OH⁻과 Na⁺이 그대로 남아 전체 이온 수가 늘어납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "염산에 수산화 나트륨 수용액을 넣을 때 수가 변하지 않는 이온은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Cl⁻",
+      "Cl-",
+      "염화 이온"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Cl⁻은 구경꾼 이온이라 반응하지 않습니다.\n처음 염산에 있던 양이 그대로 유지됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "염산에 수산화 나트륨 수용액을 넣으면 중화점까지 {{1}} 이온의 수가 줄어듭니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "H⁺",
+      "H+",
+      "수소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "넣은 OH⁻이 H⁺과 반응해 물이 됩니다.\n그래서 H⁺이 점점 줄어 중화점에서 거의 없어집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "산성화된 논밭에 석회(수산화 칼슘)를 뿌리는 이유는?",
+   "steps": [
+    "산성비나 비료 때문에 토양이 산성이 되면 작물이 잘 자라지 못합니다.",
+    "수산화 칼슘은 염기라 토양 속 산과 중화 반응을 합니다.",
+    "토양이 중성에 가까워져 작물이 잘 자랍니다."
+   ],
+   "answer": "염기로 산성 토양을 중화하기 위해"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "위산이 너무 많을 때 먹는 제산제에는 위산을 중화하는 {{1}}이 들어 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기",
+      "염기성 물질"
+     ]
+    }
+   ],
+   "hint": "산을 중화하는 물질입니다.",
+   "explanation": "수산화 마그네슘, 탄산수소 나트륨 같은 약한 염기가 들어 있습니다.\n위산(HCl)과 중화 반응을 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "산성화된 토양에는 {{1}}을 뿌려 중화합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "석회",
+      "염기",
+      "수산화 칼슘",
+      "산화 칼슘"
+     ]
+    }
+   ],
+   "hint": "농사에 쓰는 흰 가루입니다.",
+   "explanation": "석회는 수산화 칼슘이나 산화 칼슘으로 염기성입니다.\n토양의 산과 중화 반응을 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "생선의 비린내 성분은 염기성이므로 {{1}}을 뿌리면 비린내가 줄어듭니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "레몬즙",
+      "식초",
+      "산"
+     ]
+    }
+   ],
+   "hint": "신맛이 나는 것입니다.",
+   "explanation": "비린내를 내는 아민 성분은 염기성입니다.\n산성인 레몬즙이나 식초가 중화해 냄새를 줄입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "염산에 수산화 나트륨 수용액을 중화점보다 더 넣으면 {{1}} 이온의 수가 늘어나기 시작합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "OH⁻",
+      "OH-",
+      "수산화"
+     ]
+    }
+   ],
+   "hint": "반응할 상대가 없어진 이온입니다.",
+   "explanation": "중화점 이후에는 반응할 H⁺이 없어 넣은 OH⁻이 그대로 남습니다.\n그래서 OH⁻이 늘고 용액이 염기성이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "염산에 수산화 나트륨 수용액을 넣을 때 중화점까지 용액 속 전체 이온 수는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일정"
+     ]
+    }
+   ],
+   "hint": "H⁺과 Na⁺의 변화를 함께 보세요.",
+   "explanation": "H⁺이 1개 줄 때마다 Na⁺이 1개 늘어납니다.\n그래서 중화점까지 전체 이온 수가 일정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "중화 반응의 본질을 알짜 이온 반응식으로 설명하고, 구경꾼 이온이 무엇인지 말해 보세요.",
+   "hint": "알짜 이온 반응식부터 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "H⁺",
+      "수소 이온"
+     ],
+     [
+      "OH⁻",
+      "수산화 이온"
+     ],
+     [
+      "물",
+      "H₂O"
+     ],
+     [
+      "구경꾼",
+      "참여하지"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "중화 반응의 본질은 산의 H⁺과 염기의 OH⁻이 1 : 1로 반응해 물이 되는 H⁺ + OH⁻ → H₂O입니다. Na⁺이나 Cl⁻처럼 반응에 참여하지 않고 반응 전후에 그대로 남아 있는 이온을 구경꾼 이온이라고 합니다."
+  }
+ ]
+}

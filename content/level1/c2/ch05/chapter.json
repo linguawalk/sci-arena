@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c2",
+  "chapter": {
+    "id": "c2-ch05",
+    "no": 5,
+    "title": "분자의 구조와 성질"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c2-ch05-l01",
+      "title": "루이스 전자점식과 구조식",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c2-ch05-l02",
+      "title": "분자의 모양",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c2-ch05-l03",
+      "title": "결합의 극성과 분자의 극성",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c2-ch05-l04",
+      "title": "분자의 극성과 물질의 성질",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c2-ch05-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

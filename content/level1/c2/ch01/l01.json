@@ -1,0 +1,376 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch01",
+  "no": 1,
+  "title": "화학의 언어"
+ },
+ "lesson": {
+  "id": "c2-ch01-l01",
+  "no": 1,
+  "title": "몰과 아보가드로수",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "쌀알을 세는 방법",
+   "body": [
+    "쌀 한 가마니에 쌀알이 몇 개인지 하나씩 세는 사람은 없습니다. 대신 무게를 달아 개수를 어림합니다. 연필은 12자루를 한 다스로 묶어 셉니다.",
+    "원자와 분자는 너무 작고 많아서 하나씩 셀 수 없습니다. 그래서 화학자들은 아주 큰 묶음 단위를 정해 입자를 셉니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "입자 6.02 × 10²³개를 한 묶음으로 세는 단위를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "몰",
+      "mol"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "1 mol은 입자 6.02 × 10²³개입니다.\n이 수를 아보가드로수라고 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "원자량과 분자량",
+   "body": [
+    "원자 하나의 질량은 너무 작아 그대로 쓰기 불편합니다. 그래서 탄소 원자(¹²C)의 질량을 12로 정하고, 이것과 비교한 상대적 질량을 원자량이라고 합니다. H는 1, O는 16, C는 12입니다.",
+    "분자량은 분자를 이루는 원자들의 원자량을 모두 더한 값입니다. H₂O의 분자량은 1 × 2 + 16 = 18입니다. 이온 결합 물질처럼 분자가 없으면 화학식에 있는 원자량을 더해 화학식량이라고 합니다.",
+    "1 mol은 아보가드로수(약 6.02 × 10²³, 계산에서는 6 × 10²³) 개의 입자입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "탄소 원자의 질량을 12로 정하고 이와 비교해 나타낸 원자의 상대적 질량을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원자량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원자량은 상대적인 값이라 단위가 없습니다.\n탄소 12를 기준으로 수소는 약 1, 산소는 약 16입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "물(H₂O)의 분자량은 얼마일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "H 2개와 O 1개의 원자량을 더합니다.\n1 × 2 + 16 = 18입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "이산화 탄소(CO₂)의 분자량은 얼마일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "44",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "C 1개와 O 2개입니다.\n12 + 16 × 2 = 44입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "물 1 mol의 질량은 몇 g일까요?",
+   "steps": [
+    "물의 분자량은 18입니다.",
+    "1 mol의 질량은 화학식량에 g을 붙인 값입니다.",
+    "따라서 물 1 mol은 18 g입니다."
+   ],
+   "answer": "18 g"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "몰 질량",
+   "body": [
+    "어떤 물질 1 mol의 질량을 몰 질량이라고 하며, 화학식량에 g/mol 단위를 붙인 값과 같습니다. 물의 몰 질량은 18 g/mol입니다.",
+    "그래서 물질의 양(mol) = 질량 ÷ 몰 질량입니다. 입자 수 = 몰수 × 아보가드로수입니다.",
+    "저울로 질량을 재면 입자 수를 셀 수 있게 되는 것이 몰 개념의 힘입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물질 1 mol의 질량을 g/mol 단위로 나타낸 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "몰 질량",
+      "몰질량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "몰 질량은 화학식량에 g/mol을 붙인 값입니다.\n질량을 몰 질량으로 나누면 몰수가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "물 36 g은 몇 mol일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "몰수 = 질량 ÷ 몰 질량입니다.\n36 ÷ 18 = 2 mol입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "이산화 탄소 0.5 mol의 질량은 몇 g일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "22",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "질량 = 몰수 × 몰 질량입니다.\n0.5 × 44 = 22 g입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "염화 나트륨(NaCl) 117 g은 몇 mol일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "NaCl의 화학식량은 23 + 35.5 = 58.5입니다.\n117 ÷ 58.5 = 2 mol입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "기체의 부피와 몰",
+   "body": [
+    "아보가드로 법칙: 온도와 압력이 같으면, 같은 부피 속의 기체 분자 수는 기체의 종류와 관계없이 같습니다.",
+    "0 °C, 1 atm에서 기체 1 mol의 부피는 기체의 종류와 관계없이 22.4 L입니다. 그래서 기체는 부피로도 몰수를 알 수 있습니다: 몰수 = 부피(L) ÷ 22.4."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "0 °C, 1 atm에서 산소(O₂) 44.8 L의 질량은? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "steps": [
+    "몰수 = 44.8 ÷ 22.4 = 2 mol입니다.",
+    "O₂의 몰 질량은 32 g/mol입니다.",
+    "질량 = 2 × 32 = 64 g입니다."
+   ],
+   "answer": "64 g"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0 °C, 1 atm에서 수소 기체 11.2 L는 몇 mol일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "몰수 = 부피 ÷ 22.4입니다.\n11.2 ÷ 22.4 = 0.5 mol입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0 °C, 1 atm에서 질소 기체 2 mol의 부피는 몇 L일까요?",
+   "answer": "44.8",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "부피 = 몰수 × 22.4입니다.\n2 × 22.4 = 44.8 L입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "온도와 압력이 같으면 같은 부피의 기체 속 분자 수가 같다는 법칙을 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아보가드로"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기체의 종류와 관계없이 성립합니다.\n그래서 기체의 부피비는 몰비와 같습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s5",
+   "stage": "summary",
+   "title": "몰을 중심으로 한 연결",
+   "body": [
+    "질량(g)은 몰 질량으로 나누면 몰수가 되고, 입자 수는 아보가드로수로 나누면 몰수가 되며, 기체 부피는 22.4 L(0 °C, 1 atm)로 나누면 몰수가 됩니다.",
+    "화학 계산은 대부분 주어진 양을 먼저 몰수로 바꾼 뒤, 몰수에서 원하는 양으로 바꾸는 방식으로 풉니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "물 분자 3 × 10²³개의 질량은? (아보가드로수 6 × 10²³)",
+   "steps": [
+    "몰수 = 3 × 10²³ ÷ 6 × 10²³ = 0.5 mol입니다.",
+    "질량 = 0.5 × 18 = 9 g입니다."
+   ],
+   "answer": "9 g"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "이산화 탄소 분자 1.2 × 10²⁴개는 몇 mol일까요? (아보가드로수 6 × 10²³)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "10²⁴ = 10 × 10²³입니다.",
+   "explanation": "몰수 = 입자 수 ÷ 아보가드로수입니다.\n1.2 × 10²⁴ ÷ 6 × 10²³ = 2 mol입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "물 1 mol 속에 들어 있는 원자는 모두 몇 mol일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "분자 하나에 원자가 몇 개인지 세어 보세요.",
+   "explanation": "물 분자 1개는 H 2개와 O 1개, 모두 3개의 원자로 되어 있습니다.\n따라서 물 1 mol 속 원자는 3 mol입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "메테인(CH₄) 16 g 속에 들어 있는 수소 원자는 몇 mol일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "먼저 CH₄의 몰수를 구하세요.",
+   "explanation": "CH₄의 몰 질량은 16 g/mol이므로 16 g은 1 mol입니다.\n분자 하나에 H가 4개이므로 H 원자는 4 mol입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "질량이 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "O₂ 1 mol"
+    },
+    {
+     "id": "b",
+     "text": "H₂ 1 mol"
+    },
+    {
+     "id": "c",
+     "text": "CO₂ 1 mol"
+    },
+    {
+     "id": "d",
+     "text": "H₂O 1 mol"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "각 물질의 분자량을 구하세요.",
+   "explanation": "1 mol의 질량은 몰 질량과 같습니다.\n차례로 2 g, 18 g, 32 g, 44 g입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "화학에서 입자의 수를 몰이라는 단위로 세는 이유를 설명해 보세요.",
+   "hint": "입자의 크기와 수, 그리고 질량과의 관계를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "작",
+      "많"
+     ],
+     [
+      "묶음",
+      "6",
+      "아보가드로"
+     ],
+     [
+      "질량",
+      "저울",
+      "무게"
+     ],
+     [
+      "편리",
+      "쉽",
+      "셀 수"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "원자와 분자는 매우 작고 수가 엄청나게 많아 하나씩 셀 수 없습니다. 아보가드로수만큼을 한 묶음(1 mol)으로 정하면, 저울로 잰 질량을 몰 질량으로 나누어 입자 수를 편리하게 알 수 있습니다."
+  }
+ ]
+}

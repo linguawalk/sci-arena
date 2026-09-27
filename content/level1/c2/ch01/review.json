@@ -1,0 +1,156 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch01",
+  "no": 1,
+  "title": "화학의 언어"
+ },
+ "review": {
+  "id": "c2-ch01-review",
+  "title": "화학의 언어 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "암모니아(NH₃)의 분자량은 얼마일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "17",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "원자량을 모두 더하세요.",
+   "explanation": "N 1개와 H 3개입니다.\n14 + 1 × 3 = 17입니다.",
+   "source_lesson": "c2-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0 °C, 1 atm에서 이산화 탄소 22 g의 부피는 몇 L일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "11.2",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "질량을 몰수로 바꾼 뒤 부피를 구하세요.",
+   "explanation": "CO₂ 22 g = 22 ÷ 44 = 0.5 mol입니다.\n0.5 × 22.4 = 11.2 L입니다.",
+   "source_lesson": "c2-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "물 9 g 속에 들어 있는 물 분자는 몇 × 10²³개일까요? (아보가드로수 6 × 10²³)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "먼저 몰수를 구하세요.",
+   "explanation": "9 ÷ 18 = 0.5 mol입니다.\n0.5 × 6 × 10²³ = 3 × 10²³개입니다.",
+   "source_lesson": "c2-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "프로페인의 연소 반응식 C₃H₈ + 5O₂ → 3CO₂ + {{1}}H₂O를 완성하세요.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "4"
+     ]
+    }
+   ],
+   "hint": "H 원자 수를 맞추세요.",
+   "explanation": "C₃H₈에 H가 8개 있습니다.\nH₂O 하나에 H가 2개이므로 4H₂O입니다.",
+   "source_lesson": "c2-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "2H₂ + O₂ → 2H₂O 반응에서 산소 3 mol이 모두 반응하려면 수소는 몇 mol 필요할까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "계수비를 이용하세요.",
+   "explanation": "H₂ : O₂ = 2 : 1입니다.\n3 × 2 = 6 mol입니다.",
+   "source_lesson": "c2-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "C + O₂ → CO₂ 반응에서 이산화 탄소 44 g을 얻으려면 탄소가 몇 g 필요할까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "생성물의 몰수부터 구하세요.",
+   "explanation": "CO₂ 44 g = 1 mol이므로 탄소도 1 mol 필요합니다.\n1 × 12 = 12 g입니다.",
+   "source_lesson": "c2-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "N₂ + 3H₂ → 2NH₃ 반응에서 질소 2 mol과 수소 3 mol을 반응시키면 암모니아는 몇 mol 생길까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "한계 반응물을 먼저 찾으세요.",
+   "explanation": "수소 3 mol에 필요한 질소는 1 mol이므로 수소가 한계 반응물입니다.\n암모니아는 3 × 2/3 = 2 mol입니다.",
+   "source_lesson": "c2-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "소금 15 g을 물 135 g에 녹였습니다. 퍼센트 농도는 몇 %일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "분모는 용액의 질량입니다.",
+   "explanation": "용액의 질량은 150 g입니다.\n15 ÷ 150 × 100 = 10%입니다.",
+   "source_lesson": "c2-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "포도당 0.2 mol을 녹여 용액 400 mL를 만들었습니다. 몰 농도는 몇 M일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "몰수 ÷ 부피(L)입니다.",
+   "explanation": "0.2 ÷ 0.4 = 0.5 M입니다.\n부피는 L 단위로 씁니다.",
+   "source_lesson": "c2-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "3 M 용액 20 mL를 물로 희석해 0.5 M로 만들려면 전체 부피를 몇 mL로 해야 할까요?",
+   "answer": "120",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "희석해도 용질의 몰수는 같습니다.",
+   "explanation": "M₁V₁ = M₂V₂에서 3 × 20 = 0.5 × V₂입니다.\nV₂ = 120 mL입니다.",
+   "source_lesson": "c2-ch01-l04"
+  }
+ ]
+}

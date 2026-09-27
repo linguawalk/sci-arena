@@ -1,0 +1,179 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch06",
+  "no": 6,
+  "title": "동적 평형과 산·염기"
+ },
+ "review": {
+  "id": "c2-ch06-review",
+  "title": "동적 평형과 산·염기 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "뚜껑을 닫은 병 속에서 물의 양이 일정해진 것은 증발과 응축이 같은 속도로 일어나는 {{1}} 상태이기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "동적 평형",
+      "동적평형",
+      "상평형"
+     ]
+    }
+   ],
+   "hint": "속도가 같은 평형 상태입니다.",
+   "explanation": "증발과 응축이 멈춘 것이 아니라 같은 속도로 계속 일어납니다.\n그래서 양이 변하지 않습니다.",
+   "source_lesson": "c2-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "동적 평형 상태에서는 정반응과 역반응의 {{1}}가 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "속도"
+     ]
+    }
+   ],
+   "hint": "같아지는 것은 농도가 아닙니다.",
+   "explanation": "두 반응의 속도가 같아 겉보기 변화가 없습니다.\n농도가 같은 것이 아닙니다.",
+   "source_lesson": "c2-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "아레니우스에 따르면 물에 녹아 OH⁻을 내놓는 물질을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기"
+     ]
+    }
+   ],
+   "hint": "산의 반대입니다.",
+   "explanation": "NaOH, KOH는 물에서 OH⁻을 내놓습니다.\nH⁺을 내놓는 물질은 산입니다.",
+   "source_lesson": "c2-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "H₂O + H₂O ⇌ H₃O⁺ + OH⁻처럼 산과 염기로 모두 작용하는 물은 {{1}} 물질입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "양쪽성"
+     ]
+    }
+   ],
+   "hint": "양쪽으로 작용합니다.",
+   "explanation": "물은 상대에 따라 H⁺을 주기도, 받기도 합니다.\n그래서 양쪽성 물질입니다.",
+   "source_lesson": "c2-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "HCl이 H⁺을 내놓고 남은 Cl⁻은 HCl의 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짝염기",
+      "짝 염기"
+     ]
+    }
+   ],
+   "hint": "짝산의 반대입니다.",
+   "explanation": "산이 H⁺을 잃고 남은 것이 짝염기입니다.\nHCl과 Cl⁻은 짝산–짝염기 관계입니다.",
+   "source_lesson": "c2-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "25 °C에서 [H₃O⁺] = 1 × 10⁻⁴ M인 수용액의 [OH⁻] = 1 × 10⁻ⁿ M입니다. n은 얼마일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Kw = 1 × 10⁻¹⁴입니다.",
+   "explanation": "[OH⁻] = 10⁻¹⁴ ÷ 10⁻⁴ = 10⁻¹⁰ M입니다.\n산성 용액입니다.",
+   "source_lesson": "c2-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0.01 M 수산화 나트륨 수용액의 [OH⁻] = 1 × 10⁻ⁿ M입니다. n은 얼마일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "강염기는 거의 모두 이온화합니다.",
+   "explanation": "NaOH는 강염기라 거의 모두 이온화합니다.\n[OH⁻] = 0.01 = 10⁻² M입니다.",
+   "source_lesson": "c2-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "0.0001 M 염산의 pH는 얼마일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "[H₃O⁺]의 지수를 보세요.",
+   "explanation": "[H₃O⁺] = 10⁻⁴ M이므로 pH = 4입니다.\n강산은 거의 모두 이온화합니다.",
+   "source_lesson": "c2-ch06-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "25 °C에서 pOH가 2인 수용액의 pH는 얼마일까요?",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "pH + pOH = 14입니다.",
+   "explanation": "pH = 14 − 2 = 12입니다.\n강한 염기성입니다.",
+   "source_lesson": "c2-ch06-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "pH 1인 수용액의 [H₃O⁺]는 pH 3인 수용액의 몇 배일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "pH 1 차이마다 10배입니다.",
+   "explanation": "pH가 2 작으므로 10² = 100배입니다.\n위액과 식초 정도의 차이입니다.",
+   "source_lesson": "c2-ch06-l04"
+  }
+ ]
+}

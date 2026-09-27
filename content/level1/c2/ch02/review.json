@@ -1,0 +1,168 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch02",
+  "no": 2,
+  "title": "원소의 기원과 원자 구조"
+ },
+ "review": {
+  "id": "c2-ch02-review",
+  "title": "원소의 기원과 원자 구조 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "빅뱅 직후 만들어진 원소는 주로 수소와 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "헬륨",
+      "He"
+     ]
+    }
+   ],
+   "hint": "수소 다음으로 가벼운 원소입니다.",
+   "explanation": "빅뱅 후 약 3분 사이에 헬륨 원자핵이 만들어졌습니다.\n더 무거운 원소는 별에서 만들어졌습니다.",
+   "source_lesson": "c2-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "별의 중심에서 가벼운 원자핵이 합쳐져 무거운 원소가 만들어지는 반응을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "핵융합",
+      "핵 융합"
+     ]
+    }
+   ],
+   "hint": "원자핵이 합쳐지는 반응입니다.",
+   "explanation": "별 중심의 높은 온도와 압력에서 일어납니다.\n철까지의 원소가 이렇게 만들어집니다.",
+   "source_lesson": "c2-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량수 40, 원자 번호 20인 칼슘 원자의 중성자 수는 몇 개일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "질량수 − 원자 번호입니다.",
+   "explanation": "40 − 20 = 20개입니다.\n원자 번호는 양성자 수입니다.",
+   "source_lesson": "c2-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "원자 번호 8인 산소가 전자 2개를 얻어 O²⁻ 이온이 되었습니다. 이온의 전자 수는 몇 개일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "음이온은 전자를 얻은 것입니다.",
+   "explanation": "8 + 2 = 10개입니다.\n네온과 같은 전자 배치가 됩니다.",
+   "source_lesson": "c2-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "어떤 원소의 동위 원소가 질량수 20인 것 90%, 22인 것 10%로 존재합니다. 평균 원자량은 얼마일까요?",
+   "answer": "20.2",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "존재 비율로 가중 평균하세요.",
+   "explanation": "20 × 0.9 + 22 × 0.1 = 18 + 2.2입니다.\n= 20.2입니다(네온).",
+   "source_lesson": "c2-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "주양자수 n = 2인 전자 껍질에 들어갈 수 있는 전자는 최대 몇 개일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "최대 전자 수는 2n²입니다.",
+   "explanation": "2n² = 2 × 4 = 8개입니다.\n2s 1개와 2p 3개 오비탈에 2개씩입니다.",
+   "source_lesson": "c2-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "p 오비탈의 모양은 {{1}} 모양입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아령"
+     ]
+    }
+   ],
+   "hint": "s 오비탈은 구형입니다.",
+   "explanation": "p 오비탈은 원자핵을 사이에 두고 두 덩어리로 된 아령 모양입니다.\nx, y, z 세 방향으로 3개가 있습니다.",
+   "source_lesson": "c2-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "주양자수가 같은 f 오비탈은 모두 몇 개일까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "오비탈 수는 2l + 1입니다.",
+   "explanation": "f 오비탈은 l = 3이고 mₗ은 −3부터 +3까지 7개 값입니다.\n그래서 7개입니다.",
+   "source_lesson": "c2-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "인(원자 번호 15)의 바닥상태 전자 배치에서 홀전자는 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "훈트 규칙을 떠올리세요.",
+   "explanation": "1s² 2s² 2p⁶ 3s² 3p³입니다.\n3p 전자 3개가 세 오비탈에 하나씩 들어가 홀전자가 3개입니다.",
+   "source_lesson": "c2-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "염소(원자 번호 17)의 원자가 전자는 몇 개일까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "n = 3 껍질의 전자를 세세요.",
+   "explanation": "1s² 2s² 2p⁶ 3s² 3p⁵입니다.\n가장 바깥 껍질에 2 + 5 = 7개입니다.",
+   "source_lesson": "c2-ch02-l04"
+  }
+ ]
+}

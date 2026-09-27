@@ -1,0 +1,195 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch04",
+  "no": 4,
+  "title": "화학 결합"
+ },
+ "review": {
+  "id": "c2-ch04-review",
+  "title": "화학 결합 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "Mg²⁺과 O²⁻이 결합한 화합물의 화학식은 Mg{{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "O"
+     ]
+    }
+   ],
+   "hint": "전하의 크기가 같습니다.",
+   "explanation": "+2와 −2가 1 : 1로 결합하면 전하 합이 0입니다.\n화학식은 MgO입니다.",
+   "source_lesson": "c2-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "이온 결합 물질은 녹는점이 {{1}}고 고체에서는 전기가 통하지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": "이온 사이 인력이 강합니다.",
+   "explanation": "양이온과 음이온 사이 인력이 강합니다.\n그래서 녹이는 데 많은 에너지가 필요합니다.",
+   "source_lesson": "c2-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "물 분자에서 산소 원자의 비공유 전자쌍은 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "산소의 원자가 전자는 6개입니다.",
+   "explanation": "산소의 원자가 전자 6개 중 2개는 수소와 공유합니다.\n남은 4개가 비공유 전자쌍 2개를 이룹니다.",
+   "source_lesson": "c2-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "질소 분자의 두 질소 원자는 {{1}}중 결합으로 연결되어 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "3"
+     ]
+    }
+   ],
+   "hint": "질소의 원자가 전자는 5개입니다.",
+   "explanation": "질소는 전자 3개가 더 필요해 전자쌍 3개를 공유합니다.\nN≡N 3중 결합은 매우 강합니다.",
+   "source_lesson": "c2-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "분자 결정은 분자 사이의 힘이 약해 녹는점이 낮고, 다이아몬드 같은 {{1}}은 녹는점이 매우 높습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공유 결정",
+      "원자 결정",
+      "공유결정",
+      "원자결정"
+     ]
+    }
+   ],
+   "hint": "원자들이 끝없이 공유 결합한 결정입니다.",
+   "explanation": "공유 결정은 모든 원자가 공유 결합으로 연결되어 있습니다.\n녹이려면 강한 공유 결합을 끊어야 합니다.",
+   "source_lesson": "c2-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "금속 결합은 금속 양이온과 {{1}} 사이의 인력으로 이루어집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자유 전자",
+      "자유전자"
+     ]
+    }
+   ],
+   "hint": "금속 전체를 자유롭게 움직이는 전자입니다.",
+   "explanation": "금속 원자의 원자가 전자가 자유 전자가 됩니다.\n자유 전자가 양이온들을 붙잡아 줍니다.",
+   "source_lesson": "c2-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "금을 두드려 얇은 금박을 만드는 것은 금속의 {{1}}을 이용한 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전성"
+     ]
+    }
+   ],
+   "hint": "얇게 펴지는 성질입니다.",
+   "explanation": "얇게 펴지는 성질이 전성, 가늘게 뽑히는 성질이 연성입니다.\n자유 전자 덕분에 부서지지 않고 펴집니다.",
+   "source_lesson": "c2-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "고체에서 전기가 통하지 않고 액체에서 전기가 통하는 물질은 {{1}} 결합 물질입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이온"
+     ]
+    }
+   ],
+   "hint": "녹여야 전하 운반체가 움직입니다.",
+   "explanation": "녹으면 이온이 움직여 전기가 통합니다.\n금속은 고체에서도 통하고, 분자 결정은 둘 다 통하지 않습니다.",
+   "source_lesson": "c2-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "규산염 사면체(SiO₄)에서 규소 1개와 결합한 산소는 몇 개일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "사면체의 꼭짓점 수입니다.",
+   "explanation": "규소가 중심, 산소 4개가 정사면체의 꼭짓점에 있습니다.\n규산염 광물의 기본 단위입니다.",
+   "source_lesson": "c2-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "단백질은 {{1}}이 펩타이드 결합으로 연결된 고분자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아미노산"
+     ]
+    }
+   ],
+   "hint": "단백질의 단위체입니다.",
+   "explanation": "아미노산 20종의 배열 순서가 단백질의 종류를 정합니다.\n핵산의 단위체는 뉴클레오타이드입니다.",
+   "source_lesson": "c2-ch04-l04"
+  }
+ ]
+}

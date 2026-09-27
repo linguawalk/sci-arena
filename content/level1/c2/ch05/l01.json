@@ -1,0 +1,367 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch05",
+  "no": 5,
+  "title": "분자의 구조와 성질"
+ },
+ "lesson": {
+  "id": "c2-ch05-l01",
+  "no": 1,
+  "title": "루이스 전자점식과 구조식",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "전자를 점으로 그리기",
+   "body": [
+    "분자의 모양과 성질을 이해하려면 원자가 전자가 어떻게 배치되어 있는지 알아야 합니다.",
+    "미국의 화학자 루이스는 원자가 전자를 원소 기호 주위의 점으로 나타내는 간단한 방법을 고안했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "원소 기호 주위에 원자가 전자를 점으로 나타낸 식을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "루이스 전자점식",
+      "전자점식",
+      "루이스 전자 점식"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원자가 전자만 점으로 표시합니다.\n안쪽 껍질 전자는 결합에 참여하지 않으므로 그리지 않습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "원자와 분자의 전자점식",
+   "body": [
+    "원자의 전자점식은 원소 기호의 네 방향에 원자가 전자를 하나씩 먼저 놓고, 다섯 번째부터 짝을 지어 놓습니다. 15족 질소는 점 5개, 17족 염소는 점 7개입니다.",
+    "분자의 전자점식에서는 두 원자 사이에 공유 전자쌍을, 각 원자 주위에 비공유 전자쌍을 그립니다.",
+    "공유 전자쌍 하나를 결합선(–) 하나로 바꾸어 나타낸 것이 루이스 구조식입니다. 2중 결합은 =, 3중 결합은 ≡로 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질소 원자의 루이스 전자점식에는 점이 몇 개 있을까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "질소는 15족으로 원자가 전자가 5개입니다.\n점 5개 중 한 쌍과 홀전자 3개로 그립니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "염소 원자의 루이스 전자점식에는 점이 몇 개 있을까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "염소는 17족으로 원자가 전자가 7개입니다.\n세 쌍과 홀전자 1개로 그립니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "물(H₂O)의 루이스 구조를 그려 보세요.",
+   "steps": [
+    "원자가 전자 총수: H 1 × 2 + O 6 = 8개(4쌍)입니다.",
+    "산소를 가운데 두고 수소 2개와 단일 결합을 합니다: H–O–H (2쌍 사용).",
+    "남은 2쌍은 산소의 비공유 전자쌍으로 그립니다. 산소 주위가 8개(옥텟)가 됩니다."
+   ],
+   "answer": "H–O–H, 산소에 비공유 전자쌍 2개"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "플루오린화 수소(H–F) 분자에서 플루오린 원자의 비공유 전자쌍은 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "F의 원자가 전자 7개 중 1개는 수소와 공유합니다.\n남은 6개가 비공유 전자쌍 3개를 이룹니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "루이스 구조 그리는 순서",
+   "body": [
+    "① 모든 원자의 원자가 전자 수를 더합니다. ② 중심 원자를 정합니다. 보통 결합을 가장 많이 하고 전기 음성도가 작은 원자입니다(수소는 중심이 될 수 없습니다).",
+    "③ 중심 원자와 주변 원자를 단일 결합으로 연결합니다. ④ 남은 전자로 주변 원자의 옥텟을 먼저 채우고, 남으면 중심 원자에 놓습니다.",
+    "⑤ 중심 원자의 옥텟이 부족하면 주변 원자의 비공유 전자쌍을 옮겨 2중이나 3중 결합을 만듭니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "루이스 구조를 그리는 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "남은 전자로 옥텟을 채운다"
+    },
+    {
+     "id": "b",
+     "text": "원자가 전자 총수를 구한다"
+    },
+    {
+     "id": "c",
+     "text": "부족하면 다중 결합을 만든다"
+    },
+    {
+     "id": "d",
+     "text": "중심 원자를 정하고 단일 결합으로 연결한다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "전자 총수를 알아야 몇 개를 배치할지 알 수 있습니다.\n단일 결합으로 뼈대를 만든 뒤 옥텟을 채우고 다중 결합으로 조정합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "이산화 탄소(CO₂)의 루이스 구조를 그려 보세요.",
+   "steps": [
+    "원자가 전자 총수: C 4 + O 6 × 2 = 16개입니다.",
+    "O–C–O로 연결하고 남은 12개로 두 산소의 옥텟을 채우면 탄소 주위는 4개뿐입니다.",
+    "각 산소의 비공유 전자쌍 하나씩을 결합으로 옮겨 O=C=O를 만들면 모든 원자가 옥텟을 이룹니다."
+   ],
+   "answer": "O=C=O"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "이산화 탄소(CO₂)의 원자가 전자 총수는 몇 개일까요?",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "C는 4개, O는 6개씩 2개입니다.\n4 + 12 = 16개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "암모니아(NH₃)의 원자가 전자 총수는 몇 개일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "N은 5개, H는 1개씩 3개입니다.\n5 + 3 = 8개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "사이안화 수소(HCN)의 원자가 전자 총수는 몇 개일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "H 1 + C 4 + N 5입니다.\n= 10개입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "옥텟 규칙의 예외",
+   "body": [
+    "대부분의 2주기 원소는 옥텟 규칙을 따르지만 예외도 있습니다. 삼플루오린화 붕소(BF₃)에서 붕소는 원자가 전자가 3개뿐이라 결합 3개를 하고도 주위 전자가 6개입니다.",
+    "수소는 전자 2개(헬륨과 같은 배치)로 안정하므로 결합을 하나만 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "BF₃에서 붕소 주위의 전자가 6개인 것은 옥텟 규칙의 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "예외"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "붕소는 원자가 전자가 3개라 결합 3개만 만듭니다.\n그래서 주위 전자가 8개가 되지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "루이스 구조식에서 결합선 한 줄(–)은 공유 전자쌍 1개를 나타내며 {{1}} 결합이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단일"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "공유 전자쌍 1개는 단일 결합, 2개는 2중 결합, 3개는 3중 결합입니다.\n각각 –, =, ≡로 나타냅니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "폼알데하이드(HCHO)의 루이스 구조를 그려 보세요.",
+   "steps": [
+    "원자가 전자 총수: H 2 + C 4 + O 6 = 12개입니다.",
+    "탄소를 중심으로 H 2개, O 1개와 연결하고, C와 O 사이를 2중 결합으로 해야 탄소가 옥텟이 됩니다.",
+    "산소에는 비공유 전자쌍 2개가 남습니다."
+   ],
+   "answer": "H₂C=O, 산소에 비공유 전자쌍 2개"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "폼알데하이드(H₂C=O)의 공유 전자쌍은 모두 몇 개일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "2중 결합은 공유 전자쌍 2개입니다.",
+   "explanation": "C–H 단일 결합 2개(2쌍)와 C=O 2중 결합(2쌍)입니다.\n2 + 2 = 4개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "폼알데하이드(H₂C=O)의 비공유 전자쌍은 모두 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전체 전자쌍에서 공유 전자쌍을 빼세요.",
+   "explanation": "원자가 전자 12개 중 8개(4쌍)가 공유됩니다.\n남은 4개가 산소의 비공유 전자쌍 2개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질소 분자(N≡N)의 비공유 전자쌍은 모두 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전체 전자쌍 − 공유 전자쌍입니다.",
+   "explanation": "원자가 전자 총수는 10개(5쌍)이고 3쌍이 공유됩니다.\n남은 2쌍이 각 질소에 하나씩 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "이플루오린화 산소(OF₂, F–O–F)의 비공유 전자쌍은 모두 몇 개일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "원자가 전자 총수부터 구하세요.",
+   "explanation": "원자가 전자 총수는 6 + 7 × 2 = 20개(10쌍)입니다.\n공유 2쌍을 빼면 비공유 8쌍(O에 2쌍, F마다 3쌍)입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "루이스 구조에서 중심 원자는 보통 결합을 많이 하고 전기 음성도가 {{1}}은 원자로 정합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": "플루오린은 거의 중심 원자가 되지 않습니다.",
+   "explanation": "전기 음성도가 작은 원자가 여러 원자와 전자쌍을 나누기 쉽습니다.\n그래서 CO₂에서는 C, H₂O에서는 O가 중심입니다(수소 제외)."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "분자의 루이스 구조를 그리는 과정을 순서대로 설명해 보세요.",
+   "hint": "전자 세기 → 뼈대 → 옥텟 채우기 순서입니다.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "원자가 전자",
+      "총수"
+     ],
+     [
+      "중심 원자"
+     ],
+     [
+      "단일 결합",
+      "연결"
+     ],
+     [
+      "옥텟"
+     ],
+     [
+      "다중 결합",
+      "2중",
+      "3중"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "먼저 모든 원자의 원자가 전자 수를 더합니다. 중심 원자를 정해 주변 원자와 단일 결합으로 연결하고, 남은 전자로 주변 원자부터 옥텟을 채웁니다. 중심 원자의 옥텟이 부족하면 주변 원자의 비공유 전자쌍을 옮겨 2중이나 3중 결합을 만듭니다."
+  }
+ ]
+}

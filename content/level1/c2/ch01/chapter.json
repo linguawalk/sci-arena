@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c2",
+  "chapter": {
+    "id": "c2-ch01",
+    "no": 1,
+    "title": "화학의 언어"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c2-ch01-l01",
+      "title": "몰과 아보가드로수",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 2,
+      "id": "c2-ch01-l02",
+      "title": "화학 반응식",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c2-ch01-l03",
+      "title": "화학 반응의 양적 관계",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 4,
+      "id": "c2-ch01-l04",
+      "title": "용액의 농도",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c2-ch01-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

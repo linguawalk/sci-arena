@@ -1,0 +1,402 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch05",
+  "no": 5,
+  "title": "분자의 구조와 성질"
+ },
+ "lesson": {
+  "id": "c2-ch05-l02",
+  "no": 2,
+  "title": "분자의 모양",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "물은 왜 굽어 있을까",
+   "body": [
+    "이산화 탄소 분자는 일직선이지만, 물 분자는 약 104.5°로 굽어 있습니다. 둘 다 가운데 원자에 원자 두 개가 붙어 있는데 모양이 다른 이유는 무엇일까요?",
+    "답은 중심 원자 주위의 전자쌍들이 서로 밀어내는 방식에 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "중심 원자 주위의 전자쌍들이 서로 반발해 가능한 한 멀리 떨어지려 한다는 이론을 {{1}} 이론이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전자쌍 반발",
+      "전자쌍반발",
+      "VSEPR"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자쌍은 모두 (−)전하를 띠어 서로 밀어냅니다.\n그래서 반발이 가장 작은 배치를 이루며 이것이 분자 모양을 정합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "전자쌍 수와 배치",
+   "body": [
+    "중심 원자 주위의 전자쌍이 2개면 서로 반대쪽을 향해 직선형(180°), 3개면 평면 삼각형(120°), 4개면 정사면체형(109.5°)으로 배치됩니다.",
+    "다중 결합은 전자쌍 여러 개지만 한 방향에 있으므로 모양을 정할 때는 하나로 셉니다. 그래서 O=C=O의 탄소 주위는 2방향, 직선형입니다.",
+    "BF₃는 붕소 주위에 공유 전자쌍 3개로 평면 삼각형, CH₄는 탄소 주위에 공유 전자쌍 4개로 정사면체형입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "중심 원자 주위에 공유 전자쌍만 4개 있는 분자의 결합각은 몇 °일까요?",
+   "answer": "109.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": null,
+   "explanation": "4개의 전자쌍이 정사면체의 꼭짓점 방향으로 퍼집니다.\n이때 결합각은 109.5°입니다(CH₄)."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "평면 삼각형 구조인 BF₃의 결합각은 몇 °일까요?",
+   "answer": "120",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "전자쌍 3개가 평면에서 가장 멀리 떨어지면 120°씩 벌어집니다.\n그래서 F–B–F 결합각은 120°입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "직선형 구조인 CO₂의 결합각은 몇 °일까요?",
+   "answer": "180",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "탄소 주위에 결합 방향이 2개(2중 결합 2개)입니다.\n서로 반대쪽을 향해 180°가 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "메테인(CH₄)은 왜 평면 사각형(90°)이 아니라 정사면체형일까요?",
+   "steps": [
+    "탄소 주위에 공유 전자쌍이 4개 있습니다.",
+    "평면 사각형이면 결합각이 90°라 전자쌍끼리 가깝습니다.",
+    "입체 공간에서 가장 멀리 떨어지는 배치는 정사면체이고, 이때 109.5°로 반발이 가장 작습니다."
+   ],
+   "answer": "정사면체형이 반발이 가장 작기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "비공유 전자쌍의 영향",
+   "body": [
+    "비공유 전자쌍은 한 원자에만 붙잡혀 있어 공유 전자쌍보다 더 넓게 퍼지고, 그래서 더 강하게 밀어냅니다. 반발력 크기는 비공유–비공유 > 비공유–공유 > 공유–공유입니다.",
+    "NH₃는 질소 주위 전자쌍 4개(공유 3, 비공유 1)로 삼각뿔형이고 결합각은 약 107°입니다. H₂O는 산소 주위 전자쌍 4개(공유 2, 비공유 2)로 굽은형이고 결합각은 약 104.5°입니다.",
+    "분자의 모양은 원자들의 위치로만 부르므로, 비공유 전자쌍은 모양 이름에는 나타나지 않지만 결합각을 줄입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "암모니아(NH₃) 분자의 모양은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "삼각뿔형",
+      "삼각뿔",
+      "삼각 피라미드"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "질소 주위에 공유 전자쌍 3개와 비공유 전자쌍 1개가 있습니다.\n원자들만 보면 질소가 꼭대기인 삼각뿔 모양입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물(H₂O) 분자의 모양은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "굽은형",
+      "굽은 형",
+      "V자형",
+      "굽은 모양"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "산소 주위에 공유 전자쌍 2개와 비공유 전자쌍 2개가 있습니다.\n비공유 전자쌍이 수소 쪽을 밀어 굽은 모양이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "결합각이 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "CH₄"
+    },
+    {
+     "id": "b",
+     "text": "H₂O"
+    },
+    {
+     "id": "c",
+     "text": "BF₃"
+    },
+    {
+     "id": "d",
+     "text": "NH₃"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "H₂O 104.5°, NH₃ 107°, CH₄ 109.5°, BF₃ 120°입니다.\n비공유 전자쌍이 많을수록 결합각이 작아집니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "NH₃의 결합각(107°)이 CH₄(109.5°)보다 작은 이유는?",
+   "steps": [
+    "두 분자 모두 중심 원자 주위에 전자쌍이 4개입니다.",
+    "NH₃에는 비공유 전자쌍이 1개 있습니다.",
+    "비공유 전자쌍이 공유 전자쌍을 더 강하게 밀어내 N–H 결합들이 좁혀지므로 결합각이 작아집니다."
+   ],
+   "answer": "비공유 전자쌍의 반발이 더 크기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "분자 모양 정리",
+   "body": [
+    "중심 원자의 전자쌍 수와 비공유 전자쌍 수로 모양을 정합니다. 전자쌍 2개(공유 2): 직선형. 전자쌍 3개(공유 3): 평면 삼각형.",
+    "전자쌍 4개 중 공유 4: 정사면체형, 공유 3 + 비공유 1: 삼각뿔형, 공유 2 + 비공유 2: 굽은형입니다. 직선형과 평면 삼각형은 평면 구조, 나머지는 입체 구조입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "BF₃처럼 중심 원자 주위에 공유 전자쌍만 3개 있는 분자의 모양은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "평면 삼각형",
+      "평면삼각형",
+      "평면 삼각형형"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세 전자쌍이 한 평면에서 120°씩 벌어집니다.\n모든 원자가 한 평면에 있는 평면 구조입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "H–C≡N(사이안화 수소) 분자의 모양은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "직선형",
+      "직선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "탄소 주위에 결합 방향이 2개(단일 결합과 3중 결합)입니다.\n서로 반대쪽을 향하므로 직선형입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "비공유 전자쌍은 공유 전자쌍보다 반발력이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "크다",
+      "더 크다",
+      "큽니다",
+      "강하다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "비공유 전자쌍은 한 원자핵에만 끌려 더 넓게 퍼집니다.\n그래서 이웃 전자쌍을 더 강하게 밀어냅니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "폼알데하이드(H₂C=O)의 모양은?",
+   "steps": [
+    "탄소 주위의 결합 방향은 C–H 2개와 C=O 1개로 3개입니다(2중 결합은 하나로 셉니다).",
+    "비공유 전자쌍이 없으므로 세 방향이 120° 가까이 벌어집니다.",
+    "평면 삼각형입니다."
+   ],
+   "answer": "평면 삼각형"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "황화 수소(H₂S)는 황 주위에 공유 전자쌍 2개와 비공유 전자쌍 2개가 있습니다. 분자 모양은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "굽은형",
+      "굽은 형",
+      "V자형"
+     ]
+    }
+   ],
+   "hint": "물과 비교해 보세요.",
+   "explanation": "물과 같은 16족 수소 화합물로 전자쌍 배치가 같습니다.\n그래서 굽은형입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "실레인(SiH₄)은 규소 주위에 공유 전자쌍만 4개 있습니다. 결합각은 몇 °일까요?",
+   "answer": "109.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "메테인과 같은 구조입니다.",
+   "explanation": "CH₄와 같은 정사면체형입니다.\n결합각은 109.5°입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "아세틸렌(H–C≡C–H) 분자의 모양은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "직선형",
+      "직선"
+     ]
+    }
+   ],
+   "hint": "각 탄소의 결합 방향 수를 세어 보세요.",
+   "explanation": "각 탄소 주위에 결합 방향이 2개입니다.\n모든 원자가 일직선에 놓입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "포스핀(PH₃)은 인 주위에 공유 전자쌍 3개와 비공유 전자쌍 1개가 있습니다. 분자 모양은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "삼각뿔형",
+      "삼각뿔"
+     ]
+    }
+   ],
+   "hint": "암모니아와 비교해 보세요.",
+   "explanation": "NH₃와 같은 15족 수소 화합물로 전자쌍 배치가 같습니다.\n그래서 삼각뿔형입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "중심 원자 주위에 공유 전자쌍 2개와 비공유 전자쌍 2개가 있습니다. 모양을 정할 때 고려하는 전자쌍은 모두 몇 개일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "비공유 전자쌍도 반발에 참여합니다.",
+   "explanation": "공유 전자쌍과 비공유 전자쌍 모두 서로 반발합니다.\n2 + 2 = 4개가 사면체 방향으로 퍼지고, 원자 위치만 보면 굽은형입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "물 분자가 CO₂처럼 직선형이 아니라 굽은형인 이유를 전자쌍 반발 이론으로 설명해 보세요.",
+   "hint": "산소 주위의 전자쌍 수부터 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "비공유 전자쌍"
+     ],
+     [
+      "4개",
+      "네 개",
+      "사면체"
+     ],
+     [
+      "반발"
+     ],
+     [
+      "굽은"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "물의 산소 주위에는 공유 전자쌍 2개와 비공유 전자쌍 2개, 모두 4개의 전자쌍이 있습니다. 이 전자쌍들이 반발해 사면체 방향으로 퍼지고, 반발이 큰 비공유 전자쌍이 두 O–H 결합을 밀어 약 104.5°의 굽은형이 됩니다."
+  }
+ ]
+}

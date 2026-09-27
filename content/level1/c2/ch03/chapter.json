@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c2",
+  "chapter": {
+    "id": "c2-ch03",
+    "no": 3,
+    "title": "주기율표와 주기적 성질"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c2-ch03-l01",
+      "title": "주기율표의 구성",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 2,
+      "id": "c2-ch03-l02",
+      "title": "유효 핵전하와 원자 반지름",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c2-ch03-l03",
+      "title": "이온화 에너지",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 4,
+      "id": "c2-ch03-l04",
+      "title": "전기 음성도와 주기적 성질의 종합",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c2-ch03-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

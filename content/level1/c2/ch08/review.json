@@ -1,0 +1,181 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch08",
+  "no": 8,
+  "title": "산화와 환원"
+ },
+ "review": {
+  "id": "c2-ch08-review",
+  "title": "산화와 환원 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "물질이 전자를 잃는 반응을 산화, 전자를 얻는 반응을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "환원"
+     ]
+    }
+   ],
+   "hint": "산화의 반대입니다.",
+   "explanation": "산화와 환원은 전자의 이동으로 정의합니다.\n두 반응은 항상 동시에 일어납니다.",
+   "source_lesson": "c2-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "질산 은 수용액에 구리선을 넣으면 구리는 {{1}}되고 은이 석출됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산화"
+     ]
+    }
+   ],
+   "hint": "구리가 전자를 잃습니다.",
+   "explanation": "구리가 전자를 잃고 Cu²⁺이 됩니다.\nAg⁺은 전자를 얻어 은이 됩니다.",
+   "source_lesson": "c2-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "Mg + 2H⁺ → Mg²⁺ + H₂ 반응에서 마그네슘 1 mol이 잃는 전자는 몇 mol일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Mg²⁺의 전하를 보세요.",
+   "explanation": "Mg → Mg²⁺ + 2e⁻입니다.\n마그네슘 1 mol당 전자 2 mol을 잃습니다.",
+   "source_lesson": "c2-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질산(HNO₃)에서 질소의 산화수는 +몇일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "H는 +1, O는 −2입니다.",
+   "explanation": "+1 + x + 3(−2) = 0입니다.\nx = +5입니다.",
+   "source_lesson": "c2-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "염화 철(Ⅲ)(FeCl₃)에서 철의 산화수는 +몇일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "Cl은 −1입니다.",
+   "explanation": "x + 3(−1) = 0입니다.\nx = +3입니다.",
+   "source_lesson": "c2-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "반응에서 산화수가 감소한 원자는 {{1}}된 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "환원"
+     ]
+    }
+   ],
+   "hint": "전자를 얻은 경우입니다.",
+   "explanation": "산화수가 감소했다는 것은 전자를 얻었다는 뜻입니다.\n전자를 얻는 것이 환원입니다.",
+   "source_lesson": "c2-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "CuO + H₂ → Cu + H₂O 반응에서 H₂는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "환원제"
+     ]
+    }
+   ],
+   "hint": "산화수가 증가하는 물질의 역할입니다.",
+   "explanation": "H는 0에서 +1로 산화수가 증가합니다.\n자신은 산화되며 CuO를 환원시키므로 환원제입니다.",
+   "source_lesson": "c2-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "K₂Cr₂O₇에서 크로뮴의 산화수는 +몇일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "K는 +1입니다.",
+   "explanation": "2(+1) + 2x + 7(−2) = 0입니다.\n2x = 12이므로 x = +6입니다.",
+   "source_lesson": "c2-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "용광로에서 산화 철이 철로 바뀌는 반응에서 산화 철은 {{1}}됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "환원"
+     ]
+    }
+   ],
+   "hint": "산소를 잃는 반응입니다.",
+   "explanation": "철의 산화수가 +3에서 0으로 감소합니다.\n산소를 잃으므로 환원입니다.",
+   "source_lesson": "c2-ch08-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "세포 호흡은 포도당이 {{1}}되어 에너지를 얻는 반응입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산화"
+     ]
+    }
+   ],
+   "hint": "연소와 같은 종류의 반응입니다.",
+   "explanation": "포도당 속 탄소의 산화수가 증가해 CO₂가 됩니다.\n산소는 환원되어 물이 됩니다.",
+   "source_lesson": "c2-ch08-l04"
+  }
+ ]
+}

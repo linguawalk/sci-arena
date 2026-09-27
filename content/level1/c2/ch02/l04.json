@@ -1,0 +1,389 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch02",
+  "no": 2,
+  "title": "원소의 기원과 원자 구조"
+ },
+ "lesson": {
+  "id": "c2-ch02-l04",
+  "no": 4,
+  "title": "전자 배치",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "성질을 정하는 바깥 전자",
+   "body": [
+    "나트륨과 칼륨은 모두 물과 격렬하게 반응하고, 헬륨과 네온은 거의 반응하지 않습니다. 원소의 화학적 성질은 전자들이 어떤 오비탈에 어떻게 채워져 있는지, 특히 가장 바깥의 전자에 따라 정해집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "화학 결합에 참여하는 가장 바깥 전자 껍질의 전자를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원자가 전자",
+      "원자가전자"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원자가 전자 수가 같은 원소는 화학적 성질이 비슷합니다.\n18족 원소는 원자가 전자를 0으로 봅니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "전자 배치의 세 규칙",
+   "body": [
+    "쌓음 원리: 전자는 에너지가 낮은 오비탈부터 채워집니다. 순서는 1s → 2s → 2p → 3s → 3p → 4s → 3d …입니다.",
+    "파울리 배타 원리: 한 오비탈에는 스핀 방향이 반대인 전자가 최대 2개까지만 들어갑니다.",
+    "훈트 규칙: 에너지가 같은 오비탈(예: 2p 세 개)에 전자가 들어갈 때는 가능한 한 서로 다른 오비탈에 하나씩(홀전자로) 먼저 들어갑니다. 전자 배치는 1s² 2s² 2p⁴처럼 오비탈 이름 오른쪽 위에 전자 수를 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "한 오비탈에는 스핀 방향이 반대인 전자가 최대 2개까지만 들어갈 수 있다는 원리를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "파울리 배타 원리",
+      "파울리의 배타 원리",
+      "배타 원리",
+      "파울리 원리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 오비탈에 같은 스핀의 전자 두 개가 들어갈 수 없습니다.\n그래서 오비탈 하나의 최대 전자 수는 2입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "에너지가 같은 오비탈에서는 홀전자 수가 최대가 되도록 전자가 채워진다는 규칙을 {{1}} 규칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "훈트"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자끼리 반발을 줄이려고 서로 다른 오비탈에 먼저 하나씩 들어갑니다.\n그다음에 짝을 이룹니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "산소(원자 번호 8)의 바닥상태 전자 배치와 홀전자 수는?",
+   "steps": [
+    "전자 8개를 1s, 2s, 2p 순서로 채웁니다: 1s² 2s² 2p⁴.",
+    "2p 오비탈 3개에 전자 4개: 훈트 규칙에 따라 먼저 하나씩 3개, 남은 1개가 짝을 이룹니다.",
+    "따라서 홀전자는 2개입니다."
+   ],
+   "answer": "1s² 2s² 2p⁴, 홀전자 2개"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질소(원자 번호 7)의 바닥상태 전자 배치에서 홀전자는 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1s² 2s² 2p³입니다.\n2p 전자 3개가 훈트 규칙에 따라 세 오비탈에 하나씩 들어가 홀전자가 3개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "나트륨(원자 번호 11)의 원자가 전자는 몇 개일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1s² 2s² 2p⁶ 3s¹입니다.\n가장 바깥 껍질(n = 3)에 전자가 1개 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "탄소(원자 번호 6)의 바닥상태 전자 배치는 1s² 2s² 2p{{1}}입니다. (전자 수를 숫자로 쓰세요.)",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자 6개 중 1s에 2개, 2s에 2개가 들어갑니다.\n남은 2개가 2p에 들어가므로 2p²입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "바닥상태, 들뜬상태, 이온",
+   "body": [
+    "세 규칙을 모두 지켜 에너지가 가장 낮은 전자 배치를 바닥상태, 쌓음 원리나 훈트 규칙에 어긋나 에너지가 더 높은 배치를 들뜬상태라고 합니다. 파울리 배타 원리에 어긋나는 배치는 존재할 수 없습니다.",
+    "이온의 전자 배치는 전자를 더하거나 뺀 뒤 같은 규칙으로 씁니다. Na⁺(전자 10개)는 1s² 2s² 2p⁶으로 네온과 같고, Cl⁻(전자 18개)는 아르곤과 같습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자 배치 규칙을 모두 지켜 에너지가 가장 낮은 상태를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "바닥상태",
+      "바닥 상태"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원자는 보통 바닥상태로 존재합니다.\n에너지를 흡수하면 들뜬상태가 되었다가 빛을 내며 돌아옵니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "염화 이온(Cl⁻, 원자 번호 17)의 전자는 몇 개일까요?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "염소 원자는 전자 17개입니다.\n전자 1개를 얻어 18개가 됩니다(아르곤과 같은 배치)."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "Na⁺의 전자 배치는 18족 원소인 {{1}}과 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "네온",
+      "Ne"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Na⁺은 전자 10개로 1s² 2s² 2p⁶입니다.\n네온(원자 번호 10)과 같은 안정한 배치입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "1s² 2s¹ 2p³은 어떤 원자의 어떤 상태일까요?",
+   "steps": [
+    "전자 수는 2 + 1 + 3 = 6개이므로 탄소입니다.",
+    "탄소의 바닥상태는 1s² 2s² 2p²입니다.",
+    "2s 전자 하나가 에너지가 더 높은 2p로 올라갔으므로 들뜬상태입니다."
+   ],
+   "answer": "탄소의 들뜬상태"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "원자가 전자와 안정성",
+   "body": [
+    "원소의 화학적 성질은 원자가 전자 수로 크게 정해집니다. 1족 원소는 원자가 전자가 1개라 전자를 잃기 쉽고, 17족은 7개라 전자 1개를 얻기 쉽습니다.",
+    "18족 원소는 가장 바깥 껍질이 가득 차(헬륨은 2개, 나머지는 8개) 매우 안정합니다. 다른 원자들도 전자를 잃거나 얻거나 공유해 18족과 같은 배치가 되려는 경향이 있습니다(옥텟 규칙)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "쌓음 원리에 따라 전자가 채워지는 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "3s"
+    },
+    {
+     "id": "b",
+     "text": "2s"
+    },
+    {
+     "id": "c",
+     "text": "1s"
+    },
+    {
+     "id": "d",
+     "text": "2p"
+    }
+   ],
+   "answer_order": [
+    "c",
+    "b",
+    "d",
+    "a"
+   ],
+   "hint": null,
+   "explanation": "에너지가 낮은 오비탈부터 채워집니다.\n다전자 원자에서는 같은 n이라도 s가 p보다 에너지가 낮습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "마그네슘(원자 번호 12)의 바닥상태 전자 배치와 원자가 전자 수는?",
+   "steps": [
+    "전자 12개를 순서대로 채웁니다: 1s² 2s² 2p⁶ 3s².",
+    "가장 바깥 껍질 n = 3에 전자 2개가 있습니다.",
+    "원자가 전자는 2개입니다."
+   ],
+   "answer": "1s² 2s² 2p⁶ 3s², 2개"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "황(원자 번호 16)의 원자가 전자는 몇 개일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "가장 바깥 껍질(n = 3)의 전자를 모두 세세요.",
+   "explanation": "1s² 2s² 2p⁶ 3s² 3p⁴입니다.\n가장 바깥 껍질에 3s² 3p⁴, 모두 6개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "알루미늄(원자 번호 13)의 바닥상태 전자 배치에서 홀전자는 몇 개일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "짝을 이루지 못한 전자를 세세요.",
+   "explanation": "1s² 2s² 2p⁶ 3s² 3p¹입니다.\n3p에 전자 1개만 있어 홀전자는 1개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "2p 오비탈 3개에 전자 3개가 들어갈 때, 훈트 규칙에 따라 전자는 서로 다른 오비탈에 {{1}}개씩 들어갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1",
+      "한"
+     ]
+    }
+   ],
+   "hint": "홀전자 수가 최대가 되도록 채웁니다.",
+   "explanation": "에너지가 같은 오비탈에서는 먼저 하나씩 채워 홀전자 수를 최대로 합니다.\n그래서 세 오비탈에 1개씩 들어갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "플루오린(원자 번호 9)의 바닥상태 전자 배치에서 p 오비탈에 들어 있는 전자는 몇 개일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1s와 2s를 채우고 남은 전자를 세세요.",
+   "explanation": "1s² 2s² 2p⁵입니다.\np 오비탈 전자는 5개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "1s² 2p¹은 쌓음 원리에 어긋나므로 {{1}}상태입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "들뜬"
+     ]
+    }
+   ],
+   "hint": "바닥상태가 아닌 상태의 이름입니다.",
+   "explanation": "2s가 비어 있는데 에너지가 더 높은 2p에 전자가 있습니다.\n파울리 원리에는 어긋나지 않으므로 존재할 수 있는 들뜬상태입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "전자 배치의 세 가지 규칙(쌓음 원리, 파울리 배타 원리, 훈트 규칙)을 각각 설명해 보세요.",
+   "hint": "세 규칙을 하나씩 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "에너지",
+      "낮은"
+     ],
+     [
+      "2개",
+      "스핀",
+      "반대"
+     ],
+     [
+      "홀전자",
+      "하나씩"
+     ],
+     [
+      "쌓음",
+      "파울리",
+      "훈트"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "쌓음 원리는 전자가 에너지가 낮은 오비탈부터 채워진다는 규칙입니다. 파울리 배타 원리는 한 오비탈에 스핀이 반대인 전자가 최대 2개까지 들어간다는 원리입니다. 훈트 규칙은 에너지가 같은 오비탈에서는 홀전자 수가 최대가 되도록 하나씩 먼저 채운다는 규칙입니다."
+  }
+ ]
+}

@@ -1,0 +1,427 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c2",
+  "title": "화학Ⅰ"
+ },
+ "chapter": {
+  "id": "c2-ch03",
+  "no": 3,
+  "title": "주기율표와 주기적 성질"
+ },
+ "lesson": {
+  "id": "c2-ch03-l02",
+  "no": 2,
+  "title": "유효 핵전하와 원자 반지름",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "원자의 크기에도 규칙이 있다",
+   "body": [
+    "원자 번호가 커지면 전자가 많아지니 원자도 무조건 커질 것 같습니다. 그런데 같은 주기에서는 오히려 오른쪽으로 갈수록 원자가 작아집니다.",
+    "그 비밀은 전자가 실제로 느끼는 원자핵의 끌어당김, 곧 유효 핵전하에 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "같은 원자 두 개가 공유 결합했을 때 두 원자핵 사이 거리의 절반을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원자 반지름",
+      "원자반지름"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원자는 경계가 뚜렷하지 않아 반지름을 직접 잴 수 없습니다.\n그래서 결합한 두 원자핵 사이 거리의 절반으로 정합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "유효 핵전하",
+   "body": [
+    "원자가 전자는 원자핵의 (+)전하에 끌리지만, 안쪽 전자들이 이를 가려 막아(가려막기 효과) 실제 핵전하보다 작은 전하를 느낍니다. 이를 유효 핵전하라고 합니다.",
+    "같은 주기에서는 오른쪽으로 갈수록 양성자가 하나씩 늘지만 안쪽 전자 수는 같으므로 원자가 전자가 느끼는 유효 핵전하가 커집니다.",
+    "대략적으로 원자가 전자가 느끼는 유효 핵전하 ≈ 핵전하 − 안쪽 껍질 전자 수로 생각할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자가 다른 전자의 가려막기 때문에 실제로 느끼는 원자핵의 전하를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유효 핵전하",
+      "유효핵전하"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "안쪽 전자가 원자핵의 전하 일부를 가려 막습니다.\n그래서 원자가 전자가 느끼는 전하는 실제 핵전하보다 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 주기에서 원자 번호가 커질수록 원자가 전자가 느끼는 유효 핵전하는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "양성자는 하나씩 늘지만 같은 껍질의 전자는 서로 잘 가려 주지 못합니다.\n그래서 유효 핵전하가 증가합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "원자 반지름의 주기성",
+   "body": [
+    "같은 족에서 아래로 갈수록 전자 껍질이 하나씩 늘어나므로 원자 반지름이 커집니다.",
+    "같은 주기에서 오른쪽으로 갈수록 전자 껍질 수는 같지만 유효 핵전하가 커져 전자를 더 세게 끌어당기므로 원자 반지름이 작아집니다.",
+    "그래서 원자 반지름은 주기율표의 왼쪽 아래로 갈수록 크고, 오른쪽 위로 갈수록 작습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 족에서 아래로 갈수록 원자 반지름이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아래로 갈수록 전자 껍질 수가 늘어납니다.\n바깥 전자가 원자핵에서 멀어져 원자가 커집니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "Li, Na, F 중 원자 반지름이 가장 큰 것과 가장 작은 것은?",
+   "steps": [
+    "Li와 Na는 같은 1족이고 Na가 아래(3주기)에 있어 Na > Li입니다.",
+    "Li와 F는 같은 2주기이고 F가 오른쪽에 있어 Li > F입니다.",
+    "따라서 Na가 가장 크고 F가 가장 작습니다."
+   ],
+   "answer": "가장 큰 것 Na, 가장 작은 것 F"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 3주기인 Na와 Cl 중 원자 반지름이 더 큰 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Na",
+      "나트륨"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 주기에서는 왼쪽 원소의 유효 핵전하가 작습니다.\n그래서 Na가 Cl보다 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "2주기 원소를 원자 반지름이 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "N"
+    },
+    {
+     "id": "b",
+     "text": "F"
+    },
+    {
+     "id": "c",
+     "text": "Li"
+    },
+    {
+     "id": "d",
+     "text": "O"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "같은 주기에서는 오른쪽으로 갈수록 원자 반지름이 작습니다.\n원자 번호 순으로 Li(3) < N(7) < O(8) < F(9)이므로 크기는 반대입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 1족인 Li와 K 중 원자 반지름이 더 큰 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "K",
+      "칼륨"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "K는 4주기, Li는 2주기입니다.\n전자 껍질이 더 많은 K가 더 큽니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "이온 반지름",
+   "body": [
+    "금속 원자가 전자를 잃어 양이온이 되면 가장 바깥 껍질이 사라지는 경우가 많고 전자 사이 반발도 줄어 원자보다 작아집니다. Na⁺은 Na보다 작습니다.",
+    "비금속 원자가 전자를 얻어 음이온이 되면 전자 사이의 반발이 커져 원자보다 커집니다. Cl⁻은 Cl보다 큽니다.",
+    "전자 수가 같은 이온(등전자 이온)끼리는 핵전하가 클수록 전자를 세게 당겨 작습니다: O²⁻ > F⁻ > Na⁺ > Mg²⁺."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "Na와 Na⁺, Cl과 Cl⁻의 반지름을 비교해 보세요.",
+   "steps": [
+    "Na(2, 8, 1)는 전자 1개를 잃고 Na⁺(2, 8)가 되며 바깥 껍질이 사라집니다. 따라서 Na > Na⁺입니다.",
+    "Cl은 전자 1개를 얻어 Cl⁻이 되고 전자 사이 반발이 커집니다. 따라서 Cl < Cl⁻입니다."
+   ],
+   "answer": "Na > Na⁺, Cl < Cl⁻"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "금속 원자가 양이온이 되면 반지름이 원래 원자보다 {{1}}아집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자를 잃으면 가장 바깥 껍질이 사라지는 경우가 많습니다.\n그래서 양이온은 원자보다 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "비금속 원자가 음이온이 되면 반지름이 원래 원자보다 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커진다",
+      "크다",
+      "커집니다",
+      "큽니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자가 늘어나면 전자 사이 반발이 커집니다.\n핵전하는 그대로라 전자 구름이 퍼져 반지름이 커집니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "전자 수가 10개로 같은 이온들을 반지름이 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "F⁻"
+    },
+    {
+     "id": "b",
+     "text": "Mg²⁺"
+    },
+    {
+     "id": "c",
+     "text": "O²⁻"
+    },
+    {
+     "id": "d",
+     "text": "Na⁺"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "전자 수가 같으면 핵전하(양성자 수)가 클수록 전자를 세게 당깁니다.\n양성자 수는 Mg 12, Na 11, F 9, O 8이므로 Mg²⁺가 가장 작습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "Na⁺과 Al³⁺ 중 반지름이 더 작은 것은?",
+   "steps": [
+    "두 이온 모두 전자가 10개인 등전자 이온입니다.",
+    "양성자 수는 Na 11, Al 13입니다.",
+    "핵전하가 큰 Al³⁺이 전자를 더 세게 당겨 더 작습니다."
+   ],
+   "answer": "Al³⁺"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "전자 수가 18개로 같은 K⁺과 Cl⁻ 중 반지름이 더 작은 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "K⁺",
+      "K+",
+      "칼륨 이온"
+     ]
+    }
+   ],
+   "hint": "등전자 이온은 핵전하로 비교합니다.",
+   "explanation": "양성자 수는 K 19, Cl 17입니다.\n핵전하가 큰 K⁺이 전자를 더 세게 당겨 더 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "3주기 원소(18족 제외) 중 원자 반지름이 가장 큰 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Na",
+      "나트륨"
+     ]
+    }
+   ],
+   "hint": "같은 주기의 왼쪽 끝을 보세요.",
+   "explanation": "같은 주기에서는 왼쪽 끝 원소의 유효 핵전하가 가장 작습니다.\n그래서 1족인 Na가 가장 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "나트륨(핵전하 +11, 안쪽 전자 10개)의 원자가 전자가 느끼는 유효 핵전하를 '핵전하 − 안쪽 전자 수'로 어림하면 얼마일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "핵전하에서 안쪽 전자 수를 빼세요.",
+   "explanation": "11 − 10 = 1입니다.\n원자가 전자가 느끼는 끌림이 약해 전자를 쉽게 잃습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "염소(핵전하 +17, 안쪽 전자 10개)의 원자가 전자가 느끼는 유효 핵전하를 같은 방법으로 어림하면 얼마일까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "같은 3주기이므로 안쪽 전자 수가 같습니다.",
+   "explanation": "17 − 10 = 7입니다.\n나트륨보다 훨씬 커서 원자 반지름이 작고 전자를 강하게 붙잡습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 주기에서 오른쪽으로 갈수록 원자 반지름이 작아지는 것은 {{1}}가 커져 전자를 강하게 끌어당기기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유효 핵전하",
+      "유효핵전하"
+     ]
+    }
+   ],
+   "hint": "이 레슨의 핵심 개념입니다.",
+   "explanation": "전자 껍질 수는 같은데 끌어당기는 힘이 커집니다.\n그래서 전자 구름이 원자핵 쪽으로 당겨져 원자가 작아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "원자 반지름이 같은 족과 같은 주기에서 각각 어떻게 변하는지 이유와 함께 설명해 보세요.",
+   "hint": "족과 주기를 나누어 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "족",
+      "아래"
+     ],
+     [
+      "껍질"
+     ],
+     [
+      "주기",
+      "오른쪽"
+     ],
+     [
+      "유효 핵전하"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "같은 족에서 아래로 갈수록 전자 껍질 수가 늘어 원자 반지름이 커집니다. 같은 주기에서 오른쪽으로 갈수록 전자 껍질 수는 같지만 유효 핵전하가 커져 전자를 강하게 끌어당기므로 원자 반지름이 작아집니다."
+  }
+ ]
+}
