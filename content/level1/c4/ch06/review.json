@@ -1,0 +1,197 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch06",
+  "no": 6,
+  "title": "해양과 기후"
+ },
+ "review": {
+  "id": "c4-ch06-review",
+  "title": "해양과 기후 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "해수 250 g에 염류가 9 g 녹아 있습니다. 염분은 몇 psu일까요?",
+   "answer": "36",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "해수 1 kg당 염류의 양입니다.",
+   "explanation": "1 kg으로 환산하면 9 × 4 = 36 g입니다.\n염분은 36 psu입니다.",
+   "source_lesson": "c4-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "염분은 바다마다 달라도 염류 사이의 비율이 일정하다는 법칙을 염분비 {{1}}의 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일정"
+     ]
+    }
+   ],
+   "hint": "비율이 변하지 않는다는 뜻입니다.",
+   "explanation": "해수가 오랜 세월 잘 섞였기 때문입니다.\n한 성분으로 전체 염분을 계산할 수 있습니다.",
+   "source_lesson": "c4-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "바람에 의해 섞여 수온이 거의 일정한 해수의 표층을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "혼합층"
+     ]
+    }
+   ],
+   "hint": "섞여 있는 층입니다.",
+   "explanation": "바람이 강할수록 두꺼워집니다.\n그 아래에 수온 약층이 있습니다.",
+   "source_lesson": "c4-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "고위도에서 저위도로 흐르는 차가운 해류를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "한류"
+     ]
+    }
+   ],
+   "hint": "난류의 반대입니다.",
+   "explanation": "한류는 영양염과 용존 산소가 많습니다.\n난류는 반대 방향으로 흐릅니다.",
+   "source_lesson": "c4-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "동해에서 동한 난류와 북한 한류가 만나는 곳을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "조경 수역",
+      "조경수역"
+     ]
+    }
+   ],
+   "hint": "좋은 어장이 되는 곳입니다.",
+   "explanation": "난류성과 한류성 어종이 모두 모이는 좋은 어장입니다.\n영양염이 풍부합니다.",
+   "source_lesson": "c4-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "심층 순환은 고위도에서 차갑고 {{1}} 무거운 해수가 가라앉아 시작됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짠"
+     ]
+    }
+   ],
+   "hint": "염분이 높다는 뜻입니다.",
+   "explanation": "해수가 얼 때 염분이 높아져 밀도가 커집니다.\n그래서 그린란드 부근에서 가라앉습니다.",
+   "source_lesson": "c4-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "평상시 동태평양 페루 연안에서는 깊은 곳의 찬 물이 올라오는 {{1}}이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "용승"
+     ]
+    }
+   ],
+   "hint": "아래에서 위로 오르는 흐름입니다.",
+   "explanation": "영양염이 풍부해 좋은 어장이 됩니다.\n엘니뇨 때 약해집니다.",
+   "source_lesson": "c4-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "무역풍이 약해져 동태평양의 수온이 평상시보다 높아지는 현상은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "엘니뇨"
+     ]
+    }
+   ],
+   "hint": "'아기 예수'라는 뜻입니다.",
+   "explanation": "페루 연안의 어획량이 줄고 인도네시아에 가뭄이 듭니다.\n반대 현상은 라니냐입니다.",
+   "source_lesson": "c4-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지구 자전축의 기울기가 커지면 계절에 따른 기온 차이가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커"
+     ]
+    }
+   ],
+   "hint": "여름은 더 덥고 겨울은 더 춥습니다.",
+   "explanation": "여름에는 태양 고도가 더 높고 겨울에는 더 낮아집니다.\n천문학적 요인의 하나입니다.",
+   "source_lesson": "c4-ch06-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지구 온난화로 해수면이 상승하는 원인은 해수의 열팽창과 {{1}} 빙하의 융해입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대륙"
+     ]
+    }
+   ],
+   "hint": "육지 위에 있는 빙하입니다.",
+   "explanation": "육지 위의 빙하가 녹은 물이 바다에 더해집니다.\n바다 위 얼음은 녹아도 해수면을 거의 올리지 않습니다.",
+   "source_lesson": "c4-ch06-l04"
+  }
+ ]
+}

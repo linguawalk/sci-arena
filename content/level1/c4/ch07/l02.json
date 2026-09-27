@@ -1,0 +1,423 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch07",
+  "no": 7,
+  "title": "별"
+ },
+ "lesson": {
+  "id": "c4-ch07-l02",
+  "no": 2,
+  "title": "H-R도",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "별들의 지도",
+   "body": [
+    "20세기 초 헤르츠스프룽과 러셀은 별의 표면 온도와 광도를 한 그래프에 나타내 보았습니다.",
+    "그러자 별들이 아무 데나 흩어지지 않고 몇 개의 무리로 모여 있다는 것을 발견했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "가로축에 표면 온도(분광형), 세로축에 광도(절대 등급)를 나타내어 별을 표시한 그래프를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "H-R도",
+      "HR도",
+      "H–R도",
+      "헤르츠스프룽-러셀도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 과학자의 이름 머리글자를 땄습니다.\n별의 종류와 진화를 이해하는 데 쓰입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "H-R도의 별 집단",
+   "body": [
+    "H-R도의 가로축은 왼쪽으로 갈수록 표면 온도가 높고, 세로축은 위로 갈수록 광도가 큽니다.",
+    "왼쪽 위에서 오른쪽 아래로 이어진 띠에 있는 별을 주계열성이라고 하며, 별의 약 90%가 여기에 속합니다. 오른쪽 위의 별은 온도가 낮지만 광도가 커서 반지름이 매우 큰 거성이고, 그 위의 가장 밝은 별은 초거성입니다.",
+    "왼쪽 아래의 별은 온도가 높지만 광도가 작아 반지름이 매우 작은 백색 왜성입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "H-R도에서 별의 약 90%가 속하는 집단은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주계열성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "중심에서 수소 핵융합을 하는 별입니다.\n별은 일생의 대부분을 주계열성으로 보냅니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "H-R도의 가로축에서 왼쪽으로 갈수록 표면 온도가 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "일반적인 그래프와 반대입니다.\n왼쪽이 O형, 오른쪽이 M형입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "H-R도의 오른쪽 위에 있는, 온도가 낮지만 광도가 큰 별은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "거성",
+      "적색 거성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "온도가 낮은데 밝으려면 반지름이 커야 합니다.\n초거성은 더 위에 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "H-R도의 왼쪽 아래에 있는, 온도가 높지만 광도가 작은 별은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "백색 왜성",
+      "백색왜성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "뜨거운데 어두우려면 반지름이 매우 작아야 합니다.\n지구 정도 크기입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "거성은 표면 온도가 낮은데 어떻게 광도가 클까요?",
+   "steps": [
+    "L = 4πR²σT⁴에서 T가 낮으면 단위 면적당 에너지는 적습니다.",
+    "그런데도 광도가 크려면 표면적, 곧 반지름이 매우 커야 합니다.",
+    "거성의 반지름은 태양의 수십~수백 배입니다."
+   ],
+   "answer": "반지름이 매우 크기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "주계열성의 질량",
+   "body": [
+    "주계열성은 질량에 따라 H-R도에서 위치가 정해집니다. 왼쪽 위의 주계열성일수록 질량이 크고, 표면 온도가 높으며, 광도와 반지름이 큽니다.",
+    "질량이 큰 별은 연료가 많지만 훨씬 빠르게 태우므로 수명이 짧습니다. 태양보다 10배 무거운 별은 수천만 년, 태양은 약 100억 년, 가벼운 M형 별은 수천억 년 이상 삽니다.",
+    "태양은 주계열의 중간쯤에 있는 G형 주계열성입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "주계열에서 왼쪽 위에 있는 별일수록 질량이 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "질량이 클수록 중심 온도가 높아 핵융합이 활발합니다.\n그래서 뜨겁고 밝습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "질량이 큰 주계열성일수록 수명이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "연료를 훨씬 빠르게 소모하기 때문입니다.\n무거운 별은 짧고 화려하게 삽니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "태양은 H-R도에서 {{1}}에 속합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주계열성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "태양은 중심에서 수소 핵융합을 하는 G형 주계열성입니다.\n약 50억 년 뒤 거성이 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질량이 태양의 10배인 주계열성은 왜 수명이 짧을까요?",
+   "steps": [
+    "질량이 10배라 연료(수소)도 약 10배입니다.",
+    "그러나 광도는 태양의 수천 배로 연료를 훨씬 빠르게 태웁니다.",
+    "그래서 수명은 태양보다 훨씬 짧은 수천만 년 정도입니다."
+   ],
+   "answer": "연료 소모가 훨씬 빠르기 때문"
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "별의 반지름이 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "거성"
+    },
+    {
+     "id": "b",
+     "text": "백색 왜성"
+    },
+    {
+     "id": "c",
+     "text": "초거성"
+    },
+    {
+     "id": "d",
+     "text": "태양"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "백색 왜성은 지구 크기, 거성은 태양의 수십 배, 초거성은 수백~천 배입니다.\nH-R도에서 오른쪽 위로 갈수록 반지름이 큽니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "H-R도 정리",
+   "body": [
+    "H-R도에서 오른쪽 위로 갈수록 반지름이 크고, 왼쪽 아래로 갈수록 반지름이 작습니다.",
+    "주계열성(수소 핵융합 중), 거성과 초거성(늙은 별), 백색 왜성(별의 마지막 모습)은 별의 진화 단계를 보여 줍니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "표면 온도 3500 K인 붉은 별의 광도가 태양의 1000배라면 어떤 별일까요?",
+   "steps": [
+    "3500 K는 태양보다 온도가 낮아 H-R도의 오른쪽입니다.",
+    "광도가 태양의 1000배로 매우 커서 위쪽입니다.",
+    "오른쪽 위에 있으므로 거성입니다."
+   ],
+   "answer": "거성"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "붉은색이면서 광도가 태양의 수만 배인 베텔게우스는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "초거성"
+     ]
+    }
+   ],
+   "hint": "거성보다 더 큰 별입니다.",
+   "explanation": "온도가 낮은데 극단적으로 밝으니 반지름이 엄청나게 큽니다.\nH-R도의 오른쪽 맨 위에 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "표면 온도가 매우 높지만 매우 어두운 시리우스 B는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "백색 왜성",
+      "백색왜성"
+     ]
+    }
+   ],
+   "hint": "작고 뜨거운 별입니다.",
+   "explanation": "뜨거운데 어두우니 반지름이 매우 작습니다.\nH-R도의 왼쪽 아래에 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "백색 왜성은 크기가 매우 작아 밀도가 매우 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": "질량에 비해 부피가 작습니다.",
+   "explanation": "태양 정도의 질량이 지구 크기에 모여 있습니다.\n찻숟가락 하나가 수 톤입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "주계열성은 중심에서 {{1}} 핵융합으로 에너지를 만듭니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소"
+     ]
+    }
+   ],
+   "hint": "우주에서 가장 흔한 원소입니다.",
+   "explanation": "수소가 헬륨으로 바뀌며 에너지를 냅니다.\n이 단계가 별의 일생에서 가장 깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "H-R도의 세로축에서 위로 갈수록 광도가 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": "밝은 별이 위에 있습니다.",
+   "explanation": "위쪽 별이 실제로 더 밝습니다.\n절대 등급으로는 숫자가 작아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "표면 온도가 같은 거성과 주계열성의 광도가 다른 것은 {{1}}이 다르기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반지름"
+     ]
+    }
+   ],
+   "hint": "별의 크기입니다.",
+   "explanation": "온도가 같으면 단위 면적당 에너지가 같습니다.\n광도 차이는 표면적, 곧 반지름 차이입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "H-R도에 나타나는 네 가지 별 집단을 위치와 특징으로 설명해 보세요.",
+   "hint": "네 집단의 위치를 모두 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "주계열성"
+     ],
+     [
+      "거성"
+     ],
+     [
+      "초거성"
+     ],
+     [
+      "백색 왜성"
+     ],
+     [
+      "왼쪽",
+      "오른쪽",
+      "위",
+      "아래"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "주계열성은 왼쪽 위에서 오른쪽 아래로 이어진 띠에 있으며 별의 대부분이 속합니다. 거성은 오른쪽 위에 있어 온도가 낮지만 반지름이 커서 밝고, 초거성은 그보다 더 위에 있는 가장 밝은 별입니다. 백색 왜성은 왼쪽 아래에 있어 온도가 높지만 반지름이 작아 어둡습니다."
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch03",
+  "no": 3,
+  "title": "변동대와 화성 활동"
+ },
+ "review": {
+  "id": "c4-ch03-review",
+  "title": "변동대와 화성 활동 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "진원 바로 위의 지표 지점을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진앙"
+     ]
+    }
+   ],
+   "hint": "지표에 있는 지점입니다.",
+   "explanation": "진원은 땅속, 진앙은 지표의 지점입니다.\n지도에는 진앙을 표시합니다.",
+   "source_lesson": "c4-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "P파 속도 8 km/s, S파 속도 4 km/s입니다. PS시가 15초라면 진원 거리는 몇 km일까요?",
+   "answer": "120",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "PS시 = d/4 − d/8입니다.",
+   "explanation": "PS시 = d/8이므로 d = 8 × 15 = 120 km입니다.\nPS시가 길수록 멀리서 난 지진입니다.",
+   "source_lesson": "c4-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지진이 방출한 에너지의 크기를 나타내며 지진 하나에 하나의 값을 가지는 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "규모"
+     ]
+    }
+   ],
+   "hint": "진도와 다른 값입니다.",
+   "explanation": "규모가 1 커지면 에너지는 약 32배입니다.\n장소마다 다른 것은 진도입니다.",
+   "source_lesson": "c4-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "SiO₂ 함량이 많은 마그마는 점성이 커서 {{1}}적으로 분출합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "폭발"
+     ]
+    }
+   ],
+   "hint": "조용한 분출의 반대입니다.",
+   "explanation": "가스가 빠져나가지 못하고 압력이 쌓입니다.\n많은 화산재를 뿜어냅니다.",
+   "source_lesson": "c4-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "하와이처럼 점성이 작은 용암이 만든 완만한 화산을 {{1}} 화산이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "순상"
+     ]
+    }
+   ],
+   "hint": "방패 모양입니다.",
+   "explanation": "방패를 엎어 놓은 모양이라 순상입니다.\n현무암질 용암이 만듭니다.",
+   "source_lesson": "c4-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "해령과 열점에서는 맨틀 물질이 상승하며 {{1}}이 낮아져 마그마가 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "압력"
+     ]
+    }
+   ],
+   "hint": "깊이와 관계된 조건입니다.",
+   "explanation": "감압 용융입니다.\n현무암질 마그마가 만들어집니다.",
+   "source_lesson": "c4-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "섭입대에서는 해양판에서 빠져나온 {{1}}이 맨틀의 녹는점을 낮춥니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "물",
+      "H₂O",
+      "수분"
+     ]
+    }
+   ],
+   "hint": "액체 상태의 흔한 물질입니다.",
+   "explanation": "물이 있으면 암석이 낮은 온도에서 녹습니다.\n섭입대 화산의 원인입니다.",
+   "source_lesson": "c4-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "마그마가 지표 근처에서 빨리 식으면 결정이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작아"
+     ]
+    }
+   ],
+   "hint": "식는 시간이 짧습니다.",
+   "explanation": "결정이 자랄 시간이 부족합니다.\n그래서 화산암은 결정이 작습니다.",
+   "source_lesson": "c4-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "결정이 크고 색이 어두운 염기성 심성암은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반려암"
+     ]
+    }
+   ],
+   "hint": "현무암과 짝을 이루는 암석입니다.",
+   "explanation": "현무암과 성분이 같은 심성암입니다.\n천천히 식어 결정이 큽니다.",
+   "source_lesson": "c4-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "제주도에 넓게 분포하는 어둡고 구멍이 많은 화산암은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "현무암"
+     ]
+    }
+   ],
+   "hint": "돌하르방을 만든 암석입니다.",
+   "explanation": "구멍은 가스가 빠져나간 자리입니다.\n염기성 화산암입니다.",
+   "source_lesson": "c4-ch03-l04"
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch02",
+  "no": 2,
+  "title": "판 구조론"
+ },
+ "review": {
+  "id": "c4-ch02-review",
+  "title": "판 구조론 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "약 3억 년 전 모든 대륙이 하나로 모여 있던 초대륙을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "판게아"
+     ]
+    }
+   ],
+   "hint": "'모든 땅'이라는 뜻입니다.",
+   "explanation": "베게너가 대륙 이동설에서 제안했습니다.\n약 2억 년 전부터 갈라지기 시작했습니다.",
+   "source_lesson": "c4-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "대륙 이동설이 받아들여지지 않은 이유는 대륙을 움직이는 {{1}}을 설명하지 못했기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원동력",
+      "힘"
+     ]
+    }
+   ],
+   "hint": "움직이게 하는 근본적인 힘입니다.",
+   "explanation": "원동력은 뒤에 맨틀 대류로 설명되었습니다.\n고지자기 연구로 대륙 이동설이 재조명되었습니다.",
+   "source_lesson": "c4-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "해령에서 멀어질수록 해양 지각의 나이는 많아지고 퇴적물의 두께는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "두꺼워",
+      "두터워"
+     ]
+    }
+   ],
+   "hint": "쌓인 시간이 길수록입니다.",
+   "explanation": "오래된 지각일수록 퇴적물이 오래 쌓였습니다.\n해저 확장설의 증거입니다.",
+   "source_lesson": "c4-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "해령에서 150 km 떨어진 해양 지각의 나이가 300만 년입니다. 한쪽 판의 확장 속도는 몇 cm/년일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "거리를 cm로 바꾸어 나이로 나누세요.",
+   "explanation": "150 km = 1.5 × 10⁷ cm입니다.\n1.5 × 10⁷ ÷ (3 × 10⁶) = 5 cm/년입니다.",
+   "source_lesson": "c4-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "판이 이동할 수 있도록 암석권 아래에서 유동성을 가진 층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "연약권"
+     ]
+    }
+   ],
+   "hint": "암석권 아래의 층입니다.",
+   "explanation": "연약권은 부분적으로 녹아 있습니다.\n판은 그 위를 미끄러집니다.",
+   "source_lesson": "c4-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "해양판이 섭입하는 곳에서 만들어지는 깊은 해저 골짜기를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "해구"
+     ]
+    }
+   ],
+   "hint": "해령과 반대되는 지형입니다.",
+   "explanation": "마리아나 해구가 가장 깊습니다.\n섭입형 수렴 경계의 지형입니다.",
+   "source_lesson": "c4-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "천발, 중발, 심발 지진이 모두 일어나고 화산 활동이 활발한 판 경계는 {{1}}형 경계입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "섭입"
+     ]
+    }
+   ],
+   "hint": "해양판이 아래로 들어가는 경계입니다.",
+   "explanation": "섭입하는 판을 따라 깊은 곳까지 지진이 일어납니다.\n물이 공급되어 마그마도 생깁니다.",
+   "source_lesson": "c4-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "변환 단층이 발달하고 화산 활동이 없는 판 경계는 {{1}} 경계입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보존형"
+     ]
+    }
+   ],
+   "hint": "지각이 보존되는 경계입니다.",
+   "explanation": "판이 스쳐 지나가기만 합니다.\n지각이 생기거나 사라지지 않습니다.",
+   "source_lesson": "c4-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "뜨거운 플룸이 올라와 판 내부에 화산을 만드는 곳을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "열점"
+     ]
+    }
+   ],
+   "hint": "뜨거운 지점입니다.",
+   "explanation": "하와이가 대표적입니다.\n위치가 거의 고정되어 있습니다.",
+   "source_lesson": "c4-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "열점에서 만들어진 두 화산섬이 300 km 떨어져 있고 나이 차이가 500만 년입니다. 판의 이동 속도는 몇 cm/년일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "거리 ÷ 나이 차이입니다.",
+   "explanation": "300 km = 3 × 10⁷ cm입니다.\n3 × 10⁷ ÷ (5 × 10⁶) = 6 cm/년입니다.",
+   "source_lesson": "c4-ch02-l04"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c4",
+  "chapter": {
+    "id": "c4-ch03",
+    "no": 3,
+    "title": "변동대와 화성 활동"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c4-ch03-l01",
+      "title": "지진",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c4-ch03-l02",
+      "title": "화산 활동",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c4-ch03-l03",
+      "title": "마그마의 생성",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c4-ch03-l04",
+      "title": "화성암",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c4-ch03-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

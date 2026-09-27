@@ -1,0 +1,194 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch04",
+  "no": 4,
+  "title": "지구의 역사"
+ },
+ "review": {
+  "id": "c4-ch04-review",
+  "title": "지구의 역사 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "주로 모래가 쌓여 만들어진 퇴적암은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "사암"
+     ]
+    }
+   ],
+   "hint": "모래 사(沙) 자를 씁니다.",
+   "explanation": "입자 크기에 따라 역암, 사암, 셰일로 나뉩니다.\n사암은 모래 크기입니다.",
+   "source_lesson": "c4-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "한 층 안에서 아래에서 위로 갈수록 입자가 작아지는 퇴적 구조를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "점이 층리",
+      "점이층리"
+     ]
+    }
+   ],
+   "hint": "입자 크기가 점점 변하는 층리입니다.",
+   "explanation": "큰 입자가 먼저 가라앉아 생깁니다.\n지층의 위아래를 판단하는 데 씁니다.",
+   "source_lesson": "c4-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "암석을 뚫고 들어간 관입암은 뚫린 암석보다 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "젊"
+     ]
+    }
+   ],
+   "hint": "나중에 생긴 것입니다.",
+   "explanation": "뚫린 암석이 먼저 있었습니다.\n관입의 법칙입니다.",
+   "source_lesson": "c4-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "부정합면 위에 흔히 나타나는 역암을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기저 역암",
+      "기저역암"
+     ]
+    }
+   ],
+   "hint": "부정합의 바닥에 있는 역암입니다.",
+   "explanation": "아래 지층이 침식된 조각이 모여 만들어집니다.\n부정합의 증거입니다.",
+   "source_lesson": "c4-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "멀리 떨어진 지층을 대비할 때는 {{1}} 화석을 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표준"
+     ]
+    }
+   ],
+   "hint": "시대를 알려 주는 화석입니다.",
+   "explanation": "같은 표준 화석이 나오면 같은 시대입니다.\n가까운 곳은 암상으로도 대비합니다.",
+   "source_lesson": "c4-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "반감기가 3번 지나면 모원소는 처음의 몇 %가 남을까요?",
+   "answer": "12.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "절반씩 세 번 줄어듭니다.",
+   "explanation": "(1/2)³ = 1/8 = 12.5%입니다.\n나머지는 자원소가 되었습니다.",
+   "source_lesson": "c4-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "반감기가 5억 년인 원소가 처음의 25% 남아 있습니다. 암석의 나이는 몇 억 년일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "반감기 횟수 × 반감기입니다.",
+   "explanation": "25%이면 반감기가 2번 지났습니다.\n5 × 2 = 10억 년입니다.",
+   "source_lesson": "c4-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "절대 연령 측정에 주로 쓰는 암석은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "화성암"
+     ]
+    }
+   ],
+   "hint": "마그마가 굳은 암석입니다.",
+   "explanation": "마그마가 굳을 때 방사성 시계가 시작됩니다.\n퇴적암은 직접 재기 어렵습니다.",
+   "source_lesson": "c4-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "공룡이 번성한 쥐라기와 백악기는 {{1}}에 속합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중생대"
+     ]
+    }
+   ],
+   "hint": "고생대와 신생대 사이입니다.",
+   "explanation": "중생대는 트라이아스기, 쥐라기, 백악기입니다.\n백악기 말에 공룡이 멸종했습니다.",
+   "source_lesson": "c4-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "빙하 코어 속 {{1}}를 분석하면 과거 대기의 이산화 탄소 농도를 알 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기포",
+      "공기 방울"
+     ]
+    }
+   ],
+   "hint": "얼음 속에 갇힌 것입니다.",
+   "explanation": "기포에 과거의 공기가 갇혀 있습니다.\n수십만 년 전의 대기를 알려 줍니다.",
+   "source_lesson": "c4-ch04-l04"
+  }
+ ]
+}

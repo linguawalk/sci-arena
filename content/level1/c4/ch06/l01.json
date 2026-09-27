@@ -1,0 +1,405 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch06",
+  "no": 6,
+  "title": "해양과 기후"
+ },
+ "lesson": {
+  "id": "c4-ch06-l01",
+  "no": 1,
+  "title": "해수의 성질",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "왜 바닷물은 짤까",
+   "body": [
+    "빗물과 강물이 암석의 물질을 녹여 바다로 운반하고, 해저 화산이 물질을 더합니다. 바닷물이 증발하면 물만 날아가고 녹은 물질은 남아 바다는 짜게 되었습니다.",
+    "바닷물의 짠 정도와 온도는 장소와 깊이에 따라 다릅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "해수 1 kg에 녹아 있는 염류의 총량을 g 수로 나타낸 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염분"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "염분의 단위는 psu(실용 염분 단위)입니다.\n전 세계 해수의 평균 염분은 약 35 psu입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "염분과 염류",
+   "body": [
+    "해수에 녹아 있는 물질을 염류라고 하며, 가장 많은 것은 염화 나트륨(약 78%)이고 그다음은 염화 마그네슘입니다. 전 세계 해수의 평균 염분은 약 35 psu입니다.",
+    "증발량이 많거나 해수가 얼면(물만 얼음이 됨) 염분이 높아집니다. 비가 많이 오거나 강물이 흘러들거나 빙하가 녹으면 염분이 낮아집니다.",
+    "그래서 증발량이 강수량보다 많은 중위도(위도 20°~30°)의 표층 염분이 높고, 비가 많은 적도 부근은 조금 낮습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "전 세계 해수의 평균 염분은 약 몇 psu일까요?",
+   "answer": "35",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "hint": null,
+   "explanation": "해수 1 kg에 염류가 약 35 g 녹아 있습니다.\n장소에 따라 조금씩 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "해수에 녹아 있는 염류 가운데 가장 많은 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염화 나트륨",
+      "염화나트륨",
+      "NaCl"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "염화 나트륨이 전체 염류의 약 78%입니다.\n우리가 먹는 소금의 주성분입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "증발량이 많은 바다에서는 염분이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물만 증발하고 염류는 남습니다.\n그래서 해수가 더 짜집니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "해수 2 kg에 염류가 70 g 녹아 있다면 염분은?",
+   "steps": [
+    "염분은 해수 1 kg당 염류의 g 수입니다.",
+    "70 ÷ 2 = 35 g/kg입니다.",
+    "염분은 35 psu입니다."
+   ],
+   "answer": "35 psu"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "해수 500 g에 염류가 17 g 녹아 있습니다. 염분은 몇 psu일까요?",
+   "answer": "34",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1 kg으로 환산하면 17 × 2 = 34 g입니다.\n염분은 34 psu입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "염분비 일정의 법칙",
+   "body": [
+    "바다마다 염분은 달라도, 해수에 녹아 있는 염류들 사이의 비율은 어느 바다에서나 거의 일정합니다. 이를 염분비 일정의 법칙이라고 합니다.",
+    "해수는 오랜 세월 동안 잘 섞였기 때문입니다. 그래서 한 가지 성분의 양만 재면 전체 염분을 계산할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "염분은 바다마다 달라도 염류 사이의 {{1}}은 거의 일정합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비율",
+      "비"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이를 염분비 일정의 법칙이라고 합니다.\n해수가 전 지구적으로 잘 섞여 있기 때문입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "큰 강의 하구 부근 바다는 강물이 흘러들어 염분이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "민물이 섞여 해수가 묽어집니다.\n우리나라 서해는 동해보다 염분이 조금 낮습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "극지방에서 해수가 얼면 주변 해수의 염분이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "얼음에는 염류가 거의 들어가지 않습니다.\n남은 해수에 염류가 모여 짜집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "수온의 연직 구조",
+   "body": [
+    "해수는 깊이에 따라 세 층으로 나뉩니다. 혼합층은 햇빛으로 데워지고 바람으로 섞여 수온이 거의 일정한 표층입니다. 바람이 강할수록 두꺼워집니다.",
+    "수온 약층은 깊어질수록 수온이 급격히 낮아지는 층으로, 아래가 차갑고 무거워 매우 안정해 위아래 물의 섞임을 막습니다.",
+    "심해층은 햇빛이 닿지 않아 수온이 약 4 °C 이하로 낮고 거의 일정합니다. 고위도 바다는 표층도 차가워 층상 구조가 잘 나타나지 않습니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "수온 약층이 위아래 해수의 섞임을 막는 이유는?",
+   "steps": [
+    "수온 약층에서는 아래로 갈수록 수온이 급격히 낮아집니다.",
+    "차가운 물은 밀도가 커서 아래에, 따뜻한 물은 위에 있습니다.",
+    "무거운 물이 아래에 있는 안정한 상태라 대류가 잘 일어나지 않습니다."
+   ],
+   "answer": "아래가 무거운 안정한 층이기 때문"
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "해수면에서 깊은 곳으로 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "수온 약층"
+    },
+    {
+     "id": "b",
+     "text": "해수면"
+    },
+    {
+     "id": "c",
+     "text": "심해층"
+    },
+    {
+     "id": "d",
+     "text": "혼합층"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "혼합층 → 수온 약층 → 심해층 순서입니다.\n깊을수록 수온이 낮습니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "깊어질수록 수온이 급격히 낮아지는 층을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수온 약층",
+      "수온약층"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "혼합층과 심해층 사이에 있습니다.\n매우 안정해 섞임을 막습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "해수의 밀도를 크게 하는 조건은?",
+   "steps": [
+    "물은 차가울수록 밀도가 커집니다.",
+    "염류가 많이 녹을수록, 곧 염분이 높을수록 밀도가 커집니다.",
+    "그래서 수온이 낮고 염분이 높은 해수가 가장 무겁습니다."
+   ],
+   "answer": "수온이 낮고 염분이 높을수록"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해수의 밀도는 수온이 낮고 염분이 {{1}}을수록 커집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": "녹은 물질이 많을수록입니다.",
+   "explanation": "차갑고 짠 물이 가장 무겁습니다.\n이런 물이 고위도에서 가라앉아 심층 순환을 일으킵니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "바람이 강하게 부는 해역일수록 혼합층이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "두꺼워",
+      "두터워"
+     ]
+    }
+   ],
+   "hint": "섞이는 깊이가 깊어집니다.",
+   "explanation": "바람이 깊은 곳까지 해수를 섞습니다.\n그래서 혼합층이 두꺼워집니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해수에 녹은 산소(용존 산소)는 대기와 접하고 광합성이 일어나는 {{1}}에 많습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표층",
+      "혼합층",
+      "표면"
+     ]
+    }
+   ],
+   "hint": "바다의 가장 위쪽입니다.",
+   "explanation": "표층은 대기의 산소가 녹아들고 식물성 플랑크톤이 광합성을 합니다.\n깊어질수록 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "수온 약층은 매우 {{1}}해 위아래 해수의 섞임을 막습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "안정"
+     ]
+    }
+   ],
+   "hint": "불안정의 반대입니다.",
+   "explanation": "아래로 갈수록 무거운 물이 있어 뒤집히지 않습니다.\n대류가 거의 일어나지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "염분이 35 psu인 해수 1 kg에 들어 있는 순수한 물은 몇 g일까요?",
+   "answer": "965",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전체에서 염류를 빼세요.",
+   "explanation": "해수 1 kg = 1000 g 중 염류가 35 g입니다.\n물은 1000 − 35 = 965 g입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "해수의 염분을 높이는 요인과 낮추는 요인을 각각 설명해 보세요.",
+   "hint": "물이 빠지는 경우와 더해지는 경우로 나누세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "증발"
+     ],
+     [
+      "결빙",
+      "얼"
+     ],
+     [
+      "강수",
+      "비",
+      "강물"
+     ],
+     [
+      "빙하",
+      "융해",
+      "녹"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "증발량이 많거나 해수가 얼면 물만 빠져나가고 염류가 남아 염분이 높아집니다. 비가 많이 오거나 강물이 흘러들거나 빙하가 녹아 민물이 들어오면 해수가 묽어져 염분이 낮아집니다."
+  }
+ ]
+}

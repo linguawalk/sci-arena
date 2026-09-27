@@ -1,0 +1,195 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch01",
+  "no": 1,
+  "title": "지구 시스템"
+ },
+ "review": {
+  "id": "c4-ch01-review",
+  "title": "지구 시스템 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지구 시스템의 권역 중 대기로 이루어진 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기권"
+     ]
+    }
+   ],
+   "hint": "공기로 된 권역입니다.",
+   "explanation": "기권은 대류권, 성층권, 중간권, 열권으로 나뉩니다.\n질소와 산소가 대부분입니다.",
+   "source_lesson": "c4-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지진파의 S파가 통과하지 못해 액체라는 것을 알게 된 층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "외핵"
+     ]
+    }
+   ],
+   "hint": "핵의 바깥 부분입니다.",
+   "explanation": "S파는 액체를 통과하지 못합니다.\n외핵은 철과 니켈이 녹은 액체입니다.",
+   "source_lesson": "c4-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "기권에서 높이 올라갈수록 기온이 높아지고 오존층이 있는 층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "성층권"
+     ]
+    }
+   ],
+   "hint": "대류권 위의 층입니다.",
+   "explanation": "오존이 자외선을 흡수해 기온이 높아집니다.\n대류권 바로 위의 층입니다.",
+   "source_lesson": "c4-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "화산재가 햇빛을 가려 기온이 내려가는 것은 {{1}}이 기권에 영향을 준 예입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지권"
+     ]
+    }
+   ],
+   "hint": "화산이 속하는 권역입니다.",
+   "explanation": "화산은 지권의 활동입니다.\n지권 → 기권의 상호작용입니다.",
+   "source_lesson": "c4-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "낮에 바다에서 육지로 부는 해풍은 육지의 {{1}}이 바다보다 작아 빨리 데워지기 때문에 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비열"
+     ]
+    }
+   ],
+   "hint": "온도 변화의 쉬운 정도와 관련된 양입니다.",
+   "explanation": "육지 공기가 데워져 올라가면 바다 쪽 공기가 들어옵니다.\n밤에는 반대로 육풍이 붑니다.",
+   "source_lesson": "c4-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "판의 운동과 화산 활동의 에너지원은 지구 {{1}} 에너지입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "내부"
+     ]
+    }
+   ],
+   "hint": "땅속 깊은 곳의 에너지입니다.",
+   "explanation": "방사성 원소의 붕괴열이 원천입니다.\n맨틀 대류를 일으킵니다.",
+   "source_lesson": "c4-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "태양 복사 에너지 100 중 30이 반사된다면 지구가 흡수하는 양은 얼마일까요?",
+   "answer": "70",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "반사량을 빼세요.",
+   "explanation": "100 − 30 = 70입니다.\n복사 평형에서는 70을 지구 복사로 방출합니다.",
+   "source_lesson": "c4-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "온실 기체가 지구 복사를 흡수해 지표를 따뜻하게 하는 현상을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "온실 효과",
+      "온실효과"
+     ]
+    }
+   ],
+   "hint": "온실에 빗댄 이름입니다.",
+   "explanation": "수증기와 이산화 탄소가 대표적인 온실 기체입니다.\n온실 효과가 없으면 지구는 매우 추웠을 것입니다.",
+   "source_lesson": "c4-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "육지의 연간 강수량이 120, 증발량이 75(단위: 10³ km³)입니다. 바다로 흘러가는 물의 양은 얼마일까요?",
+   "answer": "45",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "남는 물이 바다로 갑니다.",
+   "explanation": "강수량 − 증발량 = 120 − 75 = 45입니다.\n이만큼이 하천과 지하수로 바다에 갑니다.",
+   "source_lesson": "c4-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "석탄과 석유를 태우면 지권의 탄소가 {{1}} 형태로 기권에 들어갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이산화 탄소",
+      "이산화탄소",
+      "CO₂",
+      "CO2"
+     ]
+    }
+   ],
+   "hint": "대표적인 온실 기체입니다.",
+   "explanation": "화석 연료 속 탄소가 산소와 결합해 이산화 탄소가 됩니다.\n대기 중 이산화 탄소 증가의 주된 원인입니다.",
+   "source_lesson": "c4-ch01-l04"
+  }
+ ]
+}

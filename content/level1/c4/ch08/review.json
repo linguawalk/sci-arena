@@ -1,0 +1,188 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch08",
+  "no": 8,
+  "title": "은하와 우주"
+ },
+ "review": {
+  "id": "c4-ch08-review",
+  "title": "은하와 우주 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "우리은하는 {{1}} 나선 은하입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "막대"
+     ]
+    }
+   ],
+   "hint": "중심에 있는 구조의 모양입니다.",
+   "explanation": "중심을 막대 구조가 가로지릅니다.\n태양은 나선팔에 있습니다.",
+   "source_lesson": "c4-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "나선팔이 없고 늙은 붉은 별이 많으며 성간 물질이 적은 은하는 {{1}} 은하입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "타원"
+     ]
+    }
+   ],
+   "hint": "모양에서 온 이름입니다.",
+   "explanation": "새로운 별이 거의 생기지 않습니다.\n허블 분류의 한 종류입니다.",
+   "source_lesson": "c4-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "별처럼 보이지만 매우 멀고 은하보다 수백 배 밝은 천체는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "퀘이사"
+     ]
+    }
+   ],
+   "hint": "특이 은하의 한 종류입니다.",
+   "explanation": "적색 편이가 매우 큽니다.\n초기 우주의 천체입니다.",
+   "source_lesson": "c4-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "적색 편이량 z가 0.05인 은하의 후퇴 속도는 몇 km/s일까요? (c = 300,000 km/s)",
+   "answer": "15000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = c × z입니다.",
+   "explanation": "v = 300,000 × 0.05 = 15000 km/s입니다.\n빛의 속도보다 훨씬 느릴 때 쓰는 식입니다.",
+   "source_lesson": "c4-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "허블 상수가 70 km/s/Mpc일 때 거리 400 Mpc인 은하의 후퇴 속도는 몇 km/s일까요?",
+   "answer": "28000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = H × r입니다.",
+   "explanation": "v = 70 × 400 = 28000 km/s입니다.\n거리에 비례합니다.",
+   "source_lesson": "c4-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "멀리 있는 은하일수록 빠르게 멀어진다는 것은 우주가 {{1}}하고 있다는 뜻입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "팽창"
+     ]
+    }
+   ],
+   "hint": "부피가 커지는 것입니다.",
+   "explanation": "허블 법칙의 의미입니다.\n빅뱅 우주론의 근거가 됩니다.",
+   "source_lesson": "c4-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "우주 배경 복사의 온도는 약 몇 K일까요?",
+   "answer": "2.7",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "3 K보다 조금 낮습니다.",
+   "explanation": "약 2.7 K에 해당하는 마이크로파입니다.\n모든 방향에서 거의 균일합니다.",
+   "source_lesson": "c4-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "우주의 수소와 헬륨의 질량비는 약 {{1}} : 1입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "3"
+     ]
+    }
+   ],
+   "hint": "헬륨이 약 25%입니다.",
+   "explanation": "빅뱅 이론의 예측과 일치합니다.\n헬륨은 약 25%입니다.",
+   "source_lesson": "c4-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "은하 바깥쪽의 회전 속도가 줄지 않는 것은 {{1}}의 존재를 알려 줍니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "암흑 물질",
+      "암흑물질"
+     ]
+    }
+   ],
+   "hint": "보이지 않는 물질입니다.",
+   "explanation": "보이지 않는 질량이 은하 바깥까지 퍼져 있습니다.\n중력 렌즈도 증거입니다.",
+   "source_lesson": "c4-ch08-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "먼 Ia형 초신성 관측으로 우주가 가속 팽창한다는 것이 밝혀졌고, 그 원인으로 {{1}}가 도입되었습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "암흑 에너지",
+      "암흑에너지"
+     ]
+    }
+   ],
+   "hint": "팽창을 가속시키는 에너지입니다.",
+   "explanation": "우주의 약 68%를 차지합니다.\n공간을 밀어내는 효과를 냅니다.",
+   "source_lesson": "c4-ch08-l04"
+  }
+ ]
+}

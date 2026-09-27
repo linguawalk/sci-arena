@@ -1,0 +1,398 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch02",
+  "no": 2,
+  "title": "판 구조론"
+ },
+ "lesson": {
+  "id": "c4-ch02-l02",
+  "no": 2,
+  "title": "해저 확장설과 판 구조론",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "바다 밑의 거대한 산맥",
+   "body": [
+    "제2차 세계 대전 무렵 음파로 바다의 깊이를 재는 음향 측심법이 발달하면서 바다 밑의 모습이 드러났습니다.",
+    "대양 한가운데에는 길이가 수만 km인 해저 산맥(해령)이 있었고, 대륙 가장자리에는 깊은 골짜기(해구)가 있었습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "해령에서 새로운 해양 지각이 만들어져 양쪽으로 멀어진다는 학설을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "해저 확장설",
+      "해저확장설"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "헤스와 디츠가 1960년대 초에 제안했습니다.\n해양 지각은 해구에서 맨틀로 들어가 사라집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "해저 확장의 증거",
+   "body": [
+    "해령 아래에서 뜨거운 맨틀 물질이 올라와 새로운 해양 지각이 만들어지고, 양쪽으로 밀려나며 해저가 넓어집니다. 오래된 해양 지각은 해구에서 맨틀 속으로 들어갑니다(섭입).",
+    "그 증거로, 해령에서 멀어질수록 해양 지각의 나이가 많아지고 그 위의 퇴적물이 두꺼워집니다. 가장 오래된 해양 지각도 약 2억 년 정도로 대륙 지각보다 훨씬 젊습니다.",
+    "지구 자기장은 여러 번 역전되었는데, 해령 양쪽의 해양 지각에는 정자극기와 역자극기의 고지자기 줄무늬가 해령을 축으로 대칭으로 나타납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "해령에서 멀어질수록 해양 지각의 나이는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "많아",
+      "늘어",
+      "오래되어"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "해령에서 만들어진 지각이 양쪽으로 밀려나기 때문입니다.\n해령 축의 지각이 가장 젊습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "해령 양쪽의 고지자기 줄무늬는 해령을 축으로 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대칭"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "해령에서 만들어진 지각이 양쪽으로 같은 속도로 이동하기 때문입니다.\n자기장 역전 기록이 양쪽에 똑같이 남습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "해양 지각은 해구에서 계속 사라지기 때문에 대륙 지각보다 나이가 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "젊"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가장 오래된 해양 지각도 약 2억 년입니다.\n대륙 지각에는 40억 년 된 암석도 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "해령에서 100 km 떨어진 해양 지각의 나이가 200만 년이라면 한쪽 판의 확장 속도는?",
+   "steps": [
+    "100 km = 10,000,000 cm입니다.",
+    "속도 = 10,000,000 cm ÷ 2,000,000년 = 5 cm/년입니다."
+   ],
+   "answer": "5 cm/년"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "해령에서 200 km 떨어진 해양 지각의 나이가 400만 년입니다. 한쪽 판의 확장 속도는 몇 cm/년일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "200 km = 2 × 10⁷ cm입니다.\n2 × 10⁷ ÷ (4 × 10⁶) = 5 cm/년입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "한쪽 판이 해령에서 2 cm/년의 속도로 멀어집니다. 1000만 년 동안 몇 km 이동할까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "2 cm × 10⁷년 = 2 × 10⁷ cm입니다.\n= 200 km입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "판 구조론",
+   "body": [
+    "지각과 맨틀 윗부분을 합친 단단한 층(두께 약 100 km)을 암석권이라고 하며, 여러 개의 판으로 나뉘어 있습니다.",
+    "암석권 아래에는 부분적으로 녹아 유동성이 있는 연약권이 있어, 판은 연약권 위를 1년에 수 cm씩 이동합니다. 해양 지각을 포함한 판을 해양판, 대륙 지각을 포함한 판을 대륙판이라고 합니다.",
+    "판 구조론은 지진, 화산, 산맥이 판의 경계에서 판들의 상대 운동으로 생긴다고 설명합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지각과 맨틀 윗부분으로 이루어진 단단한 층으로, 판을 이루는 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "암석권"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "암석권의 두께는 약 100 km입니다.\n여러 조각(판)으로 나뉘어 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "암석권 아래에서 부분적으로 녹아 있어 판이 그 위를 움직일 수 있게 하는 층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "연약권"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "연약권은 고체이지만 유동성이 있습니다.\n판이 미끄러져 이동할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지진과 화산은 주로 판의 {{1}}에 집중되어 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경계",
+      "경계부"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "판들이 서로 멀어지거나 부딪히거나 스치는 곳입니다.\n환태평양 지진대가 대표적입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "지진과 화산이 판의 경계에 집중되는 이유는?",
+   "steps": [
+    "판의 내부는 하나로 단단하게 움직입니다.",
+    "판의 경계에서는 판들이 멀어지거나 충돌하거나 어긋나며 큰 힘이 작용합니다.",
+    "그래서 암석이 깨지는 지진과 마그마가 생기는 화산 활동이 경계에서 일어납니다."
+   ],
+   "answer": "판들의 상대 운동이 경계에서 일어나기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "해저 확장설에서 판 구조론으로",
+   "body": [
+    "해저 확장설은 해양 지각이 해령에서 생기고 해구에서 사라진다는 것을 밝혔습니다.",
+    "판 구조론은 이를 확장해 대륙과 해양을 모두 포함한 암석권의 판이 움직인다고 설명하며, 지구 표면의 거의 모든 지질 현상을 하나로 설명하는 이론이 되었습니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "판이 1년에 5 cm씩 움직인다면 100만 년 동안 얼마나 이동할까요?",
+   "steps": [
+    "5 cm × 1,000,000년 = 5,000,000 cm입니다.",
+    "= 50 km입니다."
+   ],
+   "answer": "50 km"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "판이 1년에 5 cm씩 움직인다면 100만 년 동안 몇 km 이동할까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1 km = 100,000 cm입니다.",
+   "explanation": "5 × 10⁶ cm = 50 km입니다.\n짧은 시간엔 작지만 지질 시대 동안 대륙을 옮깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해령에서 해구 쪽으로 갈수록 해양 지각의 나이는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": "해령에서 멀어질수록입니다.",
+   "explanation": "해령에서 생긴 지각이 해구 쪽으로 이동합니다.\n해구 근처의 지각이 가장 오래되었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해령에서 멀어질수록 해양 지각 위에 쌓인 퇴적물의 두께는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "두꺼워",
+      "두터워"
+     ]
+    }
+   ],
+   "hint": "시간이 오래 지날수록입니다.",
+   "explanation": "오래된 지각일수록 퇴적물이 쌓인 시간이 깁니다.\n해저 확장의 증거입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해양 지각의 고지자기 줄무늬는 지구 자기장의 {{1}}이 기록된 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역전"
+     ]
+    }
+   ],
+   "hint": "자기장 방향이 뒤바뀌는 현상입니다.",
+   "explanation": "지구 자기장의 N극과 S극은 여러 번 바뀌었습니다.\n그때마다 만들어진 지각에 방향이 기록되었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해양 지각 가운데 가장 젊은 것은 {{1}} 축 부근에 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "해령"
+     ]
+    }
+   ],
+   "hint": "새 지각이 생기는 곳입니다.",
+   "explanation": "해령에서 새로운 지각이 만들어집니다.\n그래서 해령 축의 암석이 가장 젊습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "지표에서 깊은 곳으로 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "하부 맨틀"
+    },
+    {
+     "id": "b",
+     "text": "암석권"
+    },
+    {
+     "id": "c",
+     "text": "외핵"
+    },
+    {
+     "id": "d",
+     "text": "연약권"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "판이 가장 바깥에 있습니다.",
+   "explanation": "암석권(판) 아래에 연약권, 그 아래 하부 맨틀, 그리고 외핵이 있습니다.\n판은 연약권 위를 움직입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "해저 확장설을 뒷받침하는 증거를 두 가지 이상 설명해 보세요.",
+   "hint": "나이, 퇴적물, 고지자기 중에서 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "나이"
+     ],
+     [
+      "퇴적물"
+     ],
+     [
+      "고지자기",
+      "줄무늬",
+      "대칭"
+     ],
+     [
+      "해령"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "해령에서 멀어질수록 해양 지각의 나이가 많아지고, 그 위에 쌓인 퇴적물이 두꺼워집니다. 또 해령 양쪽의 고지자기 줄무늬가 해령을 축으로 대칭을 이루는데, 이는 해령에서 만들어진 지각이 양쪽으로 멀어졌다는 증거입니다."
+  }
+ ]
+}

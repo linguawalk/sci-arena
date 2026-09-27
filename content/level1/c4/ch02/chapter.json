@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c4",
+  "chapter": {
+    "id": "c4-ch02",
+    "no": 2,
+    "title": "판 구조론"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c4-ch02-l01",
+      "title": "대륙 이동설",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c4-ch02-l02",
+      "title": "해저 확장설과 판 구조론",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c4-ch02-l03",
+      "title": "판의 경계",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c4-ch02-l04",
+      "title": "맨틀 대류와 플룸",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c4-ch02-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

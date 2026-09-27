@@ -36,7 +36,7 @@
       "id": "c4",
       "title": "지학Ⅰ",
       "description": "지구 시스템과 판 구조론, 지구의 역사, 대기와 해양, 별과 우주",
-      "available": false,
+      "available": true,
       "subject": "earth",
       "grade": "Ⅰ"
     },

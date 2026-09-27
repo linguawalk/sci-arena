@@ -1,0 +1,739 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch04",
+  "no": 4,
+  "title": "지구의 역사"
+ },
+ "lesson": {
+  "id": "c4-ch04-l03",
+  "no": 3,
+  "title": "절대 연령",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "암석 속의 시계",
+   "body": [
+    "상대 연령으로는 어느 지층이 먼저인지만 알 수 있습니다. 그렇다면 지구가 46억 살이라는 것은 어떻게 알았을까요?",
+    "암석 속에는 일정한 속도로 변하는 원자들이 들어 있어 시계 역할을 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "방사성 동위 원소를 이용해 숫자로 구한 암석이나 지층의 나이를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "절대 연령",
+      "절대연령"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "절대 연령은 실제 나이(년)로 나타냅니다.\n상대 연령과 함께 지구의 역사를 정리합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "방사성 붕괴와 반감기",
+   "body": [
+    "방사성 동위 원소(모원소)는 일정한 속도로 붕괴해 다른 원소(자원소)로 바뀝니다. 모원소의 양이 처음의 절반으로 줄어드는 데 걸리는 시간을 반감기라고 합니다.",
+    "반감기가 1번 지나면 모원소는 1/2, 2번 지나면 1/4, 3번 지나면 1/8이 남습니다. n번 지나면 (1/2)ⁿ이 남고, 줄어든 만큼 자원소가 늘어납니다.",
+    "암석 속 모원소와 자원소의 비율을 재면 반감기가 몇 번 지났는지 알 수 있고, 여기에 반감기를 곱하면 절대 연령이 됩니다."
+   ],
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "억 년",
+     "ylabel": "모원소(%)",
+     "xmin": 0,
+     "xmax": 4,
+     "ymin": 0,
+     "ymax": 100,
+     "xstep": 1,
+     "ystep": 25,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        100.0,
+        -63.6414
+       ],
+       "from": 0.0,
+       "to": 0.25,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        97.4686,
+        -53.5159
+       ],
+       "from": 0.25,
+       "to": 0.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        93.2113,
+        -45.0013
+       ],
+       "from": 0.5,
+       "to": 0.75,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        87.8414,
+        -37.8414
+       ],
+       "from": 0.75,
+       "to": 1.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        81.8207,
+        -31.8207
+       ],
+       "from": 1.0,
+       "to": 1.25,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        75.4922,
+        -26.7579
+       ],
+       "from": 1.25,
+       "to": 1.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        69.1063,
+        -22.5006
+       ],
+       "from": 1.5,
+       "to": 1.75,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        62.8414,
+        -18.9207
+       ],
+       "from": 1.75,
+       "to": 2.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        56.8207,
+        -15.9104
+       ],
+       "from": 2.0,
+       "to": 2.25,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        51.1251,
+        -13.379
+       ],
+       "from": 2.25,
+       "to": 2.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        45.8035,
+        -11.2503
+       ],
+       "from": 2.5,
+       "to": 2.75,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        40.8811,
+        -9.4604
+       ],
+       "from": 2.75,
+       "to": 3.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        36.3655,
+        -7.9552
+       ],
+       "from": 3.0,
+       "to": 3.25,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        32.252,
+        -6.6895
+       ],
+       "from": 3.25,
+       "to": 3.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        28.5269,
+        -5.6252
+       ],
+       "from": 3.5,
+       "to": 3.75,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        25.1707,
+        -4.7302
+       ],
+       "from": 3.75,
+       "to": 4.0,
+       "color": "#1D3FA8"
+      }
+     ],
+     "points": [
+      [
+       1,
+       50,
+       "50%"
+      ],
+      [
+       2,
+       25,
+       "25%"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "방사성 동위 원소의 양이 처음의 절반으로 줄어드는 데 걸리는 시간을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반감기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반감기는 원소마다 다르고 일정합니다.\n그래서 시계로 쓸 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "반감기가 2번 지나면 처음 모원소의 몇 %가 남을까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1/2 × 1/2 = 1/4입니다.\n25%가 남습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "모원소가 처음의 12.5%만 남아 있다면 반감기가 몇 번 지났을까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "12.5% = 1/8 = (1/2)³입니다.\n반감기가 3번 지났습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "반감기가 1억 년인 원소가 처음의 25% 남아 있다면 암석의 나이는?",
+   "steps": [
+    "25% = 1/4 = (1/2)²이므로 반감기가 2번 지났습니다.",
+    "나이 = 2 × 1억 년 = 2억 년입니다."
+   ],
+   "answer": "2억 년"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "탄소-14의 반감기는 5730년입니다. 나무 화석에 탄소-14가 처음의 25% 남아 있다면 몇 년 전의 것일까요?",
+   "answer": "11460",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "25%이면 반감기가 2번 지났습니다.\n5730 × 2 = 11460년입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "반감기가 1억 년인 원소의 모원소와 자원소의 비가 1 : 3입니다. 암석의 나이는 몇 억 년일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "모원소가 전체의 1/4 = 25%입니다.\n반감기 2번이므로 2억 년입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "절대 연령 측정에 쓰는 원소",
+   "body": [
+    "탄소-14(반감기 약 5730년)는 생물의 유해에 들어 있어 수만 년 이내의 유물이나 화석의 나이를 잽니다. 칼륨-40(약 13억 년), 우라늄-238(약 45억 년)처럼 반감기가 긴 원소는 오래된 암석의 나이를 잽니다.",
+    "절대 연령은 주로 화성암으로 측정합니다. 화성암은 마그마가 굳을 때부터 시계가 시작되지만, 퇴적암은 여러 시기의 암석 조각이 섞여 있어 쌓인 시기를 직접 알기 어렵습니다.",
+    "반감기는 온도, 압력 같은 외부 조건의 영향을 받지 않아 정확한 시계가 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "반감기가 약 5730년이라 수만 년 이내의 생물 유해의 나이를 재는 데 쓰는 원소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "탄소-14",
+      "탄소 14",
+      "C-14",
+      "¹⁴C",
+      "탄소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "살아 있는 생물은 탄소-14를 계속 흡수하다가 죽으면 흡수를 멈춥니다.\n그때부터 탄소-14가 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "절대 연령을 측정하기에 알맞은 암석은 주로 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "화성암"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "화성암은 마그마가 굳을 때 방사성 시계가 시작됩니다.\n퇴적암은 섞인 입자의 나이가 제각각입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "반감기는 온도나 압력에 따라 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지 않는다",
+      "변하지 않습니다",
+      "달라지지 않는다",
+      "일정하다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원자핵의 붕괴는 외부 조건과 관계없이 일어납니다.\n그래서 믿을 수 있는 시계가 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "퇴적층 아래의 화성암이 1억 년, 퇴적층을 뚫은 관입암이 5천만 년이라면 퇴적층의 나이는?",
+   "steps": [
+    "퇴적층은 아래 화성암 위에 쌓였으므로 1억 년보다 젊습니다.",
+    "관입암이 퇴적층을 뚫었으므로 퇴적층은 5천만 년보다 오래되었습니다.",
+    "퇴적층은 5천만 년 ~ 1억 년 사이에 쌓였습니다."
+   ],
+   "answer": "5천만 년 ~ 1억 년 사이"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "상대 연령과 절대 연령의 결합",
+   "body": [
+    "퇴적암의 나이는 직접 재기 어렵지만, 위아래나 관통한 화성암의 절대 연령과 상대 연령의 법칙을 함께 쓰면 범위를 알아낼 수 있습니다.",
+    "이렇게 정한 나이를 바탕으로 지질 시대의 경계가 몇 년 전인지 정해졌습니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "앞에서 본 붕괴 곡선에서 모원소가 처음의 50%가 되는 시간은?",
+   "steps": [
+    "세로축의 50%에서 곡선과 만나는 곳을 찾습니다.",
+    "그때의 가로축 값이 1억 년입니다.",
+    "따라서 이 원소의 반감기는 1억 년입니다."
+   ],
+   "answer": "1억 년"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "아래 그래프에서 모원소가 처음의 50%가 되는 데 걸리는 시간은 몇 억 년일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "세로축 50%에서 곡선과 만나는 점을 찾으세요.",
+   "explanation": "50%가 되는 가로축 값이 1억 년입니다.\n이것이 반감기입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "억 년",
+     "ylabel": "모원소(%)",
+     "xmin": 0,
+     "xmax": 4,
+     "ymin": 0,
+     "ymax": 100,
+     "xstep": 1,
+     "ystep": 25,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        100.0,
+        -63.6414
+       ],
+       "from": 0.0,
+       "to": 0.25,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        97.4686,
+        -53.5159
+       ],
+       "from": 0.25,
+       "to": 0.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        93.2113,
+        -45.0013
+       ],
+       "from": 0.5,
+       "to": 0.75,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        87.8414,
+        -37.8414
+       ],
+       "from": 0.75,
+       "to": 1.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        81.8207,
+        -31.8207
+       ],
+       "from": 1.0,
+       "to": 1.25,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        75.4922,
+        -26.7579
+       ],
+       "from": 1.25,
+       "to": 1.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        69.1063,
+        -22.5006
+       ],
+       "from": 1.5,
+       "to": 1.75,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        62.8414,
+        -18.9207
+       ],
+       "from": 1.75,
+       "to": 2.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        56.8207,
+        -15.9104
+       ],
+       "from": 2.0,
+       "to": 2.25,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        51.1251,
+        -13.379
+       ],
+       "from": 2.25,
+       "to": 2.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        45.8035,
+        -11.2503
+       ],
+       "from": 2.5,
+       "to": 2.75,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        40.8811,
+        -9.4604
+       ],
+       "from": 2.75,
+       "to": 3.0,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        36.3655,
+        -7.9552
+       ],
+       "from": 3.0,
+       "to": 3.25,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        32.252,
+        -6.6895
+       ],
+       "from": 3.25,
+       "to": 3.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        28.5269,
+        -5.6252
+       ],
+       "from": 3.5,
+       "to": 3.75,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        25.1707,
+        -4.7302
+       ],
+       "from": 3.75,
+       "to": 4.0,
+       "color": "#1D3FA8"
+      }
+     ],
+     "points": [
+      [
+       1,
+       50,
+       "50%"
+      ],
+      [
+       2,
+       25,
+       "25%"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "반감기가 3번 지났을 때 자원소는 처음 모원소 양의 몇 %일까요?",
+   "answer": "87.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "줄어든 모원소만큼 자원소가 생깁니다.",
+   "explanation": "모원소는 1/8 = 12.5%가 남습니다.\n자원소는 100 − 12.5 = 87.5%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "반감기가 2억 년인 원소의 모원소와 자원소의 비가 1 : 1입니다. 암석의 나이는 몇 억 년일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1 : 1이면 절반이 붕괴한 것입니다.",
+   "explanation": "모원소가 50%이므로 반감기가 1번 지났습니다.\n나이는 2억 년입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "탄소-14는 반감기가 짧아 수천만 년 된 공룡 화석의 나이를 재는 데 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "부적합",
+      "부적당"
+     ]
+    }
+   ],
+   "hint": "알맞지 않다는 뜻입니다.",
+   "explanation": "수천만 년이 지나면 탄소-14가 거의 남지 않습니다.\n오래된 암석은 반감기가 긴 원소로 측정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "방사성 모원소가 붕괴해서 만들어진 원소를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자원소"
+     ]
+    }
+   ],
+   "hint": "모원소와 짝을 이루는 말입니다.",
+   "explanation": "모원소가 줄어든 만큼 자원소가 늘어납니다.\n두 양의 비율로 나이를 구합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "반감기가 7억 년인 우라늄-235가 처음의 25% 남아 있습니다. 암석의 나이는 몇 억 년일까요?",
+   "answer": "14",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "반감기가 몇 번 지났는지 먼저 구하세요.",
+   "explanation": "25%이면 반감기가 2번 지났습니다.\n7 × 2 = 14억 년입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "방사성 동위 원소를 이용해 암석의 절대 연령을 측정하는 원리를 설명해 보세요.",
+   "hint": "반감기와 비율을 연결하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "방사성",
+      "모원소"
+     ],
+     [
+      "반감기"
+     ],
+     [
+      "자원소",
+      "비율"
+     ],
+     [
+      "곱",
+      "나이"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "방사성 동위 원소(모원소)는 일정한 반감기마다 절반씩 붕괴해 자원소로 바뀝니다. 암석 속 모원소와 자원소의 비율을 측정해 반감기가 몇 번 지났는지 구하고, 여기에 반감기를 곱하면 암석의 절대 연령을 알 수 있습니다."
+  }
+ ]
+}

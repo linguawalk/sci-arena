@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c4",
+  "chapter": {
+    "id": "c4-ch01",
+    "no": 1,
+    "title": "지구 시스템"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c4-ch01-l01",
+      "title": "지구 시스템의 구성",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c4-ch01-l02",
+      "title": "권역 간의 상호작용",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c4-ch01-l03",
+      "title": "지구 시스템의 에너지",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c4-ch01-l04",
+      "title": "물과 탄소의 순환",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c4-ch01-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

@@ -1,0 +1,203 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch05",
+  "no": 5,
+  "title": "대기와 날씨"
+ },
+ "review": {
+  "id": "c4-ch05-review",
+  "title": "대기와 날씨 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "우리나라 겨울에 영향을 주는 한랭 건조한 기단은 {{1}} 기단입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시베리아"
+     ]
+    }
+   ],
+   "hint": "북쪽 대륙에서 생긴 기단입니다.",
+   "explanation": "시베리아 대륙에서 생깁니다.\n북서 계절풍을 몰고 옵니다.",
+   "source_lesson": "c4-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "좁은 지역에 소나기를 내리고 통과 후 기온이 내려가는 전선은 {{1}} 전선입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "한랭"
+     ]
+    }
+   ],
+   "hint": "찬 공기가 밀고 들어오는 전선입니다.",
+   "explanation": "찬 공기가 따뜻한 공기를 급하게 밀어 올립니다.\n적운형 구름이 생깁니다.",
+   "source_lesson": "c4-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "장마 전선처럼 두 기단의 세력이 비슷해 오래 머무는 전선은 {{1}} 전선입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정체"
+     ]
+    }
+   ],
+   "hint": "움직이지 않고 머무는 전선입니다.",
+   "explanation": "한곳에 오래 머물러 비가 여러 날 내립니다.\n초여름에 나타납니다.",
+   "source_lesson": "c4-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "저기압 중심에서는 {{1}} 기류가 생겨 흐리거나 비가 옵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상승"
+     ]
+    }
+   ],
+   "hint": "공기가 올라가는 흐름입니다.",
+   "explanation": "공기가 올라가며 식어 구름이 생깁니다.\n고기압에서는 하강 기류가 생깁니다.",
+   "source_lesson": "c4-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "온대 저기압은 편서풍을 따라 {{1}}에서 동으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "서"
+     ]
+    }
+   ],
+   "hint": "해가 지는 쪽입니다.",
+   "explanation": "그래서 우리나라 날씨는 서쪽에서 다가옵니다.\n중위도의 대표적인 날씨 변화입니다.",
+   "source_lesson": "c4-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "온대 저기압 중심의 서쪽(남서쪽)에는 {{1}} 전선이 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "한랭"
+     ]
+    }
+   ],
+   "hint": "나중에 지나가는 전선입니다.",
+   "explanation": "동쪽에는 온난 전선, 서쪽에는 한랭 전선이 있습니다.\n한랭 전선이 나중에 지나갑니다.",
+   "source_lesson": "c4-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "태풍의 에너지원은 수증기가 응결할 때 방출하는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "숨은열",
+      "잠열",
+      "응결열"
+     ]
+    }
+   ],
+   "hint": "상태 변화 때 나오는 열입니다.",
+   "explanation": "따뜻한 바다의 수증기가 공급될 때 발달합니다.\n육지에 오르면 약해집니다.",
+   "source_lesson": "c4-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "태풍 진행 방향의 오른쪽은 바람이 더 강한 {{1}} 반원입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "위험"
+     ]
+    }
+   ],
+   "hint": "조심해야 하는 쪽입니다.",
+   "explanation": "회전 바람과 이동 방향이 같아 합쳐집니다.\n왼쪽은 안전 반원입니다.",
+   "source_lesson": "c4-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "뇌우의 성숙 단계에서는 상승 기류와 {{1}} 기류가 함께 나타납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "하강"
+     ]
+    }
+   ],
+   "hint": "상승과 반대 방향입니다.",
+   "explanation": "천둥, 번개, 우박이 가장 심합니다.\n소멸 단계에서는 하강 기류만 남습니다.",
+   "source_lesson": "c4-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "봄철 황사는 사막의 모래 먼지가 {{1}}을 타고 날아오는 현상입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편서풍"
+     ]
+    }
+   ],
+   "hint": "서쪽에서 부는 바람입니다.",
+   "explanation": "중위도 상공의 편서풍이 먼지를 동쪽으로 운반합니다.\n주로 봄에 나타납니다.",
+   "source_lesson": "c4-ch05-l04"
+  }
+ ]
+}

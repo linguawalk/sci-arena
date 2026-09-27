@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c4",
+  "chapter": {
+    "id": "c4-ch05",
+    "no": 5,
+    "title": "대기와 날씨"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c4-ch05-l01",
+      "title": "기단과 전선",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c4-ch05-l02",
+      "title": "기압과 온대 저기압",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c4-ch05-l03",
+      "title": "태풍",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c4-ch05-l04",
+      "title": "악기상",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c4-ch05-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

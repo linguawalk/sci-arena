@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c4",
+  "chapter": {
+    "id": "c4-ch06",
+    "no": 6,
+    "title": "해양과 기후"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c4-ch06-l01",
+      "title": "해수의 성질",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c4-ch06-l02",
+      "title": "해류와 해수의 순환",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c4-ch06-l03",
+      "title": "엘니뇨와 대기–해양 상호작용",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c4-ch06-l04",
+      "title": "기후 변화",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c4-ch06-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

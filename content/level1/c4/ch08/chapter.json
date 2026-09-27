@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c4",
+  "chapter": {
+    "id": "c4-ch08",
+    "no": 8,
+    "title": "은하와 우주"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c4-ch08-l01",
+      "title": "은하의 분류",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c4-ch08-l02",
+      "title": "허블 법칙",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c4-ch08-l03",
+      "title": "빅뱅 우주론",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c4-ch08-l04",
+      "title": "암흑 물질과 암흑 에너지",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c4-ch08-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

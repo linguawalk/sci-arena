@@ -1,0 +1,188 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch07",
+  "no": 7,
+  "title": "별"
+ },
+ "review": {
+  "id": "c4-ch07-review",
+  "title": "별 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "표면 온도가 높은 별일수록 최대 복사 파장이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": "파란빛의 파장을 생각하세요.",
+   "explanation": "빈의 변위 법칙에 따라 파장은 온도에 반비례합니다.\n그래서 뜨거운 별이 파랗게 보입니다.",
+   "source_lesson": "c4-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "표면 온도가 2900 K인 별의 최대 복사 파장은 몇 μm일까요? (λmax = 2900 ÷ T)",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "식에 그대로 넣으세요.",
+   "explanation": "2900 ÷ 2900 = 1 μm입니다.\n적외선 영역으로 붉은 별입니다.",
+   "source_lesson": "c4-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "표면 온도가 같고 반지름이 3배인 별의 광도는 몇 배일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "반지름의 제곱입니다.",
+   "explanation": "광도는 R²에 비례합니다.\n3² = 9배입니다.",
+   "source_lesson": "c4-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "H-R도에서 별의 약 90%가 속하는 집단은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주계열성"
+     ]
+    }
+   ],
+   "hint": "왼쪽 위에서 오른쪽 아래로 이어진 띠입니다.",
+   "explanation": "중심에서 수소 핵융합을 합니다.\n태양도 주계열성입니다.",
+   "source_lesson": "c4-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "H-R도의 왼쪽 아래에 있는 작고 뜨거운 별은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "백색 왜성",
+      "백색왜성"
+     ]
+    }
+   ],
+   "hint": "하얗고 작은 별입니다.",
+   "explanation": "뜨겁지만 매우 작아 어둡습니다.\n태양의 최종 모습입니다.",
+   "source_lesson": "c4-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "질량이 큰 주계열성일수록 수명이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": "연료 소모 속도를 생각하세요.",
+   "explanation": "연료를 훨씬 빠르게 태웁니다.\n무거운 별은 수천만 년 만에 생을 마칩니다.",
+   "source_lesson": "c4-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "핵융합 에너지는 질량 {{1}}이 E = mc²에 따라 바뀐 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "결손"
+     ]
+    }
+   ],
+   "hint": "줄어든 질량을 부르는 말입니다.",
+   "explanation": "반응 뒤 줄어든 질량이 에너지가 됩니다.\n수소 핵융합에서는 약 0.7%입니다.",
+   "source_lesson": "c4-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "무거운 별의 중심에서 핵융합으로 만들어지는 마지막 원소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "철",
+      "Fe"
+     ]
+    }
+   ],
+   "hint": "가장 안정한 원자핵입니다.",
+   "explanation": "철 이후에는 핵융합으로 에너지를 얻을 수 없습니다.\n중심핵이 붕괴해 초신성 폭발이 일어납니다.",
+   "source_lesson": "c4-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "행성의 반지름이 별의 1/20이라면 식 현상 때 별의 밝기는 몇 % 줄어들까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "반지름 비의 제곱을 %로 바꾸세요.",
+   "explanation": "(1/20)² = 1/400 = 0.25%입니다.\n행성이 클수록 많이 줄어듭니다.",
+   "source_lesson": "c4-ch07-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "광도가 큰 별일수록 생명 가능 지대는 별에서 멀어지고 폭이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "넓어"
+     ]
+    }
+   ],
+   "hint": "범위가 커집니다.",
+   "explanation": "밝은 별은 넓은 범위를 적당히 데웁니다.\n어두운 별은 좁고 가깝습니다.",
+   "source_lesson": "c4-ch07-l04"
+  }
+ ]
+}

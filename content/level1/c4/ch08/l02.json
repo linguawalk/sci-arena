@@ -1,0 +1,442 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c4",
+  "title": "지학Ⅰ"
+ },
+ "chapter": {
+  "id": "c4-ch08",
+  "no": 8,
+  "title": "은하와 우주"
+ },
+ "lesson": {
+  "id": "c4-ch08-l02",
+  "no": 2,
+  "title": "허블 법칙",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "멀어지는 은하들",
+   "body": [
+    "1920년대 허블은 은하들의 거리와 스펙트럼을 분석하다가 놀라운 사실을 발견했습니다. 거의 모든 은하가 우리로부터 멀어지고 있고, 멀리 있는 은하일수록 더 빠르게 멀어진다는 것입니다.",
+    "이것은 우주가 팽창하고 있다는 뜻이었습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "멀어지는 은하의 스펙트럼에서 흡수선이 파장이 긴 쪽으로 이동하는 현상을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적색 편이",
+      "적색편이"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "광원이 멀어지면 빛의 파장이 길어집니다(도플러 효과).\n다가오면 청색 편이가 나타납니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "적색 편이와 후퇴 속도",
+   "body": [
+    "적색 편이량 z는 흡수선 파장의 변화량을 원래 파장으로 나눈 값입니다: z = (관측 파장 − 원래 파장) ÷ 원래 파장.",
+    "은하의 속도가 빛의 속도보다 훨씬 느리면 은하가 멀어지는 속도(후퇴 속도)는 v = c × z입니다. 빛의 속도 c는 약 300,000 km/s입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "우리에게서 멀어지는 은하의 스펙트럼은 {{1}} 편이를 보입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적색"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "파장이 긴 붉은색 쪽으로 흡수선이 이동합니다.\n멀어지는 속도가 빠를수록 많이 이동합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "어떤 은하의 적색 편이량 z가 0.01입니다. 후퇴 속도는 몇 km/s일까요? (c = 300,000 km/s)",
+   "answer": "3000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v = c × z = 300,000 × 0.01입니다.\n= 3000 km/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "원래 파장이 500 nm인 흡수선이 505 nm에서 관측되었습니다. 은하의 후퇴 속도는 몇 km/s일까요? (c = 300,000 km/s)",
+   "answer": "3000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "z = (505 − 500) ÷ 500 = 0.01입니다.\nv = 300,000 × 0.01 = 3000 km/s입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "원래 파장 600 nm인 흡수선이 612 nm에서 관측되었다면 후퇴 속도는?",
+   "steps": [
+    "z = (612 − 600) ÷ 600 = 0.02입니다.",
+    "v = 300,000 × 0.02 = 6000 km/s입니다."
+   ],
+   "answer": "6000 km/s"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "허블 법칙",
+   "body": [
+    "허블은 은하의 후퇴 속도(v)가 거리(r)에 비례한다는 것을 발견했습니다: v = H × r. 비례 상수 H를 허블 상수라고 하며, 약 70 km/s/Mpc입니다(1 Mpc ≈ 326만 광년).",
+    "멀리 있는 은하일수록 더 빠르게 멀어지는 것은 우주 전체가 팽창하고 있기 때문입니다."
+   ],
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "Mpc",
+     "ylabel": "천 km/s",
+     "xmin": 0,
+     "xmax": 400,
+     "ymin": 0,
+     "ymax": 28,
+     "xstep": 100,
+     "ystep": 7,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0,
+        0.07
+       ],
+       "from": 0,
+       "to": 400
+      }
+     ],
+     "points": [
+      [
+       100,
+       7,
+       "A"
+      ],
+      [
+       200,
+       14,
+       "B"
+      ],
+      [
+       300,
+       21,
+       "C"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "멀리 있는 은하일수록 더 빠르게 멀어진다는 허블 법칙은 우주가 {{1}}하고 있다는 증거입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "팽창"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "은하 자체가 움직인다기보다 은하 사이의 공간이 늘어납니다.\n빅뱅 우주론의 중요한 근거입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 그래프(세로축 단위: 천 km/s)에서 거리가 200 Mpc인 은하 B의 후퇴 속도는 몇 km/s일까요?",
+   "answer": "14000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v = 70 × 200 = 14000 km/s입니다.\n그래프의 B점과 같습니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "Mpc",
+     "ylabel": "천 km/s",
+     "xmin": 0,
+     "xmax": 400,
+     "ymin": 0,
+     "ymax": 28,
+     "xstep": 100,
+     "ystep": 7,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0,
+        0.07
+       ],
+       "from": 0,
+       "to": 400
+      }
+     ],
+     "points": [
+      [
+       100,
+       7,
+       "A"
+      ],
+      [
+       200,
+       14,
+       "B"
+      ],
+      [
+       300,
+       21,
+       "C"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "허블 상수가 70 km/s/Mpc일 때 후퇴 속도가 7000 km/s인 은하의 거리는 몇 Mpc일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "r = v ÷ H = 7000 ÷ 70입니다.\n= 100 Mpc입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "허블 상수로 우주의 나이를 어떻게 추정할까요?",
+   "steps": [
+    "은하들이 지금 속도로 계속 멀어졌다고 가정하고 시간을 거꾸로 돌립니다.",
+    "거리 = 속도 × 시간이고, v = H × r이므로 시간 = r ÷ v = 1 ÷ H입니다.",
+    "H ≈ 70 km/s/Mpc의 역수를 계산하면 약 140억 년으로, 우주의 나이(약 138억 년)와 비슷합니다."
+   ],
+   "answer": "우주 나이 ≈ 1 ÷ H"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "팽창하는 우주에서는 어느 은하에서 보아도 다른 은하들이 멀어지므로, 우주 팽창의 {{1}}은 없습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중심"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "모든 은하가 서로 멀어집니다.\n우리은하가 특별한 위치에 있는 것이 아닙니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "풍선 비유",
+   "body": [
+    "풍선 표면에 점을 찍고 풍선을 불면, 어느 점에서 보아도 다른 점들이 멀어지고 멀리 있는 점일수록 더 빨리 멀어집니다. 우주 팽창도 이와 같습니다.",
+    "허블 상수의 역수(1/H)는 우주가 팽창을 시작한 뒤 지난 시간, 곧 우주의 나이를 대략 알려 줍니다. 허블 상수가 클수록 우주 나이는 적습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "허블 상수의 역수는 대략 우주의 {{1}}를 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "나이"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지금 속도로 거꾸로 돌리면 모든 은하가 한 점에 모이는 시간입니다.\n약 138억 년입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "허블 상수가 70 km/s/Mpc일 때 거리 50 Mpc인 은하의 후퇴 속도는?",
+   "steps": [
+    "v = H × r = 70 × 50입니다.",
+    "= 3500 km/s입니다."
+   ],
+   "answer": "3500 km/s"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "허블 상수가 70 km/s/Mpc일 때 거리 50 Mpc인 은하의 후퇴 속도는 몇 km/s일까요?",
+   "answer": "3500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = H × r입니다.",
+   "explanation": "70 × 50 = 3500 km/s입니다.\n거리에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "적색 편이량 z가 0.02인 은하의 후퇴 속도는 몇 km/s일까요? (c = 300,000 km/s)",
+   "answer": "6000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = c × z입니다.",
+   "explanation": "v = 300,000 × 0.02 = 6000 km/s입니다.\n적색 편이가 클수록 빠릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "허블 상수가 클수록 계산되는 우주의 나이는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적어",
+      "작아",
+      "짧아"
+     ]
+    }
+   ],
+   "hint": "역수 관계입니다.",
+   "explanation": "우주 나이는 허블 상수의 역수에 비례합니다.\n빠르게 팽창했다면 지금 크기에 짧은 시간에 도달했습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "풍선을 불면 표면의 모든 점이 서로 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "멀어"
+     ]
+    }
+   ],
+   "hint": "거리가 늘어납니다.",
+   "explanation": "어느 점에서 보아도 다른 점이 멀어집니다.\n우주 팽창에 중심이 없다는 비유입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "허블 상수가 70 km/s/Mpc일 때 후퇴 속도가 21000 km/s인 은하의 거리는 몇 Mpc일까요?",
+   "answer": "300",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "r = v ÷ H입니다.",
+   "explanation": "r = 21000 ÷ 70 = 300 Mpc입니다.\n그래프의 C점과 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "안드로메다은하는 청색 편이를 보이므로 우리은하에 {{1}}고 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다가오",
+      "가까워지"
+     ]
+    }
+   ],
+   "hint": "적색 편이의 반대입니다.",
+   "explanation": "가까운 은하는 서로의 중력으로 다가올 수 있습니다.\n약 40억 년 뒤 우리은하와 충돌할 것으로 예상됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "허블 법칙의 내용을 설명하고, 이것이 우주에 대해 무엇을 알려 주는지 말해 보세요.",
+   "hint": "법칙의 식과 의미를 함께 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "거리"
+     ],
+     [
+      "후퇴 속도",
+      "속도"
+     ],
+     [
+      "비례"
+     ],
+     [
+      "팽창"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "허블 법칙은 은하의 후퇴 속도가 거리에 비례한다는 것입니다(v = H × r). 멀리 있는 은하일수록 더 빠르게 멀어진다는 것은 우주 전체가 팽창하고 있다는 뜻이며, 허블 상수로 우주의 나이를 추정할 수 있습니다."
+  }
+ ]
+}
