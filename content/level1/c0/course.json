@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "level": 1,
+  "course": {
+    "id": "c0",
+    "title": "기초 과학",
+    "description": "고교 과학에 필요한 중학 과학 핵심"
+  },
+  "totals": {
+    "chapters": 1,
+    "lessons": 4,
+    "lesson_questions": 64,
+    "review_questions": 10,
+    "questions": 74
+  },
+  "chapters": [
+    {
+      "no": 1,
+      "id": "c0-ch01",
+      "title": "물질의 구성",
+      "dir": "ch01",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>코스 · sci-arena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#FAFBFD;--ink:#172033;--ink-soft:#4A5670;--grid:#DCE4F0;--grid-strong:#B9C7DD;--blue:#1D3FA8;--blue-soft:#E7ECFA;--marker:#FFD84D;--marker-soft:#FFF4C2;--ok:#1E7A50;
+  --font:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+*{box-sizing:border-box}
+html,body{margin:0;word-break:keep-all;overflow-wrap:anywhere;background:var(--paper);color:var(--ink);font-family:var(--font)}
+body{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--grid)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:700;font-size:18px;text-decoration:none;letter-spacing:-.01em}
+.logo span{background:linear-gradient(transparent 58%,var(--marker) 58%)}
+.layout{display:grid;grid-template-columns:240px 1fr;gap:40px;padding:36px 0 80px}
+nav h2{font-size:14px;font-weight:500;color:var(--ink-soft);margin:0 0 12px}
+nav ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+nav a,nav .soon{display:flex;gap:10px;padding:9px 10px;border-radius:8px;text-decoration:none;font-size:16px}
+nav a[aria-current]{background:var(--blue-soft);color:var(--blue);font-weight:700}
+nav a:hover{background:var(--blue-soft)}
+nav .no{color:var(--ink-soft);width:1.2em;font-variant-numeric:tabular-nums}
+nav .soon{color:#7C889E}
+nav .soon em{font-style:normal;font-size:13px;margin-left:auto;color:#7C889E}
+.course-head h1{font-size:34px;margin:0 0 8px;letter-spacing:-.02em}
+.course-head p{margin:0;color:var(--ink-soft);font-size:17px;line-height:1.6}
+.meter{margin:22px 0 34px;display:flex;align-items:center;gap:14px;font-size:15px;color:var(--ink-soft)}
+.meter .track{flex:1;max-width:320px;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter i{display:block;height:100%;background:var(--ok);width:0}
+.chapter{border-top:2px solid var(--ink);padding:18px 0 26px}
+.chapter h2{margin:0 0 14px;font-size:21px;display:flex;gap:12px;align-items:baseline}
+.chapter h2 .no{font-size:15px;color:var(--ink-soft);font-weight:500;font-variant-numeric:tabular-nums}
+.items{list-style:none;margin:0;padding:0}
+.items a{display:grid;grid-template-columns:28px 1fr auto;align-items:center;gap:12px;padding:12px 8px;border-bottom:1px solid var(--grid);text-decoration:none;font-size:17px}
+.items a:hover{background:var(--blue-soft)}
+.items .state{width:18px;height:18px;border:2px solid var(--grid-strong);border-radius:50%}
+.items .done .state{background:var(--ok);border-color:var(--ok);position:relative}
+.items .done .state::after{content:"";position:absolute;left:4px;top:1px;width:5px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.items .meta{font-size:14px;color:var(--ink-soft);font-variant-numeric:tabular-nums;white-space:nowrap}
+.items .review .t{font-weight:500}
+.items .review .state{border-radius:4px}
+.empty{padding:24px;border:2px dashed var(--grid-strong);border-radius:10px;color:var(--ink-soft);line-height:1.6}
+@media (max-width:760px){.layout{grid-template-columns:1fr;gap:24px}nav ol{flex-direction:row;overflow-x:auto;padding-bottom:6px}nav a,nav .soon{white-space:nowrap}.course-head h1{font-size:28px}}
+.plbox{margin:0 0 22px;padding:12px 14px;border-radius:8px;background:var(--blue-soft);font-size:15px;line-height:1.6}
+.plbox.ok{background:#E3F3EA}
+.plbox.start{background:var(--marker-soft);border-left:4px solid var(--marker)}
+.plbox a{color:var(--blue);font-weight:700}
+.chapter h2 .pl{margin-left:auto;font-size:13px;font-weight:700;border-radius:999px;padding:3px 10px;white-space:nowrap}
+.pl.start{background:var(--marker)}
+.pl.weak{background:#FBE7E7;color:#B83434}
+.pl.ok{background:#E3F3EA;color:var(--ok)}
+.pl.miss{background:var(--grid);color:var(--ink-soft)}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="./"><span>sci-arena</span></a></div></header>
+<div class="wrap layout">
+  <nav aria-label="레벨1 코스"><h2>레벨1 코스</h2><ol id="courses"></ol></nav>
+  <main id="main"></main>
+</div>
+<script>
+"use strict";
+const P = new URLSearchParams(location.search), COURSE = P.get("c") || "c0";
+const progress = (() => { try { return JSON.parse(localStorage.getItem("sci-arena:progress")) || {}; } catch (e) { return {}; } })();
+const pad = n => String(n).padStart(2, "0");
+const placement = (() => { try { return JSON.parse(localStorage.getItem("sci-arena:placement")); } catch (e) { return null; } })();
+const PL_TAG = {start:["start","진단 추천 시작"], weak:["weak","복습 권장"], ok:["ok","진단 통과"], miss:["miss","진단에서 틀림"]};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+
+async function j(u){ const r = await fetch(u); if (!r.ok) throw new Error(u); return r.json(); }
+
+(async () => {
+  const main = document.getElementById("main"), nav = document.getElementById("courses");
+  try{
+    const list = await j("content/level1/courses.json");
+    nav.innerHTML = list.courses.map((c, k) => c.available
+      ? `<li><a href="?c=${c.id}"${c.id === COURSE ? ' aria-current="page"' : ""}><span class="no">${k}</span>${esc(c.title)}</a></li>`
+      : `<li><span class="soon"><span class="no">${k}</span>${esc(c.title)}<em>준비 중</em></span></li>`).join("");
+    const cur = list.courses.find(c => c.id === COURSE);
+    if (!cur || !cur.available){ main.innerHTML = `<div class="empty">이 코스는 준비 중입니다. 왼쪽 목록에서 열려 있는 코스를 고르세요.</div>`; return; }
+    const course = await j(`content/level1/${COURSE}/course.json`);
+    const chapters = await Promise.all(course.chapters.map(c => j(`content/level1/${COURSE}/${c.dir}/chapter.json`)));
+    let total = 0, done = 0;
+    const html = chapters.map(ch => {
+      const n = pad(ch.chapter.no);
+      const rows = ch.lessons.map(l => { total++; const p = progress[l.id]; if (p) done++;
+        return `<li><a class="${p ? "done" : ""}" href="player.html?c=${COURSE}&ch=${n}&l=${pad(l.no)}">
+          <span class="state" aria-hidden="true"></span><span class="t">${esc(l.title)}</span>
+          <span class="meta">${p ? `${p.first}/${p.total}` : `${l.questions}문항`}</span></a></li>`; });
+      if (ch.review){ total++; const p = progress[ch.review.id]; if (p) done++;
+        rows.push(`<li><a class="review ${p ? "done" : ""}" href="player.html?c=${COURSE}&ch=${n}&review=1">
+          <span class="state" aria-hidden="true"></span><span class="t">챕터 복습</span>
+          <span class="meta">${p ? `${p.first}/${p.total}` : `${ch.review.questions}문항`}</span></a></li>`); }
+      const tg = placement && placement.chapters ? PL_TAG[placement.chapters[`${COURSE}-ch${n}`]] : null;
+      return `<section class="chapter" id="ch${n}"><h2><span class="no">${ch.chapter.no}</span>${esc(ch.chapter.title)}${tg ? `<span class="pl ${tg[0]}">${tg[1]}</span>` : ""}</h2><ol class="items">${rows.join("")}</ol></section>`;
+    }).join("");
+    const pct = total ? Math.round(done / total * 100) : 0;
+    let banner = "";
+    if (placement && placement.status){
+      const st = placement.status[COURSE];
+      if (st === "pass" || st === "assumed") banner = `<div class="plbox ok">진단 결과 이 코스는 건너뛰어도 됩니다. '복습 권장' 표시가 있는 챕터만 챕터 복습으로 확인하세요.</div>`;
+      else if (st === "start" || (placement.start && placement.start.c === COURSE)) banner = `<div class="plbox start">진단 추천: 챕터 ${+placement.start.ch.slice(2)}부터 시작하세요. <a href="player.html?c=${COURSE}&ch=${placement.start.ch.slice(2)}&l=01">바로 시작</a></div>`;
+    }
+    main.innerHTML = banner + `<div class="course-head"><h1>${esc(course.course.title)}</h1><p>${esc(course.course.description)}. 레슨 ${course.totals.lessons}개, ${course.totals.questions}문항입니다.</p></div>
+      <div class="meter"><div class="track" role="progressbar" aria-label="코스 진행률" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div><span>${done} / ${total} 완료</span></div>${html}`;
+    document.title = `${course.course.title} · sci-arena`;
+  }catch(e){
+    main.innerHTML = `<div class="empty">코스 정보를 불러오지 못했습니다. <code>${esc(e.message)}</code> 파일이 저장소에 있는지 확인하세요.</div>`;
+  }
+})();
+</script>
+</body>
+</html>

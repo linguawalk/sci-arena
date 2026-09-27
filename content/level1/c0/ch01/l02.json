@@ -1,0 +1,393 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch01",
+  "no": 1,
+  "title": "물질의 구성"
+ },
+ "lesson": {
+  "id": "c0-ch01-l02",
+  "no": 2,
+  "title": "분자와 화학식",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "화학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-middle"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "원자가 모이면",
+   "body": [
+    "원자는 대부분 혼자 있지 않고 다른 원자와 결합해 있습니다. 공기 속 산소도 산소 원자 2개가 결합한 입자로 떠다닙니다.",
+    "물 한 방울 속에도 수소 원자와 산소 원자가 일정하게 결합한 입자가 셀 수 없이 많이 들어 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "numeric",
+   "prompt": "물을 이루는 입자 하나는 수소 원자 2개와 산소 원자 1개가 결합한 것입니다. 이 입자 하나에는 원자가 모두 몇 개 있을까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "원자의 개수를 모두 더하세요.",
+   "explanation": "수소 원자 2개와 산소 원자 1개를 더합니다.\n2 + 1 = 3이므로 원자는 3개입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "분자",
+   "body": [
+    "원자들이 결합해 만들어진, 물질의 성질을 나타내는 가장 작은 입자를 분자라고 합니다. 물 분자는 수소 원자 2개와 산소 원자 1개로 되어 있습니다.",
+    "물 분자를 쪼개면 수소 원자와 산소 원자가 되는데, 이들은 더 이상 물의 성질을 갖지 않습니다. 그래서 분자가 '물질의 성질을 가진 가장 작은 입자'입니다.",
+    "원소도 분자를 이룰 수 있습니다. 산소 기체는 산소 원자 2개, 질소 기체는 질소 원자 2개가 결합한 분자입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "원자들이 결합해 이루어진, 물질의 성질을 나타내는 가장 작은 입자를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분자"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원자들이 결합해 만든 입자가 분자입니다.\n분자를 더 쪼개면 원래 물질의 성질을 잃습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "산소 기체 분자 1개는 산소 원자 몇 개로 이루어져 있을까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "산소 기체는 산소 원자 2개가 결합한 분자로 존재합니다.\n그래서 화학식을 O₂로 씁니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "화학식 읽고 쓰기",
+   "body": [
+    "화학식은 물질을 이루는 원소의 종류와 원자 수를 원소 기호와 숫자로 나타낸 식입니다. 원자 수는 원소 기호 오른쪽 아래에 작게 쓰고, 1은 생략합니다.",
+    "예: 물 H₂O, 이산화 탄소 CO₂, 암모니아 NH₃, 메테인 CH₄, 산소 O₂",
+    "화학식 앞에 쓰는 큰 숫자는 분자의 개수입니다. 2H₂O는 물 분자 2개를 뜻하므로 수소 원자 4개, 산소 원자 2개가 들어 있습니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "이산화 탄소 CO₂ 분자 1개에는 어떤 원자가 몇 개 있을까요?",
+   "steps": [
+    "C 오른쪽 아래에 숫자가 없으므로 탄소 원자는 1개입니다.",
+    "O 오른쪽 아래의 2는 산소 원자가 2개라는 뜻입니다.",
+    "모두 더하면 원자는 1 + 2 = 3개입니다."
+   ],
+   "answer": "탄소 원자 1개, 산소 원자 2개 (총 3개)"
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물의 화학식은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "H₂O",
+      "H2O"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물 분자는 수소(H) 원자 2개와 산소(O) 원자 1개로 되어 있습니다.\n수소 옆에 2를 쓰고 산소의 1은 생략해 H₂O로 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "암모니아 NH₃ 분자 1개에는 원자가 모두 몇 개 있을까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "N 옆에 숫자가 없으므로 질소 원자 1개, H 옆의 3은 수소 원자 3개입니다.\n1 + 3 = 4개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "메테인 CH₄ 분자 1개에는 수소 원자가 몇 개 있을까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "H 오른쪽 아래의 숫자 4가 수소 원자의 개수입니다.\n탄소 원자는 1개이므로 원자는 모두 5개입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "3CO₂에 들어 있는 산소 원자는 모두 몇 개일까요?",
+   "steps": [
+    "앞의 3은 이산화 탄소 분자가 3개라는 뜻입니다.",
+    "분자 1개에 산소 원자가 2개 있습니다.",
+    "3 × 2 = 6이므로 산소 원자는 6개입니다."
+   ],
+   "answer": "6개"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "2H₂O에 들어 있는 수소 원자는 모두 몇 개일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "2H₂O는 물 분자 2개입니다.\n물 분자 1개에 수소 원자가 2개 있으므로 2 × 2 = 4개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "분자 1개에 들어 있는 원자 수가 적은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "CH₄"
+    },
+    {
+     "id": "b",
+     "text": "H₂O"
+    },
+    {
+     "id": "c",
+     "text": "O₂"
+    },
+    {
+     "id": "d",
+     "text": "NH₃"
+    }
+   ],
+   "answer_order": [
+    "c",
+    "b",
+    "d",
+    "a"
+   ],
+   "hint": null,
+   "explanation": "O₂는 2개, H₂O는 2 + 1 = 3개입니다.\nNH₃는 1 + 3 = 4개, CH₄는 1 + 4 = 5개입니다.\n따라서 O₂ → H₂O → NH₃ → CH₄ 순서입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "같은 원소, 다른 물질",
+   "body": [
+    "같은 원소로 이루어져 있어도 원자의 수나 결합 방식이 다르면 전혀 다른 물질이 됩니다.",
+    "산소 O₂는 우리가 숨 쉬는 기체이지만, 산소 원자 3개로 된 오존 O₃은 자외선을 막는 자극적인 기체입니다. 물 H₂O와 소독약인 과산화 수소 H₂O₂도 원자 수만 다릅니다.",
+    "이산화 탄소 CO₂와 달리 일산화 탄소 CO는 매우 유독합니다. 물질의 성질은 원소의 종류뿐 아니라 분자를 이루는 원자의 수와 배열이 결정합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "과산화 수소 H₂O₂ 분자 1개에는 산소 원자가 몇 개 있을까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "O 오른쪽 아래의 2가 산소 원자 수입니다.\n물 H₂O보다 산소 원자가 1개 많아 성질이 전혀 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "산소 원자 3개로 이루어진 분자의 이름은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오존"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "산소 원자 3개가 결합한 분자는 오존 O₃입니다.\n성층권의 오존층이 태양의 자외선을 흡수합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s5",
+   "stage": "summary",
+   "title": "분자를 이루지 않는 물질",
+   "body": [
+    "모든 물질이 분자로 되어 있는 것은 아닙니다. 구리 같은 금속은 수많은 원자가 규칙적으로 늘어서 있을 뿐, 따로 떨어진 분자 단위가 없습니다.",
+    "소금(염화 나트륨)도 나트륨과 염소가 1 : 1로 끝없이 번갈아 배열되어 있습니다. 이런 물질의 화학식은 분자 하나가 아니라 성분 원소의 개수 비를 나타냅니다. 구리는 Cu, 염화 나트륨은 NaCl로 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k4",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "염화 나트륨처럼 분자를 이루지 않는 물질의 화학식은 성분 원소의 개수 {{1}}를 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비",
+      "비율"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "염화 나트륨에는 NaCl 분자가 따로 없습니다.\nNaCl은 나트륨과 염소가 1 : 1의 비로 들어 있다는 뜻입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "염화 칼슘의 화학식은 CaCl₂입니다. 칼슘과 염소의 개수 비는 얼마일까요?",
+   "steps": [
+    "Ca 옆에 숫자가 없으므로 칼슘은 1입니다.",
+    "Cl 옆의 2는 염소가 2라는 뜻입니다.",
+    "따라서 칼슘 : 염소 = 1 : 2입니다."
+   ],
+   "answer": "1 : 2"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "포도당의 화학식은 C₆H₁₂O₆입니다. 포도당 분자 1개에는 원자가 모두 몇 개 있을까요?",
+   "answer": "24",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "원소 기호 오른쪽 아래의 숫자를 모두 더하세요.",
+   "explanation": "탄소 6개, 수소 12개, 산소 6개입니다.\n6 + 12 + 6 = 24개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "2NH₃에 들어 있는 수소 원자는 모두 몇 개일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "앞의 큰 숫자는 분자의 개수입니다.",
+   "explanation": "2NH₃는 암모니아 분자 2개입니다.\n분자 1개에 수소 원자가 3개 있으므로 2 × 3 = 6개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "일산화 탄소의 화학식은 {{1}}, 이산화 탄소의 화학식은 {{2}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CO"
+     ]
+    },
+    {
+     "id": 2,
+     "answers": [
+      "CO₂",
+      "CO2"
+     ]
+    }
+   ],
+   "hint": "이름 앞의 '일', '이'는 산소 원자의 수를 나타냅니다.",
+   "explanation": "'일'은 산소 원자 1개, '이'는 산소 원자 2개를 뜻합니다.\n그래서 일산화 탄소는 CO, 이산화 탄소는 CO₂입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "물, 이산화 탄소, 구리, 암모니아 중에서 분자로 이루어지지 않은 물질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "구리"
+     ]
+    }
+   ],
+   "hint": "금속은 원자들이 따로 떨어진 분자를 만들지 않습니다.",
+   "explanation": "물, 이산화 탄소, 암모니아는 원자들이 결합한 분자로 이루어져 있습니다.\n구리는 금속이라 원자들이 규칙적으로 늘어서 있을 뿐 분자 단위가 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "물(H₂O)과 과산화 수소(H₂O₂)는 같은 원소로 이루어져 있는데도 성질이 다릅니다. 그 이유를 설명해 보세요.",
+   "hint": "두 화학식에서 무엇이 다른지 찾아보세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "원자 수",
+      "원자의 수",
+      "개수",
+      "원자가 1개",
+      "원자가 하나"
+     ],
+     [
+      "분자",
+      "결합",
+      "배열"
+     ],
+     [
+      "다른 물질",
+      "성질이 다",
+      "성질을 결정"
+     ]
+    ],
+    "min_groups_matched": 2
+   },
+   "model_answer": "두 물질은 모두 수소와 산소로 이루어져 있지만, 분자를 이루는 산소 원자의 수가 다릅니다. 분자의 구성이 다르면 다른 물질이 되므로 성질도 다릅니다."
+  }
+ ]
+}

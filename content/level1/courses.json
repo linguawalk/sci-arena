@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "level": 1,
+  "courses": [
+    {
+      "id": "c0",
+      "title": "기초 과학",
+      "description": "고교 과학에 필요한 중학 과학 핵심",
+      "available": true
+    },
+    {
+      "id": "c1",
+      "title": "통합과학 1",
+      "description": "과학의 기초, 물질과 규칙성, 시스템과 상호작용",
+      "available": false
+    },
+    {
+      "id": "c2",
+      "title": "통합과학 2",
+      "description": "변화와 다양성, 환경과 에너지, 과학과 미래 사회",
+      "available": false
+    },
+    {
+      "id": "c3",
+      "title": "물리학",
+      "description": "운동과 힘, 에너지와 열, 전기와 자기, 파동과 빛",
+      "available": false
+    },
+    {
+      "id": "c4",
+      "title": "화학",
+      "description": "화학의 언어, 원자와 결합, 화학 평형, 산·염기와 산화 환원",
+      "available": false
+    },
+    {
+      "id": "c5",
+      "title": "생명과학",
+      "description": "생명 시스템, 신경과 항상성, 면역, 유전, 진화와 생태계",
+      "available": false
+    },
+    {
+      "id": "c6",
+      "title": "지구과학",
+      "description": "판 구조론, 지구의 역사, 대기와 해양, 별과 우주",
+      "available": false
+    }
+  ]
+}

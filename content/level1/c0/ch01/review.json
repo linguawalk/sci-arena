@@ -1,0 +1,206 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c0",
+  "title": "기초 과학"
+ },
+ "chapter": {
+  "id": "c0-ch01",
+  "no": 1,
+  "title": "물질의 구성"
+ },
+ "review": {
+  "id": "c0-ch01-review",
+  "title": "물질의 구성 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "불꽃 반응에서 노란색을 나타내는 원소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "나트륨"
+     ]
+    }
+   ],
+   "hint": "소금(염화 나트륨)을 불에 뿌리면 어떤 색이 날지 떠올려 보세요.",
+   "explanation": "나트륨이 들어 있는 물질은 불꽃에서 노란색을 냅니다.\n칼륨은 보라색, 구리는 청록색입니다.",
+   "source_lesson": "c0-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "원자핵의 전하가 +7인 질소 원자에는 전자가 몇 개 있을까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "원자는 중성입니다.",
+   "explanation": "원자는 전기적으로 중성입니다.\n원자핵의 전하 +7과 같은 크기가 되도록 전자는 7개입니다.",
+   "source_lesson": "c0-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "3H₂O에 들어 있는 원자는 모두 몇 개일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "분자 1개 속 원자 수를 먼저 구하세요.",
+   "explanation": "물 분자 1개에는 원자가 2 + 1 = 3개 있습니다.\n분자가 3개이므로 3 × 3 = 9개입니다.",
+   "source_lesson": "c0-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "질소 원자 1개와 수소 원자 3개로 이루어진 암모니아의 화학식은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "NH₃",
+      "NH3"
+     ]
+    }
+   ],
+   "hint": "원자 수 1은 쓰지 않습니다.",
+   "explanation": "질소는 N, 수소는 H입니다.\n질소 1개는 숫자를 생략하고 수소 3개는 H₃로 써서 NH₃입니다.",
+   "source_lesson": "c0-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "산소, 오존, 물 중에서 산소 원자만으로 이루어진 분자가 아닌 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "물"
+     ]
+    }
+   ],
+   "hint": "각 물질의 화학식을 떠올려 보세요.",
+   "explanation": "산소 O₂와 오존 O₃은 산소 원자만으로 이루어져 있습니다.\n물 H₂O에는 수소 원자도 들어 있습니다.",
+   "source_lesson": "c0-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "원자핵의 전하가 +19인 칼륨이 K⁺ 이온이 되었습니다. 이 이온의 전자는 몇 개일까요?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "+1은 전자 1개를 잃었다는 뜻입니다.",
+   "explanation": "칼륨 원자의 전자는 19개입니다.\nK⁺는 전자 1개를 잃은 이온이므로 19 − 1 = 18개입니다.",
+   "source_lesson": "c0-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "황 원자가 전자 2개를 얻어 만든 이온의 이온식은 {{1}}이고, 이름은 {{2}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "S²⁻",
+      "S2-"
+     ]
+    },
+    {
+     "id": 2,
+     "answers": [
+      "황화 이온"
+     ]
+    }
+   ],
+   "hint": "음이온의 이름은 '~화 이온'입니다.",
+   "explanation": "전자 2개를 얻으면 −2의 전하를 띠므로 S²⁻로 씁니다.\n음이온이므로 '~화 이온'을 붙여 황화 이온이라고 부릅니다.",
+   "source_lesson": "c0-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "바륨 이온(Ba²⁺)과 황산 이온(SO₄²⁻)이 만나면 흰색 앙금인 {{1}}이 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "황산 바륨",
+      "황산바륨"
+     ]
+    }
+   ],
+   "hint": "음이온 이름을 앞에, 양이온 이름을 뒤에 씁니다.",
+   "explanation": "Ba²⁺와 SO₄²⁻가 결합하면 물에 녹지 않는 BaSO₄가 됩니다.\n이 흰색 앙금의 이름은 황산 바륨입니다.",
+   "source_lesson": "c0-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "옷장 속 나프탈렌이 액체 없이 점점 작아지는 것은 {{1}} 현상입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "승화"
+     ]
+    }
+   ],
+   "hint": "액체가 생기지 않았다는 점에 주목하세요.",
+   "explanation": "나프탈렌은 고체에서 액체를 거치지 않고 바로 기체가 됩니다.\n이런 변화를 승화라고 합니다.",
+   "source_lesson": "c0-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "ordering",
+   "prompt": "입자 사이의 거리가 가까운 상태부터 순서대로 배열하세요. (물은 예외이므로 일반적인 물질을 생각합니다.)",
+   "items": [
+    {
+     "id": "a",
+     "text": "액체"
+    },
+    {
+     "id": "b",
+     "text": "기체"
+    },
+    {
+     "id": "c",
+     "text": "고체"
+    }
+   ],
+   "answer_order": [
+    "c",
+    "a",
+    "b"
+   ],
+   "hint": "부피가 가장 크게 늘어나는 상태가 어느 쪽인지 생각해 보세요.",
+   "explanation": "고체는 입자가 빽빽하게 규칙적으로 배열되어 있습니다.\n액체는 비교적 가깝지만 불규칙하고, 기체는 입자 사이가 매우 멉니다.",
+   "source_lesson": "c0-ch01-l04"
+  }
+ ]
+}

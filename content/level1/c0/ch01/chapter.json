@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c0",
+  "chapter": {
+    "id": "c0-ch01",
+    "no": 1,
+    "title": "물질의 구성"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c0-ch01-l01",
+      "title": "원소와 원자",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 2,
+      "id": "c0-ch01-l02",
+      "title": "분자와 화학식",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 3,
+      "id": "c0-ch01-l03",
+      "title": "이온",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 4,
+      "id": "c0-ch01-l04",
+      "title": "물질의 상태 변화",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 24
+    }
+  ],
+  "review": {
+    "id": "c0-ch01-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}
