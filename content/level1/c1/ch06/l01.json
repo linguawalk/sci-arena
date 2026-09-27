@@ -1,0 +1,364 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch06",
+  "no": 6,
+  "title": "자기장과 전자기 유도"
+ },
+ "lesson": {
+  "id": "c1-ch06-l01",
+  "no": 1,
+  "title": "전류의 자기 작용",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "흔들린 나침반",
+   "body": [
+    "1820년 외르스테드는 강의 도중 전류가 흐르는 도선 옆의 나침반 바늘이 움직이는 것을 발견했습니다.",
+    "전기와 자기가 서로 관련되어 있다는 첫 증거였습니다. 전류는 주위에 자기장을 만듭니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "전류가 흐르는 도선 주위에는 {{1}}이 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자기장"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "외르스테드의 실험으로 전류가 자기장을 만든다는 것이 밝혀졌습니다.\n그래서 도선 옆 나침반 바늘이 움직였습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "직선 전류의 자기장",
+   "body": [
+    "자기장은 자기력이 작용하는 공간으로, 자기력선은 자석 바깥에서 N극에서 나와 S극으로 들어갑니다. 자기장의 세기 단위는 T(테슬라)입니다.",
+    "직선 도선에 전류가 흐르면 도선을 중심으로 한 동심원 모양의 자기장이 생깁니다. 오른손 엄지를 전류 방향으로 하면 나머지 네 손가락이 감아쥐는 방향이 자기장 방향입니다.",
+    "직선 전류가 만드는 자기장의 세기는 전류의 세기에 비례하고 도선으로부터의 거리에 반비례합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자기장의 세기 단위 T는 {{1}}라고 읽습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "테슬라"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자기장의 세기는 T(테슬라)로 나타냅니다.\n지구 자기장은 약 5 × 10⁻⁵ T, MRI 장치는 1.5~3 T 정도입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "직선 도선에 흐르는 전류를 2배로 하면 같은 거리에서 자기장의 세기는 처음의 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "직선 전류의 자기장은 전류에 비례합니다.\n전류가 2배이면 자기장도 2배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "직선 전류로부터의 거리가 3배가 되면 자기장의 세기는 처음의 몇 분의 1이 될까요? (분모를 쓰세요.)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "직선 전류의 자기장은 거리에 반비례합니다.\n거리가 3배이면 1/3이 됩니다. 제곱이 아니라는 점에 주의합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "직선 도선의 전류를 3배로 하고, 자기장을 재는 거리를 2배로 하면 자기장의 세기는 몇 배가 될까요?",
+   "steps": [
+    "전류 때문에 3배가 됩니다.",
+    "거리 때문에 1/2배가 됩니다.",
+    "3 × 1/2 = 1.5배입니다."
+   ],
+   "answer": "1.5배"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "직선 도선의 전류를 4배로 하고 거리를 2배로 하면 자기장의 세기는 처음의 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "전류 때문에 4배, 거리 때문에 1/2배입니다.\n4 × 1/2 = 2배입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "원형 전류와 솔레노이드",
+   "body": [
+    "원형 도선에 전류가 흐르면 원의 중심에 도선 면에 수직인 자기장이 생깁니다. 세기는 전류에 비례하고 원의 반지름에 반비례합니다.",
+    "도선을 촘촘히 감은 솔레노이드 내부에는 거의 균일한 자기장이 생기며, 세기는 단위 길이당 감은 수와 전류에 비례합니다. 오른손 네 손가락을 전류 방향으로 감아쥐면 엄지가 가리키는 쪽이 N극입니다.",
+    "솔레노이드 안에 철심을 넣으면 자기장이 훨씬 세지는데, 이것이 전자석입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "솔레노이드에서 오른손 네 손가락을 전류 방향으로 감아쥘 때 엄지가 가리키는 쪽이 {{1}}극입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "N",
+      "n",
+      "엔"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "솔레노이드는 막대자석처럼 N극과 S극을 가집니다.\n엄지 방향으로 자기력선이 나오므로 그쪽이 N극입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "솔레노이드의 길이는 그대로 두고 감은 수를 2배, 전류를 3배로 하면 내부 자기장의 세기는 처음의 몇 배가 될까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "솔레노이드 내부 자기장은 단위 길이당 감은 수와 전류에 비례합니다.\n2 × 3 = 6배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "코일 안에 {{1}}을 넣으면 자기장이 훨씬 세집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "철심",
+      "철",
+      "쇠막대",
+      "연철"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "철은 강자성체라 코일의 자기장 방향으로 강하게 자화됩니다.\n철의 자기장이 더해져 전자석의 세기가 크게 늘어납니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "영구 자석 대신 전자석을 쓰면 좋은 점은?",
+   "steps": [
+    "전류를 켜고 끄면 자기장을 켜고 끌 수 있습니다.",
+    "전류의 세기로 자기장의 세기를 조절할 수 있습니다.",
+    "전류 방향을 바꾸면 N극과 S극을 바꿀 수 있습니다. 그래서 고철 운반 크레인, 초인종, 자기 부상 열차에 씁니다."
+   ],
+   "answer": "켜고 끄기, 세기 조절, 극 바꾸기가 가능하다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "자기장이 전류에 작용하는 힘",
+   "body": [
+    "반대로 자기장 속의 도선에 전류가 흐르면 도선은 힘을 받습니다. 도선이 자기장에 수직일 때 힘의 크기는 F = BIL(자기장 × 전류 × 도선 길이)입니다.",
+    "힘의 방향은 전류와 자기장에 모두 수직입니다(오른손을 펴서 엄지를 전류, 네 손가락을 자기장 방향으로 하면 손바닥이 미는 방향). 전류가 자기장과 나란하면 힘은 0입니다.",
+    "전동기(모터)는 이 힘으로 코일을 회전시켜 전기 에너지를 역학적 에너지로 바꿉니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "세기 0.5 T인 자기장에 수직으로 놓인 길이 0.3 m 도선에 2 A가 흐릅니다. 도선이 받는 힘은 몇 N일까요?",
+   "answer": "0.3",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "F = BIL입니다.\n0.5 × 2 × 0.3 = 0.3 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "전동기는 전기 에너지를 {{1}} 에너지로 바꾸는 장치입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역학적",
+      "운동",
+      "회전"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자기장 속 코일에 전류가 흐르면 힘을 받아 회전합니다.\n전기 에너지가 회전하는 운동, 곧 역학적 에너지로 바뀝니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "나란한 두 직선 도선에 같은 방향으로 전류가 흐르면 두 도선은 서로 끌어당길까요, 밀어낼까요?",
+   "steps": [
+    "도선 A가 만든 자기장 속에 도선 B가 놓여 있어 B가 힘을 받습니다.",
+    "오른손 법칙으로 방향을 따지면 같은 방향 전류끼리는 서로를 향하는 힘을 받습니다.",
+    "따라서 서로 끌어당깁니다. 반대 방향 전류는 서로 밀어냅니다."
+   ],
+   "answer": "끌어당긴다"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "나란한 두 도선에 반대 방향으로 전류가 흐르면 두 도선 사이에는 {{1}}이 작용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "척력"
+     ]
+    }
+   ],
+   "hint": "같은 방향일 때와 반대입니다.",
+   "explanation": "같은 방향 전류는 인력, 반대 방향 전류는 척력이 작용합니다.\n전하와 달리 '같으면 끌어당긴다'는 점에 주의합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "세기 0.2 T인 자기장에 수직인 길이 0.5 m 도선에 5 A가 흐릅니다. 도선이 받는 힘은 몇 N일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "F = BIL을 쓰세요.",
+   "explanation": "F = BIL입니다.\n0.2 × 5 × 0.5 = 0.5 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "자기장 속 도선에 흐르는 전류를 2배, 자기장의 세기를 3배로 하면 도선이 받는 힘은 처음의 몇 배가 될까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "힘은 B, I, L에 각각 비례합니다.",
+   "explanation": "F = BIL이므로 B와 I에 각각 비례합니다.\n3 × 2 = 6배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "스피커는 코일에 흐르는 전류가 영구 자석의 자기장으로부터 받는 {{1}}으로 진동판을 떨게 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "힘",
+      "자기력"
+     ]
+    }
+   ],
+   "hint": "자기장 속 전류가 받는 것입니다.",
+   "explanation": "소리 신호에 따라 변하는 전류가 코일에 흐르면 코일이 받는 힘이 계속 바뀝니다.\n코일에 붙은 진동판이 앞뒤로 떨며 소리를 냅니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "도선이 자기장 방향과 나란하게 놓여 있을 때 도선이 받는 자기력은 몇 N일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "F = BIL은 수직일 때의 식입니다.",
+   "explanation": "자기력은 전류가 자기장을 가로지를 때 작용합니다.\n전류와 자기장이 나란하면 힘은 0입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "전자석이 영구 자석보다 편리한 점을 두 가지 이상 설명해 보세요.",
+   "hint": "전류로 무엇을 조절할 수 있는지 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "켜",
+      "끄"
+     ],
+     [
+      "세기",
+      "조절"
+     ],
+     [
+      "방향",
+      "극"
+     ],
+     [
+      "전류"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "전자석은 전류를 켜고 끄는 것으로 자기장을 켜고 끌 수 있습니다. 또 전류의 세기로 자기장의 세기를 조절하고, 전류의 방향을 바꾸어 N극과 S극을 바꿀 수 있습니다."
+  }
+ ]
+}

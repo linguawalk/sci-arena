@@ -1,0 +1,392 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch06",
+  "no": 6,
+  "title": "자기장과 전자기 유도"
+ },
+ "lesson": {
+  "id": "c1-ch06-l03",
+  "no": 3,
+  "title": "전자기 유도",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "배터리 없는 교통카드",
+   "body": [
+    "교통카드에는 배터리가 없습니다. 그런데 단말기에 대면 칩이 작동해 정보를 주고받습니다.",
+    "카드 속에 감긴 코일이 단말기가 만드는 변하는 자기장 속에 들어가면, 코일에 전류가 저절로 생기기 때문입니다. 자기가 전기를 만드는 현상입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "코일을 지나는 자기장이 변할 때 코일에 전류가 흐르는 현상을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전자기 유도",
+      "전자기유도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "1831년 패러데이가 발견했습니다.\n이때 흐르는 전류를 유도 전류라고 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "자기 선속과 패러데이 법칙",
+   "body": [
+    "어떤 면을 수직으로 지나는 자기장의 세기 B와 면적 A의 곱을 자기 선속이라고 합니다: Φ = BA, 단위는 Wb(웨버)입니다.",
+    "코일을 지나는 자기 선속이 변하면 유도 기전력(전압)이 생깁니다. 그 크기는 감은 수 N과 자기 선속의 시간당 변화율에 비례합니다: V = N × ΔΦ ÷ Δt. 이것이 패러데이 법칙입니다.",
+    "자석을 빨리 움직일수록, 감은 수가 많을수록 유도 전류가 커집니다. 자석이 코일 속에 가만히 있으면 선속이 변하지 않아 전류가 흐르지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "면을 수직으로 지나는 자기장의 세기와 면적의 곱을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자기 선속",
+      "자기선속",
+      "자속"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Φ = BA입니다.\n자기 선속이 변할 때 유도 기전력이 생깁니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "감은 수 100회인 코일을 지나는 자기 선속이 0.1초 동안 0.02 Wb 변했습니다. 유도 기전력은?",
+   "steps": [
+    "V = N × ΔΦ ÷ Δt입니다.",
+    "100 × 0.02 ÷ 0.1 = 20 V입니다."
+   ],
+   "answer": "20 V"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "감은 수 50회인 코일을 지나는 자기 선속이 0.05초 동안 0.01 Wb 변했습니다. 유도 기전력은 몇 V일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "V = N × ΔΦ ÷ Δt입니다.\n50 × 0.01 ÷ 0.05 = 10 V입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "코일의 감은 수를 2배로 하고 자석을 2배 빠르게 움직이면 유도 기전력은 처음의 몇 배가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "유도 기전력은 감은 수와 선속의 변화율에 각각 비례합니다.\n2 × 2 = 4배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "자석을 코일 속에 넣은 채 가만히 두었습니다. 유도 기전력은 몇 V일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "자석이 움직이지 않으면 코일을 지나는 자기 선속이 변하지 않습니다.\n선속의 변화가 없으므로 유도 기전력은 0입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "렌츠 법칙",
+   "body": [
+    "유도 전류는 코일을 지나는 자기 선속의 변화를 방해하는 방향으로 흐릅니다. 이것이 렌츠 법칙입니다.",
+    "자석의 N극을 코일에 가까이 하면 코일은 가까운 쪽이 N극이 되도록 전류가 흘러 자석을 밀어냅니다. N극을 멀리하면 가까운 쪽이 S극이 되어 자석을 붙잡습니다.",
+    "이렇게 방해하기 때문에 자석을 움직이려면 일을 해야 하고, 그 일이 전기 에너지로 바뀝니다. 렌츠 법칙은 에너지 보존 법칙의 결과입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "유도 전류는 자기 선속의 변화를 방해하는 방향으로 흐른다는 법칙을 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "렌츠"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "유도 전류가 만드는 자기장은 원래의 선속 변화를 거스릅니다.\n선속이 늘면 줄이는 쪽으로, 줄면 늘리는 쪽으로 흐릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자석의 N극을 코일에 가까이 가져가면, 코일의 자석 쪽 끝은 {{1}}극이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "N",
+      "n",
+      "엔"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "다가오는 N극을 밀어내 선속 증가를 방해해야 합니다.\n그래서 코일의 가까운 쪽이 N극이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자석의 N극을 코일에서 멀리하면, 코일의 자석 쪽 끝은 {{1}}극이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "S",
+      "s",
+      "에스"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "멀어지는 N극을 붙잡아 선속 감소를 방해해야 합니다.\n그래서 코일의 가까운 쪽이 S극이 되어 N극을 끌어당깁니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "강한 자석을 긴 구리관 속에 떨어뜨리면 자유 낙하보다 훨씬 천천히 떨어집니다. 그 까닭은?",
+   "steps": [
+    "자석이 떨어지면 구리관의 각 부분을 지나는 자기 선속이 변합니다.",
+    "구리관에 유도 전류가 흐르고, 렌츠 법칙에 따라 자석의 운동을 방해하는 자기력이 생깁니다.",
+    "자석의 역학적 에너지 일부가 유도 전류를 거쳐 열로 바뀝니다."
+   ],
+   "answer": "유도 전류가 운동을 방해하기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "구리관 속을 천천히 떨어지는 자석의 역학적 에너지 일부는 유도 전류를 거쳐 {{1}}로 바뀝니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "열",
+      "열에너지",
+      "열 에너지"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "유도 전류가 구리관의 저항을 지나며 열이 납니다.\n줄어든 역학적 에너지만큼 열이 생겨 에너지는 보존됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전자기 유도의 이용",
+   "body": [
+    "발전기, 교통카드, 무선 충전기, 인덕션 레인지, 금속 탐지기, 전기 기타의 픽업은 모두 전자기 유도를 이용합니다.",
+    "인덕션 레인지는 코일에 빠르게 변하는 전류를 흘려 변하는 자기장을 만들고, 그 자기장이 금속 냄비 바닥에 유도 전류(맴돌이 전류)를 만들어 냄비 자체를 가열합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "교통카드가 작동하는 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "코일에 유도 전류가 흐른다"
+    },
+    {
+     "id": "b",
+     "text": "단말기가 변하는 자기장을 만든다"
+    },
+    {
+     "id": "c",
+     "text": "칩이 작동해 정보를 주고받는다"
+    },
+    {
+     "id": "d",
+     "text": "카드 속 코일을 지나는 자기 선속이 변한다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "변하는 자기장이 코일의 선속을 바꾸고, 그 결과 유도 전류가 생깁니다.\n이 전류가 배터리 대신 칩에 에너지를 줍니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "감은 수 10회인 코일을 지나는 자기 선속이 0.2초 동안 0.4 Wb에서 0으로 줄었습니다. 코일의 저항이 5 Ω이면 유도 전류는?",
+   "steps": [
+    "ΔΦ = 0.4 Wb입니다.",
+    "V = 10 × 0.4 ÷ 0.2 = 20 V입니다.",
+    "I = V ÷ R = 20 ÷ 5 = 4 A입니다."
+   ],
+   "answer": "4 A"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "감은 수 20회인 코일을 지나는 자기 선속이 0.1초 동안 0.3 Wb에서 0.1 Wb로 줄었습니다. 유도 기전력은 몇 V일까요?",
+   "answer": "40",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "선속의 변화량부터 구하세요.",
+   "explanation": "ΔΦ = 0.3 − 0.1 = 0.2 Wb입니다.\nV = 20 × 0.2 ÷ 0.1 = 40 V입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "유도 기전력이 12 V인 코일 회로의 전체 저항이 4 Ω입니다. 유도 전류는 몇 A일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "옴의 법칙을 쓰세요.",
+   "explanation": "옴의 법칙 I = V ÷ R입니다.\n12 ÷ 4 = 3 A입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "세기 0.5 T인 균일한 자기장이 면적 0.02 m²인 고리 면을 수직으로 지납니다. 자기 선속은 몇 Wb일까요?",
+   "answer": "0.01",
+   "answer_format": "decimal",
+   "tolerance": 0.0001,
+   "hint": "자기장 × 면적입니다.",
+   "explanation": "Φ = BA입니다.\n0.5 × 0.02 = 0.01 Wb입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "인덕션 레인지는 변하는 자기장으로 금속 냄비 바닥에 {{1}}를 만들어 냄비를 가열합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유도 전류",
+      "유도전류",
+      "맴돌이 전류",
+      "와전류"
+     ]
+    }
+   ],
+   "hint": "전자기 유도로 생기는 전류입니다.",
+   "explanation": "냄비 바닥을 지나는 자기 선속이 빠르게 변하며 소용돌이 모양의 유도 전류가 흐릅니다.\n이 전류가 냄비의 저항 때문에 열을 냅니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "휴대 전화 무선 충전기는 충전 패드와 휴대 전화 속 코일 사이의 {{1}} 현상을 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전자기 유도",
+      "전자기유도",
+      "유도"
+     ]
+    }
+   ],
+   "hint": "교통카드와 같은 원리입니다.",
+   "explanation": "패드의 코일에 교류가 흐르면 변하는 자기장이 생깁니다.\n휴대 전화 속 코일에 유도 전류가 흘러 배터리를 충전합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "렌츠 법칙이 에너지 보존 법칙과 어떻게 연결되는지 설명해 보세요.",
+   "hint": "유도 전류가 운동을 방해한다는 점에서 시작하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "방해"
+     ],
+     [
+      "일"
+     ],
+     [
+      "전기 에너지",
+      "에너지"
+     ],
+     [
+      "보존"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "유도 전류는 자석의 운동을 방해하는 방향으로 흐르므로, 자석을 계속 움직이려면 외부에서 일을 해야 합니다. 이 일이 전기 에너지로 바뀌므로 에너지가 보존됩니다. 만약 운동을 돕는 방향이라면 에너지가 저절로 생겨나 에너지 보존에 어긋납니다."
+  }
+ ]
+}

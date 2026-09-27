@@ -1,0 +1,411 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch07",
+  "no": 7,
+  "title": "파동과 빛"
+ },
+ "lesson": {
+  "id": "c1-ch07-l03",
+  "no": 3,
+  "title": "전반사와 광통신",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "빛으로 보내는 인터넷",
+   "body": [
+    "대륙과 대륙을 잇는 인터넷은 바다 밑에 깔린 가느다란 유리 섬유, 곧 광섬유를 통해 빛으로 정보를 보냅니다.",
+    "빛이 광섬유 밖으로 새어 나가지 않고 수천 km를 가는 비밀은 전반사에 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "빛이 경계면에서 굴절하지 않고 모두 반사되는 현상을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전반사"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "특정 조건에서 빛은 경계면을 빠져나가지 못하고 모두 반사됩니다.\n이를 전반사라고 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "임계각과 전반사 조건",
+   "body": [
+    "빛이 굴절률이 큰 매질에서 작은 매질로 나갈 때는 법선에서 멀어지게 꺾여 굴절각이 입사각보다 큽니다. 입사각을 키우면 굴절각이 먼저 90°에 이릅니다.",
+    "굴절각이 90°가 되는 입사각을 임계각이라고 합니다. n₁ sin i = n₂ sin 90°에서 sin(임계각) = n₂ ÷ n₁입니다.",
+    "입사각이 임계각보다 크면 빛이 모두 반사됩니다. 전반사의 조건은 ① 굴절률이 큰 매질에서 작은 매질로 진행하고 ② 입사각이 임계각보다 큰 것입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "굴절각이 90°가 되는 입사각을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "임계각"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "입사각이 임계각보다 크면 굴절이 일어나지 않고 전반사가 일어납니다.\nsin(임계각) = n₂ ÷ n₁입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전반사는 빛이 굴절률이 {{1}} 매질에서 작은 매질로 진행할 때만 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큰"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "굴절률이 큰 매질에서 작은 매질로 나갈 때 굴절각이 입사각보다 커집니다.\n그래야 굴절각이 90°에 먼저 도달할 수 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "굴절률 2인 매질에서 공기(n = 1)로 빛이 나갈 때 임계각은?",
+   "steps": [
+    "sin(임계각) = n₂ ÷ n₁ = 1 ÷ 2 = 0.5입니다.",
+    "sin 30° = 0.5이므로 임계각은 30°입니다.",
+    "입사각이 30°보다 크면 전반사가 일어납니다."
+   ],
+   "answer": "30°"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "굴절률 2인 매질에서 공기로 빛이 나갈 때 임계각은 몇 °일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "sin(임계각) = 1 ÷ 2 = 0.5입니다.\nsin 30° = 0.5이므로 30°입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "굴절률 1.6인 매질에서 굴절률 1.2인 매질로 빛이 진행할 때 sin(임계각)은 얼마일까요?",
+   "answer": "0.75",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "sin(임계각) = n₂ ÷ n₁입니다.\n1.2 ÷ 1.6 = 0.75입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "빛이 공기에서 물로 들어갈 때는 전반사가 일어날 수 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "없다",
+      "없습니다",
+      "없음"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "공기는 물보다 굴절률이 작습니다.\n굴절률이 작은 매질에서 큰 매질로 들어갈 때는 굴절각이 항상 입사각보다 작아 전반사가 일어나지 않습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "광섬유",
+   "body": [
+    "광섬유는 굴절률이 큰 중심부 코어를 굴절률이 조금 작은 클래딩이 감싼 구조입니다. 코어로 들어간 빛은 경계면에서 전반사를 반복하며 멀리 진행합니다.",
+    "광통신은 구리선보다 신호 손실이 적어 멀리 보낼 수 있고, 한꺼번에 많은 정보를 보낼 수 있으며, 전자기적 잡음의 영향을 받지 않습니다.",
+    "의료용 내시경도 광섬유 다발로 몸속을 비추고 영상을 전달합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "광섬유에서 빛이 전반사하려면 코어의 굴절률이 클래딩보다 {{1}}야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커",
+      "높아",
+      "더 커"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전반사는 굴절률이 큰 매질에서 작은 매질로 갈 때 일어납니다.\n그래서 코어가 클래딩보다 굴절률이 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "광섬유는 빛의 {{1}}를 이용해 빛을 멀리까지 전달합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전반사"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "코어와 클래딩의 경계에서 빛이 계속 전반사합니다.\n빛이 밖으로 새지 않아 멀리까지 갑니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "광통신으로 정보가 전달되는 과정은?",
+   "steps": [
+    "보내는 쪽에서 전기 신호를 레이저 빛의 깜빡임(빛 신호)으로 바꿉니다.",
+    "빛 신호가 광섬유 속을 전반사하며 진행합니다.",
+    "받는 쪽에서 빛 신호를 다시 전기 신호로 바꿉니다."
+   ],
+   "answer": "전기 → 빛 → 광섬유 → 빛 → 전기"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "광통신으로 정보를 보내는 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "받는 쪽에서 빛 신호를 전기 신호로 바꾼다"
+    },
+    {
+     "id": "b",
+     "text": "전기 신호를 빛 신호로 바꾼다"
+    },
+    {
+     "id": "c",
+     "text": "전기 신호가 소리나 영상으로 재생된다"
+    },
+    {
+     "id": "d",
+     "text": "빛 신호가 광섬유 속을 전반사하며 진행한다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "보낼 때 전기를 빛으로, 받을 때 빛을 전기로 바꿉니다.\n그 사이에 빛은 광섬유 속에서 전반사로 전달됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전반사의 여러 예",
+   "body": [
+    "다이아몬드는 굴절률이 약 2.42로 매우 커서 임계각이 약 24°로 작습니다. 안으로 들어간 빛이 여러 번 전반사한 뒤 나오므로 반짝입니다.",
+    "쌍안경과 잠망경 속 프리즘은 거울 대신 전반사로 빛의 방향을 바꿉니다. 거울보다 빛의 손실이 적습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "굴절률이 큰 다이아몬드는 임계각이 {{1}}아 빛이 전반사하기 쉽습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "sin(임계각) = 1 ÷ n이므로 n이 클수록 임계각이 작습니다.\n작은 입사각에서도 전반사가 일어나 빛이 안에 갇혔다 나옵니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "광섬유의 코어 굴절률이 1.5, 클래딩 굴절률이 1.2입니다. 경계면에서 sin(임계각)은 얼마일까요?",
+   "answer": "0.8",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "sin(임계각) = n클래딩 ÷ n코어입니다.\n1.2 ÷ 1.5 = 0.8입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "광섬유를 너무 심하게 구부리면 신호가 약해집니다. 그 까닭은?",
+   "steps": [
+    "광섬유가 급하게 휘면 빛이 코어와 클래딩의 경계에 닿는 입사각이 작아집니다.",
+    "입사각이 임계각보다 작아지면 전반사가 일어나지 않습니다.",
+    "빛의 일부가 굴절해 밖으로 새어 나가므로 신호가 약해집니다."
+   ],
+   "answer": "입사각이 임계각보다 작아져 빛이 새어 나가기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "광섬유를 너무 심하게 구부리면 경계면에서 입사각이 임계각보다 {{1}}아져 빛이 새어 나갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": "전반사의 두 번째 조건을 떠올리세요.",
+   "explanation": "전반사는 입사각이 임계각보다 클 때만 일어납니다.\n입사각이 작아지면 빛이 굴절해 클래딩 밖으로 빠져나갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "굴절률이 약 1.41(√2)인 매질에서 공기로 빛이 나갈 때 임계각은 몇 °일까요?",
+   "answer": "45",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "sin 45° = 1 ÷ √2입니다.",
+   "explanation": "sin(임계각) = 1 ÷ √2 ≈ 0.71입니다.\nsin 45° = √2 ÷ 2 ≈ 0.71이므로 45°입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "몸속을 들여다보는 내시경은 {{1}} 다발로 빛을 보내고 영상을 전달합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "광섬유"
+     ]
+    }
+   ],
+   "hint": "광통신에 쓰는 유리 섬유입니다.",
+   "explanation": "광섬유는 휘어져도 전반사로 빛을 전달합니다.\n그래서 몸속 구부러진 길을 따라 빛과 영상을 보낼 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "공기와의 경계에서 임계각이 작은 물질부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "유리 (n = 1.5)"
+    },
+    {
+     "id": "b",
+     "text": "다이아몬드 (n = 2.42)"
+    },
+    {
+     "id": "c",
+     "text": "물 (n = 1.33)"
+    },
+    {
+     "id": "d",
+     "text": "사파이어 (n = 1.77)"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "굴절률이 클수록 임계각이 작습니다.",
+   "explanation": "sin(임계각) = 1 ÷ n이므로 굴절률이 클수록 임계각이 작습니다.\n다이아몬드의 임계각이 가장 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "광섬유가 빛을 멀리 전달하는 원리와 광통신의 장점을 설명해 보세요.",
+   "hint": "구조, 원리, 장점 순서로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "코어"
+     ],
+     [
+      "굴절률"
+     ],
+     [
+      "전반사"
+     ],
+     [
+      "손실",
+      "많은 정보",
+      "대용량",
+      "잡음"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "광섬유는 굴절률이 큰 코어를 굴절률이 작은 클래딩이 감싸고 있어, 코어 속 빛이 경계면에서 전반사를 반복하며 멀리 진행합니다. 광통신은 신호 손실이 적고 많은 정보를 보낼 수 있으며 전자기적 잡음의 영향을 받지 않습니다."
+  }
+ ]
+}

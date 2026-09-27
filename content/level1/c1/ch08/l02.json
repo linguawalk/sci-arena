@@ -1,0 +1,388 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch08",
+  "no": 8,
+  "title": "빛과 물질의 이중성"
+ },
+ "lesson": {
+  "id": "c1-ch08-l02",
+  "no": 2,
+  "title": "물질파",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "거꾸로 생각해 보기",
+   "body": [
+    "빛이 파동이면서 입자라면, 거꾸로 전자 같은 입자도 파동의 성질을 가지지 않을까요?",
+    "1924년 드브로이는 이렇게 대담한 가설을 세웠고, 몇 년 뒤 실험으로 사실임이 밝혀졌습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "전자처럼 질량을 가진 입자가 나타내는 파동을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "물질파",
+      "드브로이파",
+      "드브로이 파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "드브로이가 제안해 드브로이파라고도 합니다.\n모든 움직이는 입자는 물질파의 성질을 가집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "드브로이 파장",
+   "body": [
+    "드브로이는 운동량 p = mv인 입자가 파장 λ = h ÷ p = h ÷ mv인 파동의 성질을 가진다고 했습니다.",
+    "운동량이 클수록 파장이 짧습니다. 일상의 물체는 운동량이 매우 커서 파장이 상상할 수 없을 만큼 짧아 파동성이 드러나지 않습니다.",
+    "1927년 데이비슨과 거머는 니켈 결정에 전자를 쏘아 X선처럼 회절 무늬가 생기는 것을 관찰해 전자의 파동성을 확인했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물질파의 파장은 플랑크 상수를 입자의 {{1}}으로 나눈 값입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "운동량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "λ = h ÷ p = h ÷ mv입니다.\n운동량이 클수록 파장이 짧습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "같은 입자의 속력이 2배가 되면 물질파의 파장은 처음의 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "λ = h ÷ mv이므로 파장은 속력에 반비례합니다.\n속력이 2배이면 파장은 1/2 = 0.5배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "입자의 운동량이 3배가 되면 물질파의 파장은 처음의 몇 분의 1이 될까요? (분모를 쓰세요.)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "파장은 운동량에 반비례합니다.\n운동량이 3배이면 파장은 1/3이 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질량 0.15 kg인 야구공이 40 m/s로 날아갑니다. 물질파의 파장은? (h = 6.6 × 10⁻³⁴ J·s)",
+   "steps": [
+    "운동량 p = 0.15 × 40 = 6 kg·m/s입니다.",
+    "λ = 6.6 × 10⁻³⁴ ÷ 6 = 1.1 × 10⁻³⁴ m입니다.",
+    "원자 크기(10⁻¹⁰ m)보다도 엄청나게 작아 파동성을 관찰할 수 없습니다."
+   ],
+   "answer": "약 1.1 × 10⁻³⁴ m"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "야구공 같은 일상의 물체에서 파동성이 드러나지 않는 것은 물질파의 파장이 너무 {{1}}기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "질량이 커서 운동량이 크므로 파장이 극히 짧습니다.\n회절이나 간섭이 일어날 만큼 작은 틈이 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자를 결정에 쏘았을 때 회절 무늬가 생긴 것은 전자의 {{1}}을 보여 주는 증거입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "파동성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "회절 무늬는 파동이 간섭할 때 생깁니다.\n데이비슨·거머 실험으로 물질파가 실제로 확인되었습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "전자 현미경",
+   "body": [
+    "현미경으로 구별할 수 있는 가장 작은 크기(분해능)는 사용하는 파동의 파장에 따라 정해집니다. 가시광선의 파장은 400~700 nm이므로 광학 현미경으로는 이보다 훨씬 작은 구조를 볼 수 없습니다.",
+    "전자 현미경은 빛 대신 전자의 물질파를 씁니다. 높은 전압으로 가속한 전자의 파장은 가시광선보다 수만 배 이상 짧아, 바이러스나 원자 배열까지 볼 수 있습니다.",
+    "가속 전압을 높이면 전자의 속력과 운동량이 커져 파장이 더 짧아집니다. 전자는 자기장으로 만든 자기 렌즈로 초점을 맞춥니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "현미경의 분해능을 높이려면 파장이 더 {{1}}은 파동을 써야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "파장이 짧을수록 더 작은 구조를 구별할 수 있습니다.\n그래서 파장이 매우 짧은 전자의 물질파를 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자 현미경의 가속 전압을 높이면 전자의 물질파 파장이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전압이 높으면 전자가 더 빨라져 운동량이 커집니다.\nλ = h ÷ p이므로 파장이 짧아집니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "광학 현미경으로는 바이러스(약 100 nm)를 선명하게 볼 수 없는데, 전자 현미경으로는 볼 수 있는 까닭은?",
+   "steps": [
+    "가시광선의 파장(400~700 nm)은 바이러스보다 커서 구조를 구별할 수 없습니다.",
+    "가속된 전자의 물질파 파장은 0.01 nm 정도 이하로 매우 짧습니다.",
+    "파장이 짧은 파동을 쓰므로 훨씬 작은 구조까지 구별할 수 있습니다."
+   ],
+   "answer": "전자의 물질파 파장이 훨씬 짧기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "파장이 긴 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "X선 (약 0.1 nm)"
+    },
+    {
+     "id": "b",
+     "text": "가시광선 (약 500 nm)"
+    },
+    {
+     "id": "c",
+     "text": "전자 현미경의 전자 (약 0.005 nm)"
+    },
+    {
+     "id": "d",
+     "text": "자외선 (약 100 nm)"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "전자 현미경의 전자는 X선보다도 파장이 짧습니다.\n그래서 광학 현미경보다 훨씬 작은 구조를 볼 수 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "빛과 물질의 이중성",
+   "body": [
+    "빛과 전자는 모두 파동성과 입자성을 함께 가집니다. 어떤 실험을 하느냐에 따라 한 가지 성질이 두드러지게 나타납니다.",
+    "이런 미시 세계를 설명하는 이론이 양자 역학입니다. 반도체, 레이저, 전자 현미경 같은 현대 기술은 모두 양자 역학 위에 서 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "빛과 물질이 파동성과 입자성을 모두 가지는 성질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이중성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "빛의 이중성과 물질의 이중성을 합쳐 파동–입자 이중성이라고도 합니다.\n양자 역학의 출발점이 된 개념입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "전자와 양성자가 같은 속력으로 움직입니다. 물질파의 파장이 더 긴 것은?",
+   "steps": [
+    "λ = h ÷ mv이므로 속력이 같으면 파장은 질량에 반비례합니다.",
+    "양성자의 질량은 전자의 약 1840배입니다.",
+    "따라서 질량이 작은 전자의 파장이 더 깁니다."
+   ],
+   "answer": "전자"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 속력으로 움직이는 전자와 양성자 중 물질파의 파장이 더 긴 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전자"
+     ]
+    }
+   ],
+   "hint": "λ = h ÷ mv에서 m을 비교하세요.",
+   "explanation": "속력이 같으면 질량이 작을수록 운동량이 작습니다.\n운동량이 작은 전자의 파장이 더 깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "운동량의 크기가 같은 전자와 양성자의 물질파 파장의 비(전자 ÷ 양성자)는 얼마일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "파장은 운동량으로만 정해집니다.",
+   "explanation": "λ = h ÷ p이므로 운동량이 같으면 파장도 같습니다.\n비는 1입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "입자의 운동 에너지가 4배가 되면(속력 2배) 물질파의 파장은 처음의 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "운동 에너지가 4배이면 속력은 몇 배일까요?",
+   "explanation": "운동 에너지가 4배이면 속력은 2배, 운동량도 2배입니다.\n파장은 운동량에 반비례하므로 0.5배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "전자 현미경이 광학 현미경보다 작은 구조를 볼 수 있는 것은 전자의 물질파 파장이 가시광선보다 훨씬 {{1}}기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": "분해능과 파장의 관계를 떠올리세요.",
+   "explanation": "분해능은 파장이 짧을수록 좋아집니다.\n가속된 전자의 파장은 가시광선의 수만분의 1 이하입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "입자의 질량이 1/2배, 속력이 4배가 되면 물질파의 파장은 처음의 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "먼저 운동량이 몇 배가 되는지 구하세요.",
+   "explanation": "운동량 = 질량 × 속력 = 1/2 × 4 = 2배입니다.\n파장은 운동량에 반비례하므로 0.5배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "전자 현미경이 광학 현미경보다 훨씬 작은 구조를 볼 수 있는 까닭을 물질파로 설명해 보세요.",
+   "hint": "파장과 분해능의 관계를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "물질파",
+      "전자"
+     ],
+     [
+      "파장"
+     ],
+     [
+      "짧"
+     ],
+     [
+      "분해능",
+      "작은 구조",
+      "구별"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "전자 현미경은 빛 대신 가속된 전자의 물질파를 씁니다. 전자의 물질파 파장은 가시광선보다 훨씬 짧고, 현미경은 파장이 짧을수록 더 작은 구조를 구별할 수 있으므로(분해능이 좋으므로) 훨씬 작은 구조를 볼 수 있습니다."
+  }
+ ]
+}

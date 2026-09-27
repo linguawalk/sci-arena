@@ -1,0 +1,484 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch01",
+  "no": 1,
+  "title": "운동의 기술"
+ },
+ "lesson": {
+  "id": "c1-ch01-l03",
+  "no": 3,
+  "title": "가속도",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "0에서 100까지",
+   "body": [
+    "자동차 광고에서는 '정지 상태에서 시속 100 km까지 몇 초'로 성능을 자랑합니다.",
+    "이것은 속도가 얼마나 빨리 변하는지를 나타냅니다. 물리에서는 이 양을 가속도라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "단위 시간 동안 속도가 변하는 정도를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가속도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가속도는 속도 변화량을 걸린 시간으로 나눈 값입니다.\n속도가 빨리 변할수록 가속도가 큽니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "가속도의 정의",
+   "body": [
+    "가속도 a = 속도 변화량 ÷ 걸린 시간 = (나중 속도 − 처음 속도) ÷ 시간입니다. 단위는 m/s²이며, 2 m/s²는 1초마다 속도가 2 m/s씩 변한다는 뜻입니다.",
+    "가속도도 방향이 있는 벡터입니다. 가속도가 운동 방향과 같으면 빨라지고, 반대이면 느려집니다.",
+    "속력이 일정해도 운동 방향이 바뀌면 속도가 변한 것이므로 가속도가 있습니다. 등속 원운동이 그 예입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "가속도의 단위는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "m/s²",
+      "m/s2",
+      "m/s^2"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "속도(m/s)를 시간(s)으로 나누므로 m/s²입니다.\n'미터 매 초 제곱'이라고 읽습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "속도가 4초 동안 2 m/s에서 10 m/s로 변했습니다. 가속도는?",
+   "steps": [
+    "속도 변화량 = 10 − 2 = 8 m/s입니다.",
+    "가속도 = 8 m/s ÷ 4 s = 2 m/s²입니다."
+   ],
+   "answer": "2 m/s²"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정지해 있던 자동차가 6초 만에 30 m/s가 되었습니다. 가속도는 몇 m/s²일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "속도 변화량 = 30 − 0 = 30 m/s입니다.\n가속도 = 30 ÷ 6 = 5 m/s²입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "20 m/s로 달리던 자전거가 5초 동안 5 m/s로 느려졌습니다. 가속도는 몇 m/s²일까요? (운동 방향을 +로 합니다.)",
+   "answer": "-3",
+   "answer_format": "decimal",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "속도 변화량 = 5 − 20 = −15 m/s입니다.\n가속도 = −15 ÷ 5 = −3 m/s²로, 운동 방향과 반대입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "등속 원운동은 속력이 일정하지만 운동 {{1}}이 계속 바뀌므로 가속도 운동입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "방향"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "속도는 크기와 방향을 가진 벡터입니다.\n방향이 바뀌면 속도가 변한 것이므로 가속도가 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "속도–시간 그래프",
+   "body": [
+    "속도–시간 그래프의 기울기는 가속도입니다. 기울기가 일정한 직선이면 가속도가 일정합니다.",
+    "그래프와 시간축 사이의 넓이는 그 시간 동안의 변위입니다. 속도 × 시간 = 변위이기 때문입니다. 시간축 아래쪽 넓이는 −방향의 변위입니다."
+   ],
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "초",
+     "ylabel": "m/s",
+     "xmin": 0,
+     "xmax": 5,
+     "ymin": 0,
+     "ymax": 12,
+     "xstep": 1,
+     "ystep": 2,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        2,
+        2
+       ],
+       "from": 0,
+       "to": 4
+      }
+     ],
+     "points": [
+      [
+       4,
+       10,
+       "(4초, 10 m/s)"
+      ],
+      [
+       0,
+       2,
+       "(0초, 2 m/s)"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 속도–시간 그래프에서 물체의 가속도는 몇 m/s²일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "0초에 2 m/s, 4초에 10 m/s입니다.\n가속도 = (10 − 2) ÷ 4 = 2 m/s²입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "초",
+     "ylabel": "m/s",
+     "xmin": 0,
+     "xmax": 5,
+     "ymin": 0,
+     "ymax": 12,
+     "xstep": 1,
+     "ystep": 2,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        2,
+        2
+       ],
+       "from": 0,
+       "to": 4
+      }
+     ],
+     "points": [
+      [
+       4,
+       10,
+       "(4초, 10 m/s)"
+      ],
+      [
+       0,
+       2,
+       "(0초, 2 m/s)"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "같은 그래프에서 0초부터 4초까지의 변위는 몇 m일까요?",
+   "answer": "24",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "그래프 아래 넓이는 사다리꼴입니다.\n(2 + 10) ÷ 2 × 4 = 24 m입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "초",
+     "ylabel": "m/s",
+     "xmin": 0,
+     "xmax": 5,
+     "ymin": 0,
+     "ymax": 12,
+     "xstep": 1,
+     "ystep": 2,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        2,
+        2
+       ],
+       "from": 0,
+       "to": 4
+      }
+     ],
+     "points": [
+      [
+       4,
+       10,
+       "(4초, 10 m/s)"
+      ],
+      [
+       0,
+       2,
+       "(0초, 2 m/s)"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "속도–시간 그래프와 시간축 사이의 넓이는 {{1}}를 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변위",
+      "이동 거리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "넓이 = 속도 × 시간입니다.\n속도 × 시간은 변위이므로 넓이가 변위를 나타냅니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "20 m/s로 달리던 차가 브레이크를 밟아 4초 만에 멈췄습니다. 가속도와 제동 거리는?",
+   "steps": [
+    "가속도 = (0 − 20) ÷ 4 = −5 m/s²입니다.",
+    "속도–시간 그래프는 20에서 0으로 내려가는 직선입니다.",
+    "그래프 아래 삼각형 넓이 = ½ × 4 × 20 = 40 m가 제동 거리입니다."
+   ],
+   "answer": "−5 m/s², 40 m"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "15 m/s로 달리던 자전거가 일정하게 느려져 3초 만에 멈췄습니다. 멈출 때까지 이동한 거리는 몇 m일까요?",
+   "answer": "22.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "속도–시간 그래프 아래는 밑변 3, 높이 15인 삼각형입니다.\n½ × 3 × 15 = 22.5 m입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "운동의 분류",
+   "body": [
+    "속력과 방향이 모두 일정하면 등속 직선 운동으로, 가속도가 0입니다.",
+    "방향은 일정하고 속력만 변하면 직선 가속 운동입니다. 방향이 변하면 곡선 운동이며, 속력이 일정해도 가속도가 있습니다.",
+    "가속도의 부호는 '빨라짐'과 같은 뜻이 아닙니다. 속도와 가속도의 방향이 같으면 빨라지고, 반대이면 느려집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "속도와 가속도의 방향이 반대이면 속력이 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가속도가 운동을 거스르는 방향이면 속도의 크기가 줄어듭니다.\n브레이크를 밟은 자동차가 그 예입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "정지해 있던 자동차가 5초 만에 108 km/h에 도달했습니다. 평균 가속도는?",
+   "steps": [
+    "108 km/h = 108 ÷ 3.6 = 30 m/s입니다.",
+    "가속도 = (30 − 0) ÷ 5 = 6 m/s²입니다."
+   ],
+   "answer": "6 m/s²"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "정지해 있던 자동차가 8초 만에 72 km/h가 되었습니다. 평균 가속도는 몇 m/s²일까요?",
+   "answer": "2.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "먼저 속도를 m/s로 바꾸세요.",
+   "explanation": "72 km/h = 20 m/s입니다.\n가속도 = 20 ÷ 8 = 2.5 m/s²입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "가속도의 크기가 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "5초 동안 0 → 20 m/s"
+    },
+    {
+     "id": "b",
+     "text": "20 m/s로 등속 운동"
+    },
+    {
+     "id": "c",
+     "text": "3초 동안 30 → 0 m/s"
+    },
+    {
+     "id": "d",
+     "text": "5초 동안 0 → 10 m/s"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "각 경우의 속도 변화량 ÷ 시간을 구하세요.",
+   "explanation": "각 가속도의 크기는 0, 2, 4, 10 m/s²입니다.\n느려지는 운동도 크기로 비교하면 10 m/s²로 가장 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "4 m/s로 움직이던 물체가 3 m/s²의 가속도로 5초 동안 빨라졌습니다. 5초 뒤 속도는 몇 m/s일까요?",
+   "answer": "19",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "가속도 × 시간 = 속도 변화량입니다.",
+   "explanation": "5초 동안 속도 변화량 = 3 × 5 = 15 m/s입니다.\n나중 속도 = 4 + 15 = 19 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "공을 위로 던지면 공이 올라가는 동안 속도는 위 방향이지만 가속도는 {{1}} 방향입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아래",
+      "아래쪽",
+      "연직 아래"
+     ]
+    }
+   ],
+   "hint": "올라가는 공은 빨라지나요, 느려지나요?",
+   "explanation": "공은 올라가는 동안 점점 느려집니다.\n느려지므로 가속도는 속도와 반대인 아래 방향입니다. 이 가속도가 중력 가속도입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "물체의 속도가 0~2초 동안 0에서 6 m/s로 일정하게 증가하고, 2~5초 동안 6 m/s로 일정했습니다. 0~5초 동안의 변위는 몇 m일까요?",
+   "answer": "24",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "속도–시간 그래프를 그려 넓이를 구간별로 나누세요.",
+   "explanation": "0~2초: 삼각형 넓이 ½ × 2 × 6 = 6 m입니다.\n2~5초: 직사각형 넓이 3 × 6 = 18 m입니다.\n합계 6 + 18 = 24 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "속력이 일정한 등속 원운동이 가속도 운동인 이유를 설명해 보세요.",
+   "hint": "속도가 무엇으로 이루어진 양인지 떠올리세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "속도"
+     ],
+     [
+      "방향"
+     ],
+     [
+      "벡터",
+      "크기와 방향"
+     ],
+     [
+      "변",
+      "바뀌"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "속도는 크기와 방향을 가진 벡터입니다. 등속 원운동은 속력(크기)은 일정하지만 운동 방향이 계속 바뀌므로 속도가 변하고, 속도가 변하므로 가속도가 있습니다."
+  }
+ ]
+}

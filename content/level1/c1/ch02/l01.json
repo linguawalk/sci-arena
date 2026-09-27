@@ -1,0 +1,383 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch02",
+  "no": 2,
+  "title": "뉴턴 운동 법칙"
+ },
+ "lesson": {
+  "id": "c1-ch02-l01",
+  "no": 1,
+  "title": "알짜힘과 관성 법칙",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "급정거하는 버스",
+   "body": [
+    "달리던 버스가 갑자기 멈추면 서 있던 승객의 몸이 앞으로 쏠립니다. 아무도 승객을 앞으로 밀지 않았는데도 말입니다.",
+    "승객의 몸은 원래 하던 운동, 곧 앞으로 달리던 운동을 계속하려 했을 뿐입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "물체가 원래의 운동 상태를 계속 유지하려는 성질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "관성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "정지한 물체는 계속 정지해 있으려 하고, 움직이는 물체는 같은 속도로 계속 움직이려 합니다.\n이 성질이 관성입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "알짜힘",
+   "body": [
+    "힘은 크기와 방향을 가진 벡터입니다. 한 물체에 여러 힘이 작용하면 이 힘들을 벡터로 더한 하나의 힘, 곧 알짜힘(합력)이 운동을 결정합니다.",
+    "한 직선 위의 힘은 같은 방향이면 더하고 반대 방향이면 뺍니다.",
+    "서로 수직인 두 힘의 알짜힘은 직각삼각형의 빗변으로 구합니다. 동쪽 3 N과 북쪽 4 N의 알짜힘은 √(3² + 4²) = 5 N입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "한 물체에 작용하는 모든 힘을 벡터로 더한 힘을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "알짜힘",
+      "합력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물체의 운동은 개별 힘이 아니라 알짜힘으로 결정됩니다.\n알짜힘이 0이면 운동 상태가 변하지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "한 물체에 동쪽으로 3 N, 북쪽으로 4 N의 힘이 작용합니다. 알짜힘의 크기는?",
+   "steps": [
+    "두 힘은 서로 수직입니다.",
+    "알짜힘은 두 힘을 두 변으로 하는 직사각형의 대각선입니다.",
+    "√(3² + 4²) = √25 = 5 N입니다."
+   ],
+   "answer": "5 N"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "한 물체에 동쪽으로 6 N, 북쪽으로 8 N의 힘이 작용합니다. 알짜힘의 크기는 몇 N일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "두 힘이 수직이므로 피타고라스 정리를 씁니다.\n√(6² + 8²) = √100 = 10 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "오른쪽으로 10 N과 3 N, 왼쪽으로 4 N의 힘이 작용합니다. 알짜힘의 크기는 몇 N일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "오른쪽을 +로 하면 10 + 3 − 4 = 9 N입니다.\n알짜힘은 오른쪽으로 9 N입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "관성 법칙 (뉴턴 운동 제1법칙)",
+   "body": [
+    "물체에 작용하는 알짜힘이 0이면, 정지한 물체는 계속 정지해 있고 운동하던 물체는 같은 속도로 등속 직선 운동을 계속합니다.",
+    "갈릴레이는 마찰이 없는 빗면을 상상해, 공이 수평면을 만나면 멈추지 않고 영원히 굴러갈 것이라고 추론했습니다. 우리가 보는 물체가 멈추는 것은 마찰력이라는 힘이 작용하기 때문입니다.",
+    "관성의 크기는 질량에 비례합니다. 질량이 큰 물체일수록 운동 상태를 바꾸기 어렵습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "알짜힘이 0일 때 운동하던 물체는 {{1}} 운동을 계속합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "등속 직선",
+      "등속",
+      "등속도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "알짜힘이 0이면 가속도가 0입니다.\n속도가 변하지 않으므로 같은 빠르기로 같은 방향으로 계속 움직입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "관성의 크기는 물체의 {{1}}이 클수록 큽니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "질량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "질량이 큰 물체일수록 움직이게 하거나 멈추게 하기 어렵습니다.\n그래서 질량은 관성의 크기를 나타내는 양입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "우주 공간에서 움직이던 우주선이 엔진을 끄면 어떻게 될까요?",
+   "steps": [
+    "우주 공간에는 공기 저항이나 마찰이 거의 없습니다.",
+    "엔진을 끄면 알짜힘이 거의 0이 됩니다.",
+    "관성 법칙에 따라 우주선은 엔진을 끈 순간의 속도로 등속 직선 운동을 계속합니다."
+   ],
+   "answer": "같은 속도로 계속 움직인다"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "달리던 버스가 갑자기 멈추면 승객의 몸은 {{1}}으로 쏠립니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "앞쪽",
+      "앞",
+      "진행 방향"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "버스는 멈추지만 승객의 몸은 관성 때문에 앞으로 가던 운동을 계속하려 합니다.\n그래서 앞으로 쏠립니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "일정한 속도로 직선 운동을 하는 물체에 작용하는 알짜힘은 몇 N일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "등속 직선 운동은 속도가 변하지 않으므로 가속도가 0입니다.\n따라서 알짜힘도 0입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "알짜힘이 0인 운동",
+   "body": [
+    "알짜힘이 0이라고 해서 힘이 하나도 작용하지 않는다는 뜻은 아닙니다. 여러 힘이 작용하되 서로 상쇄되어 합이 0인 경우가 많습니다.",
+    "바닥에서 상자를 20 N으로 끌어 등속으로 움직이게 했다면, 상자에는 반대 방향으로 20 N의 마찰력이 작용해 알짜힘이 0입니다.",
+    "일정한 속력으로 떨어지는 빗방울도 아래로 작용하는 중력과 위로 작용하는 공기 저항이 같아 알짜힘이 0입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "바닥 위의 상자를 수평으로 20 N의 힘으로 끌었더니 일정한 속도로 움직였습니다. 상자에 작용하는 마찰력의 크기는 몇 N일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "등속 운동이므로 알짜힘이 0입니다.\n끄는 힘 20 N과 마찰력의 크기가 같아야 하므로 20 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "질량 0.002 kg인 빗방울이 일정한 속력으로 떨어집니다. 빗방울이 받는 공기 저항은 몇 N일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "0.02",
+   "answer_format": "decimal",
+   "tolerance": 0.0001,
+   "hint": null,
+   "explanation": "등속이므로 공기 저항 = 중력입니다.\n중력 = mg = 0.002 × 10 = 0.02 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "일정한 속력으로 떨어지는 빗방울에서는 중력과 {{1}}의 크기가 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공기 저항",
+      "공기저항"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "속력이 일정하므로 알짜힘이 0입니다.\n아래로 작용하는 중력과 위로 작용하는 공기 저항이 크기가 같습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "질량 80 kg인 엘리베이터가 줄에 매달려 일정한 속력으로 올라갑니다. 줄이 당기는 힘은? (중력 가속도 g = 10 m/s²)",
+   "steps": [
+    "속력이 일정하므로 알짜힘이 0입니다.",
+    "위로 당기는 줄의 힘 = 아래로 작용하는 중력입니다.",
+    "중력 = 80 × 10 = 800 N이므로 줄의 힘도 800 N입니다."
+   ],
+   "answer": "800 N"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 50 kg인 물체가 줄에 매달려 일정한 속력으로 올라갑니다. 줄이 당기는 힘은 몇 N일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "등속 운동의 알짜힘을 떠올리세요.",
+   "explanation": "등속이므로 줄의 힘 = 중력입니다.\n50 × 10 = 500 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "정지한 물체에 동쪽으로 3 N, 북쪽으로 4 N, 그리고 세 번째 힘이 작용해 물체가 계속 정지해 있습니다. 세 번째 힘의 크기는 몇 N일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "먼저 두 힘의 알짜힘을 구하세요.",
+   "explanation": "처음 두 힘의 알짜힘은 √(3² + 4²) = 5 N입니다.\n정지 상태가 유지되려면 세 번째 힘이 이와 크기가 같고 방향이 반대여야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "식탁보를 아주 빠르게 잡아당기면 위의 그릇은 거의 제자리에 남습니다. 그릇의 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "관성"
+     ]
+    }
+   ],
+   "hint": "정지 상태를 유지하려는 성질입니다.",
+   "explanation": "식탁보가 짧은 시간 동안만 그릇에 힘을 줍니다.\n그릇은 관성 때문에 정지 상태를 유지하려 하므로 거의 움직이지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "관성이 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "볼링공 (7 kg)"
+    },
+    {
+     "id": "b",
+     "text": "탁구공 (3 g)"
+    },
+    {
+     "id": "c",
+     "text": "승용차 (1500 kg)"
+    },
+    {
+     "id": "d",
+     "text": "야구공 (145 g)"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "질량이 작을수록 관성이 작습니다.",
+   "explanation": "관성의 크기는 질량에 비례합니다.\n질량이 작은 순서대로 탁구공, 야구공, 볼링공, 승용차입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "우주 공간에서 엔진을 끈 우주선이 멈추지 않고 계속 움직이는 이유를 관성 법칙으로 설명해 보세요.",
+   "hint": "엔진을 끈 뒤 우주선에 작용하는 알짜힘부터 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "알짜힘"
+     ],
+     [
+      "0",
+      "없"
+     ],
+     [
+      "관성"
+     ],
+     [
+      "등속",
+      "같은 속도",
+      "계속"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "우주 공간에는 마찰이나 공기 저항이 거의 없어 엔진을 끄면 알짜힘이 0이 됩니다. 관성 법칙에 따라 알짜힘이 0인 물체는 등속 직선 운동을 계속하므로 우주선은 멈추지 않습니다."
+  }
+ ]
+}

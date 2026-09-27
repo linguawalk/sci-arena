@@ -1,0 +1,386 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch03",
+  "no": 3,
+  "title": "운동량과 충격량"
+ },
+ "lesson": {
+  "id": "c1-ch03-l04",
+  "no": 4,
+  "title": "충격 완화와 안전",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "달걀 떨어뜨리기",
+   "body": [
+    "같은 높이에서 달걀을 떨어뜨리면 딱딱한 바닥에서는 깨지지만 두꺼운 방석 위에서는 깨지지 않습니다.",
+    "두 경우 모두 달걀은 같은 속력으로 떨어져 멈추므로 운동량 변화가 같습니다. 차이는 멈추는 데 걸린 시간입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "방석 위에 떨어진 달걀이 깨지지 않는 것은 멈추는 데 걸리는 {{1}}이 길어 달걀이 받는 힘이 작기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시간"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "운동량 변화가 같으면 충격량도 같습니다.\n충격량 = 힘 × 시간이므로 시간이 길면 힘이 작아집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "충돌 시간과 평균 힘",
+   "body": [
+    "물체가 멈출 때의 운동량 변화는 정해져 있으므로 충격량도 정해져 있습니다. 평균 힘 = 충격량 ÷ 충돌 시간이므로, 충돌 시간을 늘리면 받는 힘이 줄어듭니다.",
+    "이 원리를 이용한 예가 많습니다. 에어백, 늘어나는 안전띠, 헬멧 속 스티로폼, 푹신한 체육 매트, 포수의 두꺼운 미트, 착지할 때 무릎을 굽히는 동작이 모두 충돌 시간을 늘립니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "운동량 변화가 같을 때 충돌 시간이 길수록 물체가 받는 평균 힘은 {{1}}아집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "평균 힘 = 충격량 ÷ 시간입니다.\n충격량이 같으면 시간이 길수록 평균 힘이 작습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "60 kg인 사람이 10 m/s로 달리던 차 안에서 충돌로 멈춥니다. 대시보드에 부딪혀 0.02초 만에 멈출 때와 에어백으로 0.2초 만에 멈출 때 평균 힘은?",
+   "steps": [
+    "운동량 변화량 = 60 × 10 = 600 kg·m/s입니다.",
+    "대시보드: 600 ÷ 0.02 = 30000 N입니다.",
+    "에어백: 600 ÷ 0.2 = 3000 N으로 1/10로 줄어듭니다."
+   ],
+   "answer": "30000 N, 3000 N"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "50 kg인 사람이 12 m/s에서 0.1초 만에 멈췄습니다. 평균 힘은 몇 N일까요?",
+   "answer": "6000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "운동량 변화량 = 50 × 12 = 600 kg·m/s입니다.\n평균 힘 = 600 ÷ 0.1 = 6000 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "같은 사람이 에어백 덕분에 0.4초 만에 멈췄다면 평균 힘은 몇 N일까요?",
+   "answer": "1500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "운동량 변화량은 600 kg·m/s로 같습니다.\n평균 힘 = 600 ÷ 0.4 = 1500 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "운동량 변화가 같을 때 충돌 시간을 5배로 늘리면 평균 힘은 처음의 몇 배가 될까요?",
+   "answer": "0.2",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "평균 힘은 충돌 시간에 반비례합니다.\n1 ÷ 5 = 0.2배입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "자동차의 안전 설계",
+   "body": [
+    "자동차의 앞뒤 부분은 충돌할 때 일부러 천천히 찌그러지도록 만듭니다. 이 부분을 크럼플 존이라고 하며, 찌그러지는 동안 충돌 시간이 길어져 탑승자가 받는 힘이 줄어듭니다.",
+    "반면 사람이 타는 공간은 단단하게 만들어 찌그러지지 않게 합니다. 안전띠는 약간 늘어나면서 몸을 붙잡고, 에어백은 몸이 멈추는 시간을 늘리고 힘을 넓은 면적에 나누어 줍니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "충돌할 때 일부러 찌그러지도록 만든 자동차의 앞뒤 부분을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "크럼플 존",
+      "크럼플존",
+      "충격 흡수 구역"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "크럼플 존이 찌그러지는 동안 차가 멈추는 시간이 길어집니다.\n그래서 탑승자가 받는 평균 힘이 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "높은 곳에서 뛰어내려 착지할 때 무릎을 굽히는 것은 몸이 멈추는 데 걸리는 {{1}}을 늘리기 위해서입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시간"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "무릎을 굽히면 몸이 천천히 멈춥니다.\n충돌 시간이 길어져 다리가 받는 힘이 줄어듭니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "자전거 헬멧 안쪽에 딱딱한 플라스틱이 아니라 스티로폼을 넣는 이유는?",
+   "steps": [
+    "머리가 부딪혀 멈출 때 운동량 변화는 정해져 있습니다.",
+    "스티로폼이 찌그러지는 동안 머리가 천천히 멈춰 충돌 시간이 길어집니다.",
+    "평균 힘이 줄어 머리가 받는 충격이 작아집니다."
+   ],
+   "answer": "충돌 시간을 늘려 힘을 줄이기 위해"
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 속력에서 멈추는 두 경우의 힘–시간 그래프를 비교하면, 에어백이 있을 때와 없을 때 그래프 아래의 넓이는 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 경우 운동량 변화가 같으므로 충격량, 곧 넓이가 같습니다.\n에어백이 있으면 그래프가 낮고 넓어져 최대 힘이 작습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "큰 힘이 필요할 때",
+   "body": [
+    "반대로 짧은 시간에 큰 힘을 내야 할 때는 충돌 시간을 줄입니다.",
+    "망치 머리를 단단한 쇠로 만드는 것은 못과 부딪히는 시간을 짧게 해 큰 힘을 내기 위해서입니다. 태권도 격파에서 빠르고 짧게 치는 것도 같은 원리입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "망치 머리를 단단한 쇠로 만드는 것은 못과의 충돌 시간이 {{1}}아 큰 힘을 낼 수 있기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "충격량이 같을 때 시간이 짧을수록 평균 힘이 큽니다.\n단단한 망치는 거의 찌그러지지 않아 충돌 시간이 짧습니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "같은 높이에서 떨어뜨린 달걀이 받는 평균 힘이 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "나무 바닥 위"
+    },
+    {
+     "id": "b",
+     "text": "두꺼운 쿠션 위"
+    },
+    {
+     "id": "c",
+     "text": "콘크리트 바닥 위"
+    },
+    {
+     "id": "d",
+     "text": "모래 위"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "운동량 변화는 모두 같습니다.\n바닥이 부드러울수록 멈추는 시간이 길어 평균 힘이 작습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "질량 1 kg인 공이 10 m/s로 바닥에 떨어져 멈춥니다. 딱딱한 바닥에서 0.01초, 매트에서 0.5초 걸린다면 각각 평균 힘은?",
+   "steps": [
+    "운동량 변화량 = 1 × 10 = 10 kg·m/s입니다.",
+    "딱딱한 바닥: 10 ÷ 0.01 = 1000 N입니다.",
+    "매트: 10 ÷ 0.5 = 20 N입니다. (중력의 효과는 무시합니다.)"
+   ],
+   "answer": "1000 N, 20 N"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 0.5 kg인 물체가 20 m/s로 모래에 떨어져 0.05초 만에 멈췄습니다. 모래가 물체에 작용한 평균 힘은 몇 N일까요? (중력의 효과는 무시)",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "운동량 변화량을 시간으로 나누세요.",
+   "explanation": "운동량 변화량 = 0.5 × 20 = 10 kg·m/s입니다.\n평균 힘 = 10 ÷ 0.05 = 200 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "포수가 40 m/s로 날아온 0.15 kg 야구공을 미트로 0.03초 동안 받아 멈추게 했습니다. 평균 힘은 몇 N일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "평균 힘 = 운동량 변화량 ÷ 시간입니다.",
+   "explanation": "운동량 변화량 = 0.15 × 40 = 6 kg·m/s입니다.\n평균 힘 = 6 ÷ 0.03 = 200 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "에어백은 충돌 시간을 늘릴 뿐 아니라 힘이 작용하는 {{1}}을 넓혀 몸의 한 곳에 힘이 몰리지 않게 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "면적"
+     ]
+    }
+   ],
+   "hint": "압력 = 힘 ÷ 무엇일까요?",
+   "explanation": "같은 힘이라도 넓은 면적에 나뉘면 단위 면적당 힘(압력)이 작아집니다.\n그래서 부상이 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "충돌 시간이 0.05초에서 0.2초로 늘어나면 평균 힘은 처음의 몇 배가 될까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "시간이 몇 배가 되었는지 먼저 구하세요.",
+   "explanation": "평균 힘은 충돌 시간에 반비례합니다.\n0.05 ÷ 0.2 = 0.25배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "번지 점프에서는 잘 {{1}} 줄을 써서 사람이 천천히 멈추도록 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "늘어나는",
+      "늘어나",
+      "신축성 있는"
+     ]
+    }
+   ],
+   "hint": "줄이 어떤 성질을 가져야 멈추는 시간이 길어질까요?",
+   "explanation": "줄이 늘어나는 동안 사람이 멈추는 시간이 길어집니다.\n충돌 시간이 길어 몸이 받는 평균 힘이 작아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "자동차 에어백이 탑승자를 보호하는 원리를 충격량과 평균 힘으로 설명해 보세요.",
+   "hint": "충격량이 같다는 점부터 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "운동량",
+      "충격량"
+     ],
+     [
+      "시간"
+     ],
+     [
+      "길",
+      "늘"
+     ],
+     [
+      "힘"
+     ],
+     [
+      "작",
+      "줄"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "충돌로 탑승자가 멈출 때의 운동량 변화, 곧 충격량은 에어백이 있든 없든 같습니다. 에어백은 몸이 멈추는 시간을 길게 하므로 평균 힘 = 충격량 ÷ 시간이 작아져 탑승자가 받는 충격이 줄어듭니다."
+  }
+ ]
+}

@@ -1,0 +1,409 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch07",
+  "no": 7,
+  "title": "파동과 빛"
+ },
+ "lesson": {
+  "id": "c1-ch07-l04",
+  "no": 4,
+  "title": "파동의 간섭과 전자기파",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "소리로 소리를 지운다",
+   "body": [
+    "소음 제거 헤드폰은 바깥 소음을 마이크로 받아, 그와 정반대 모양의 소리를 만들어 함께 들려줍니다.",
+    "두 소리가 겹치면 서로를 지워 조용해집니다. 파동이 겹쳐 세기가 달라지는 현상을 간섭이라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "두 파동이 겹쳐 세기가 커지거나 작아지는 현상을 파동의 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "간섭"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 파동이 만나면 변위가 더해집니다.\n그 결과 세기가 커지기도, 작아지기도 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "중첩과 간섭",
+   "body": [
+    "두 파동이 만나면 그 지점의 변위는 각 파동의 변위를 더한 값이 됩니다(중첩 원리). 만난 뒤에는 각 파동이 원래 모습대로 진행합니다.",
+    "마루와 마루(또는 골과 골)가 만나면 진폭이 커지는 보강 간섭, 마루와 골이 만나면 진폭이 작아지는 상쇄 간섭이 일어납니다.",
+    "같은 위상의 두 파원에서 나온 파동은 두 파원까지 거리의 차(경로차)가 반파장의 짝수 배이면 보강, 홀수 배이면 상쇄 간섭합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "한 파동의 마루와 다른 파동의 골이 만나 진폭이 작아지는 간섭을 {{1}} 간섭이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상쇄"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "마루(+)와 골(−)이 더해져 변위가 줄어듭니다.\n진폭이 같으면 완전히 0이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "진폭이 3 cm, 5 cm인 두 파동이 마루끼리 만났습니다. 합성파의 진폭은 몇 cm일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "보강 간섭이므로 진폭이 더해집니다.\n3 + 5 = 8 cm입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "진폭이 2 cm로 같은 두 파동의 마루와 골이 만났습니다. 합성파의 진폭은 몇 cm일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "상쇄 간섭이므로 2 − 2 = 0입니다.\n그 순간 그 지점의 변위는 0입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "소음 제거 헤드폰의 원리는?",
+   "steps": [
+    "마이크로 바깥 소음의 파형을 측정합니다.",
+    "소음과 진폭은 같고 위상이 반대인(마루와 골이 뒤바뀐) 소리를 만듭니다.",
+    "두 소리가 겹쳐 상쇄 간섭을 일으켜 소음이 줄어듭니다."
+   ],
+   "answer": "상쇄 간섭"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "소음 제거 헤드폰은 소리의 {{1}} 간섭을 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상쇄"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "소음과 반대 위상의 소리를 만들어 겹칩니다.\n마루와 골이 만나 서로 지우는 상쇄 간섭입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "비눗방울이나 물 위의 기름 막이 무지갯빛으로 보이는 것은 얇은 막의 위아래 면에서 반사된 빛의 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "간섭"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "막의 두 면에서 반사된 빛이 겹칩니다.\n막 두께와 파장에 따라 특정 색이 보강되어 여러 색이 보입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "전자기파",
+   "body": [
+    "전자기파는 전기장과 자기장이 서로 수직으로 진동하며 퍼져 나가는 횡파입니다. 매질 없이 진공에서도 진행하며, 진공에서 속력은 모두 3 × 10⁸ m/s입니다.",
+    "파장이 긴 것부터 전파, 마이크로파, 적외선, 가시광선, 자외선, X선, 감마선입니다. 파장이 짧을수록 진동수가 크고 에너지가 큽니다.",
+    "가시광선은 파장 약 400~700 nm로, 전자기파 가운데 사람 눈에 보이는 아주 좁은 영역입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자기파는 {{1}} 없이도 진공에서 진행할 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "매질"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전기장과 자기장이 서로를 만들며 퍼져 나가므로 매질이 필요 없습니다.\n그래서 햇빛이 우주 공간을 지나 지구에 옵니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "파장이 긴 전자기파부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "자외선"
+    },
+    {
+     "id": "b",
+     "text": "전파"
+    },
+    {
+     "id": "c",
+     "text": "X선"
+    },
+    {
+     "id": "d",
+     "text": "적외선"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "전파 > 마이크로파 > 적외선 > 가시광선 > 자외선 > X선 > 감마선 순입니다.\n파장이 짧을수록 에너지가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "진동수 3 GHz(3 × 10⁹ Hz)인 휴대 전화 전파의 파장은 몇 m일까요? (전자기파 속력 3 × 10⁸ m/s)",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "λ = v ÷ f입니다.\n3 × 10⁸ ÷ 3 × 10⁹ = 0.1 m입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전자기파의 이용",
+   "body": [
+    "전파는 라디오, TV, 휴대 전화 통신에, 마이크로파는 전자레인지와 레이더에 씁니다. 적외선은 리모컨과 열화상 카메라에 씁니다.",
+    "자외선은 살균과 위조지폐 감별에, X선은 뼈 사진과 공항 보안 검색에, 감마선은 암 치료와 식품 살균에 씁니다. 에너지가 큰 자외선, X선, 감마선은 세포를 손상시킬 수 있어 주의해야 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "물체가 내는 열을 감지해 영상으로 보여 주는 열화상 카메라는 {{1}}을 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "모든 물체는 온도에 따라 적외선을 냅니다.\n열화상 카메라는 이 적외선을 감지해 온도 분포를 보여 줍니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "summary",
+   "title": "예제",
+   "problem": "전자레인지가 음식을 데우는 원리는?",
+   "steps": [
+    "전자레인지는 약 2.45 GHz의 마이크로파를 만듭니다.",
+    "마이크로파는 음식 속 물 분자를 빠르게 회전·진동시킵니다.",
+    "물 분자의 운동 에너지가 열이 되어 음식이 데워집니다."
+   ],
+   "answer": "마이크로파가 물 분자를 진동시킨다"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "병원에서 뼈 사진을 찍을 때는 투과력이 강한 {{1}}을 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "X선",
+      "엑스선",
+      "x선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "X선은 부드러운 조직은 잘 통과하고 뼈에는 더 많이 흡수됩니다.\n그래서 뼈가 하얗게 보이는 사진을 얻습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "레이더가 쏜 전파가 비행기에 반사되어 2 × 10⁻⁴초 만에 돌아왔습니다. 비행기까지의 거리는?",
+   "steps": [
+    "전파는 왕복했으므로 편도 시간은 1 × 10⁻⁴초입니다.",
+    "거리 = 3 × 10⁸ × 10⁻⁴ = 3 × 10⁴ m입니다.",
+    "곧 30 km입니다."
+   ],
+   "answer": "30 km"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "레이더가 쏜 전파가 물체에 반사되어 1 × 10⁻⁴초 만에 돌아왔습니다. 물체까지의 거리는 몇 m일까요? (전파 속력 3 × 10⁸ m/s)",
+   "answer": "15000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "왕복 시간이므로 절반만 씁니다.",
+   "explanation": "편도 시간은 0.5 × 10⁻⁴초입니다.\n3 × 10⁸ × 0.5 × 10⁻⁴ = 15000 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "병원과 식당에서 식기나 공기를 살균할 때 주로 쓰는 전자기파는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자외선"
+     ]
+    }
+   ],
+   "hint": "햇볕에 피부가 타게 하는 전자기파입니다.",
+   "explanation": "자외선은 세균의 DNA를 손상시켜 살균 효과가 있습니다.\n그래서 살균 램프에 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 위상의 두 점파원에서 온 물결파의 경로차가 3 cm이고 파장이 2 cm이면 {{1}} 간섭이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상쇄"
+     ]
+    }
+   ],
+   "hint": "경로차를 반파장으로 나누어 보세요.",
+   "explanation": "반파장은 1 cm이고, 경로차 3 cm는 반파장의 3배(홀수 배)입니다.\n홀수 배이면 마루와 골이 만나 상쇄 간섭이 일어납니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "진동수가 작은 전자기파부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "가시광선"
+    },
+    {
+     "id": "b",
+     "text": "전파"
+    },
+    {
+     "id": "c",
+     "text": "감마선"
+    },
+    {
+     "id": "d",
+     "text": "마이크로파"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "파장이 길수록 진동수가 작습니다.",
+   "explanation": "진동수는 파장과 반비례합니다.\n파장이 가장 긴 전파의 진동수가 가장 작고, 감마선이 가장 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "소음 제거 헤드폰이 바깥 소음을 줄이는 원리를 파동의 간섭으로 설명해 보세요.",
+   "hint": "어떤 소리를 만들어 겹치는지부터 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "반대",
+      "역"
+     ],
+     [
+      "위상",
+      "마루",
+      "골"
+     ],
+     [
+      "상쇄"
+     ],
+     [
+      "간섭"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "헤드폰은 마이크로 바깥 소음을 받아 진폭이 같고 위상이 반대인 소리를 만들어 들려줍니다. 두 소리가 겹치면 마루와 골이 만나 상쇄 간섭이 일어나므로 소음이 줄어듭니다."
+  }
+ ]
+}

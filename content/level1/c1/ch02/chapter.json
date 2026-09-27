@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c1",
+  "chapter": {
+    "id": "c1-ch02",
+    "no": 2,
+    "title": "뉴턴 운동 법칙"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c1-ch02-l01",
+      "title": "알짜힘과 관성 법칙",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c1-ch02-l02",
+      "title": "가속도 법칙",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 3,
+      "id": "c1-ch02-l03",
+      "title": "작용 반작용 법칙",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c1-ch02-l04",
+      "title": "중력과 수평으로 던진 물체의 운동",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 24
+    }
+  ],
+  "review": {
+    "id": "c1-ch02-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

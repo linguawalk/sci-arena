@@ -1,0 +1,171 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch07",
+  "no": 7,
+  "title": "파동과 빛"
+ },
+ "review": {
+  "id": "c1-ch07-review",
+  "title": "파동과 빛 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "진동수 4 Hz, 파장 3 m인 파동의 속력은 몇 m/s일까요?",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "속력 = 진동수 × 파장입니다.",
+   "explanation": "v = fλ입니다.\n4 × 3 = 12 m/s입니다.",
+   "source_lesson": "c1-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "파동이 다른 매질로 들어갈 때 속력과 파장은 변하지만 {{1}}는 변하지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진동수"
+     ]
+    }
+   ],
+   "hint": "파원이 정하는 양입니다.",
+   "explanation": "진동수는 파원이 정합니다.\n매질이 바뀌어도 그대로입니다.",
+   "source_lesson": "c1-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "굴절률이 2인 매질 속 빛의 속력은 몇 × 10⁸ m/s일까요? (진공 속 빛의 속력 3 × 10⁸ m/s)",
+   "answer": "1.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "v = c ÷ n입니다.",
+   "explanation": "v = c ÷ n입니다.\n3 ÷ 2 = 1.5이므로 1.5 × 10⁸ m/s입니다.",
+   "source_lesson": "c1-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "빛이 공기에서 유리로 비스듬히 들어가면 {{1}} 쪽으로 꺾입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "법선"
+     ]
+    }
+   ],
+   "hint": "경계면에 수직인 선입니다.",
+   "explanation": "굴절률이 큰 매질로 들어가 속력이 느려지므로 법선 쪽으로 꺾입니다.\n굴절각이 입사각보다 작아집니다.",
+   "source_lesson": "c1-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "공기(n = 1)에서 굴절률 1.5인 매질로 빛이 들어갑니다. sin i = 0.9이면 sin r는 얼마일까요?",
+   "answer": "0.6",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "n₁ sin i = n₂ sin r입니다.",
+   "explanation": "1 × 0.9 = 1.5 × sin r입니다.\nsin r = 0.6입니다.",
+   "source_lesson": "c1-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전반사가 일어나려면 빛이 굴절률이 큰 매질에서 작은 매질로 진행하고, 입사각이 {{1}}보다 커야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "임계각"
+     ]
+    }
+   ],
+   "hint": "굴절각이 90°가 되는 입사각입니다.",
+   "explanation": "두 조건을 모두 만족해야 전반사가 일어납니다.\n임계각은 굴절각이 90°가 되는 입사각입니다.",
+   "source_lesson": "c1-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "굴절률 1.25인 코어와 굴절률 1인 클래딩의 경계에서 sin(임계각)은 얼마일까요?",
+   "answer": "0.8",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "sin(임계각) = n₂ ÷ n₁입니다.",
+   "explanation": "sin(임계각) = 1 ÷ 1.25 = 0.8입니다.\n입사각이 이보다 큰 각이면 전반사가 일어납니다.",
+   "source_lesson": "c1-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "진폭이 4 cm, 1 cm인 두 파동의 마루와 골이 만났습니다. 합성파의 진폭은 몇 cm일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "마루와 골이 만나면 상쇄 간섭입니다.",
+   "explanation": "상쇄 간섭이므로 진폭의 차를 구합니다.\n4 − 1 = 3 cm입니다.",
+   "source_lesson": "c1-ch07-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전자기파 중 파장이 가장 짧고 에너지가 가장 큰 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감마선"
+     ]
+    }
+   ],
+   "hint": "X선보다 파장이 짧습니다.",
+   "explanation": "감마선은 원자핵에서 나오는 전자기파로 에너지가 매우 큽니다.\n암 치료와 식품 살균에 씁니다.",
+   "source_lesson": "c1-ch07-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "진동수 6 × 10¹⁴ Hz인 빛의 파장은 몇 nm일까요? (빛의 속력 3 × 10⁸ m/s)",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "λ = v ÷ f를 계산한 뒤 nm로 바꾸세요.",
+   "explanation": "λ = v ÷ f = 3 × 10⁸ ÷ 6 × 10¹⁴ = 5 × 10⁻⁷ m입니다.\n1 nm = 10⁻⁹ m이므로 500 nm입니다.",
+   "source_lesson": "c1-ch07-l04"
+  }
+ ]
+}

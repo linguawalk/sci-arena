@@ -1,0 +1,162 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch04",
+  "no": 4,
+  "title": "에너지와 열"
+ },
+ "review": {
+  "id": "c1-ch04-review",
+  "title": "에너지와 열 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "마찰 없는 수평면에서 정지한 4 kg 물체에 10 N의 힘이 5 m 동안 작용했습니다. 나중 속력은 몇 m/s일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "일–운동 에너지 정리를 쓰세요.",
+   "explanation": "한 일 = 10 × 5 = 50 J = 운동 에너지입니다.\n½ × 4 × v² = 50에서 v² = 25, v = 5 m/s입니다.",
+   "source_lesson": "c1-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량 2 kg인 물체가 6 m/s로 움직입니다. 운동 에너지는 몇 J일까요?",
+   "answer": "36",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "속력을 먼저 제곱하세요.",
+   "explanation": "Eₖ = ½mv²입니다.\n½ × 2 × 36 = 36 J입니다.",
+   "source_lesson": "c1-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "높이 1.8 m인 마찰 없는 비탈에서 정지 상태로 미끄러진 물체의 바닥 속력은 몇 m/s일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "역학적 에너지 보존을 쓰세요.",
+   "explanation": "v = √(2gh) = √(2 × 10 × 1.8) = √36입니다.\nv = 6 m/s입니다.",
+   "source_lesson": "c1-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "용수철 상수 50 N/m인 용수철을 0.2 m 늘였습니다. 저장된 탄성 퍼텐셜 에너지는 몇 J일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "½kx²을 계산하세요.",
+   "explanation": "Eₚ = ½kx² = ½ × 50 × 0.04입니다.\n= 1 J입니다.",
+   "source_lesson": "c1-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "1 kg 물체가 높이 5 m에서 정지 상태로 비탈을 내려와 바닥에서 8 m/s가 되었습니다. 마찰로 줄어든 역학적 에너지는 몇 J일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "처음과 나중 역학적 에너지의 차이를 구하세요.",
+   "explanation": "처음 역학적 에너지 = 1 × 10 × 5 = 50 J입니다.\n바닥 운동 에너지 = ½ × 1 × 64 = 32 J이므로 50 − 32 = 18 J입니다.",
+   "source_lesson": "c1-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "기체에 600 J의 열을 가했더니 내부 에너지가 450 J 늘었습니다. 기체가 외부에 한 일은 몇 J일까요?",
+   "answer": "150",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "열역학 제1법칙을 쓰세요.",
+   "explanation": "Q = ΔU + W입니다.\nW = 600 − 450 = 150 J입니다.",
+   "source_lesson": "c1-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "부피가 일정한 과정에서는 기체가 하는 일이 0이므로, 가한 열이 모두 {{1}} 증가에 쓰입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "내부 에너지",
+      "내부에너지"
+     ]
+    }
+   ],
+   "hint": "Q = ΔU + W에서 W = 0입니다.",
+   "explanation": "등적 과정에서 W = 0이므로 Q = ΔU입니다.\n가한 열만큼 기체의 온도가 올라갑니다.",
+   "source_lesson": "c1-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "기체가 열 출입 없이 압축되며 외부로부터 80 J의 일을 받았습니다. 내부 에너지 증가량은 몇 J일까요?",
+   "answer": "80",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "단열 과정에서 Q는 0입니다.",
+   "explanation": "단열이므로 Q = 0이고, 받은 일이므로 W = −80 J입니다.\nΔU = Q − W = 80 J입니다.",
+   "source_lesson": "c1-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "고열원에서 400 J을 흡수하고 저열원으로 300 J을 방출하는 열기관의 효율은 몇 %일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "먼저 한 일을 구하세요.",
+   "explanation": "W = 400 − 300 = 100 J입니다.\ne = 100 ÷ 400 = 0.25, 곧 25%입니다.",
+   "source_lesson": "c1-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "흡수한 열을 모두 일로 바꾸는 열기관을 만들 수 없다는 법칙은 열역학 제{{1}}법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "hint": "에너지 보존 법칙이 아닌 쪽입니다.",
+   "explanation": "열역학 제2법칙은 과정의 방향과 열기관 효율의 한계를 설명합니다.\n제1법칙은 에너지 보존입니다.",
+   "source_lesson": "c1-ch04-l04"
+  }
+ ]
+}

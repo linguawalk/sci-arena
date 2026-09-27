@@ -1,0 +1,382 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch04",
+  "no": 4,
+  "title": "에너지와 열"
+ },
+ "lesson": {
+  "id": "c1-ch04-l04",
+  "no": 4,
+  "title": "열기관과 열역학 제2법칙",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "연료의 에너지는 어디로 갈까",
+   "body": [
+    "휘발유 자동차는 연료가 가진 에너지 가운데 대략 30% 정도만 바퀴를 굴리는 데 씁니다. 나머지는 대부분 배기가스와 냉각수의 열로 빠져나갑니다.",
+    "기술이 부족해서만은 아닙니다. 열을 일로 바꾸는 데에는 넘을 수 없는 한계가 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "열에너지를 받아 일(역학적 에너지)로 바꾸는 장치를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "열기관"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자동차 엔진, 증기 기관, 화력 발전소의 터빈이 모두 열기관입니다.\n고온에서 열을 받아 일부를 일로 바꿉니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "열기관과 효율",
+   "body": [
+    "열기관은 고열원에서 열 Q₁을 흡수해 일 W를 하고, 나머지 열 Q₂를 저열원(주변 공기, 냉각수)으로 방출합니다. 에너지 보존에 따라 W = Q₁ − Q₂입니다.",
+    "열효율은 흡수한 열 중 일로 바뀐 비율입니다: e = W ÷ Q₁ = 1 − Q₂ ÷ Q₁.",
+    "열기관은 한 번 돌고 나면 처음 상태로 돌아오는 순환 과정을 반복하므로, 한 순환 동안 기체의 내부 에너지 변화는 0입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "열기관의 효율은 한 일을 {{1}}으로 나눈 값입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "흡수한 열",
+      "공급한 열",
+      "고열원에서 흡수한 열",
+      "받은 열",
+      "Q₁",
+      "Q1"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "e = W ÷ Q₁입니다.\n방출한 열 Q₂까지 일로 바꿀 수 있다면 효율이 1이 되겠지만, 그것은 불가능합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "열기관이 한 순환 동안 고열원에서 1000 J을 흡수하고 저열원으로 700 J을 방출했습니다. 한 일과 효율은?",
+   "steps": [
+    "W = Q₁ − Q₂ = 1000 − 700 = 300 J입니다.",
+    "e = 300 ÷ 1000 = 0.3, 곧 30%입니다."
+   ],
+   "answer": "300 J, 30%"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "고열원에서 500 J을 흡수해 100 J의 일을 하는 열기관의 효율은 몇 %일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "e = W ÷ Q₁ = 100 ÷ 500 = 0.2입니다.\n곧 20%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "효율 25%인 열기관이 고열원에서 800 J을 흡수합니다. 한 순환 동안 하는 일은 몇 J일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "W = e × Q₁입니다.\n0.25 × 800 = 200 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "열기관이 1200 J을 흡수해 300 J의 일을 했습니다. 저열원으로 방출한 열은 몇 J일까요?",
+   "answer": "900",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Q₂ = Q₁ − W입니다.\n1200 − 300 = 900 J입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "열역학 제2법칙",
+   "body": [
+    "열은 스스로 고온에서 저온으로만 이동하고, 저절로 반대 방향으로 이동하지 않습니다. 이처럼 저절로 한 방향으로만 일어나는 과정을 비가역 과정이라고 합니다.",
+    "같은 법칙을 열기관으로 표현하면, 흡수한 열을 모두 일로 바꾸는 열기관(효율 100%)은 만들 수 없습니다. 반드시 일부 열을 저열원으로 버려야 합니다.",
+    "자연에서 저절로 일어나는 과정은 무질서한 정도(엔트로피)가 증가하는 방향으로 일어납니다. 섞인 잉크가 저절로 다시 모이지 않는 것도 이 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "열은 스스로 {{1}}의 물체에서 저온의 물체로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "고온"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "뜨거운 커피는 식고, 차가운 음료는 미지근해집니다.\n반대 방향으로는 저절로 일어나지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "효율이 100%인 열기관을 만들 수 없다는 것은 열역학 제{{1}}법칙의 내용입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "제1법칙은 에너지 보존이고, 효율 100%도 에너지 보존에는 어긋나지 않습니다.\n하지만 제2법칙에 따라 열을 모두 일로 바꿀 수는 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "저절로는 한 방향으로만 일어나고 반대 방향으로는 일어나지 않는 과정을 {{1}} 과정이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비가역"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "열의 이동, 마찰로 열이 생기는 과정, 기체의 확산이 비가역 과정입니다.\n반대로 되돌리려면 외부에서 일을 해 주어야 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "효율의 한계",
+   "body": [
+    "고열원과 저열원의 절대 온도가 각각 T₁, T₂일 때, 이상적인 열기관(카르노 기관)의 최대 효율은 1 − T₂ ÷ T₁입니다.",
+    "그래서 효율을 높이려면 고열원의 온도를 높이거나 저열원의 온도를 낮춰야 합니다. 발전소가 증기를 매우 높은 온도로 만드는 이유입니다. 실제 열기관은 마찰 등 때문에 이 한계보다 효율이 낮습니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "고열원 600 K, 저열원 300 K 사이에서 작동하는 열기관의 최대 효율은?",
+   "steps": [
+    "최대 효율 = 1 − T₂ ÷ T₁입니다.",
+    "1 − 300 ÷ 600 = 1 − 0.5 = 0.5입니다.",
+    "곧 50%가 넘는 효율은 불가능합니다."
+   ],
+   "answer": "50%"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "고열원 500 K, 저열원 300 K 사이에서 작동하는 열기관의 최대 효율은 몇 %일까요?",
+   "answer": "40",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "최대 효율 = 1 − 300 ÷ 500 = 1 − 0.6 = 0.4입니다.\n곧 40%입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "자연에서 저절로 일어나는 과정은 무질서한 정도인 {{1}}가 증가하는 방향으로 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "엔트로피"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "엔트로피는 무질서한 정도를 나타내는 물리량입니다.\n고립된 계의 엔트로피는 저절로 줄어들지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "효율 30%인 자동차 엔진에 연료 에너지 1000 kJ이 공급되었습니다. 바퀴를 굴리는 일과 버려지는 열은?",
+   "steps": [
+    "W = 0.3 × 1000 = 300 kJ입니다.",
+    "버려지는 열 = 1000 − 300 = 700 kJ입니다."
+   ],
+   "answer": "300 kJ, 700 kJ"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "효율 35%인 열기관에 2000 J의 열이 공급되었습니다. 열기관이 한 일은 몇 J일까요?",
+   "answer": "700",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "%를 소수로 바꾸세요.",
+   "explanation": "W = e × Q₁입니다.\n0.35 × 2000 = 700 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "앞 문제의 열기관이 저열원으로 방출한 열은 몇 J일까요?",
+   "answer": "1300",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "흡수한 열 = 일 + 방출한 열입니다.",
+   "explanation": "Q₂ = Q₁ − W입니다.\n2000 − 700 = 1300 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "효율이 낮은 열기관부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Q₂ ÷ Q₁ = 0.6"
+    },
+    {
+     "id": "b",
+     "text": "1000 J 흡수, 200 J 일"
+    },
+    {
+     "id": "c",
+     "text": "300 J 일, 300 J 방출"
+    },
+    {
+     "id": "d",
+     "text": "500 J 흡수, 150 J 일"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "각각 W ÷ Q₁을 구하세요.",
+   "explanation": "효율은 각각 20%, 30%, 40%, 50%입니다.\n마지막은 흡수한 열이 600 J이므로 300 ÷ 600 = 50%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "냉장고가 안쪽의 열을 더 따뜻한 바깥으로 내보내려면 외부에서 {{1}}을 해 주어야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일",
+      "전기 에너지",
+      "외부 일"
+     ]
+    }
+   ],
+   "hint": "열역학 제2법칙에 따르면 저절로는 일어나지 않습니다.",
+   "explanation": "열은 저절로 저온에서 고온으로 가지 않습니다.\n냉장고는 전기 에너지로 압축기를 돌려(일을 해) 열을 반대 방향으로 옮깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "효율 25%인 열기관으로 500 J의 일을 얻으려면 고열원에서 몇 J의 열을 흡수해야 할까요?",
+   "answer": "2000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "e = W ÷ Q₁을 Q₁에 대해 푸세요.",
+   "explanation": "Q₁ = W ÷ e입니다.\n500 ÷ 0.25 = 2000 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "효율이 100%인 열기관을 만들 수 없는 이유를 열역학 제2법칙으로 설명해 보세요.",
+   "hint": "열기관이 반드시 해야 하는 일을 떠올리세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "제2법칙",
+      "2법칙"
+     ],
+     [
+      "모두",
+      "전부"
+     ],
+     [
+      "일"
+     ],
+     [
+      "저열원",
+      "방출",
+      "버려"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "열역학 제2법칙에 따르면 흡수한 열을 모두 일로 바꿀 수는 없고, 열기관은 반드시 일부 열을 저열원으로 방출해야 합니다. 방출하는 열이 0이 될 수 없으므로 효율은 항상 100%보다 작습니다."
+  }
+ ]
+}

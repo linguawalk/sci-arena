@@ -1,0 +1,487 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch03",
+  "no": 3,
+  "title": "운동량과 충격량"
+ },
+ "lesson": {
+  "id": "c1-ch03-l02",
+  "no": 2,
+  "title": "충격량",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "짧고 강한 한 방",
+   "body": [
+    "골프채가 공에 닿아 있는 시간은 1000분의 1초 정도에 불과하지만, 공은 시속 200 km 넘게 날아갑니다.",
+    "운동량을 바꾸는 효과는 힘의 크기뿐 아니라 그 힘이 얼마나 오래 작용했는지에 따라 달라집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "물체가 받은 힘과 힘이 작용한 시간의 곱을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충격량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "충격량 = 힘 × 시간입니다.\n충격량이 클수록 운동량이 크게 변합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "충격량과 운동량의 변화",
+   "body": [
+    "충격량 I = FΔt입니다. 단위는 N·s이고, 방향은 힘의 방향과 같습니다.",
+    "가속도 법칙 F = ma에서 a = Δv ÷ Δt를 넣으면 FΔt = mΔv가 됩니다. 곧 물체가 받은 충격량은 운동량의 변화량과 같습니다.",
+    "힘이 일정하지 않을 때는 평균 힘을 씁니다. 평균 힘 = 운동량 변화량 ÷ 충돌 시간입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물체가 받은 충격량은 물체의 운동량의 {{1}}과 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변화량",
+      "변화"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "FΔt = mΔv입니다.\n충격량을 알면 운동량이 얼마나 변하는지 알 수 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "30 m/s로 날아오는 0.1 kg 공을 잡아 멈추게 했습니다. 공이 받은 충격량과, 멈추는 데 0.01초 걸렸을 때 평균 힘은?",
+   "steps": [
+    "운동량 변화량의 크기 = 0.1 × 30 − 0 = 3 kg·m/s이므로 충격량은 3 N·s입니다.",
+    "평균 힘 = 충격량 ÷ 시간 = 3 ÷ 0.01 = 300 N입니다."
+   ],
+   "answer": "3 N·s, 300 N"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "20 N의 힘이 0.5초 동안 작용했습니다. 충격량은 몇 N·s일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "충격량 = 힘 × 시간입니다.\n20 × 0.5 = 10 N·s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정지해 있던 2 kg 물체가 10 N·s의 충격량을 받았습니다. 나중 속력은 몇 m/s일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "충격량 = 운동량 변화량이므로 2 × v − 0 = 10입니다.\nv = 5 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정지한 0.2 kg 공을 발로 차서 25 m/s로 날려 보냈습니다. 발과 공의 접촉 시간이 0.01초라면 평균 힘은 몇 N일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "운동량 변화량 = 0.2 × 25 = 5 kg·m/s입니다.\n평균 힘 = 5 ÷ 0.01 = 500 N입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "힘–시간 그래프",
+   "body": [
+    "충돌할 때 힘은 순간적으로 커졌다가 다시 작아집니다. 힘–시간 그래프에서 그래프 아래의 넓이가 충격량입니다.",
+    "넓이가 같다면, 곧 운동량 변화가 같다면 그래프가 낮고 넓을수록(시간이 길수록) 최대 힘이 작습니다."
+   ],
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "ms",
+     "ylabel": "N",
+     "xmin": 0,
+     "xmax": 10,
+     "ymin": 0,
+     "ymax": 500,
+     "xstep": 1,
+     "ystep": 100,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0,
+        80
+       ],
+       "from": 0,
+       "to": 5
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        800,
+        -80
+       ],
+       "from": 5,
+       "to": 10
+      }
+     ],
+     "points": [
+      [
+       5,
+       400,
+       "(5 ms, 400 N)"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 힘–시간 그래프에서 물체가 받은 충격량은 몇 N·s일까요? (가로축 시간(ms), 1 ms = 0.001 s)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "그래프 아래는 밑변 10 ms = 0.01 s, 높이 400 N인 삼각형입니다.\n½ × 0.01 × 400 = 2 N·s입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "ms",
+     "ylabel": "N",
+     "xmin": 0,
+     "xmax": 10,
+     "ymin": 0,
+     "ymax": 500,
+     "xstep": 1,
+     "ystep": 100,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0,
+        80
+       ],
+       "from": 0,
+       "to": 5
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        800,
+        -80
+       ],
+       "from": 5,
+       "to": 10
+      }
+     ],
+     "points": [
+      [
+       5,
+       400,
+       "(5 ms, 400 N)"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 그래프의 힘을 받은 물체가 질량 0.1 kg이고 처음에 정지해 있었다면, 나중 속력은 몇 m/s일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "충격량 2 N·s = 운동량 변화량입니다.\n0.1 × v = 2이므로 v = 20 m/s입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "ms",
+     "ylabel": "N",
+     "xmin": 0,
+     "xmax": 10,
+     "ymin": 0,
+     "ymax": 500,
+     "xstep": 1,
+     "ystep": 100,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0,
+        80
+       ],
+       "from": 0,
+       "to": 5
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        800,
+        -80
+       ],
+       "from": 5,
+       "to": 10
+      }
+     ],
+     "points": [
+      [
+       5,
+       400,
+       "(5 ms, 400 N)"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "힘–시간 그래프 아래의 넓이는 {{1}}을 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충격량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "넓이 = 힘 × 시간입니다.\n힘 × 시간은 충격량의 정의와 같습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "같은 충격량을 주는데 힘이 작용하는 시간을 10배로 늘리면 평균 힘은 어떻게 될까요?",
+   "steps": [
+    "평균 힘 = 충격량 ÷ 시간입니다.",
+    "충격량이 같고 시간이 10배이면 평균 힘은 1/10이 됩니다."
+   ],
+   "answer": "1/10로 줄어든다"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "충격량 60 N·s가 0.02초 동안 전달되었습니다. 평균 힘은 몇 N일까요?",
+   "answer": "3000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "평균 힘 = 충격량 ÷ 시간입니다.\n60 ÷ 0.02 = 3000 N입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "충격량을 크게 하려면",
+   "body": [
+    "물체의 속도를 크게 바꾸려면 충격량을 크게 해야 합니다. 방법은 힘을 크게 하거나, 힘이 작용하는 시간을 길게 하는 것입니다.",
+    "골프, 야구, 테니스에서 공을 친 뒤에도 끝까지 휘두르는(팔로스루) 것은 공과 접촉하는 시간을 늘리기 위해서입니다. 대포의 포신이 긴 것도 포탄이 힘을 받는 시간을 늘려 더 빠르게 발사하기 위해서입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "포신이 긴 대포가 포탄을 더 빠르게 발사하는 것은 포탄이 힘을 받는 {{1}}이 길어지기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시간"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "포탄이 포신 안에 있는 동안 화약 가스의 힘을 받습니다.\n시간이 길면 충격량이 커져 운동량, 곧 속도가 커집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "질량 0.06 kg인 테니스공이 40 m/s로 날아와 라켓에 맞고 반대 방향으로 60 m/s로 되돌아갔습니다. 접촉 시간이 0.02초라면 평균 힘은?",
+   "steps": [
+    "돌아가는 방향을 +로 하면 처음 −0.06 × 40 = −2.4, 나중 +0.06 × 60 = +3.6 kg·m/s입니다.",
+    "운동량 변화량 = 3.6 − (−2.4) = 6 kg·m/s입니다.",
+    "평균 힘 = 6 ÷ 0.02 = 300 N입니다."
+   ],
+   "answer": "300 N"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 0.2 kg인 공이 10 m/s로 날아와 반대 방향으로 20 m/s로 되돌아갔습니다. 접촉 시간이 0.05초라면 평균 힘은 몇 N일까요?",
+   "answer": "120",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "방향이 바뀌므로 두 속력을 더해야 합니다.",
+   "explanation": "운동량 변화량 크기 = 0.2 × (20 + 10) = 6 kg·m/s입니다.\n평균 힘 = 6 ÷ 0.05 = 120 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1 m/s로 움직이던 3 kg 물체에 운동 방향으로 12 N의 힘이 2초 동안 작용했습니다. 나중 속력은 몇 m/s일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "충격량 = 나중 운동량 − 처음 운동량입니다.",
+   "explanation": "충격량 = 12 × 2 = 24 N·s입니다.\n3 × v − 3 × 1 = 24이므로 3v = 27, v = 9 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "골프에서 공을 친 뒤에도 끝까지 휘두르는 것은 공과 접촉하는 {{1}}을 늘려 충격량을 크게 하기 위해서입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시간"
+     ]
+    }
+   ],
+   "hint": "충격량을 이루는 두 요소 중 하나입니다.",
+   "explanation": "충격량 = 힘 × 시간입니다.\n같은 힘이라도 접촉 시간이 길면 충격량이 커져 공이 더 빨라집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "정지해 있던 0.5 kg 공이 4 N·s의 충격량을 받았습니다. 나중 속력은 몇 m/s일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "충격량 = 운동량 변화량입니다.",
+   "explanation": "0.5 × v = 4입니다.\nv = 8 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "충격량이 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "100 N으로 0.03초"
+    },
+    {
+     "id": "b",
+     "text": "10 N으로 0.1초"
+    },
+    {
+     "id": "c",
+     "text": "2 N으로 2초"
+    },
+    {
+     "id": "d",
+     "text": "5 N으로 0.4초"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "각각 힘 × 시간을 계산하세요.",
+   "explanation": "충격량은 각각 1, 2, 3, 4 N·s입니다.\n힘이 커도 시간이 짧으면 충격량이 작을 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "포신이 긴 대포가 포탄을 더 빠르게 발사하는 이유를 충격량으로 설명해 보세요.",
+   "hint": "충격량 = 힘 × 시간 = 운동량 변화량을 이용하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "충격량"
+     ],
+     [
+      "시간"
+     ],
+     [
+      "길",
+      "늘"
+     ],
+     [
+      "운동량",
+      "속도",
+      "속력"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "포신이 길면 포탄이 화약 가스의 힘을 받는 시간이 길어집니다. 충격량 = 힘 × 시간이므로 충격량이 커지고, 충격량만큼 운동량이 커지므로 포탄이 더 빠르게 발사됩니다."
+  }
+ ]
+}

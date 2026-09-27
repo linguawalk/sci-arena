@@ -1,0 +1,363 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch01",
+  "no": 1,
+  "title": "운동의 기술"
+ },
+ "lesson": {
+  "id": "c1-ch01-l04",
+  "no": 4,
+  "title": "등가속도 직선 운동",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "가속도가 일정할 때",
+   "body": [
+    "떨어지는 사과, 브레이크를 밟은 자동차, 빗면을 굴러 내려가는 공은 모두 가속도가 거의 일정한 운동을 합니다.",
+    "가속도가 일정하면 세 개의 식만으로 속도, 시간, 이동 거리를 모두 계산할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "가속도의 크기와 방향이 일정한 직선 운동을 {{1}} 직선 운동이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "등가속도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가속도가 일정한(等) 운동이라 등가속도 운동이라고 합니다.\n직선 위에서 일어나면 등가속도 직선 운동입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "두 개의 기본 식",
+   "body": [
+    "처음 속도 v₀, 가속도 a로 시간 t가 지나면 속도는 v = v₀ + at입니다. 가속도의 정의를 바꾸어 쓴 것입니다.",
+    "이동 거리(변위)는 속도–시간 그래프의 사다리꼴 넓이로 구합니다: s = v₀t + ½at².",
+    "등가속도 운동에서는 평균 속도가 처음 속도와 나중 속도의 평균, (v₀ + v) ÷ 2입니다. 그래서 s = (v₀ + v) ÷ 2 × t로도 구할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "처음 속도가 4 m/s, 나중 속도가 10 m/s인 등가속도 운동의 평균 속도는 몇 m/s일까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "등가속도 운동의 평균 속도 = (처음 속도 + 나중 속도) ÷ 2입니다.\n(4 + 10) ÷ 2 = 7 m/s입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "처음 속도 2 m/s, 가속도 3 m/s²로 4초 동안 운동했습니다. 나중 속도와 변위는?",
+   "steps": [
+    "v = v₀ + at = 2 + 3 × 4 = 14 m/s입니다.",
+    "s = v₀t + ½at² = 2 × 4 + ½ × 3 × 16 = 8 + 24 = 32 m입니다.",
+    "검산: 평균 속도 (2 + 14) ÷ 2 = 8 m/s × 4 s = 32 m로 같습니다."
+   ],
+   "answer": "14 m/s, 32 m"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정지 상태에서 2 m/s²로 5초 동안 가속했습니다. 나중 속도는 몇 m/s일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v = v₀ + at입니다.\n0 + 2 × 5 = 10 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정지 상태에서 2 m/s²로 5초 동안 가속했습니다. 이동한 거리는 몇 m일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "s = v₀t + ½at²입니다.\n0 + ½ × 2 × 5² = 25 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "10 m/s로 달리던 물체가 −2 m/s²의 가속도로 3초 동안 운동했습니다. 변위는 몇 m일까요?",
+   "answer": "21",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "s = v₀t + ½at² = 10 × 3 + ½ × (−2) × 9입니다.\n= 30 − 9 = 21 m입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "시간이 없는 식",
+   "body": [
+    "두 식에서 시간 t를 없애면 세 번째 식을 얻습니다: v² − v₀² = 2as.",
+    "시간이 주어지지 않고 속도와 거리의 관계만 필요할 때 이 식을 씁니다. 제동 거리 문제에 특히 유용합니다.",
+    "정리하면, 등가속도 직선 운동의 식은 v = v₀ + at, s = v₀t + ½at², v² − v₀² = 2as의 세 개입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "등가속도 운동의 세 식 중 시간 t가 들어 있지 않은 식은 v² − v₀² = {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2as",
+      "2sa",
+      "2 a s"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "v = v₀ + at에서 t = (v − v₀) ÷ a를 구해 s 식에 넣으면 이 식이 나옵니다.\n시간을 모를 때 속도와 거리를 연결합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "20 m/s로 달리던 자동차가 −5 m/s²로 제동해 멈췄습니다. 제동 거리는?",
+   "steps": [
+    "멈추면 v = 0입니다. 시간이 주어지지 않았으므로 v² − v₀² = 2as를 씁니다.",
+    "0 − 20² = 2 × (−5) × s → −400 = −10s입니다.",
+    "s = 40 m입니다."
+   ],
+   "answer": "40 m"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정지 상태에서 4 m/s²로 가속해 20 m/s가 될 때까지 이동한 거리는 몇 m일까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v² − v₀² = 2as에서 20² − 0 = 2 × 4 × s입니다.\n400 = 8s이므로 s = 50 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "30 m/s로 달리던 자동차가 −6 m/s²로 제동해 멈췄습니다. 제동 거리는 몇 m일까요?",
+   "answer": "75",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "0 − 30² = 2 × (−6) × s입니다.\n−900 = −12s이므로 s = 75 m입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "자유 낙하와 연직 위로 던진 운동 (중력 가속도 g = 10 m/s²)",
+   "body": [
+    "공기 저항을 무시하면 떨어지는 물체는 크기 g = 10 m/s²의 일정한 가속도로 운동합니다. 정지 상태에서 떨어뜨리면 v = gt, 낙하 거리 h = ½gt²입니다.",
+    "연직 위로 v₀로 던진 물체는 가속도 −g로 느려지다가 최고점에서 순간적으로 멈춥니다(v = 0). 올라가는 데 걸리는 시간은 v₀ ÷ g, 최고 높이는 v₀² ÷ 2g입니다.",
+    "올라갈 때와 내려올 때의 운동은 대칭이어서, 던진 높이로 돌아올 때 속력은 처음 속력과 같습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정지 상태에서 떨어뜨린 공이 2초 동안 떨어진 거리는 몇 m일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "h = ½gt²입니다.\n½ × 10 × 2² = 20 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "공을 연직 위로 20 m/s로 던졌습니다. 최고 높이는 던진 곳에서 몇 m일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "최고점에서 v = 0이므로 0 − 20² = 2 × (−10) × h입니다.\nh = 400 ÷ 20 = 20 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "연직 위로 던진 공이 최고점에 도달한 순간의 속도는 몇 m/s일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "공은 올라가며 느려지다가 최고점에서 방향을 바꿉니다.\n방향이 바뀌는 순간 속도는 0입니다. 가속도는 여전히 g입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s5",
+   "stage": "summary",
+   "title": "문제 풀이 전략",
+   "body": [
+    "먼저 +방향을 정합니다. 그다음 주어진 양(v₀, v, a, t, s)을 정리하고, 구할 양과 주어지지 않은 양을 확인합니다.",
+    "주어지지 않은 양이 들어 있지 않은 식을 고릅니다. 시간이 없으면 v² − v₀² = 2as, 거리가 없으면 v = v₀ + at를 씁니다.",
+    "계산한 뒤에는 부호(방향)와 단위가 맞는지, 값의 크기가 상식적인지 확인합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "등가속도 운동 문제를 푸는 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "알맞은 식을 골라 대입한다"
+    },
+    {
+     "id": "b",
+     "text": "+방향을 정한다"
+    },
+    {
+     "id": "c",
+     "text": "부호와 단위를 확인한다"
+    },
+    {
+     "id": "d",
+     "text": "주어진 양과 구할 양을 정리한다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "방향을 먼저 정해야 속도와 가속도의 부호가 정해집니다.\n양을 정리해 식을 고르고 계산한 뒤, 결과의 부호와 단위를 점검합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "기차 A가 20 m/s로 등속 운동하며 정지한 기차 B 옆을 지나는 순간, B가 2 m/s²로 같은 방향으로 출발했습니다. B가 A를 따라잡는 시각은?",
+   "steps": [
+    "t초 뒤 A의 이동 거리 = 20t, B의 이동 거리 = ½ × 2 × t² = t²입니다.",
+    "따라잡으면 두 거리가 같습니다: t² = 20t입니다.",
+    "t = 0(출발 순간)이 아닌 해는 t = 20초입니다."
+   ],
+   "answer": "20초 뒤"
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "자동차 A가 10 m/s로 등속 운동하며 정지한 자동차 B 옆을 지나는 순간, B가 1 m/s²로 같은 방향으로 출발했습니다. B가 A를 따라잡는 것은 몇 초 뒤일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "두 자동차의 이동 거리가 같아지는 때를 구하세요.",
+   "explanation": "A의 거리 10t, B의 거리 ½ × 1 × t²입니다.\n10t = ½t²에서 t = 20초입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "정지 상태의 공이 빗면을 따라 2 m/s²로 굴러 내려갑니다. 16 m를 내려갔을 때 속력은 몇 m/s일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "시간이 주어지지 않았습니다.",
+   "explanation": "시간이 없으므로 v² − v₀² = 2as를 씁니다.\nv² = 2 × 2 × 16 = 64이므로 v = 8 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "건물 옥상에서 공을 가만히 놓았더니 3초 뒤 땅에 닿았습니다. 옥상의 높이는 몇 m일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "45",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "자유 낙하 거리 식을 쓰세요.",
+   "explanation": "h = ½gt²입니다.\n½ × 10 × 3² = 45 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "자동차의 속력이 2배가 되면 제동 거리는 몇 배가 되는지, 등가속도 운동의 식을 이용해 설명해 보세요. (제동 가속도는 같다고 합니다.)",
+   "hint": "시간이 없는 식에서 v = 0을 넣어 보세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "v²",
+      "제곱"
+     ],
+     [
+      "2as",
+      "v² − v₀² = 2as",
+      "비례"
+     ],
+     [
+      "4배",
+      "네 배"
+     ]
+    ],
+    "min_groups_matched": 2
+   },
+   "model_answer": "멈출 때 v = 0이므로 v₀² = 2|a|s, 곧 제동 거리 s는 처음 속력의 제곱에 비례합니다. 속력이 2배가 되면 제동 거리는 2² = 4배가 됩니다."
+  }
+ ]
+}

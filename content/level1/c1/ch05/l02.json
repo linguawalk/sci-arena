@@ -1,0 +1,383 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch05",
+  "no": 5,
+  "title": "전하와 전기 회로"
+ },
+ "lesson": {
+  "id": "c1-ch05-l02",
+  "no": 2,
+  "title": "전기장",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "닿지 않고 미는 힘",
+   "body": [
+    "대전된 풍선은 머리카락에 닿지 않아도 머리카락을 끌어당깁니다. 떨어져 있는 물체 사이에 어떻게 힘이 전해질까요?",
+    "물리학자들은 전하가 주위 공간의 성질을 바꾸어 놓고, 그 공간에 놓인 다른 전하가 힘을 받는다고 설명합니다. 이 공간을 '장(field)'이라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "전하 주위에서 다른 전하가 전기력을 받는 공간을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전기장"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전하는 주위에 전기장을 만듭니다.\n전기장 속에 놓인 전하는 전기력을 받습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "전기장의 세기와 전기력선",
+   "body": [
+    "전기장의 세기 E는 그 지점에 놓인 +1 C의 전하가 받는 힘입니다: E = F ÷ q, 단위는 N/C입니다. 방향은 (+)전하가 받는 힘의 방향입니다. (−)전하는 전기장과 반대 방향으로 힘을 받습니다.",
+    "점전하 Q가 만드는 전기장은 Q에 비례하고 거리의 제곱에 반비례합니다.",
+    "전기장은 전기력선으로 나타냅니다. 전기력선은 (+)전하에서 나와 (−)전하로 들어가고, 서로 교차하지 않으며, 촘촘할수록 전기장이 셉니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전기력선은 (+)전하에서 나와 {{1}}전하로 들어갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "(−)",
+      "(-)",
+      "−",
+      "-",
+      "음"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전기력선의 방향은 (+)전하가 받는 힘의 방향입니다.\n그래서 (+)에서 나와 (−)로 들어갑니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "세기가 500 N/C인 전기장 속에 +0.01 C의 전하를 놓았습니다. 전하가 받는 힘은?",
+   "steps": [
+    "F = qE입니다.",
+    "0.01 × 500 = 5 N이고, 방향은 전기장 방향입니다."
+   ],
+   "answer": "5 N"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "세기가 1000 N/C인 전기장 속에 +0.003 C의 전하를 놓았습니다. 전하가 받는 힘은 몇 N일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "F = qE입니다.\n0.003 × 1000 = 3 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "+0.004 C의 전하가 어떤 지점에서 2 N의 전기력을 받습니다. 그 지점의 전기장 세기는 몇 N/C일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "E = F ÷ q입니다.\n2 ÷ 0.004 = 500 N/C입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "(−)전하가 전기장 속에서 받는 힘의 방향은 전기장의 방향과 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반대",
+      "반대 방향"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전기장의 방향은 (+)전하가 받는 힘의 방향으로 정했습니다.\n(−)전하는 그와 반대 방향으로 힘을 받습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "평행판 사이의 균일한 전기장",
+   "body": [
+    "두 금속판을 나란히 놓고 전압 V를 걸면, 판 사이에 세기와 방향이 일정한 균일한 전기장이 생깁니다. 판 간격이 d이면 E = V ÷ d입니다(단위 V/m = N/C).",
+    "전하 q가 전압 V만큼 가속되면 전기력이 한 일 qV만큼 운동 에너지를 얻습니다. 전자 하나가 1 V로 가속될 때 얻는 에너지를 1 eV(전자볼트)라고 합니다.",
+    "전자총, 입자 가속기, 잉크젯 프린터가 이 원리를 이용합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "간격 0.02 m인 평행판에 100 V의 전압을 걸었습니다. 판 사이 전기장의 세기는 몇 V/m일까요?",
+   "answer": "5000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "E = V ÷ d입니다.\n100 ÷ 0.02 = 5000 V/m입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "정지한 전자를 100 V의 전압으로 가속하면 전자가 얻는 운동 에너지는?",
+   "steps": [
+    "전기력이 한 일 = qV입니다.",
+    "전자의 전하량은 기본 전하 e이므로 에너지 = e × 100 V = 100 eV입니다.",
+    "1 eV = 1.6 × 10⁻¹⁹ J이므로 1.6 × 10⁻¹⁷ J입니다."
+   ],
+   "answer": "100 eV"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "+0.1 C의 전하가 50 V의 전압으로 가속되었습니다. 얻은 운동 에너지는 몇 J일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "에너지 = qV입니다.\n0.1 × 50 = 5 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전기력선의 밀도가 클수록 전기장의 세기가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커",
+      "세",
+      "강해"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전기력선이 촘촘한 곳은 전기장이 셉니다.\n점전하 가까이에서 전기력선이 촘촘한 것이 그 예입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "도체와 전기장의 이용",
+   "body": [
+    "정전기적으로 평형을 이룬 도체 내부의 전기장은 0입니다. 도체 속 자유 전자가 이동해 외부 전기장을 상쇄하기 때문입니다. 벼락이 칠 때 금속 차체의 자동차 안이 비교적 안전한 이유입니다.",
+    "정전기 집진기는 먼지를 대전시킨 뒤 전기장으로 끌어당겨 판에 붙이고, 복사기와 레이저 프린터는 대전된 토너를 전기장으로 종이에 옮깁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "정전기적 평형 상태인 도체 내부의 전기장 세기는 몇 N/C일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "도체 속 자유 전자가 움직여 외부 전기장을 상쇄합니다.\n그래서 내부 전기장은 0입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "정전기 집진기가 먼지를 제거하는 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "먼지가 반대 전하를 띤 판에 달라붙는다"
+    },
+    {
+     "id": "b",
+     "text": "공기 속 먼지를 대전시킨다"
+    },
+    {
+     "id": "c",
+     "text": "깨끗해진 공기가 빠져나간다"
+    },
+    {
+     "id": "d",
+     "text": "대전된 먼지가 전기장 속에서 힘을 받는다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "먼지를 먼저 대전시켜야 전기장이 힘을 줄 수 있습니다.\n전기력을 받은 먼지가 집진판에 붙고 공기만 빠져나갑니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "질량 0.002 kg, 전하량 +1 × 10⁻⁵ C인 작은 물방울이 위쪽 방향 균일한 전기장 속에서 떠 있습니다. 전기장의 세기는? (중력 가속도 g = 10 m/s²)",
+   "steps": [
+    "떠 있으므로 위로 작용하는 전기력 = 아래로 작용하는 중력입니다.",
+    "qE = mg에서 E = mg ÷ q = 0.02 ÷ 10⁻⁵입니다.",
+    "E = 2000 N/C입니다."
+   ],
+   "answer": "2000 N/C"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 0.001 kg, 전하량 +2 × 10⁻⁵ C인 물방울이 위쪽 방향 전기장 속에서 떠 있습니다. 전기장의 세기는 몇 N/C일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전기력과 중력이 평형을 이룹니다.",
+   "explanation": "qE = mg이므로 E = mg ÷ q입니다.\n0.01 ÷ (2 × 10⁻⁵) = 500 N/C입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "(−)전하를 띤 기름방울이 전기장 속에서 떠 있으려면 전기장의 방향이 {{1}}이어야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아래",
+      "아래쪽",
+      "연직 아래"
+     ]
+    }
+   ],
+   "hint": "(−)전하가 받는 힘과 전기장의 방향 관계를 떠올리세요.",
+   "explanation": "기름방울은 위로 전기력을 받아야 중력과 평형을 이룹니다.\n(−)전하는 전기장과 반대로 힘을 받으므로 전기장은 아래 방향이어야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "점전하로부터의 거리가 2배가 되면 전기장의 세기는 처음의 몇 배가 될까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "쿨롱 법칙과 같은 거리 관계입니다.",
+   "explanation": "점전하의 전기장은 거리의 제곱에 반비례합니다.\n1 ÷ 2² = 0.25배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "평행판에 걸린 전압은 그대로 두고 판 간격을 절반으로 줄이면 전기장의 세기는 처음의 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "E = V ÷ d를 쓰세요.",
+   "explanation": "E = V ÷ d입니다.\nd가 1/2이 되면 E는 2배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "벼락이 칠 때 자동차 안이 비교적 안전한 것은 금속 차체가 {{1}}라서 내부의 전기장이 0이 되기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "도체"
+     ]
+    }
+   ],
+   "hint": "자유 전자가 있는 물질입니다.",
+   "explanation": "도체 속 자유 전자가 이동해 외부 전기장을 상쇄합니다.\n그래서 금속으로 둘러싸인 공간 안은 전기장이 0에 가깝습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "전기력선의 성질을 세 가지 이상 설명해 보세요.",
+   "hint": "시작과 끝, 교차 여부, 밀도에 대해 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "(+)",
+      "+",
+      "양"
+     ],
+     [
+      "(−)",
+      "(-)",
+      "−",
+      "음"
+     ],
+     [
+      "교차",
+      "만나지"
+     ],
+     [
+      "촘촘",
+      "밀도"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "전기력선은 (+)전하에서 나와 (−)전하로 들어갑니다. 전기력선은 서로 교차하지 않고, 전기력선이 촘촘한 곳일수록 전기장이 셉니다. 전기력선 위 한 점의 접선 방향이 그 점의 전기장 방향입니다."
+  }
+ ]
+}

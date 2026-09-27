@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c1",
+  "chapter": {
+    "id": "c1-ch05",
+    "no": 5,
+    "title": "전하와 전기 회로"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c1-ch05-l01",
+      "title": "전하와 전기력",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c1-ch05-l02",
+      "title": "전기장",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c1-ch05-l03",
+      "title": "도체, 절연체, 반도체",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 24
+    },
+    {
+      "no": 4,
+      "id": "c1-ch05-l04",
+      "title": "전기 회로와 전력",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c1-ch05-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

@@ -1,0 +1,163 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch02",
+  "no": 2,
+  "title": "뉴턴 운동 법칙"
+ },
+ "review": {
+  "id": "c1-ch02-review",
+  "title": "뉴턴 운동 법칙 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "한 물체에 서쪽으로 5 N, 남쪽으로 12 N의 힘이 작용합니다. 알짜힘의 크기는 몇 N일까요?",
+   "answer": "13",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "피타고라스 정리를 쓰세요.",
+   "explanation": "두 힘이 수직입니다.\n√(5² + 12²) = √169 = 13 N입니다.",
+   "source_lesson": "c1-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "알짜힘이 0이면 정지한 물체는 계속 정지하고, 운동하던 물체는 등속 직선 운동을 합니다. 이것을 {{1}} 법칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "관성"
+     ]
+    }
+   ],
+   "hint": "뉴턴 운동 제1법칙의 이름입니다.",
+   "explanation": "뉴턴 운동 제1법칙을 관성 법칙이라고 합니다.\n물체가 운동 상태를 유지하려는 성질을 설명합니다.",
+   "source_lesson": "c1-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량 5 kg인 물체에 알짜힘 15 N이 작용합니다. 가속도는 몇 m/s²일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "가속도 법칙을 쓰세요.",
+   "explanation": "a = F ÷ m입니다.\n15 ÷ 5 = 3 m/s²입니다.",
+   "source_lesson": "c1-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량 2 kg인 상자를 16 N으로 끌었더니 4 m/s²로 가속했습니다. 마찰력은 몇 N일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "알짜힘 = 당기는 힘 − 마찰력입니다.",
+   "explanation": "알짜힘 = ma = 2 × 4 = 8 N입니다.\n마찰력 = 16 − 8 = 8 N입니다.",
+   "source_lesson": "c1-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "마찰 없는 수평면 위의 3 kg 물체가 도르래를 지나는 줄로 매달린 3 kg 물체와 연결되어 있습니다. 가속도는 몇 m/s²일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "매달린 물체의 무게를 전체 질량으로 나누세요.",
+   "explanation": "움직이게 하는 힘은 3 × 10 = 30 N입니다.\n전체 질량 6 kg이므로 a = 30 ÷ 6 = 5 m/s²입니다.",
+   "source_lesson": "c1-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "작용과 반작용은 {{1}} 물체에 작용하고, 힘의 평형을 이루는 두 힘은 한 물체에 작용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "서로 다른",
+      "다른",
+      "두"
+     ]
+    }
+   ],
+   "hint": "주어와 대상이 바뀌는 두 힘입니다.",
+   "explanation": "작용 반작용은 'A가 B에', 'B가 A에' 주는 힘이므로 서로 다른 물체에 작용합니다.\n그래서 서로 상쇄되지 않습니다.",
+   "source_lesson": "c1-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량 60 kg인 A와 40 kg인 B가 스케이트를 신고 서로 밀어 120 N의 힘을 주고받았습니다. B의 가속도는 몇 m/s²일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "작용 반작용의 크기는 같습니다.",
+   "explanation": "B가 받는 힘도 120 N입니다.\na = 120 ÷ 40 = 3 m/s²입니다.",
+   "source_lesson": "c1-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "두 물체 사이의 거리가 3배가 되면 만유인력은 처음의 몇 분의 1이 될까요? (분모를 쓰세요.)",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "거리의 제곱을 계산하세요.",
+   "explanation": "만유인력은 거리의 제곱에 반비례합니다.\n3² = 9이므로 1/9이 됩니다.",
+   "source_lesson": "c1-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "높이 80 m에서 수평으로 던진 공이 땅에 닿을 때까지 몇 초가 걸릴까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "연직 방향은 자유 낙하입니다.",
+   "explanation": "80 = ½ × 10 × t²에서 t² = 16입니다.\nt = 4초입니다.",
+   "source_lesson": "c1-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "높이 20 m에서 수평으로 8 m/s로 던진 공의 수평 도달 거리는 몇 m일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "낙하 시간을 먼저 구하세요.",
+   "explanation": "낙하 시간은 20 = 5t²에서 t = 2초입니다.\n수평 거리 = 8 × 2 = 16 m입니다.",
+   "source_lesson": "c1-ch02-l04"
+  }
+ ]
+}

@@ -1,0 +1,358 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch04",
+  "no": 4,
+  "title": "에너지와 열"
+ },
+ "lesson": {
+  "id": "c1-ch04-l03",
+  "no": 3,
+  "title": "열과 열역학 제1법칙",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "뜨거워지는 자전거 펌프",
+   "body": [
+    "자전거 바퀴에 바람을 넣으려고 펌프를 여러 번 누르면 펌프 아래쪽이 뜨거워집니다. 불을 쬔 것도 아닌데 말입니다.",
+    "기체를 압축하는 일이 기체의 에너지를 늘렸기 때문입니다. 일과 열은 모두 에너지를 전달하는 방법입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "기체를 빠르게 압축하면 기체의 온도가 {{1}}갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "올라"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "압축하는 동안 외부에서 기체에 일을 해 줍니다.\n그 에너지가 기체 분자의 운동 에너지를 늘려 온도가 올라갑니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "내부 에너지와 열",
+   "body": [
+    "물체를 이루는 분자들의 운동 에너지와 퍼텐셜 에너지의 총합을 내부 에너지라고 합니다. 이상 기체에서는 분자 사이의 힘을 무시하므로 내부 에너지는 분자 운동 에너지의 합이고 절대 온도에 비례합니다.",
+    "열은 온도 차이 때문에 고온의 물체에서 저온의 물체로 이동하는 에너지입니다. 물체가 열을 '가지고' 있는 것이 아니라, 열은 이동하는 에너지를 부르는 말입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물체를 이루는 분자들의 운동 에너지와 퍼텐셜 에너지의 총합을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "내부 에너지",
+      "내부에너지"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "내부 에너지는 물체 속 분자 수준의 에너지입니다.\n이상 기체에서는 분자 운동 에너지의 합과 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "이상 기체의 내부 에너지는 기체의 절대 {{1}}에 비례합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "온도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "온도는 분자의 평균 운동 에너지를 나타냅니다.\n그래서 온도가 높을수록 이상 기체의 내부 에너지가 큽니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "열역학 제1법칙",
+   "body": [
+    "기체에 열 Q를 가하면 그 에너지는 기체의 내부 에너지를 늘리는 데(ΔU) 쓰이고, 나머지는 기체가 팽창하며 외부에 하는 일(W)에 쓰입니다: Q = ΔU + W.",
+    "이것은 열까지 포함한 에너지 보존 법칙입니다. 부호에 주의합니다: 열을 받으면 Q > 0, 기체가 팽창해 외부에 일을 하면 W > 0, 압축되어 일을 받으면 W < 0입니다.",
+    "압력 P가 일정할 때 기체가 한 일은 W = PΔV(압력 × 부피 변화)입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기체에 가한 열 = 내부 에너지 증가량 + 기체가 외부에 한 {{1}}",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Q = ΔU + W입니다.\n받은 에너지는 내부 에너지와 외부에 한 일로 나뉩니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "기체에 500 J의 열을 가했더니 기체가 팽창하며 외부에 200 J의 일을 했습니다. 내부 에너지 변화량은?",
+   "steps": [
+    "Q = ΔU + W입니다.",
+    "500 = ΔU + 200이므로 ΔU = 300 J입니다.",
+    "내부 에너지가 늘었으므로 기체의 온도가 올라갑니다."
+   ],
+   "answer": "300 J 증가"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "기체에 800 J의 열을 가했더니 외부에 300 J의 일을 했습니다. 내부 에너지 증가량은 몇 J일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "ΔU = Q − W입니다.\n800 − 300 = 500 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "압력 100000 Pa가 일정한 상태에서 기체의 부피가 0.002 m³ 늘었습니다. 기체가 한 일은 몇 J일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "W = PΔV입니다.\n100000 × 0.002 = 200 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "열의 출입 없이 기체가 팽창하며 외부에 150 J의 일을 했습니다. 내부 에너지 변화량은 몇 J일까요?",
+   "answer": "-150",
+   "answer_format": "decimal",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Q = 0이므로 0 = ΔU + 150입니다.\nΔU = −150 J로, 내부 에너지가 줄고 온도가 내려갑니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "기체의 여러 과정",
+   "body": [
+    "등적 과정: 부피가 일정해 W = 0이므로 Q = ΔU입니다. 가한 열이 모두 온도를 올립니다.",
+    "등압 과정: 압력이 일정하며 Q = ΔU + PΔV입니다. 등온 과정: 온도가 일정해 ΔU = 0이므로 Q = W입니다. 받은 열만큼 일을 합니다.",
+    "단열 과정: 열 출입이 없어 Q = 0, 곧 W = −ΔU입니다. 단열 팽창하면 온도가 내려가고, 단열 압축하면 온도가 올라갑니다. 상승하는 공기가 단열 팽창해 식으면서 구름이 생깁니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "상승하는 공기 덩어리에서 구름이 생기는 까닭을 열역학 제1법칙으로 설명해 보세요.",
+   "steps": [
+    "공기가 상승하면 주위 기압이 낮아져 팽창하며 외부에 일을 합니다(W > 0).",
+    "짧은 시간 동안이라 열 출입이 거의 없습니다(Q ≈ 0, 단열).",
+    "ΔU = −W < 0이므로 온도가 내려가고, 이슬점에 이르면 수증기가 응결해 구름이 생깁니다."
+   ],
+   "answer": "단열 팽창으로 온도가 내려가기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "이상 기체의 등온 과정에서 내부 에너지 변화량은 몇 J일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "이상 기체의 내부 에너지는 온도로만 정해집니다.\n온도가 일정하므로 ΔU = 0입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기체를 단열 압축하면 기체의 온도가 {{1}}갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "올라"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Q = 0이고 외부에서 일을 받으므로 W < 0입니다.\nΔU = −W > 0이 되어 온도가 올라갑니다. 자전거 펌프가 뜨거워지는 이유입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "단열 과정에서는 외부와 {{1}}의 출입이 없습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "열"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "단열(斷熱)은 열을 끊는다는 뜻입니다.\nQ = 0이므로 기체의 내부 에너지 변화는 일로만 일어납니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "부피가 변하지 않는 용기 속 기체에 300 J의 열을 가했습니다. 내부 에너지 변화량은?",
+   "steps": [
+    "부피가 일정하면 기체가 일을 하지 않습니다(W = 0).",
+    "Q = ΔU + 0이므로 ΔU = 300 J입니다."
+   ],
+   "answer": "300 J 증가"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "부피가 일정한 용기 속 기체에 250 J의 열을 가했습니다. 내부 에너지 증가량은 몇 J일까요?",
+   "answer": "250",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "부피가 변하지 않으면 일은 몇 J일까요?",
+   "explanation": "등적 과정이므로 W = 0입니다.\nΔU = Q = 250 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "이상 기체가 등온 팽창하며 외부에 400 J의 일을 했습니다. 기체가 흡수한 열은 몇 J일까요?",
+   "answer": "400",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "등온 과정의 ΔU를 먼저 생각하세요.",
+   "explanation": "등온이므로 ΔU = 0입니다.\nQ = 0 + 400 = 400 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "기체가 압축되며 외부로부터 100 J의 일을 받는 동안 40 J의 열을 방출했습니다. 내부 에너지 변화량은 몇 J일까요?",
+   "answer": "60",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "받은 일과 방출한 열의 부호에 주의하세요.",
+   "explanation": "받은 일이므로 W = −100 J, 방출한 열이므로 Q = −40 J입니다.\nΔU = Q − W = −40 − (−100) = 60 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "스프레이를 오래 뿌리면 캔이 차가워지는 것은 기체가 빠르게 {{1}} 팽창하며 온도가 내려가기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단열"
+     ]
+    }
+   ],
+   "hint": "열 출입이 없는 과정의 이름입니다.",
+   "explanation": "기체가 빠르게 팽창하는 동안 열이 드나들 시간이 거의 없습니다.\n단열 팽창으로 외부에 일을 하며 내부 에너지가 줄어 온도가 내려갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "압력이 일정한 상태에서 기체에 1000 J의 열을 가했더니 외부에 400 J의 일을 했습니다. 내부 에너지 증가량은 몇 J일까요?",
+   "answer": "600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "열역학 제1법칙을 쓰세요.",
+   "explanation": "Q = ΔU + W입니다.\nΔU = 1000 − 400 = 600 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "자전거 펌프를 빠르게 누르면 펌프가 뜨거워지는 이유를 열역학 제1법칙으로 설명해 보세요.",
+   "hint": "Q = ΔU + W에서 Q와 W가 각각 어떻게 되는지 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "압축"
+     ],
+     [
+      "일"
+     ],
+     [
+      "내부 에너지"
+     ],
+     [
+      "온도",
+      "뜨거"
+     ],
+     [
+      "단열",
+      "열 출입",
+      "Q = 0"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "펌프를 빠르게 누르면 열이 드나들 시간이 거의 없는 단열 압축이 일어납니다. 외부에서 기체에 해 준 일만큼 기체의 내부 에너지가 늘어나므로 온도가 올라가 펌프가 뜨거워집니다."
+  }
+ ]
+}

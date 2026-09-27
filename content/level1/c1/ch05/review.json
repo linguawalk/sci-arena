@@ -1,0 +1,161 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch05",
+  "no": 5,
+  "title": "전하와 전기 회로"
+ },
+ "review": {
+  "id": "c1-ch05-review",
+  "title": "전하와 전기 회로 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "두 점전하 사이의 전기력이 F입니다. 두 전하량을 모두 3배로 하면 전기력은 F의 몇 배가 될까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "두 전하량의 곱을 생각하세요.",
+   "explanation": "전기력은 두 전하량의 곱에 비례합니다.\n3 × 3 = 9배입니다.",
+   "source_lesson": "c1-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "같은 크기의 도체 구 +5q와 +1q를 접촉시켰다가 떼었습니다. 각 구의 전하량은 q의 몇 배일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전하량 보존을 쓰세요.",
+   "explanation": "전체 전하량 +6q를 똑같이 나눕니다.\n각각 +3q입니다.",
+   "source_lesson": "c1-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "세기가 200 N/C인 전기장 속에 +0.05 C의 전하를 놓았습니다. 전하가 받는 힘은 몇 N일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "F = qE입니다.",
+   "explanation": "F = qE입니다.\n0.05 × 200 = 10 N입니다.",
+   "source_lesson": "c1-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "간격 0.01 m인 평행판에 50 V를 걸었습니다. 판 사이 전기장의 세기는 몇 V/m일까요?",
+   "answer": "5000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전압을 간격으로 나누세요.",
+   "explanation": "E = V ÷ d입니다.\n50 ÷ 0.01 = 5000 V/m입니다.",
+   "source_lesson": "c1-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "p형 반도체를 만들려면 규소에 붕소 같은 {{1}}족 원소를 도핑합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "13"
+     ]
+    }
+   ],
+   "hint": "원자가 전자가 3개인 족입니다.",
+   "explanation": "13족 원소는 원자가 전자가 3개라 결합에 전자 하나가 모자랍니다.\n그 빈자리인 양공이 전하 운반자가 됩니다.",
+   "source_lesson": "c1-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "p–n 접합 다이오드에 교류를 연결하면 전류가 한 방향으로만 흐르는데, 이를 {{1}} 작용이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정류"
+     ]
+    }
+   ],
+   "hint": "교류를 직류로 바꾸는 작용입니다.",
+   "explanation": "다이오드는 순방향일 때만 전류를 흐르게 합니다.\n그래서 교류를 한 방향 전류로 바꿉니다.",
+   "source_lesson": "c1-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "2 Ω과 2 Ω을 병렬로 연결한 부분에 4 Ω을 직렬로 연결했습니다. 전체 저항은 몇 Ω일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "병렬 부분을 먼저 계산하세요.",
+   "explanation": "병렬 부분: 2 × 2 ÷ 4 = 1 Ω입니다.\n전체: 1 + 4 = 5 Ω입니다.",
+   "source_lesson": "c1-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "5 Ω의 저항에 10 V의 전압을 걸었습니다. 소비 전력은 몇 W일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "P = V² ÷ R를 쓰세요.",
+   "explanation": "P = V² ÷ R입니다.\n100 ÷ 5 = 20 W입니다.",
+   "source_lesson": "c1-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "'100 V–50 W' 전구의 저항은 몇 Ω일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "P = V² ÷ R를 R에 대해 푸세요.",
+   "explanation": "R = V² ÷ P입니다.\n10000 ÷ 50 = 200 Ω입니다.",
+   "source_lesson": "c1-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "같은 전력을 보낼 때 송전 전압을 2배로 높이면 송전선의 손실 전력은 처음의 몇 배가 될까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "P손실 = I²R입니다.",
+   "explanation": "전압이 2배이면 전류는 1/2배입니다.\n손실은 전류의 제곱에 비례하므로 1/4 = 0.25배입니다.",
+   "source_lesson": "c1-ch05-l04"
+  }
+ ]
+}

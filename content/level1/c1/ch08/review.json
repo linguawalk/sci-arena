@@ -1,0 +1,179 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch08",
+  "no": 8,
+  "title": "빛과 물질의 이중성"
+ },
+ "review": {
+  "id": "c1-ch08-review",
+  "title": "빛과 물질의 이중성 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "일함수 4 eV인 금속에 광자 에너지 6 eV인 빛을 비추었습니다. 광전자의 최대 운동 에너지는 몇 eV일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "광자 에너지에서 일함수를 빼세요.",
+   "explanation": "Eₖ = hf − W입니다.\n6 − 4 = 2 eV입니다.",
+   "source_lesson": "c1-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "광전 효과에서 빛의 세기를 키우면 광전자의 수는 늘지만 최대 운동 에너지는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지 않는다",
+      "그대로이다",
+      "같다",
+      "변하지 않습니다",
+      "일정하다"
+     ]
+    }
+   ],
+   "hint": "광자 하나의 에너지는 무엇으로 정해질까요?",
+   "explanation": "세기는 광자의 수를 바꿀 뿐 광자 하나의 에너지는 바꾸지 않습니다.\n최대 운동 에너지는 진동수로 정해집니다.",
+   "source_lesson": "c1-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "파장 400 nm인 빛의 광자 에너지는 몇 eV일까요? (hc = 1240 eV·nm, 곧 광자 에너지(eV) = 1240 ÷ 파장(nm))",
+   "answer": "3.1",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "1240 ÷ 파장을 계산하세요.",
+   "explanation": "E = 1240 ÷ 400입니다.\n= 3.1 eV입니다.",
+   "source_lesson": "c1-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "같은 입자의 운동량이 4배가 되면 물질파의 파장은 처음의 몇 배가 될까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": "파장과 운동량은 반비례합니다.",
+   "explanation": "λ = h ÷ p이므로 파장은 운동량에 반비례합니다.\n1/4 = 0.25배입니다.",
+   "source_lesson": "c1-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전자 회절 실험은 전자의 {{1}}을 보여 줍니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "파동성"
+     ]
+    }
+   ],
+   "hint": "회절은 어떤 성질의 증거일까요?",
+   "explanation": "회절과 간섭은 파동의 특징입니다.\n전자가 회절 무늬를 만든다는 것은 전자가 파동의 성질을 가진다는 뜻입니다.",
+   "source_lesson": "c1-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "수소 원자의 전자가 n = 3(−1.51 eV)에서 n = 1(−13.6 eV)로 전이할 때 방출하는 광자의 에너지는 몇 eV일까요?",
+   "answer": "12.09",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "두 준위의 에너지 차이를 구하세요.",
+   "explanation": "E₃ − E₁ = −1.51 − (−13.6)입니다.\n= 12.09 eV입니다.",
+   "source_lesson": "c1-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "원자 속 전자의 에너지가 띄엄띄엄한 값만 가지기 때문에 기체는 {{1}} 스펙트럼을 냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "선",
+      "방출",
+      "선 방출",
+      "방출 선"
+     ]
+    }
+   ],
+   "hint": "연속 스펙트럼의 반대입니다.",
+   "explanation": "특정 준위 사이의 전이에서만 빛이 나오므로 특정 파장의 밝은 선만 보입니다.\n원소마다 고유한 선 스펙트럼을 가집니다.",
+   "source_lesson": "c1-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "에너지 차이가 1.55 eV인 두 준위 사이의 전이에서 방출되는 빛의 파장은 몇 nm일까요? (hc = 1240 eV·nm, 곧 광자 에너지(eV) = 1240 ÷ 파장(nm))",
+   "answer": "800",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1240을 에너지로 나누세요.",
+   "explanation": "λ = 1240 ÷ 1.55입니다.\n= 800 nm로 적외선입니다.",
+   "source_lesson": "c1-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "레이저는 들뜬 원자가 광자의 자극을 받아 같은 광자를 내놓는 {{1}}으로 빛을 증폭합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유도 방출",
+      "유도방출"
+     ]
+    }
+   ],
+   "hint": "자극을 받아 일어나는 방출입니다.",
+   "explanation": "유도 방출로 나온 광자는 원래 광자와 파장, 방향, 위상이 같습니다.\nLASER의 SE가 Stimulated Emission(유도 방출)입니다.",
+   "source_lesson": "c1-ch08-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "화소에 광자 5000개가 들어오고 양자 효율이 40%라면 만들어지는 전자는 몇 개일까요?",
+   "answer": "2000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "광자 수 × 효율입니다.",
+   "explanation": "5000 × 0.4 = 2000개입니다.\n광자 하나가 전자 하나를 만듭니다.",
+   "source_lesson": "c1-ch08-l04"
+  }
+ ]
+}

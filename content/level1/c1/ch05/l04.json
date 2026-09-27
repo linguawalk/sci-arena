@@ -1,0 +1,330 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch05",
+  "no": 5,
+  "title": "전하와 전기 회로"
+ },
+ "lesson": {
+  "id": "c1-ch05-l04",
+  "no": 4,
+  "title": "전기 회로와 전력",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "문어발 멀티탭",
+   "body": [
+    "멀티탭 하나에 전기 난로, 헤어드라이어, 전기 주전자를 한꺼번에 꽂으면 전선이 뜨거워지고 차단기가 내려가기도 합니다.",
+    "기구를 병렬로 더할수록 전체 저항이 작아져 전류가 커지고, 전선에서 발생하는 열이 커지기 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "전기 기구가 1초 동안 사용하는 전기 에너지를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전력의 단위는 W(와트) = J/s입니다.\n소비 전력이 큰 기구일수록 같은 시간에 전기 에너지를 많이 씁니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "합성 저항",
+   "body": [
+    "저항을 직렬로 연결하면 전체 저항은 각 저항의 합입니다: R = R₁ + R₂ + …",
+    "병렬로 연결하면 전체 저항의 역수가 각 저항의 역수의 합입니다: 1/R = 1/R₁ + 1/R₂ + … 두 저항만 병렬이면 R = R₁R₂ ÷ (R₁ + R₂)입니다. 병렬 합성 저항은 가장 작은 저항보다도 작습니다.",
+    "복잡한 회로는 병렬 부분을 먼저 하나의 저항으로 바꾼 뒤 직렬로 더합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "3 Ω과 6 Ω의 저항을 병렬로 연결했습니다. 합성 저항은 몇 Ω일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "R = R₁R₂ ÷ (R₁ + R₂) = 18 ÷ 9입니다.\n= 2 Ω으로, 가장 작은 3 Ω보다 작습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "6 Ω과 3 Ω을 병렬로 연결한 부분에 2 Ω을 직렬로 연결하고 12 V를 걸었습니다. 전체 전류는?",
+   "steps": [
+    "병렬 부분: 6 × 3 ÷ (6 + 3) = 2 Ω입니다.",
+    "전체 저항: 2 + 2 = 4 Ω입니다.",
+    "전체 전류: 12 ÷ 4 = 3 A입니다."
+   ],
+   "answer": "3 A"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "4 Ω의 저항 두 개를 병렬로 연결했습니다. 합성 저항은 몇 Ω일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "같은 저항 두 개를 병렬로 연결하면 절반이 됩니다.\n4 × 4 ÷ 8 = 2 Ω입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "10 Ω, 10 Ω, 5 Ω의 저항을 병렬로 연결했습니다. 합성 저항은 몇 Ω일까요?",
+   "answer": "2.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "1/R = 1/10 + 1/10 + 1/5 = 0.1 + 0.1 + 0.2 = 0.4입니다.\nR = 1 ÷ 0.4 = 2.5 Ω입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "3 Ω과 6 Ω을 병렬로 연결한 부분에 2 Ω을 직렬로 연결하고 8 V를 걸었습니다. 전체 전류는 몇 A일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "병렬 부분은 2 Ω, 전체 저항은 2 + 2 = 4 Ω입니다.\n전체 전류 = 8 ÷ 4 = 2 A입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "전력과 전력량",
+   "body": [
+    "전력 P = VI입니다. 옴의 법칙 V = IR을 넣으면 P = I²R = V² ÷ R로도 쓸 수 있습니다.",
+    "저항에 전류가 흐르면 전기 에너지가 열로 바뀝니다(줄열). 전기난로, 다리미, 전기 주전자가 이 열을 이용합니다.",
+    "전력량은 전력 × 시간으로 단위는 J 또는 Wh, kWh입니다. 1 kWh = 3.6 × 10⁶ J입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "12 V 전원에 연결된 전구에 2 A의 전류가 흐릅니다. 전구의 소비 전력은 몇 W일까요?",
+   "answer": "24",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "P = VI입니다.\n12 × 2 = 24 W입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "10 Ω의 저항에 3 A의 전류가 흐릅니다. 소비 전력은 몇 W일까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "P = I²R입니다.\n3² × 10 = 90 W입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "220 V에서 1100 W를 소비하는 전기 주전자에 흐르는 전류는 몇 A일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "I = P ÷ V입니다.\n1100 ÷ 220 = 5 A입니다."
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "직렬 연결된 두 저항에는 같은 전류가 흐르므로, 저항이 {{1}} 쪽의 소비 전력이 더 큽니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큰"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "직렬에서는 전류가 같으므로 P = I²R로 비교합니다.\nR이 클수록 소비 전력이 큽니다. 병렬에서는 반대로 저항이 작은 쪽이 큽니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "'220 V–100 W'라고 표시된 전구의 저항은?",
+   "steps": [
+    "220 V에 연결하면 100 W를 소비한다는 뜻입니다.",
+    "P = V² ÷ R에서 R = V² ÷ P = 220² ÷ 100입니다.",
+    "R = 48400 ÷ 100 = 484 Ω입니다."
+   ],
+   "answer": "484 Ω"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전력 수송과 손실",
+   "body": [
+    "발전소에서 먼 도시로 전기를 보낼 때 송전선의 저항 때문에 전력 일부가 열로 사라집니다. 손실 전력은 P손실 = I²R입니다.",
+    "같은 전력 P = VI를 보낼 때 전압을 높이면 전류가 작아지고, 손실은 전류의 제곱에 비례하므로 크게 줄어듭니다. 전압을 10배 높이면 전류는 1/10, 손실은 1/100이 됩니다. 그래서 송전선은 수십만 볼트의 고전압을 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "송전선에 10 A의 전류가 흐르고 송전선의 저항이 5 Ω입니다. 송전선에서 열로 손실되는 전력은 몇 W일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "P손실 = I²R입니다.\n10² × 5 = 500 W입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "같은 전력을 보낼 때 송전 전압을 10배로 높이면 송전선의 손실 전력은 처음의 몇 배가 될까요?",
+   "answer": "0.01",
+   "answer_format": "decimal",
+   "tolerance": 0.0001,
+   "hint": null,
+   "explanation": "전압이 10배이면 전류는 1/10배입니다.\n손실 = I²R이므로 (1/10)² = 1/100 = 0.01배입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "'220 V–100 W' 전구와 '220 V–40 W' 전구를 직렬로 연결해 220 V에 연결하면 어느 전구가 더 밝을까요?",
+   "steps": [
+    "저항: 100 W 전구는 220² ÷ 100 = 484 Ω, 40 W 전구는 220² ÷ 40 = 1210 Ω입니다.",
+    "직렬이므로 두 전구에 같은 전류가 흐르고, 소비 전력 P = I²R은 저항이 큰 쪽이 큽니다.",
+    "따라서 40 W 전구가 더 밝습니다. 표시된 전력은 220 V에 따로 연결했을 때의 값입니다."
+   ],
+   "answer": "40 W 전구"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "'220 V–100 W' 전구와 '220 V–40 W' 전구를 병렬로 220 V에 연결하면 몇 W 전구가 더 밝을까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "병렬에서는 각 전구에 걸리는 전압이 같습니다.",
+   "explanation": "병렬이면 두 전구에 모두 220 V가 걸립니다.\n표시된 대로 100 W와 40 W를 소비하므로 100 W 전구가 더 밝습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 두 전구를 직렬로 220 V에 연결하면 몇 W 전구가 더 밝을까요?",
+   "answer": "40",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "각 전구의 저항을 먼저 비교하세요.",
+   "explanation": "직렬에서는 전류가 같으므로 저항이 큰 전구가 더 많은 전력을 소비합니다.\n40 W 전구의 저항(1210 Ω)이 더 크므로 40 W 전구가 더 밝습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "20 Ω의 저항에 2 A의 전류가 10초 동안 흘렀습니다. 발생한 열은 몇 J일까요?",
+   "answer": "800",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전력 × 시간 = 에너지입니다.",
+   "explanation": "전력 = I²R = 4 × 20 = 80 W입니다.\n열 = 80 × 10 = 800 J입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "220 V 가정용 회로의 차단기가 20 A에서 작동합니다. 이 회로에서 동시에 쓸 수 있는 최대 전력은 몇 W일까요?",
+   "answer": "4400",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전력 = 전압 × 전류입니다.",
+   "explanation": "P = VI입니다.\n220 × 20 = 4400 W입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "발전소에서 전기를 보낼 때 고전압으로 송전하는 이유를 설명해 보세요.",
+   "hint": "P = VI와 손실 전력 식을 함께 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "손실"
+     ],
+     [
+      "전류"
+     ],
+     [
+      "작아",
+      "줄"
+     ],
+     [
+      "I²R",
+      "제곱",
+      "열"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "같은 전력을 보낼 때 전압을 높이면 전류가 작아집니다. 송전선에서 열로 잃는 전력은 I²R로 전류의 제곱에 비례하므로, 고전압으로 보내면 손실 전력이 크게 줄어듭니다."
+  }
+ ]
+}

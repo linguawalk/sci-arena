@@ -1,0 +1,417 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch01",
+  "no": 1,
+  "title": "운동의 기술"
+ },
+ "lesson": {
+  "id": "c1-ch01-l01",
+  "no": 1,
+  "title": "기본량과 단위",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "단위 하나 때문에 잃은 우주선",
+   "body": [
+    "1999년 미국의 화성 기후 궤도선은 화성 대기에 너무 깊이 들어가 사라졌습니다. 한 팀은 추진력 자료를 파운드 단위로, 다른 팀은 뉴턴 단위로 계산했는데 아무도 이를 알아채지 못했기 때문입니다.",
+    "과학과 기술은 측정에서 시작하고, 측정값은 반드시 단위와 함께 써야 뜻이 통합니다. 그래서 세계는 하나의 단위 체계를 약속해 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "세계가 공통으로 쓰기로 약속한 단위 체계를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "국제단위계",
+      "국제 단위계",
+      "SI"
+     ]
+    }
+   ],
+   "hint": "영문 약자로 SI라고 씁니다.",
+   "explanation": "국제단위계(SI)는 과학, 산업, 무역에서 쓰는 세계 공통의 단위 체계입니다.\n미터, 킬로그램, 초 같은 단위가 여기에 속합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "일곱 개의 기본량",
+   "body": [
+    "국제단위계는 다른 양으로 나타낼 수 없는 7개의 기본량을 정합니다. 길이(m), 질량(kg), 시간(s), 전류(A), 온도(K), 물질량(mol), 광도(cd)입니다.",
+    "기본 단위는 오랫동안 원기(표준 물체)로 정의했지만, 2019년부터는 모두 변하지 않는 자연 상수로 정의합니다. 예를 들어 1 kg은 플랑크 상수로, 1 m는 빛의 속력으로 정의합니다.",
+    "상수로 정의하면 원기가 닳거나 변해도 단위는 바뀌지 않고, 세계 어디서나 같은 기준을 다시 만들 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "국제단위계의 기본량은 모두 몇 개일까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "길이, 질량, 시간, 전류, 온도, 물질량, 광도의 7개입니다.\n다른 물리량은 모두 이 기본량을 조합해 나타냅니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "시간의 기본 단위는 {{1}}이고, 온도의 기본 단위는 {{2}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "s",
+      "초"
+     ]
+    },
+    {
+     "id": 2,
+     "answers": [
+      "K",
+      "켈빈"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "시간의 SI 기본 단위는 s(초)입니다.\n온도의 SI 기본 단위는 °C가 아니라 K(켈빈)입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "2019년부터 질량의 기본 단위 kg은 {{1}}를 이용해 정의합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "플랑크 상수",
+      "플랑크상수",
+      "플랑크"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이전에는 국제 킬로그램 원기라는 금속 덩어리가 1 kg의 기준이었습니다.\n지금은 변하지 않는 플랑크 상수의 값을 정해 kg을 정의합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "유도량과 유도 단위",
+   "body": [
+    "기본량을 곱하거나 나누어 만든 물리량을 유도량이라고 합니다. 속력(m/s), 넓이(m²), 부피(m³), 밀도(kg/m³), 가속도(m/s²)가 그 예입니다.",
+    "유도 단위 중에는 따로 이름이 붙은 것도 있습니다. 힘의 단위 N(뉴턴)은 kg·m/s², 에너지의 단위 J(줄)은 N·m = kg·m²/s²입니다.",
+    "단위를 기본 단위로 풀어 보면 식이 맞게 세워졌는지 확인할 수 있습니다. 양변의 단위가 다르면 식이 틀린 것입니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "힘의 단위 N을 기본 단위로 나타내 보세요.",
+   "steps": [
+    "힘 = 질량 × 가속도(F = ma)입니다.",
+    "질량의 단위는 kg, 가속도의 단위는 m/s²입니다.",
+    "따라서 1 N = 1 kg·m/s²입니다."
+   ],
+   "answer": "kg·m/s²"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "밀도는 질량을 부피로 나눈 양이므로 단위는 kg/{{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "m³",
+      "m3",
+      "m^3"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "질량의 단위는 kg, 부피의 단위는 m³입니다.\n따라서 밀도의 단위는 kg/m³입니다."
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기본량을 곱하거나 나누어 만든 물리량을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유도량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "속력, 밀도, 힘, 에너지는 모두 기본량으로 만든 유도량입니다.\n그 단위를 유도 단위라고 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "가속도는 속도 변화량을 시간으로 나눈 양이므로 단위는 m/{{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "s²",
+      "s2",
+      "s^2"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "속도의 단위 m/s를 다시 시간 s로 나눕니다.\n(m/s) ÷ s = m/s²입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "크고 작은 수를 나타내는 접두어",
+   "body": [
+    "아주 크거나 작은 값은 단위 앞에 접두어를 붙여 나타냅니다.",
+    "큰 쪽: k(킬로) = 10³, M(메가) = 10⁶, G(기가) = 10⁹. 작은 쪽: c(센티) = 10⁻², m(밀리) = 10⁻³, μ(마이크로) = 10⁻⁶, n(나노) = 10⁻⁹.",
+    "예를 들어 1 km = 1000 m, 1 ms = 0.001 s, 가시광선의 파장 500 nm = 5 × 10⁻⁷ m입니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "5 km와 3 ms를 각각 m와 s로 나타내 보세요.",
+   "steps": [
+    "k는 10³이므로 5 km = 5 × 1000 m = 5000 m입니다.",
+    "m(밀리)는 10⁻³이므로 3 ms = 3 × 0.001 s = 0.003 s입니다."
+   ],
+   "answer": "5000 m, 0.003 s"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "2.5 km는 몇 m일까요?",
+   "answer": "2500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1 km = 1000 m입니다.\n2.5 × 1000 = 2500 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "0.002 s는 몇 ms일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1 ms = 0.001 s입니다.\n0.002 ÷ 0.001 = 2 ms입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "길이가 짧은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "1 mm"
+    },
+    {
+     "id": "b",
+     "text": "1 nm"
+    },
+    {
+     "id": "c",
+     "text": "1 km"
+    },
+    {
+     "id": "d",
+     "text": "1 μm"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "1 nm = 10⁻⁹ m, 1 μm = 10⁻⁶ m, 1 mm = 10⁻³ m, 1 km = 10³ m입니다.\n지수가 작을수록 짧습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s5",
+   "stage": "summary",
+   "title": "측정과 어림",
+   "body": [
+    "모든 측정값에는 오차가 있습니다. 참값과 측정값의 차이를 오차라고 하며, 여러 번 측정해 평균을 내면 우연 오차를 줄일 수 있습니다.",
+    "눈금을 읽을 때는 최소 눈금의 1/10까지 어림해 읽습니다. 최소 눈금이 1 mm인 자라면 0.1 mm 자리까지 씁니다.",
+    "정밀하게 잴 수 없을 때는 자릿수 수준으로 어림합니다. '대략 몇 배 정도인가'를 빠르게 판단하는 것도 중요한 과학적 능력입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "참값과 측정값의 차이를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오차"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "측정 도구의 한계와 측정하는 사람의 판단 때문에 오차가 생깁니다.\n여러 번 측정해 평균을 내면 오차를 줄일 수 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "가로 10 m, 세로 8 m, 높이 3 m인 교실 안 공기의 질량을 어림해 보세요. (공기의 밀도 약 1.2 kg/m³)",
+   "steps": [
+    "교실의 부피는 10 × 8 × 3 = 240 m³입니다.",
+    "질량 = 밀도 × 부피 = 1.2 × 240 = 288 kg입니다.",
+    "대략 300 kg 정도로, 어른 네다섯 명의 질량과 비슷합니다."
+   ],
+   "answer": "약 300 kg"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "가로 5 m, 세로 4 m, 높이 2.5 m인 방 안 공기의 질량은 몇 kg일까요? (공기의 밀도 1.2 kg/m³)",
+   "answer": "60",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "먼저 방의 부피를 구하세요.",
+   "explanation": "부피는 5 × 4 × 2.5 = 50 m³입니다.\n질량 = 1.2 × 50 = 60 kg입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "72 km/h는 몇 m/s일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "km/h 값을 3.6으로 나누면 m/s가 됩니다.",
+   "explanation": "72 km = 72000 m, 1 h = 3600 s입니다.\n72000 ÷ 3600 = 20 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "빛은 1초에 3 × 10⁸ m를 갑니다. 빛이 1 μs 동안 가는 거리는 몇 m일까요?",
+   "answer": "300",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "μ(마이크로)는 10⁻⁶입니다.",
+   "explanation": "1 μs = 10⁻⁶ s입니다.\n3 × 10⁸ × 10⁻⁶ = 3 × 10² = 300 m입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "최소 눈금이 1 mm인 자로 길이를 잴 때는 최소 눈금의 {{1}}인 0.1 mm 자리까지 어림해 읽습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1/10",
+      "10분의 1",
+      "십분의 일"
+     ]
+    }
+   ],
+   "hint": "1 mm와 0.1 mm의 관계를 보세요.",
+   "explanation": "측정값은 최소 눈금의 1/10까지 어림해 읽습니다.\n마지막 자리는 어림한 값이므로 불확실성을 포함합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "화성 기후 궤도선 사고를 예로 들어, 국제적으로 통일된 단위를 쓰는 것이 왜 중요한지 설명해 보세요.",
+   "hint": "두 팀이 어떤 단위를 썼는지부터 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "단위"
+     ],
+     [
+      "통일",
+      "같은",
+      "공통",
+      "약속"
+     ],
+     [
+      "파운드",
+      "뉴턴",
+      "다른 단위",
+      "혼동",
+      "착오"
+     ],
+     [
+      "오류",
+      "실패",
+      "사고",
+      "잘못"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "궤도선 사고는 두 팀이 서로 다른 단위(파운드와 뉴턴)를 써서 계산이 어긋났기 때문에 일어났습니다. 같은 단위를 쓰기로 약속해야 여러 사람이 측정값을 주고받아도 오류 없이 뜻이 통합니다."
+  }
+ ]
+}

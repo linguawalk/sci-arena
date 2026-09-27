@@ -1,0 +1,398 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch06",
+  "no": 6,
+  "title": "자기장과 전자기 유도"
+ },
+ "lesson": {
+  "id": "c1-ch06-l04",
+  "no": 4,
+  "title": "발전기와 전력 수송",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "발전소에서 콘센트까지",
+   "body": [
+    "우리 집 콘센트의 전기는 멀리 떨어진 발전소에서 만들어져 수백 km의 송전선을 따라옵니다.",
+    "전기를 만드는 발전기와, 전기를 먼 곳까지 효율적으로 보내는 변압기는 모두 전자기 유도를 이용합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "역학적 에너지를 전기 에너지로 바꾸는 장치를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "발전기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "발전기는 자기장 속에서 코일을 회전시켜 전자기 유도로 전류를 만듭니다.\n전동기와 에너지 전환 방향이 반대입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "발전기",
+   "body": [
+    "발전기는 자석 사이에서 코일을 회전시킵니다. 코일을 지나는 자기 선속이 주기적으로 늘었다 줄었다 하므로, 방향과 세기가 주기적으로 바뀌는 교류가 만들어집니다.",
+    "수력 발전은 물, 화력과 원자력 발전은 증기, 풍력 발전은 바람으로 터빈을 돌려 발전기를 회전시킵니다. 에너지원은 달라도 전기를 만드는 원리는 같습니다.",
+    "우리나라 가정용 교류는 1초에 60번 방향이 바뀌는 주기를 반복하는 60 Hz입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "우리나라 가정용 교류의 주파수는 몇 Hz일까요?",
+   "answer": "60",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "우리나라는 60 Hz 교류를 씁니다.\n유럽 등 일부 나라는 50 Hz를 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "발전기에서 만들어지는, 방향과 세기가 주기적으로 바뀌는 전류를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "교류"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "코일이 회전하며 자기 선속이 주기적으로 변하므로 유도 전류의 방향도 주기적으로 바뀝니다.\n이런 전류를 교류라고 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "화력 발전소에서 일어나는 에너지 전환을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "터빈의 운동 에너지"
+    },
+    {
+     "id": "b",
+     "text": "연료의 화학 에너지"
+    },
+    {
+     "id": "c",
+     "text": "전기 에너지"
+    },
+    {
+     "id": "d",
+     "text": "증기의 열에너지"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "연료를 태워 물을 끓이고, 증기가 터빈을 돌립니다.\n터빈과 연결된 발전기가 전기 에너지를 만듭니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "변압기",
+   "body": [
+    "변압기는 철심의 양쪽에 1차 코일과 2차 코일을 감은 장치입니다. 1차 코일에 교류가 흐르면 철심 속 자기 선속이 계속 변하고, 전자기 유도로 2차 코일에 전압이 생깁니다.",
+    "전압의 비는 감은 수의 비와 같습니다: V₁ ÷ V₂ = N₁ ÷ N₂. 2차 코일을 더 많이 감으면 전압이 높아지고, 적게 감으면 낮아집니다.",
+    "에너지 손실이 없는 이상적인 변압기에서는 전력이 보존됩니다: V₁I₁ = V₂I₂. 그래서 전압을 높이면 전류가 작아집니다. 직류는 선속이 변하지 않아 변압기에 쓸 수 없습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "변압기에서 1차 코일과 2차 코일의 전압의 비는 {{1}}의 비와 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감은 수",
+      "코일의 감은 수",
+      "권선 수",
+      "감긴 수"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "V₁ ÷ V₂ = N₁ ÷ N₂입니다.\n감은 수가 많은 쪽의 전압이 높습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "1차 코일 1000회, 2차 코일 50회인 변압기의 1차 코일에 220 V 교류를 걸었습니다. 2차 전압은?",
+   "steps": [
+    "V₁ ÷ V₂ = N₁ ÷ N₂입니다.",
+    "220 ÷ V₂ = 1000 ÷ 50 = 20입니다.",
+    "V₂ = 220 ÷ 20 = 11 V입니다."
+   ],
+   "answer": "11 V"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1차 코일 200회, 2차 코일 1000회인 변압기의 1차 코일에 100 V를 걸었습니다. 2차 전압은 몇 V일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "V₂ = V₁ × N₂ ÷ N₁입니다.\n100 × 1000 ÷ 200 = 500 V입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "이상적인 변압기의 1차 쪽이 220 V, 2 A이고 2차 전압이 11 V입니다. 2차 전류는 몇 A일까요?",
+   "answer": "40",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "전력 보존: 220 × 2 = 11 × I₂입니다.\nI₂ = 440 ÷ 11 = 40 A입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "변압기에 직류를 연결하면 철심 속 자기 선속이 {{1}} 않아서 2차 코일에 전압이 생기지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지",
+      "바뀌지",
+      "변화하지"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자기 유도는 자기 선속이 변할 때만 일어납니다.\n직류는 일정한 자기장만 만들어 선속이 변하지 않습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "전력 수송 체계",
+   "body": [
+    "발전소에서 만든 전기는 승압 변전소에서 수십만 V로 전압을 높여 송전선으로 보냅니다. 같은 전력이라도 전압이 높으면 전류가 작아 송전선의 손실(I²R)이 크게 줄기 때문입니다.",
+    "도시 근처의 변전소에서 전압을 차례로 낮추고, 마지막으로 전봇대의 주상 변압기가 220 V로 낮추어 가정에 보냅니다. 교류를 쓰는 가장 큰 이유가 이렇게 변압기로 전압을 쉽게 바꿀 수 있기 때문입니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "1000 kW의 전력을 저항 10 Ω인 송전선으로 보냅니다. 10 kV로 보낼 때와 100 kV로 보낼 때 손실 전력은?",
+   "steps": [
+    "10 kV: I = 1000000 ÷ 10000 = 100 A, 손실 = 100² × 10 = 100000 W(전체의 10%)입니다.",
+    "100 kV: I = 10 A, 손실 = 10² × 10 = 1000 W(전체의 0.1%)입니다.",
+    "전압을 10배 높이자 손실이 1/100이 되었습니다."
+   ],
+   "answer": "100 kW, 1 kW"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "200 kW의 전력을 20 kV로 송전할 때 송전선에 흐르는 전류는 몇 A일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "I = P ÷ V입니다.\n200000 ÷ 20000 = 10 A입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "앞 문제에서 송전선의 저항이 5 Ω이면 손실 전력은 몇 W일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "P손실 = I²R입니다.\n10² × 5 = 500 W입니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "ordering",
+   "prompt": "발전소의 전기가 가정까지 오는 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "고전압 송전선으로 먼 거리를 보낸다"
+    },
+    {
+     "id": "b",
+     "text": "발전소에서 전기를 만든다"
+    },
+    {
+     "id": "c",
+     "text": "변전소와 주상 변압기에서 전압을 낮춰 가정에 보낸다"
+    },
+    {
+     "id": "d",
+     "text": "승압 변전소에서 전압을 높인다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "고전압으로 보내야 손실이 적고, 쓸 때는 안전한 전압으로 낮춰야 합니다.\n두 번 모두 변압기가 쓰입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "휴대 전화 충전기는 220 V를 5 V로 낮춥니다. 1차 코일과 2차 코일의 감은 수의 비는?",
+   "steps": [
+    "N₁ ÷ N₂ = V₁ ÷ V₂입니다.",
+    "220 ÷ 5 = 44입니다.",
+    "1차 코일을 2차 코일보다 44배 많이 감아야 합니다."
+   ],
+   "answer": "44 : 1"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "220 V를 11 V로 낮추는 변압기의 1차 코일이 880회 감겨 있습니다. 2차 코일은 몇 회 감아야 할까요?",
+   "answer": "44",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전압의 비 = 감은 수의 비입니다.",
+   "explanation": "N₂ = N₁ × V₂ ÷ V₁입니다.\n880 × 11 ÷ 220 = 44회입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 전력을 보낼 때 송전 전압을 3배로 높이면 손실 전력은 처음의 몇 분의 1이 될까요? (분모를 쓰세요.)",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "P손실 = I²R입니다.",
+   "explanation": "전압이 3배이면 전류는 1/3배입니다.\n손실은 전류의 제곱에 비례하므로 1/9이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "발전기의 코일을 더 빠르게 회전시키면 유도 기전력이 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커",
+      "세",
+      "높아"
+     ]
+    }
+   ],
+   "hint": "선속의 변화율과 기전력의 관계를 떠올리세요.",
+   "explanation": "빠르게 회전하면 자기 선속의 변화율이 커집니다.\n패러데이 법칙에 따라 유도 기전력이 커집니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "이상적인 변압기의 1차 쪽에 1000 W의 전력이 공급됩니다. 2차 쪽에서 얻는 전력은 몇 W일까요?",
+   "answer": "1000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "이상적인 변압기는 전력을 보존합니다.",
+   "explanation": "이상적인 변압기에서는 에너지 손실이 없습니다.\n그래서 V₁I₁ = V₂I₂, 곧 전력이 1000 W로 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "변압기가 교류의 전압을 바꾸는 원리를 전자기 유도로 설명해 보세요.",
+   "hint": "1차 코일 → 철심 → 2차 코일 순서로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "교류"
+     ],
+     [
+      "자기 선속",
+      "자기장",
+      "선속"
+     ],
+     [
+      "변",
+      "바뀌"
+     ],
+     [
+      "2차",
+      "유도"
+     ],
+     [
+      "감은 수"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "1차 코일에 교류가 흐르면 철심 속 자기 선속이 계속 변합니다. 이 변하는 선속이 2차 코일을 지나며 전자기 유도로 전압이 생기고, 두 코일의 전압의 비는 감은 수의 비와 같습니다."
+  }
+ ]
+}

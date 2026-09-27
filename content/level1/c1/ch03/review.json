@@ -1,0 +1,169 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch03",
+  "no": 3,
+  "title": "운동량과 충격량"
+ },
+ "review": {
+  "id": "c1-ch03-review",
+  "title": "운동량과 충격량 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량 0.5 kg인 공이 12 m/s로 움직입니다. 운동량의 크기는 몇 kg·m/s일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "질량과 속도를 곱하세요.",
+   "explanation": "p = mv입니다.\n0.5 × 12 = 6 kg·m/s입니다.",
+   "source_lesson": "c1-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "질량 0.1 kg인 공이 10 m/s로 벽에 부딪혀 반대 방향으로 10 m/s로 튕겼습니다. 운동량 변화량의 크기는 몇 kg·m/s일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "방향이 바뀌면 두 크기를 더합니다.",
+   "explanation": "처음 +1, 나중 −1 kg·m/s입니다.\n변화량 = −1 − 1 = −2이므로 크기는 2 kg·m/s입니다.",
+   "source_lesson": "c1-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "정지해 있던 4 kg 물체에 20 N의 힘이 2초 동안 작용했습니다. 나중 속력은 몇 m/s일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "충격량 = 운동량 변화량입니다.",
+   "explanation": "충격량 = 20 × 2 = 40 N·s입니다.\n4 × v = 40이므로 v = 10 m/s입니다.",
+   "source_lesson": "c1-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "힘–시간 그래프 아래의 넓이는 {{1}}이며, 이는 운동량의 변화량과 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충격량"
+     ]
+    }
+   ],
+   "hint": "힘 × 시간의 이름입니다.",
+   "explanation": "넓이 = 힘 × 시간 = 충격량입니다.\n충격량은 운동량 변화량과 같습니다.",
+   "source_lesson": "c1-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "정지한 0.4 kg 공을 쳐서 30 m/s로 날려 보냈습니다. 접촉 시간이 0.02초라면 평균 힘은 몇 N일까요?",
+   "answer": "600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "운동량 변화량을 시간으로 나누세요.",
+   "explanation": "운동량 변화량 = 0.4 × 30 = 12 kg·m/s입니다.\n평균 힘 = 12 ÷ 0.02 = 600 N입니다.",
+   "source_lesson": "c1-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "2 kg 수레가 6 m/s로 달려와 정지한 4 kg 수레와 붙어 함께 움직였습니다. 충돌 후 속력은 몇 m/s일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "운동량 보존을 쓰세요.",
+   "explanation": "충돌 전 운동량 = 2 × 6 = 12 kg·m/s입니다.\n(2 + 4) × v = 12이므로 v = 2 m/s입니다.",
+   "source_lesson": "c1-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "정지한 5 kg 물체가 두 조각으로 나뉘어 2 kg 조각이 9 m/s로 날아갔습니다. 3 kg 조각의 속력은 몇 m/s일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "처음 운동량은 0입니다.",
+   "explanation": "운동량 합이 0이므로 3 × v = 2 × 9 = 18입니다.\nv = 6 m/s(반대 방향)입니다.",
+   "source_lesson": "c1-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "운동량은 모든 충돌에서 보존되지만, {{1}}는 탄성 충돌에서만 보존됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "운동 에너지",
+      "운동에너지"
+     ]
+    }
+   ],
+   "hint": "½mv²으로 구하는 양입니다.",
+   "explanation": "비탄성 충돌에서는 운동 에너지의 일부가 열, 소리, 변형 에너지로 바뀝니다.\n운동량은 외력이 없으면 항상 보존됩니다.",
+   "source_lesson": "c1-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "70 kg인 사람이 8 m/s에서 에어백으로 0.4초 만에 멈췄습니다. 평균 힘은 몇 N일까요?",
+   "answer": "1400",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "평균 힘 = 운동량 변화량 ÷ 시간입니다.",
+   "explanation": "운동량 변화량 = 70 × 8 = 560 kg·m/s입니다.\n평균 힘 = 560 ÷ 0.4 = 1400 N입니다.",
+   "source_lesson": "c1-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "체육관 매트는 몸이 멈추는 시간을 {{1}} 해서 몸이 받는 평균 힘을 줄입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "길게",
+      "늘게",
+      "늘려"
+     ]
+    }
+   ],
+   "hint": "평균 힘과 시간은 반비례합니다.",
+   "explanation": "매트가 눌리는 동안 몸이 천천히 멈춥니다.\n충돌 시간이 길어져 평균 힘이 작아집니다.",
+   "source_lesson": "c1-ch03-l04"
+  }
+ ]
+}

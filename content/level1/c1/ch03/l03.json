@@ -1,0 +1,357 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch03",
+  "no": 3,
+  "title": "운동량과 충격량"
+ },
+ "lesson": {
+  "id": "c1-ch03-l03",
+  "no": 3,
+  "title": "운동량 보존",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "당구공의 충돌",
+   "body": [
+    "당구에서 흰 공이 정지한 공을 정면으로 맞히면, 흰 공은 멈추고 맞은 공이 흰 공의 속도로 굴러갑니다.",
+    "마치 흰 공의 운동이 그대로 옮겨 간 것 같습니다. 실제로 옮겨 간 것은 운동량입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "외부에서 힘이 작용하지 않으면 충돌 전후 두 물체의 운동량의 합은 {{1}}됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보존"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "충돌하는 두 물체 사이의 힘만 있으면 전체 운동량은 변하지 않습니다.\n이것을 운동량 보존 법칙이라고 합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "운동량 보존 법칙",
+   "body": [
+    "두 물체가 충돌하면 작용 반작용 법칙에 따라 서로 크기가 같고 방향이 반대인 힘을 같은 시간 동안 주고받습니다.",
+    "따라서 두 물체가 받는 충격량도 크기가 같고 방향이 반대입니다. 한 물체가 얻은 운동량만큼 다른 물체가 잃으므로 합은 변하지 않습니다.",
+    "식으로 쓰면 m₁v₁ + m₂v₂ = m₁v₁′ + m₂v₂′입니다(′는 충돌 후). 외력이 작용하지 않는 한 모든 충돌과 분열에서 성립합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "운동량 보존 법칙은 충돌하는 두 물체가 주고받는 힘이 {{1}} 관계이기 때문에 성립합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작용 반작용",
+      "작용·반작용",
+      "작용과 반작용",
+      "뉴턴 운동 제3법칙",
+      "제3법칙"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 힘은 크기가 같고 방향이 반대이며 같은 시간 동안 작용합니다.\n그래서 두 물체의 운동량 변화가 서로 상쇄됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "2 kg 공이 3 m/s로 굴러와 정지한 1 kg 공과 충돌했습니다. 충돌 후 2 kg 공이 1 m/s로 같은 방향으로 움직였다면 1 kg 공의 속도는?",
+   "steps": [
+    "충돌 전 운동량 합 = 2 × 3 + 1 × 0 = 6 kg·m/s입니다.",
+    "충돌 후: 2 × 1 + 1 × v = 6입니다.",
+    "v = 4 m/s입니다."
+   ],
+   "answer": "4 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "1 kg 공이 4 m/s로 굴러와 정지한 1 kg 공과 충돌한 뒤 멈췄습니다. 맞은 공의 속력은 몇 m/s일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "충돌 전 운동량 합 = 1 × 4 = 4 kg·m/s입니다.\n충돌 후 1 × 0 + 1 × v = 4이므로 v = 4 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "3 kg 수레가 4 m/s로 달려와 정지한 1 kg 수레와 충돌해 한 덩어리가 되었습니다. 충돌 후 속력은 몇 m/s일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "충돌 전 운동량 합 = 3 × 4 = 12 kg·m/s입니다.\n충돌 후 (3 + 1) × v = 12이므로 v = 3 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "오른쪽으로 6 m/s로 가는 2 kg 수레와 왼쪽으로 3 m/s로 오는 1 kg 수레가 정면충돌해 한 덩어리가 되었습니다. 충돌 후 속력은 몇 m/s일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "오른쪽을 +로 하면 운동량 합 = 2 × 6 + 1 × (−3) = 9 kg·m/s입니다.\n(2 + 1) × v = 9이므로 v = 3 m/s(오른쪽)입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "분열과 반동",
+   "body": [
+    "정지해 있던 물체가 두 조각으로 나뉘면 처음 운동량이 0이므로, 나뉜 뒤에도 운동량의 합은 0입니다.",
+    "그래서 두 조각은 서로 반대 방향으로 움직이고, 운동량의 크기가 같습니다. 속력은 질량에 반비례해 가벼운 쪽이 더 빠릅니다.",
+    "총을 쏠 때의 반동, 로켓의 추진, 서로 밀어낸 스케이터가 모두 이 원리입니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질량 1000 kg인 대포가 10 kg 포탄을 300 m/s로 발사했습니다. 대포의 반동 속력은?",
+   "steps": [
+    "발사 전 운동량의 합은 0입니다.",
+    "발사 후: 10 × 300 + 1000 × V = 0입니다.",
+    "V = −3 m/s이므로 대포는 반대 방향으로 3 m/s로 밀려납니다."
+   ],
+   "answer": "3 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정지해 있던 60 kg 사람과 40 kg 사람이 스케이트를 신고 서로 밀었습니다. 40 kg 사람이 3 m/s로 밀려났다면 60 kg 사람은 몇 m/s로 밀려날까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "운동량의 합은 0이므로 두 사람의 운동량 크기가 같습니다.\n60 × v = 40 × 3 = 120이므로 v = 2 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 4 kg인 총에서 0.02 kg 총알이 400 m/s로 발사되었습니다. 총의 반동 속력은 몇 m/s일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "총알의 운동량 = 0.02 × 400 = 8 kg·m/s입니다.\n총의 운동량 크기도 8이므로 v = 8 ÷ 4 = 2 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "정지해 있던 물체가 폭발해 여러 조각으로 나뉘었습니다. 모든 조각의 운동량의 합은 몇 kg·m/s일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "폭발 전 운동량은 0입니다.\n폭발은 내부의 힘이므로 운동량이 보존되어 합은 0입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "충돌의 종류",
+   "body": [
+    "운동량은 모든 충돌에서 보존되지만, 운동 에너지는 그렇지 않을 수 있습니다.",
+    "충돌 전후 운동 에너지의 합이 보존되는 충돌을 탄성 충돌, 줄어드는 충돌을 비탄성 충돌이라고 합니다. 줄어든 에너지는 열, 소리, 변형 에너지로 바뀝니다.",
+    "충돌 후 두 물체가 한 덩어리가 되는 완전 비탄성 충돌에서 운동 에너지가 가장 많이 줄어듭니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "3 kg 수레가 4 m/s로 달려와 정지한 1 kg 수레와 붙어 3 m/s로 움직였습니다. 충돌로 줄어든 운동 에너지는 몇 J일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "충돌 전: ½ × 3 × 4² = 24 J입니다.\n충돌 후: ½ × 4 × 3² = 18 J입니다.\n24 − 18 = 6 J가 열과 소리 등으로 바뀌었습니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "충돌 후 두 물체가 한 덩어리가 되어 함께 움직이는 충돌을 {{1}} 충돌이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "완전 비탄성",
+      "완전비탄성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 물체가 붙어서 같은 속도로 움직이는 충돌입니다.\n운동량은 보존되지만 운동 에너지가 가장 많이 줄어듭니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "질량 0.01 kg인 총알이 정지한 0.99 kg 나무토막에 박혔고, 나무토막은 2 m/s로 움직였습니다. 총알의 처음 속력은?",
+   "steps": [
+    "충돌 후 한 덩어리의 질량은 0.01 + 0.99 = 1 kg입니다.",
+    "충돌 후 운동량 = 1 × 2 = 2 kg·m/s입니다.",
+    "충돌 전 운동량도 2이므로 0.01 × v = 2, v = 200 m/s입니다."
+   ],
+   "answer": "200 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 0.02 kg인 총알이 정지한 0.98 kg 나무토막에 박힌 뒤 둘이 함께 4 m/s로 움직였습니다. 총알의 처음 속력은 몇 m/s일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "충돌 후 한 덩어리의 운동량부터 구하세요.",
+   "explanation": "충돌 후 운동량 = (0.02 + 0.98) × 4 = 4 kg·m/s입니다.\n0.02 × v = 4이므로 v = 200 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1 kg 공이 6 m/s로 정지한 2 kg 공과 정면충돌한 뒤 반대 방향으로 2 m/s로 튕겨 나왔습니다. 2 kg 공의 속력은 몇 m/s일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "튕겨 나온 공의 속도는 음수로 넣으세요.",
+   "explanation": "처음 방향을 +로 하면 충돌 전 합 = 6 kg·m/s입니다.\n1 × (−2) + 2 × v = 6이므로 2v = 8, v = 4 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "로켓이 뜨거운 가스를 뒤로 뿜어내며 앞으로 나아가는 것은 {{1}} 법칙으로 설명할 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "운동량 보존",
+      "운동량보존",
+      "작용 반작용",
+      "작용·반작용"
+     ]
+    }
+   ],
+   "hint": "분열과 반동을 설명하는 법칙입니다.",
+   "explanation": "가스가 뒤로 운동량을 가지고 나가면, 전체 운동량을 보존하기 위해 로켓은 앞쪽으로 같은 크기의 운동량을 얻습니다.\n작용 반작용 법칙으로도 설명됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "정지해 있던 3 kg 물체가 폭발해 1 kg 조각은 동쪽으로 12 m/s로 날아갔습니다. 나머지 2 kg 조각은 서쪽으로 몇 m/s로 날아갈까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "정지 상태의 운동량은 0입니다.",
+   "explanation": "운동량 합이 0이므로 두 조각의 운동량 크기가 같습니다.\n2 × v = 1 × 12이므로 v = 6 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "탄성 충돌에서는 운동량과 함께 {{1}}의 합도 보존됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "운동 에너지",
+      "운동에너지"
+     ]
+    }
+   ],
+   "hint": "비탄성 충돌에서 줄어드는 양입니다.",
+   "explanation": "탄성 충돌은 운동 에너지가 줄어들지 않는 충돌입니다.\n운동량은 탄성·비탄성 충돌 모두에서 보존됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "정지해 있던 두 스케이터가 서로 밀면 가벼운 사람이 더 빠르게 밀려나는 이유를 운동량 보존으로 설명해 보세요.",
+   "hint": "처음 운동량의 합부터 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "운동량"
+     ],
+     [
+      "0",
+      "보존"
+     ],
+     [
+      "크기가 같",
+      "같은 크기",
+      "같"
+     ],
+     [
+      "질량",
+      "반비례",
+      "가벼"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "처음 운동량의 합이 0이므로 민 뒤에도 합은 0입니다. 그래서 두 사람은 크기가 같고 방향이 반대인 운동량을 가지며, 운동량 = 질량 × 속도이므로 질량이 작은 사람의 속력이 더 큽니다."
+  }
+ ]
+}

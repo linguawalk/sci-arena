@@ -1,0 +1,373 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch02",
+  "no": 2,
+  "title": "뉴턴 운동 법칙"
+ },
+ "lesson": {
+  "id": "c1-ch02-l02",
+  "no": 2,
+  "title": "가속도 법칙",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "물리"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "빈 카트와 가득 찬 카트",
+   "body": [
+    "마트에서 빈 카트는 살짝 밀어도 쉽게 출발하지만, 물건을 가득 실은 카트는 같은 힘으로 밀어도 잘 빨라지지 않습니다.",
+    "물체의 가속도는 받는 힘과 질량에 따라 달라집니다. 뉴턴은 이 관계를 하나의 식으로 정리했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "같은 힘으로 밀 때 질량이 큰 카트의 가속도는 질량이 작은 카트보다 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "질량이 크면 관성이 커서 속도를 바꾸기 어렵습니다.\n그래서 같은 힘을 받아도 가속도가 작습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "가속도 법칙 (뉴턴 운동 제2법칙)",
+   "body": [
+    "물체의 가속도는 알짜힘에 비례하고 질량에 반비례합니다: a = F ÷ m, 곧 F = ma입니다. 가속도의 방향은 알짜힘의 방향과 같습니다.",
+    "1 N은 질량 1 kg인 물체에 1 m/s²의 가속도를 주는 힘입니다. 그래서 1 N = 1 kg·m/s²입니다.",
+    "이 법칙은 제1법칙을 포함합니다. 알짜힘이 0이면 가속도가 0이 되어 속도가 변하지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "가속도는 알짜힘을 물체의 {{1}}으로 나눈 값입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "질량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "a = F ÷ m입니다.\n알짜힘이 클수록, 질량이 작을수록 가속도가 큽니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "질량 2 kg인 물체에 알짜힘 10 N이 작용합니다. 가속도는?",
+   "steps": [
+    "a = F ÷ m입니다.",
+    "10 ÷ 2 = 5 m/s²이고, 방향은 알짜힘의 방향입니다."
+   ],
+   "answer": "5 m/s²"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 4 kg인 물체에 알짜힘 12 N이 작용합니다. 가속도는 몇 m/s²일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "a = F ÷ m입니다.\n12 ÷ 4 = 3 m/s²입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 3 kg인 물체가 4 m/s²로 가속하고 있습니다. 알짜힘은 몇 N일까요?",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "F = ma입니다.\n3 × 4 = 12 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "같은 크기의 알짜힘으로 질량이 2배인 물체를 밀면 가속도는 처음의 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.001,
+   "hint": null,
+   "explanation": "가속도는 질량에 반비례합니다.\n질량이 2배이면 가속도는 1/2 = 0.5배입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "무게와 자유 낙하",
+   "body": [
+    "지구가 물체를 당기는 중력을 무게라고 합니다. 자유 낙하하는 물체는 가속도 g로 떨어지므로, F = ma에 따라 무게 W = mg입니다.",
+    "무게는 질량에 비례합니다. 그래서 무거운 물체는 큰 힘을 받지만 관성도 그만큼 커서, 가속도 a = mg ÷ m = g는 질량과 관계없이 같습니다.",
+    "이것이 공기 저항이 없을 때 모든 물체가 같은 가속도로 떨어지는 이유입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 60 kg인 사람의 무게는 몇 N일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "무게 W = mg입니다.\n60 × 10 = 600 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "무거운 물체와 가벼운 물체가 같은 가속도로 떨어지는 것은 무게가 질량에 {{1}}하기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비례"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "무게 = mg이므로 질량이 2배이면 무게도 2배입니다.\n가속도 = 무게 ÷ 질량 = g로 질량과 관계없이 같습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "마찰이 있을 때와 연결된 물체",
+   "body": [
+    "마찰이 있으면 알짜힘 = 당기는 힘 − 마찰력입니다. 가속도는 이 알짜힘으로 구합니다.",
+    "줄로 연결된 여러 물체가 함께 움직이면, 한 덩어리로 보아 전체 질량으로 가속도를 구합니다: a = F ÷ (m₁ + m₂).",
+    "연결된 줄이 당기는 힘(장력)은 줄 뒤쪽 물체만 따로 보아 구합니다. 뒤쪽 물체를 가속시키는 힘이 곧 장력입니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "마찰이 없는 바닥에서 질량 3 kg(앞)과 2 kg(뒤)인 두 상자를 줄로 잇고, 앞 상자를 20 N으로 당깁니다. 가속도와 줄의 장력은?",
+   "steps": [
+    "전체 질량은 5 kg이므로 a = 20 ÷ 5 = 4 m/s²입니다.",
+    "뒤 상자 2 kg을 따로 보면, 이 상자에 작용하는 수평 힘은 줄의 장력뿐입니다.",
+    "장력 = 2 × 4 = 8 N입니다."
+   ],
+   "answer": "4 m/s², 8 N"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "질량 4 kg인 상자를 30 N으로 수평으로 당기고, 마찰력이 10 N 작용합니다. 가속도는 몇 m/s²일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "알짜힘 = 30 − 10 = 20 N입니다.\na = 20 ÷ 4 = 5 m/s²입니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "마찰이 없는 바닥에서 질량 2 kg(앞)과 3 kg(뒤)인 상자를 줄로 잇고 앞 상자를 25 N으로 당깁니다. 가속도는 몇 m/s²일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "전체 질량은 2 + 3 = 5 kg입니다.\na = 25 ÷ 5 = 5 m/s²입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "앞 문제에서 두 상자를 잇는 줄의 장력은 몇 N일까요?",
+   "answer": "15",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "뒤 상자(3 kg)를 가속시키는 힘이 장력입니다.\n3 × 5 = 15 N입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s5",
+   "stage": "summary",
+   "title": "도르래로 연결된 물체",
+   "body": [
+    "마찰 없는 수평면 위의 물체 m₁이 도르래를 지나는 줄로 매달린 물체 m₂와 연결되어 있으면, 두 물체를 움직이는 힘은 m₂의 무게 m₂g입니다.",
+    "두 물체는 함께 가속하므로 a = m₂g ÷ (m₁ + m₂)입니다. 줄의 장력은 수평면 위 물체만 보아 T = m₁a로 구합니다.",
+    "힘과 가속도의 관계를 그래프로 그리면(가로축 가속도, 세로축 알짜힘) 원점을 지나는 직선이 되고, 기울기가 질량입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "알짜힘–가속도 그래프(세로축 알짜힘, 가로축 가속도)에서 직선의 기울기는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "질량"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "F = ma이므로 F를 a로 나눈 기울기가 m입니다.\n질량이 클수록 그래프가 가파릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "마찰 없는 수평면 위의 3 kg 물체가 도르래를 지나는 줄로 2 kg 물체와 연결되어 2 kg 물체가 매달려 있습니다. 가속도는? (중력 가속도 g = 10 m/s²)",
+   "steps": [
+    "움직이게 하는 힘은 매달린 물체의 무게 2 × 10 = 20 N입니다.",
+    "함께 움직이는 전체 질량은 3 + 2 = 5 kg입니다.",
+    "a = 20 ÷ 5 = 4 m/s²입니다."
+   ],
+   "answer": "4 m/s²"
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "마찰 없는 수평면 위의 4 kg 물체가 도르래를 지나는 줄로 매달린 1 kg 물체와 연결되어 있습니다. 가속도는 몇 m/s²일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "매달린 물체의 무게가 두 물체 전체를 가속시킵니다.",
+   "explanation": "움직이게 하는 힘은 1 × 10 = 10 N입니다.\n전체 질량 5 kg이므로 a = 10 ÷ 5 = 2 m/s²입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "앞 문제에서 줄의 장력은 몇 N일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "수평면 위 물체만 따로 보세요.",
+   "explanation": "수평면 위 4 kg 물체만 보면 수평 방향 힘은 장력뿐입니다.\nT = 4 × 2 = 8 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "질량 50 kg인 사람이 탄 엘리베이터가 위로 2 m/s²로 가속합니다. 바닥이 사람을 떠받치는 힘은 몇 N일까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "사람에게 작용하는 두 힘(중력, 떠받치는 힘)의 알짜힘이 ma입니다.",
+   "explanation": "위를 +로 하면 떠받치는 힘 N − mg = ma입니다.\nN = 50 × (10 + 2) = 600 N입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "가속도가 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "알짜힘 20 N, 질량 5 kg"
+    },
+    {
+     "id": "b",
+     "text": "알짜힘 10 N, 질량 5 kg"
+    },
+    {
+     "id": "c",
+     "text": "알짜힘 30 N, 질량 3 kg"
+    },
+    {
+     "id": "d",
+     "text": "알짜힘 12 N, 질량 4 kg"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "각각 F ÷ m을 계산하세요.",
+   "explanation": "가속도는 각각 2, 3, 4, 10 m/s²입니다.\na = F ÷ m으로 계산해 비교합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "같은 크기의 힘을 줄 때 질량이 큰 물체의 가속도가 더 작은 이유를 가속도 법칙과 관성으로 설명해 보세요.",
+   "hint": "a = F ÷ m에서 m이 커지면 어떻게 되는지 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "반비례",
+      "나눈",
+      "F = ma",
+      "a = F"
+     ],
+     [
+      "질량"
+     ],
+     [
+      "관성"
+     ],
+     [
+      "작",
+      "어렵"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "가속도 법칙 a = F ÷ m에 따라 가속도는 질량에 반비례합니다. 질량이 크면 관성이 커서 운동 상태를 바꾸기 어렵기 때문에 같은 힘을 받아도 가속도가 작습니다."
+  }
+ ]
+}

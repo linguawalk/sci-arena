@@ -1,0 +1,162 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c1",
+  "title": "물리Ⅰ"
+ },
+ "chapter": {
+  "id": "c1-ch01",
+  "no": 1,
+  "title": "운동의 기술"
+ },
+ "review": {
+  "id": "c1-ch01-review",
+  "title": "운동의 기술 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "국제단위계에서 전류의 기본 단위는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "A",
+      "암페어"
+     ]
+    }
+   ],
+   "hint": "기본량 7개를 떠올리세요.",
+   "explanation": "전류는 7개 기본량 중 하나이고 단위는 A(암페어)입니다.\n전압의 단위 V는 유도 단위입니다.",
+   "source_lesson": "c1-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "3.6 km는 몇 m일까요?",
+   "answer": "3600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "k는 10³입니다.",
+   "explanation": "1 km = 1000 m입니다.\n3.6 × 1000 = 3600 m입니다.",
+   "source_lesson": "c1-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "서쪽으로 50 m 간 뒤 동쪽으로 20 m 왔습니다. 변위의 크기는 몇 m일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "되돌아온 거리는 빼야 합니다.",
+   "explanation": "서쪽을 +로 하면 +50 − 20 = +30 m입니다.\n변위의 크기는 30 m, 방향은 서쪽입니다.",
+   "source_lesson": "c1-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "동쪽으로 8 m, 이어서 북쪽으로 6 m를 2초 동안 이동했습니다. 평균 속도의 크기는 몇 m/s일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "변위는 직각삼각형의 빗변입니다.",
+   "explanation": "변위의 크기는 √(8² + 6²) = 10 m입니다.\n평균 속도 = 10 ÷ 2 = 5 m/s입니다.",
+   "source_lesson": "c1-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "속도가 3초 동안 12 m/s에서 3 m/s로 줄었습니다. 가속도의 크기는 몇 m/s²일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "속도 변화량을 시간으로 나누세요.",
+   "explanation": "속도 변화량 = 3 − 12 = −9 m/s입니다.\n가속도 = −9 ÷ 3 = −3 m/s²이므로 크기는 3 m/s²입니다.",
+   "source_lesson": "c1-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "속도–시간 그래프의 기울기는 {{1}}를 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가속도"
+     ]
+    }
+   ],
+   "hint": "넓이는 변위, 기울기는 무엇일까요?",
+   "explanation": "기울기 = 속도 변화 ÷ 시간입니다.\n이는 가속도의 정의와 같습니다.",
+   "source_lesson": "c1-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "속도–시간 그래프에서 속도가 0초에 0, 6초에 12 m/s까지 일정하게 증가했습니다. 0~6초 동안 변위는 몇 m일까요?",
+   "answer": "36",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "그래프 아래 넓이를 구하세요.",
+   "explanation": "그래프 아래 삼각형 넓이를 구합니다.\n½ × 6 × 12 = 36 m입니다.",
+   "source_lesson": "c1-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "5 m/s로 움직이던 물체가 2 m/s²로 4초 동안 가속했습니다. 이동 거리는 몇 m일까요?",
+   "answer": "36",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "s = v₀t + ½at²을 쓰세요.",
+   "explanation": "s = v₀t + ½at² = 5 × 4 + ½ × 2 × 16입니다.\n= 20 + 16 = 36 m입니다.",
+   "source_lesson": "c1-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "25 m/s로 달리던 자동차가 −5 m/s²로 제동해 멈췄습니다. 제동 거리는 몇 m일까요?",
+   "answer": "62.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "시간이 없는 식을 쓰세요.",
+   "explanation": "0 − 25² = 2 × (−5) × s입니다.\ns = 625 ÷ 10 = 62.5 m입니다.",
+   "source_lesson": "c1-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "공을 연직 위로 30 m/s로 던졌습니다. 최고점에 도달하는 데 몇 초가 걸릴까요? (중력 가속도 g = 10 m/s²)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = v₀ + at에서 v = 0으로 놓으세요.",
+   "explanation": "최고점에서 v = 0이므로 0 = 30 − 10t입니다.\nt = 3초입니다.",
+   "source_lesson": "c1-ch01-l04"
+  }
+ ]
+}
