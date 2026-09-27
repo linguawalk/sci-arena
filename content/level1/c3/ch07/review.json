@@ -1,0 +1,206 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch07",
+  "no": 7,
+  "title": "진화와 생물 다양성"
+ },
+ "review": {
+  "id": "c3-ch07-review",
+  "title": "진화와 생물 다양성 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "짧은 기간 넓은 지역에 살았던 생물의 화석으로 지층의 시대를 알려 주는 것을 {{1}} 화석이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표준"
+     ]
+    }
+   ],
+   "hint": "시대를 알려 주는 화석입니다.",
+   "explanation": "삼엽충, 암모나이트, 화폐석이 대표적입니다.\n환경을 알려 주는 것은 시상 화석입니다.",
+   "source_lesson": "c3-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "공룡과 암모나이트가 번성하고 멸종한 시대는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중생대"
+     ]
+    }
+   ],
+   "hint": "고생대와 신생대 사이입니다.",
+   "explanation": "중생대 말 대멸종으로 공룡과 암모나이트가 사라졌습니다.\n그 뒤 신생대에 포유류가 번성했습니다.",
+   "source_lesson": "c3-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "남세균의 광합성으로 산소가 늘어 만들어진 {{1}}이 자외선을 막아 생물이 육지로 진출했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오존층",
+      "오존"
+     ]
+    }
+   ],
+   "hint": "자외선을 막는 대기층입니다.",
+   "explanation": "오존층은 성층권에서 자외선을 흡수합니다.\n고생대에 육상 생물이 나타났습니다.",
+   "source_lesson": "c3-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "환경에 유리한 변이를 가진 개체가 더 많이 살아남아 자손을 남기는 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자연선택",
+      "자연 선택"
+     ]
+    }
+   ],
+   "hint": "다윈이 제안한 진화의 원리입니다.",
+   "explanation": "다윈 진화론의 핵심 개념입니다.\n세대를 거듭하며 유리한 형질이 쌓입니다.",
+   "source_lesson": "c3-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "사람의 팔과 박쥐의 날개는 기원이 같은 {{1}} 기관입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상동"
+     ]
+    }
+   ],
+   "hint": "기원이 같은 기관입니다.",
+   "explanation": "뼈 구조가 같아 공통 조상의 증거가 됩니다.\n기능은 다르게 진화했습니다.",
+   "source_lesson": "c3-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "환경의 영향으로만 생긴 변이는 자손에게 유전되지 않아 {{1}}에 영향을 주지 못합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진화"
+     ]
+    }
+   ],
+   "hint": "생물이 여러 세대에 걸쳐 변하는 것입니다.",
+   "explanation": "유전적 변이만 자손에게 전해져 진화의 원료가 됩니다.\n운동으로 커진 근육이 예입니다.",
+   "source_lesson": "c3-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "자연 상태에서 교배해 생식 능력이 있는 자손을 낳는 생물 무리를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "종"
+     ]
+    }
+   ],
+   "hint": "분류의 가장 작은 단위입니다.",
+   "explanation": "종은 분류의 기본 단위입니다.\n말과 당나귀는 다른 종입니다.",
+   "source_lesson": "c3-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "핵막이 없는 원핵생물은 세균역과 {{1}}역에 속합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "고세균",
+      "고세균역"
+     ]
+    }
+   ],
+   "hint": "극한 환경에 많은 원핵생물입니다.",
+   "explanation": "3역은 세균역, 고세균역, 진핵생물역입니다.\n고세균은 극한 환경에 많이 삽니다.",
+   "source_lesson": "c3-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "한 지역에 사는 종의 수와 분포의 고른 정도를 {{1}} 다양성이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "종"
+     ]
+    }
+   ],
+   "hint": "생물 무리의 다양성입니다.",
+   "explanation": "종 풍부도와 종 균등도를 함께 봅니다.\n생물 다양성의 세 수준 중 하나입니다.",
+   "source_lesson": "c3-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "황소개구리와 뉴트리아처럼 토종 생물을 위협하는 생물을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "외래종",
+      "생태계 교란종",
+      "외래 생물"
+     ]
+    }
+   ],
+   "hint": "다른 지역에서 들어온 생물입니다.",
+   "explanation": "천적이 없어 빠르게 번식합니다.\n생물 다양성을 위협하는 요인입니다.",
+   "source_lesson": "c3-ch07-l04"
+  }
+ ]
+}

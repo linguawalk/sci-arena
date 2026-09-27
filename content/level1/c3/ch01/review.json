@@ -1,0 +1,203 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch01",
+  "no": 1,
+  "title": "생명 시스템과 세포"
+ },
+ "review": {
+  "id": "c3-ch01-review",
+  "title": "생명 시스템과 세포 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "외부 환경이 변해도 체내 상태를 일정하게 유지하는 생물의 특성을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "항상성"
+     ]
+    }
+   ],
+   "hint": "체온 유지가 예입니다.",
+   "explanation": "체온, 혈당량, 체액 농도가 일정하게 유지됩니다.\n생물의 중요한 특성입니다.",
+   "source_lesson": "c3-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "동물의 구성 단계는 세포 → 조직 → 기관 → {{1}} → 개체입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기관계"
+     ]
+    }
+   ],
+   "hint": "소화계, 순환계 같은 단계입니다.",
+   "explanation": "관련된 기관이 모여 기관계를 이룹니다.\n식물에는 기관계 대신 조직계가 있습니다.",
+   "source_lesson": "c3-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "리보솜에서 합성된 단백질을 가공해 세포 밖으로 분비하는 소기관은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "골지체"
+     ]
+    }
+   ],
+   "hint": "분비 경로의 마지막 소기관입니다.",
+   "explanation": "골지체는 단백질을 가공하고 포장해 분비합니다.\n분비 세포에 발달해 있습니다.",
+   "source_lesson": "c3-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "식물 세포에는 있고 동물 세포에는 없는 소기관으로 광합성을 하는 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "엽록체"
+     ]
+    }
+   ],
+   "hint": "초록색을 띠는 소기관입니다.",
+   "explanation": "엽록체의 엽록소가 빛에너지를 흡수합니다.\n세포벽과 함께 식물 세포의 특징입니다.",
+   "source_lesson": "c3-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "원핵세포에는 핵막이 없지만 단백질을 합성하는 {{1}}은 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "리보솜"
+     ]
+    }
+   ],
+   "hint": "막이 없는 소기관입니다.",
+   "explanation": "모든 세포는 단백질을 만들어야 합니다.\n막으로 싸인 소기관만 원핵세포에 없습니다.",
+   "source_lesson": "c3-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "양파 표피 세포를 진한 설탕물에 넣으면 {{1}}가 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원형질 분리",
+      "원형질분리"
+     ]
+    }
+   ],
+   "hint": "세포막이 세포벽에서 떨어지는 현상입니다.",
+   "explanation": "삼투로 물이 빠져나가 세포막이 세포벽에서 떨어집니다.\n식물 세포에서 관찰됩니다.",
+   "source_lesson": "c3-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "산소와 이산화 탄소는 {{1}}에 의해 인지질 2중층을 직접 통과합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "확산"
+     ]
+    }
+   ],
+   "hint": "농도 차이로 저절로 이동합니다.",
+   "explanation": "작고 극성이 없는 분자는 인지질 사이를 쉽게 지나갑니다.\n에너지를 쓰지 않습니다.",
+   "source_lesson": "c3-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "Na⁺–K⁺ 펌프처럼 ATP를 써서 농도 기울기를 거슬러 물질을 옮기는 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "능동 수송",
+      "능동수송"
+     ]
+    }
+   ],
+   "hint": "에너지를 쓰는 수송입니다.",
+   "explanation": "에너지를 쓰는 수송 방식입니다.\n확산과 달리 낮은 농도에서 높은 농도로 옮깁니다.",
+   "source_lesson": "c3-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "ATP가 ADP와 인산으로 분해될 때 방출되는 {{1}}가 생명 활동에 쓰입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "에너지"
+     ]
+    }
+   ],
+   "hint": "ATP가 저장하고 있는 것입니다.",
+   "explanation": "ATP는 에너지를 저장했다가 필요할 때 내놓습니다.\n근육 수축, 물질 합성, 능동 수송에 쓰입니다.",
+   "source_lesson": "c3-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "효소의 주성분은 단백질이므로 높은 온도에서 {{1}}되어 기능을 잃습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변성"
+     ]
+    }
+   ],
+   "hint": "단백질 구조가 망가지는 현상입니다.",
+   "explanation": "열로 단백질의 입체 구조가 망가집니다.\n그래서 최적 온도를 넘으면 반응 속도가 급격히 떨어집니다.",
+   "source_lesson": "c3-ch01-l04"
+  }
+ ]
+}

@@ -1,0 +1,389 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch06",
+  "no": 6,
+  "title": "유전"
+ },
+ "lesson": {
+  "id": "c3-ch06-l02",
+  "no": 2,
+  "title": "체세포 분열과 감수 분열",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "두 가지 세포 분열",
+   "body": [
+    "상처가 아물 때 피부 세포는 자신과 똑같은 세포를 만들어 늘어납니다. 반면 정자와 난자는 염색체 수가 체세포의 절반입니다.",
+    "세포는 목적에 따라 두 가지 방식으로 분열합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "몸의 생장과 재생을 위해 체세포의 수를 늘리는 세포 분열을 {{1}} 분열이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "체세포"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "체세포 분열로 만들어진 딸세포는 모세포와 염색체 수와 유전 정보가 같습니다.\n생장, 재생, 무성 생식에 쓰입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "세포 주기와 체세포 분열",
+   "body": [
+    "세포 주기는 간기와 분열기로 나뉩니다. 간기는 G₁기(세포 생장), S기(DNA 복제), G₂기(분열 준비)로 이루어지며, 세포 주기의 대부분을 차지합니다.",
+    "분열기의 전기에는 염색체가 응축해 보이고, 중기에는 염색체가 세포 가운데(적도판)에 늘어서며, 후기에는 염색 분체가 분리되어 양극으로 이동하고, 말기에는 두 개의 핵이 생기며 세포질이 나뉩니다.",
+    "그 결과 모세포와 염색체 수(2n → 2n)와 유전 정보가 같은 딸세포 2개가 만들어집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "세포 주기에서 DNA가 복제되는 시기는 간기의 {{1}}기입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "S"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "S는 합성(synthesis)을 뜻합니다.\nS기가 지나면 DNA 양이 2배가 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "체세포 분열에서 염색체가 세포의 가운데(적도판)에 늘어서는 시기는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "중기에는 염색체가 가장 굵고 뚜렷해 관찰하기 좋습니다.\n핵형 분석에도 중기 세포를 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "체세포 분열에서 염색 분체가 분리되어 양극으로 이동하는 시기는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "후기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "방추사가 동원체를 끌어당겨 염색 분체를 떼어 냅니다.\n그래서 두 딸세포가 같은 유전 정보를 받습니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "체세포 분열의 분열기를 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "후기"
+    },
+    {
+     "id": "b",
+     "text": "전기"
+    },
+    {
+     "id": "c",
+     "text": "말기"
+    },
+    {
+     "id": "d",
+     "text": "중기"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "전기(염색체 응축) → 중기(적도판 배열) → 후기(염색 분체 분리) → 말기(세포질 분열)입니다.\n그 전에 간기에 DNA가 복제됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "감수 분열",
+   "body": [
+    "감수 분열은 생식세포를 만드는 분열로, 간기에 DNA가 한 번 복제된 뒤 연속으로 두 번 분열합니다.",
+    "감수 1분열의 전기에는 상동 염색체가 접합해 2가 염색체를 이루고, 후기에 상동 염색체가 분리됩니다. 그래서 염색체 수가 절반(2n → n)이 됩니다. 감수 2분열에서는 염색 분체가 분리됩니다(n → n).",
+    "결과적으로 딸세포 4개가 만들어지며, 교차와 상동 염색체의 무작위 분리 때문에 유전적으로 다양한 생식세포가 생깁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "감수 1분열 전기에 상동 염색체가 접합해 만들어진 구조를 {{1}} 염색체라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2가",
+      "이가"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "상동 염색체 두 개(염색 분체 4개)가 붙어 있는 구조입니다.\n이때 교차가 일어날 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "모세포 하나가 감수 분열을 마치면 딸세포는 몇 개 만들어질까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "두 번 연속 분열하므로 1 → 2 → 4개가 됩니다.\n체세포 분열은 2개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "상동 염색체가 분리되어 염색체 수가 절반이 되는 분열은 감수 {{1}}분열입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "감수 1분열에서 상동 염색체가 분리되어 2n → n이 됩니다.\n감수 2분열에서는 염색 분체가 분리됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "체세포 분열과 감수 분열을 비교해 보세요.",
+   "steps": [
+    "분열 횟수: 체세포 분열 1회, 감수 분열 연속 2회입니다.",
+    "딸세포 수: 2개와 4개, 염색체 수: 2n → 2n과 2n → n입니다.",
+    "2가 염색체: 감수 분열에서만 형성되고, 딸세포의 유전 정보는 체세포 분열에서만 모세포와 같습니다."
+   ],
+   "answer": "횟수, 딸세포 수, 핵상, 2가 염색체가 다르다"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "사람(2n = 46)의 세포가 감수 1분열을 마친 직후 딸세포 하나의 염색체는 몇 개일까요?",
+   "answer": "23",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "감수 1분열에서 상동 염색체가 분리되어 n이 됩니다.\n각 염색체는 아직 염색 분체 두 개로 되어 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "감수 분열과 생식",
+   "body": [
+    "감수 분열로 염색체 수가 절반인 생식세포가 만들어지므로, 정자(n)와 난자(n)가 수정해도 자손의 염색체 수는 2n으로 일정하게 유지됩니다.",
+    "또 상동 염색체가 무작위로 나뉘고 교차가 일어나 생식세포마다 유전자 조합이 달라집니다. 그래서 같은 부모에게서 태어난 형제자매도 서로 다릅니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "summary",
+   "title": "예제",
+   "problem": "감수 분열로 염색체 수가 절반이 되는 것이 왜 중요할까요?",
+   "steps": [
+    "만약 생식세포가 2n이라면 수정으로 4n, 다음 세대는 8n이 됩니다.",
+    "감수 분열로 n인 생식세포를 만들면 수정 후 2n이 됩니다.",
+    "그래서 세대가 바뀌어도 염색체 수가 일정하게 유지됩니다."
+   ],
+   "answer": "세대마다 염색체 수를 일정하게 유지하기 위해"
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "체세포 분열로 생긴 딸세포의 유전 정보는 모세포와 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "DNA가 정확히 복제되고 염색 분체가 똑같이 나뉩니다.\n그래서 피부나 뼈의 세포가 모두 같은 유전 정보를 가집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "G₁기 세포의 DNA 양을 1이라 할 때, 감수 분열이 끝난 생식세포의 DNA 양은?",
+   "steps": [
+    "S기에 DNA가 복제되어 2가 됩니다.",
+    "감수 1분열 후 1, 감수 2분열 후 0.5가 됩니다.",
+    "생식세포의 DNA 양은 G₁기 세포의 절반입니다."
+   ],
+   "answer": "0.5"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "G₁기 세포의 DNA 양을 2라 할 때, 감수 분열이 끝난 생식세포의 DNA 양은 얼마일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "복제 후 두 번 나뉩니다.",
+   "explanation": "S기에 4가 되고, 감수 1분열 후 2, 감수 2분열 후 1이 됩니다.\nG₁기의 절반입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "체세포의 염색체 수가 6개(2n = 6)인 생물의 세포가 체세포 분열을 하면 딸세포 하나의 염색체는 몇 개일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "체세포 분열은 핵상이 유지됩니다.",
+   "explanation": "체세포 분열은 염색체 수가 변하지 않습니다.\n2n = 6 → 2n = 6입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "사람에게서 감수 분열은 생식 기관인 정소와 {{1}}에서 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "난소"
+     ]
+    }
+   ],
+   "hint": "난자를 만드는 기관입니다.",
+   "explanation": "정소에서 정자, 난소에서 난자가 감수 분열로 만들어집니다.\n다른 체세포는 체세포 분열만 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "감수 1분열 때 상동 염색체의 일부가 서로 바뀌는 {{1}}는 생식세포의 유전적 다양성을 높입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "교차"
+     ]
+    }
+   ],
+   "hint": "2가 염색체에서 일어나는 현상입니다.",
+   "explanation": "교차로 대립유전자의 새로운 조합이 생깁니다.\n무작위 분리와 함께 다양성의 원천입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "2n = 4인 생물이 감수 분열할 때 교차가 없다면 상동 염색체의 무작위 분리로 만들어질 수 있는 생식세포의 염색체 조합은 몇 가지일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "쌍마다 2가지 선택이 있습니다.",
+   "explanation": "상동 염색체 쌍이 2쌍이고 각 쌍에서 하나씩 고릅니다.\n2² = 4가지입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "체세포 분열과 감수 분열의 차이를 분열 횟수, 딸세포 수, 염색체 수로 비교해 설명해 보세요.",
+   "hint": "세 가지 기준을 차례로 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "1회",
+      "한 번"
+     ],
+     [
+      "2회",
+      "두 번"
+     ],
+     [
+      "2개",
+      "4개"
+     ],
+     [
+      "절반",
+      "2n",
+      "n"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "체세포 분열은 한 번 분열해 모세포와 염색체 수와 유전 정보가 같은 딸세포 2개(2n → 2n)를 만듭니다. 감수 분열은 연속 두 번 분열해 염색체 수가 절반인 딸세포 4개(2n → n)를 만들며, 딸세포마다 유전자 조합이 다릅니다."
+  }
+ ]
+}

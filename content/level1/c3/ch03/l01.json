@@ -1,0 +1,541 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch03",
+  "no": 3,
+  "title": "신경계"
+ },
+ "lesson": {
+  "id": "c3-ch03-l01",
+  "no": 1,
+  "title": "뉴런과 흥분의 발생",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "생각보다 빠른 손",
+   "body": [
+    "뜨거운 냄비에 손이 닿으면 '뜨겁다'고 느끼기도 전에 손이 먼저 움직입니다. 신호가 신경을 따라 매우 빠르게 전달되기 때문입니다.",
+    "신경 신호의 정체는 세포막을 사이에 둔 전기적 변화입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "신경계를 이루는 구조적·기능적 단위인 신경 세포를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "뉴런"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "뉴런은 자극을 받아들이고 흥분을 전달하도록 특수하게 분화된 세포입니다.\n긴 돌기를 가진 것이 특징입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "뉴런의 구조와 종류",
+   "body": [
+    "뉴런은 핵이 있는 신경 세포체, 자극을 받아들이는 짧은 가지 돌기, 흥분을 다른 세포로 전달하는 긴 축삭 돌기로 이루어집니다. 많은 축삭 돌기는 슈반 세포가 감싼 말이집으로 싸여 있습니다.",
+    "감각 뉴런은 감각기의 자극을 중추로, 연합 뉴런은 중추 신경계에서 정보를 판단·통합하고, 운동 뉴런은 명령을 근육 같은 반응기로 전달합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "뉴런에서 다른 세포의 자극을 받아들이는 짧은 돌기를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가지 돌기",
+      "가지돌기",
+      "수상 돌기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가지 돌기는 나뭇가지처럼 여러 갈래로 뻗어 있습니다.\n흥분은 가지 돌기 → 세포체 → 축삭 돌기 방향으로 이동합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "뇌와 척수 같은 중추 신경계를 이루며 정보를 통합하는 뉴런은 {{1}} 뉴런입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "연합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "연합 뉴런은 감각 뉴런과 운동 뉴런을 연결합니다.\n받은 정보를 판단해 명령을 내립니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "자극이 전달되는 경로를 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "연합 뉴런"
+    },
+    {
+     "id": "b",
+     "text": "감각기"
+    },
+    {
+     "id": "c",
+     "text": "운동 뉴런"
+    },
+    {
+     "id": "d",
+     "text": "감각 뉴런"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "감각기가 받은 자극이 감각 뉴런을 거쳐 중추의 연합 뉴런으로 갑니다.\n명령은 운동 뉴런을 따라 반응기로 전달됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "휴지 전위",
+   "body": [
+    "자극을 받지 않은 뉴런의 세포막 안쪽은 바깥쪽보다 (−)전하를 띠며, 이때의 막전위를 휴지 전위라고 합니다. 보통 약 −70 mV입니다. 이 상태를 분극이라고 합니다.",
+    "Na⁺–K⁺ 펌프가 Na⁺을 밖으로, K⁺을 안으로 옮겨 세포 밖에는 Na⁺, 안에는 K⁺이 많습니다. 휴지 상태에서는 K⁺ 통로 일부가 열려 K⁺이 조금씩 빠져나가 안쪽이 (−)가 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "뉴런의 휴지 전위는 약 몇 mV일까요?",
+   "answer": "-70",
+   "answer_format": "decimal",
+   "tolerance": 5,
+   "hint": null,
+   "explanation": "휴지 상태의 막전위는 약 −70 mV입니다.\n세포 안쪽이 바깥쪽보다 (−)라는 뜻입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "휴지 상태에서 세포막 안쪽이 (−), 바깥쪽이 (+)로 나뉜 상태를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분극"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "막을 사이에 두고 전하가 나뉘어 있는 상태입니다.\n자극을 받으면 이 상태가 깨집니다(탈분극)."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "활동 전위",
+   "body": [
+    "역치 이상의 자극을 받으면 Na⁺ 통로가 열려 Na⁺이 세포 안으로 빠르게 들어옵니다. 막전위가 올라가 +30 mV 정도까지 되는 것을 탈분극이라고 합니다.",
+    "곧 Na⁺ 통로가 닫히고 K⁺ 통로가 열려 K⁺이 밖으로 빠져나가며 막전위가 다시 내려갑니다(재분극). 잠시 휴지 전위보다 낮아졌다가(과분극) 원래대로 돌아옵니다.",
+    "이 짧은 전위 변화를 활동 전위라고 합니다. 역치 이상의 자극이면 자극 세기와 관계없이 활동 전위의 크기가 같은데, 이를 실무율이라고 합니다."
+   ],
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "ms",
+     "ylabel": "mV",
+     "xmin": 0,
+     "xmax": 5,
+     "ymin": -100,
+     "ymax": 40,
+     "xstep": 1,
+     "ystep": 20,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        -70,
+        0
+       ],
+       "from": 0,
+       "to": 1
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        -170,
+        100
+       ],
+       "from": 1,
+       "to": 2
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        176.667,
+        -73.333
+       ],
+       "from": 2,
+       "to": 3.5
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        -103.333,
+        6.6667
+       ],
+       "from": 3.5,
+       "to": 5
+      }
+     ],
+     "points": [
+      [
+       2,
+       30,
+       "최고점"
+      ],
+      [
+       0.5,
+       -70,
+       "휴지 전위"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "활동 전위가 생길 때 막전위가 +30 mV까지 올라가는 이유는?",
+   "steps": [
+    "자극을 받으면 Na⁺ 통로가 열립니다.",
+    "세포 밖에 훨씬 많은 Na⁺이 농도 차이와 전기적 끌림 때문에 세포 안으로 빠르게 확산합니다.",
+    "(+)전하가 들어와 막 안쪽이 (+)가 됩니다."
+   ],
+   "answer": "Na⁺이 세포 안으로 들어오기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 막전위 그래프에서 활동 전위의 최고 막전위는 몇 mV일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "그래프의 최고점은 약 +30 mV입니다.\nNa⁺ 유입으로 막 안쪽이 (+)가 된 상태입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "ms",
+     "ylabel": "mV",
+     "xmin": 0,
+     "xmax": 5,
+     "ymin": -100,
+     "ymax": 40,
+     "xstep": 1,
+     "ystep": 20,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        -70,
+        0
+       ],
+       "from": 0,
+       "to": 1
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        -170,
+        100
+       ],
+       "from": 1,
+       "to": 2
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        176.667,
+        -73.333
+       ],
+       "from": 2,
+       "to": 3.5
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        -103.333,
+        6.6667
+       ],
+       "from": 3.5,
+       "to": 5
+      }
+     ],
+     "points": [
+      [
+       2,
+       30,
+       "최고점"
+      ],
+      [
+       0.5,
+       -70,
+       "휴지 전위"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "탈분극은 {{1}} 이온이 세포 안으로 들어와 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Na⁺",
+      "Na+",
+      "나트륨"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Na⁺ 통로가 열리면 Na⁺이 세포 안으로 확산합니다.\n막 안쪽의 전위가 올라갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "재분극은 {{1}} 이온이 세포 밖으로 나가 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "K⁺",
+      "K+",
+      "칼륨"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "K⁺ 통로가 열리면 세포 안에 많은 K⁺이 밖으로 확산합니다.\n막 안쪽의 전위가 다시 내려갑니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "역치 이상의 자극이면 자극 세기와 관계없이 활동 전위의 크기가 같은 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "실무율",
+      "전부 또는 전무의 법칙",
+      "전부 아니면 전무"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "역치보다 약하면 활동 전위가 생기지 않고, 역치 이상이면 항상 같은 크기로 생깁니다.\n그래서 '전부 아니면 전무'라고도 합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "실무율을 따른다면 강한 자극과 약한 자극을 어떻게 구별할까요?",
+   "steps": [
+    "활동 전위 하나의 크기는 자극 세기와 관계없이 같습니다.",
+    "대신 강한 자극일수록 활동 전위가 더 자주(높은 빈도로) 발생합니다.",
+    "또 역치가 다른 여러 뉴런 중 더 많은 뉴런이 흥분합니다."
+   ],
+   "answer": "활동 전위의 발생 빈도와 흥분하는 뉴런 수로 구별"
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "말이집이 있는 뉴런에서 흥분이 빠르게 전도되는 이유는?",
+   "steps": [
+    "말이집은 전기가 잘 통하지 않는 절연체 역할을 합니다.",
+    "말이집 사이의 드러난 부분(랑비에 결절)에서만 활동 전위가 생깁니다.",
+    "흥분이 결절에서 결절로 건너뛰듯 전도되어(도약 전도) 훨씬 빠릅니다."
+   ],
+   "answer": "도약 전도가 일어나기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "말이집 신경에서 흥분이 랑비에 결절 사이를 건너뛰며 전도되는 것을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "도약 전도",
+      "도약전도"
+     ]
+    }
+   ],
+   "hint": "건너뛰는 전도입니다.",
+   "explanation": "활동 전위가 결절에서만 생겨 건너뛰듯 전달됩니다.\n민말이집 신경보다 전도 속도가 훨씬 빠릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "굵기가 같다면 {{1}}이 있는 뉴런의 흥분 전도 속도가 더 빠릅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "말이집",
+      "수초"
+     ]
+    }
+   ],
+   "hint": "축삭 돌기를 감싸는 구조입니다.",
+   "explanation": "말이집이 있으면 도약 전도가 일어납니다.\n축삭 돌기가 굵을수록 전도 속도가 빨라지기도 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "막전위가 휴지 전위 −70 mV에서 최고 +30 mV까지 올라갔습니다. 막전위는 몇 mV 변했을까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "나중 값에서 처음 값을 빼세요.",
+   "explanation": "30 − (−70) = 100 mV입니다.\n활동 전위의 크기입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "자극이 강할수록 뉴런에서 활동 전위가 발생하는 {{1}}가 높아집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빈도",
+      "횟수"
+     ]
+    }
+   ],
+   "hint": "크기가 아닌 다른 요소입니다.",
+   "explanation": "활동 전위 하나의 크기는 같습니다.\n강한 자극은 활동 전위를 더 자주 만들어 세기를 알립니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "Na⁺–K⁺ 펌프가 이온을 농도 기울기에 거슬러 옮기는 데 쓰는 에너지원은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "ATP"
+     ]
+    }
+   ],
+   "hint": "세포의 에너지 화폐입니다.",
+   "explanation": "Na⁺–K⁺ 펌프는 능동 수송을 합니다.\nATP를 분해해 얻은 에너지를 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "뉴런에서 활동 전위가 발생하는 과정을 이온의 이동으로 설명해 보세요.",
+   "hint": "Na⁺과 K⁺의 이동을 차례로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "Na⁺",
+      "나트륨"
+     ],
+     [
+      "들어",
+      "유입",
+      "안으로"
+     ],
+     [
+      "K⁺",
+      "칼륨"
+     ],
+     [
+      "나가",
+      "유출",
+      "밖으로"
+     ],
+     [
+      "탈분극",
+      "재분극"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "역치 이상의 자극을 받으면 Na⁺ 통로가 열려 Na⁺이 세포 안으로 들어와 막전위가 올라가는 탈분극이 일어납니다. 이어서 K⁺ 통로가 열려 K⁺이 세포 밖으로 나가며 막전위가 내려가는 재분극이 일어나 휴지 전위로 돌아갑니다."
+  }
+ ]
+}

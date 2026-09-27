@@ -1,0 +1,400 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch03",
+  "no": 3,
+  "title": "신경계"
+ },
+ "lesson": {
+  "id": "c3-ch03-l03",
+  "no": 3,
+  "title": "근육의 수축",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "미끄러지는 필라멘트",
+   "body": [
+    "팔을 구부리면 위팔의 근육이 짧고 두꺼워집니다. 그런데 근육 속 단백질 섬유 자체가 줄어드는 것은 아닙니다.",
+    "근육 속 두 종류의 단백질 섬유가 서로 미끄러져 겹치면서 근육이 짧아집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "뼈에 붙어 몸을 움직이며 가로무늬가 보이는 근육을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "골격근",
+      "뼈대근"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "골격근은 운동 뉴런의 명령에 따라 수축합니다.\n현미경으로 보면 밝고 어두운 띠가 반복됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "골격근의 구조",
+   "body": [
+    "골격근은 근육 섬유 다발로, 근육 섬유 다발은 여러 근육 섬유(근육 세포)로, 근육 섬유는 여러 근육 원섬유로 이루어집니다.",
+    "근육 원섬유에는 가는 액틴 필라멘트와 굵은 마이오신 필라멘트가 규칙적으로 배열되어 있고, Z선과 Z선 사이를 근육 원섬유 마디(근절)라고 합니다.",
+    "마이오신이 있는 어두운 부분을 A대, 액틴만 있는 밝은 부분을 I대, A대 가운데 마이오신만 있는 부분을 H대라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "근육 원섬유 마디의 양쪽 경계가 되는 선을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Z선",
+      "Z 선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Z선과 Z선 사이가 근육 원섬유 마디 하나입니다.\n액틴 필라멘트가 Z선에 붙어 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "근육 원섬유에서 굵은 필라멘트를 이루는 단백질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "마이오신",
+      "미오신"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "굵은 필라멘트는 마이오신, 가는 필라멘트는 액틴입니다.\n마이오신이 액틴을 끌어당겨 수축이 일어납니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "골격근의 구조를 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "근육 섬유"
+    },
+    {
+     "id": "b",
+     "text": "근육 원섬유 마디"
+    },
+    {
+     "id": "c",
+     "text": "근육 섬유 다발"
+    },
+    {
+     "id": "d",
+     "text": "근육 원섬유"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "근육 원섬유 마디가 반복되어 근육 원섬유를 이루고, 근육 원섬유가 모여 근육 섬유(세포)가 됩니다.\n근육 섬유가 모여 다발을 이룹니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "활주설",
+   "body": [
+    "근육이 수축할 때 액틴과 마이오신 필라멘트의 길이는 변하지 않고, 액틴 필라멘트가 마이오신 필라멘트 사이로 미끄러져 들어갑니다. 이를 활주설이라고 합니다.",
+    "그 결과 근육 원섬유 마디, I대, H대는 짧아지고 A대(마이오신 길이)는 변하지 않습니다. 마디가 d만큼 짧아지면 I대와 H대도 각각 d만큼 짧아집니다.",
+    "수축에는 ATP 에너지가 필요하며, 근육 세포 안의 Ca²⁺이 수축을 시작하게 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "근육이 수축해도 길이가 변하지 않는 부분은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "A대",
+      "A 대"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "A대의 길이는 마이오신 필라멘트의 길이와 같습니다.\n필라멘트 길이는 변하지 않으므로 A대도 변하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "근육이 수축할 때 길이가 짧아지는 부분에는 근육 원섬유 마디, I대, {{1}}가 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "H대",
+      "H 대"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "액틴이 미끄러져 들어오며 마이오신만 있던 H대가 좁아집니다.\n액틴만 있던 I대도 좁아집니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "근육 원섬유 마디가 2.4 μm에서 2.0 μm로 수축했고 A대는 1.6 μm입니다. I대와 H대의 변화는?",
+   "steps": [
+    "마디가 0.4 μm 짧아졌습니다.",
+    "A대는 1.6 μm 그대로이고, I대 길이 = 마디 − A대 = 0.8 → 0.4 μm로 0.4 μm 짧아집니다.",
+    "H대도 0.4 μm 짧아집니다."
+   ],
+   "answer": "I대와 H대가 각각 0.4 μm 짧아진다"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "근육 원섬유 마디가 3.0 μm에서 2.6 μm로 수축했습니다. I대는 몇 μm 짧아졌을까요?",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "마디가 짧아진 만큼 I대도 짧아집니다.\n3.0 − 2.6 = 0.4 μm입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "같은 수축에서 H대는 몇 μm 짧아졌을까요?",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "액틴이 양쪽에서 0.2 μm씩 들어와 H대가 0.4 μm 짧아집니다.\n마디의 감소량과 같습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "신경에서 근육으로",
+   "body": [
+    "운동 뉴런의 축삭 돌기 말단에서 아세틸콜린이 분비되면 근육 세포막이 흥분합니다. 흥분이 근육 세포 안으로 전해지면 근소포체에서 Ca²⁺이 방출되고, 마이오신이 ATP를 써서 액틴을 끌어당깁니다.",
+    "근육 수축에 쓰이는 ATP는 세포 호흡으로 만들어지며, 급할 때는 크레아틴 인산이 ADP에 인산을 넘겨 ATP를 빠르게 보충합니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "사람이 죽은 뒤 근육이 굳는(사후 경직) 이유는?",
+   "steps": [
+    "마이오신이 액틴에서 떨어지려면 ATP가 필요합니다.",
+    "죽으면 세포 호흡이 멈춰 ATP가 만들어지지 않습니다.",
+    "마이오신과 액틴이 결합한 채 떨어지지 못해 근육이 굳습니다."
+   ],
+   "answer": "ATP가 없어 필라멘트가 떨어지지 못하기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "근육 수축에 직접 쓰이는 에너지원은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "ATP"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "마이오신이 ATP를 분해하며 액틴을 끌어당깁니다.\nATP는 세포 호흡으로 다시 만들어집니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "근육 수축 시 액틴 필라멘트가 마이오신 필라멘트 사이로 미끄러져 들어간다는 이론을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "활주설",
+      "활주 이론",
+      "필라멘트 활주설"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "필라멘트 자체의 길이는 변하지 않습니다.\n겹치는 부분이 늘어나 마디가 짧아집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "근육 원섬유 마디가 2.0 μm이고 A대가 1.6 μm일 때 I대의 길이는?",
+   "steps": [
+    "I대는 마디에서 A대를 뺀 부분입니다(양쪽 합).",
+    "2.0 − 1.6 = 0.4 μm입니다."
+   ],
+   "answer": "0.4 μm"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "근육 원섬유 마디가 2.0 μm이고 A대가 1.6 μm입니다. I대의 길이(양쪽 합)는 몇 μm일까요?",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "마디에서 A대를 빼세요.",
+   "explanation": "마디 = A대 + I대입니다.\n2.0 − 1.6 = 0.4 μm입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "A대가 1.6 μm인 근육이 수축했습니다. 수축 후 A대는 몇 μm일까요?",
+   "answer": "1.6",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "활주설을 떠올리세요.",
+   "explanation": "A대는 마이오신 필라멘트의 길이로 수축해도 변하지 않습니다.\n그대로 1.6 μm입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "근육이 이완하면 근육 원섬유 마디의 길이가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "길어",
+      "늘어"
+     ]
+    }
+   ],
+   "hint": "수축과 반대입니다.",
+   "explanation": "액틴이 마이오신 사이에서 빠져나옵니다.\n그래서 마디, I대, H대가 길어집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "운동 뉴런의 말단에서 분비되어 골격근을 흥분시키는 신경 전달 물질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아세틸콜린"
+     ]
+    }
+   ],
+   "hint": "이전 레슨에서 배운 신경 전달 물질입니다.",
+   "explanation": "아세틸콜린이 근육 세포막의 수용체에 결합합니다.\n근육 세포가 흥분해 수축이 시작됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "골격근의 어두운 띠는 {{1}}대, 밝은 띠는 I대입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "A"
+     ]
+    }
+   ],
+   "hint": "수축해도 길이가 변하지 않는 띠입니다.",
+   "explanation": "굵은 마이오신이 있는 부분이 어둡게 보입니다.\n액틴만 있는 부분은 밝게 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "활주설에 따라 근육이 수축할 때 근육 원섬유 마디의 각 부분이 어떻게 변하는지 설명해 보세요.",
+   "hint": "변하는 부분과 변하지 않는 부분을 나누어 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "액틴"
+     ],
+     [
+      "마이오신"
+     ],
+     [
+      "미끄러",
+      "들어"
+     ],
+     [
+      "A대"
+     ],
+     [
+      "I대",
+      "H대"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "근육이 수축하면 액틴 필라멘트가 마이오신 필라멘트 사이로 미끄러져 들어갑니다. 필라멘트의 길이는 변하지 않으므로 A대의 길이는 그대로이고, 근육 원섬유 마디와 I대, H대는 짧아집니다."
+  }
+ ]
+}

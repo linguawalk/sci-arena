@@ -1,0 +1,437 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch07",
+  "no": 7,
+  "title": "진화와 생물 다양성"
+ },
+ "lesson": {
+  "id": "c3-ch07-l03",
+  "no": 3,
+  "title": "생물 분류와 다양성",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "이름표를 붙인 생물들",
+   "body": [
+    "지구에는 이름이 붙은 생물만 약 200만 종이 있고, 실제로는 훨씬 더 많을 것으로 추정됩니다.",
+    "이 많은 생물을 체계적으로 정리하고 부르기 위해 분류 체계와 학명을 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "생물 분류의 기본 단위는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "종"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "종은 자연 상태에서 서로 교배해 생식 능력이 있는 자손을 낳을 수 있는 무리입니다.\n분류의 가장 작은 기본 단위입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "종과 분류 단계",
+   "body": [
+    "종은 자연 상태에서 교배해 생식 능력이 있는 자손을 낳는 생물 무리입니다. 말과 당나귀 사이의 노새는 생식 능력이 없으므로 말과 당나귀는 다른 종입니다.",
+    "생물은 종 < 속 < 과 < 목 < 강 < 문 < 계 < 역의 단계로 분류합니다. 단계가 올라갈수록 공통점이 적은 생물까지 포함합니다.",
+    "린네가 만든 이명법으로 학명을 붙입니다. 속명과 종소명을 라틴어로 써서, 사람은 Homo sapiens입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "분류 단계를 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "과"
+    },
+    {
+     "id": "b",
+     "text": "종"
+    },
+    {
+     "id": "c",
+     "text": "목"
+    },
+    {
+     "id": "d",
+     "text": "속"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "종 < 속 < 과 < 목 < 강 < 문 < 계 < 역입니다.\n작은 단계일수록 공통점이 많습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "속명과 종소명을 함께 써서 학명을 나타내는 방법을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이명법"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "린네가 체계화했습니다.\n전 세계 과학자가 같은 이름으로 생물을 부를 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "말과 당나귀 사이에서 태어난 노새는 생식 능력이 없으므로 말과 당나귀는 서로 {{1}} 종입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다른",
+      "별개의"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "생식 능력이 있는 자손을 낳아야 같은 종입니다.\n노새는 새끼를 낳지 못합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "사람의 학명 Homo sapiens에서 각 부분의 의미는?",
+   "steps": [
+    "Homo는 속명으로 '사람 속'을 뜻합니다.",
+    "sapiens는 종소명으로 '슬기로운'이라는 뜻입니다.",
+    "속명은 대문자로 시작하고, 학명은 기울임꼴로 씁니다."
+   ],
+   "answer": "속명 Homo + 종소명 sapiens"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "3역 체계",
+   "body": [
+    "모든 생물은 세 개의 역으로 나뉩니다. 세균역과 고세균역은 핵막이 없는 원핵생물이고, 진핵생물역은 핵막이 있는 진핵생물입니다.",
+    "고세균은 온천, 염전처럼 극한 환경에 사는 것이 많고, 유전적으로 세균보다 진핵생물에 더 가깝습니다.",
+    "진핵생물역에는 원생생물계, 식물계, 균계(버섯, 곰팡이, 효모), 동물계가 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "3역 체계는 세균역, 고세균역, {{1}}역으로 이루어집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진핵생물",
+      "진핵 생물"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "핵막이 있는 모든 생물이 진핵생물역에 속합니다.\n동물, 식물, 균류, 원생생물이 여기에 속합니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "버섯과 곰팡이는 진핵생물역의 {{1}}에 속합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "균계",
+      "균류"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "균류는 광합성을 하지 않고 다른 생물의 유기물을 분해해 양분을 얻습니다.\n식물과는 다른 계입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "뜨거운 온천이나 소금이 매우 많은 곳 같은 극한 환경에 사는 원핵생물은 주로 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "고세균",
+      "고세균역"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "고세균은 원핵생물이지만 세균과 다른 역입니다.\n극한 환경에 적응한 것이 많습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "생물 다양성의 세 수준",
+   "body": [
+    "생물 다양성은 세 가지 수준으로 봅니다. 유전적 다양성은 같은 종 안에서 개체들이 가진 유전자의 다양함입니다.",
+    "종 다양성은 한 지역에 사는 종의 수(종 풍부도)와 각 종이 얼마나 고르게 분포하는지(종 균등도)로 나타냅니다.",
+    "생태계 다양성은 숲, 초원, 습지, 사막, 바다처럼 여러 종류의 생태계가 있는 정도입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 종 안에서 개체마다 유전자가 다양한 정도를 {{1}} 다양성이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유전적"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "무당벌레의 무늬가 개체마다 다른 것이 예입니다.\n유전적 다양성이 높으면 환경 변화에 잘 적응합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "종의 수가 같다면 각 종의 개체 수가 고르게 분포할수록 종 다양성이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "종 다양성은 종 풍부도와 종 균등도를 함께 봅니다.\n한 종만 많으면 종 다양성이 낮습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "두 지역 모두 4종이 있습니다. A는 각 종이 25마리씩, B는 한 종이 85마리이고 나머지가 5마리씩입니다. 어느 쪽의 종 다양성이 높을까요?",
+   "steps": [
+    "두 지역의 종 수(종 풍부도)는 4종으로 같습니다.",
+    "A는 네 종이 고르게 분포해 균등도가 높고, B는 한 종에 치우쳐 있습니다.",
+    "따라서 A의 종 다양성이 더 높습니다."
+   ],
+   "answer": "A"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "숲, 습지, 사막, 바다처럼 여러 생태계가 있는 정도를 {{1}} 다양성이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "생태계"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "생태계마다 다른 생물이 살아 생태계 다양성은 종 다양성을 높입니다.\n세 수준 중 가장 큰 범위입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "1840년대 아일랜드에서 감자 역병으로 감자가 거의 전멸한 이유는?",
+   "steps": [
+    "당시 아일랜드에서는 거의 한 품종의 감자만 재배했습니다.",
+    "유전적 다양성이 매우 낮아 역병에 저항하는 개체가 거의 없었습니다.",
+    "그래서 병이 퍼지자 감자 대부분이 죽었습니다."
+   ],
+   "answer": "유전적 다양성이 낮았기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "한 품종만 재배한 아일랜드 감자가 역병으로 거의 전멸한 것은 {{1}} 다양성이 낮았기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유전적"
+     ]
+    }
+   ],
+   "hint": "같은 종 안의 다양성입니다.",
+   "explanation": "모든 감자가 유전적으로 거의 같아 모두 같은 병에 약했습니다.\n유전적 다양성은 집단의 생존에 중요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "분류 단계를 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "강"
+    },
+    {
+     "id": "b",
+     "text": "과"
+    },
+    {
+     "id": "c",
+     "text": "문"
+    },
+    {
+     "id": "d",
+     "text": "목"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "종 < 속 < 과 다음 단계들입니다.",
+   "explanation": "과 < 목 < 강 < 문 < 계입니다.\n사람은 사람과 – 영장목 – 포유강 – 척삭동물문에 속합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "호랑이의 학명 Panthera tigris에서 속명은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Panthera",
+      "판테라"
+     ]
+    }
+   ],
+   "hint": "학명의 첫 단어입니다.",
+   "explanation": "학명의 앞부분이 속명, 뒷부분이 종소명입니다.\n사자(Panthera leo)와 같은 속입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "핵막이 있는 세포로 이루어진 버섯, 해조류, 사람은 모두 {{1}}역에 속합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진핵생물",
+      "진핵 생물"
+     ]
+    }
+   ],
+   "hint": "핵막이 있는 생물의 역입니다.",
+   "explanation": "핵막이 있으면 진핵생물입니다.\n세균과 고세균만 원핵생물입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "같은 종의 무당벌레인데도 등의 무늬가 다양한 것은 {{1}} 다양성을 보여 줍니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유전적"
+     ]
+    }
+   ],
+   "hint": "종 안에서의 다양성입니다.",
+   "explanation": "무늬를 결정하는 유전자가 개체마다 다릅니다.\n같은 종 안의 다양성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "생물 다양성의 세 가지 수준을 각각 예를 들어 설명해 보세요.",
+   "hint": "세 수준을 각각 예와 함께 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "유전적"
+     ],
+     [
+      "종"
+     ],
+     [
+      "생태계"
+     ],
+     [
+      "무늬",
+      "품종",
+      "개체",
+      "숲",
+      "습지",
+      "종의 수",
+      "고르게"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "유전적 다양성은 같은 종 안에서 유전자가 다양한 정도로, 무당벌레의 무늬가 다양한 것이 예입니다. 종 다양성은 한 지역에 사는 종의 수와 분포의 고른 정도이며, 생태계 다양성은 숲, 습지, 사막처럼 여러 생태계가 있는 정도입니다."
+  }
+ ]
+}

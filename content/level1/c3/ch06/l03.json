@@ -1,0 +1,361 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch06",
+  "no": 6,
+  "title": "유전"
+ },
+ "lesson": {
+  "id": "c3-ch06-l03",
+  "no": 3,
+  "title": "사람의 유전",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "가계도로 보는 유전",
+   "body": [
+    "사람은 교배 실험을 할 수 없고 한 세대가 길어서 유전 연구가 어렵습니다. 그래서 한 집안의 형질을 여러 세대에 걸쳐 그린 가계도를 분석합니다.",
+    "가계도에서 부모와 자녀의 형질을 비교하면 형질이 어떻게 유전되는지 알 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "한 쌍의 대립유전자로 형질이 결정되는 유전을 {{1}} 유전이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단일 인자",
+      "단일인자"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "귓불 모양, 혀 말기, ABO식 혈액형 등이 단일 인자 유전입니다.\n여러 쌍이 관여하면 다인자 유전입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "상염색체 유전과 확률",
+   "body": [
+    "상염색체에 있는 유전자에 의한 유전은 남녀에게 같은 비율로 나타납니다. 부모가 모두 정상인데 자녀에게 어떤 형질이 나타나면, 그 형질은 열성입니다(부모가 둘 다 이형 접합).",
+    "부모의 유전자형으로 자녀의 확률을 구할 수 있습니다. Aa × Aa이면 자녀는 AA : Aa : aa = 1 : 2 : 1이므로 aa(열성 형질)일 확률은 1/4입니다.",
+    "Aa × aa이면 자녀는 Aa : aa = 1 : 1이므로 aa일 확률은 1/2입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "유전자형이 Aa인 부모 사이에서 aa인 자녀가 태어날 확률은 몇 %일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Aa × Aa → AA, Aa, Aa, aa로 aa는 4가지 중 1가지입니다.\n1/4 = 25%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "유전자형이 Aa와 aa인 부모 사이에서 aa인 자녀가 태어날 확률은 몇 %일까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Aa × aa → Aa, aa가 1 : 1입니다.\n1/2 = 50%입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "부모가 모두 정상인데 유전병 환자인 자녀가 태어났습니다. 이 유전병은 우성일까요, 열성일까요?",
+   "steps": [
+    "만약 우성이라면, 환자인 자녀는 우성 유전자를 부모에게서 받아야 하므로 부모 중 한 명은 환자여야 합니다.",
+    "부모가 모두 정상이므로 우성이 아닙니다.",
+    "따라서 열성이며, 부모는 모두 이형 접합(보인자)입니다."
+   ],
+   "answer": "열성"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "부모가 모두 정상인데 자녀에게 나타난 형질은 {{1}} 형질입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "열성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "부모에게는 가려져 있던 열성 대립유전자가 자녀에게서 동형 접합으로 만났습니다.\n부모는 모두 보인자입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "ABO식 혈액형의 유전",
+   "body": [
+    "ABO식 혈액형은 한 쌍의 대립유전자로 결정되지만, 대립유전자가 A, B, O 세 가지입니다. 이처럼 대립유전자가 3가지 이상인 유전을 복대립 유전이라고 합니다.",
+    "A와 B는 O에 대해 우성이고, A와 B 사이에는 우열이 없어 둘 다 나타납니다. 유전자형 AA, AO는 A형, BB, BO는 B형, AB는 AB형, OO는 O형입니다.",
+    "AO × BO이면 자녀는 AB, AO, BO, OO가 1 : 1 : 1 : 1로, 네 가지 혈액형이 모두 나올 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "하나의 형질을 결정하는 대립유전자가 3가지 이상인 유전을 {{1}} 유전이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "복대립",
+      "복 대립"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "ABO식 혈액형은 A, B, O 세 대립유전자로 결정됩니다.\n한 사람은 그중 두 개만 가집니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "유전자형이 AO인 아버지와 BO인 어머니 사이에서 태어날 수 있는 자녀의 혈액형은 몇 가지일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "AB, AO(A형), BO(B형), OO(O형)가 가능합니다.\nA, B, AB, O형 4가지 모두 나올 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "AO인 아버지와 BO인 어머니 사이에서 O형 자녀가 태어날 확률은 몇 %일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "부모에게서 각각 O를 받을 확률은 1/2 × 1/2입니다.\n1/4 = 25%입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "AB형과 O형 부모 사이에서 태어날 수 있는 자녀의 혈액형은?",
+   "steps": [
+    "AB형 부모는 A 또는 B를, O형(OO) 부모는 O를 줍니다.",
+    "자녀의 유전자형은 AO 또는 BO입니다.",
+    "따라서 A형 또는 B형만 나오고, AB형이나 O형은 나올 수 없습니다."
+   ],
+   "answer": "A형 또는 B형"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "반성 유전",
+   "body": [
+    "X 염색체에 있는 유전자에 의한 유전을 반성 유전이라고 합니다. 적록 색맹과 혈우병이 대표적이며, 모두 열성입니다.",
+    "남자(XY)는 X가 하나뿐이라 열성 대립유전자 하나만 있어도 형질이 나타나고, 여자(XX)는 두 X 모두 열성이어야 나타납니다. 그래서 남자에게 더 많이 나타납니다.",
+    "아들은 어머니에게서 X를, 아버지에게서 Y를 받습니다. 그래서 색맹인 아들의 색맹 유전자는 어머니에게서 온 것입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "적록 색맹 유전자는 {{1}} 염색체에 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "X"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "X 염색체에 있어 성별에 따라 나타나는 비율이 다릅니다.\n이런 유전을 반성 유전이라고 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "적록 색맹인 남자의 색맹 유전자는 {{1}}에게서 물려받은 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "어머니",
+      "엄마"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아들의 X 염색체는 어머니에게서 옵니다.\n아버지에게서는 Y 염색체를 받습니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "보인자인 어머니(XᴿXʳ)와 정상인 아버지(XᴿY) 사이에서 태어난 아들이 적록 색맹일 확률은 몇 %일까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "아들은 어머니에게서 Xᴿ 또는 Xʳ를 1/2씩 받습니다.\nXʳY일 확률은 50%입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "보인자인 어머니(XᴿXʳ)와 정상인 아버지(XᴿY) 사이에서 태어난 딸이 적록 색맹일 확률은?",
+   "steps": [
+    "딸은 아버지에게서 반드시 Xᴿ를 받습니다.",
+    "어머니에게서 무엇을 받든 적어도 하나의 정상 X가 있습니다.",
+    "따라서 딸이 색맹일 확률은 0%이고, 보인자일 확률은 50%입니다."
+   ],
+   "answer": "0%"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "보인자인 어머니(XᴿXʳ)와 정상인 아버지(XᴿY) 사이에서 태어난 딸이 적록 색맹일 확률은 몇 %일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "딸은 아버지의 X를 받습니다.",
+   "explanation": "딸은 아버지에게서 정상 Xᴿ를 반드시 받습니다.\n그래서 색맹이 될 수 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "적록 색맹인 아버지(XʳY)와 정상 동형 접합인 어머니(XᴿXᴿ) 사이의 딸이 보인자일 확률은 몇 %일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "아버지가 딸에게 주는 X를 생각하세요.",
+   "explanation": "딸은 아버지에게서 Xʳ, 어머니에게서 Xᴿ를 받습니다.\n모든 딸이 XᴿXʳ 보인자입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "키나 피부색처럼 여러 쌍의 대립유전자가 함께 관여하는 유전을 {{1}} 유전이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다인자",
+      "다 인자"
+     ]
+    }
+   ],
+   "hint": "단일 인자 유전과 대비되는 유전입니다.",
+   "explanation": "여러 유전자의 효과가 더해져 형질이 연속적으로 나타납니다.\n환경의 영향도 받습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "Aa × Aa 부모의 자녀 중 표현형이 정상(우성)인 자녀가 보인자(Aa)일 확률은 약 몇 %일까요?",
+   "answer": "67",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "hint": "정상인 경우만 따로 보세요.",
+   "explanation": "정상인 자녀는 AA 1 : Aa 2입니다.\n그중 Aa는 2/3 ≈ 67%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "혈우병처럼 성염색체에 있는 유전자에 의한 유전을 {{1}} 유전이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반성"
+     ]
+    }
+   ],
+   "hint": "성과 관련된 유전입니다.",
+   "explanation": "성별에 따라 나타나는 비율이 다른 유전입니다.\n혈우병과 적록 색맹이 대표적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "적록 색맹이 여자보다 남자에게 더 많이 나타나는 이유를 설명해 보세요.",
+   "hint": "남녀의 X 염색체 수를 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "X 염색체",
+      "X"
+     ],
+     [
+      "열성"
+     ],
+     [
+      "하나",
+      "1개"
+     ],
+     [
+      "두",
+      "모두",
+      "둘 다"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "적록 색맹 유전자는 X 염색체에 있는 열성 유전자입니다. 남자는 X 염색체가 하나뿐이라 색맹 유전자 하나만 있어도 색맹이 되지만, 여자는 X 염색체 두 개 모두에 색맹 유전자가 있어야 색맹이 되므로 남자에게 더 많이 나타납니다."
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch02",
+  "no": 2,
+  "title": "유전 정보의 흐름"
+ },
+ "lesson": {
+  "id": "c3-ch02-l04",
+  "no": 4,
+  "title": "번역과 단백질",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "염기의 언어를 아미노산의 언어로",
+   "body": [
+    "mRNA는 A, U, G, C 네 글자로 쓰여 있고, 단백질은 20종의 아미노산으로 쓰여 있습니다. 두 언어를 이어 주는 번역가가 필요합니다.",
+    "그 번역가는 한쪽 끝에 아미노산을 달고, 다른 쪽 끝으로 코돈을 읽는 작은 RNA입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "번역에서 아미노산을 리보솜으로 운반하는 RNA를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "tRNA",
+      "운반 RNA"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "tRNA는 특정 아미노산을 싣고 와서 mRNA의 코돈에 맞춰 내려놓습니다.\n번역의 번역가입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "번역 과정",
+   "body": [
+    "리보솜이 mRNA에 결합해 개시 코돈(AUG)부터 코돈을 하나씩 읽어 나갑니다.",
+    "각 tRNA에는 코돈과 상보적인 3염기인 안티코돈이 있습니다. 안티코돈이 코돈과 맞는 tRNA가 자신이 운반한 아미노산을 내려놓고, 아미노산끼리는 펩타이드 결합으로 연결됩니다.",
+    "리보솜이 종결 코돈에 이르면 번역이 끝나고 완성된 폴리펩타이드가 떨어져 나옵니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "tRNA에서 mRNA의 코돈과 상보적으로 결합하는 3염기 부위를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "안티코돈",
+      "역코돈"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "안티코돈이 코돈과 짝을 지어 올바른 아미노산이 놓이게 합니다.\n그래서 정확한 순서로 단백질이 만들어집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "mRNA의 코돈 AUG와 결합하는 tRNA의 안티코돈은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "UAC"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "코돈과 안티코돈은 상보적입니다(RNA끼리이므로 A–U).\nAUG ↔ UAC입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "번역에서 아미노산과 아미노산은 {{1}} 결합으로 연결됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "펩타이드",
+      "펩티드"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아미노산 사이에 물이 빠지며 펩타이드 결합이 생깁니다.\n여러 아미노산이 연결된 것을 폴리펩타이드라고 합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "mRNA가 AUG UUU GGC UAA일 때 만들어지는 아미노산 서열은? (코돈표: AUG 메싸이오닌(개시), UUU·UUC 페닐알라닌, GGC 글라이신, GCU 알라닌, AAA 라이신, UGG 트립토판, UAA·UAG·UGA 종결)",
+   "steps": [
+    "AUG → 메싸이오닌(개시)입니다.",
+    "UUU → 페닐알라닌, GGC → 글라이신입니다.",
+    "UAA는 종결 코돈이므로 여기서 멈춥니다: 메싸이오닌–페닐알라닌–글라이신."
+   ],
+   "answer": "메싸이오닌–페닐알라닌–글라이신"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "코돈표 읽기",
+   "body": [
+    "코돈표는 64가지 코돈이 각각 어떤 아미노산을 지정하는지 정리한 표입니다. 이 레슨에서는 다음 일부만 씁니다.",
+    "AUG 메싸이오닌(개시), UUU·UUC 페닐알라닌, GGC 글라이신, GCU 알라닌, AAA 라이신, UGG 트립토판, UAA·UAG·UGA 종결입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "mRNA가 AUG UUU GGC UAA일 때 만들어지는 폴리펩타이드의 아미노산은 몇 개일까요? (코돈표: AUG 메싸이오닌(개시), UUU·UUC 페닐알라닌, GGC 글라이신, GCU 알라닌, AAA 라이신, UGG 트립토판, UAA·UAG·UGA 종결)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "AUG, UUU, GGC가 각각 아미노산 하나를 지정합니다.\n종결 코돈 UAA는 아미노산을 지정하지 않으므로 3개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "코돈 UUC가 지정하는 아미노산은 {{1}}입니다. (코돈표: AUG 메싸이오닌(개시), UUU·UUC 페닐알라닌, GGC 글라이신, GCU 알라닌, AAA 라이신, UGG 트립토판, UAA·UAG·UGA 종결)",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "페닐알라닌"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "UUU와 UUC는 모두 페닐알라닌을 지정합니다.\n한 아미노산을 여러 코돈이 지정할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "종결 코돈은 {{1}}을 지정하지 않고 번역을 끝냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아미노산"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "종결 코돈에 맞는 tRNA가 없습니다.\n그래서 리보솜이 멈추고 폴리펩타이드가 떨어져 나옵니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "단백질의 구조와 기능",
+   "body": [
+    "아미노산 서열에 따라 폴리펩타이드가 접히는 방식이 달라져 고유한 입체 구조가 생기고, 입체 구조가 단백질의 기능을 결정합니다.",
+    "그래서 DNA 염기 하나가 바뀌어 아미노산 하나만 달라져도 단백질의 모양과 기능이 크게 바뀔 수 있습니다. 헤모글로빈의 아미노산 하나가 바뀌면 적혈구가 낫 모양이 되는 겸형 적혈구 빈혈증이 생깁니다.",
+    "유전자 → 단백질 → 형질의 순서로 유전 정보가 우리 몸의 특징으로 나타납니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "겸형 적혈구 빈혈증은 어떻게 생길까요?",
+   "steps": [
+    "헤모글로빈 유전자의 염기 하나가 바뀝니다.",
+    "그 결과 헤모글로빈의 6번째 아미노산이 글루탐산에서 발린으로 바뀝니다.",
+    "헤모글로빈 분자들이 뭉쳐 적혈구가 낫 모양이 되고 산소 운반 능력이 떨어집니다."
+   ],
+   "answer": "염기 하나 → 아미노산 하나 → 단백질 모양 변화"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "단백질의 기능은 아미노산 서열에 따라 만들어지는 {{1}}에 의해 결정됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "입체 구조",
+      "입체구조",
+      "구조"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "단백질은 특정 모양으로 접혀야 기능을 합니다.\n효소의 활성 부위도 입체 구조로 만들어집니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "번역 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "아미노산이 펩타이드 결합으로 연결된다"
+    },
+    {
+     "id": "b",
+     "text": "리보솜이 mRNA의 개시 코돈에 결합한다"
+    },
+    {
+     "id": "c",
+     "text": "종결 코돈에서 폴리펩타이드가 떨어져 나온다"
+    },
+    {
+     "id": "d",
+     "text": "안티코돈이 맞는 tRNA가 아미노산을 운반해 온다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "개시 코돈에서 시작해 코돈마다 tRNA가 아미노산을 가져옵니다.\n종결 코돈에서 끝납니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "mRNA가 AUG GCU AAA UGG UGA일 때 만들어지는 폴리펩타이드는? (코돈표: AUG 메싸이오닌(개시), UUU·UUC 페닐알라닌, GGC 글라이신, GCU 알라닌, AAA 라이신, UGG 트립토판, UAA·UAG·UGA 종결)",
+   "steps": [
+    "AUG 메싸이오닌, GCU 알라닌, AAA 라이신, UGG 트립토판입니다.",
+    "UGA는 종결 코돈입니다.",
+    "메싸이오닌–알라닌–라이신–트립토판, 아미노산 4개입니다."
+   ],
+   "answer": "아미노산 4개"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "mRNA가 AUG GCU AAA UGG UGA일 때 만들어지는 폴리펩타이드의 아미노산은 몇 개일까요? (코돈표: AUG 메싸이오닌(개시), UUU·UUC 페닐알라닌, GGC 글라이신, GCU 알라닌, AAA 라이신, UGG 트립토판, UAA·UAG·UGA 종결)",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "종결 코돈은 세지 않습니다.",
+   "explanation": "AUG, GCU, AAA, UGG가 아미노산을 지정합니다.\nUGA는 종결 코돈이므로 4개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "앞 문제의 폴리펩타이드에서 두 번째 아미노산은 {{1}}입니다. (코돈표: AUG 메싸이오닌(개시), UUU·UUC 페닐알라닌, GGC 글라이신, GCU 알라닌, AAA 라이신, UGG 트립토판, UAA·UAG·UGA 종결)",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "알라닌"
+     ]
+    }
+   ],
+   "hint": "두 번째 코돈을 코돈표에서 찾으세요.",
+   "explanation": "두 번째 코돈 GCU는 알라닌을 지정합니다.\n첫 번째는 개시 코돈의 메싸이오닌입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "안티코돈이 AAA인 tRNA가 운반하는 아미노산은 {{1}}입니다. (코돈표: AUG 메싸이오닌(개시), UUU·UUC 페닐알라닌, GGC 글라이신, GCU 알라닌, AAA 라이신, UGG 트립토판, UAA·UAG·UGA 종결)",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "페닐알라닌"
+     ]
+    }
+   ],
+   "hint": "안티코돈과 상보적인 코돈을 먼저 구하세요.",
+   "explanation": "안티코돈 AAA와 상보적인 코돈은 UUU입니다.\nUUU는 페닐알라닌을 지정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "번역에서 첫 번째로 놓이는 아미노산은 개시 코돈이 지정하는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "메싸이오닌",
+      "메티오닌"
+     ]
+    }
+   ],
+   "hint": "AUG가 지정하는 아미노산입니다.",
+   "explanation": "개시 코돈 AUG는 메싸이오닌을 지정합니다.\n그래서 새로 만들어진 폴리펩타이드는 메싸이오닌으로 시작합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "아미노산 200개로 된 폴리펩타이드를 만드는 mRNA에는 종결 코돈을 포함해 코돈이 최소 몇 개 있을까요?",
+   "answer": "201",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "종결 코돈도 하나의 코돈입니다.",
+   "explanation": "아미노산 200개에 코돈 200개가 필요합니다.\n종결 코돈 1개를 더하면 201개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "겸형 적혈구 빈혈증은 적혈구 속 {{1}}의 아미노산 하나가 바뀌어 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "헤모글로빈"
+     ]
+    }
+   ],
+   "hint": "산소를 운반하는 단백질입니다.",
+   "explanation": "헤모글로빈은 산소를 운반하는 단백질입니다.\n아미노산 하나의 변화로 모양과 기능이 바뀝니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "DNA에 저장된 유전자가 사람의 형질로 나타나는 과정을 설명해 보세요.",
+   "hint": "유전자 → 단백질 → 형질의 순서로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "전사",
+      "mRNA"
+     ],
+     [
+      "번역",
+      "리보솜",
+      "아미노산"
+     ],
+     [
+      "단백질"
+     ],
+     [
+      "형질",
+      "기능",
+      "구조"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "유전자의 정보가 전사되어 mRNA가 되고, 리보솜에서 번역되어 코돈에 따라 아미노산이 연결된 단백질이 만들어집니다. 단백질은 아미노산 서열에 따라 고유한 구조와 기능을 가지며, 이 단백질의 작용으로 형질이 나타납니다."
+  }
+ ]
+}

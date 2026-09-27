@@ -1,0 +1,204 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch04",
+  "no": 4,
+  "title": "항상성"
+ },
+ "review": {
+  "id": "c3-ch04-review",
+  "title": "항상성 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "호르몬이 작용하는 특정 기관을 {{1}} 기관이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표적"
+     ]
+    }
+   ],
+   "hint": "과녁을 뜻하는 말입니다.",
+   "explanation": "표적 기관의 세포에는 그 호르몬의 수용체가 있습니다.\n그래서 특정 기관에만 작용합니다.",
+   "source_lesson": "c3-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "혈중 티록신이 많아지면 TSH 분비가 줄어드는 조절 방식을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "음성 피드백",
+      "음성피드백"
+     ]
+    }
+   ],
+   "hint": "결과가 원인을 억제하는 방식입니다.",
+   "explanation": "결과(티록신)가 원인(TSH)을 억제합니다.\n항상성 유지의 기본 원리입니다.",
+   "source_lesson": "c3-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "갑상샘에서 분비되어 물질대사를 촉진하는 호르몬은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "티록신"
+     ]
+    }
+   ],
+   "hint": "아이오딘이 들어 있는 호르몬입니다.",
+   "explanation": "티록신은 세포 호흡을 촉진합니다.\n아이오딘이 재료로 필요합니다.",
+   "source_lesson": "c3-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "혈당량이 높을 때 이자의 β세포에서 분비되는 호르몬은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인슐린"
+     ]
+    }
+   ],
+   "hint": "혈당량을 낮추는 호르몬입니다.",
+   "explanation": "인슐린은 혈당량을 낮춥니다.\nα세포의 글루카곤과 길항 작용을 합니다.",
+   "source_lesson": "c3-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "글루카곤은 간에서 {{1}}을 포도당으로 분해해 혈당량을 높입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "글리코젠",
+      "글리코겐"
+     ]
+    }
+   ],
+   "hint": "간에 저장된 다당류입니다.",
+   "explanation": "글리코젠은 간에 저장된 다당류입니다.\n분해되어 포도당이 혈액으로 나옵니다.",
+   "source_lesson": "c3-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "인슐린에 대한 세포의 반응이 떨어져 생기는 당뇨병은 {{1}}형입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "hint": "생활 습관과 관련 깊은 유형입니다.",
+   "explanation": "2형 당뇨병은 인슐린은 분비되지만 효과가 떨어집니다.\n생활 습관 개선이 중요합니다.",
+   "source_lesson": "c3-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "더울 때 땀이 {{1}}하며 열을 빼앗아 체온을 낮춥니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증발"
+     ]
+    }
+   ],
+   "hint": "액체가 기체로 되는 변화입니다.",
+   "explanation": "액체가 기체가 될 때 열을 흡수합니다.\n땀의 증발이 주요 열 발산 방법입니다.",
+   "source_lesson": "c3-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "추울 때 피부 혈관이 수축하는 것은 열 {{1}}을 줄이기 위해서입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "발산"
+     ]
+    }
+   ],
+   "hint": "열을 내보내는 것입니다.",
+   "explanation": "피부로 가는 혈액이 줄어 열이 덜 빠져나갑니다.\n떨림과 티록신은 열 생산을 늘립니다.",
+   "source_lesson": "c3-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "땀을 많이 흘리면 항이뇨 호르몬 분비가 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": "체액이 진해진 경우입니다.",
+   "explanation": "체액의 삼투압이 높아져 ADH 분비가 늘어납니다.\n물 재흡수가 늘어 오줌이 줄어듭니다.",
+   "source_lesson": "c3-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "혈당량, 체온, 삼투압 조절의 공통 중추는 간뇌의 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시상 하부",
+      "시상하부"
+     ]
+    }
+   ],
+   "hint": "간뇌의 아랫부분입니다.",
+   "explanation": "시상 하부는 항상성 조절의 사령부입니다.\n자율 신경과 뇌하수체를 통해 조절합니다.",
+   "source_lesson": "c3-ch04-l04"
+  }
+ ]
+}

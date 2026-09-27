@@ -28,7 +28,7 @@
       "id": "c3",
       "title": "생물Ⅰ",
       "description": "세포와 유전 정보, 신경과 항상성, 면역, 유전, 진화와 생태계",
-      "available": false,
+      "available": true,
       "subject": "biology",
       "grade": "Ⅰ"
     },

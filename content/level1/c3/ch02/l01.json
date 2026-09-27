@@ -1,0 +1,392 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch02",
+  "no": 2,
+  "title": "유전 정보의 흐름"
+ },
+ "lesson": {
+  "id": "c3-ch02-l01",
+  "no": 1,
+  "title": "DNA와 유전자",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "생명의 설계도",
+   "body": [
+    "부모와 자식이 닮는 것은 부모의 유전 정보가 자식에게 전해지기 때문입니다. 이 정보는 세포의 핵 속에 있는 아주 긴 분자에 적혀 있습니다.",
+    "1953년 왓슨과 크릭은 이 분자가 두 가닥이 꼬인 사다리 모양이라는 것을 밝혀냈습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "생물의 유전 정보를 저장하는 물질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "DNA",
+      "디옥시리보핵산"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "DNA는 핵산의 한 종류입니다.\n염기의 배열 순서가 유전 정보입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "DNA의 구조",
+   "body": [
+    "DNA는 뉴클레오타이드가 길게 연결된 두 가닥이 꼬인 이중 나선 구조입니다. 뉴클레오타이드는 인산, 당(디옥시리보스), 염기로 이루어집니다.",
+    "염기는 아데닌(A), 타이민(T), 구아닌(G), 사이토신(C)의 4종류입니다. 두 가닥의 염기는 A는 T와, G는 C와만 수소 결합으로 짝을 짓는데, 이를 상보적 결합이라고 합니다.",
+    "그래서 DNA에서 A와 T의 양, G와 C의 양은 항상 같습니다(샤가프 법칙). A–T 사이에는 수소 결합 2개, G–C 사이에는 3개가 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA는 두 가닥이 꼬여 있는 {{1}} 구조입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이중 나선",
+      "이중나선",
+      "2중 나선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 가닥의 뉴클레오타이드 사슬이 나선 모양으로 꼬여 있습니다.\n염기쌍이 사다리의 가로대 역할을 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA에서 구아닌(G)과 상보적으로 결합하는 염기는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "C",
+      "사이토신",
+      "시토신"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "G는 항상 C와, A는 항상 T와 짝을 짓습니다.\n이 규칙 덕분에 한 가닥으로 다른 가닥을 알 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "어떤 DNA에서 아데닌(A)이 전체 염기의 30%입니다. 타이민(T)은 몇 %일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "A와 T는 항상 짝을 이루므로 양이 같습니다.\nT도 30%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "어떤 DNA에서 아데닌(A)이 전체 염기의 20%입니다. 구아닌(G)은 몇 %일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "A = T = 20%이므로 A + T = 40%입니다.\n남은 60%를 G와 C가 똑같이 나누므로 G는 30%입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "DNA 한 가닥의 염기 서열이 ATGC일 때 상보적인 가닥의 염기 서열은?",
+   "steps": [
+    "A는 T와, T는 A와 짝을 짓습니다.",
+    "G는 C와, C는 G와 짝을 짓습니다.",
+    "따라서 상보적인 가닥은 TACG입니다."
+   ],
+   "answer": "TACG"
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA 한 가닥의 염기 서열이 GGAT일 때 상보적인 가닥의 염기 서열은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CCTA"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "G–C, G–C, A–T, T–A로 짝을 짓습니다.\n상보적 서열은 CCTA입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "유전자, 염색체, 유전체",
+   "body": [
+    "DNA 가운데 특정 단백질을 만드는 정보를 가진 부분을 유전자라고 합니다. DNA 한 분자에는 수많은 유전자가 들어 있습니다.",
+    "진핵세포의 DNA는 히스톤이라는 단백질을 감아 뉴클레오솜을 이루고, 이것이 응축해 염색체가 됩니다.",
+    "한 생물이 가진 유전 정보 전체를 유전체(게놈)라고 합니다. 사람의 유전체는 약 30억 염기쌍이며, 그 안에 단백질을 만드는 유전자가 약 2만 개 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "한 생물이 가진 유전 정보 전체를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유전체",
+      "게놈"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "유전체에는 유전자뿐 아니라 단백질 정보가 없는 부분도 포함됩니다.\n사람의 유전체는 인간 게놈 프로젝트로 해독되었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "진핵세포에서 DNA가 감겨 있는 단백질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "히스톤"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "DNA가 히스톤을 감아 뉴클레오솜을 만듭니다.\n덕분에 매우 긴 DNA가 작은 핵 속에 들어갑니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "인간 게놈 프로젝트는 무엇을 밝혔을까요?",
+   "steps": [
+    "1990년부터 2003년까지 여러 나라가 함께 사람 유전체의 염기 서열을 해독했습니다.",
+    "약 30억 염기쌍의 서열과 약 2만 개의 유전자 위치가 밝혀졌습니다.",
+    "질병 유전자 연구, 맞춤 의학의 바탕이 되었습니다."
+   ],
+   "answer": "사람 유전체의 전체 염기 서열"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "사람의 유전체에 들어 있는 단백질 유전자는 약 몇 만 개일까요?",
+   "answer": "2",
+   "answer_format": "decimal",
+   "tolerance": 0.5,
+   "hint": null,
+   "explanation": "사람의 유전자는 약 2만 개입니다.\n예상보다 적어 유전자 조절의 중요성이 부각되었습니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "크기가 작은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "염색체 1개의 DNA"
+    },
+    {
+     "id": "b",
+     "text": "뉴클레오타이드"
+    },
+    {
+     "id": "c",
+     "text": "유전체"
+    },
+    {
+     "id": "d",
+     "text": "유전자"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "뉴클레오타이드가 모여 유전자를 이루고, 한 염색체의 DNA에는 많은 유전자가 있습니다.\n모든 염색체의 DNA를 합친 것이 유전체입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "DNA 구조 정리",
+   "body": [
+    "DNA는 인산–당–염기로 된 뉴클레오타이드의 두 가닥이 이중 나선을 이룹니다. 바깥쪽 뼈대는 인산과 당, 안쪽은 염기쌍입니다.",
+    "상보적 결합 덕분에 DNA는 정확히 복제되고, 한 가닥만 알아도 다른 가닥의 서열을 알 수 있습니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "100 염기쌍으로 된 DNA에 A가 30개 있다면 G는 몇 개일까요?",
+   "steps": [
+    "100 염기쌍 = 염기 200개입니다.",
+    "A = T = 30개이므로 A + T = 60개입니다.",
+    "G + C = 140개이고 G = C이므로 G는 70개입니다."
+   ],
+   "answer": "70개"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "200 염기쌍으로 된 DNA에 타이민(T)이 50개 있습니다. 구아닌(G)은 몇 개일까요?",
+   "answer": "150",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "염기쌍 수의 2배가 전체 염기 수입니다.",
+   "explanation": "염기는 모두 400개이고, A = T = 50개이므로 A + T = 100개입니다.\nG + C = 300개이므로 G = 150개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA를 이루는 뉴클레오타이드의 당은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "디옥시리보스",
+      "디옥시리보오스",
+      "데옥시리보스"
+     ]
+    }
+   ],
+   "hint": "DNA 이름의 첫 부분입니다.",
+   "explanation": "DNA는 디옥시리보스, RNA는 리보스를 가집니다.\nDNA의 D가 디옥시리보스를 뜻합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA 두 가닥의 염기와 염기 사이는 {{1}}으로 연결되어 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소 결합",
+      "수소결합"
+     ]
+    }
+   ],
+   "hint": "물 분자 사이의 결합과 같은 종류입니다.",
+   "explanation": "수소 결합은 약해서 복제나 전사 때 두 가닥이 쉽게 풀립니다.\n그러면서도 수가 많아 평소에는 안정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "G와 C 사이의 수소 결합은 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "A–T보다 하나 많습니다.",
+   "explanation": "G–C 사이에는 수소 결합이 3개입니다.\n그래서 G–C 비율이 높은 DNA일수록 두 가닥이 풀리기 어렵습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "A와 T 사이의 수소 결합은 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "G–C보다 하나 적습니다.",
+   "explanation": "A–T 사이에는 수소 결합이 2개입니다.\nG–C(3개)보다 약합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "DNA의 상보적 결합이 무엇이며, 유전 정보 전달에 어떤 의미가 있는지 설명해 보세요.",
+   "hint": "짝짓기 규칙과 복제를 연결하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "A",
+      "아데닌"
+     ],
+     [
+      "G",
+      "구아닌"
+     ],
+     [
+      "짝",
+      "결합"
+     ],
+     [
+      "복제",
+      "한 가닥",
+      "알 수"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "상보적 결합은 DNA 두 가닥의 염기가 A는 T와, G는 C와만 짝을 짓는 것입니다. 그래서 한 가닥의 서열만 알면 다른 가닥이 정해지며, DNA가 복제될 때 각 가닥을 주형으로 똑같은 DNA를 정확히 만들 수 있습니다."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c3",
+  "chapter": {
+    "id": "c3-ch02",
+    "no": 2,
+    "title": "유전 정보의 흐름"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c3-ch02-l01",
+      "title": "DNA와 유전자",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c3-ch02-l02",
+      "title": "유전 정보의 흐름",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c3-ch02-l03",
+      "title": "전사",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c3-ch02-l04",
+      "title": "번역과 단백질",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c3-ch02-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

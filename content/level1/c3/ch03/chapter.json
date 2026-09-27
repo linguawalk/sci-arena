@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c3",
+  "chapter": {
+    "id": "c3-ch03",
+    "no": 3,
+    "title": "신경계"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c3-ch03-l01",
+      "title": "뉴런과 흥분의 발생",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c3-ch03-l02",
+      "title": "흥분의 전도와 전달",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c3-ch03-l03",
+      "title": "근육의 수축",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c3-ch03-l04",
+      "title": "신경계의 구조와 기능",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c3-ch03-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

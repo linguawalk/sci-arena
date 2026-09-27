@@ -1,0 +1,398 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch03",
+  "no": 3,
+  "title": "신경계"
+ },
+ "lesson": {
+  "id": "c3-ch03-l02",
+  "no": 2,
+  "title": "흥분의 전도와 전달",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "뉴런과 뉴런 사이의 틈",
+   "body": [
+    "뉴런들은 서로 딱 붙어 있지 않고 아주 좁은 틈을 두고 있습니다. 전기 신호는 이 틈을 그대로 건너지 못합니다.",
+    "그래서 뉴런은 틈에 화학 물질을 뿌려 다음 뉴런에 신호를 넘깁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "한 뉴런의 축삭 돌기 말단과 다음 뉴런이 좁은 틈을 두고 맞닿은 부위를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시냅스"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "시냅스에서는 화학 물질로 신호가 전달됩니다.\n뉴런과 근육 사이에도 시냅스가 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "전도와 전달",
+   "body": [
+    "한 뉴런 안에서 흥분이 이동하는 것을 전도라고 합니다. 활동 전위가 생긴 곳 옆의 막이 차례로 탈분극되며 퍼져 나가고, 자극받은 지점에서는 양쪽으로 전도됩니다.",
+    "흥분이 시냅스를 건너 다음 뉴런으로 이동하는 것을 전달이라고 합니다. 축삭 돌기 말단의 시냅스 소포에서 신경 전달 물질(아세틸콜린 등)이 분비되어 틈을 확산하고, 다음 뉴런의 수용체에 결합하면 그 뉴런이 탈분극됩니다.",
+    "신경 전달 물질은 축삭 돌기 말단에만 있으므로 전달은 한 방향(축삭 돌기 말단 → 다음 뉴런)으로만 일어납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "한 뉴런 안에서 흥분이 이동하는 것을 흥분의 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전도는 활동 전위가 막을 따라 퍼지는 것입니다.\n뉴런 사이로 넘어가는 것은 전달입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "시냅스 소포에 들어 있다가 시냅스 틈으로 분비되는 물질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "신경 전달 물질",
+      "신경전달물질"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아세틸콜린, 도파민, 세로토닌 등이 있습니다.\n다음 뉴런의 수용체에 결합해 흥분을 전달합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "시냅스에서 흥분은 {{1}} 방향으로만 전달됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "한",
+      "1",
+      "한쪽"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "신경 전달 물질은 축삭 돌기 말단에서만 분비됩니다.\n그래서 반대 방향으로는 전달되지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "시냅스에서 흥분이 한 방향으로만 전달되는 이유는?",
+   "steps": [
+    "신경 전달 물질이 든 시냅스 소포는 축삭 돌기 말단에만 있습니다.",
+    "신경 전달 물질의 수용체는 다음 뉴런(가지 돌기나 세포체)의 막에 있습니다.",
+    "따라서 흥분은 축삭 돌기 말단 → 다음 뉴런 방향으로만 전달됩니다."
+   ],
+   "answer": "소포와 수용체의 위치가 정해져 있기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "전도 속도",
+   "body": [
+    "흥분 전도 속도는 이동 거리 ÷ 걸린 시간으로 구합니다. 말이집이 있고 축삭 돌기가 굵을수록 빠르며, 사람의 운동 뉴런은 초속 100 m가 넘기도 합니다.",
+    "시냅스를 지날 때는 신경 전달 물질이 분비되고 확산하는 시간이 걸려 흥분 이동이 조금 느려집니다."
+   ]
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "축삭 돌기의 두 지점이 10 cm 떨어져 있고, 흥분이 한 지점에서 다른 지점까지 가는 데 2 ms가 걸렸습니다. 전도 속도는?",
+   "steps": [
+    "10 cm = 0.1 m, 2 ms = 0.002 s입니다.",
+    "속도 = 0.1 ÷ 0.002 = 50 m/s입니다."
+   ],
+   "answer": "50 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "흥분이 축삭 돌기를 따라 6 cm 이동하는 데 3 ms가 걸렸습니다. 전도 속도는 몇 m/s일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "0.06 m ÷ 0.003 s = 20 m/s입니다.\ncm/ms로 계산하면 6 ÷ 3 = 2 cm/ms = 20 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "전도 속도가 100 m/s인 뉴런에서 흥분이 0.5 m를 이동하는 데 몇 ms가 걸릴까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "시간 = 0.5 ÷ 100 = 0.005 s입니다.\n= 5 ms입니다."
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "흥분이 시냅스를 지날 때는 뉴런 안에서 전도될 때보다 속도가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "느려",
+      "늦어"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "신경 전달 물질이 분비되고 확산해 수용체에 결합하는 시간이 걸립니다.\n그래서 시냅스가 많을수록 전체 시간이 늘어납니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "시냅스에 작용하는 물질",
+   "body": [
+    "신경 전달 물질은 작용한 뒤 효소에 분해되거나 다시 흡수되어 신호가 멈춥니다. 아세틸콜린은 아세틸콜린 분해 효소가 분해합니다.",
+    "어떤 약물과 독은 시냅스에 작용합니다. 분해 효소를 억제하면 신호가 계속 전달되고, 수용체를 막으면 신호가 전달되지 않습니다. 파킨슨병은 도파민을 분비하는 뉴런이 줄어 생깁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "아세틸콜린 분해 효소가 억제되면 근육은 계속 {{1}}한 상태가 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수축"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아세틸콜린이 분해되지 않고 계속 수용체에 작용합니다.\n그래서 근육이 멈추지 않고 수축하게 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "시냅스 틈으로 분비된 신경 전달 물질은 {{1}}에 의해 다음 뉴런으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "확산"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "시냅스 틈은 매우 좁아 확산만으로 빠르게 건너갑니다.\n에너지가 필요하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "시냅스에서 흥분이 전달되는 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "신경 전달 물질이 확산해 다음 뉴런의 수용체에 결합한다"
+    },
+    {
+     "id": "b",
+     "text": "흥분이 축삭 돌기 말단에 도달한다"
+    },
+    {
+     "id": "c",
+     "text": "다음 뉴런이 탈분극된다"
+    },
+    {
+     "id": "d",
+     "text": "시냅스 소포에서 신경 전달 물질이 분비된다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "전기 신호가 화학 신호로, 다시 전기 신호로 바뀝니다.\n시냅스 전달의 기본 순서입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "흥분이 뉴런 A에서 2 ms, 시냅스에서 1 ms, 뉴런 B에서 3 ms 걸려 이동했습니다. 전체 시간은?",
+   "steps": [
+    "각 단계의 시간을 더합니다.",
+    "2 + 1 + 3 = 6 ms입니다."
+   ],
+   "answer": "6 ms"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "흥분이 뉴런 A를 2 ms, 시냅스를 1 ms, 뉴런 B를 3 ms 동안 지났습니다. 흥분이 이동하는 데 걸린 전체 시간은 몇 ms일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "각 단계의 시간을 모두 더하세요.",
+   "explanation": "2 + 1 + 3 = 6 ms입니다.\n시냅스 통과 시간도 포함해야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "축삭 돌기 가운데를 자극하면 흥분은 {{1}} 방향으로 전도됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "양",
+      "양쪽",
+      "두"
+     ]
+    }
+   ],
+   "hint": "전도와 전달의 차이를 떠올리세요.",
+   "explanation": "한 뉴런 안의 전도는 자극받은 지점에서 양쪽으로 퍼집니다.\n한 방향인 것은 시냅스 전달입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "축삭 돌기 위 4 cm 떨어진 두 지점에 흥분이 도달한 시각의 차이가 2 ms입니다. 전도 속도는 몇 m/s일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "거리 차를 시간 차로 나누세요.",
+   "explanation": "4 cm ÷ 2 ms = 2 cm/ms입니다.\n= 20 m/s입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "시냅스 소포 속 신경 전달 물질은 세포 외 {{1}}로 시냅스 틈에 분비됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "배출"
+     ]
+    }
+   ],
+   "hint": "세포 내 섭취의 반대입니다.",
+   "explanation": "소포가 세포막과 합쳐지며 내용물이 밖으로 나갑니다.\n세포 외 배출(엑소사이토시스)입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "파킨슨병은 신경 전달 물질인 {{1}}을 분비하는 뉴런이 줄어 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "도파민"
+     ]
+    }
+   ],
+   "hint": "운동 조절과 보상에 관여하는 물질입니다.",
+   "explanation": "도파민이 부족하면 운동 조절에 문제가 생겨 손떨림, 근육 경직이 나타납니다.\n도파민을 보충하는 약으로 치료합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "흥분의 전도와 전달의 차이를 일어나는 장소, 방식, 방향으로 비교해 설명해 보세요.",
+   "hint": "장소, 방식, 방향을 각각 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "전도"
+     ],
+     [
+      "전달"
+     ],
+     [
+      "한 뉴런",
+      "뉴런 안",
+      "시냅스"
+     ],
+     [
+      "신경 전달 물질",
+      "화학"
+     ],
+     [
+      "양쪽",
+      "한 방향"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "전도는 한 뉴런 안에서 활동 전위가 막을 따라 퍼지는 것으로, 자극받은 지점에서 양쪽으로 일어납니다. 전달은 시냅스에서 신경 전달 물질이 분비되어 다음 뉴런으로 흥분이 넘어가는 것으로, 축삭 돌기 말단에서 다음 뉴런 쪽 한 방향으로만 일어납니다."
+  }
+ ]
+}

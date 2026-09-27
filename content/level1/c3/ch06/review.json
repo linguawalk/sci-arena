@@ -1,0 +1,182 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch06",
+  "no": 6,
+  "title": "유전"
+ },
+ "review": {
+  "id": "c3-ch06-review",
+  "title": "유전 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "사람의 체세포에서 성염색체를 제외한 상염색체는 몇 개일까요?",
+   "answer": "44",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "46에서 성염색체를 빼세요.",
+   "explanation": "46개 중 성염색체 2개를 뺍니다.\n44개(22쌍)입니다.",
+   "source_lesson": "c3-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "상동 염색체의 같은 위치에서 같은 형질을 결정하는 유전자를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대립유전자",
+      "대립 유전자"
+     ]
+    }
+   ],
+   "hint": "짝을 이루는 유전자입니다.",
+   "explanation": "A와 a처럼 표시합니다.\n하나는 어머니, 하나는 아버지에게서 옵니다.",
+   "source_lesson": "c3-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "세포 주기에서 DNA가 복제되는 시기는 {{1}}기입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "S"
+     ]
+    }
+   ],
+   "hint": "합성을 뜻하는 영어의 첫 글자입니다.",
+   "explanation": "간기의 S기에 DNA가 복제됩니다.\n그 결과 DNA 양이 2배가 됩니다.",
+   "source_lesson": "c3-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "감수 1분열에서는 {{1}} 염색체가 분리되어 염색체 수가 절반이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상동"
+     ]
+    }
+   ],
+   "hint": "쌍을 이루는 염색체입니다.",
+   "explanation": "2가 염색체를 이룬 상동 염색체가 양극으로 나뉩니다.\n감수 2분열에서는 염색 분체가 분리됩니다.",
+   "source_lesson": "c3-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "모세포 하나가 체세포 분열을 하면 딸세포는 몇 개 생길까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "감수 분열은 4개입니다.",
+   "explanation": "체세포 분열은 한 번 분열합니다.\n딸세포 2개가 생깁니다.",
+   "source_lesson": "c3-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "유전자형이 Aa인 부모 사이에서 AA인 자녀가 태어날 확률은 몇 %일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "각 부모에게서 A를 받을 확률은 1/2입니다.",
+   "explanation": "Aa × Aa → AA : Aa : aa = 1 : 2 : 1입니다.\nAA는 1/4 = 25%입니다.",
+   "source_lesson": "c3-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "AO인 아버지와 AO인 어머니 사이에서 O형 자녀가 태어날 확률은 몇 %일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "OO가 되어야 합니다.",
+   "explanation": "부모에게서 각각 O를 받을 확률은 1/2입니다.\n1/2 × 1/2 = 25%입니다.",
+   "source_lesson": "c3-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "적록 색맹처럼 X 염색체의 유전자에 의한 유전을 {{1}} 유전이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반성"
+     ]
+    }
+   ],
+   "hint": "성과 관련된 유전입니다.",
+   "explanation": "성별에 따라 나타나는 비율이 다릅니다.\n열성 반성 유전은 남자에게 더 많습니다.",
+   "source_lesson": "c3-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "감수 분열 때 염색체가 제대로 나뉘지 않는 {{1}}로 다운 증후군이 생길 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비분리"
+     ]
+    }
+   ],
+   "hint": "분리되지 않는 현상입니다.",
+   "explanation": "비분리로 21번 염색체가 2개인 생식세포가 만들어집니다.\n수정되면 21번이 3개인 자손이 됩니다.",
+   "source_lesson": "c3-ch06-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "DNA의 염기 하나가 바뀌어 생기는 겸형 적혈구 빈혈증은 {{1}} 분석으로는 확인할 수 없습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "핵형"
+     ]
+    }
+   ],
+   "hint": "염색체를 배열해 보는 분석입니다.",
+   "explanation": "염기 수준의 변화라 염색체 모양이 정상입니다.\nDNA 검사가 필요합니다.",
+   "source_lesson": "c3-ch06-l04"
+  }
+ ]
+}

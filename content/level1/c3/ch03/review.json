@@ -1,0 +1,192 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch03",
+  "no": 3,
+  "title": "신경계"
+ },
+ "review": {
+  "id": "c3-ch03-review",
+  "title": "신경계 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "뉴런에서 흥분을 다른 세포로 전달하는 긴 돌기를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "축삭 돌기",
+      "축삭돌기",
+      "축삭"
+     ]
+    }
+   ],
+   "hint": "가지 돌기의 반대 역할입니다.",
+   "explanation": "축삭 돌기는 길게 뻗어 흥분을 멀리 전달합니다.\n말단에서 신경 전달 물질이 분비됩니다.",
+   "source_lesson": "c3-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "활동 전위의 탈분극 단계에서는 {{1}}이 세포 안으로 들어옵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Na⁺",
+      "Na+",
+      "나트륨 이온"
+     ]
+    }
+   ],
+   "hint": "세포 밖에 많은 양이온입니다.",
+   "explanation": "Na⁺ 통로가 열려 Na⁺이 유입됩니다.\n막 안쪽이 (+)가 됩니다.",
+   "source_lesson": "c3-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "뉴런의 휴지 전위는 약 몇 mV일까요?",
+   "answer": "-70",
+   "answer_format": "decimal",
+   "tolerance": 5,
+   "hint": "음수입니다.",
+   "explanation": "휴지 상태에서 막 안쪽은 바깥쪽보다 약 70 mV 낮습니다.\n약 −70 mV입니다.",
+   "source_lesson": "c3-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "흥분이 축삭 돌기를 따라 15 cm 이동하는 데 5 ms가 걸렸습니다. 전도 속도는 몇 m/s일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "거리 ÷ 시간입니다.",
+   "explanation": "15 cm ÷ 5 ms = 3 cm/ms입니다.\n= 30 m/s입니다.",
+   "source_lesson": "c3-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "시냅스에서 흥분은 축삭 돌기 말단에서 분비되는 {{1}}에 의해 전달됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "신경 전달 물질",
+      "신경전달물질"
+     ]
+    }
+   ],
+   "hint": "시냅스 소포에 든 물질입니다.",
+   "explanation": "신경 전달 물질이 확산해 다음 뉴런의 수용체에 결합합니다.\n그래서 전달은 한 방향입니다.",
+   "source_lesson": "c3-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "근육 원섬유 마디가 2.8 μm에서 2.2 μm로 수축했습니다. H대는 몇 μm 짧아졌을까요?",
+   "answer": "0.6",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "마디의 감소량과 같습니다.",
+   "explanation": "마디가 짧아진 만큼 H대도 짧아집니다.\n2.8 − 2.2 = 0.6 μm입니다.",
+   "source_lesson": "c3-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "근육이 수축해도 길이가 변하지 않는 부분은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "A대",
+      "A 대"
+     ]
+    }
+   ],
+   "hint": "어두운 띠입니다.",
+   "explanation": "A대는 마이오신 필라멘트의 길이입니다.\n필라멘트는 미끄러질 뿐 길이가 변하지 않습니다.",
+   "source_lesson": "c3-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "근육 수축에 필요한 에너지는 {{1}}의 분해로 얻습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "ATP"
+     ]
+    }
+   ],
+   "hint": "세포의 에너지 화폐입니다.",
+   "explanation": "마이오신이 ATP를 분해해 액틴을 끌어당깁니다.\nATP가 없으면 근육이 굳습니다.",
+   "source_lesson": "c3-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "기억, 판단, 언어 같은 고등 정신 활동을 담당하는 뇌는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대뇌"
+     ]
+    }
+   ],
+   "hint": "뇌에서 가장 큰 부분입니다.",
+   "explanation": "대뇌는 감각, 운동 명령, 고등 정신 활동의 중추입니다.\n뇌에서 가장 큰 부분입니다.",
+   "source_lesson": "c3-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "위급한 상황에서 심장 박동을 빠르게 하는 자율 신경은 {{1}} 신경입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "교감"
+     ]
+    }
+   ],
+   "hint": "긴장할 때 작용하는 신경입니다.",
+   "explanation": "교감 신경은 몸을 활동에 대비시킵니다.\n부교감 신경은 반대로 작용합니다.",
+   "source_lesson": "c3-ch03-l04"
+  }
+ ]
+}

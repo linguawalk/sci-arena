@@ -1,0 +1,386 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch05",
+  "no": 5,
+  "title": "면역"
+ },
+ "lesson": {
+  "id": "c3-ch05-l04",
+  "no": 4,
+  "title": "백신과 혈액형",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "소의 고름으로 막은 천연두",
+   "body": [
+    "1796년 제너는 소의 우두 고름을 사람에게 접종하면 천연두에 걸리지 않는다는 것을 보였습니다. 이것이 백신의 시작이며, 천연두는 1980년 지구에서 사라졌습니다.",
+    "백신은 우리 몸의 기억 능력을 이용합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "병원체를 약하게 하거나 죽여 만든 것으로, 몸에 넣어 면역을 얻게 하는 물질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "백신"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "백신은 병을 일으키지 않으면서 1차 면역 반응을 일으킵니다.\n기억 세포가 만들어져 실제 감염에 대비합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "백신의 원리와 종류",
+   "body": [
+    "백신을 접종하면 1차 면역 반응이 일어나 기억 세포가 만들어집니다. 나중에 실제 병원체가 들어오면 2차 면역 반응이 빠르게 일어나 병을 막습니다.",
+    "백신에는 독성을 약하게 한 약독화 백신, 죽인 병원체나 그 일부를 쓰는 불활성화 백신, 항원 단백질을 만드는 정보(mRNA)를 넣는 mRNA 백신 등이 있습니다.",
+    "이미 감염된 경우에는 다른 동물이 만든 항체가 든 혈청을 주사해 곧바로 항원을 제거하기도 합니다(혈청 요법, 뱀독 치료)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "백신 접종으로 몸속에 만들어져 실제 감염에 대비하는 세포는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기억 세포",
+      "기억세포"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기억 세포가 있으면 실제 감염 때 2차 면역 반응이 일어납니다.\n그래서 병에 걸리지 않거나 가볍게 앓습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "뱀에 물렸을 때 항체가 든 혈청을 주사해 독을 제거하는 방법을 {{1}} 요법이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "혈청"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이미 만들어진 항체를 넣어 곧바로 효과를 봅니다.\n기억 세포는 생기지 않아 효과가 오래가지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "mRNA 백신은 우리 세포가 병원체의 {{1}} 단백질을 만들게 해 면역 반응을 일으킵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "항원"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "mRNA가 세포 안에서 번역되어 항원 단백질이 만들어집니다.\n이 항원에 대해 면역 반응과 기억 세포가 생깁니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "백신과 혈청 요법의 차이는?",
+   "steps": [
+    "백신: 항원을 넣어 몸이 스스로 항체와 기억 세포를 만들게 합니다. 예방 효과가 오래갑니다.",
+    "혈청 요법: 이미 만들어진 항체를 넣습니다. 즉시 효과가 있지만 기억 세포가 없어 오래가지 않습니다."
+   ],
+   "answer": "백신은 항원을, 혈청은 항체를 넣는다"
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "ABO식 혈액형",
+   "body": [
+    "적혈구 표면의 응집원(항원)과 혈장 속 응집소(항체)로 혈액형을 나눕니다. A형은 응집원 A와 응집소 β, B형은 응집원 B와 응집소 α, AB형은 응집원 A, B가 있고 응집소가 없으며, O형은 응집원이 없고 응집소 α, β가 있습니다.",
+    "응집원 A와 응집소 α, 응집원 B와 응집소 β가 만나면 적혈구가 엉기는 응집 반응이 일어납니다.",
+    "항 A 혈청(응집소 α)과 항 B 혈청(응집소 β)에 혈액을 떨어뜨려 응집 여부로 혈액형을 판정합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "A형인 사람의 혈장에 있는 응집소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "β",
+      "베타",
+      "b"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "A형은 응집원 A를 가지므로 응집소 α가 있으면 자기 혈액이 응집됩니다.\n그래서 응집소 β만 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "O형인 사람의 적혈구 표면에는 응집원이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "없다",
+      "없음",
+      "없습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "O형은 응집원 A, B가 모두 없습니다.\n대신 혈장에 응집소 α, β가 모두 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "항 A 혈청에만 응집하고 항 B 혈청에는 응집하지 않는 혈액은 {{1}}형입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "A"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "항 A 혈청에 응집하면 응집원 A가 있습니다.\n항 B 혈청에 응집하지 않으면 응집원 B가 없으므로 A형입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "혈액형 판정 결과를 해석해 보세요.",
+   "steps": [
+    "항 A에만 응집 → 응집원 A만 있음 → A형입니다.",
+    "항 B에만 응집 → B형, 둘 다 응집 → AB형입니다.",
+    "둘 다 응집하지 않음 → O형입니다."
+   ],
+   "answer": "응집 여부로 응집원을 알아낸다"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "항 A 혈청과 항 B 혈청 모두에 응집하는 혈액은 {{1}}형입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "AB"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "응집원 A와 B를 모두 가지고 있습니다.\nAB형의 혈장에는 응집소가 없습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "discover",
+   "title": "Rh식 혈액형과 수혈",
+   "body": [
+    "적혈구에 Rh 응집원이 있으면 Rh⁺형, 없으면 Rh⁻형입니다. Rh⁻형인 사람은 Rh⁺형 혈액을 받으면 Rh 응집원에 대한 항체를 만들게 됩니다.",
+    "수혈할 때는 같은 혈액형끼리 하는 것이 원칙입니다. 다른 혈액형을 수혈하면 응집 반응으로 적혈구가 엉겨 혈관이 막힐 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "적혈구에 Rh 응집원이 없는 혈액형은 Rh{{1}}형입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "⁻",
+      "-",
+      "−",
+      "음성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Rh 응집원이 있으면 Rh⁺, 없으면 Rh⁻입니다.\n우리나라에서는 Rh⁻형이 매우 드뭅니다."
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "수혈은 받는 사람과 {{1}} 혈액형끼리 하는 것이 원칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같은",
+      "동일한"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "다른 혈액형을 수혈하면 응집 반응이 일어날 수 있습니다.\n그래서 수혈 전에 혈액형을 꼭 확인합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "100명의 혈액을 조사했더니 항 A 혈청에 45명, 항 B 혈청에 35명이 응집했고, 두 혈청 모두에 응집한 사람이 15명이었습니다. 각 혈액형의 수는?",
+   "steps": [
+    "두 혈청 모두에 응집한 15명이 AB형입니다.",
+    "A형 = 45 − 15 = 30명, B형 = 35 − 15 = 20명입니다.",
+    "O형 = 100 − (30 + 20 + 15) = 35명입니다."
+   ],
+   "answer": "A 30, B 20, AB 15, O 35"
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "100명 중 항 A 혈청에 45명, 항 B 혈청에 35명이 응집했고, 둘 다 응집한 사람이 15명입니다. A형은 몇 명일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "AB형을 빼야 합니다.",
+   "explanation": "항 A에 응집한 45명 중 15명은 AB형입니다.\nA형은 45 − 15 = 30명입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 집단에서 B형은 몇 명일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "항 B 응집자에서 AB형을 빼세요.",
+   "explanation": "항 B에 응집한 35명 중 15명이 AB형입니다.\nB형은 35 − 15 = 20명입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 집단에서 O형은 몇 명일까요?",
+   "answer": "35",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "나머지 혈액형을 모두 빼세요.",
+   "explanation": "A형 30, B형 20, AB형 15명입니다.\nO형 = 100 − 65 = 35명입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "많은 사람이 백신을 맞아 면역을 가지면 백신을 맞지 못한 사람도 보호받는 것을 {{1}} 면역이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "집단"
+     ]
+    }
+   ],
+   "hint": "여러 사람이 함께 만드는 면역입니다.",
+   "explanation": "면역을 가진 사람이 많으면 병원체가 퍼질 경로가 줄어듭니다.\n그래서 공동체 전체가 보호됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "응집원 A와 응집소 α가 만나면 적혈구가 엉기는 {{1}} 반응이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "응집"
+     ]
+    }
+   ],
+   "hint": "엉기는 반응입니다.",
+   "explanation": "응집 반응은 항원 항체 반응의 한 종류입니다.\n혈액형 판정에 이용합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "백신을 맞으면 병을 예방할 수 있는 원리를 면역 반응으로 설명해 보세요.",
+   "hint": "1차 반응과 2차 반응을 연결하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "항원"
+     ],
+     [
+      "1차"
+     ],
+     [
+      "기억 세포"
+     ],
+     [
+      "2차",
+      "빠르"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "백신에는 병을 일으키지 않을 만큼 약한 항원이 들어 있어, 접종하면 1차 면역 반응이 일어나 기억 세포가 만들어집니다. 나중에 실제 병원체가 들어오면 기억 세포가 빠르고 강한 2차 면역 반응을 일으켜 병이 생기기 전에 병원체를 제거합니다."
+  }
+ ]
+}

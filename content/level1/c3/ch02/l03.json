@@ -1,0 +1,404 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c3",
+  "title": "생물Ⅰ"
+ },
+ "chapter": {
+  "id": "c3-ch02",
+  "no": 2,
+  "title": "유전 정보의 흐름"
+ },
+ "lesson": {
+  "id": "c3-ch02-l03",
+  "no": 3,
+  "title": "전사",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "원본은 두고 사본을 만든다",
+   "body": [
+    "도서관의 귀중한 원본 책은 밖으로 가지고 나가지 않고, 필요한 부분만 복사해 씁니다.",
+    "세포도 DNA 원본은 핵 속에 두고, 필요한 유전자만 RNA로 옮겨 적어 세포질로 내보냅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "전사에서는 DNA의 두 가닥 중 한 가닥을 {{1}}로 삼아 mRNA를 만듭니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주형",
+      "틀"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "주형 가닥의 염기와 상보적인 RNA 뉴클레오타이드가 차례로 연결됩니다.\n그래서 mRNA는 주형 가닥과 상보적입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "전사 과정",
+   "body": [
+    "RNA 중합 효소가 유전자의 시작 부위에 결합하면 DNA의 이중 나선이 부분적으로 풀립니다.",
+    "두 가닥 중 한 가닥(주형 가닥)의 염기에 상보적인 RNA 뉴클레오타이드가 결합하고, RNA 중합 효소가 이들을 연결합니다. 짝짓기는 DNA의 A–U, T–A, G–C, C–G입니다.",
+    "전사가 끝나면 mRNA가 떨어져 나오고 DNA는 다시 이중 나선이 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전사에서 RNA 뉴클레오타이드를 연결해 RNA를 만드는 효소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "RNA 중합 효소",
+      "RNA 중합효소",
+      "RNA중합효소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "RNA 중합 효소는 DNA를 풀고 주형 가닥을 따라 이동하며 RNA를 합성합니다.\nDNA 복제에는 DNA 중합 효소가 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전사에서 주형 DNA의 아데닌(A)에는 RNA의 {{1}}이 결합합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "U",
+      "유라실",
+      "우라실"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "RNA에는 T가 없으므로 A의 짝은 U입니다.\nDNA의 T에는 RNA의 A가 결합합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "주형 DNA 가닥의 염기 서열이 TACGGA일 때 전사된 mRNA의 서열은?",
+   "steps": [
+    "T → A, A → U, C → G, G → C로 짝을 짓습니다.",
+    "T A C G G A → A U G C C U입니다."
+   ],
+   "answer": "AUGCCU"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "주형 DNA 가닥이 CAT일 때 전사된 mRNA는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "GUA"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "C → G, A → U, T → A입니다.\nmRNA는 GUA입니다."
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "주형 DNA 가닥이 AAT일 때 전사된 mRNA는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "UUA"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "A → U, A → U, T → A입니다.\nmRNA는 UUA입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "주형 가닥과 비주형 가닥",
+   "body": [
+    "mRNA는 주형 가닥과 상보적이므로, 주형이 아닌 다른 가닥(비주형 가닥)과는 T가 U로 바뀐 것만 빼고 서열이 같습니다.",
+    "비주형 가닥이 ATG이면 주형 가닥은 TAC, mRNA는 AUG가 됩니다. 이 관계를 이용하면 세 가지 서열 중 하나만 알아도 나머지를 알 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "비주형 DNA 가닥이 ATG일 때 전사된 mRNA는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "AUG"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "mRNA는 비주형 가닥과 서열이 같고 T만 U로 바뀝니다.\nATG → AUG입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "mRNA의 코돈 AUG에 대응하는 주형 DNA의 염기 서열은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "TAC"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "mRNA와 주형 가닥은 상보적입니다.\nA → T, U → A, G → C이므로 TAC입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "비주형 DNA 가닥이 GCTTAA일 때 mRNA의 서열은?",
+   "steps": [
+    "mRNA는 비주형 가닥과 서열이 같고 T만 U로 바뀝니다.",
+    "G C T T A A → G C U U A A입니다.",
+    "참고로 주형 가닥은 CGAATT입니다."
+   ],
+   "answer": "GCUUAA"
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "염기 300개로 된 주형 DNA 구간이 전사되면 mRNA의 염기는 몇 개일까요?",
+   "answer": "300",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "주형 가닥의 염기 하나마다 RNA 뉴클레오타이드 하나가 짝을 짓습니다.\n그래서 300개입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전사 후 이동",
+   "body": [
+    "진핵세포에서 전사된 mRNA는 핵막에 뚫린 구멍인 핵공을 통해 세포질로 나가 리보솜과 결합합니다.",
+    "원핵세포는 핵막이 없어 전사와 번역이 세포질에서 거의 동시에 일어납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "진핵세포에서 mRNA가 핵에서 세포질로 나가는 통로는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "핵공"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "핵막에는 작은 구멍인 핵공이 많이 있습니다.\nmRNA는 이곳을 통해 세포질로 이동합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "주형 가닥 TACAAACCG가 전사된 mRNA와 그 코돈은?",
+   "steps": [
+    "T→A, A→U, C→G, G→C로 바꿉니다.",
+    "mRNA는 AUG UUU GGC입니다.",
+    "코돈은 AUG, UUU, GGC의 3개입니다."
+   ],
+   "answer": "AUG UUU GGC"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "주형 DNA 가닥이 GGC일 때 전사된 mRNA는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CCG"
+     ]
+    }
+   ],
+   "hint": "G의 짝은 C입니다.",
+   "explanation": "G → C, G → C, C → G입니다.\nmRNA는 CCG입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "mRNA의 서열이 UUC일 때 비주형 DNA 가닥의 서열은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "TTC"
+     ]
+    }
+   ],
+   "hint": "mRNA와 같은 서열에서 U만 바꿉니다.",
+   "explanation": "비주형 가닥은 mRNA와 같고 U만 T로 바뀝니다.\nUUC → TTC입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "ordering",
+   "prompt": "전사 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "주형 가닥에 상보적인 RNA 뉴클레오타이드가 연결된다"
+    },
+    {
+     "id": "b",
+     "text": "RNA 중합 효소가 DNA에 결합한다"
+    },
+    {
+     "id": "c",
+     "text": "완성된 mRNA가 떨어져 나온다"
+    },
+    {
+     "id": "d",
+     "text": "DNA 이중 나선이 부분적으로 풀린다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": "효소가 먼저 결합합니다.",
+   "explanation": "효소가 결합하고 DNA가 풀려야 주형 가닥을 읽을 수 있습니다.\n전사가 끝나면 mRNA가 떨어지고 DNA는 다시 감깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "mRNA의 유라실(U) 수는 주형 DNA 가닥의 {{1}} 수와 같습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "A",
+      "아데닌"
+     ]
+    }
+   ],
+   "hint": "U와 짝을 짓는 DNA 염기입니다.",
+   "explanation": "주형 가닥의 A에 RNA의 U가 결합합니다.\n그래서 두 수가 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "주형 DNA 가닥의 염기 수가 A 20개, T 30개, G 25개, C 25개입니다. 전사된 mRNA의 U는 몇 개일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "U와 짝을 짓는 주형 염기를 찾으세요.",
+   "explanation": "mRNA의 U는 주형 가닥의 A와 짝입니다.\n따라서 20개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "전사에서는 DNA 두 가닥 중 {{1}} 가닥만 주형으로 쓰입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "한",
+      "1",
+      "하나의"
+     ]
+    }
+   ],
+   "hint": "DNA 복제와 비교해 보세요.",
+   "explanation": "한 유전자에서는 한 가닥만 주형이 됩니다.\nDNA 복제에서 두 가닥이 모두 주형이 되는 것과 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "전사 과정을 효소, 주형 가닥, 상보적 결합을 이용해 설명해 보세요.",
+   "hint": "효소 → 주형 → 짝짓기 → mRNA 순서로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "RNA 중합 효소"
+     ],
+     [
+      "주형"
+     ],
+     [
+      "상보"
+     ],
+     [
+      "mRNA"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "RNA 중합 효소가 DNA에 결합하면 이중 나선이 풀리고, 한 가닥이 주형이 됩니다. 주형 가닥의 염기에 상보적인 RNA 뉴클레오타이드(A–U, T–A, G–C, C–G)가 결합하고 연결되어 mRNA가 만들어집니다."
+  }
+ ]
+}

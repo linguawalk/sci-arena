@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "level": 1,
+  "course": {
+    "id": "c3",
+    "title": "생물Ⅰ",
+    "description": "세포와 유전 정보, 신경과 항상성, 면역, 유전, 진화와 생태계"
+  },
+  "totals": {
+    "chapters": 8,
+    "lessons": 32,
+    "lesson_questions": 512,
+    "review_questions": 80,
+    "questions": 592
+  },
+  "chapters": [
+    {
+      "no": 1,
+      "id": "c3-ch01",
+      "title": "생명 시스템과 세포",
+      "dir": "ch01",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 2,
+      "id": "c3-ch02",
+      "title": "유전 정보의 흐름",
+      "dir": "ch02",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 3,
+      "id": "c3-ch03",
+      "title": "신경계",
+      "dir": "ch03",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 4,
+      "id": "c3-ch04",
+      "title": "항상성",
+      "dir": "ch04",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 5,
+      "id": "c3-ch05",
+      "title": "면역",
+      "dir": "ch05",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 6,
+      "id": "c3-ch06",
+      "title": "유전",
+      "dir": "ch06",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 7,
+      "id": "c3-ch07",
+      "title": "진화와 생물 다양성",
+      "dir": "ch07",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 8,
+      "id": "c3-ch08",
+      "title": "생태계와 환경",
+      "dir": "ch08",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c3",
+  "chapter": {
+    "id": "c3-ch08",
+    "no": 8,
+    "title": "생태계와 환경"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c3-ch08-l01",
+      "title": "생태계의 구성",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c3-ch08-l02",
+      "title": "개체군과 군집",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 22
+    },
+    {
+      "no": 3,
+      "id": "c3-ch08-l03",
+      "title": "에너지 흐름과 물질 순환",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c3-ch08-l04",
+      "title": "생태계 평형과 환경 변화",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c3-ch08-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

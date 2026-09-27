@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c3",
+  "chapter": {
+    "id": "c3-ch06",
+    "no": 6,
+    "title": "유전"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c3-ch06-l01",
+      "title": "염색체와 유전자",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 22
+    },
+    {
+      "no": 2,
+      "id": "c3-ch06-l02",
+      "title": "체세포 분열과 감수 분열",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c3-ch06-l03",
+      "title": "사람의 유전",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c3-ch06-l04",
+      "title": "돌연변이",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c3-ch06-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}
