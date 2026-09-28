@@ -1,0 +1,409 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch02",
+  "no": 2,
+  "title": "광물과 암석"
+ },
+ "lesson": {
+  "id": "c8-ch02-l04",
+  "no": 4,
+  "title": "변성암과 암석의 순환",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "모양을 바꾸는 암석",
+   "body": [
+    "석회암은 쉽게 긁히는 평범한 돌이지만, 땅속 깊은 곳에서 높은 열을 받으면 조각품에 쓰이는 반짝이는 대리암이 됩니다.",
+    "암석은 영원하지 않고 다른 암석으로 계속 바뀝니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "화성암, 퇴적암, 변성암이 서로 다른 암석으로 바뀌며 돌고 도는 것을 암석의 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "순환"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "판 운동과 풍화·침식이 이끕니다.\n지구 내부 에너지와 태양 에너지가 원동력입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "변성 작용",
+   "body": [
+    "암석이 녹지 않은 채 높은 열과 압력을 받아 광물이 재결정되거나 새로운 광물이 생기는 것을 변성 작용이라고 합니다.",
+    "접촉 변성 작용: 마그마가 관입한 주변 암석이 주로 열을 받아 변합니다. 사암은 규암, 석회암은 대리암, 셰일은 혼펠스가 됩니다.",
+    "광역 변성 작용: 판이 충돌하는 넓은 지역에서 높은 온도와 압력을 받아 변합니다. 압력에 수직인 방향으로 광물이 배열되는 엽리가 생기며, 셰일은 변성 정도에 따라 점판암 → 천매암 → 편암 → 편마암이 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "석회암이 변성 작용을 받으면 {{1}}이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대리암"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "방해석이 재결정되어 굵은 결정이 됩니다.\n조각과 건축에 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "사암이 변성 작용을 받으면 매우 단단한 {{1}}이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "규암"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "석영 알갱이가 재결정되어 서로 붙습니다.\n풍화에 매우 강합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "광물이 한 방향으로 나란하게 배열된 엽리는 {{1}} 변성 작용에서 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "광역"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "강한 압력을 받아 광물이 눕습니다.\n접촉 변성암에는 엽리가 없습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "접촉 변성 작용과 광역 변성 작용의 차이는?",
+   "steps": [
+    "접촉 변성: 마그마 관입 주변의 좁은 지역에서 주로 열에 의해 일어나며 엽리가 없습니다.",
+    "광역 변성: 조산 운동이 일어나는 넓은 지역에서 열과 압력을 함께 받아 일어나며 엽리가 생깁니다."
+   ],
+   "answer": "원인(열 vs 열과 압력)과 범위, 엽리 유무"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "셰일이 광역 변성 작용을 받을 때 변성 정도가 낮은 것부터 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "편암"
+    },
+    {
+     "id": "b",
+     "text": "점판암"
+    },
+    {
+     "id": "c",
+     "text": "편마암"
+    },
+    {
+     "id": "d",
+     "text": "천매암"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "변성 정도가 높아질수록 광물 결정이 커지고 엽리가 뚜렷해집니다.\n편마암에는 줄무늬(편마 구조)가 나타납니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "암석의 순환",
+   "body": [
+    "마그마가 식으면 화성암이 되고, 지표에 드러난 암석은 풍화·침식되어 퇴적물이 됩니다. 퇴적물이 쌓여 다짐과 교결(속성 작용)을 받으면 퇴적암이 됩니다.",
+    "퇴적암이나 화성암이 깊이 묻혀 높은 열과 압력을 받으면 변성암이 되고, 더 높은 온도에서 녹으면 다시 마그마가 됩니다. 어떤 암석이든 순서에 상관없이 다른 암석이 될 수 있습니다.",
+    "이 순환은 지구 내부 에너지(판 운동, 마그마)와 태양 에너지(풍화, 침식)로 일어납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "퇴적물이 다짐과 교결을 받아 퇴적암이 되는 과정을 {{1}} 작용이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "속성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지학Ⅰ에서 배운 과정입니다.\n암석 순환의 한 단계입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "화강암이 광역 변성 작용을 받으면 줄무늬가 있는 {{1}}이 될 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편마암"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "밝은 광물과 어두운 광물이 띠를 이룹니다.\n우리나라에 넓게 분포합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "셰일이 마그마의 열로 구워져 생긴 단단하고 치밀한 혼펠스는 {{1}} 변성암입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "접촉"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "관입암 주변에서 만들어집니다.\n엽리가 없습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "화성암이 퇴적암이 되는 과정은?",
+   "steps": [
+    "화성암이 지표에 드러나 풍화·침식됩니다.",
+    "만들어진 퇴적물이 운반되어 쌓입니다.",
+    "다짐과 교결로 굳어 퇴적암이 됩니다."
+   ],
+   "answer": "풍화·침식 → 퇴적 → 속성 작용"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "변성암과 암석 순환 정리",
+   "body": [
+    "접촉 변성(열): 사암 → 규암, 석회암 → 대리암, 셰일 → 혼펠스. 광역 변성(열 + 압력, 엽리): 셰일 → 점판암 → 천매암 → 편암 → 편마암.",
+    "암석 순환: 마그마 → 화성암 → 퇴적물 → 퇴적암 → 변성암 → 마그마, 어느 방향으로도 바뀔 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "암석의 순환을 일으키는 에너지는 지구 내부 에너지와 {{1}} 에너지입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "태양"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "내부 에너지는 판 운동과 마그마를, 태양 에너지는 풍화와 침식을 일으킵니다.\n두 에너지가 함께 작용합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "조각상에 쓰는 흰 대리암은 원래 어떤 암석이었을까요?",
+   "steps": [
+    "대리암은 방해석으로 된 변성암입니다.",
+    "방해석이 많은 석회암이 열을 받아 재결정된 것입니다."
+   ],
+   "answer": "석회암"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "묽은 염산에 거품을 내는 변성암은 석회암이 변한 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대리암"
+     ]
+    }
+   ],
+   "hint": "조각상에 쓰는 암석입니다.",
+   "explanation": "방해석(CaCO₃)으로 되어 있습니다.\n산성비에 약합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "편마암에서 밝은 광물과 어두운 광물이 띠를 이룬 줄무늬를 {{1}} 구조라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편마"
+     ]
+    }
+   ],
+   "hint": "편마암의 이름에서 왔습니다.",
+   "explanation": "고도의 광역 변성 작용의 특징입니다.\n엽리의 한 종류입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "변성 작용은 암석이 {{1}} 않은 고체 상태에서 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "녹지"
+     ]
+    }
+   ],
+   "hint": "녹으면 무엇이 되나요?",
+   "explanation": "녹으면 마그마가 되어 화성암이 됩니다.\n광물이 고체 상태에서 재결정됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "변성암이 더 높은 온도에서 녹으면 {{1}}가 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "마그마"
+     ]
+    }
+   ],
+   "hint": "땅속에서 녹은 암석입니다.",
+   "explanation": "마그마가 식으면 다시 화성암이 됩니다.\n암석 순환이 이어집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "얇게 잘 쪼개져 기와나 칠판에 쓰였던 점판암은 {{1}}이 변성된 암석입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "셰일"
+     ]
+    }
+   ],
+   "hint": "점토로 된 퇴적암입니다.",
+   "explanation": "변성 정도가 가장 낮은 광역 변성암입니다.\n점토 광물이 재결정되었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "사암이 변한 규암은 석영 알갱이가 서로 붙어 매우 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단단"
+     ]
+    }
+   ],
+   "hint": "석영의 성질입니다.",
+   "explanation": "풍화에 강해 산꼭대기에 남기도 합니다.\n깨지면 알갱이를 가로질러 깨집니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "퇴적암이 변성암을 거쳐 화성암이 되기까지의 암석 순환 과정을 설명해 보세요.",
+   "hint": "단계별 조건을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "열",
+      "압력"
+     ],
+     [
+      "변성"
+     ],
+     [
+      "녹",
+      "마그마"
+     ],
+     [
+      "식",
+      "화성암"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "퇴적암이 땅속 깊이 묻혀 녹지 않은 상태에서 높은 열과 압력을 받으면 변성 작용으로 변성암이 됩니다. 변성암이 더 높은 온도에서 녹으면 마그마가 되고, 마그마가 식어 굳으면 화성암이 됩니다."
+  }
+ ]
+}

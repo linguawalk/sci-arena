@@ -1,0 +1,405 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch01",
+  "no": 1,
+  "title": "지구의 형성과 내부"
+ },
+ "lesson": {
+  "id": "c8-ch01-l01",
+  "no": 1,
+  "title": "지구의 형성",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "뜨거운 불덩이에서 푸른 행성으로",
+   "body": [
+    "갓 태어난 지구는 표면이 녹은 마그마로 덮인 불덩이였습니다. 지금처럼 단단한 땅, 넓은 바다, 산소가 있는 대기를 갖추기까지 수억 년이 걸렸습니다.",
+    "지구는 어떻게 만들어지고 지금의 층상 구조를 갖게 되었을까요?"
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "numeric",
+   "prompt": "지구는 약 몇 억 년 전에 만들어졌을까요?",
+   "answer": "46",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "hint": null,
+   "explanation": "약 46억 년 전 원시 태양계 성운에서 만들어졌습니다.\n운석의 방사성 연대로 알아냈습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "지구의 형성 과정",
+   "body": [
+    "원시 태양계 성운 속에서 먼지와 얼음이 뭉쳐 미행성이 되고, 미행성들이 충돌하며 원시 지구가 커졌습니다. 충돌 에너지와 방사성 원소의 붕괴열로 지구 표면이 녹아 마그마 바다가 되었습니다.",
+    "마그마 바다에서 무거운 철과 니켈은 가라앉아 핵을 이루고, 가벼운 규산염 물질은 떠올라 맨틀이 되었습니다(밀도 분화).",
+    "미행성 충돌이 줄어 지표가 식자 원시 지각이 생기고, 원시 대기의 수증기가 응결해 비가 내려 원시 바다가 되었습니다. 대기의 이산화 탄소는 바다에 녹아 석회암으로 쌓였고, 이후 남세균의 광합성으로 산소가 늘었습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "원시 지구의 표면이 충돌열로 녹아 형성된 상태를 마그마 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "바다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지표 전체가 녹은 마그마로 덮였습니다.\n이때 밀도 분화가 일어났습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지구의 핵은 주로 무거운 {{1}}과 니켈로 이루어져 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "철"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "마그마 바다에서 가라앉아 중심에 모였습니다.\n그래서 핵의 밀도가 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "원시 지구의 대기에는 산소가 거의 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "없었다",
+      "없었습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "주로 수증기, 이산화 탄소, 질소였습니다.\n산소는 광합성 생물이 나타난 뒤 늘었습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "원시 대기의 이산화 탄소는 어디로 갔을까요?",
+   "steps": [
+    "원시 바다가 생기자 대기의 이산화 탄소가 바닷물에 녹았습니다.",
+    "녹은 이산화 탄소는 칼슘 이온과 결합해 석회암(탄산염 암석)으로 쌓였습니다.",
+    "그래서 대기의 이산화 탄소가 크게 줄었습니다."
+   ],
+   "answer": "바다에 녹아 석회암으로 쌓였다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "지구의 형성 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "핵과 맨틀의 분리"
+    },
+    {
+     "id": "b",
+     "text": "미행성 충돌"
+    },
+    {
+     "id": "c",
+     "text": "원시 지각과 바다 형성"
+    },
+    {
+     "id": "d",
+     "text": "마그마 바다 형성"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "충돌 → 마그마 바다 → 밀도 분화 → 식으면서 지각과 바다 형성 순서입니다.\n이후 생명이 나타났습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "지구의 나이 측정",
+   "body": [
+    "지구 초기의 암석은 판 운동과 풍화로 거의 사라졌기 때문에, 태양계와 함께 만들어져 변하지 않은 운석의 방사성 연대로 지구의 나이(약 46억 년)를 알아냈습니다.",
+    "지구에서 발견된 가장 오래된 광물은 오스트레일리아의 지르콘으로 약 44억 년 전에 만들어졌습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지구의 나이는 태양계와 함께 만들어진 {{1}}의 방사성 연대로 알아냈습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "운석"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지구 초기 암석은 대부분 사라졌습니다.\n운석은 태양계 초기 모습을 간직합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "원시 바다는 원시 대기의 수증기가 {{1}}해 비로 내려 만들어졌습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "응결"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지표가 식으면서 수증기가 물이 되었습니다.\n오랫동안 비가 내렸습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "원시 대기의 이산화 탄소는 바다에 녹아 {{1}}으로 쌓이며 크게 줄었습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "석회암"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "탄산염 암석으로 지권에 저장되었습니다.\n금성은 바다가 없어 CO₂가 대기에 남았습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "지구가 층상 구조를 가지게 된 원인은?",
+   "steps": [
+    "원시 지구가 녹아 마그마 바다 상태였습니다.",
+    "무거운 철과 니켈은 가라앉고 가벼운 규산염은 떠올랐습니다.",
+    "밀도에 따라 핵, 맨틀, 지각으로 나뉘었습니다."
+   ],
+   "answer": "밀도 분화"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "지구 형성 정리",
+   "body": [
+    "미행성 충돌 → 마그마 바다 → 밀도 분화(핵·맨틀) → 원시 지각 → 원시 바다 → CO₂ 감소(석회암) → 광합성으로 산소 증가.",
+    "지구의 나이는 약 46억 년으로, 운석의 방사성 연대로 측정했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "밀도 분화로 무거운 물질은 지구의 {{1}} 쪽으로 모였습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중심",
+      "안쪽",
+      "가운데"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "철과 니켈이 가라앉아 핵이 되었습니다.\n가벼운 물질은 바깥쪽에 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "지구 대기에 산소가 많아진 까닭은?",
+   "steps": [
+    "원시 대기에는 산소가 거의 없었습니다.",
+    "약 27억 년 전부터 바다의 남세균이 광합성으로 산소를 내놓았습니다.",
+    "산소가 바다와 대기에 쌓이며 오존층도 만들어졌습니다."
+   ],
+   "answer": "남세균의 광합성"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "지구의 나이는 약 몇 억 년일까요?",
+   "answer": "46",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "hint": "운석의 나이와 같습니다.",
+   "explanation": "약 46억 년입니다.\n우주의 나이는 약 138억 년입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지구 대기의 산소는 주로 남세균 같은 생물의 {{1}}으로 만들어졌습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "광합성"
+     ]
+    }
+   ],
+   "hint": "빛으로 양분을 만드는 과정입니다.",
+   "explanation": "약 27억 년 전부터 산소가 늘기 시작했습니다.\n스트로마톨라이트가 그 흔적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "원시 지구를 녹인 열은 미행성의 {{1}} 에너지와 방사성 원소의 붕괴열에서 왔습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충돌"
+     ]
+    }
+   ],
+   "hint": "부딪히는 것입니다.",
+   "explanation": "미행성이 부딪히며 운동 에너지가 열로 바뀌었습니다.\n그래서 표면이 녹았습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "달은 원시 지구에 화성만 한 천체가 부딪혀 생겼다는 거대 {{1}}설이 유력합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충돌"
+     ]
+    }
+   ],
+   "hint": "크게 부딪혔다는 뜻입니다.",
+   "explanation": "튀어 나간 물질이 모여 달이 되었다고 봅니다.\n달 암석의 성분이 근거입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지구가 핵, 맨틀, 지각의 층상 구조를 가지게 된 까닭은 구성 물질의 {{1}} 차이입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "밀도"
+     ]
+    }
+   ],
+   "hint": "같은 부피의 무게입니다.",
+   "explanation": "무거운 것은 가라앉고 가벼운 것은 떠올랐습니다.\n밀도 분화라고 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "원시 바다는 대기의 {{1}}를 흡수해 지구의 온실 효과를 줄였습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이산화 탄소",
+      "CO₂",
+      "CO2"
+     ]
+    }
+   ],
+   "hint": "대표적인 온실 기체입니다.",
+   "explanation": "녹은 CO₂가 석회암으로 쌓였습니다.\n그래서 지구는 금성처럼 뜨겁지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "원시 지구에서 핵과 맨틀이 나뉘어 층상 구조가 만들어진 과정을 설명해 보세요.",
+   "hint": "녹은 상태와 밀도 차이를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "마그마 바다",
+      "녹"
+     ],
+     [
+      "철",
+      "무거운"
+     ],
+     [
+      "가라앉",
+      "중심"
+     ],
+     [
+      "밀도"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "미행성 충돌과 방사성 원소의 붕괴열로 원시 지구가 녹아 마그마 바다가 되었습니다. 이때 밀도가 큰 철과 니켈은 가라앉아 중심에 핵을 만들고, 밀도가 작은 규산염 물질은 떠올라 맨틀과 지각이 되어 밀도에 따른 층상 구조가 만들어졌습니다."
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch02",
+  "no": 2,
+  "title": "광물과 암석"
+ },
+ "lesson": {
+  "id": "c8-ch02-l01",
+  "no": 1,
+  "title": "광물의 성질",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "바위를 이루는 알갱이",
+   "body": [
+    "화강암을 가까이 보면 투명한 알갱이, 분홍색 알갱이, 검고 반짝이는 알갱이가 섞여 있습니다. 이 알갱이 하나하나가 광물입니다.",
+    "광물은 저마다 고유한 성질을 가져 구별할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "자연에서 만들어진 고체 무기물로, 일정한 화학 조성과 결정 구조를 가진 물질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "광물"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "암석은 광물이 모여 이루어집니다.\n약 5000종의 광물이 알려져 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "광물을 구별하는 성질",
+   "body": [
+    "조흔색: 광물을 조흔판(유약을 바르지 않은 도자기판)에 긁었을 때 나오는 가루의 색입니다. 겉보기 색이 비슷한 금(노란색)과 황철석(검은색)도 조흔색으로 구별합니다.",
+    "굳기: 광물의 단단한 정도로, 두 광물을 서로 긁어 비교합니다. 모스 굳기계는 활석(1)부터 다이아몬드(10)까지 10가지 광물을 기준으로 삼으며, 석영은 7입니다.",
+    "쪼개짐과 깨짐: 특정 방향으로 평평하게 갈라지면 쪼개짐(운모는 한 방향, 방해석은 세 방향), 불규칙하게 부서지면 깨짐(석영)입니다. 그 밖에 묽은 염산에 거품을 내는 방해석, 자석에 붙는 자철석처럼 특수한 성질도 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "광물을 조흔판에 긁었을 때 나오는 가루의 색을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "조흔색"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "겉보기 색보다 일정해 광물을 구별하기 좋습니다.\n금과 황철석을 구별할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "모스 굳기계에서 석영의 굳기는 얼마일까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "석영의 굳기는 7입니다.\n유리를 긁을 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "운모는 한 방향으로 얇게 떨어지는 {{1}}이 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "쪼개짐"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "결합이 약한 방향으로 평평하게 갈라집니다.\n책장처럼 얇게 떨어집니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "겉보기에 모두 금빛인 금과 황철석을 구별하는 방법은?",
+   "steps": [
+    "두 광물을 조흔판에 긁어 조흔색을 비교합니다.",
+    "금의 조흔색은 노란색, 황철석의 조흔색은 검은색입니다.",
+    "그래서 황철석을 '바보의 금'이라고도 합니다."
+   ],
+   "answer": "조흔색으로 구별한다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "묽은 염산을 떨어뜨리면 거품(CO₂)이 생기는 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "방해석"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "탄산 칼슘으로 된 탄산염 광물입니다.\n석회암의 주요 광물입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "결정과 광물의 분류",
+   "body": [
+    "광물은 원자나 이온이 규칙적으로 배열된 결정 구조를 가지며, 조건이 좋으면 고유한 모양의 결정으로 자랍니다.",
+    "광물은 화학 조성에 따라 규산염 광물(석영, 장석, 운모 등), 탄산염 광물(방해석), 산화 광물(자철석, 적철석), 황화 광물(황철석) 등으로 나눕니다. 지각의 광물은 대부분 규산염 광물입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "모스 굳기계에서 가장 무른 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "활석"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "손톱으로도 긁힙니다.\n가장 단단한 것은 다이아몬드(10)입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "자석에 붙는 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자철석"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "철의 산화 광물입니다.\n철광석으로 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "석영은 쪼개짐 없이 불규칙하게 부서지는 {{1}}을 보입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "깨짐"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "조개껍데기 같은 곡면으로 깨집니다.\n모든 방향의 결합 세기가 비슷합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "두 광물의 굳기를 비교하는 방법은?",
+   "steps": [
+    "두 광물을 서로 긁어 봅니다.",
+    "긁힌 자국이 남는 쪽이 더 무른 광물입니다.",
+    "모스 굳기계의 기준 광물과 비교하면 굳기를 숫자로 나타낼 수 있습니다."
+   ],
+   "answer": "서로 긁어 긁히는 쪽이 무르다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "광물의 성질 정리",
+   "body": [
+    "조흔색, 굳기(모스 굳기계: 활석 1 ~ 다이아몬드 10, 석영 7), 쪼개짐(운모·방해석)과 깨짐(석영), 염산 반응(방해석), 자성(자철석), 광택.",
+    "광물은 규칙적인 결정 구조를 가지며, 지각에는 규산염 광물이 가장 많습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "두 광물의 굳기는 서로 {{1}} 비교합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "긁어"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "긁히는 쪽이 더 무릅니다.\n모스 굳기는 상대적인 순서입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "광물 A로 광물 B를 긁었더니 A에 자국이 남았습니다. 더 단단한 것은?",
+   "steps": [
+    "긁힌 자국이 남은 쪽이 더 무릅니다.",
+    "A에 자국이 남았으므로 A가 무르고 B가 단단합니다."
+   ],
+   "answer": "B"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "광물 A와 B를 서로 긁었더니 A에 자국이 남았습니다. 더 단단한 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "B"
+     ]
+    }
+   ],
+   "hint": "자국이 남지 않은 쪽입니다.",
+   "explanation": "긁히는 쪽이 무릅니다.\nB가 A를 긁었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "황철석의 조흔색은 {{1}}색입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "검은"
+     ]
+    }
+   ],
+   "hint": "금과 구별되는 색입니다.",
+   "explanation": "겉은 금빛이지만 가루는 검습니다.\n금은 노란색입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "모스 굳기계에서 다이아몬드의 굳기는 얼마일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "가장 큰 값입니다.",
+   "explanation": "가장 단단한 기준 광물입니다.\n유리와 모든 광물을 긁습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "방해석은 몇 방향으로 쪼개질까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "마름모꼴 육면체가 됩니다.",
+   "explanation": "세 방향으로 쪼개져 마름모꼴 조각이 됩니다.\n운모는 한 방향입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "황철석과 금처럼 금속처럼 반짝이는 광택을 {{1}} 광택이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "금속"
+     ]
+    }
+   ],
+   "hint": "쇠붙이 같은 광택입니다.",
+   "explanation": "빛을 강하게 반사합니다.\n석영은 유리 광택입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "광물은 원자가 규칙적으로 배열된 {{1}} 구조를 가집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "결정"
+     ]
+    }
+   ],
+   "hint": "규칙적인 배열입니다.",
+   "explanation": "유리처럼 불규칙한 것은 광물이 아닙니다.\n그래서 일정한 성질을 가집니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "광물을 구별하는 데 쓰이는 성질을 세 가지 이상 설명해 보세요.",
+   "hint": "세 가지 이상을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "조흔색"
+     ],
+     [
+      "굳기"
+     ],
+     [
+      "쪼개짐",
+      "깨짐"
+     ],
+     [
+      "염산",
+      "자성",
+      "광택"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "광물은 조흔판에 긁었을 때 나오는 가루의 색인 조흔색, 서로 긁어 비교하는 굳기, 특정 방향으로 평평하게 갈라지는 쪼개짐이나 불규칙한 깨짐으로 구별합니다. 방해석의 염산 반응이나 자철석의 자성 같은 특수한 성질도 이용합니다."
+  }
+ ]
+}

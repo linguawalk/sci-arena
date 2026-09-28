@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "level": 1,
+  "course": {
+    "id": "c8",
+    "title": "지학Ⅱ",
+    "description": "지구 내부와 암석, 대기와 해수의 운동, 천구와 행성의 운동"
+  },
+  "totals": {
+    "chapters": 8,
+    "lessons": 32,
+    "lesson_questions": 512,
+    "review_questions": 80,
+    "questions": 592
+  },
+  "chapters": [
+    {
+      "no": 1,
+      "id": "c8-ch01",
+      "title": "지구의 형성과 내부",
+      "dir": "ch01",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 2,
+      "id": "c8-ch02",
+      "title": "광물과 암석",
+      "dir": "ch02",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 3,
+      "id": "c8-ch03",
+      "title": "지질 구조와 한반도",
+      "dir": "ch03",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 4,
+      "id": "c8-ch04",
+      "title": "대기의 운동",
+      "dir": "ch04",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 5,
+      "id": "c8-ch05",
+      "title": "해수의 운동",
+      "dir": "ch05",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 6,
+      "id": "c8-ch06",
+      "title": "천구와 좌표계",
+      "dir": "ch06",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 7,
+      "id": "c8-ch07",
+      "title": "행성의 운동",
+      "dir": "ch07",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 8,
+      "id": "c8-ch08",
+      "title": "우주 관측과 탐사",
+      "dir": "ch08",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    }
+  ]
+}

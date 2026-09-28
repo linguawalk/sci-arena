@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c8",
+  "chapter": {
+    "id": "c8-ch08",
+    "no": 8,
+    "title": "우주 관측과 탐사"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c8-ch08-l01",
+      "title": "망원경",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c8-ch08-l02",
+      "title": "전자기파 관측과 우주 망원경",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c8-ch08-l03",
+      "title": "다파장 관측",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c8-ch08-l04",
+      "title": "외계 행성과 생명 탐사",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c8-ch08-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

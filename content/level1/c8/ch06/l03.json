@@ -1,0 +1,341 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch06",
+  "no": 6,
+  "title": "천구와 좌표계"
+ },
+ "lesson": {
+  "id": "c8-ch06-l03",
+  "no": 3,
+  "title": "적도 좌표계",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "하늘의 경도와 위도",
+   "body": [
+    "지평 좌표는 시간과 장소에 따라 바뀌어 별의 '주소'로 쓰기 어렵습니다.",
+    "지구의 경도와 위도처럼, 천구에도 별마다 거의 변하지 않는 좌표를 붙일 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "적경과 적위로 천체의 위치를 나타내는 좌표계를 {{1}} 좌표계라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "천구의 적도를 기준으로 합니다.\n별의 좌표가 거의 변하지 않습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "적경과 적위",
+   "body": [
+    "적위는 천구의 적도에서 천체까지 남북으로 잰 각입니다. 북쪽은 +, 남쪽은 −로 나타내며 −90°~+90°입니다. 천구의 북극은 +90°입니다.",
+    "적경은 춘분점을 기준으로 천구의 적도를 따라 서쪽에서 동쪽으로 잰 각으로, 시간 단위(0h~24h)로 나타냅니다. 1h = 15°입니다.",
+    "별의 적경과 적위는 관측 장소와 시각에 관계없이 거의 일정하므로 성도(별 지도)를 만드는 데 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "적경을 재는 기준점은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "춘분점"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "춘분점의 적경이 0h입니다.\n동쪽으로 갈수록 커집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "적경 1h는 몇 °일까요?",
+   "answer": "15",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "24h = 360°이므로 1h = 15°입니다.\n지구가 1시간에 15° 자전하는 것과 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "천구의 북극의 적위는 몇 °일까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "천구의 북극은 적위 +90°입니다.\n천구의 적도는 0°입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "적경 6h, 적위 +20°인 별의 위치는?",
+   "steps": [
+    "적경 6h = 90°이므로 춘분점에서 동쪽으로 천구의 적도를 따라 90° 간 곳입니다.",
+    "적위 +20°이므로 거기서 북쪽으로 20° 올라간 곳에 있습니다."
+   ],
+   "answer": "춘분점에서 동쪽으로 90°, 적도에서 북쪽으로 20°"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "적경 6h는 각도로 몇 °일까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "6 × 15 = 90°입니다.\n하지점의 적경입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "태양의 적경과 적위 변화",
+   "body": [
+    "태양은 황도를 따라 1년에 한 바퀴 돌므로 적경과 적위가 계속 변합니다. 춘분: 적경 0h, 적위 0°. 하지: 6h, +23.5°. 추분: 12h, 0°. 동지: 18h, −23.5°.",
+    "태양의 적경은 하루에 약 1°(약 4분)씩 커집니다.",
+    "어떤 별은 태양과의 적경 차이만큼 시간이 지난 뒤 남중합니다. 한밤중(자정)에 남중하는 별의 적경은 그날 태양의 적경 + 12h입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "하짓날 태양의 적경은 몇 h일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "춘분 0h에서 석 달 동안 6h가 됩니다.\n적위는 +23.5°입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "동짓날 태양의 적위는 몇 °일까요?",
+   "answer": "-23.5",
+   "answer_format": "decimal",
+   "tolerance": 0.2,
+   "hint": null,
+   "explanation": "동지에는 태양이 천구의 적도보다 23.5° 남쪽에 있습니다.\n그래서 남중 고도가 가장 낮습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "추분날 태양의 적경은 몇 h일까요?",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "추분점의 적경은 12h입니다.\n적위는 0°입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "춘분날 자정에 남중하는 별의 적경은?",
+   "steps": [
+    "춘분날 태양의 적경은 0h입니다.",
+    "자정은 정오(태양 남중)보다 12시간 뒤입니다.",
+    "자정에 남중하는 별의 적경은 0h + 12h = 12h입니다."
+   ],
+   "answer": "12h"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "적도 좌표계 정리",
+   "body": [
+    "적위: 천구의 적도 기준 남북(−90°~+90°). 적경: 춘분점 기준 동쪽(0h~24h, 1h = 15°).",
+    "별의 좌표는 거의 불변. 태양: 춘분(0h, 0°), 하지(6h, +23.5°), 추분(12h, 0°), 동지(18h, −23.5°)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "적도 좌표계에서 별의 좌표는 관측 장소와 시각에 관계없이 거의 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일정"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "그래서 성도를 만들 수 있습니다.\n지평 좌표계와 다른 점입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "위도 40°N에서 적위 +40°인 별이 남중하면 고도는?",
+   "steps": [
+    "남중 고도 = 90° − 위도 + 적위입니다.",
+    "= 90 − 40 + 40 = 90°입니다.",
+    "이 별은 천정을 지납니다."
+   ],
+   "answer": "90°(천정)"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "춘분날 자정에 남중하는 별의 적경은 몇 h일까요?",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "태양의 적경에 12h를 더하세요.",
+   "explanation": "태양 적경 0h + 12h = 12h입니다.\n봄철 별자리가 이 무렵에 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "위도 40°N에서 적위 +40°인 별이 남중할 때 고도는 몇 °일까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "남중 고도 = 90° − 위도 + 적위입니다.",
+   "explanation": "90 − 40 + 40 = 90°입니다.\n적위 = 위도이면 천정을 지납니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "위도 37.5°N에서 적위 0°인 별이 남중할 때 고도는 몇 °일까요?",
+   "answer": "52.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "90° − 위도 + 적위입니다.",
+   "explanation": "90 − 37.5 + 0 = 52.5°입니다.\n천구의 적도 위의 별입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "북극성의 적위는 약 몇 °일까요?",
+   "answer": "89",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "hint": "천구의 북극 근처입니다.",
+   "explanation": "북극성은 천구의 북극에서 약 1° 떨어져 있습니다.\n적위 약 +89°입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "적경이 1h 차이 나는 두 별은 약 몇 시간 간격으로 남중할까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1h = 15°입니다.",
+   "explanation": "천구는 1시간에 15°(1h) 돕니다.\n적경이 큰 별이 1시간 뒤에 남중합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "위도 φ인 곳에서 적위가 90° − φ보다 큰 별은 지평선 아래로 지지 않는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주극성"
+     ]
+    }
+   ],
+   "hint": "극 둘레를 도는 별입니다.",
+   "explanation": "천구의 북극 둘레를 돌며 항상 보입니다.\n북두칠성은 우리나라에서 대부분 주극성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "적도 좌표계의 적경과 적위를 설명하고, 지평 좌표계보다 좋은 점을 말해 보세요.",
+   "hint": "두 좌표의 정의와 장점을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "적위",
+      "천구의 적도"
+     ],
+     [
+      "적경",
+      "춘분점"
+     ],
+     [
+      "일정",
+      "변하지"
+     ],
+     [
+      "지평",
+      "장소",
+      "시각"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "적위는 천구의 적도에서 남북으로 잰 각(−90°~+90°)이고, 적경은 춘분점에서 천구의 적도를 따라 동쪽으로 잰 각(0h~24h)입니다. 지평 좌표는 관측 장소와 시각에 따라 변하지만 적도 좌표는 별마다 거의 일정해 성도를 만들고 별의 위치를 기록하는 데 편리합니다."
+  }
+ ]
+}

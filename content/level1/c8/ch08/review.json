@@ -1,0 +1,186 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch08",
+  "no": 8,
+  "title": "우주 관측과 탐사"
+ },
+ "review": {
+  "id": "c8-ch08-review",
+  "title": "우주 관측과 탐사 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "구경이 3배인 망원경의 집광력은 몇 배일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "구경의 제곱입니다.",
+   "explanation": "집광력 ∝ D²이므로 9배입니다.\n더 어두운 천체를 볼 수 있습니다.",
+   "source_lesson": "c8-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "대물렌즈 초점 거리 900 mm, 접안렌즈 초점 거리 30 mm인 망원경의 배율은 몇 배일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "초점 거리의 비입니다.",
+   "explanation": "900 ÷ 30 = 30배입니다.\n대물 ÷ 접안입니다.",
+   "source_lesson": "c8-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "대형 망원경은 색수차가 없고 크게 만들기 쉬운 {{1}} 망원경입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반사"
+     ]
+    }
+   ],
+   "hint": "거울을 씁니다.",
+   "explanation": "오목 거울로 빛을 모읍니다.\n굴절 망원경은 렌즈를 씁니다.",
+   "source_lesson": "c8-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지구 대기를 잘 통과해 지상에서 관측할 수 있는 파장 영역을 대기의 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "창"
+     ]
+    }
+   ],
+   "hint": "빛이 드나드는 곳입니다.",
+   "explanation": "가시광선과 전파가 해당합니다.\n나머지는 우주에서 관측합니다.",
+   "source_lesson": "c8-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "제임스 웹 우주 망원경은 주로 {{1}}을 관측합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "hint": "열선이라고도 합니다.",
+   "explanation": "먼 원시 은하와 먼지 속 별 탄생을 봅니다.\nL2 지점에 있습니다.",
+   "source_lesson": "c8-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "블랙홀 주변의 매우 뜨거운 기체는 {{1}}으로 관측합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "X선"
+     ]
+    }
+   ],
+   "hint": "뼈 사진에 쓰는 전자기파입니다.",
+   "explanation": "수백만 K 이상의 기체입니다.\n우주 망원경이 필요합니다.",
+   "source_lesson": "c8-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "먼지 구름 속에서 태어나는 별은 먼지를 잘 통과하는 {{1}}으로 관측합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "hint": "가시광선보다 긴 파장입니다.",
+   "explanation": "가시광선은 먼지에 가려집니다.\n파장이 깁니다.",
+   "source_lesson": "c8-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "별빛의 도플러 효과로 행성의 존재를 알아내는 방법을 {{1}} 방법이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시선 속도"
+     ]
+    }
+   ],
+   "hint": "관측자 방향의 속도입니다.",
+   "explanation": "별이 행성 때문에 흔들립니다.\n적색·청색 편이를 측정합니다.",
+   "source_lesson": "c8-ch08-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "식 현상으로 별의 밝기가 4% 줄었다면 행성의 반지름은 별 반지름의 몇 배일까요?",
+   "answer": "0.2",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "제곱근을 구하세요.",
+   "explanation": "√0.04 = 0.2입니다.\n밝기 감소율 = (R_p/R_s)²입니다.",
+   "source_lesson": "c8-ch08-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "행성 표면에 액체 물이 있을 수 있는 별 주위의 영역을 생명 {{1}} 지대라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가능"
+     ]
+    }
+   ],
+   "hint": "생명이 살 수 있다는 뜻입니다.",
+   "explanation": "뜨거운 별일수록 멀고 넓습니다.\n지구는 이 안에 있습니다.",
+   "source_lesson": "c8-ch08-l04"
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch03",
+  "no": 3,
+  "title": "지질 구조와 한반도"
+ },
+ "review": {
+  "id": "c8-ch03-review",
+  "title": "지질 구조와 한반도 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "습곡에서 아래로 오목하게 휜 부분을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "향사"
+     ]
+    }
+   ],
+   "hint": "배사와 짝을 이룹니다.",
+   "explanation": "중심에 젊은 지층이 있습니다.\n위로 볼록한 부분은 배사입니다.",
+   "source_lesson": "c8-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "장력을 받아 상반이 아래로 내려간 단층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정단층"
+     ]
+    }
+   ],
+   "hint": "상반이 내려갔습니다.",
+   "explanation": "발산형 경계에서 잘 생깁니다.\n지각이 늘어납니다.",
+   "source_lesson": "c8-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "횡압력을 받아 상반이 위로 올라간 단층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역단층"
+     ]
+    }
+   ],
+   "hint": "상반이 올라갔습니다.",
+   "explanation": "수렴형 경계에서 잘 생깁니다.\n지각이 짧아집니다.",
+   "source_lesson": "c8-ch03-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "용암이 식으며 수축해 생긴 기둥 모양의 절리는 {{1}} 절리입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주상"
+     ]
+    }
+   ],
+   "hint": "기둥 모양입니다.",
+   "explanation": "현무암에서 잘 발달합니다.\n제주도 해안이 대표적입니다.",
+   "source_lesson": "c8-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "마그마가 지층면과 나란하게 파고들어 굳은 관입암은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "암상"
+     ]
+    }
+   ],
+   "hint": "지층과 나란합니다.",
+   "explanation": "지층을 가로지르면 암맥입니다.\n지층 사이에 끼어 있습니다.",
+   "source_lesson": "c8-ch03-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지층면과 수평면이 만나 생긴 선의 방향을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주향"
+     ]
+    }
+   ],
+   "hint": "지층의 방향입니다.",
+   "explanation": "N30°E처럼 나타냅니다.\n경사 방향과 수직입니다.",
+   "source_lesson": "c8-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지질도에서 지층 경계선이 등고선과 나란하면 {{1}}층입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수평"
+     ]
+    }
+   ],
+   "hint": "기울어지지 않은 지층입니다.",
+   "explanation": "같은 높이에 경계가 있습니다.\n경사가 0°입니다.",
+   "source_lesson": "c8-ch03-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "석회암이 많고 삼엽충 화석이 나오는 한반도 고생대 전기 지층은 {{1}} 누층군입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "조선"
+     ]
+    }
+   ],
+   "hint": "해성층입니다.",
+   "explanation": "얕은 바다에서 쌓였습니다.\n석회 동굴이 발달합니다.",
+   "source_lesson": "c8-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "공룡 발자국 화석이 많은 한반도 중생대 백악기 지층은 {{1}} 누층군입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경상"
+     ]
+    }
+   ],
+   "hint": "경상도의 지층입니다.",
+   "explanation": "호수에서 쌓인 육성층입니다.\n경상도 일대에 분포합니다.",
+   "source_lesson": "c8-ch03-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "중생대 쥐라기 조산 운동으로 만들어진 한반도의 대표적 화강암은 {{1}} 화강암입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대보"
+     ]
+    }
+   ],
+   "hint": "조산 운동의 이름입니다.",
+   "explanation": "북한산과 설악산을 이룹니다.\n국토의 약 30%에 분포합니다.",
+   "source_lesson": "c8-ch03-l04"
+  }
+ ]
+}

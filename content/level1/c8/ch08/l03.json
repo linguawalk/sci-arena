@@ -1,0 +1,396 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch08",
+  "no": 8,
+  "title": "우주 관측과 탐사"
+ },
+ "lesson": {
+  "id": "c8-ch08-l03",
+  "no": 3,
+  "title": "다파장 관측",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "보이지 않는 빛으로 본 우주",
+   "body": [
+    "게성운을 가시광선으로 보면 실타래 같은 가스가 보이고, X선으로 보면 한가운데 뜨거운 중성자별 주변이 밝게 빛나며, 전파로 보면 넓게 퍼진 구름이 보입니다.",
+    "같은 천체도 파장마다 다른 모습을 보여 줍니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "여러 파장의 전자기파로 같은 천체를 관측하는 것을 {{1}} 관측이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다파장"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "파장마다 천체의 다른 성질이 드러납니다.\n종합하면 전체 모습을 알 수 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "파장별로 보이는 것",
+   "body": [
+    "전파: 차가운 성간 수소 기체(파장 21 cm), 펄서, 우주 배경 복사(마이크로파)를 관측합니다. 적외선: 먼지 구름 속에서 태어나는 별, 적색 편이가 큰 먼 원시 은하를 봅니다.",
+    "가시광선: 별과 은하의 모습을 봅니다. 자외선: 뜨겁고 젊은 별을 관측합니다.",
+    "X선: 수백만 K 이상의 매우 뜨거운 기체를 봅니다(블랙홀 주변의 원반, 초신성 잔해, 은하단의 뜨거운 가스). 감마선: 감마선 폭발 같은 가장 격렬한 현상을 봅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "블랙홀 주변의 매우 뜨거운 기체는 주로 {{1}}으로 관측합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "X선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "수백만 K 이상의 기체는 X선을 강하게 냅니다.\n찬드라 관측선이 관측합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "먼지 구름 속에서 태어나는 별은 {{1}}으로 잘 관측됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "적외선은 먼지를 잘 통과합니다.\n가시광선으로는 가려서 보이지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "차가운 성간 수소 기체는 파장 21 cm의 {{1}}로 관측합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "우리은하의 나선팔 구조를 밝혔습니다.\n전파 망원경으로 관측합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "천체의 온도에 따라 주로 관측하는 파장이 다른 이유는?",
+   "steps": [
+    "온도가 높은 물체일수록 더 짧은 파장의 빛을 많이 냅니다(빈의 변위 법칙).",
+    "수천 K인 별은 가시광선, 수만 K는 자외선, 수백만 K 기체는 X선을 강하게 냅니다.",
+    "차가운 먼지와 기체는 적외선과 전파를 냅니다."
+   ],
+   "answer": "뜨거울수록 짧은 파장을 내기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "빅뱅의 흔적인 우주 배경 복사는 {{1}}파 영역에서 관측됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "마이크로"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "약 2.7 K에 해당하는 복사입니다.\n전파의 한 영역입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "전파 간섭계",
+   "body": [
+    "전파는 파장이 길어 분해능이 낮으므로, 멀리 떨어진 여러 전파 망원경을 연결해 하나의 거대한 망원경처럼 쓰는 전파 간섭계를 이용합니다.",
+    "2019년 전 세계 전파 망원경을 연결한 사건의 지평선 망원경(EHT)은 M87 은하 중심 블랙홀의 그림자를 처음 촬영했습니다.",
+    "우리나라도 서울, 울산, 제주의 전파 망원경을 연결한 한국우주전파관측망(KVN)을 운영합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "2019년 사건의 지평선 망원경은 {{1}}의 그림자를 처음 촬영했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "블랙홀"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "M87 은하 중심의 초대질량 블랙홀입니다.\n전파 간섭계로 얻었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "온도가 높은 천체일수록 더 {{1}} 파장의 빛을 많이 냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧은"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "빈의 변위 법칙입니다.\n그래서 뜨거운 기체는 X선을 냅니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "초신성 폭발 뒤 남은 뜨거운 잔해는 {{1}}으로 밝게 관측됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "X선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "충격파로 가열된 기체가 수백만 K입니다.\n게성운이 그 예입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "먼 원시 은하를 적외선으로 관측하는 이유는?",
+   "steps": [
+    "우주가 팽창하므로 먼 은하의 빛은 오는 동안 파장이 길어집니다(적색 편이).",
+    "원래 가시광선이나 자외선이었던 빛이 적외선으로 바뀌어 도착합니다.",
+    "그래서 제임스 웹 같은 적외선 망원경으로 관측합니다."
+   ],
+   "answer": "적색 편이로 빛이 적외선이 되었기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "다파장 관측 정리",
+   "body": [
+    "전파(차가운 수소, 펄서, 우주 배경 복사), 적외선(먼지 속 별 탄생, 원시 은하), 가시광선(별), 자외선(뜨거운 젊은 별), X선(블랙홀 주변, 초신성 잔해, 은하단 가스), 감마선(감마선 폭발).",
+    "뜨거울수록 짧은 파장. 전파 간섭계로 분해능을 높입니다(EHT, KVN)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "다파장 관측을 하면 같은 천체의 서로 다른 {{1}}을 알 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "성질",
+      "모습",
+      "면"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "온도, 구성, 활동이 파장마다 드러납니다.\n종합해야 전체를 이해합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "은하단 사이를 채운 수천만 K의 기체는 어떤 파장으로 관측할까요?",
+   "steps": [
+    "매우 뜨거운 기체는 짧은 파장의 빛을 강하게 냅니다.",
+    "수천만 K 기체는 X선을 냅니다."
+   ],
+   "answer": "X선"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "은하단을 채운 수천만 K의 뜨거운 기체는 {{1}}으로 관측합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "X선"
+     ]
+    }
+   ],
+   "hint": "매우 뜨거운 물체가 내는 빛입니다.",
+   "explanation": "은하단 질량의 상당 부분이 이 기체입니다.\n우주 망원경으로 관측합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "매우 먼 원시 은하의 빛은 적색 편이 때문에 주로 {{1}}으로 관측됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "hint": "가시광선보다 긴 파장입니다.",
+   "explanation": "파장이 길어져 도착합니다.\n제임스 웹의 주요 목표입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "여러 전파 망원경을 연결한 전파 간섭계는 {{1}}을 크게 높입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분해능"
+     ]
+    }
+   ],
+   "hint": "세밀하게 구별하는 능력입니다.",
+   "explanation": "망원경 사이 거리가 구경처럼 작용합니다.\n지구 크기의 망원경도 만들 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "빠르게 자전하며 규칙적인 신호를 내는 중성자별인 펄서는 주로 {{1}}로 발견되었습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전파"
+     ]
+    }
+   ],
+   "hint": "파장이 가장 긴 전자기파입니다.",
+   "explanation": "1967년 전파 관측으로 처음 발견되었습니다.\n우주의 등대라고 부릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "뜨겁고 젊은 별은 {{1}}을 강하게 냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자외선"
+     ]
+    }
+   ],
+   "hint": "가시광선보다 조금 짧은 파장입니다.",
+   "explanation": "표면 온도가 수만 K입니다.\n푸른색으로 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "전자기파 가운데 에너지가 가장 커서 가장 격렬한 천체 현상을 보여 주는 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감마선"
+     ]
+    }
+   ],
+   "hint": "파장이 가장 짧은 전자기파입니다.",
+   "explanation": "감마선 폭발은 우주에서 가장 밝은 폭발입니다.\n우주 망원경으로 관측합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "천체를 여러 파장으로 관측해야 하는 이유를 예를 들어 설명해 보세요.",
+   "hint": "파장별 예를 들어 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "파장"
+     ],
+     [
+      "온도"
+     ],
+     [
+      "X선",
+      "적외선",
+      "전파"
+     ],
+     [
+      "다른",
+      "종합"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "천체는 온도와 상태에 따라 서로 다른 파장의 전자기파를 냅니다. 예를 들어 먼지 속에서 태어나는 별은 적외선으로, 블랙홀 주변의 뜨거운 기체는 X선으로, 차가운 수소 기체는 전파로 잘 보이므로 여러 파장의 관측을 종합해야 천체의 전체 모습을 알 수 있습니다."
+  }
+ ]
+}

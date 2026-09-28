@@ -1,0 +1,394 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch08",
+  "no": 8,
+  "title": "우주 관측과 탐사"
+ },
+ "lesson": {
+  "id": "c8-ch08-l02",
+  "no": 2,
+  "title": "전자기파 관측과 우주 망원경",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "대기가 가린 하늘",
+   "body": [
+    "지구 대기는 해로운 자외선과 X선을 막아 우리를 보호하지만, 천문학자에게는 그 빛들을 볼 수 없게 하는 장벽입니다.",
+    "그래서 망원경을 우주로 보냅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "지구 대기를 잘 통과해 지표까지 도달하는 전자기파의 파장 영역을 대기의 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "창"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가시광선 창과 전파 창이 있습니다.\n이 파장은 지상에서 관측할 수 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "대기의 창과 우주 망원경",
+   "body": [
+    "가시광선과 전파는 대기를 잘 통과해 지상 망원경으로 관측할 수 있습니다. 적외선 일부는 높은 산에서 관측할 수 있습니다.",
+    "감마선, X선, 자외선과 대부분의 적외선은 대기(오존, 수증기 등)에 흡수되어 지표에 도달하지 못하므로 우주 망원경으로 관측해야 합니다.",
+    "허블 우주 망원경(1990년, 지구 궤도)은 가시광선과 자외선을, 제임스 웹 우주 망원경(2021년, 지구에서 약 150만 km 떨어진 L2 지점)은 적외선을, 찬드라 X선 관측선은 X선을 관측합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지상에서 관측할 수 있는 대표적인 전자기파는 가시광선과 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 파장 영역이 대기를 잘 통과합니다.\n대기의 창이라고 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "X선은 대기에 흡수되므로 {{1}} 망원경으로 관측해야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "우주"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지표까지 도달하지 못합니다.\n찬드라 X선 관측선이 대표적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "제임스 웹 우주 망원경은 주로 {{1}}을 관측합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "먼 은하와 먼지 속 별 탄생을 봅니다.\n2021년에 발사되었습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "적외선 우주 망원경을 매우 차갑게 유지하는 이유는?",
+   "steps": [
+    "온도를 가진 물체는 모두 적외선을 냅니다.",
+    "망원경 자체가 따뜻하면 스스로 내는 적외선이 관측을 방해합니다.",
+    "그래서 차양막으로 햇빛을 가리고 매우 낮은 온도로 유지합니다."
+   ],
+   "answer": "망원경 자체의 적외선 복사를 줄이려고"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "적외선 망원경은 스스로 내는 {{1}}이 관측을 방해하지 않도록 매우 차갑게 유지합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "따뜻한 물체는 적외선을 냅니다.\n제임스 웹은 약 −230 °C로 유지됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "우주 망원경의 장단점",
+   "body": [
+    "장점: 대기의 흔들림이 없어 매우 선명한 상을 얻고, 대기가 흡수하는 파장도 관측할 수 있으며, 날씨나 낮밤의 영향을 받지 않습니다.",
+    "단점: 만들고 발사하는 비용이 매우 크고, 고장이 나면 수리하기 어렵습니다.",
+    "지상의 대형 망원경은 대기가 얇고 건조하며 빛 공해가 없는 높은 산이나 사막(칠레 아타카마, 하와이 마우나케아)에 세웁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "허블 우주 망원경은 지구 {{1}}을 돌며 관측합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "궤도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지상 약 540 km 높이입니다.\n우주 왕복선이 여러 번 수리했습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "적외선을 지상에서 관측하려면 수증기가 적은 {{1}} 산 위에 망원경을 세웁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높은"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "적외선은 수증기에 잘 흡수됩니다.\n대기가 얇고 건조한 곳이 유리합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전파 망원경은 낮이나 흐린 날에도 {{1}}할 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "관측"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전파는 구름을 통과하고 햇빛의 방해를 덜 받습니다.\n24시간 관측이 가능합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "허블 우주 망원경이 지상 망원경보다 구경이 작은데도 더 선명한 사진을 찍는 이유는?",
+   "steps": [
+    "지상 망원경은 대기의 흔들림 때문에 별빛이 번집니다.",
+    "허블은 대기 밖에 있어 흔들림이 없습니다.",
+    "그래서 구경이 작아도 분해능을 거의 이론값만큼 얻습니다."
+   ],
+   "answer": "대기의 흔들림이 없기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전자기파 관측 정리",
+   "body": [
+    "대기의 창: 가시광선, 전파(일부 적외선). 감마선·X선·자외선·대부분의 적외선은 우주 망원경 필요.",
+    "허블(가시광선·자외선), 제임스 웹(적외선, L2), 찬드라(X선). 우주 망원경: 선명, 모든 파장, 날씨 무관 / 비용, 수리 어려움."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "대기가 전자기파를 흡수하는 것은 주로 오존과 {{1}} 등의 성분 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수증기"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "오존은 자외선을, 수증기는 적외선을 흡수합니다.\n그래서 우주 망원경이 필요합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "뜨거운 젊은 별이 내는 자외선을 관측하려면 어디에 망원경을 두어야 할까요?",
+   "steps": [
+    "자외선은 대기의 오존층에 흡수됩니다.",
+    "지표에서는 관측할 수 없으므로 대기 밖의 우주 망원경이 필요합니다."
+   ],
+   "answer": "우주"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "자외선 천체 관측은 대기의 영향을 피하기 위해 {{1}}에서 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "우주"
+     ]
+    }
+   ],
+   "hint": "대기 밖입니다.",
+   "explanation": "오존층이 자외선을 흡수합니다.\n허블 우주 망원경이 자외선도 관측합니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "대기 중의 {{1}}은 자외선을 흡수합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오존"
+     ]
+    }
+   ],
+   "hint": "O₃입니다.",
+   "explanation": "성층권의 오존층입니다.\n생명체를 자외선으로부터 보호합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "제임스 웹 우주 망원경은 지구에서 약 150만 km 떨어진 {{1}} 지점에 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "L2"
+     ]
+    }
+   ],
+   "hint": "두 번째 라그랑주점입니다.",
+   "explanation": "태양과 지구의 중력이 균형을 이루는 라그랑주점입니다.\n태양과 지구를 항상 한쪽에 둡니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지상 대형 망원경은 대기가 얇고 건조하며 빛 공해가 없는 높은 산이나 {{1}}에 세웁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "사막"
+     ]
+    }
+   ],
+   "hint": "비가 거의 오지 않는 곳입니다.",
+   "explanation": "칠레 아타카마 사막이 대표적입니다.\n맑은 날이 많습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "우주 망원경의 단점은 만들고 발사하는 {{1}}이 매우 크다는 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비용"
+     ]
+    }
+   ],
+   "hint": "돈과 관련된 것입니다.",
+   "explanation": "수리도 어렵습니다.\n그래서 지상 망원경과 함께 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "적외선은 가시광선보다 파장이 길어 성간 {{1}}를 잘 통과합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "먼지"
+     ]
+    }
+   ],
+   "hint": "우주 공간의 작은 알갱이입니다.",
+   "explanation": "그래서 먼지 구름 속에서 태어나는 별을 볼 수 있습니다.\n가시광선은 먼지에 가려집니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "우주 망원경이 필요한 이유를 대기의 영향과 관련지어 설명해 보세요.",
+   "hint": "흡수와 흔들림을 모두 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "대기"
+     ],
+     [
+      "흡수"
+     ],
+     [
+      "X선",
+      "자외선",
+      "적외선"
+     ],
+     [
+      "흔들림",
+      "선명"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "지구 대기는 감마선, X선, 자외선과 대부분의 적외선을 흡수하므로 이 파장의 천체는 지상에서 관측할 수 없습니다. 또 대기의 흔들림 때문에 지상에서는 별빛이 번지므로, 대기 밖의 우주 망원경을 쓰면 모든 파장을 관측하고 선명한 상을 얻을 수 있습니다."
+  }
+ ]
+}

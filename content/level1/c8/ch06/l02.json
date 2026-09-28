@@ -1,0 +1,336 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch06",
+  "no": 6,
+  "title": "천구와 좌표계"
+ },
+ "lesson": {
+  "id": "c8-ch06-l02",
+  "no": 2,
+  "title": "지평 좌표계",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "보이는 대로 위치 말하기",
+   "body": [
+    "친구에게 별을 가리킬 때 \"남쪽으로, 지평선에서 30°쯤 위\"라고 말하면 쉽게 찾을 수 있습니다.",
+    "관측자가 보는 대로 천체의 위치를 나타내는 좌표계가 지평 좌표계입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "방위각과 고도로 천체의 위치를 나타내는 좌표계를 {{1}} 좌표계라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지평"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지평선을 기준으로 합니다.\n관측자에게 직관적입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "방위각과 고도",
+   "body": [
+    "방위각은 북점을 기준으로 지평선을 따라 시계 방향(동쪽)으로 천체의 방향까지 잰 각입니다(0°~360°). 동쪽은 90°, 남쪽은 180°, 서쪽은 270°입니다.",
+    "고도는 지평선에서 천체까지 수직으로 잰 각으로 0°~90°입니다. 천정의 고도는 90°이고, 90° − 고도를 천정 거리라고 합니다.",
+    "지평 좌표는 관측 장소와 시각에 따라 달라지므로, 천체의 위치를 기록할 때는 장소와 시각을 함께 적어야 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지평 좌표계에서 고도는 {{1}}에서 천체까지 잰 각입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지평선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지평선은 0°, 천정은 90°입니다.\n지평선 아래는 보이지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "북점을 기준으로 잰 정동쪽의 방위각은 몇 °일까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "북 0°, 동 90°, 남 180°, 서 270°입니다.\n시계 방향으로 잽니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "고도가 30°인 천체의 천정 거리는 몇 °일까요?",
+   "answer": "60",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "천정 거리 = 90° − 고도 = 60°입니다.\n천정에서 천체까지의 각입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "방위각 225°, 고도 45°인 별은 어디에 있을까요?",
+   "steps": [
+    "방위각 180°는 남쪽, 270°는 서쪽이므로 225°는 남서쪽입니다.",
+    "고도 45°는 지평선과 천정의 중간 높이입니다."
+   ],
+   "answer": "남서쪽 하늘, 지평선과 천정의 중간 높이"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "북점을 기준으로 잰 정남쪽의 방위각은 몇 °일까요?",
+   "answer": "180",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "남쪽은 180°입니다.\n천체가 남중할 때 방위각입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "태양의 남중 고도",
+   "body": [
+    "태양의 남중 고도는 관측 지점의 위도(φ)와 태양의 적위(δ)에 따라 정해집니다: 남중 고도 = 90° − φ + δ.",
+    "춘분과 추분에는 적위 0°라 남중 고도가 90° − φ, 하지에는 적위 +23.5°라 90° − φ + 23.5°, 동지에는 적위 −23.5°라 90° − φ − 23.5°입니다.",
+    "남중 고도가 높으면 태양 에너지를 많이 받아 기온이 높습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위도 37.5°N에서 춘분날 태양의 남중 고도는 몇 °일까요?",
+   "answer": "52.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": null,
+   "explanation": "90 − 37.5 = 52.5°입니다.\n적위가 0°인 날입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위도 37.5°N에서 하짓날 태양의 남중 고도는 몇 °일까요?",
+   "answer": "76",
+   "answer_format": "integer",
+   "tolerance": 0.5,
+   "hint": null,
+   "explanation": "90 − 37.5 + 23.5 = 76°입니다.\n1년 중 가장 높습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위도 37.5°N에서 동짓날 태양의 남중 고도는 몇 °일까요?",
+   "answer": "29",
+   "answer_format": "integer",
+   "tolerance": 0.5,
+   "hint": null,
+   "explanation": "90 − 37.5 − 23.5 = 29°입니다.\n1년 중 가장 낮습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "하지와 동지의 태양 남중 고도 차이는 몇 °일까요?",
+   "steps": [
+    "하지: 90° − φ + 23.5°, 동지: 90° − φ − 23.5°입니다.",
+    "차이는 23.5 × 2 = 47°로 위도와 관계없습니다."
+   ],
+   "answer": "47°"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "지평 좌표계 정리",
+   "body": [
+    "방위각(북점 기준 시계 방향 0°~360°), 고도(지평선 기준 0°~90°), 천정 거리 = 90° − 고도.",
+    "관측 장소와 시각에 따라 변합니다. 태양 남중 고도 = 90° − 위도 + 적위."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "지평 좌표는 관측 장소와 {{1}}에 따라 달라집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시각"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "천체가 일주 운동을 하기 때문입니다.\n그래서 기록할 때 시각을 함께 적습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "위도 35°N에서 하짓날 태양의 남중 고도는?",
+   "steps": [
+    "남중 고도 = 90° − φ + δ입니다.",
+    "= 90 − 35 + 23.5 = 78.5°입니다."
+   ],
+   "answer": "78.5°"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "위도 35°N에서 하짓날 태양의 남중 고도는 몇 °일까요?",
+   "answer": "78.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "90° − 위도 + 23.5°입니다.",
+   "explanation": "90 − 35 + 23.5 = 78.5°입니다.\n여름에 태양이 높이 뜹니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "북점을 기준으로 잰 정서쪽의 방위각은 몇 °일까요?",
+   "answer": "270",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "시계 방향으로 세 번째 방위입니다.",
+   "explanation": "서쪽은 270°입니다.\n해가 지는 방향입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "천정에 있는 천체의 고도는 몇 °일까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "머리 바로 위입니다.",
+   "explanation": "천정은 지평선에서 90° 위입니다.\n천정 거리는 0°입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "지평선에 걸려 있는 천체의 고도는 몇 °일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "기준선 위입니다.",
+   "explanation": "지평선이 고도의 기준입니다.\n뜨거나 질 때의 고도입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "적도(위도 0°)에서 춘분날 태양의 남중 고도는 몇 °일까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "90° − 위도 + 적위입니다.",
+   "explanation": "90 − 0 + 0 = 90°입니다.\n태양이 천정을 지납니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "여름에 기온이 높은 것은 태양의 남중 고도가 {{1}}아 같은 면적에 더 많은 에너지를 받기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": "태양이 높이 뜹니다.",
+   "explanation": "햇빛이 수직에 가깝게 비춥니다.\n낮의 길이도 깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "태양의 남중 고도가 계절에 따라 달라지는 이유와 그 계산 방법을 설명해 보세요.",
+   "hint": "적위의 변화와 식을 함께 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "적위"
+     ],
+     [
+      "23.5"
+     ],
+     [
+      "90°",
+      "위도"
+     ],
+     [
+      "하지",
+      "동지"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "지구 자전축이 기울어진 채 공전하므로 태양의 적위가 1년 동안 −23.5°에서 +23.5° 사이에서 변합니다. 태양의 남중 고도는 90° − 위도 + 적위이므로, 적위가 가장 큰 하지에 가장 높고 가장 작은 동지에 가장 낮습니다."
+  }
+ ]
+}

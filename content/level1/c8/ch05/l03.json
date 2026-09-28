@@ -1,0 +1,376 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch05",
+  "no": 5,
+  "title": "해수의 운동"
+ },
+ "lesson": {
+  "id": "c8-ch05-l03",
+  "no": 3,
+  "title": "해파",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "바다의 물결",
+   "body": [
+    "바다 위 갈매기는 파도가 지나가도 거의 제자리에서 오르내립니다. 파도는 물이 아니라 에너지를 전달하기 때문입니다.",
+    "파도가 해안에 가까워지면 속도와 모양이 달라집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "주로 바람에 의해 생겨 바다 위를 전파하는 파동을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "해파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "풍랑, 너울, 연안 쇄파 등이 있습니다.\n지진으로 생기는 쓰나미도 해파입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "해파와 물 입자의 운동",
+   "body": [
+    "해파의 이웃한 마루 사이의 거리를 파장, 마루와 골의 높이 차를 파고, 한 파장이 지나가는 시간을 주기라고 합니다.",
+    "해파가 지나갈 때 물 입자는 원운동을 하며, 원의 크기는 깊어질수록 작아져 수심이 파장의 절반(λ/2)쯤 되는 곳에서는 거의 움직이지 않습니다.",
+    "수심이 파장의 절반보다 깊은 곳의 해파를 심해파라고 하며, 속도는 파장이 길수록 빠릅니다. 수심이 파장의 1/20보다 얕은 곳의 해파를 천해파라고 하며, 속도는 v = √(gh)로 수심(h)에만 관계됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "해파가 지나갈 때 물 입자는 제자리에서 {{1}}을 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원운동"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "물 자체는 거의 이동하지 않습니다.\n에너지만 전달됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물 입자의 원운동은 수심이 파장의 {{1}}쯤 되는 깊이에서 거의 사라집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "절반"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "깊이 λ/2입니다.\n심해파와 천해파를 나누는 기준이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "천해파의 속도는 {{1}}에 따라 결정됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수심"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "v = √(gh)입니다.\n얕아질수록 느려집니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "수심 10 m인 곳을 지나는 천해파의 속도는? (g = 10 m/s²)",
+   "steps": [
+    "천해파의 속도 v = √(gh)입니다.",
+    "v = √(10 × 10) = √100 = 10 m/s입니다."
+   ],
+   "answer": "10 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "수심 40 m인 곳을 지나는 천해파의 속도는 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v = √(10 × 40) = √400 = 20 m/s입니다.\n수심에만 관계됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "쓰나미와 해안의 해파",
+   "body": [
+    "쓰나미(지진 해일)는 파장이 수백 km나 되어 깊이 4000 m의 대양에서도 천해파처럼 행동합니다. 속도가 √(10 × 4000) = 200 m/s로 제트기만큼 빠릅니다.",
+    "해안에 가까워지면 수심이 얕아져 속도가 느려지고, 뒤따르는 물이 쌓여 파고가 크게 높아집니다.",
+    "해파가 얕은 곳에 들어오면 수심이 얕은 쪽이 먼저 느려져 해안선과 나란해지도록 굴절합니다. 그래서 곶(튀어나온 해안)에는 에너지가 모여 침식이 일어나고, 만(들어간 해안)에는 에너지가 흩어져 퇴적이 일어납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "파장이 매우 긴 쓰나미는 깊은 대양에서도 {{1}}로 행동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "천해파"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "파장에 비해 수심이 매우 얕기 때문입니다.\n속도가 수심으로 정해집니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "수심 4000 m인 대양을 지나는 쓰나미의 속도는 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "v = √(10 × 4000) = √40000 = 200 m/s입니다.\n시속 약 720 km입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "쓰나미가 해안에 가까워지면 속도가 느려지고 파고가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "뒤따르는 물이 앞의 물을 따라잡아 쌓입니다.\n그래서 큰 피해를 줍니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "해파가 해안에 가까워지며 부서지는(쇄파) 이유는?",
+   "steps": [
+    "수심이 얕아지면 바닥과의 마찰로 파의 아랫부분이 느려집니다.",
+    "윗부분(마루)은 상대적으로 빨라 앞으로 기울어집니다.",
+    "결국 마루가 앞으로 무너져 부서집니다."
+   ],
+   "answer": "아랫부분이 느려져 마루가 앞으로 쏠리기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "해파 정리",
+   "body": [
+    "물 입자는 원운동, 깊이 λ/2에서 거의 멈춤. 심해파(수심 > λ/2): 파장이 길수록 빠름. 천해파(수심 < λ/20): v = √(gh).",
+    "쓰나미는 천해파, 해안에서 느려지며 파고 증가. 굴절로 곶은 침식, 만은 퇴적."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "해파가 굴절하면 해안의 곶에 에너지가 {{1}}되어 침식이 활발합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "집중"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "파의 방향이 곶 쪽으로 휩니다.\n만에서는 에너지가 흩어집니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "수심 90 m인 곳을 지나는 천해파의 속도는?",
+   "steps": [
+    "v = √(gh) = √(10 × 90) = √900입니다.",
+    "= 30 m/s입니다."
+   ],
+   "answer": "30 m/s"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "수심 90 m인 곳을 지나는 천해파의 속도는 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = √(gh)입니다.",
+   "explanation": "v = √900 = 30 m/s입니다.\n수심이 클수록 빠릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "심해파의 속도는 수심이 아니라 {{1}}에 따라 결정됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "파장"
+     ]
+    }
+   ],
+   "hint": "마루 사이의 거리입니다.",
+   "explanation": "파장이 길수록 빠릅니다.\n그래서 긴 너울이 먼저 도착합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해파가 해안으로 오면 수심이 {{1}}져 파가 부서지는 쇄파가 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "얕아"
+     ]
+    }
+   ],
+   "hint": "해안으로 갈수록 수심은?",
+   "explanation": "바닥 마찰로 아랫부분이 느려집니다.\n마루가 앞으로 무너집니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "바람이 부는 해역을 벗어나 먼 곳까지 전파된 둥글고 규칙적인 해파를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "너울"
+     ]
+    }
+   ],
+   "hint": "먼 곳에서 온 파도입니다.",
+   "explanation": "바람이 없는데도 큰 파도가 밀려오기도 합니다.\n파장이 깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해파가 굴절하면 해안의 만에는 에너지가 흩어져 {{1}} 작용이 우세합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "퇴적"
+     ]
+    }
+   ],
+   "hint": "침식의 반대입니다.",
+   "explanation": "그래서 만에는 모래 해빈이 발달합니다.\n곶은 침식됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해파는 물을 옮기는 것이 아니라 {{1}}를 전달합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "에너지"
+     ]
+    }
+   ],
+   "hint": "파동이 전달하는 것입니다.",
+   "explanation": "물 입자는 제자리에서 원운동합니다.\n파동의 공통 성질입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "심해파와 천해파를 수심 조건과 속도를 결정하는 요인으로 비교해 설명해 보세요.",
+   "hint": "두 파를 같은 기준으로 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "심해파"
+     ],
+     [
+      "천해파"
+     ],
+     [
+      "파장"
+     ],
+     [
+      "수심",
+      "√(gh)"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "심해파는 수심이 파장의 절반보다 깊은 곳의 해파로, 물 입자의 운동이 바닥에 닿지 않아 속도가 파장에 따라 결정되며 파장이 길수록 빠릅니다. 천해파는 수심이 파장의 1/20보다 얕은 곳의 해파로, 속도가 v = √(gh)로 수심에 따라 결정됩니다."
+  }
+ ]
+}

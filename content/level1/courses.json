@@ -68,7 +68,7 @@
       "id": "c8",
       "title": "지학Ⅱ",
       "description": "지구 내부와 암석, 대기와 해수의 운동, 천구와 행성의 운동",
-      "available": false,
+      "available": true,
       "subject": "earth",
       "grade": "Ⅱ"
     }

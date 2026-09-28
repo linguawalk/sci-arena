@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c8",
+  "chapter": {
+    "id": "c8-ch01",
+    "no": 1,
+    "title": "지구의 형성과 내부"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c8-ch01-l01",
+      "title": "지구의 형성",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c8-ch01-l02",
+      "title": "지진파와 지구 내부 구조",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c8-ch01-l03",
+      "title": "지구의 중력",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c8-ch01-l04",
+      "title": "지구 자기장",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c8-ch01-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

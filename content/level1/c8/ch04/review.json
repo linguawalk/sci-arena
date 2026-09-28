@@ -1,0 +1,196 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch04",
+  "no": 4,
+  "title": "대기의 운동"
+ },
+ "review": {
+  "id": "c8-ch04-review",
+  "title": "대기의 운동 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "북반구에서 전향력은 운동 방향의 {{1}}쪽으로 작용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오른"
+     ]
+    }
+   ],
+   "hint": "북반구의 방향입니다.",
+   "explanation": "남반구는 왼쪽입니다.\n적도에서는 0입니다.",
+   "source_lesson": "c8-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "같은 속력일 때 위도 90°의 전향력은 위도 30°의 몇 배일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "sin 값을 비교하세요.",
+   "explanation": "sin 90° ÷ sin 30° = 1 ÷ 0.5 = 2배입니다.\n고위도일수록 큽니다.",
+   "source_lesson": "c8-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "기압 경도력은 등압선 간격이 {{1}}을수록 큽니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "좁"
+     ]
+    }
+   ],
+   "hint": "등압선이 촘촘한 경우입니다.",
+   "explanation": "짧은 거리에서 기압 차가 큽니다.\n바람이 강합니다.",
+   "source_lesson": "c8-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "상층에서 기압 경도력과 전향력이 평형을 이루어 등압선과 나란하게 부는 바람은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지균풍"
+     ]
+    }
+   ],
+   "hint": "등압선이 직선일 때의 바람입니다.",
+   "explanation": "북반구에서 저기압을 왼쪽에 두고 붑니다.\n마찰이 없습니다.",
+   "source_lesson": "c8-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "북반구의 상층 저기압 주위를 시계 반대 방향으로 도는 바람을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경도풍"
+     ]
+    }
+   ],
+   "hint": "휘어 도는 상층 바람입니다.",
+   "explanation": "원형 등압선을 따라 붑니다.\n구심력이 필요합니다.",
+   "source_lesson": "c8-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지상풍은 마찰력 때문에 등압선을 비스듬히 가로질러 {{1}}기압 쪽으로 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "저"
+     ]
+    }
+   ],
+   "hint": "공기가 모이는 쪽입니다.",
+   "explanation": "그래서 저기압에서 수렴이 일어납니다.\n고기압에서는 발산합니다.",
+   "source_lesson": "c8-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지상 고기압 중심에서는 {{1}} 기류가 생겨 날씨가 맑습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "하강"
+     ]
+    }
+   ],
+   "hint": "내려오는 흐름입니다.",
+   "explanation": "공기가 발산하며 위에서 내려옵니다.\n저기압은 상승 기류입니다.",
+   "source_lesson": "c8-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "위도 30°~60°의 지상에서는 {{1}}이 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편서풍"
+     ]
+    }
+   ],
+   "hint": "서쪽에서 부는 바람입니다.",
+   "explanation": "페렐 순환의 지상 바람입니다.\n우리나라가 이 바람대에 있습니다.",
+   "source_lesson": "c8-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "위도 30° 부근의 중위도 고압대에는 하강 기류 때문에 {{1}}이 많습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "사막"
+     ]
+    }
+   ],
+   "hint": "건조한 지역입니다.",
+   "explanation": "구름이 생기기 어렵습니다.\n사하라 사막이 대표적입니다.",
+   "source_lesson": "c8-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "중위도 상층에서 매우 빠르게 부는 서풍의 흐름을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "제트류"
+     ]
+    }
+   ],
+   "hint": "분출하듯 빠른 흐름입니다.",
+   "explanation": "한대 전선 제트류와 아열대 제트류가 있습니다.\n비행기가 이용합니다.",
+   "source_lesson": "c8-ch04-l04"
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch05",
+  "no": 5,
+  "title": "해수의 운동"
+ },
+ "lesson": {
+  "id": "c8-ch05-l02",
+  "no": 2,
+  "title": "지형류",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "해수면의 언덕",
+   "body": [
+    "인공위성으로 해수면 높이를 정밀하게 재면, 대양 한가운데가 주변보다 1 m쯤 볼록하게 솟아 있습니다.",
+    "해수면의 기울기가 만든 흐름이 지형류입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "수압 경도력과 전향력이 평형을 이루어 흐르는 해류를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지형류"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "대기의 지균풍과 비슷합니다.\n해수면이 기울어진 곳에서 생깁니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "지형류의 형성",
+   "body": [
+    "아열대 해역에서는 무역풍과 편서풍에 의한 에크만 수송으로 표층 해수가 대양 중심으로 모여 해수면이 볼록해집니다.",
+    "해수면이 기울면 같은 깊이에서 해수면이 높은 쪽의 수압이 더 커서, 높은 쪽에서 낮은 쪽으로 수압 경도력이 작용합니다.",
+    "해수가 움직이면 전향력이 작용하고, 수압 경도력과 전향력이 평형을 이루면 해수는 해수면의 등고선(등수위선)과 나란하게 흐릅니다. 북반구에서 지형류는 해수면이 높은 쪽을 오른쪽에 두고 흐릅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "북반구에서 지형류는 해수면이 높은 쪽을 {{1}}쪽에 두고 흐릅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오른"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전향력이 높은 쪽으로 작용해 수압 경도력과 평형을 이룹니다.\n남반구에서는 왼쪽입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "아열대 순환의 중심부는 에크만 수송으로 해수가 모여 해수면이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "주변보다 볼록하게 솟아 있습니다.\n이 경사가 지형류를 만듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "수압 경도력은 해수면이 높은 쪽에서 {{1}} 쪽으로 작용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮은"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 깊이에서 높은 쪽의 수압이 큽니다.\n대기의 기압 경도력과 같습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "북태평양 아열대 순환이 시계 방향으로 도는 것을 지형류로 설명하면?",
+   "steps": [
+    "순환의 중심이 볼록해 수압 경도력은 중심에서 바깥쪽으로 작용합니다.",
+    "평형을 이루려면 전향력이 중심 쪽을 향해야 합니다.",
+    "북반구에서 전향력이 오른쪽이므로 높은 중심을 오른쪽에 두고 흘러 시계 방향으로 돕니다."
+   ],
+   "answer": "높은 중심을 오른쪽에 두고 흐르기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지형류는 대기에서 기압 경도력과 전향력이 평형을 이루는 {{1}}과 비슷합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지균풍"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "힘의 종류와 평형 원리가 같습니다.\n기압 대신 수압입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "서안 강화",
+   "body": [
+    "대양의 서쪽 가장자리를 흐르는 해류(쿠로시오 해류, 멕시코 만류)는 폭이 좁고 매우 빠르며 깊습니다. 반면 동쪽 가장자리의 해류(캘리포니아 해류, 카나리아 해류)는 폭이 넓고 느립니다.",
+    "이를 서안 강화 현상이라고 하며, 전향력이 위도에 따라 달라지는 것이 원인입니다. 그래서 아열대 순환의 해수면 볼록한 부분은 대양의 서쪽으로 치우쳐 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "대양의 서쪽 가장자리 해류가 좁고 빠른 현상을 {{1}} 강화라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "서안"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전향력의 위도 변화가 원인입니다.\n쿠로시오, 멕시코 만류가 예입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "쿠로시오 해류는 대양의 서쪽 경계를 흘러 폭이 좁고 매우 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빠릅",
+      "빠르"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "서안 강화의 예입니다.\n많은 열을 고위도로 운반합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "대양의 동쪽 가장자리를 흐르는 캘리포니아 해류는 폭이 넓고 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "느립",
+      "느리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "서안 경계류와 대조됩니다.\n차가운 한류입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "지형류의 속도를 해수면 높이 지도로 판단하는 방법은?",
+   "steps": [
+    "해수면 등고선(등수위선) 간격이 좁을수록 경사가 급합니다.",
+    "경사가 급하면 수압 경도력이 커서 평형에 필요한 전향력도 커야 합니다.",
+    "전향력은 속력에 비례하므로 지형류가 빠릅니다."
+   ],
+   "answer": "등수위선 간격이 좁을수록 빠르다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "지형류 정리",
+   "body": [
+    "에크만 수송 → 해수면 경사 → 수압 경도력 + 전향력 평형 → 등수위선과 나란한 흐름(지형류).",
+    "북반구: 높은 쪽을 오른쪽에. 해수면 경사가 클수록 빠름. 서안 강화: 서쪽 경계류는 좁고 빠름."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "해수면의 경사가 클수록 지형류의 속력은 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빨라"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "수압 경도력이 커지기 때문입니다.\n지균풍과 같은 원리입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "북반구에서 해수면이 동쪽이 높고 서쪽이 낮으면 지형류는 어느 쪽으로 흐를까요?",
+   "steps": [
+    "높은 쪽(동쪽)을 오른쪽에 두고 흘러야 합니다.",
+    "북쪽을 향하면 오른쪽이 동쪽입니다.",
+    "지형류는 북쪽으로 흐릅니다."
+   ],
+   "answer": "북쪽"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "북반구에서 해수면이 동쪽이 높고 서쪽이 낮으면 지형류는 {{1}}쪽으로 흐릅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "북"
+     ]
+    }
+   ],
+   "hint": "높은 쪽을 오른쪽에 두세요.",
+   "explanation": "높은 동쪽을 오른쪽에 둡니다.\n북쪽을 향할 때 오른쪽이 동쪽입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "북반구 아열대 순환은 {{1}} 방향으로 돕니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시계"
+     ]
+    }
+   ],
+   "hint": "지학Ⅰ에서도 배웠습니다.",
+   "explanation": "볼록한 중심을 오른쪽에 두고 흐르기 때문입니다.\n남반구는 시계 반대 방향입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지형류는 마찰의 영향이 거의 없는 에크만층 {{1}}에서 흐릅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아래"
+     ]
+    }
+   ],
+   "hint": "바람의 영향이 닿지 않는 깊이입니다.",
+   "explanation": "바람의 마찰 영향이 없는 곳입니다.\n수압 경도력과 전향력만 작용합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해수면 등고선의 간격이 좁을수록 지형류가 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빠르"
+     ]
+    }
+   ],
+   "hint": "경사가 급합니다.",
+   "explanation": "경사가 급해 수압 경도력이 큽니다.\n일기도의 등압선과 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "서안 강화 현상의 원인은 {{1}}이 위도에 따라 달라지기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전향력"
+     ]
+    }
+   ],
+   "hint": "sin φ에 비례하는 힘입니다.",
+   "explanation": "고위도로 갈수록 전향력이 커집니다.\n그래서 순환이 서쪽으로 치우칩니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "북대서양의 멕시코 만류는 대양 서쪽을 흐르는 서안 {{1}}류입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경계"
+     ]
+    }
+   ],
+   "hint": "가장자리를 흐르는 해류입니다.",
+   "explanation": "좁고 빠르며 따뜻합니다.\n서유럽을 따뜻하게 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "아열대 해역에서 지형류가 만들어지는 과정을 에크만 수송과 힘의 평형으로 설명해 보세요.",
+   "hint": "해수면 경사가 생기는 원인부터 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "에크만 수송"
+     ],
+     [
+      "해수면",
+      "볼록",
+      "높"
+     ],
+     [
+      "수압 경도력"
+     ],
+     [
+      "전향력",
+      "평형"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "무역풍과 편서풍에 의한 에크만 수송으로 표층 해수가 아열대 해역 중심으로 모여 해수면이 볼록해집니다. 해수면이 기울어져 높은 쪽에서 낮은 쪽으로 수압 경도력이 작용하고, 이 힘이 전향력과 평형을 이루면 해수는 등수위선과 나란하게 흐르는 지형류가 됩니다."
+  }
+ ]
+}

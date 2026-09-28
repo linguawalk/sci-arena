@@ -1,0 +1,367 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch06",
+  "no": 6,
+  "title": "천구와 좌표계"
+ },
+ "lesson": {
+  "id": "c8-ch06-l04",
+  "no": 4,
+  "title": "일주 운동과 연주 운동",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "움직이는 밤하늘",
+   "body": [
+    "카메라를 북쪽 하늘에 오래 노출하면 별들이 북극성을 중심으로 원을 그립니다. 또 계절마다 밤하늘의 별자리가 바뀝니다.",
+    "지구의 자전과 공전이 하늘의 두 가지 운동을 만듭니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "천체가 하루 동안 동쪽에서 떠서 서쪽으로 지는 겉보기 운동을 {{1}} 운동이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일주"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지구 자전 때문에 생깁니다.\n모든 천체가 함께 움직입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "일주 운동",
+   "body": [
+    "지구가 서쪽에서 동쪽으로 자전하므로 천체는 천구의 북극을 중심으로 동쪽에서 서쪽으로 1시간에 15°씩 돕니다. 북쪽 하늘을 보면 별들이 북극성을 중심으로 시계 반대 방향으로 돕니다.",
+    "일주 운동의 모습은 위도에 따라 다릅니다. 북극에서는 별들이 지평선과 나란하게 돌고, 적도에서는 지평선에 수직으로 뜨고 지며, 중위도에서는 지평선에 비스듬히 뜨고 집니다.",
+    "천구의 북극 가까이 있어 지평선 아래로 지지 않는 별을 주극성, 뜨고 지는 별을 출몰성이라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "천체는 일주 운동으로 1시간에 몇 °씩 움직일까요?",
+   "answer": "15",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "24시간에 360°이므로 1시간에 15°입니다.\n지구 자전 속도와 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "북쪽 하늘에서 별들은 북극성을 중심으로 시계 {{1}} 방향으로 돕니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반대"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지구가 서 → 동으로 자전하기 때문입니다.\n남쪽 하늘에서는 동 → 서로 움직입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "일주 운동은 지구의 {{1}} 때문에 나타나는 겉보기 운동입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자전"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "실제로 별이 움직이는 것이 아닙니다.\n관측자가 지구와 함께 돕니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "북쪽 하늘의 별 궤적 사진에서 호의 중심각이 60°라면 노출 시간은?",
+   "steps": [
+    "별은 일주 운동으로 1시간에 15°씩 돕니다.",
+    "60 ÷ 15 = 4시간입니다."
+   ],
+   "answer": "4시간"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "3시간 동안 별은 일주 운동으로 몇 ° 움직일까요?",
+   "answer": "45",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "15 × 3 = 45°입니다.\n별 궤적 사진으로 확인할 수 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "연주 운동",
+   "body": [
+    "지구가 태양 둘레를 공전하므로 지구에서 보면 태양이 별자리 사이를 서쪽에서 동쪽으로 하루에 약 1°씩 이동해 1년 뒤 제자리로 돌아옵니다. 이를 태양의 연주 운동이라고 하며, 태양이 지나는 별자리가 황도 12궁입니다.",
+    "같은 별은 매일 약 4분씩 일찍 뜨므로, 같은 시각에 보면 별자리가 매일 조금씩 서쪽으로 이동합니다. 한 달이면 약 2시간 일찍 뜹니다.",
+    "그래서 계절마다 밤하늘에 보이는 별자리가 달라집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "태양은 연주 운동으로 하루에 약 몇 ° 이동할까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "360° ÷ 365일 ≈ 1°입니다.\n서쪽에서 동쪽으로 이동합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "같은 별은 매일 약 몇 분씩 일찍 뜰까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "지구 공전 때문에 하루에 약 1°씩 차이가 나고, 1°는 약 4분입니다.\n한 달이면 약 2시간입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "계절마다 밤하늘의 별자리가 달라지는 것은 지구의 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공전"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "태양 방향의 별자리는 낮에 떠서 보이지 않습니다.\n반대편 별자리가 밤에 보입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "겨울철 별자리인 오리온자리가 여름밤에 보이지 않는 이유는?",
+   "steps": [
+    "여름에는 지구에서 보아 태양이 오리온자리 쪽에 있습니다.",
+    "오리온자리는 낮에 태양과 함께 떠 있어 햇빛에 가려 보이지 않습니다.",
+    "겨울에는 태양의 반대편에 있어 밤새 보입니다."
+   ],
+   "answer": "여름에는 태양과 같은 방향에 있기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "일주 운동과 연주 운동 정리",
+   "body": [
+    "일주 운동: 지구 자전, 동 → 서, 1시간에 15°, 북쪽 하늘은 북극성 중심 시계 반대 방향. 위도에 따라 모습이 다름, 주극성·출몰성.",
+    "연주 운동: 지구 공전, 태양이 별자리 사이를 서 → 동으로 하루 약 1°, 별은 매일 약 4분 일찍 뜸, 계절별 별자리."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "태양은 연주 운동으로 별자리 사이를 {{1}}쪽에서 동쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "서"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "일주 운동의 방향과 반대입니다.\n지구 공전 방향과 관계있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "오늘 밤 10시에 남중한 별은 한 달 뒤 몇 시에 남중할까요?",
+   "steps": [
+    "별은 매일 약 4분 일찍 남중합니다.",
+    "30일이면 4 × 30 = 120분 = 2시간 일찍입니다.",
+    "한 달 뒤에는 약 오후 8시에 남중합니다."
+   ],
+   "answer": "약 오후 8시"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 별이 한 달 뒤에는 약 몇 시간 일찍 남중할까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "매일 4분씩입니다.",
+   "explanation": "4분 × 30일 = 120분 = 2시간입니다.\n별자리가 서쪽으로 옮겨 갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "북극에서 별들은 지평선과 {{1}}하게 일주 운동을 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "나란"
+     ]
+    }
+   ],
+   "hint": "수평으로 돕니다.",
+   "explanation": "천구의 북극이 천정에 있기 때문입니다.\n별이 뜨거나 지지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "천구의 북극 가까이 있어 하루 종일 지평선 아래로 지지 않는 별을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주극성"
+     ]
+    }
+   ],
+   "hint": "극 둘레를 도는 별입니다.",
+   "explanation": "위도가 높을수록 주극성이 많습니다.\n북극에서는 모든 북반구 별이 주극성입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "적도에서 별들은 지평선에 {{1}}으로 뜨고 집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수직"
+     ]
+    }
+   ],
+   "hint": "북극과 반대입니다.",
+   "explanation": "천구의 북극이 지평선에 있기 때문입니다.\n모든 별이 뜨고 집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "태양은 연주 운동으로 1년 동안 별자리 사이를 몇 ° 이동할까요?",
+   "answer": "360",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "한 바퀴입니다.",
+   "explanation": "1년에 황도를 한 바퀴 돕니다.\n360°입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "여름밤에 오리온자리가 보이지 않는 것은 그때 오리온자리가 {{1}}과 같은 방향에 있기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "태양"
+     ]
+    }
+   ],
+   "hint": "낮을 밝히는 천체입니다.",
+   "explanation": "낮에 떠 있어 햇빛에 가립니다.\n겨울에는 밤에 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "천체의 일주 운동과 태양의 연주 운동을 원인, 방향, 속도로 비교해 설명해 보세요.",
+   "hint": "두 운동을 같은 기준으로 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "일주"
+     ],
+     [
+      "자전"
+     ],
+     [
+      "연주"
+     ],
+     [
+      "공전"
+     ],
+     [
+      "15°",
+      "1°",
+      "동",
+      "서"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "일주 운동은 지구의 자전 때문에 천체가 하루 동안 동쪽에서 서쪽으로 1시간에 15°씩 도는 겉보기 운동입니다. 연주 운동은 지구의 공전 때문에 태양이 별자리 사이를 서쪽에서 동쪽으로 하루에 약 1°씩 이동해 1년 뒤 제자리로 돌아오는 겉보기 운동입니다."
+  }
+ ]
+}

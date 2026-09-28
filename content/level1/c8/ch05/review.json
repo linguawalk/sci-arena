@@ -1,0 +1,191 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch05",
+  "no": 5,
+  "title": "해수의 운동"
+ },
+ "review": {
+  "id": "c8-ch05-review",
+  "title": "해수의 운동 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "북반구에서 에크만 수송은 바람 방향의 {{1}}쪽 90°로 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오른"
+     ]
+    }
+   ],
+   "hint": "북반구 전향력의 방향입니다.",
+   "explanation": "전향력 때문입니다.\n남반구는 왼쪽입니다.",
+   "source_lesson": "c8-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "에크만 수송으로 표층 해수가 해안에서 멀어지면 깊은 곳의 찬 물이 올라오는 {{1}}이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "용승"
+     ]
+    }
+   ],
+   "hint": "솟아오르는 흐름입니다.",
+   "explanation": "영양염이 풍부해 좋은 어장이 됩니다.\n수온이 낮아집니다.",
+   "source_lesson": "c8-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "무역풍이 부는 적도 해역에서는 해수가 남북으로 갈라져 적도 {{1}}이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "용승"
+     ]
+    }
+   ],
+   "hint": "표층 해수가 빠져나갑니다.",
+   "explanation": "전향력 방향이 반구마다 반대입니다.\n적도 태평양의 찬 물 띠입니다.",
+   "source_lesson": "c8-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "수압 경도력과 전향력이 평형을 이루어 흐르는 해류를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지형류"
+     ]
+    }
+   ],
+   "hint": "해수면 지형이 만든 흐름입니다.",
+   "explanation": "북반구에서 해수면이 높은 쪽을 오른쪽에 둡니다.\n지균풍과 비슷합니다.",
+   "source_lesson": "c8-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "대양 서쪽 가장자리의 해류가 좁고 빠른 현상을 {{1}} 강화라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "서안"
+     ]
+    }
+   ],
+   "hint": "서쪽 해안입니다.",
+   "explanation": "쿠로시오, 멕시코 만류가 예입니다.\n전향력의 위도 변화가 원인입니다.",
+   "source_lesson": "c8-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "수심 250 m인 곳을 지나는 천해파의 속도는 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "v = √(gh)입니다.",
+   "explanation": "v = √(10 × 250) = √2500 = 50 m/s입니다.\n수심에만 관계됩니다.",
+   "source_lesson": "c8-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "해파가 지나갈 때 물 입자의 원운동은 수심이 파장의 {{1}}쯤에서 거의 사라집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "절반"
+     ]
+    }
+   ],
+   "hint": "파장의 1/2입니다.",
+   "explanation": "λ/2 깊이입니다.\n그보다 깊으면 심해파입니다.",
+   "source_lesson": "c8-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "만조 시각은 매일 약 몇 분씩 늦어질까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 5,
+   "hint": "1시간보다 조금 짧습니다.",
+   "explanation": "달의 공전 때문입니다.\n만조 간격은 약 12시간 25분입니다.",
+   "source_lesson": "c8-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "태양, 지구, 달이 일직선에 놓이는 삭과 망 무렵에는 조차가 큰 {{1}}가 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "사리"
+     ]
+    }
+   ],
+   "hint": "조차가 최대인 때입니다.",
+   "explanation": "두 기조력이 합쳐집니다.\n상현·하현에는 조금입니다.",
+   "source_lesson": "c8-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "우리나라 서해안에 넓은 갯벌이 발달한 것은 {{1}}가 크기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "조차"
+     ]
+    }
+   ],
+   "hint": "만조와 간조의 높이 차입니다.",
+   "explanation": "인천은 약 9 m에 이릅니다.\n조력 발전에도 이용합니다.",
+   "source_lesson": "c8-ch05-l04"
+  }
+ ]
+}

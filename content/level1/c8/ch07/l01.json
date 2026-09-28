@@ -1,0 +1,388 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch07",
+  "no": 7,
+  "title": "행성의 운동"
+ },
+ "lesson": {
+  "id": "c8-ch07-l01",
+  "no": 1,
+  "title": "행성의 겉보기 운동",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "뒤로 가는 행성",
+   "body": [
+    "화성을 몇 달 동안 관측하면 별자리 사이를 동쪽으로 가다가 잠시 멈추고 서쪽으로 되돌아간 뒤 다시 동쪽으로 갑니다.",
+    "옛사람들에게 수수께끼였던 이 움직임은 지구도 태양 둘레를 돈다는 것으로 설명됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "행성이 별자리 사이를 서쪽에서 동쪽으로 움직이는 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "순행"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "대부분의 기간 동안 행성은 순행합니다.\n반대로 움직이는 것은 역행입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "순행, 역행과 행성의 위치 관계",
+   "body": [
+    "행성이 별자리 사이를 서 → 동으로 움직이면 순행, 동 → 서로 움직이면 역행, 순행과 역행이 바뀔 때 멈춘 듯 보이는 것을 유라고 합니다.",
+    "지구보다 안쪽을 도는 내행성(수성, 금성)은 태양에서 일정한 각도 이상 멀어지지 못합니다. 이 최대 각을 최대 이각이라 하며 수성은 약 28°, 금성은 약 47°입니다. 그래서 내행성은 새벽 동쪽 하늘이나 초저녁 서쪽 하늘에서만 보이고 한밤중에는 볼 수 없습니다.",
+    "지구보다 바깥을 도는 외행성(화성, 목성 등)이 태양의 정반대 방향에 있을 때를 충이라고 하며, 이때 지구와 가장 가까워 가장 밝고 한밤중에 남중합니다. 태양과 같은 방향에 있을 때는 합이라 하며 보이지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "행성이 별자리 사이를 동쪽에서 서쪽으로 움직이는 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역행"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지구와 행성의 공전 속도 차이로 나타나는 겉보기 운동입니다.\n외행성은 충 무렵에 역행합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "금성은 한밤중에 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "볼 수 없다",
+      "볼 수 없습니다",
+      "보이지 않는다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "태양에서 약 47° 이상 멀어지지 못합니다.\n새벽이나 초저녁에만 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "금성의 최대 이각은 약 몇 °일까요?",
+   "answer": "47",
+   "answer_format": "integer",
+   "tolerance": 2,
+   "hint": null,
+   "explanation": "금성은 태양에서 최대 약 47°까지 멀어집니다.\n수성은 약 28°입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "금성이 초저녁 서쪽 하늘에서 가장 높이 보일 때 금성의 위치는?",
+   "steps": [
+    "초저녁에 해가 진 서쪽 하늘에 보이려면 금성이 태양의 동쪽에 있어야 합니다.",
+    "태양에서 동쪽으로 가장 멀리 떨어진 때를 동방 최대 이각이라고 합니다.",
+    "이때 금성은 반달 모양으로 보입니다."
+   ],
+   "answer": "동방 최대 이각"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "외행성이 태양의 정반대 방향에 있어 가장 밝게 보일 때를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지구와 가장 가까워집니다.\n한밤중에 남중합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "역행의 원인",
+   "body": [
+    "지동설에서는 지구가 외행성보다 빨리 공전하므로, 지구가 외행성을 추월하는 충 무렵에 외행성이 뒤로 가는 것처럼 보인다고 설명합니다. 달리는 차에서 더 느린 옆 차를 추월할 때 그 차가 뒤로 가는 것처럼 보이는 것과 같습니다.",
+    "천동설에서는 행성이 주전원이라는 작은 원을 돌며 지구 둘레를 돈다고 복잡하게 설명했습니다.",
+    "갈릴레이는 망원경으로 금성의 위상이 보름달 모양부터 초승달 모양까지 변하고 크기도 변하는 것을 관측해 지동설을 뒷받침했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "외행성의 역행은 지구가 외행성을 {{1}}할 때 나타납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "추월"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "안쪽의 지구가 더 빠르게 공전합니다.\n그래서 외행성이 뒤로 가는 것처럼 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "외행성은 {{1}} 무렵에 역행합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지구가 외행성을 추월하는 시기입니다.\n가장 밝게 보일 때이기도 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "금성이 동방 최대 이각에 있을 때는 {{1}} 서쪽 하늘에서 보입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "초저녁"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "태양의 동쪽에 있어 해가 진 뒤 보입니다.\n'개밥바라기'라고도 불렀습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "갈릴레이의 금성 위상 관측이 지동설의 증거가 된 이유는?",
+   "steps": [
+    "천동설에서는 금성이 항상 태양과 지구 사이에 있어 초승달 모양만 보여야 합니다.",
+    "갈릴레이는 금성이 보름달에 가까운 모양까지 보이는 것을 관측했습니다.",
+    "금성이 태양 둘레를 돌며 태양 반대편에도 간다는 뜻이므로 지동설을 지지합니다."
+   ],
+   "answer": "보름달 모양 위상이 관측되었기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "행성의 겉보기 운동 정리",
+   "body": [
+    "순행(서 → 동), 역행(동 → 서), 유. 내행성: 최대 이각(수성 약 28°, 금성 약 47°), 새벽 동쪽·초저녁 서쪽, 위상 변화.",
+    "외행성: 충(태양 반대, 가장 밝음, 한밤중 남중, 역행), 합(보이지 않음). 역행은 지구의 추월로 설명(지동설)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "내행성은 공전하면서 달처럼 {{1}}이 변합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "위상"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "태양 빛을 받는 면이 보이는 정도가 달라집니다.\n갈릴레이가 관측했습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "화성이 충에 있을 때 화성은 몇 시쯤 남중할까요?",
+   "steps": [
+    "충일 때 화성은 태양의 정반대 방향에 있습니다.",
+    "태양이 정오에 남중하므로 화성은 그 12시간 뒤인 자정 무렵 남중합니다."
+   ],
+   "answer": "자정 무렵"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "충에 있는 화성은 한밤중(자정 무렵)에 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "남중"
+     ]
+    }
+   ],
+   "hint": "자오선을 지나는 것입니다.",
+   "explanation": "태양의 정반대 방향에 있기 때문입니다.\n밤새 볼 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "금성이 새벽 동쪽 하늘에서 가장 높이 보일 때는 서방 최대 {{1}}에 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이각"
+     ]
+    }
+   ],
+   "hint": "태양과 이루는 최대 각입니다.",
+   "explanation": "태양의 서쪽에서 가장 멀리 떨어져 있습니다.\n해 뜨기 전에 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "외행성이 합에 있을 때는 태양과 같은 방향에 있어 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "볼 수 없다",
+      "보이지 않는다",
+      "볼 수 없습니다"
+     ]
+    }
+   ],
+   "hint": "태양과 함께 뜨고 집니다.",
+   "explanation": "태양 빛에 가려집니다.\n지구에서 가장 멉니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "갈릴레이의 금성 위상 관측은 {{1}}을 뒷받침하는 증거가 되었습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지동설"
+     ]
+    }
+   ],
+   "hint": "태양 중심설입니다.",
+   "explanation": "보름달 모양까지 위상이 변했습니다.\n천동설로는 설명할 수 없었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "수성의 최대 이각은 약 몇 °일까요?",
+   "answer": "28",
+   "answer_format": "integer",
+   "tolerance": 2,
+   "hint": "금성보다 작습니다.",
+   "explanation": "수성은 태양에 매우 가까워 최대 이각이 약 28°입니다.\n그래서 관측하기 어렵습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "외행성은 충일 때 지구와의 거리가 가장 {{1}}워 가장 밝게 보입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가까"
+     ]
+    }
+   ],
+   "hint": "거리가 짧습니다.",
+   "explanation": "지구와 같은 방향에 있습니다.\n화성 탐사선도 이 무렵 발사합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "외행성이 충 무렵에 역행하는 이유를 지동설로 설명해 보세요.",
+   "hint": "공전 속도 차이를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "지구"
+     ],
+     [
+      "빠르",
+      "추월"
+     ],
+     [
+      "충"
+     ],
+     [
+      "뒤로",
+      "역행",
+      "동에서 서"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "지구는 외행성보다 태양에 가까워 더 빠르게 공전합니다. 충 무렵에는 지구가 외행성을 안쪽에서 추월하게 되므로, 지구에서 보면 외행성이 별자리 사이를 뒤로(동에서 서로) 움직이는 것처럼 보이는 역행이 나타납니다."
+  }
+ ]
+}

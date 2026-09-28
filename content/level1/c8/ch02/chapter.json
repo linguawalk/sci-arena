@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c8",
+  "chapter": {
+    "id": "c8-ch02",
+    "no": 2,
+    "title": "광물과 암석"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c8-ch02-l01",
+      "title": "광물의 성질",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c8-ch02-l02",
+      "title": "규산염 광물",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c8-ch02-l03",
+      "title": "편광 현미경 관찰",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c8-ch02-l04",
+      "title": "변성암과 암석의 순환",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c8-ch02-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

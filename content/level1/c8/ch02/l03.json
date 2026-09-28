@@ -1,0 +1,377 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch02",
+  "no": 2,
+  "title": "광물과 암석"
+ },
+ "lesson": {
+  "id": "c8-ch02-l03",
+  "no": 3,
+  "title": "편광 현미경 관찰",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "빛으로 광물을 알아보다",
+   "body": [
+    "암석을 종이보다 얇게 갈아 빛을 통과시키면, 편광을 이용해 각 광물을 색과 무늬로 구별할 수 있습니다.",
+    "지질학자들은 편광 현미경으로 암석 속 광물을 감정합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "암석을 약 0.03 mm 두께로 얇게 갈아 유리에 붙인 것을 암석 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "박편"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "빛이 통과할 만큼 얇습니다.\n편광 현미경으로 관찰합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "개방 니콜과 직교 니콜",
+   "body": [
+    "편광 현미경에는 재물대 아래의 하부 편광판과 위의 상부 편광판이 있습니다. 하부 편광판만 넣고 관찰하는 것을 개방 니콜, 두 편광판을 서로 수직으로 넣고 관찰하는 것을 직교 니콜이라고 합니다.",
+    "개방 니콜에서는 광물 고유의 색과 모양을 봅니다. 재물대를 돌릴 때 흑운모, 각섬석처럼 색이 변하는 성질을 다색성이라고 합니다.",
+    "직교 니콜에서는 광물을 지난 빛이 여러 색의 간섭색을 나타냅니다. 재물대를 돌리면 90°마다 광물이 어두워지는데, 이를 소광이라고 합니다. 석류석이나 화산 유리 같은 등방체는 재물대를 돌려도 항상 어둡습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "상부와 하부 편광판을 서로 수직으로 넣고 관찰하는 방법을 {{1}} 니콜이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "직교"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "간섭색과 소광을 관찰합니다.\n하부 편광판만 넣으면 개방 니콜입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "개방 니콜에서 재물대를 돌릴 때 광물의 색이 변하는 성질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다색성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "흑운모, 각섬석에서 잘 나타납니다.\n석영에는 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "직교 니콜에서 재물대를 돌리면 90°마다 광물이 어두워지는 현상을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "소광"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "빛의 진동 방향이 편광판과 일치할 때 빛이 차단됩니다.\n광물 감정에 쓰입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "직교 니콜에서 재물대를 한 바퀴 돌려도 항상 어두운 광물은?",
+   "steps": [
+    "석류석이나 화산 유리처럼 모든 방향에서 성질이 같은 등방체입니다.",
+    "빛의 편광 방향을 바꾸지 못해 상부 편광판을 통과하지 못합니다.",
+    "그래서 항상 어둡게 보입니다."
+   ],
+   "answer": "등방체(석류석, 화산 유리)"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "석류석처럼 직교 니콜에서 항상 어둡게 보이는 광물을 {{1}}체라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "등방"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "모든 방향으로 빛의 성질이 같습니다.\n대부분의 광물은 이방체입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "광물별 관찰 특징",
+   "body": [
+    "석영: 개방 니콜에서 무색 투명하고, 직교 니콜에서 흰색~회색 간섭색을 보입니다. 감람석: 직교 니콜에서 화려한 간섭색을 보입니다.",
+    "흑운모: 개방 니콜에서 갈색이며 다색성이 뚜렷합니다. 사장석: 직교 니콜에서 줄무늬(쌍정)가 보입니다.",
+    "이런 특징을 조합해 박편 속 광물을 감정하고 암석의 이름을 정합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "광물을 지난 빛이 여러 색을 나타내는 간섭색은 {{1}} 니콜에서 관찰합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "직교"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 편광판을 모두 넣어야 나타납니다.\n광물마다 간섭색이 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "직교 니콜에서 재물대를 한 바퀴(360°) 돌리면 이방체 광물은 몇 번 소광할까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "90°마다 소광하므로 360 ÷ 90 = 4번입니다.\n등방체는 계속 어둡습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "석영은 개방 니콜에서 {{1}} 투명하게 보입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무색"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "다색성이 없습니다.\n직교 니콜에서는 흰색~회색입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "개방 니콜에서 갈색으로 보이고 재물대를 돌리면 색이 연한 갈색과 진한 갈색으로 바뀌는 광물은?",
+   "steps": [
+    "재물대를 돌릴 때 색이 변하는 것은 다색성입니다.",
+    "갈색이며 다색성이 뚜렷한 대표적인 광물은 흑운모입니다."
+   ],
+   "answer": "흑운모"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "편광 현미경 정리",
+   "body": [
+    "개방 니콜(하부 편광판만): 광물의 색, 모양, 다색성. 직교 니콜(두 편광판 수직): 간섭색, 소광(90°마다).",
+    "등방체(석류석, 화산 유리)는 직교 니콜에서 항상 어둡습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "numeric",
+   "prompt": "암석 박편의 두께는 약 몇 mm일까요?",
+   "answer": "0.03",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": null,
+   "explanation": "약 0.03 mm(30 μm)입니다.\n빛이 통과할 만큼 얇습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "직교 니콜에서 화려한 간섭색을 보이고 개방 니콜에서 거의 무색인 유색 광물은?",
+   "steps": [
+    "개방 니콜에서 거의 무색이면서 직교 니콜에서 화려한 간섭색을 보이는 것은 감람석의 특징입니다.",
+    "현무암이나 감람암 박편에서 흔히 보입니다."
+   ],
+   "answer": "감람석"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "개방 니콜에서 갈색이고 다색성이 뚜렷한 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "흑운모"
+     ]
+    }
+   ],
+   "hint": "검은 운모입니다.",
+   "explanation": "재물대를 돌리면 색이 연해지고 진해집니다.\n화강암에 들어 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "직교 니콜에서 재물대를 돌려도 항상 어두운 광물은 {{1}}체입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "등방"
+     ]
+    }
+   ],
+   "hint": "모든 방향이 같다는 뜻입니다.",
+   "explanation": "석류석이 대표적입니다.\n빛의 편광 방향을 바꾸지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "광물 고유의 색과 다색성은 {{1}} 니콜에서 관찰합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "개방"
+     ]
+    }
+   ],
+   "hint": "상부 편광판을 뺀 상태입니다.",
+   "explanation": "하부 편광판만 넣습니다.\n직교 니콜에서는 간섭색이 나타납니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "직교 니콜에서 이방체 광물은 재물대를 몇 °마다 돌릴 때 소광할까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "직각입니다.",
+   "explanation": "90°마다 소광합니다.\n한 바퀴에 4번입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "화산 유리는 결정 구조가 없는 {{1}}질이라 직교 니콜에서 어둡게 보입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비결정"
+     ]
+    }
+   ],
+   "hint": "결정이 아니라는 뜻입니다.",
+   "explanation": "원자 배열이 불규칙합니다.\n등방체처럼 행동합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "편광 현미경은 암석 속 광물의 종류를 알아내는 광물 {{1}}에 쓰입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감정"
+     ]
+    }
+   ],
+   "hint": "무엇인지 판정하는 것입니다.",
+   "explanation": "색, 다색성, 간섭색, 소광을 종합합니다.\n암석의 이름과 생성 환경도 알아냅니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "편광 현미경의 개방 니콜과 직교 니콜에서 각각 무엇을 관찰할 수 있는지 설명해 보세요.",
+   "hint": "두 방법을 나누어 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "개방"
+     ],
+     [
+      "색",
+      "다색성"
+     ],
+     [
+      "직교"
+     ],
+     [
+      "간섭색",
+      "소광"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "개방 니콜은 하부 편광판만 넣고 관찰하는 방법으로 광물 고유의 색과 모양, 재물대를 돌릴 때 색이 변하는 다색성을 봅니다. 직교 니콜은 두 편광판을 수직으로 넣고 관찰하는 방법으로 간섭색과 90°마다 어두워지는 소광을 보며, 등방체는 항상 어둡습니다."
+  }
+ ]
+}

@@ -1,0 +1,397 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch03",
+  "no": 3,
+  "title": "지질 구조와 한반도"
+ },
+ "lesson": {
+  "id": "c8-ch03-l01",
+  "no": 1,
+  "title": "습곡과 단층",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "휘고 끊어진 지층",
+   "body": [
+    "도로 옆 절개면이나 해안 절벽을 보면 지층이 물결처럼 휘어 있거나 어긋나 끊어져 있는 모습을 볼 수 있습니다.",
+    "지층에 힘이 가해져 생긴 이런 구조를 지질 구조라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "지층이 양쪽에서 미는 힘을 받아 물결처럼 휘어진 구조를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "습곡"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지층이 끊어지지 않고 휘어진 것입니다.\n깊은 곳에서 오랫동안 힘을 받아 생깁니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "습곡과 단층",
+   "body": [
+    "습곡에서 위로 볼록하게 휜 부분을 배사, 아래로 오목하게 휜 부분을 향사라고 합니다. 습곡은 양쪽에서 미는 힘(횡압력)으로 생깁니다.",
+    "지층이 힘을 받아 끊어지고 양쪽이 어긋난 구조를 단층이라고 합니다. 끊어진 면을 단층면이라 하고, 단층면 위쪽 블록을 상반, 아래쪽 블록을 하반이라고 합니다.",
+    "정단층은 양쪽으로 당기는 힘(장력)으로 상반이 아래로 내려간 단층이고, 역단층은 미는 힘(횡압력)으로 상반이 위로 올라간 단층입니다. 경사가 완만한 역단층을 충상 단층이라고 합니다. 주향 이동 단층은 단층면을 따라 양쪽이 수평으로 어긋난 단층입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "습곡에서 위로 볼록하게 휜 부분을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "배사"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아래로 오목한 부분은 향사입니다.\n배사의 중심부에 오래된 지층이 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "정단층은 양쪽에서 잡아당기는 {{1}}에 의해 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "장력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지각이 늘어나며 상반이 미끄러져 내려갑니다.\n발산형 경계에서 잘 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "역단층에서는 상반이 하반에 대해 {{1}}갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "올라"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "미는 힘을 받아 상반이 밀려 올라갑니다.\n지각이 짧아집니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "단층의 종류를 상반의 움직임으로 구별하면?",
+   "steps": [
+    "상반이 아래로 내려갔으면 정단층(장력)입니다.",
+    "상반이 위로 올라갔으면 역단층(횡압력)입니다.",
+    "위아래 이동 없이 옆으로 어긋났으면 주향 이동 단층입니다."
+   ],
+   "answer": "상반의 이동 방향으로 구별한다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "단층면을 따라 양쪽 지괴가 수평으로 어긋난 단층을 {{1}} 단층이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주향 이동"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "위아래 이동이 거의 없습니다.\n보존형 경계의 변환 단층이 예입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "판 경계와 지질 구조",
+   "body": [
+    "판이 멀어지는 발산형 경계(해령, 열곡대)에서는 장력으로 정단층이 발달합니다.",
+    "판이 부딪히는 수렴형 경계에서는 횡압력으로 습곡과 역단층이 발달해 높은 산맥이 만들어집니다(히말라야, 알프스).",
+    "판이 스쳐 지나가는 보존형 경계에서는 주향 이동 단층이 발달합니다(산안드레아스 단층)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "습곡과 역단층은 양쪽에서 미는 {{1}}에 의해 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "횡압력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지각이 짧아지고 두꺼워집니다.\n수렴형 경계에서 발달합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "동아프리카 열곡대처럼 판이 멀어지는 곳에서는 주로 {{1}}이 발달합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정단층"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "장력으로 지각이 늘어납니다.\n계곡 모양으로 땅이 내려앉습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "미국의 산안드레아스 단층은 {{1}} 단층입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주향 이동"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "태평양판과 북아메리카판이 스쳐 지나갑니다.\n지진이 자주 일어납니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "습곡에서 배사와 향사 중심부 지층의 나이는?",
+   "steps": [
+    "지층이 뒤집히지 않았다면 아래 지층일수록 오래되었습니다.",
+    "배사는 위로 볼록해 침식되면 중심에 아래쪽의 오래된 지층이 드러납니다.",
+    "향사는 아래로 오목해 중심에 위쪽의 젊은 지층이 있습니다."
+   ],
+   "answer": "배사 중심은 오래되고, 향사 중심은 젊다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "습곡과 단층 정리",
+   "body": [
+    "습곡(횡압력): 배사(위로 볼록), 향사(아래로 오목).",
+    "단층: 정단층(장력, 상반 하강), 역단층(횡압력, 상반 상승, 저각이면 충상 단층), 주향 이동 단층(수평 이동)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "단층면 위쪽에 있는 블록을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상반"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아래쪽 블록은 하반입니다.\n상반의 움직임으로 단층을 구별합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "지층이 가운데로 갈수록 젊어지고 양쪽이 대칭인 습곡 구조는?",
+   "steps": [
+    "가운데에 젊은 지층이 있으려면 지층이 아래로 오목하게 휘어야 합니다.",
+    "그런 구조는 향사입니다."
+   ],
+   "answer": "향사"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "향사 구조의 중심부에는 {{1}} 지층이 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "젊은"
+     ]
+    }
+   ],
+   "hint": "위쪽 지층입니다.",
+   "explanation": "아래로 오목하게 휘어 위쪽 지층이 가운데에 남습니다.\n배사와 반대입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "배사 구조의 중심부에는 {{1}} 지층이 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오래된",
+      "나이 많은"
+     ]
+    }
+   ],
+   "hint": "아래쪽 지층입니다.",
+   "explanation": "위로 볼록해 아래 지층이 가운데로 올라옵니다.\n침식되면 드러납니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "경사가 완만해 상반이 하반 위로 멀리 밀려 올라간 역단층을 {{1}} 단층이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충상"
+     ]
+    }
+   ],
+   "hint": "위로 덮어 오른다는 뜻입니다.",
+   "explanation": "오래된 지층이 젊은 지층 위에 놓이기도 합니다.\n조산대에서 흔합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "대륙판끼리 충돌한 히말라야 산맥에는 습곡과 {{1}}이 발달해 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역단층"
+     ]
+    }
+   ],
+   "hint": "상반이 올라간 단층입니다.",
+   "explanation": "강한 횡압력을 받았습니다.\n지각이 두꺼워져 높은 산이 되었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "정단층이 생기면 그 지역의 지각은 수평 방향으로 {{1}}납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "늘어"
+     ]
+    }
+   ],
+   "hint": "잡아당기면 어떻게 될까요?",
+   "explanation": "장력으로 잡아당겨졌습니다.\n역단층은 반대로 짧아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "단층이 갑자기 움직일 때 쌓였던 에너지가 방출되어 {{1}}이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지진"
+     ]
+    }
+   ],
+   "hint": "땅이 흔들리는 현상입니다.",
+   "explanation": "활성 단층은 지진 위험이 큽니다.\n원자력 발전소 입지 조사에서 중요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "정단층과 역단층을 작용한 힘과 상반의 움직임으로 비교해 설명해 보세요.",
+   "hint": "힘과 움직임을 짝지으세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "정단층"
+     ],
+     [
+      "장력"
+     ],
+     [
+      "역단층"
+     ],
+     [
+      "횡압력"
+     ],
+     [
+      "상반",
+      "내려",
+      "올라"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "정단층은 양쪽으로 잡아당기는 장력을 받아 단층면 위쪽의 상반이 아래로 내려간 단층입니다. 역단층은 양쪽에서 미는 횡압력을 받아 상반이 위로 올라간 단층입니다."
+  }
+ ]
+}

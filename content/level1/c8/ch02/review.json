@@ -1,0 +1,196 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch02",
+  "no": 2,
+  "title": "광물과 암석"
+ },
+ "review": {
+  "id": "c8-ch02-review",
+  "title": "광물과 암석 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "겉보기 색이 비슷한 금과 황철석은 {{1}}으로 구별합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "조흔색"
+     ]
+    }
+   ],
+   "hint": "가루의 색입니다.",
+   "explanation": "금은 노란색, 황철석은 검은색입니다.\n조흔판에 긁어 봅니다.",
+   "source_lesson": "c8-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "모스 굳기계에서 활석의 굳기는 얼마일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "가장 작은 값입니다.",
+   "explanation": "가장 무른 기준 광물입니다.\n다이아몬드는 10입니다.",
+   "source_lesson": "c8-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "묽은 염산과 반응해 거품을 내는 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "방해석"
+     ]
+    }
+   ],
+   "hint": "석회암의 주요 광물입니다.",
+   "explanation": "탄산 칼슘 광물입니다.\n세 방향으로 쪼개집니다.",
+   "source_lesson": "c8-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "규산염 사면체가 평면으로 이어진 판상 구조의 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "운모"
+     ]
+    }
+   ],
+   "hint": "얇게 벗겨지는 광물입니다.",
+   "explanation": "한 방향으로 얇게 쪼개집니다.\n흑운모와 백운모가 있습니다.",
+   "source_lesson": "c8-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "Fe와 Mg를 포함해 색이 어둡고 무거운 광물을 {{1}} 광물이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유색"
+     ]
+    }
+   ],
+   "hint": "색이 있는 광물입니다.",
+   "explanation": "감람석, 휘석, 각섬석, 흑운모입니다.\n현무암에 많습니다.",
+   "source_lesson": "c8-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "편광 현미경의 개방 니콜에서 재물대를 돌릴 때 광물의 색이 변하는 성질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다색성"
+     ]
+    }
+   ],
+   "hint": "여러 색을 띠는 성질입니다.",
+   "explanation": "흑운모에서 뚜렷합니다.\n석영에는 없습니다.",
+   "source_lesson": "c8-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "직교 니콜에서 이방체 광물은 재물대를 90° 돌릴 때마다 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "소광"
+     ]
+    }
+   ],
+   "hint": "빛이 사라지는 현상입니다.",
+   "explanation": "빛이 차단되어 어두워집니다.\n등방체는 항상 어둡습니다.",
+   "source_lesson": "c8-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "석회암이 접촉 변성 작용을 받으면 {{1}}이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대리암"
+     ]
+    }
+   ],
+   "hint": "조각상의 재료입니다.",
+   "explanation": "방해석이 재결정됩니다.\n조각품에 쓰입니다.",
+   "source_lesson": "c8-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "광역 변성 작용으로 광물이 한 방향으로 배열된 구조를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "엽리"
+     ]
+    }
+   ],
+   "hint": "잎처럼 겹친 구조입니다.",
+   "explanation": "압력에 수직으로 배열됩니다.\n편암과 편마암에 뚜렷합니다.",
+   "source_lesson": "c8-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "셰일이 광역 변성 작용을 받을 때 변성 정도가 가장 높은 암석은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편마암"
+     ]
+    }
+   ],
+   "hint": "줄무늬가 있는 암석입니다.",
+   "explanation": "점판암 → 천매암 → 편암 → 편마암 순입니다.\n편마 구조가 나타납니다.",
+   "source_lesson": "c8-ch02-l04"
+  }
+ ]
+}

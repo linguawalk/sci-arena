@@ -1,0 +1,181 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch07",
+  "no": 7,
+  "title": "행성의 운동"
+ },
+ "review": {
+  "id": "c8-ch07-review",
+  "title": "행성의 운동 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "외행성이 태양의 정반대 방향에 있어 한밤중에 남중하고 가장 밝을 때를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "충"
+     ]
+    }
+   ],
+   "hint": "태양과 반대쪽입니다.",
+   "explanation": "지구와 가장 가깝습니다.\n이 무렵 역행합니다.",
+   "source_lesson": "c8-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "금성은 최대 이각이 약 47°라 {{1}}에는 볼 수 없습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "한밤중"
+     ]
+    }
+   ],
+   "hint": "자정 무렵입니다.",
+   "explanation": "새벽 동쪽 하늘이나 초저녁 서쪽 하늘에서만 보입니다.\n내행성의 특징입니다.",
+   "source_lesson": "c8-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "외행성의 역행은 지구가 외행성을 {{1}}할 때 나타납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "추월"
+     ]
+    }
+   ],
+   "hint": "앞지르는 것입니다.",
+   "explanation": "지구가 더 빠르게 공전합니다.\n충 무렵입니다.",
+   "source_lesson": "c8-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "공전 주기가 2년인 외행성의 회합 주기는 몇 년일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1/S = 1 − 1/P입니다.",
+   "explanation": "1/S = 1 − 1/2 = 1/2이므로 S = 2년입니다.\n외행성 공식입니다.",
+   "source_lesson": "c8-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "공전 주기가 5년인 외행성의 회합 주기는 몇 년일까요?",
+   "answer": "1.25",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "1/S = 1 − 1/P입니다.",
+   "explanation": "1/S = 1 − 1/5 = 4/5이므로 S = 1.25년입니다.\n먼 행성일수록 1년에 가깝습니다.",
+   "source_lesson": "c8-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "긴반지름 5 AU, 이심률 0.2인 궤도의 근일점 거리는 몇 AU일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "a(1 − e)입니다.",
+   "explanation": "a(1 − e) = 5 × 0.8 = 4 AU입니다.\n원일점은 6 AU입니다.",
+   "source_lesson": "c8-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "궤도 긴반지름이 4 AU인 소행성의 공전 주기는 몇 년일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "T² = a³입니다.",
+   "explanation": "T² = 4³ = 64이므로 T = 8년입니다.\n케플러 제3법칙입니다.",
+   "source_lesson": "c8-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지구는 1월 초에 태양에 가장 가까운 {{1}}을 지납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "근일점"
+     ]
+    }
+   ],
+   "hint": "태양에 가장 가까운 점입니다.",
+   "explanation": "이때 공전 속도가 가장 빠릅니다.\n7월 초에는 원일점입니다.",
+   "source_lesson": "c8-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "우리나라 최초의 달 궤도선은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다누리"
+     ]
+    }
+   ],
+   "hint": "'달을 누리다'는 뜻의 이름입니다.",
+   "explanation": "2022년 발사되었습니다.\n달 둘레를 돌며 관측합니다.",
+   "source_lesson": "c8-ch07-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "목성형 행성은 지구형 행성보다 밀도가 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작"
+     ]
+    }
+   ],
+   "hint": "가벼운 물질로 되어 있습니다.",
+   "explanation": "주로 기체로 이루어져 있습니다.\n토성은 물보다 밀도가 작습니다.",
+   "source_lesson": "c8-ch07-l04"
+  }
+ ]
+}

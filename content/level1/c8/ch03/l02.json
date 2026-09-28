@@ -1,0 +1,395 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch03",
+  "no": 3,
+  "title": "지질 구조와 한반도"
+ },
+ "lesson": {
+  "id": "c8-ch03-l02",
+  "no": 2,
+  "title": "부정합, 절리, 관입",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "지층에 남은 사건의 흔적",
+   "body": [
+    "지층에는 쌓인 순서뿐 아니라 융기와 침식, 마그마의 관입, 식으며 갈라진 흔적도 기록되어 있습니다.",
+    "이런 구조로 그 지역이 겪은 사건들의 순서를 알 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "퇴적이 중단되고 침식을 받은 뒤 다시 퇴적이 일어나 위아래 지층 사이에 긴 시간 공백이 있는 관계를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "부정합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "융기 → 침식 → 침강 → 퇴적 과정을 거칩니다.\n부정합면 위에 기저 역암이 흔합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "부정합과 절리",
+   "body": [
+    "부정합은 위아래 지층이 나란한 평행 부정합, 아래 지층이 기울어진 경사 부정합, 아래가 화성암이나 변성암인 난정합으로 나뉩니다.",
+    "절리는 암석에 생긴 틈으로, 양쪽이 어긋나지 않았다는 점에서 단층과 다릅니다. 주상 절리는 용암이 빠르게 식으며 수축해 생긴 기둥 모양의 절리로 현무암에서 잘 나타납니다(제주도 해안, 한탄강).",
+    "판상 절리는 땅속 깊은 곳에서 만들어진 화강암이 지표로 드러나며 누르던 압력이 줄어 팽창해 생긴 판 모양의 절리입니다(북한산, 설악산)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "용암이 식으며 수축해 생긴 육각형 기둥 모양의 절리를 {{1}} 절리라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주상"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "현무암에서 잘 발달합니다.\n제주도 대포동 해안이 유명합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "화강암이 지표로 드러나 압력이 줄어들며 양파 껍질처럼 판 모양으로 갈라진 것을 {{1}} 절리라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "판상"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "압력 감소로 팽창해 생깁니다.\n북한산 인수봉이 대표적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기울어진 지층 위에 수평한 지층이 부정합으로 놓인 것을 {{1}} 부정합이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경사"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "아래 지층이 쌓인 뒤 기울어지는 지각 변동이 있었습니다.\n그 뒤 침식되고 새 지층이 쌓였습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "절리와 단층은 어떻게 구별할까요?",
+   "steps": [
+    "두 구조 모두 암석이 갈라진 틈입니다.",
+    "단층은 틈을 따라 양쪽 암석이 어긋나 이동했습니다.",
+    "절리는 갈라지기만 하고 양쪽이 이동하지 않았습니다."
+   ],
+   "answer": "양쪽 암석이 이동했는지로 구별한다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "마그마가 지층을 가로질러 판 모양으로 관입해 굳은 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "암맥"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지층을 비스듬히 또는 수직으로 자릅니다.\n뚫고 들어간 지층보다 젊습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "관입암의 종류와 사건의 순서",
+   "body": [
+    "마그마가 지층면과 나란하게 파고들어 굳은 것은 암상, 지층을 가로지른 것은 암맥, 땅속 깊은 곳에서 거대하게 굳은 것은 저반(주로 화강암)입니다.",
+    "지층의 형성 순서는 지층 누중의 법칙, 관입의 법칙(관입암이 더 젊음), 부정합(시간 공백), 단층(자른 지층보다 젊음)을 함께 적용해 알아냅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "마그마가 지층면과 나란하게 파고들어 굳은 관입암을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "암상"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지층 사이에 판처럼 끼어 있습니다.\n암맥은 지층을 가로지릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "땅속 깊은 곳에서 거대하게 굳은 관입암체를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "저반"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "주로 화강암으로 되어 있습니다.\n우리나라의 대보 화강암이 대표적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "부정합면 아래에 화강암이 있고 위에 퇴적층이 쌓인 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "난정합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "깊은 곳의 화강암이 드러날 만큼 오래 침식되었습니다.\n긴 시간 공백을 뜻합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "지층 A(아래), B(위)를 암맥 C가 뚫고, C를 단층 f가 자르며, 그 위에 부정합으로 지층 D가 있다면 순서는?",
+   "steps": [
+    "누중의 법칙: A → B.",
+    "C는 A, B를 뚫었으므로 그 뒤, 단층 f는 C를 잘랐으므로 그 뒤입니다.",
+    "부정합(융기·침식) 뒤 D가 쌓였습니다. 순서는 A → B → C → f → 부정합 → D입니다."
+   ],
+   "answer": "A → B → C → f → 부정합 → D"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "정리",
+   "body": [
+    "부정합: 평행·경사·난정합, 기저 역암. 절리: 주상(현무암, 냉각 수축), 판상(화강암, 압력 감소). 절리는 이동이 없는 틈입니다.",
+    "관입암: 암맥(가로지름), 암상(나란함), 저반(거대). 형성 순서는 여러 법칙을 함께 적용합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "절리는 암석이 갈라졌지만 양쪽이 {{1}}하지 않은 틈입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이동"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이동했으면 단층입니다.\n풍화의 통로가 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "제주도 해안의 육각형 돌기둥은 어떻게 만들어졌을까요?",
+   "steps": [
+    "뜨거운 현무암질 용암이 바닷가로 흘러와 빠르게 식었습니다.",
+    "식으며 부피가 줄어 수직 방향의 틈이 육각형 모양으로 갈라졌습니다.",
+    "이것이 주상 절리입니다."
+   ],
+   "answer": "용암이 식으며 수축해 생긴 주상 절리"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "제주도 해안의 육각형 돌기둥은 {{1}} 절리입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주상"
+     ]
+    }
+   ],
+   "hint": "기둥 모양의 절리입니다.",
+   "explanation": "현무암질 용암이 식으며 수축했습니다.\n천연기념물로 지정되어 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "북한산의 둥근 화강암 봉우리에 발달한 판 모양 틈은 {{1}} 절리입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "판상"
+     ]
+    }
+   ],
+   "hint": "판 모양의 절리입니다.",
+   "explanation": "압력이 줄어 팽창하며 생겼습니다.\n껍질처럼 벗겨집니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "절리와 단층을 구별하는 기준은 틈을 따라 양쪽 암석이 {{1}}했는지입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이동"
+     ]
+    }
+   ],
+   "hint": "어긋남의 여부입니다.",
+   "explanation": "단층은 어긋났고 절리는 그대로입니다.\n둘 다 틈입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "암맥은 그것이 뚫고 들어간 지층보다 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "젊"
+     ]
+    }
+   ],
+   "hint": "나중에 생겼습니다.",
+   "explanation": "지층이 먼저 있어야 뚫을 수 있습니다.\n관입의 법칙입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "부정합이 생기려면 지층이 쌓인 뒤 {{1}}하여 침식을 받아야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "융기"
+     ]
+    }
+   ],
+   "hint": "땅이 솟아오르는 것입니다.",
+   "explanation": "물 위로 드러나야 침식됩니다.\n다시 침강해 새 지층이 쌓입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "아래 지층의 침식된 조각이 모인 기저 역암은 부정합면 바로 {{1}}에 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "위"
+     ]
+    }
+   ],
+   "hint": "새로 쌓인 지층의 맨 아래입니다.",
+   "explanation": "침식 뒤 다시 쌓이기 시작할 때 생깁니다.\n부정합의 증거입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "주상 절리와 판상 절리가 만들어지는 원리를 비교해 설명해 보세요.",
+   "hint": "두 절리의 원인을 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "주상"
+     ],
+     [
+      "용암",
+      "현무암",
+      "수축"
+     ],
+     [
+      "판상"
+     ],
+     [
+      "화강암",
+      "압력",
+      "팽창"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "주상 절리는 지표로 흘러나온 현무암질 용암이 식으면서 수축해 기둥 모양으로 갈라진 절리입니다. 판상 절리는 땅속 깊은 곳에서 굳은 화강암이 침식으로 지표에 드러나며 누르던 압력이 줄어 팽창해 판 모양으로 갈라진 절리입니다."
+  }
+ ]
+}

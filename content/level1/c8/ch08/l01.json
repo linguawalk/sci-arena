@@ -1,0 +1,362 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch08",
+  "no": 8,
+  "title": "우주 관측과 탐사"
+ },
+ "lesson": {
+  "id": "c8-ch08-l01",
+  "no": 1,
+  "title": "망원경",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "더 멀리, 더 선명하게",
+   "body": [
+    "1609년 갈릴레이는 지름 몇 cm의 망원경으로 목성의 위성과 달의 산을 보았습니다. 오늘날에는 지름 10 m가 넘는 거대한 망원경이 수십억 광년 떨어진 은하를 관측합니다.",
+    "망원경의 성능은 무엇으로 정해질까요?"
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "볼록 렌즈로 빛을 모으는 망원경을 {{1}} 망원경이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "굴절"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "갈릴레이의 망원경이 굴절 망원경입니다.\n거울을 쓰면 반사 망원경입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "망원경의 종류와 성능",
+   "body": [
+    "굴절 망원경은 대물렌즈로 빛을 모으며, 파장에 따라 굴절 정도가 달라 상에 색이 번지는 색수차가 생깁니다. 반사 망원경은 오목 거울로 빛을 모아 색수차가 없고 크게 만들기 쉬워 대형 망원경은 대부분 반사식입니다.",
+    "집광력은 빛을 모으는 능력으로 구경(대물렌즈나 주경의 지름, D)의 제곱에 비례합니다. 집광력이 클수록 어두운 천체를 볼 수 있습니다.",
+    "분해능은 가까이 있는 두 천체를 구별하는 능력으로, 구경이 클수록 좋아집니다(분해각 ∝ 파장 ÷ D). 배율은 대물렌즈의 초점 거리 ÷ 접안렌즈의 초점 거리입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "망원경의 집광력은 구경의 {{1}}에 비례합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "제곱"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "빛을 받는 면적이 지름의 제곱에 비례하기 때문입니다.\n구경이 2배이면 집광력은 4배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "망원경의 구경이 2배가 되면 집광력은 몇 배가 될까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "집광력 ∝ D²이므로 4배입니다.\n더 어두운 천체를 볼 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "대물렌즈의 초점 거리가 1000 mm, 접안렌즈의 초점 거리가 20 mm인 망원경의 배율은 몇 배일까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "배율 = 1000 ÷ 20 = 50배입니다.\n접안렌즈를 바꾸면 배율이 변합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "구경 10 cm와 40 cm 망원경의 집광력을 비교하면?",
+   "steps": [
+    "집광력은 구경의 제곱에 비례합니다.",
+    "(40 ÷ 10)² = 4² = 16입니다.",
+    "40 cm 망원경이 16배 많은 빛을 모읍니다."
+   ],
+   "answer": "16배"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "구경 40 cm 망원경의 집광력은 구경 10 cm 망원경의 몇 배일까요?",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "(40/10)² = 16배입니다.\n구경이 망원경 성능의 핵심입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "대형 망원경",
+   "body": [
+    "대형 망원경은 무거운 렌즈 대신 거울을 쓰는 반사식으로 만들며, 여러 조각의 거울을 이어 붙이기도 합니다.",
+    "지상 망원경은 대기의 흔들림 때문에 별빛이 번져 분해능이 떨어지는데, 거울 모양을 실시간으로 바꿔 이를 보정하는 적응 광학 기술을 씁니다.",
+    "망원경의 성능은 배율보다 집광력과 분해능, 곧 구경이 중요합니다. 배율만 높이면 상이 어둡고 흐려집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "구경이 수 m 이상인 대형 망원경은 대부분 {{1}} 망원경입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반사"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "거울은 뒤에서 받칠 수 있어 크게 만들기 쉽습니다.\n색수차도 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "파장에 따라 굴절 정도가 달라 상에 색이 번지는 색수차는 {{1}} 망원경에서 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "굴절"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "렌즈를 통과하며 색마다 초점이 달라집니다.\n반사 망원경에는 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "대기의 흔들림을 거울 모양을 바꿔 보정하는 기술을 {{1}} 광학이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적응"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지상 망원경의 분해능을 크게 높입니다.\n레이저로 인공 별을 만들어 기준으로 삼습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "구경이 2배인 망원경의 분해능은 어떻게 될까요?",
+   "steps": [
+    "분해할 수 있는 최소 각(분해각)은 구경에 반비례합니다.",
+    "구경이 2배이면 분해각은 1/2이 됩니다.",
+    "더 가까이 붙은 두 천체를 구별할 수 있으므로 분해능은 2배 좋아집니다."
+   ],
+   "answer": "2배 좋아진다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "망원경 정리",
+   "body": [
+    "굴절(렌즈, 색수차) vs 반사(거울, 대형화 쉬움). 집광력 ∝ D², 분해각 ∝ λ/D, 배율 = 대물 초점 거리 ÷ 접안 초점 거리.",
+    "망원경의 성능은 구경이 결정합니다. 적응 광학으로 대기 흔들림을 보정합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "망원경의 집광력과 분해능을 모두 결정하는 가장 중요한 요소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "구경"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "대물렌즈나 주경의 지름입니다.\n배율은 접안렌즈로 바꿀 수 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "대물렌즈 초점 거리 1200 mm인 망원경에 25 mm 접안렌즈를 끼우면 배율은?",
+   "steps": [
+    "배율 = 1200 ÷ 25입니다.",
+    "= 48배입니다."
+   ],
+   "answer": "48배"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "대물렌즈 초점 거리 1200 mm인 망원경에 초점 거리 25 mm인 접안렌즈를 끼우면 배율은 몇 배일까요?",
+   "answer": "48",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "대물 ÷ 접안입니다.",
+   "explanation": "1200 ÷ 25 = 48배입니다.\n초점 거리가 짧은 접안렌즈일수록 배율이 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "구경이 3배인 망원경은 분해능이 몇 배 좋아질까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "분해각은 구경에 반비례합니다.",
+   "explanation": "분해각이 1/3이 되므로 분해능은 3배입니다.\n구경에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "매우 어두운 천체를 관측하려면 망원경의 {{1}}이 커야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "집광력"
+     ]
+    }
+   ],
+   "hint": "빛을 모으는 능력입니다.",
+   "explanation": "빛을 많이 모아야 어두운 천체가 보입니다.\n구경을 키웁니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "가까이 붙어 있는 쌍성을 두 개의 별로 구별하는 능력은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분해능"
+     ]
+    }
+   ],
+   "hint": "나누어 보는 능력입니다.",
+   "explanation": "구경이 클수록 좋습니다.\n파장이 짧을수록 좋습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "반사 망원경은 거울을 써서 {{1}}가 생기지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "색수차"
+     ]
+    }
+   ],
+   "hint": "색이 번지는 현상입니다.",
+   "explanation": "빛이 거울에서 반사될 때는 파장에 따른 차이가 없습니다.\n굴절 망원경의 단점입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 망원경에서 접안렌즈의 초점 거리를 절반으로 바꾸면 배율은 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "접안렌즈 초점 거리에 반비례합니다.",
+   "explanation": "배율 = 대물 ÷ 접안이므로 2배가 됩니다.\n상은 더 어두워집니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "망원경의 구경이 커지면 집광력과 분해능이 어떻게 달라지는지 설명해 보세요.",
+   "hint": "두 성능을 모두 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "구경"
+     ],
+     [
+      "집광력"
+     ],
+     [
+      "제곱"
+     ],
+     [
+      "분해능",
+      "분해각"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "망원경의 구경이 커지면 빛을 받는 면적이 넓어져 집광력이 구경의 제곱에 비례해 커지므로 더 어두운 천체를 볼 수 있습니다. 또 분해각이 구경에 반비례해 작아지므로 분해능이 좋아져 가까이 있는 천체를 더 잘 구별할 수 있습니다."
+  }
+ ]
+}

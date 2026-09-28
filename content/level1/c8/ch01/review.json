@@ -1,0 +1,193 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch01",
+  "no": 1,
+  "title": "지구의 형성과 내부"
+ },
+ "review": {
+  "id": "c8-ch01-review",
+  "title": "지구의 형성과 내부 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "원시 지구의 마그마 바다에서 철과 니켈이 가라앉아 {{1}}을 이루었습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "핵"
+     ]
+    }
+   ],
+   "hint": "지구의 중심부입니다.",
+   "explanation": "밀도 분화입니다.\n가벼운 물질은 맨틀이 되었습니다.",
+   "source_lesson": "c8-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "원시 대기의 이산화 탄소는 바다에 녹아 {{1}}으로 쌓였습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "석회암"
+     ]
+    }
+   ],
+   "hint": "탄산 칼슘으로 된 암석입니다.",
+   "explanation": "탄산염 암석입니다.\n대기의 CO₂가 크게 줄었습니다.",
+   "source_lesson": "c8-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지각과 맨틀의 경계를 {{1}}면이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "모호"
+     ]
+    }
+   ],
+   "hint": "발견한 과학자의 이름을 줄인 말입니다.",
+   "explanation": "모호로비치치 불연속면입니다.\n대륙에서 약 35 km 깊이입니다.",
+   "source_lesson": "c8-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "S파가 외핵을 통과하지 못하는 것은 외핵이 {{1}}이기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "액체"
+     ]
+    }
+   ],
+   "hint": "S파가 통과하지 못하는 상태입니다.",
+   "explanation": "S파는 고체만 통과합니다.\n103° 이상에 S파가 도달하지 않습니다.",
+   "source_lesson": "c8-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "P파의 암영대는 진앙으로부터 각거리 103°에서 약 몇 °까지일까요?",
+   "answer": "143",
+   "answer_format": "integer",
+   "tolerance": 2,
+   "hint": "140°를 조금 넘습니다.",
+   "explanation": "약 103°~143°입니다.\n외핵에서의 굴절 때문입니다.",
+   "source_lesson": "c8-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지구의 중력은 {{1}}에서 가장 작습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적도"
+     ]
+    }
+   ],
+   "hint": "원심력이 가장 큰 곳입니다.",
+   "explanation": "원심력이 가장 크고 중심까지 거리가 멉니다.\n극에서 가장 큽니다.",
+   "source_lesson": "c8-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "땅속에 철광석처럼 밀도가 큰 물질이 있으면 {{1}}의 중력 이상이 나타납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "양",
+      "양(+)",
+      "+"
+     ]
+    }
+   ],
+   "hint": "표준보다 큰 경우입니다.",
+   "explanation": "실측 중력이 표준보다 큽니다.\n지하자원 탐사에 씁니다.",
+   "source_lesson": "c8-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "진북과 자북 사이의 각을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편각"
+     ]
+    }
+   ],
+   "hint": "방향이 치우친 각입니다.",
+   "explanation": "지구 자기장의 3요소 가운데 하나입니다.\n우리나라는 서쪽으로 약 8°입니다.",
+   "source_lesson": "c8-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "자기 적도에서 복각은 몇 °일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "수평입니다.",
+   "explanation": "자기장이 수평면과 나란합니다.\n자극에서는 90°입니다.",
+   "source_lesson": "c8-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지구 자기장이 만든 {{1}}은 태양풍의 대전 입자를 막아 생명체를 보호합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자기권"
+     ]
+    }
+   ],
+   "hint": "자기장이 미치는 공간입니다.",
+   "explanation": "일부 입자는 밴앨런대에 붙잡힙니다.\n극지방에서는 오로라가 생깁니다.",
+   "source_lesson": "c8-ch01-l04"
+  }
+ ]
+}

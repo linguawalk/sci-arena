@@ -1,0 +1,396 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch04",
+  "no": 4,
+  "title": "대기의 운동"
+ },
+ "lesson": {
+  "id": "c8-ch04-l03",
+  "no": 3,
+  "title": "경도풍과 지상풍",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "휘어 도는 바람과 지표의 바람",
+   "body": [
+    "고기압과 저기압 주위의 등압선은 원 모양이고, 지표 근처에서는 마찰이 바람을 느리게 합니다.",
+    "이 두 경우에는 바람이 지균풍과 다르게 붑니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "마찰이 없는 상층에서 등압선이 원 모양일 때 등압선을 따라 도는 바람을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경도풍"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기압 경도력, 전향력, 구심력이 관여합니다.\n고기압과 저기압 주위에서 붑니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "경도풍과 지상풍",
+   "body": [
+    "경도풍은 원형 등압선을 따라 부는 바람으로, 기압 경도력과 전향력의 합력이 원운동의 구심력 역할을 합니다. 북반구에서는 저기압 주위를 시계 반대 방향, 고기압 주위를 시계 방향으로 돕니다.",
+    "지상풍은 지표 근처(대기 경계층)에서 마찰력이 함께 작용하는 바람입니다. 마찰력이 풍속을 줄이면 전향력도 작아져, 기압 경도력과 (전향력 + 마찰력)이 평형을 이루며 바람이 등압선을 비스듬히 가로질러 저기압 쪽으로 붑니다.",
+    "그래서 지상에서는 저기압 중심으로 공기가 모여들어(수렴) 상승하고, 고기압 중심에서는 공기가 퍼져 나가(발산) 하강합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "북반구의 저기압 주위에서 경도풍은 시계 {{1}} 방향으로 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반대"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "고기압 주위는 시계 방향입니다.\n남반구는 반대입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지상풍은 마찰력 때문에 등압선을 비스듬히 가로질러 {{1}}기압 쪽으로 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "저"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전향력이 약해져 기압 경도력 쪽으로 기웁니다.\n그래서 저기압으로 공기가 모입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지표의 마찰력은 바람의 속력을 {{1}}시킵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "속력이 줄면 전향력도 작아집니다.\n그래서 바람의 방향이 바뀝니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "지상풍이 등압선을 비스듬히 가로질러 부는 이유는?",
+   "steps": [
+    "마찰력이 풍속을 줄이면 속력에 비례하는 전향력도 작아집니다.",
+    "기압 경도력이 전향력보다 커져 바람이 저기압 쪽으로 기웁니다.",
+    "기압 경도력, 전향력, 마찰력의 세 힘이 평형을 이룬 방향으로 붑니다."
+   ],
+   "answer": "마찰로 전향력이 약해지기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지표면의 마찰이 클수록 지상풍이 등압선과 이루는 각은 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "커"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "마찰이 크면 풍속과 전향력이 더 줄어듭니다.\n그래서 저기압 쪽으로 더 기웁니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "지상의 수렴과 발산",
+   "body": [
+    "지상풍이 등압선과 이루는 각은 마찰이 작은 해양에서 약 10°~20°, 마찰이 큰 육지에서 약 30°~40°입니다.",
+    "지상 저기압에서는 공기가 시계 반대 방향으로 돌며 중심으로 모여(수렴) 상승하므로 구름이 생기고 날씨가 흐립니다.",
+    "지상 고기압에서는 공기가 시계 방향으로 돌며 바깥으로 퍼지고(발산) 중심에서 하강 기류가 생겨 날씨가 맑습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지상 저기압에서는 공기가 중심으로 {{1}}해 상승 기류가 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수렴"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "모인 공기가 위로 올라갑니다.\n구름과 비가 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지상 고기압에서는 공기가 바깥으로 {{1}}해 중심에 하강 기류가 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "발산"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "퍼져 나간 공기를 위에서 내려와 채웁니다.\n날씨가 맑습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지상풍이 등압선과 이루는 각은 마찰이 큰 {{1}}에서 더 큽니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "육지"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "건물, 나무, 산이 마찰을 키웁니다.\n해양에서는 각이 작습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "고도가 높아질수록 바람은 어떻게 변할까요?",
+   "steps": [
+    "지표에서 멀어질수록 마찰력이 줄어듭니다.",
+    "풍속이 커지고 전향력도 커져 바람이 점점 등압선과 나란해집니다.",
+    "대기 경계층 위에서는 지균풍(또는 경도풍)이 됩니다."
+   ],
+   "answer": "풍속이 커지고 등압선과 나란해진다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "경도풍과 지상풍 정리",
+   "body": [
+    "경도풍: 상층, 원형 등압선, 구심력 = 기압 경도력과 전향력의 합력. 북반구 저기압 시계 반대, 고기압 시계 방향.",
+    "지상풍: 마찰력 추가 → 등압선을 비스듬히 가로질러 저기압 쪽. 저기압 수렴·상승, 고기압 발산·하강."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "지상풍은 기압 경도력, 전향력, {{1}}의 세 힘이 평형을 이루어 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "마찰력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "마찰력은 바람의 반대 방향으로 작용합니다.\n상층에서는 무시합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "남반구의 지상 저기압에서 바람은 어떻게 불까요?",
+   "steps": [
+    "남반구에서는 전향력이 왼쪽으로 작용합니다.",
+    "저기압 주위를 시계 방향으로 돌며 중심으로 모여듭니다.",
+    "중심에서 상승 기류가 생깁니다."
+   ],
+   "answer": "시계 방향으로 돌며 수렴"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "남반구의 저기압 주위에서 바람은 {{1}} 방향으로 돕니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시계"
+     ]
+    }
+   ],
+   "hint": "북반구와 반대입니다.",
+   "explanation": "전향력이 왼쪽으로 작용하기 때문입니다.\n북반구와 반대입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "고기압 중심에서는 {{1}} 기류가 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "하강"
+     ]
+    }
+   ],
+   "hint": "공기가 내려옵니다.",
+   "explanation": "지상에서 공기가 발산하기 때문입니다.\n그래서 맑습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "고도가 높아지면 마찰력이 줄어 바람이 점점 {{1}}에 가까워집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지균풍"
+     ]
+    }
+   ],
+   "hint": "상층의 직선 바람입니다.",
+   "explanation": "등압선과 나란해집니다.\n풍속도 커집니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "경도풍이 원운동을 하게 하는 구심력은 기압 경도력과 전향력의 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "합력"
+     ]
+    }
+   ],
+   "hint": "두 힘을 더한 것입니다.",
+   "explanation": "두 힘의 차이가 중심 방향을 향합니다.\n그래서 원을 그리며 돕니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "태풍의 지상 바람은 시계 반대 방향으로 돌며 중심을 향해 {{1}}옵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "불어 들어",
+      "모여 들어",
+      "모여"
+     ]
+    }
+   ],
+   "hint": "중심으로 모입니다.",
+   "explanation": "지상 저기압의 수렴입니다.\n중심 부근에서 강하게 상승합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지상풍이 등압선을 비스듬히 가로지르는 원인은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "마찰력"
+     ]
+    }
+   ],
+   "hint": "지표와의 저항입니다.",
+   "explanation": "마찰이 없으면 등압선과 나란히 붑니다.\n지상과 상층의 차이입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "지상풍과 지균풍의 차이를 작용하는 힘과 바람의 방향으로 설명해 보세요.",
+   "hint": "힘과 방향을 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "지균풍"
+     ],
+     [
+      "지상풍"
+     ],
+     [
+      "마찰력"
+     ],
+     [
+      "나란",
+      "비스듬",
+      "가로질러"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "지균풍은 마찰이 없는 상층에서 기압 경도력과 전향력이 평형을 이루어 등압선과 나란하게 부는 바람입니다. 지상풍은 지표 근처에서 마찰력이 더해져 풍속과 전향력이 줄어들므로 세 힘이 평형을 이루며 등압선을 비스듬히 가로질러 저기압 쪽으로 붑니다."
+  }
+ ]
+}

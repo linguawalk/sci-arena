@@ -1,0 +1,392 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch04",
+  "no": 4,
+  "title": "대기의 운동"
+ },
+ "lesson": {
+  "id": "c8-ch04-l02",
+  "no": 2,
+  "title": "지균풍",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "등압선을 따라 부는 바람",
+   "body": [
+    "높은 하늘의 일기도를 보면 바람이 등압선을 가로지르지 않고 등압선을 따라 나란히 붑니다.",
+    "기압 경도력과 전향력이 균형을 이루기 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "마찰이 없는 상층에서 기압 경도력과 전향력이 평형을 이루어 등압선과 나란하게 부는 바람을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지균풍"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "등압선이 직선일 때의 바람입니다.\n상층 편서풍이 대표적입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "지균풍",
+   "body": [
+    "지표에서 약 1 km 이상의 상층에서는 마찰력을 무시할 수 있습니다. 등압선이 직선일 때 기압 경도력과 전향력이 크기가 같고 방향이 반대로 평형을 이루면, 바람은 등압선과 나란하게 일정한 속력으로 붑니다.",
+    "북반구에서 지균풍은 저기압을 왼쪽, 고기압을 오른쪽에 두고 붑니다(남반구는 반대).",
+    "지균풍의 속력은 기압 경도력에 비례하므로 등압선 간격이 좁을수록 빠릅니다. 같은 기압 경도력이면 위도가 높을수록 전향력이 커서 적은 속력으로도 평형을 이루므로 풍속이 느립니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지균풍은 기압 경도력과 {{1}}이 평형을 이루어 부는 바람입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전향력"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 힘이 크기가 같고 방향이 반대입니다.\n마찰력은 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지균풍은 등압선과 {{1}}하게 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "나란"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기압 경도력과 전향력이 등압선에 수직으로 균형을 이룹니다.\n그래서 바람은 등압선을 따라 붑니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "북반구에서 지균풍은 저기압을 {{1}}쪽에 두고 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "왼"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전향력이 오른쪽(고기압 쪽)으로 작용해야 균형을 이룹니다.\n남반구에서는 반대입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "북반구에서 남쪽에 고기압, 북쪽에 저기압이 있고 등압선이 동서로 나란하면 지균풍의 방향은?",
+   "steps": [
+    "기압 경도력은 남 → 북(저기압 쪽)으로 작용합니다.",
+    "전향력은 그 반대인 북 → 남으로 작용해야 합니다.",
+    "북반구에서 전향력이 오른쪽이 남쪽이 되려면 바람은 동쪽으로 불어야 합니다. 곧 서풍입니다."
+   ],
+   "answer": "서풍(서쪽에서 동쪽으로)"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "등압선 간격이 좁을수록 지균풍의 속력이 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빠르"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기압 경도력이 커서 더 큰 전향력이 필요합니다.\n그래서 풍속이 커집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "지균풍이 만들어지는 과정",
+   "body": [
+    "정지해 있던 공기가 기압 경도력을 받아 저기압 쪽으로 움직이기 시작하면, 전향력이 북반구에서 오른쪽으로 작용해 경로가 휩니다.",
+    "속력이 빨라질수록 전향력도 커져 경로가 점점 더 휘고, 마침내 전향력이 기압 경도력과 크기가 같고 방향이 반대가 되면 바람은 등압선과 나란하게 붑니다.",
+    "지균풍은 적도 부근에서는 전향력이 거의 없어 성립하지 않습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기압 경도력과 전향력이 평형을 이루면 바람은 등압선과 {{1}}하게 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "나란"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "그 뒤로는 속력과 방향이 일정합니다.\n지균풍입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 기압 경도력이라면 위도가 낮을수록 지균풍의 속력이 더 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빠릅",
+      "빠르"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "저위도는 전향력이 작아 더 큰 속력이 필요합니다.\n그래야 평형을 이룹니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지균풍은 마찰력이 거의 없는 {{1}}층에서 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지표에서 약 1 km 이상입니다.\n지표 근처에서는 마찰력이 작용합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "적도 부근에서 지균풍이 성립하지 않는 이유는?",
+   "steps": [
+    "지균풍은 기압 경도력과 전향력의 평형이 필요합니다.",
+    "적도에서는 전향력이 거의 0이라 기압 경도력과 평형을 이룰 수 없습니다.",
+    "그래서 적도 부근에서는 공기가 저기압 쪽으로 곧장 움직입니다."
+   ],
+   "answer": "전향력이 거의 없기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "지균풍 정리",
+   "body": [
+    "상층(마찰 없음), 직선 등압선, 기압 경도력 = 전향력. 등압선과 나란하게, 북반구에서 저기압을 왼쪽에 두고 붑니다.",
+    "등압선 간격이 좁을수록 빠르고, 같은 기압 경도력이면 고위도일수록 느립니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "남반구의 지균풍은 저기압을 {{1}}쪽에 두고 붑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오른"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "남반구는 전향력이 왼쪽으로 작용합니다.\n북반구와 반대입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "등압선 간격이 절반이 되면 지균풍의 속력은?",
+   "steps": [
+    "기압 경도력이 2배가 됩니다.",
+    "평형을 이루려면 전향력도 2배여야 하고, 전향력은 속력에 비례합니다.",
+    "지균풍의 속력은 2배가 됩니다."
+   ],
+   "answer": "2배"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "북반구에서 남쪽이 고기압, 북쪽이 저기압이면 상층 지균풍은 {{1}}풍입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "서"
+     ]
+    }
+   ],
+   "hint": "저기압을 왼쪽에 두세요.",
+   "explanation": "저기압을 왼쪽에 두고 동쪽으로 붑니다.\n중위도 상층의 편서풍입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "같은 위도에서 등압선 간격이 절반이 되면 지균풍의 속력은 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "평형 조건을 생각하세요.",
+   "explanation": "기압 경도력이 2배이므로 풍속도 2배입니다.\n전향력이 속력에 비례하기 때문입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "중위도 상층에서 부는 편서풍은 대표적인 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지균풍"
+     ]
+    }
+   ],
+   "hint": "이 레슨의 바람입니다.",
+   "explanation": "남쪽이 따뜻해 기압이 높고 북쪽이 낮습니다.\n등압선을 따라 서풍이 붑니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "적도 부근에서는 전향력이 거의 없어 지균풍이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "성립하지 않는다",
+      "성립하지 않습니다",
+      "불지 않는다"
+     ]
+    }
+   ],
+   "hint": "평형을 이룰 수 있을까요?",
+   "explanation": "평형을 이룰 힘이 없습니다.\n지균풍은 중위도와 고위도에서 성립합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지균풍에서 기압 경도력은 {{1}}기압 쪽을 향합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "저"
+     ]
+    }
+   ],
+   "hint": "기압 경도력의 방향입니다.",
+   "explanation": "고기압에서 저기압 쪽으로 작용합니다.\n전향력은 반대인 고기압 쪽입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지균풍에서 전향력은 {{1}}기압 쪽을 향합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "고"
+     ]
+    }
+   ],
+   "hint": "기압 경도력과 반대입니다.",
+   "explanation": "기압 경도력과 반대 방향이어야 평형을 이룹니다.\n북반구에서는 바람의 오른쪽입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "정지해 있던 공기가 지균풍이 되기까지의 과정을 힘을 이용해 설명해 보세요.",
+   "hint": "힘의 변화를 순서대로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "기압 경도력"
+     ],
+     [
+      "전향력"
+     ],
+     [
+      "휘",
+      "오른쪽"
+     ],
+     [
+      "평형",
+      "나란"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "정지한 공기가 기압 경도력을 받아 저기압 쪽으로 움직이기 시작하면 전향력이 북반구에서 오른쪽으로 작용해 경로가 휩니다. 속력이 커질수록 전향력도 커지고, 전향력이 기압 경도력과 크기가 같고 방향이 반대가 되어 평형을 이루면 바람이 등압선과 나란하게 부는 지균풍이 됩니다."
+  }
+ ]
+}

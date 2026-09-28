@@ -1,0 +1,405 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch02",
+  "no": 2,
+  "title": "광물과 암석"
+ },
+ "lesson": {
+  "id": "c8-ch02-l02",
+  "no": 2,
+  "title": "규산염 광물",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "지각을 이루는 광물",
+   "body": [
+    "지각의 무게 약 90% 이상은 규소(Si)와 산소(O)를 포함한 규산염 광물입니다.",
+    "규산염 광물은 기본 구조가 어떻게 연결되느냐에 따라 성질이 달라집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "규산염 광물의 기본 구조는 규소 1개와 산소 4개로 이루어진 SiO₄ {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "사면체"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "규소를 산소 4개가 정사면체 꼭짓점에서 둘러쌉니다.\n이 단위가 여러 방식으로 연결됩니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "규산염 사면체의 결합 방식",
+   "body": [
+    "독립형: 사면체가 따로 떨어져 있고 사이를 Mg, Fe 이온이 연결합니다(감람석). 단사슬형: 사면체가 한 줄로 이어집니다(휘석). 복사슬형: 두 줄로 이어집니다(각섬석).",
+    "판상형: 사면체가 평면으로 이어져 한 방향으로 쪼개집니다(흑운모, 백운모). 망상형: 모든 산소를 이웃 사면체와 공유해 3차원 그물을 이룹니다(석영, 장석).",
+    "공유하는 산소가 많을수록 구조가 튼튼하고 Si에 대한 O의 비율(O/Si)이 작아집니다(독립형 4 → 석영 2)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "감람석은 규산염 사면체가 따로 떨어져 있는 {{1}}형 구조입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "독립"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "사면체 사이를 Mg, Fe 이온이 연결합니다.\nSi : O = 1 : 4입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "흑운모는 규산염 사면체가 평면으로 연결된 {{1}} 구조라 한 방향으로 쪼개집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "판상"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "판과 판 사이 결합이 약합니다.\n얇게 벗겨집니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "석영은 규산염 사면체가 모든 산소를 공유하는 {{1}} 구조입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "망상"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "3차원 그물 구조라 단단합니다.\n화학식은 SiO₂입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "규산염 사면체의 결합 방식에 따라 광물의 성질은 어떻게 달라질까요?",
+   "steps": [
+    "공유하는 산소가 많을수록 사면체가 서로 강하게 연결됩니다.",
+    "망상형인 석영은 매우 단단하고 풍화에 강합니다.",
+    "판상형인 운모는 판 사이가 약해 한 방향으로 쪼개집니다."
+   ],
+   "answer": "결합 방식이 굳기와 쪼개짐을 정한다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "사면체의 결합이 단순한 것부터 복잡한 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "각섬석(복사슬형)"
+    },
+    {
+     "id": "b",
+     "text": "감람석(독립형)"
+    },
+    {
+     "id": "c",
+     "text": "흑운모(판상형)"
+    },
+    {
+     "id": "d",
+     "text": "휘석(단사슬형)"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "독립형 → 단사슬 → 복사슬 → 판상 → 망상 순으로 공유 산소가 많아집니다.\n석영과 장석이 망상형입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "유색 광물과 무색 광물",
+   "body": [
+    "Fe와 Mg를 포함한 감람석, 휘석, 각섬석, 흑운모는 색이 어둡고 밀도가 커 유색 광물(철·마그네슘 광물)이라고 합니다. 현무암처럼 SiO₂가 적은 암석에 많습니다.",
+    "석영, 장석, 백운모는 색이 밝고 밀도가 작아 무색 광물이라고 합니다. 화강암처럼 SiO₂가 많은 암석에 많습니다. 지각에 가장 많은 광물은 장석입니다.",
+    "석영은 풍화에 매우 강해 다른 광물이 분해된 뒤에도 남아 해변 모래의 주성분이 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "석영, 장석처럼 Fe와 Mg가 적어 색이 밝은 광물을 {{1}} 광물이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "무색"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "밀도가 작습니다.\n화강암에 많습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "Fe와 Mg를 포함해 색이 어두운 감람석은 {{1}} 광물입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유색"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "철·마그네슘 광물이라고도 합니다.\n현무암과 감람암에 많습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "풍화에 가장 강해 해변 모래의 주성분이 되는 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "석영"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "망상 구조로 단단하고 화학적으로 안정합니다.\n다른 광물이 분해된 뒤에도 남습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "현무암과 화강암의 색이 다른 이유를 광물로 설명하면?",
+   "steps": [
+    "현무암은 SiO₂가 적고 Fe, Mg가 많아 감람석, 휘석 같은 유색 광물이 많습니다.",
+    "화강암은 SiO₂가 많아 석영, 장석 같은 무색 광물이 많습니다.",
+    "그래서 현무암은 어둡고 화강암은 밝습니다."
+   ],
+   "answer": "유색 광물과 무색 광물의 비율 차이"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "규산염 광물 정리",
+   "body": [
+    "SiO₄ 사면체의 결합: 독립형(감람석) → 단사슬(휘석) → 복사슬(각섬석) → 판상(운모) → 망상(석영, 장석).",
+    "유색 광물(Fe, Mg, 어둡고 무거움) vs 무색 광물(석영, 장석, 백운모, 밝고 가벼움). 지각 최다 광물: 장석."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "지각에 가장 많이 들어 있는 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "장석"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "사장석과 정장석이 있습니다.\n풍화되면 점토 광물이 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "석영(SiO₂)에서 규소와 산소의 개수비는?",
+   "steps": [
+    "석영은 모든 사면체가 산소를 이웃과 공유합니다.",
+    "사면체 하나의 산소 4개가 각각 두 사면체에 속하므로 규소 1개당 산소는 2개입니다.",
+    "Si : O = 1 : 2입니다."
+   ],
+   "answer": "1 : 2"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "석영(SiO₂)에서 규소 1개에 대해 산소는 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "화학식을 보세요.",
+   "explanation": "화학식 SiO₂에서 Si : O = 1 : 2입니다.\n모든 산소를 공유하기 때문입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "감람석 같은 독립형 규산염 광물에서 규소 1개에 대해 산소는 몇 개일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "사면체 하나의 산소 수입니다.",
+   "explanation": "사면체가 산소를 공유하지 않아 Si : O = 1 : 4입니다.\n가장 큰 비율입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "현무암은 {{1}} 광물이 많아 색이 어둡습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유색"
+     ]
+    }
+   ],
+   "hint": "Fe와 Mg를 포함한 광물입니다.",
+   "explanation": "감람석, 휘석이 많습니다.\nSiO₂가 적은 염기성암입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "화강암의 주요 광물은 석영, {{1}}, 흑운모입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "장석"
+     ]
+    }
+   ],
+   "hint": "지각에 가장 많은 광물입니다.",
+   "explanation": "석영과 장석이 무색 광물이라 밝습니다.\n흑운모가 검은 점으로 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "해변의 흰 모래는 주로 {{1}} 알갱이입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "석영"
+     ]
+    }
+   ],
+   "hint": "SiO₂로 된 광물입니다.",
+   "explanation": "풍화에 가장 강해 남았습니다.\n유리의 원료입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "규산염 사면체가 공유하는 산소가 많을수록 광물은 풍화에 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "강합",
+      "강하"
+     ]
+    }
+   ],
+   "hint": "석영의 성질을 떠올리세요.",
+   "explanation": "구조가 튼튼하게 연결됩니다.\n석영이 가장 강합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "규산염 사면체의 결합 방식이 광물의 성질에 주는 영향을 예를 들어 설명해 보세요.",
+   "hint": "결합 방식과 성질을 짝지으세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "사면체"
+     ],
+     [
+      "독립",
+      "판상",
+      "망상"
+     ],
+     [
+      "석영",
+      "운모",
+      "감람석"
+     ],
+     [
+      "쪼개짐",
+      "풍화",
+      "단단"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "규산염 광물은 SiO₄ 사면체가 연결되는 방식에 따라 성질이 달라집니다. 사면체가 평면으로 연결된 판상 구조의 운모는 판 사이가 약해 한 방향으로 쪼개지고, 모든 산소를 공유하는 망상 구조의 석영은 매우 단단하고 풍화에 강합니다."
+  }
+ ]
+}

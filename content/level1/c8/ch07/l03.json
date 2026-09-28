@@ -1,0 +1,356 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch07",
+  "no": 7,
+  "title": "행성의 운동"
+ },
+ "lesson": {
+  "id": "c8-ch07-l03",
+  "no": 3,
+  "title": "행성의 궤도",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "찌그러진 원",
+   "body": [
+    "지구의 궤도는 원에 매우 가깝지만, 핼리 혜성의 궤도는 가늘고 긴 타원입니다.",
+    "궤도가 얼마나 찌그러졌는지에 따라 태양과의 거리와 속력이 크게 달라집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "타원이 원에서 얼마나 찌그러졌는지를 나타내는 값을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이심률"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "0이면 원, 1에 가까울수록 납작한 타원입니다.\n행성마다 다릅니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "이심률과 근일점·원일점",
+   "body": [
+    "타원 궤도의 긴반지름을 a, 중심에서 초점(태양)까지 거리를 c라 하면 이심률은 e = c ÷ a입니다.",
+    "태양에 가장 가까운 점(근일점)까지의 거리는 a(1 − e), 가장 먼 점(원일점)까지의 거리는 a(1 + e)입니다. 긴반지름은 두 거리의 평균입니다.",
+    "지구 궤도의 이심률은 약 0.017로 거의 원입니다. 지구는 1월 초에 근일점, 7월 초에 원일점을 지납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지구가 태양에 가장 가까운 근일점을 지나는 때는 {{1}}월 초입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "북반구는 겨울이지만 태양과 가장 가깝습니다.\n계절은 자전축 기울기 때문입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "긴반지름 1 AU, 이심률 0.2인 궤도의 근일점 거리는 몇 AU일까요?",
+   "answer": "0.8",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "a(1 − e) = 1 × 0.8 = 0.8 AU입니다.\n태양에 가장 가까운 거리입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위 궤도의 원일점 거리는 몇 AU일까요?",
+   "answer": "1.2",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "a(1 + e) = 1 × 1.2 = 1.2 AU입니다.\n근일점과 원일점의 평균이 1 AU입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "핼리 혜성(긴반지름 약 18 AU, 이심률 약 0.97)의 근일점과 원일점 거리는?",
+   "steps": [
+    "근일점: 18 × (1 − 0.97) = 18 × 0.03 ≈ 0.54 AU입니다.",
+    "원일점: 18 × 1.97 ≈ 35.5 AU입니다.",
+    "수성 궤도 안쪽까지 들어왔다가 해왕성 궤도 밖까지 나갑니다."
+   ],
+   "answer": "약 0.54 AU, 약 35.5 AU"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "긴반지름 18 AU, 이심률 0.97인 핼리 혜성의 근일점 거리는 약 몇 AU일까요?",
+   "answer": "0.54",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "hint": null,
+   "explanation": "18 × 0.03 = 0.54 AU입니다.\n매우 납작한 타원입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "케플러 법칙의 적용",
+   "body": [
+    "케플러 제3법칙에 따라 태양계 천체의 공전 주기 T(년)와 긴반지름 a(AU)는 T² = a³을 만족합니다.",
+    "제2법칙(면적 속도 일정)에 따라 근일점에서 빠르고 원일점에서 느리며, 두 지점의 속력은 거리에 반비례합니다: v_근 × r_근 = v_원 × r_원.",
+    "지구도 1월(근일점)에 조금 더 빨리 공전해, 북반구의 겨울(추분~춘분)이 여름보다 며칠 짧습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "궤도 긴반지름이 9 AU인 천체의 공전 주기는 몇 년일까요?",
+   "answer": "27",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "T² = 9³ = 729이므로 T = 27년입니다.\n케플러 제3법칙입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "근일점 거리 0.8 AU, 원일점 거리 1.2 AU인 천체의 근일점 속력은 원일점 속력의 몇 배일까요?",
+   "answer": "1.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "속력은 거리에 반비례하므로 1.2 ÷ 0.8 = 1.5배입니다.\n면적 속도 일정 법칙입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지구는 근일점을 지나는 1월에 공전 속도가 가장 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "빠릅",
+      "빠르"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "태양에 가장 가깝기 때문입니다.\n면적 속도가 일정합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "근일점 거리 1 AU, 원일점 거리 3 AU인 궤도의 긴반지름과 이심률은?",
+   "steps": [
+    "긴반지름 = (1 + 3) ÷ 2 = 2 AU입니다.",
+    "a(1 − e) = 1이므로 2(1 − e) = 1, e = 0.5입니다."
+   ],
+   "answer": "a = 2 AU, e = 0.5"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "행성 궤도 정리",
+   "body": [
+    "이심률 e = c/a (0: 원). 근일점 a(1 − e), 원일점 a(1 + e), 긴반지름 = 두 거리의 평균.",
+    "T² = a³(년, AU), 근일점에서 빠르고 원일점에서 느림(속력 ∝ 1/거리)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "이심률이 0인 궤도는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "초점이 중심과 일치합니다.\n지구 궤도는 0에 가깝습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "공전 주기가 8년인 소행성의 궤도 긴반지름은?",
+   "steps": [
+    "T² = a³이므로 64 = a³입니다.",
+    "a = 4 AU입니다."
+   ],
+   "answer": "4 AU"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "공전 주기가 8년인 소행성의 궤도 긴반지름은 몇 AU일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "T² = a³입니다.",
+   "explanation": "a³ = 64이므로 a = 4 AU입니다.\n소행성대 바깥쪽입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "북반구의 겨울이 여름보다 조금 짧은 것은 지구가 겨울에 {{1}} 근처를 지나 빨리 공전하기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "근일점"
+     ]
+    }
+   ],
+   "hint": "태양에 가장 가까운 점입니다.",
+   "explanation": "1월에 태양과 가장 가깝습니다.\n그래서 추분~춘분 기간이 짧습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "긴반지름 2 AU, 이심률 0.5인 궤도의 원일점 거리는 몇 AU일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "a(1 + e)입니다.",
+   "explanation": "a(1 + e) = 2 × 1.5 = 3 AU입니다.\n근일점은 1 AU입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "혜성의 궤도는 행성보다 이심률이 매우 {{1}}니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "큽",
+      "크"
+     ]
+    }
+   ],
+   "hint": "납작한 타원입니다.",
+   "explanation": "가늘고 긴 타원입니다.\n태양 가까이 올 때만 꼬리가 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "행성의 타원 궤도에서 태양은 타원의 {{1}}에 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "초점"
+     ]
+    }
+   ],
+   "hint": "타원의 두 특별한 점 가운데 하나입니다.",
+   "explanation": "중심이 아닙니다.\n케플러 제1법칙입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "근일점 거리가 1 AU, 원일점 거리가 3 AU인 궤도의 긴반지름은 몇 AU일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "두 거리의 평균입니다.",
+   "explanation": "(1 + 3) ÷ 2 = 2 AU입니다.\n두 거리의 평균입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "궤도의 이심률이 커지면 근일점 거리와 원일점 거리, 공전 속력이 어떻게 달라지는지 설명해 보세요.",
+   "hint": "거리와 속력을 모두 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "이심률"
+     ],
+     [
+      "근일점",
+      "가까"
+     ],
+     [
+      "원일점",
+      "멀"
+     ],
+     [
+      "속력",
+      "빠르",
+      "느리"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "긴반지름이 같을 때 이심률이 커지면 근일점 거리 a(1 − e)는 짧아지고 원일점 거리 a(1 + e)는 길어져 태양과의 거리 차이가 커집니다. 면적 속도 일정 법칙에 따라 근일점에서는 매우 빠르게, 원일점에서는 매우 느리게 움직여 속력 차이도 커집니다."
+  }
+ ]
+}

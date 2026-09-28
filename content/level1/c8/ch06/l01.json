@@ -1,0 +1,367 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c8",
+  "title": "지학Ⅱ"
+ },
+ "chapter": {
+  "id": "c8-ch06",
+  "no": 6,
+  "title": "천구와 좌표계"
+ },
+ "lesson": {
+  "id": "c8-ch06-l01",
+  "no": 1,
+  "title": "천구",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "지구과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "하늘은 거대한 둥근 지붕",
+   "body": [
+    "밤하늘의 별들은 거리가 제각각이지만, 우리 눈에는 모두 둥근 지붕에 붙어 있는 것처럼 보입니다.",
+    "천문학자들은 이 둥근 지붕을 가상의 구로 생각해 천체의 위치를 나타냅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "관측자를 중심으로 하는 반지름이 무한히 큰 가상의 구를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "천구"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "모든 천체가 이 구면 위에 있다고 생각합니다.\n방향만 나타냅니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "천구의 기준점과 기준선",
+   "body": [
+    "지구의 자전축을 연장해 천구와 만나는 점이 천구의 북극과 남극이고, 지구 적도면을 연장해 천구와 만나는 큰 원이 천구의 적도입니다. 천구의 북극 근처에 북극성이 있습니다.",
+    "관측자의 머리 위 점을 천정, 발아래 점을 천저라고 하며, 천정에서 90° 떨어진 큰 원이 지평선입니다. 천정, 천구의 북극, 북점과 남점을 지나는 큰 원이 자오선이며, 천체가 자오선을 지나는 것을 남중(또는 정중)이라고 합니다.",
+    "북극성의 고도는 관측 지점의 위도와 같습니다. 태양이 1년 동안 천구 위를 움직이는 길을 황도라고 하며, 천구의 적도와 약 23.5° 기울어져 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "천구에서 관측자의 머리 바로 위의 점을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "천정"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "고도가 90°입니다.\n발아래 반대쪽 점은 천저입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위도 37.5°N인 서울에서 북극성의 고도는 약 몇 °일까요?",
+   "answer": "37.5",
+   "answer_format": "decimal",
+   "tolerance": 0.5,
+   "hint": null,
+   "explanation": "북극성의 고도는 관측 지점의 위도와 같습니다.\n약 37.5°입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "황도는 천구의 적도와 약 몇 ° 기울어져 있을까요?",
+   "answer": "23.5",
+   "answer_format": "decimal",
+   "tolerance": 0.2,
+   "hint": null,
+   "explanation": "지구 자전축이 약 23.5° 기울어져 있기 때문입니다.\n계절 변화의 원인입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "북극성의 고도가 위도와 같은 이유는?",
+   "steps": [
+    "북극성은 지구 자전축의 연장선, 곧 천구의 북극 근처에 있습니다.",
+    "적도(위도 0°)에서는 천구의 북극이 지평선에 있고, 북극(위도 90°)에서는 천정에 있습니다.",
+    "위도가 1° 커질 때마다 지평선이 기울어 북극성이 1°씩 높아지므로 고도 = 위도입니다."
+   ],
+   "answer": "위도만큼 지평선이 기울기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "적도에서 북극성의 고도는 약 몇 °일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "위도 0°이므로 북극성은 북쪽 지평선에 걸려 있습니다.\n고도 0°입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "황도 위의 네 점",
+   "body": [
+    "황도와 천구의 적도가 만나는 두 점 가운데 태양이 남쪽에서 북쪽으로 지나는 점을 춘분점(3월 21일경), 북쪽에서 남쪽으로 지나는 점을 추분점(9월 23일경)이라고 합니다.",
+    "황도에서 천구의 적도보다 가장 북쪽에 있는 점이 하지점(6월 22일경), 가장 남쪽에 있는 점이 동지점(12월 22일경)입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "황도와 천구의 적도가 만나는 두 점은 춘분점과 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "추분점"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "태양이 이 점에 있으면 낮과 밤의 길이가 거의 같습니다.\n적도 좌표계의 기준이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "태양이 춘분점에 오는 날은 {{1}}월 21일경입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "3"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "봄이 시작되는 무렵입니다.\n낮과 밤의 길이가 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "천체가 자오선을 지나는 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "남중"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이때 천체의 고도가 가장 높습니다.\n태양이 남중하는 때가 정오입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "위도 35°N에서 천구의 적도는 남쪽 지평선과 몇 °를 이룰까요?",
+   "steps": [
+    "천구의 적도는 천구의 북극과 90° 떨어져 있습니다.",
+    "천구의 북극 고도가 35°이므로 천구의 적도는 남쪽 지평선에서 90 − 35 = 55° 높이를 지납니다."
+   ],
+   "answer": "55°"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "천구 정리",
+   "body": [
+    "천구의 북극·남극(자전축 연장), 천구의 적도(적도면 연장), 천정·천저, 지평선, 자오선(남중), 황도(적도와 23.5°).",
+    "북극성 고도 = 위도. 황도 위의 춘분점·하지점·추분점·동지점."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "천구의 북극 가까이에는 {{1}}이 있어 방향을 찾는 기준이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "북극성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "하루 동안 거의 움직이지 않습니다.\n고도가 위도와 같습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "북극점에서 북극성은 어디에 보일까요?",
+   "steps": [
+    "북극점의 위도는 90°입니다.",
+    "북극성의 고도 = 위도이므로 90°입니다.",
+    "북극성은 천정에 보입니다."
+   ],
+   "answer": "천정(고도 90°)"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "북극점(위도 90°N)에서 북극성의 고도는 몇 °일까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "고도 = 위도입니다.",
+   "explanation": "고도 = 위도이므로 90°입니다.\n천정에 보입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "태양이 자오선을 지나 가장 높이 뜰 때를 태양의 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "남중"
+     ]
+    }
+   ],
+   "hint": "자오선을 지나는 것입니다.",
+   "explanation": "이때가 그 지역의 정오입니다.\n남중 고도는 계절에 따라 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "천구의 적도는 지구의 {{1}}면을 연장한 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적도"
+     ]
+    }
+   ],
+   "hint": "지구의 가운데를 두르는 선입니다.",
+   "explanation": "천구의 북극과 남극에서 각각 90° 떨어져 있습니다.\n적도 좌표계의 기준입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "태양이 하지점에 오는 날은 {{1}}월 22일경입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "6"
+     ]
+    }
+   ],
+   "hint": "여름입니다.",
+   "explanation": "낮이 가장 깁니다.\n태양이 천구의 적도보다 23.5° 북쪽에 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "위도 35°N에서 천구의 적도가 남쪽 지평선과 이루는 각은 몇 °일까요?",
+   "answer": "55",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "90° − 위도입니다.",
+   "explanation": "90 − 35 = 55°입니다.\n위도가 높을수록 낮아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "관측자의 발아래 천정과 정반대 쪽 점을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "천저"
+     ]
+    }
+   ],
+   "hint": "천정의 반대입니다.",
+   "explanation": "지평선 아래에 있어 볼 수 없습니다.\n천정과 180° 떨어져 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "북극성의 고도로 관측 지점의 위도를 알 수 있는 이유를 설명해 보세요.",
+   "hint": "북극성의 위치와 위도 변화를 연결하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "북극성"
+     ],
+     [
+      "천구의 북극",
+      "자전축"
+     ],
+     [
+      "위도"
+     ],
+     [
+      "고도",
+      "같"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "북극성은 지구 자전축을 연장한 천구의 북극 근처에 있습니다. 적도에서는 천구의 북극이 지평선에, 북극에서는 천정에 있으며, 위도가 높아질수록 그만큼 높아지므로 북극성의 고도는 관측 지점의 위도와 같습니다."
+  }
+ ]
+}
