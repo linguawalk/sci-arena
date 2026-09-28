@@ -1,0 +1,392 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch07",
+  "no": 7,
+  "title": "생명 공학 기술"
+ },
+ "lesson": {
+  "id": "c7-ch07-l02",
+  "no": 2,
+  "title": "PCR과 전기 영동",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "머리카락 한 올의 DNA",
+   "body": [
+    "범죄 현장에 남은 머리카락 한 올에는 DNA가 아주 조금밖에 없습니다. 그래도 몇 시간 만에 분석할 수 있을 만큼 늘릴 수 있습니다.",
+    "DNA를 복사해 늘리고, 크기에 따라 나누는 기술을 알아봅시다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "시험관에서 특정 DNA 부분을 빠르게 대량 복제하는 기술을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "PCR"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "중합 효소 연쇄 반응입니다.\n멀리스가 개발해 노벨상을 받았습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "PCR의 과정",
+   "body": [
+    "PCR은 세 단계를 반복합니다. 변성: 약 95 °C로 가열해 이중 가닥을 단일 가닥으로 떼어 냅니다. 결합: 약 55 °C로 식혀 증폭할 부분 양 끝에 프라이머가 결합하게 합니다.",
+    "신장: 약 72 °C에서 내열성 DNA 중합 효소가 프라이머에서부터 새 가닥을 합성합니다. 온천 세균에서 얻은 Taq 중합 효소는 높은 온도에서도 변성되지 않습니다.",
+    "한 번 반복할 때마다 DNA가 2배가 되므로 n번 반복하면 약 2ⁿ배가 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "DNA 1분자로 PCR을 10회 반복하면 이론적으로 몇 분자가 될까요?",
+   "answer": "1024",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "2¹⁰ = 1024분자입니다.\n매번 2배씩 늘어납니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "PCR에 쓰는 내열성 DNA 중합 효소는 온천 세균에서 얻은 {{1}} 중합 효소입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Taq"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "95 °C에서도 변성되지 않습니다.\n그래서 매번 효소를 새로 넣지 않아도 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "PCR 한 주기의 단계를 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "신장(약 72 °C)"
+    },
+    {
+     "id": "b",
+     "text": "변성(약 95 °C)"
+    },
+    {
+     "id": "c",
+     "text": "다음 주기 변성"
+    },
+    {
+     "id": "d",
+     "text": "프라이머 결합(약 55 °C)"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "변성 → 결합 → 신장을 한 주기로 반복합니다.\n온도를 바꾸어 단계를 조절합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "PCR에서 온도를 세 단계로 바꾸는 이유는?",
+   "steps": [
+    "높은 온도에서 수소 결합이 끊어져 두 가닥이 분리됩니다.",
+    "온도를 낮춰야 짧은 프라이머가 주형에 결합할 수 있습니다.",
+    "중간 온도는 내열성 DNA 중합 효소가 가장 잘 작용하는 온도입니다."
+   ],
+   "answer": "분리, 결합, 합성에 알맞은 온도가 다르기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "DNA 1분자로 PCR을 3회 반복하면 이론적으로 몇 분자가 될까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "2³ = 8분자입니다.\n지수적으로 늘어납니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "전기 영동과 DNA 지문",
+   "body": [
+    "DNA는 인산기 때문에 음전하를 띠므로, 젤에 넣고 전류를 흘리면 (+)극 쪽으로 이동합니다. 작은 조각은 젤의 그물 사이를 빨리 빠져나가 멀리 이동하고, 큰 조각은 적게 이동합니다.",
+    "사람마다 DNA의 반복 서열 길이가 달라, 같은 부위를 PCR로 증폭해 전기 영동하면 사람마다 다른 띠 무늬(DNA 지문)가 나타납니다.",
+    "DNA 지문은 범죄 수사, 친자 확인, 신원 확인에 쓰입니다. 자녀의 띠는 부모에게서 하나씩 물려받은 것입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전기 영동에서 DNA는 {{1}}극 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "(+)",
+      "+",
+      "양"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "DNA가 음전하를 띠기 때문입니다.\n그래서 (−)극 쪽에 시료를 넣습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전기 영동에서 크기가 작은 DNA 조각일수록 {{1}} 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "멀리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "젤의 그물 사이를 쉽게 빠져나갑니다.\n크기를 비교할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "친자 확인에서 자녀의 DNA 띠는 각각 {{1}}에게서 물려받은 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "부모",
+      "부모 중 한 명",
+      "어머니나 아버지"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자녀의 띠는 어머니 또는 아버지의 띠와 일치해야 합니다.\n어느 쪽에도 없는 띠가 있으면 친자가 아닐 수 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "자녀의 DNA 띠 가운데 어머니에게 없는 띠가 남성 A에게는 있고 남성 B에게는 없다면?",
+   "steps": [
+    "자녀의 띠는 어머니와 아버지에게서 하나씩 옵니다.",
+    "어머니에게 없는 띠는 아버지에게서 왔어야 합니다.",
+    "그 띠를 가진 남성 A가 친아버지일 가능성이 높습니다."
+   ],
+   "answer": "남성 A"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "PCR과 전기 영동 정리",
+   "body": [
+    "PCR: 변성(95 °C) → 결합(55 °C) → 신장(72 °C, Taq), n회 → 2ⁿ배.",
+    "전기 영동: DNA(음전하) → (+)극, 작은 조각이 멀리. DNA 지문으로 개인을 구별합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "DNA가 음전하를 띠는 것은 골격의 {{1}}기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인산"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "인산기가 음이온 상태입니다.\n그래서 전기 영동이 가능합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "PCR을 20회 반복하면 DNA는 약 몇 배가 될까요?",
+   "steps": [
+    "2²⁰ = 1,048,576입니다.",
+    "약 100만 배로 늘어납니다."
+   ],
+   "answer": "약 100만 배"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "DNA 1분자로 PCR을 20회 반복하면 이론적으로 몇 분자가 될까요?",
+   "answer": "1048576",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "2를 20번 곱하세요.",
+   "explanation": "2²⁰ = 1,048,576분자입니다.\n약 100만 배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "PCR의 변성 단계는 약 95 °C처럼 매우 {{1}} 온도에서 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높은"
+     ]
+    }
+   ],
+   "hint": "가닥을 떼어 내야 합니다.",
+   "explanation": "두 가닥 사이의 수소 결합을 끊어야 합니다.\n그래서 내열성 효소가 필요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "PCR로 특정 부위를 증폭하려면 양 끝에 결합할 프라이머가 몇 종류 필요할까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "두 가닥이 있습니다.",
+   "explanation": "두 가닥에 각각 결합하는 프라이머 2종류가 필요합니다.\n증폭 범위를 정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "범죄 현장의 혈흔이나 머리카락으로 범인을 찾는 데 DNA {{1}}을 이용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지문"
+     ]
+    }
+   ],
+   "hint": "손가락 무늬에 빗댄 이름입니다.",
+   "explanation": "사람마다 띠 무늬가 다릅니다.\n일란성 쌍둥이는 같습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "RNA 바이러스를 진단할 때는 먼저 {{1}} 효소로 RNA를 DNA로 바꾼 뒤 PCR을 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역전사"
+     ]
+    }
+   ],
+   "hint": "RNA → DNA 효소입니다.",
+   "explanation": "RT-PCR이라고 합니다.\n코로나19 진단에 쓰였습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1000 bp와 200 bp인 DNA 조각을 전기 영동하면 더 멀리 이동하는 조각은 몇 bp일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "작은 쪽입니다.",
+   "explanation": "작은 조각이 더 멀리 이동합니다.\n200 bp입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "PCR의 세 단계를 온도와 함께 설명하고, DNA가 늘어나는 원리를 말해 보세요.",
+   "hint": "세 단계와 증폭 원리를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "변성",
+      "95"
+     ],
+     [
+      "결합",
+      "프라이머"
+     ],
+     [
+      "신장",
+      "72",
+      "중합 효소"
+     ],
+     [
+      "2배",
+      "2ⁿ",
+      "반복"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "PCR은 약 95 °C에서 이중 가닥을 분리하는 변성, 약 55 °C에서 프라이머가 주형 가닥에 결합하는 결합, 약 72 °C에서 내열성 DNA 중합 효소가 새 가닥을 합성하는 신장 단계를 반복합니다. 한 주기마다 DNA가 2배가 되므로 n회 반복하면 약 2ⁿ배로 늘어납니다."
+  }
+ ]
+}

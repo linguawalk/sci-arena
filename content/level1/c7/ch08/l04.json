@@ -1,0 +1,381 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch08",
+  "no": 8,
+  "title": "진화의 원리"
+ },
+ "lesson": {
+  "id": "c7-ch08-l04",
+  "no": 4,
+  "title": "분자 진화와 계통수",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "DNA 속 진화의 기록",
+   "body": [
+    "사람과 침팬지의 DNA는 약 98.8% 같고, 사람과 생쥐는 약 85% 같습니다. DNA를 비교하면 생물들이 얼마나 가까운 친척인지 알 수 있습니다.",
+    "분자 자료로 생물의 진화 관계를 밝히고 계통수를 그립니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "생물들의 진화적 유연관계를 나뭇가지 모양으로 나타낸 그림을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "계통수"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가지가 갈라지는 점이 공통 조상입니다.\n가지 끝에는 현재의 종이 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "분자 진화",
+   "body": [
+    "여러 생물이 공통으로 가진 유전자(상동 유전자)의 염기 서열이나 단백질의 아미노산 서열을 비교하면, 차이가 적을수록 최근에 공통 조상에서 갈라진 가까운 관계입니다.",
+    "예를 들어 세포 호흡에 쓰이는 단백질인 사이토크롬 c의 아미노산 차이는 사람과 침팬지 0개, 사람과 말 12개, 사람과 효모 44개입니다.",
+    "돌연변이가 일정한 속도로 쌓인다고 가정하면, 서열 차이의 크기로 두 종이 갈라진 시기를 추정할 수 있습니다. 이를 분자 시계라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "일정한 속도로 쌓이는 서열 차이를 이용해 종이 갈라진 시기를 추정하는 방법을 분자 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시계"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "화석 기록으로 속도를 보정합니다.\n화석이 없는 시기도 추정할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "사이토크롬 c의 아미노산 차이가 사람–침팬지 0개, 사람–말 12개, 사람–효모 44개일 때 사람과 가장 먼 생물과의 차이는 몇 개일까요?",
+   "answer": "44",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "효모와의 차이가 44개로 가장 큽니다.\n효모는 사람과 가장 먼 친척입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "두 생물의 DNA 염기 서열 차이가 적을수록 진화적으로 {{1}} 관계입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가까운",
+      "가깝다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "최근에 공통 조상에서 갈라졌습니다.\n차이가 쌓일 시간이 짧았습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "어떤 단백질에서 아미노산 차이 10개가 쌓이는 데 5천만 년이 걸린다면, 차이가 20개인 두 종은 언제 갈라졌을까요?",
+   "steps": [
+    "분자 시계는 차이가 시간에 비례한다고 봅니다.",
+    "20개는 10개의 2배이므로 5천만 년 × 2 = 1억 년입니다."
+   ],
+   "answer": "약 1억 년 전"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아미노산 차이 10개가 쌓이는 데 5천만 년이 걸리는 단백질에서 두 종의 차이가 30개라면 약 몇 억 년 전에 갈라졌을까요?",
+   "answer": "1.5",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "hint": null,
+   "explanation": "30 ÷ 10 × 5천만 = 1억 5천만 년입니다.\n1.5억 년입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "계통수 읽기",
+   "body": [
+    "계통수에서 가지가 갈라지는 분기점은 그 아래 종들의 공통 조상을 나타냅니다. 두 종을 잇는 가장 가까운 분기점이 최근일수록 가까운 관계입니다.",
+    "우즈는 모든 생물이 가진 리보솜 RNA(rRNA)의 염기 서열을 비교해 생물을 세균역, 고세균역, 진핵생물역의 3역으로 나누었습니다.",
+    "rRNA 분석 결과 고세균은 원핵생물이지만 세균보다 진핵생물에 더 가깝다는 것이 밝혀졌습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "계통수에서 가지가 갈라지는 분기점은 그 아래 종들의 {{1}} 조상을 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공통"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "분기점이 최근일수록 가까운 관계입니다.\n가지 끝은 현재 종입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "rRNA 분석에 따르면 고세균은 세균보다 {{1}}과 더 가깝습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진핵생물",
+      "진핵 생물"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "같은 원핵생물인 세균보다 진핵생물과 공통 조상을 늦게 공유합니다.\n그래서 3역으로 나눕니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "리보솜 RNA 서열을 비교해 생물을 3역으로 나눈 과학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "우즈"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "칼 우즈가 1990년 제안했습니다.\n5계 분류 체계를 보완했습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "분자 자료가 형태 자료보다 계통 연구에 유리한 점은?",
+   "steps": [
+    "염기 서열은 수로 비교할 수 있어 객관적입니다.",
+    "세균부터 사람까지 모양이 전혀 다른 생물도 공통 유전자로 비교할 수 있습니다.",
+    "비슷한 환경에서 모양이 비슷해진(상사) 경우에 속지 않습니다."
+   ],
+   "answer": "객관적이고 모든 생물을 비교할 수 있다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "분자 진화 정리",
+   "body": [
+    "상동 유전자·단백질의 서열 차이가 적을수록 가까운 관계입니다. 분자 시계로 분기 시기를 추정합니다.",
+    "계통수: 분기점 = 공통 조상. rRNA 분석 → 3역(세균, 고세균, 진핵생물), 고세균은 진핵생물과 더 가까움."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "계통수는 형태 자료뿐 아니라 DNA와 단백질 같은 {{1}} 자료로도 그립니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분자"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "여러 자료가 같은 결과를 보이면 신뢰도가 높습니다.\n현대 분류의 기본입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "세 종 A, B, C의 서열 차이가 A–B 2, A–C 8, B–C 8이라면 A와 가장 가까운 종은?",
+   "steps": [
+    "서열 차이가 가장 적은 짝을 찾습니다.",
+    "A–B가 2로 가장 작습니다.",
+    "A는 B와 가장 가깝고, C는 두 종과 더 일찍 갈라졌습니다."
+   ],
+   "answer": "B"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "종 A, B, C의 서열 차이가 A–B 2, A–C 8, B–C 8이면 A와 가장 가까운 종은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "B"
+     ]
+    }
+   ],
+   "hint": "차이가 가장 작은 짝입니다.",
+   "explanation": "차이가 가장 적습니다.\nA와 B가 가장 최근에 갈라졌습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "분자 시계에서 차이 4개가 쌓이는 데 2천만 년이 걸린다면, 차이가 12개인 두 종은 약 몇 천만 년 전에 갈라졌을까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "비례식을 세우세요.",
+   "explanation": "12 ÷ 4 × 2천만 = 6천만 년입니다.\n차이에 비례합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "여러 생물이 공통 조상에게서 물려받은 같은 기원의 유전자를 {{1}} 유전자라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상동"
+     ]
+    }
+   ],
+   "hint": "생물Ⅰ의 상동 기관과 같은 말입니다.",
+   "explanation": "상동 기관처럼 기원이 같습니다.\n서열 비교의 대상이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "분자 자료에 따르면 사람과 가장 가까운 현생 생물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "침팬지"
+     ]
+    }
+   ],
+   "hint": "유인원입니다.",
+   "explanation": "DNA가 약 98.8% 같습니다.\n약 600만~700만 년 전에 갈라졌습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "분자 자료는 모양이 전혀 다른 생물들도 공통 유전자로 {{1}}할 수 있다는 장점이 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비교"
+     ]
+    }
+   ],
+   "hint": "서로 견주어 보는 것입니다.",
+   "explanation": "세균과 사람도 rRNA로 비교할 수 있습니다.\n형태 자료로는 어렵습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "계통수에서 가지의 끝에는 {{1}} 살고 있는 종이 놓입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "현재"
+     ]
+    }
+   ],
+   "hint": "지금이라는 뜻입니다.",
+   "explanation": "분기점은 과거의 공통 조상입니다.\n뿌리 쪽이 오래된 시간입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "DNA 염기 서열 비교로 생물의 진화적 유연관계를 알아내는 원리를 설명해 보세요.",
+   "hint": "차이가 생기는 원인과 해석을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "공통 조상"
+     ],
+     [
+      "돌연변이",
+      "차이"
+     ],
+     [
+      "적을수록",
+      "가까운"
+     ],
+     [
+      "분자 시계",
+      "시간"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "공통 조상에서 갈라진 두 종은 시간이 지나며 각각 돌연변이가 쌓여 DNA 염기 서열이 달라집니다. 따라서 서열 차이가 적을수록 최근에 갈라진 가까운 관계이며, 돌연변이가 일정한 속도로 쌓인다고 보면 차이의 크기로 갈라진 시기도 추정할 수 있습니다(분자 시계)."
+  }
+ ]
+}

@@ -1,0 +1,376 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch06",
+  "no": 6,
+  "title": "유전자 발현과 조절"
+ },
+ "lesson": {
+  "id": "c7-ch06-l02",
+  "no": 2,
+  "title": "번역의 과정",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "암호를 단백질로",
+   "body": [
+    "mRNA의 염기 서열은 세 글자씩 끊어 읽는 암호입니다. 리보솜은 이 암호를 읽어 아미노산을 순서대로 이어 단백질을 만듭니다.",
+    "번역의 과정을 더 자세히 살펴봅시다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "mRNA의 유전 정보에 따라 아미노산을 연결해 단백질을 합성하는 과정을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "번역"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "리보솜에서 일어납니다.\ntRNA가 아미노산을 운반합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "코돈, tRNA, 리보솜",
+   "body": [
+    "mRNA의 연속된 염기 3개(코돈)가 아미노산 1개를 지정합니다. 개시 코돈 AUG는 메싸이오닌을 지정하며 번역을 시작하고, 종결 코돈 UAA, UAG, UGA는 아미노산을 지정하지 않고 번역을 끝냅니다.",
+    "tRNA는 한쪽 끝에 특정 아미노산을 달고, 다른 쪽에 코돈과 상보적인 3염기(안티코돈)가 있습니다.",
+    "리보솜은 대단위체와 소단위체로 이루어지며, tRNA가 들어가는 자리가 있습니다. 개시 단계에서 개시 tRNA가 AUG에 결합하고, 신장 단계에서 새 아미노산이 펩타이드 결합으로 이어지며 리보솜이 mRNA를 따라 5'→3'으로 이동합니다. 종결 코돈에서는 방출 인자가 결합해 폴리펩타이드가 떨어집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "코돈과 상보적으로 결합하는 tRNA의 3염기를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "안티코돈"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "코돈과 역평행으로 짝을 짓습니다.\n그래서 알맞은 아미노산이 운반됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "번역을 시작하는 개시 코돈은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "AUG"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "메싸이오닌을 지정합니다.\n그래서 단백질은 대개 메싸이오닌으로 시작합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아미노산 300개로 된 폴리펩타이드를 암호화하는 mRNA의 번역 부위는 종결 코돈을 포함해 몇 염기일까요?",
+   "answer": "903",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "아미노산 300개 × 3 = 900염기에 종결 코돈 3염기를 더합니다.\n903염기입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "mRNA의 코돈 5'-AUG-3'에 결합하는 tRNA의 안티코돈은?",
+   "steps": [
+    "안티코돈은 코돈과 상보적이고 역평행입니다.",
+    "A–U, U–A, G–C이므로 안티코돈은 3'-UAC-5'입니다."
+   ],
+   "answer": "3'-UAC-5'"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "코돈 5'-AUG-3'에 결합하는 tRNA의 안티코돈을 3'→5' 방향으로 쓰면 3'-{{1}}-5'입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "UAC"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "A–U, U–A, G–C로 짝을 짓습니다.\n이 tRNA는 메싸이오닌을 운반합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "유전 암호의 특징",
+   "body": [
+    "4종류의 염기로 3개씩 만들 수 있는 코돈은 4³ = 64가지입니다. 그중 61가지가 20종의 아미노산을 지정하고 3가지는 종결 코돈입니다.",
+    "하나의 아미노산을 여러 코돈이 지정하기도 하는데, 이를 유전 암호의 중복성이라고 합니다. 그래서 염기 하나가 바뀌어도 아미노산이 바뀌지 않는 경우가 있습니다.",
+    "유전 암호는 세균부터 사람까지 거의 모든 생물에서 같습니다(보편성). 그래서 사람의 유전자를 대장균에 넣어도 같은 단백질이 만들어집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "4종류의 염기로 만들 수 있는 코돈은 모두 몇 가지일까요?",
+   "answer": "64",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "4 × 4 × 4 = 64가지입니다.\n20종의 아미노산을 지정하기에 충분합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "여러 코돈이 같은 아미노산을 지정하는 것을 유전 암호의 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중복성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "돌연변이의 영향을 줄여 줍니다.\n대개 세 번째 염기가 달라도 같은 아미노산입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "유전 암호가 거의 모든 생물에서 같다는 {{1}} 덕분에 사람 유전자를 세균에서 발현시킬 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보편성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "모든 생물이 공통 조상에서 왔다는 증거이기도 합니다.\n인슐린 생산에 이용합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "번역의 신장 단계에서 일어나는 일은?",
+   "steps": [
+    "다음 코돈에 맞는 안티코돈을 가진 tRNA가 아미노산을 달고 리보솜에 들어옵니다.",
+    "앞의 아미노산 사슬이 새 아미노산에 펩타이드 결합으로 이어집니다.",
+    "리보솜이 코돈 하나만큼 mRNA의 3' 쪽으로 이동하고, 빈 tRNA는 떨어져 나갑니다."
+   ],
+   "answer": "tRNA 결합 → 펩타이드 결합 → 리보솜 이동"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "번역 정리",
+   "body": [
+    "코돈(3염기) = 아미노산 1개, 개시 코돈 AUG, 종결 코돈 UAA·UAG·UGA. tRNA의 안티코돈이 코돈과 결합합니다.",
+    "개시 → 신장(펩타이드 결합, 리보솜 5'→3' 이동) → 종결(방출 인자). 유전 암호: 64 코돈, 중복성, 보편성."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "번역에서 아미노산 사이의 펩타이드 결합은 {{1}}에서 만들어집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "리보솜"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "리보솜의 rRNA가 결합을 촉매합니다.\n단백질 합성 공장입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "mRNA 5'-AUG GCU UAA-3'이 번역되면 아미노산은 몇 개일까요?",
+   "steps": [
+    "AUG(메싸이오닌) → GCU(알라닌) → UAA(종결)입니다.",
+    "종결 코돈은 아미노산을 지정하지 않습니다.",
+    "아미노산은 2개입니다."
+   ],
+   "answer": "2개"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "mRNA 5'-AUG GCU UAA-3'이 번역되면 만들어지는 폴리펩타이드의 아미노산은 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "종결 코돈은 아미노산을 지정하지 않습니다.",
+   "explanation": "AUG와 GCU가 아미노산을 지정하고 UAA는 종결 코돈입니다.\n2개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "종결 코돈에 결합하는 tRNA는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "없다",
+      "없습니다"
+     ]
+    }
+   ],
+   "hint": "아미노산을 지정하지 않습니다.",
+   "explanation": "대신 방출 인자라는 단백질이 결합합니다.\n그래서 번역이 끝납니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "하나의 mRNA에 여러 리보솜이 붙어 동시에 번역하는 구조를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "폴리솜"
+     ]
+    }
+   ],
+   "hint": "여러 리보솜이라는 뜻입니다.",
+   "explanation": "같은 단백질을 한꺼번에 많이 만듭니다.\n폴리리보솜이라고도 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "번역 중 리보솜은 mRNA를 따라 5'→{{1}}' 방향으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "3"
+     ]
+    }
+   ],
+   "hint": "전사 방향과 같습니다.",
+   "explanation": "코돈을 차례로 읽어 갑니다.\n폴리펩타이드는 N 말단부터 만들어집니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "64가지 코돈 가운데 아미노산을 지정하는 코돈은 몇 가지일까요?",
+   "answer": "61",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "종결 코돈 3가지를 빼세요.",
+   "explanation": "종결 코돈 3가지를 뺀 61가지입니다.\n20종의 아미노산을 지정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "번역은 세포의 {{1}}에 있는 리보솜에서 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "세포질"
+     ]
+    }
+   ],
+   "hint": "핵 밖입니다.",
+   "explanation": "자유 리보솜이나 소포체에 붙은 리보솜에서 일어납니다.\n핵에서는 일어나지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "번역의 개시, 신장, 종결 단계를 차례로 설명해 보세요.",
+   "hint": "세 단계를 순서대로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "개시",
+      "AUG"
+     ],
+     [
+      "tRNA",
+      "안티코돈"
+     ],
+     [
+      "펩타이드 결합",
+      "신장"
+     ],
+     [
+      "종결 코돈",
+      "종결"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "개시 단계에서는 리보솜과 개시 tRNA가 mRNA의 개시 코돈 AUG에 결합합니다. 신장 단계에서는 코돈에 맞는 안티코돈을 가진 tRNA가 아미노산을 가져오고 펩타이드 결합으로 사슬이 길어지며 리보솜이 이동합니다. 종결 코돈에 이르면 방출 인자가 결합해 폴리펩타이드가 떨어져 나갑니다."
+  }
+ ]
+}

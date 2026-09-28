@@ -1,0 +1,400 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch07",
+  "no": 7,
+  "title": "생명 공학 기술"
+ },
+ "lesson": {
+  "id": "c7-ch07-l04",
+  "no": 4,
+  "title": "생명 윤리",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "할 수 있다고 해도 되는가",
+   "body": [
+    "2018년 한 과학자가 유전자를 편집한 인간 배아로 쌍둥이를 태어나게 했다고 발표해 전 세계의 비판을 받았습니다.",
+    "생명 공학이 발전할수록 무엇을 해도 되는지에 대한 질문이 중요해집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "생명 과학 기술을 연구하고 이용할 때 지켜야 할 도덕적 기준을 다루는 분야를 생명 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "윤리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "과학적 가능성과 사회적 허용을 함께 고민합니다.\n법과 제도로도 만들어집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "생명 공학의 윤리적 쟁점",
+   "body": [
+    "생식세포나 배아의 유전자를 편집하면 그 변화가 다음 세대까지 전해지고, 원하는 형질을 고르는 '맞춤 아기'로 이어질 수 있다는 우려가 있습니다. 체세포 편집은 본인에게만 영향을 줍니다.",
+    "배아 줄기세포 연구는 배아를 파괴한다는 문제가 있어, 체세포를 되돌려 만든 유도 만능 줄기세포(iPS 세포)가 대안으로 연구됩니다.",
+    "유전 정보가 새어 나가면 보험이나 취업에서 차별받을 수 있고, 유전자 변형 생물(GMO)은 인체 안전성과 생태계 영향에 대한 논란이 있습니다. 복제 인간은 대부분의 나라에서 금지되어 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "생식세포나 배아의 유전자를 편집하면 그 변화가 {{1}} 세대까지 전해집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다음"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자손에게 유전됩니다.\n그래서 체세포 편집보다 신중해야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "유전 정보가 유출되면 보험이나 취업에서 {{1}}받을 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "차별"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "질병 위험이 높다는 이유로 불이익을 받을 수 있습니다.\n그래서 유전 정보를 보호합니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "배아 줄기세포 연구의 대표적인 윤리 문제는 {{1}}를 파괴한다는 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "배아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "배아를 생명으로 볼지에 대한 견해가 다릅니다.\niPS 세포가 대안입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "체세포 유전자 편집과 생식세포 유전자 편집의 차이는?",
+   "steps": [
+    "체세포 편집은 환자 본인의 몸에만 영향을 주고 자손에게 전해지지 않습니다.",
+    "생식세포나 배아 편집은 그 사람의 모든 세포와 자손에게까지 영향을 줍니다.",
+    "동의할 수 없는 미래 세대에 영향을 주므로 대부분 금지하거나 엄격히 제한합니다."
+   ],
+   "answer": "영향이 자손에게 전해지는지 여부"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "체세포를 되돌려 만들어 배아를 파괴하지 않는 줄기세포를 유도 {{1}} 줄기세포라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "만능"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "iPS 세포라고 합니다.\n야마나카가 개발해 노벨상을 받았습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "윤리를 지키는 제도",
+   "body": [
+    "우리나라는 생명윤리 및 안전에 관한 법률로 인간 복제, 배아 연구, 유전자 검사 등을 규제합니다.",
+    "사람을 대상으로 하는 연구는 기관 생명윤리위원회(IRB)의 심의를 받아야 하고, 참여자에게 목적과 위험을 충분히 설명한 뒤 스스로 동의를 받아야 합니다(사전 동의).",
+    "유전자 변형 식품에는 표시 제도를 두어 소비자의 알 권리를 보장하며, 동물 실험은 대체(Replacement), 감소(Reduction), 개선(Refinement)의 3R 원칙을 따릅니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "연구 참여자에게 목적과 위험을 충분히 설명하고 스스로 동의를 받는 것을 사전 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "동의"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자율성을 존중하는 원칙입니다.\n동의는 언제든 철회할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "사람 대상 연구를 심의하는 기관 생명윤리위원회의 영어 약자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "IRB"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Institutional Review Board입니다.\n연구의 윤리성과 안전성을 검토합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "유전자 변형 식품 표시 제도는 소비자의 {{1}} 권리를 보장합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "알"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "스스로 선택할 수 있게 합니다.\n안전성 논란과 별개로 정보를 제공합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "GMO를 둘러싼 찬성과 우려의 근거는?",
+   "steps": [
+    "찬성: 수확량을 늘리고 영양을 높이며 농약 사용을 줄여 식량 문제 해결에 도움이 됩니다.",
+    "우려: 장기적인 인체 영향이 불확실하고, 넣은 유전자가 야생 식물로 퍼져 생태계를 교란할 수 있습니다.",
+    "그래서 안전성 평가와 표시 제도를 운영합니다."
+   ],
+   "answer": "식량 문제 해결과 생태·안전 우려가 맞선다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "생명 윤리 정리",
+   "body": [
+    "쟁점: 생식세포 편집(맞춤 아기), 배아 파괴, 유전 정보 차별, GMO 안전성, 복제 인간.",
+    "제도: 생명윤리법, IRB 심의, 사전 동의, GMO 표시, 동물 실험 3R. 원칙: 자율성 존중, 선행, 악행 금지, 정의."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "체세포 유전자 편집의 영향은 {{1}}에게만 미칩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "본인",
+      "환자 본인",
+      "그 사람"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자손에게 전해지지 않습니다.\n그래서 치료 목적으로 허용 범위가 넓습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "2018년 배아 유전자 편집 아기 탄생이 비판받은 이유는?",
+   "steps": [
+    "안전성이 확인되지 않은 기술을 사람에게 썼습니다.",
+    "편집된 유전자가 태어난 아이의 자손에게까지 전해집니다.",
+    "충분한 사회적 합의와 윤리 심의 없이 진행되었습니다."
+   ],
+   "answer": "안전성·세대 간 영향·합의 부족"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "유전자 검사 결과는 {{1}}의 동의 없이 다른 사람에게 알리면 안 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "본인"
+     ]
+    }
+   ],
+   "hint": "검사를 받은 사람입니다.",
+   "explanation": "유전 정보는 민감한 개인 정보입니다.\n가족에게도 영향을 줄 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "우리나라를 비롯한 대부분의 나라는 복제 인간을 만드는 것을 {{1}}하고 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "금지"
+     ]
+    }
+   ],
+   "hint": "허용의 반대입니다.",
+   "explanation": "인간의 존엄성과 안전성 문제 때문입니다.\n생명윤리법에 규정되어 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "동물 실험의 3R 원칙 가운데 동물 대신 세포나 컴퓨터 모델을 쓰는 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대체"
+     ]
+    }
+   ],
+   "hint": "바꾸어 쓴다는 뜻입니다.",
+   "explanation": "Replacement입니다.\n감소, 개선과 함께 3R입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "GMO의 우려 가운데 하나는 넣은 유전자가 야생 식물로 퍼져 {{1}}를 교란하는 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "생태계"
+     ]
+    }
+   ],
+   "hint": "생물과 환경의 체계입니다.",
+   "explanation": "제초제 저항성 잡초가 생길 수 있습니다.\n그래서 재배를 관리합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "생명 윤리의 원칙 가운데 대상에게 해를 끼치지 않아야 한다는 것은 {{1}} 금지의 원칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "악행"
+     ]
+    }
+   ],
+   "hint": "나쁜 행동을 하지 않는다는 뜻입니다.",
+   "explanation": "위험이 이익보다 크면 안 됩니다.\n선행의 원칙과 짝을 이룹니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "배아 유전자 편집 아기의 탄생은 충분한 윤리 심의 없이 진행되어 국제적으로 {{1}}을 받았습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비판"
+     ]
+    }
+   ],
+   "hint": "잘못을 지적받는 것입니다.",
+   "explanation": "연구자는 처벌받았습니다.\n국제 사회가 규제 논의를 강화했습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "생식세포 유전자 편집이 체세포 유전자 편집보다 더 큰 윤리적 논란이 되는 이유를 설명해 보세요.",
+   "hint": "영향 범위와 우려를 함께 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "생식세포",
+      "배아"
+     ],
+     [
+      "다음 세대",
+      "자손",
+      "유전"
+     ],
+     [
+      "체세포",
+      "본인"
+     ],
+     [
+      "동의",
+      "맞춤 아기",
+      "안전"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "체세포 유전자 편집은 치료받는 본인에게만 영향을 주지만, 생식세포나 배아를 편집하면 그 변화가 자손에게 유전되어 다음 세대에까지 영향을 줍니다. 미래 세대는 동의할 수 없고 장기적 안전성도 불확실하며, 원하는 형질을 고르는 맞춤 아기로 이어질 수 있어 더 큰 논란이 됩니다."
+  }
+ ]
+}

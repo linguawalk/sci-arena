@@ -1,0 +1,196 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch06",
+  "no": 6,
+  "title": "유전자 발현과 조절"
+ },
+ "review": {
+  "id": "c7-ch06-review",
+  "title": "유전자 발현과 조절 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "진핵세포의 RNA 가공에서 인트론을 잘라 내고 엑손을 잇는 과정을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "스플라이싱"
+     ]
+    }
+   ],
+   "hint": "잘라서 잇는 과정입니다.",
+   "explanation": "핵 속에서 일어납니다.\n선택적 스플라이싱도 있습니다.",
+   "source_lesson": "c7-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전사에서 RNA 중합 효소가 결합하는 부위는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "프로모터"
+     ]
+    }
+   ],
+   "hint": "전사 시작 부위입니다.",
+   "explanation": "유전자 앞쪽에 있습니다.\n진핵생물은 전사 인자가 함께 필요합니다.",
+   "source_lesson": "c7-ch06-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "번역을 시작하는 개시 코돈 AUG는 {{1}}을 지정합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "메싸이오닌"
+     ]
+    }
+   ],
+   "hint": "황을 포함한 아미노산입니다.",
+   "explanation": "그래서 새 단백질은 대개 메싸이오닌으로 시작합니다.\n종결 코돈은 아미노산을 지정하지 않습니다.",
+   "source_lesson": "c7-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "아미노산 100개로 된 폴리펩타이드를 암호화하는 mRNA의 번역 부위는 종결 코돈을 포함해 몇 염기일까요?",
+   "answer": "303",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "종결 코돈도 3염기입니다.",
+   "explanation": "100 × 3 + 3 = 303염기입니다.\n종결 코돈을 잊지 마세요.",
+   "source_lesson": "c7-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "코돈 5'-GCU-3'에 결합하는 tRNA의 안티코돈을 3'→5' 방향으로 쓰면 3'-{{1}}-5'입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CGA"
+     ]
+    }
+   ],
+   "hint": "상보적 염기를 차례로 쓰세요.",
+   "explanation": "G–C, C–G, U–A로 짝을 짓습니다.\n알라닌을 운반합니다.",
+   "source_lesson": "c7-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "여러 코돈이 같은 아미노산을 지정하는 유전 암호의 성질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중복성"
+     ]
+    }
+   ],
+   "hint": "겹친다는 뜻입니다.",
+   "explanation": "돌연변이의 영향을 줄입니다.\n64 코돈이 20 아미노산을 지정합니다.",
+   "source_lesson": "c7-ch06-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "젖당이 없을 때 젖당 오페론의 작동 부위에는 {{1}} 단백질이 결합해 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "억제"
+     ]
+    }
+   ],
+   "hint": "전사를 막는 단백질입니다.",
+   "explanation": "RNA 중합 효소의 이동을 막습니다.\n젖당이 오면 떨어집니다.",
+   "source_lesson": "c7-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "젖당 오페론의 조절 유전자가 결실되면 젖당이 없어도 구조 유전자가 {{1}} 전사됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "항상"
+     ]
+    }
+   ],
+   "hint": "늘 켜져 있습니다.",
+   "explanation": "억제 단백질이 없습니다.\n효소가 계속 만들어집니다.",
+   "source_lesson": "c7-ch06-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "진핵생물에서 프로모터와 멀리 떨어져 전사를 촉진하는 조절 부위를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인핸서"
+     ]
+    }
+   ],
+   "hint": "강화한다는 뜻입니다.",
+   "explanation": "특정 전사 인자가 결합합니다.\n세포 특이적 발현을 만듭니다.",
+   "source_lesson": "c7-ch06-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "몸의 앞뒤 축을 따라 기관의 위치를 정하는 유전자는 {{1}} 유전자입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "혹스"
+     ]
+    }
+   ],
+   "hint": "호메오 유전자라고도 합니다.",
+   "explanation": "동물 전체에 보존되어 있습니다.\n돌연변이로 기관 위치가 바뀝니다.",
+   "source_lesson": "c7-ch06-l04"
+  }
+ ]
+}

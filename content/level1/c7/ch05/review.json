@@ -1,0 +1,186 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch05",
+  "no": 5,
+  "title": "유전 물질과 복제"
+ },
+ "review": {
+  "id": "c7-ch05-review",
+  "title": "유전 물질과 복제 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "그리피스는 폐렴 쌍구균 실험에서 {{1}} 현상을 처음 발견했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "형질 전환"
+     ]
+    }
+   ],
+   "hint": "형질이 바뀌는 현상입니다.",
+   "explanation": "R형 균이 S형 균으로 바뀌었습니다.\n유전 물질의 존재를 보여 주었습니다.",
+   "source_lesson": "c7-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "허시와 체이스의 실험에서 세균 안으로 들어간 파지의 성분은 {{1}}였습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "DNA"
+     ]
+    }
+   ],
+   "hint": "³²P로 표지한 성분입니다.",
+   "explanation": "³²P로 표지했습니다.\n단백질은 밖에 남았습니다.",
+   "source_lesson": "c7-ch05-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "이중 가닥 DNA에서 G가 35%이면 A는 몇 %일까요?",
+   "answer": "15",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "A = T, G = C입니다.",
+   "explanation": "G = C = 35%이므로 A + T = 30%입니다.\nA = 15%입니다.",
+   "source_lesson": "c7-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "A–T 염기쌍의 수소 결합은 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "G–C보다 하나 적습니다.",
+   "explanation": "A–T는 2개, G–C는 3개입니다.\nG–C가 더 안정합니다.",
+   "source_lesson": "c7-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "DNA의 두 가닥은 방향이 서로 반대인 {{1}} 구조입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역평행"
+     ]
+    }
+   ],
+   "hint": "반대 방향으로 나란하다는 뜻입니다.",
+   "explanation": "5'→3'과 3'→5'로 마주 봅니다.\n복제 방식에 영향을 줍니다.",
+   "source_lesson": "c7-ch05-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "메셀슨과 스탈의 실험은 DNA가 {{1}}적으로 복제된다는 것을 증명했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반보존"
+     ]
+    }
+   ],
+   "hint": "절반이 보존됩니다.",
+   "explanation": "원래 가닥 하나가 새 DNA에 보존됩니다.\n1세대는 모두 중간 무게였습니다.",
+   "source_lesson": "c7-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "¹⁵N DNA 1분자를 ¹⁴N 배지에서 3번 복제하면 가벼운 DNA(¹⁴N–¹⁴N)는 몇 분자일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "전체에서 ¹⁵N을 가진 2분자를 빼세요.",
+   "explanation": "전체 8분자 중 ¹⁵N을 가진 것은 2분자입니다.\n8 − 2 = 6분자입니다.",
+   "source_lesson": "c7-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "DNA 복제를 시작하려면 DNA 중합 효소가 이어 붙일 3' 끝을 제공하는 {{1}}가 필요합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "프라이머"
+     ]
+    }
+   ],
+   "hint": "시작을 돕는 짧은 가닥입니다.",
+   "explanation": "RNA로 된 짧은 가닥입니다.\n프라이메이스가 만듭니다.",
+   "source_lesson": "c7-ch05-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "지연 가닥의 오카자키 절편은 DNA {{1}} 효소가 이어 붙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "연결"
+     ]
+    }
+   ],
+   "hint": "조각을 잇는 효소입니다.",
+   "explanation": "리가아제라고도 합니다.\n틈을 공유 결합으로 잇습니다.",
+   "source_lesson": "c7-ch05-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "진핵생물 염색체 끝에서 유전자를 보호하는 반복 서열은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "텔로미어"
+     ]
+    }
+   ],
+   "hint": "염색체 끝부분입니다.",
+   "explanation": "복제할 때마다 짧아집니다.\n텔로머레이스가 늘립니다.",
+   "source_lesson": "c7-ch05-l04"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c7",
+  "chapter": {
+    "id": "c7-ch05",
+    "no": 5,
+    "title": "유전 물질과 복제"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c7-ch05-l01",
+      "title": "유전 물질의 증거",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c7-ch05-l02",
+      "title": "DNA의 구조",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c7-ch05-l03",
+      "title": "DNA 복제의 원리",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c7-ch05-l04",
+      "title": "선도 가닥과 지연 가닥",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c7-ch05-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

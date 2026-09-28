@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c7",
+  "chapter": {
+    "id": "c7-ch03",
+    "no": 3,
+    "title": "세포 호흡"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c7-ch03-l01",
+      "title": "ATP와 세포 호흡의 개요",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c7-ch03-l02",
+      "title": "해당 과정",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c7-ch03-l03",
+      "title": "피루브산 산화와 TCA 회로",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c7-ch03-l04",
+      "title": "산화적 인산화와 발효",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c7-ch03-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

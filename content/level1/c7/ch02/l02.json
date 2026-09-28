@@ -1,0 +1,925 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch02",
+  "no": 2,
+  "title": "효소"
+ },
+ "lesson": {
+  "id": "c7-ch02-l02",
+  "no": 2,
+  "title": "효소 반응에 영향을 주는 요인",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "효소가 잘 일하는 조건",
+   "body": [
+    "고열이 오래 계속되면 몸의 효소가 제대로 작용하지 못해 위험해집니다. 위 속 펩신은 강한 산성에서 잘 작용하지만, 작은창자의 트립신은 약한 염기성에서 잘 작용합니다.",
+    "효소의 반응 속도는 여러 조건에 따라 달라집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "효소가 가장 활발하게 작용하는 온도를 {{1}} 온도라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "최적"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "사람 몸속 효소는 대개 약 37 °C입니다.\n효소마다 다를 수 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "기질 농도, 효소 농도, 온도, pH",
+   "body": [
+    "기질 농도: 기질이 적을 때는 기질 농도에 비례해 속도가 빨라지지만, 모든 효소가 기질과 결합하면(포화) 더 이상 빨라지지 않고 최대 속도에 이릅니다.",
+    "효소 농도: 기질이 충분하면 반응 속도는 효소 농도에 비례합니다.",
+    "온도: 최적 온도까지는 온도가 높을수록 빨라지지만, 그보다 높으면 효소 단백질의 입체 구조가 변해(변성) 속도가 급격히 줄어듭니다. pH: 효소마다 최적 pH가 있습니다(펩신 약 2, 아밀레이스 약 7, 트립신 약 8)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기질 농도를 높여도 반응 속도가 일정해지는 것은 모든 효소가 기질과 결합한 {{1}} 상태이기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "포화"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "비어 있는 효소가 없습니다.\n효소를 늘려야 더 빨라집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "기질이 충분할 때 효소의 농도를 2배로 하면 반응 속도는 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "기질이 충분하면 속도는 효소 농도에 비례합니다.\n2배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "위에서 작용하는 펩신의 최적 pH는 약 얼마일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0.5,
+   "hint": null,
+   "explanation": "위액은 염산 때문에 강한 산성입니다.\n펩신은 pH 약 2에서 가장 잘 작용합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "효소의 온도–반응 속도 그래프가 산 모양인 이유는?",
+   "steps": [
+    "최적 온도까지는 분자 운동이 활발해져 효소와 기질의 충돌이 늘어 속도가 빨라집니다.",
+    "최적 온도를 넘으면 효소 단백질이 변성되어 활성 부위 모양이 바뀝니다.",
+    "기질과 결합하지 못해 속도가 급격히 줄어듭니다."
+   ],
+   "answer": "처음엔 충돌 증가, 나중엔 변성"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지나치게 높은 온도에서 효소의 입체 구조가 바뀌어 기능을 잃는 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "대개 되돌릴 수 없습니다.\n달걀이 익는 것과 같은 변화입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "기질 농도와 반응 속도 그래프",
+   "body": [
+    "아래 그래프는 효소 농도가 일정할 때 기질 농도에 따른 반응 속도입니다. 기질 농도가 낮을 때는 빠르게 증가하다가, 높아지면 최대 속도에 가까워집니다.",
+    "최대 속도의 절반이 되는 기질 농도는 효소와 기질의 친화력을 나타내며, 값이 작을수록 효소가 기질과 잘 결합합니다."
+   ],
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "기질",
+     "ylabel": "반응 속도",
+     "xmin": 0,
+     "xmax": 20,
+     "ymin": 0,
+     "ymax": 12,
+     "xstep": 5,
+     "ystep": 2,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0.0,
+        4.0
+       ],
+       "from": 0,
+       "to": 0.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.6667,
+        2.6667
+       ],
+       "from": 0.5,
+       "to": 1,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        1.4286,
+        1.9048
+       ],
+       "from": 1,
+       "to": 1.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        2.1429,
+        1.4286
+       ],
+       "from": 1.5,
+       "to": 2,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        3.0,
+        1.0
+       ],
+       "from": 2,
+       "to": 3,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        4.0,
+        0.6667
+       ],
+       "from": 3,
+       "to": 4,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        4.7619,
+        0.4762
+       ],
+       "from": 4,
+       "to": 5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        5.3571,
+        0.3571
+       ],
+       "from": 5,
+       "to": 6,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        6.0,
+        0.25
+       ],
+       "from": 6,
+       "to": 8,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        6.6667,
+        0.1667
+       ],
+       "from": 8,
+       "to": 10,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        7.1429,
+        0.119
+       ],
+       "from": 10,
+       "to": 12,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        7.5,
+        0.0893
+       ],
+       "from": 12,
+       "to": 14,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        7.7778,
+        0.0694
+       ],
+       "from": 14,
+       "to": 16,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        8.0,
+        0.0556
+       ],
+       "from": 16,
+       "to": 18,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        8.1818,
+        0.0455
+       ],
+       "from": 18,
+       "to": 20,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        10
+       ],
+       "from": 0,
+       "to": 20,
+       "color": "#94A3B8"
+      }
+     ],
+     "points": [
+      [
+       2,
+       5,
+       "½최대"
+      ],
+      [
+       20,
+       10,
+       "최대"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 그래프에서 이 효소 반응의 최대 속도는 얼마일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "기질 농도가 매우 높아지면 속도가 10에 가까워집니다.\n회색 선이 최대 속도입니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "기질",
+     "ylabel": "반응 속도",
+     "xmin": 0,
+     "xmax": 20,
+     "ymin": 0,
+     "ymax": 12,
+     "xstep": 5,
+     "ystep": 2,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0.0,
+        4.0
+       ],
+       "from": 0,
+       "to": 0.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.6667,
+        2.6667
+       ],
+       "from": 0.5,
+       "to": 1,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        1.4286,
+        1.9048
+       ],
+       "from": 1,
+       "to": 1.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        2.1429,
+        1.4286
+       ],
+       "from": 1.5,
+       "to": 2,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        3.0,
+        1.0
+       ],
+       "from": 2,
+       "to": 3,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        4.0,
+        0.6667
+       ],
+       "from": 3,
+       "to": 4,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        4.7619,
+        0.4762
+       ],
+       "from": 4,
+       "to": 5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        5.3571,
+        0.3571
+       ],
+       "from": 5,
+       "to": 6,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        6.0,
+        0.25
+       ],
+       "from": 6,
+       "to": 8,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        6.6667,
+        0.1667
+       ],
+       "from": 8,
+       "to": 10,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        7.1429,
+        0.119
+       ],
+       "from": 10,
+       "to": 12,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        7.5,
+        0.0893
+       ],
+       "from": 12,
+       "to": 14,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        7.7778,
+        0.0694
+       ],
+       "from": 14,
+       "to": 16,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        8.0,
+        0.0556
+       ],
+       "from": 16,
+       "to": 18,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        8.1818,
+        0.0455
+       ],
+       "from": 18,
+       "to": 20,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        10
+       ],
+       "from": 0,
+       "to": 20,
+       "color": "#94A3B8"
+      }
+     ],
+     "points": [
+      [
+       2,
+       5,
+       "½최대"
+      ],
+      [
+       20,
+       10,
+       "최대"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "아래 그래프에서 반응 속도가 최대 속도의 절반이 되는 기질 농도는 얼마일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "속도 5가 되는 기질 농도는 2입니다.\n효소와 기질의 친화력을 나타냅니다.",
+   "figure": {
+    "widget": "graph",
+    "static": true,
+    "config": {
+     "xlabel": "기질",
+     "ylabel": "반응 속도",
+     "xmin": 0,
+     "xmax": 20,
+     "ymin": 0,
+     "ymax": 12,
+     "xstep": 5,
+     "ystep": 2,
+     "curves": [
+      {
+       "kind": "poly",
+       "coef": [
+        0.0,
+        4.0
+       ],
+       "from": 0,
+       "to": 0.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        0.6667,
+        2.6667
+       ],
+       "from": 0.5,
+       "to": 1,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        1.4286,
+        1.9048
+       ],
+       "from": 1,
+       "to": 1.5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        2.1429,
+        1.4286
+       ],
+       "from": 1.5,
+       "to": 2,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        3.0,
+        1.0
+       ],
+       "from": 2,
+       "to": 3,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        4.0,
+        0.6667
+       ],
+       "from": 3,
+       "to": 4,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        4.7619,
+        0.4762
+       ],
+       "from": 4,
+       "to": 5,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        5.3571,
+        0.3571
+       ],
+       "from": 5,
+       "to": 6,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        6.0,
+        0.25
+       ],
+       "from": 6,
+       "to": 8,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        6.6667,
+        0.1667
+       ],
+       "from": 8,
+       "to": 10,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        7.1429,
+        0.119
+       ],
+       "from": 10,
+       "to": 12,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        7.5,
+        0.0893
+       ],
+       "from": 12,
+       "to": 14,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        7.7778,
+        0.0694
+       ],
+       "from": 14,
+       "to": 16,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        8.0,
+        0.0556
+       ],
+       "from": 16,
+       "to": 18,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        8.1818,
+        0.0455
+       ],
+       "from": 18,
+       "to": 20,
+       "color": "#1D3FA8"
+      },
+      {
+       "kind": "poly",
+       "coef": [
+        10
+       ],
+       "from": 0,
+       "to": 20,
+       "color": "#94A3B8"
+      }
+     ],
+     "points": [
+      [
+       2,
+       5,
+       "½최대"
+      ],
+      [
+       20,
+       10,
+       "최대"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "낮은 온도에서 활성이 낮아진 효소는 온도를 다시 높이면 활성이 {{1}}됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "회복"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "낮은 온도에서는 변성되지 않고 움직임만 느려집니다.\n높은 온도의 변성과 다릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "끓인 효소 용액과 냉장고에 넣었던 효소 용액을 다시 37 °C로 맞추면?",
+   "steps": [
+    "끓인 효소는 변성되어 입체 구조가 영구히 바뀌었습니다. 활성이 돌아오지 않습니다.",
+    "냉장한 효소는 변성되지 않았으므로 37 °C에서 다시 활성을 가집니다."
+   ],
+   "answer": "끓인 것은 활성 없음, 냉장한 것은 회복"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "효소 반응 요인 정리",
+   "body": [
+    "기질 농도: 증가하다 포화 → 최대 속도. 효소 농도: 기질이 충분하면 비례.",
+    "온도: 최적 온도, 고온 변성. pH: 효소마다 최적 pH."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "효소마다 가장 잘 작용하는 최적 pH는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다르다",
+      "다릅니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "작용하는 장소의 pH에 맞춰져 있습니다.\n펩신은 산성, 트립신은 약염기성입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "작은창자에서 작용하는 트립신의 최적 pH는?",
+   "steps": [
+    "작은창자로 오는 이자액에는 탄산수소 이온이 많아 약염기성입니다.",
+    "트립신의 최적 pH는 약 8입니다."
+   ],
+   "answer": "약 8(약염기성)"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "작은창자에서 작용하는 트립신은 약한 {{1}}성에서 가장 잘 작용합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염기"
+     ]
+    }
+   ],
+   "hint": "이자액의 성질입니다.",
+   "explanation": "최적 pH가 약 8입니다.\n위의 펩신과 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "효소가 기질로 포화된 상태에서 효소 농도를 2배로 하면 최대 반응 속도는 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "일하는 효소가 2배입니다.",
+   "explanation": "최대 속도는 효소의 양에 비례합니다.\n2배입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "끓여서 식힌 효소 용액은 기질을 넣어도 반응이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일어나지 않는다",
+      "일어나지 않습니다",
+      "없다"
+     ]
+    }
+   ],
+   "hint": "변성은 되돌릴 수 없습니다.",
+   "explanation": "효소가 변성되어 활성 부위를 잃었습니다.\n식혀도 돌아오지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "냉장 보관한 효소를 적정 온도로 데우면 활성이 {{1}}됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "회복"
+     ]
+    }
+   ],
+   "hint": "변성되지 않았습니다.",
+   "explanation": "저온에서는 변성되지 않습니다.\n그래서 효소를 냉장 보관합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "사람 몸속 효소의 최적 온도는 약 몇 °C일까요?",
+   "answer": "37",
+   "answer_format": "integer",
+   "tolerance": 2,
+   "hint": "사람의 체온과 비슷합니다.",
+   "explanation": "체온과 비슷한 약 37 °C입니다.\n고열이 위험한 이유입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "뜨거운 온천에 사는 세균의 효소는 최적 온도가 매우 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높"
+     ]
+    }
+   ],
+   "hint": "사는 환경에 맞춰져 있습니다.",
+   "explanation": "높은 온도에서도 변성되지 않는 구조를 가집니다.\nPCR에 쓰는 효소가 이런 세균에서 왔습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "온도에 따라 효소의 반응 속도가 어떻게 변하는지 이유와 함께 설명해 보세요.",
+   "hint": "최적 온도 전과 후를 나누어 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "최적 온도"
+     ],
+     [
+      "충돌",
+      "분자 운동"
+     ],
+     [
+      "변성"
+     ],
+     [
+      "감소",
+      "줄어"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "최적 온도까지는 온도가 높을수록 분자 운동이 활발해져 효소와 기질의 충돌이 늘어 반응 속도가 빨라집니다. 최적 온도보다 높아지면 효소 단백질이 변성되어 활성 부위의 입체 구조가 바뀌므로 기질과 결합하지 못해 반응 속도가 급격히 감소합니다."
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch04",
+  "no": 4,
+  "title": "광합성"
+ },
+ "review": {
+  "id": "c7-ch04-review",
+  "title": "광합성 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "광합성 색소 가운데 가장 멀리 이동하는 주황색 색소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "카로틴"
+     ]
+    }
+   ],
+   "hint": "당근의 색소입니다.",
+   "explanation": "용매에 가장 잘 녹습니다.\n전개율이 가장 큽니다.",
+   "source_lesson": "c7-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "엽록소는 청자색광과 {{1}}광을 잘 흡수합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적색"
+     ]
+    }
+   ],
+   "hint": "빨간색 빛입니다.",
+   "explanation": "녹색광은 반사합니다.\n작용 스펙트럼과 비슷합니다.",
+   "source_lesson": "c7-ch04-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "명반응에서 발생하는 산소는 {{1}}의 분해로 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "물"
+     ]
+    }
+   ],
+   "hint": "뿌리로 흡수한 물질입니다.",
+   "explanation": "루벤이 ¹⁸O로 증명했습니다.\n물의 광분해입니다.",
+   "source_lesson": "c7-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "비순환 전자 흐름에서 전자는 물 → 광계 Ⅱ → 전자 전달계 → 광계 Ⅰ → {{1}}로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "NADP⁺",
+      "NADP+"
+     ]
+    }
+   ],
+   "hint": "최종 전자 수용체입니다.",
+   "explanation": "NADP⁺가 전자를 받아 NADPH가 됩니다.\n캘빈 회로에서 쓰입니다.",
+   "source_lesson": "c7-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "빛에너지로 H⁺ 기울기를 만들어 ATP를 합성하는 것을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "광인산화"
+     ]
+    }
+   ],
+   "hint": "빛을 이용한 인산화입니다.",
+   "explanation": "틸라코이드 막에서 일어납니다.\n화학 삼투 원리입니다.",
+   "source_lesson": "c7-ch04-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "포도당 1분자를 만들 때 캘빈 회로에서 쓰이는 ATP는 몇 분자일까요?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "CO₂ 1분자당 ATP 3분자입니다.",
+   "explanation": "CO₂ 6분자 × ATP 3 = 18분자입니다.\nNADPH는 12분자입니다.",
+   "source_lesson": "c7-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "캘빈 회로에서 CO₂와 RuBP의 결합을 촉매하는 효소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "루비스코"
+     ]
+    }
+   ],
+   "hint": "RuBP 카복실화 효소입니다.",
+   "explanation": "가장 많은 단백질로 알려져 있습니다.\n3PG가 만들어집니다.",
+   "source_lesson": "c7-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "광합성 중인 식물에 빛을 끊으면 RuBP의 양이 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "hint": "재생이 멈춥니다.",
+   "explanation": "ATP와 NADPH가 없어 RuBP가 재생되지 못합니다.\n3PG는 늘어납니다.",
+   "source_lesson": "c7-ch04-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "광합성량과 호흡량이 같아지는 빛의 세기를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보상점"
+     ]
+    }
+   ],
+   "hint": "서로 보상하는 점입니다.",
+   "explanation": "겉보기 기체 출입이 없습니다.\n음지 식물이 낮습니다.",
+   "source_lesson": "c7-ch04-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "총광합성량이 15, 순광합성량이 11이면 호흡량은 얼마일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "총광합성량 − 순광합성량입니다.",
+   "explanation": "호흡량 = 15 − 11 = 4입니다.\n총 = 순 + 호흡입니다.",
+   "source_lesson": "c7-ch04-l04"
+  }
+ ]
+}

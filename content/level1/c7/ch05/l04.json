@@ -1,0 +1,411 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch05",
+  "no": 5,
+  "title": "유전 물질과 복제"
+ },
+ "lesson": {
+  "id": "c7-ch05-l04",
+  "no": 4,
+  "title": "선도 가닥과 지연 가닥",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "방향이 다른 두 가닥",
+   "body": [
+    "DNA 중합 효소는 한 방향(5'→3')으로만 가닥을 늘릴 수 있습니다. 그런데 DNA의 두 가닥은 방향이 서로 반대입니다.",
+    "그래서 두 가닥은 서로 다른 방식으로 복제됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "복제 분기점이 움직이는 방향으로 연속해서 합성되는 새 가닥을 {{1}} 가닥이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "선도"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "프라이머 하나로 끊김 없이 합성됩니다.\n반대쪽은 지연 가닥입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "선도 가닥과 지연 가닥",
+   "body": [
+    "선도 가닥은 복제 분기점이 열리는 방향과 합성 방향(5'→3')이 같아 끊김 없이 연속으로 합성됩니다.",
+    "지연 가닥은 합성 방향이 분기점이 열리는 방향과 반대라, 분기점이 조금 열릴 때마다 프라이머를 새로 만들어 짧은 조각으로 합성합니다. 이 짧은 조각을 오카자키 절편이라고 합니다.",
+    "RNA 프라이머는 나중에 제거되고 DNA로 채워지며, 조각 사이의 틈은 DNA 연결 효소(리가아제)가 이어 붙입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지연 가닥에서 불연속적으로 합성되는 짧은 DNA 조각을 {{1}} 절편이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오카자키"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "일본의 오카자키 부부가 발견했습니다.\n나중에 연결됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "오카자키 절편 사이의 틈을 이어 붙이는 효소는 DNA {{1}} 효소입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "연결"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "리가아제라고도 합니다.\n유전자 재조합에도 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "지연 가닥 합성에는 프라이머가 {{1}} 개 필요합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "여러",
+      "많은"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "오카자키 절편마다 프라이머가 하나씩 필요합니다.\n선도 가닥은 하나면 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "지연 가닥이 불연속적으로 합성되는 이유는?",
+   "steps": [
+    "DNA 중합 효소는 5'→3' 방향으로만 합성합니다.",
+    "지연 가닥의 주형은 방향이 반대라, 합성 방향이 복제 분기점이 열리는 방향과 반대가 됩니다.",
+    "그래서 분기점이 열릴 때마다 뒤로 가며 짧은 조각을 만들어야 합니다."
+   ],
+   "answer": "합성 방향이 분기점 이동 방향과 반대이기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "DNA 복제 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "DNA 중합 효소가 새 가닥을 늘린다"
+    },
+    {
+     "id": "b",
+     "text": "헬리케이스가 이중 나선을 푼다"
+    },
+    {
+     "id": "c",
+     "text": "DNA 연결 효소가 조각을 잇는다"
+    },
+    {
+     "id": "d",
+     "text": "프라이머가 합성된다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "풀기 → 프라이머 → 신장 → 연결 순서입니다.\n프라이머는 연결 전에 DNA로 바뀝니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "텔로미어",
+   "body": [
+    "진핵생물의 선형 DNA는 복제할 때마다 지연 가닥 끝의 프라이머 자리를 DNA로 채우지 못해 끝이 조금씩 짧아집니다.",
+    "염색체 끝에는 유전자가 없는 짧은 반복 서열인 텔로미어가 있어 유전자를 보호합니다. 체세포는 분열할수록 텔로미어가 짧아져 결국 분열을 멈춥니다.",
+    "생식 세포, 줄기세포, 암세포는 텔로미어를 늘리는 효소인 텔로머레이스가 활발해 계속 분열할 수 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "진핵생물 염색체 끝의 짧은 반복 서열을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "텔로미어"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "유전자를 보호하는 완충 부분입니다.\n복제할 때마다 짧아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "텔로머레이스가 활발해 끝없이 분열할 수 있는 세포의 예는 {{1}}세포입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "암"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "텔로미어가 짧아지지 않아 분열을 멈추지 않습니다.\n생식 세포와 줄기세포도 활발합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "체세포가 분열을 반복할수록 텔로미어는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "짧아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "지연 가닥 끝을 완전히 복제하지 못하기 때문입니다.\n노화와 관련이 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "주형 가닥이 5'-ATGC-3'일 때 새로 합성되는 가닥은?",
+   "steps": [
+    "상보적 염기: A–T, T–A, G–C, C–G입니다.",
+    "새 가닥은 역평행이므로 3'-TACG-5'입니다.",
+    "5'→3'로 쓰면 5'-GCAT-3'입니다."
+   ],
+   "answer": "3'-TACG-5' (= 5'-GCAT-3')"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "복제 과정 정리",
+   "body": [
+    "선도 가닥: 연속 합성, 프라이머 1개. 지연 가닥: 불연속 합성(오카자키 절편), 프라이머 여러 개, DNA 연결 효소로 연결.",
+    "진핵생물 선형 DNA의 끝은 복제 때마다 짧아지며 텔로미어가 유전자를 보호합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "선도 가닥의 합성 방향은 복제 분기점이 이동하는 방향과 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같다",
+      "같습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "그래서 연속적으로 합성됩니다.\n지연 가닥은 반대입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "주형 가닥이 5'-AATGC-3'이면 상보적인 새 가닥의 염기 서열은? (3'→5' 방향으로)",
+   "steps": [
+    "A–T, A–T, T–A, G–C, C–G로 짝을 짓습니다.",
+    "새 가닥은 3'-TTACG-5'입니다."
+   ],
+   "answer": "3'-TTACG-5'"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "주형 가닥 5'-AATGC-3'에 상보적인 새 가닥을 3'→5' 방향으로 쓰면 3'-{{1}}-5'입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "TTACG"
+     ]
+    }
+   ],
+   "hint": "각 염기의 짝을 차례로 쓰세요.",
+   "explanation": "A–T, T–A, G–C, C–G로 짝을 짓습니다.\n역평행으로 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "원핵생물의 DNA는 원형이라 복제할 때 끝이 짧아지는 문제가 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "없다",
+      "없습니다"
+     ]
+    }
+   ],
+   "hint": "원형에는 끝이 있을까요?",
+   "explanation": "원형 DNA에는 끝이 없습니다.\n그래서 텔로미어가 필요 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지연 가닥은 짧은 조각으로 {{1}}적으로 합성됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "불연속"
+     ]
+    }
+   ],
+   "hint": "끊겨 있다는 뜻입니다.",
+   "explanation": "오카자키 절편이 만들어집니다.\n선도 가닥은 연속적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "RNA 프라이머가 제거된 자리는 {{1}}로 채워집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "DNA"
+     ]
+    }
+   ],
+   "hint": "최종 가닥의 성분입니다.",
+   "explanation": "DNA 중합 효소가 채웁니다.\n그 뒤 연결 효소가 잇습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "하나의 복제 원점에서 양쪽으로 복제가 진행되면 복제 분기점은 몇 개 생길까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "거품의 양 끝입니다.",
+   "explanation": "복제 거품의 양쪽 끝에 분기점이 하나씩 생깁니다.\n양방향 복제입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA 중합 효소는 새 뉴클레오타이드를 가닥의 {{1}}' 끝에만 붙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "3"
+     ]
+    }
+   ],
+   "hint": "당의 -OH가 있는 끝입니다.",
+   "explanation": "그래서 5'→3' 방향으로만 늘어납니다.\n선도·지연 가닥이 생기는 이유입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "선도 가닥과 지연 가닥이 합성되는 방식의 차이와 그 이유를 설명해 보세요.",
+   "hint": "원인과 두 가닥의 차이를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "5'→3'",
+      "한 방향",
+      "3' 끝"
+     ],
+     [
+      "선도",
+      "연속"
+     ],
+     [
+      "지연",
+      "불연속",
+      "오카자키"
+     ],
+     [
+      "역평행",
+      "반대"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "DNA 중합 효소는 5'→3' 방향으로만 합성하는데, DNA 두 가닥은 역평행이라 합성 방향이 서로 반대가 됩니다. 복제 분기점 이동 방향과 합성 방향이 같은 선도 가닥은 연속적으로 합성되고, 반대인 지연 가닥은 오카자키 절편으로 불연속적으로 합성된 뒤 DNA 연결 효소로 이어집니다."
+  }
+ ]
+}

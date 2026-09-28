@@ -1,0 +1,402 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch05",
+  "no": 5,
+  "title": "유전 물질과 복제"
+ },
+ "lesson": {
+  "id": "c7-ch05-l01",
+  "no": 1,
+  "title": "유전 물질의 증거",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "단백질일까, DNA일까",
+   "body": [
+    "20세기 초 과학자들은 유전 정보를 담은 물질이 단백질일 것이라고 생각했습니다. 단백질은 20가지 아미노산으로 다양하게 만들어지지만 DNA는 4가지 뉴클레오타이드뿐이었기 때문입니다.",
+    "몇 가지 결정적인 실험이 유전 물질이 DNA임을 밝혔습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "여러 실험을 통해 밝혀진 생물의 유전 물질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "DNA"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "일부 바이러스는 RNA를 유전 물질로 씁니다.\n대부분의 생물은 DNA입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "형질 전환과 유전 물질 실험",
+   "body": [
+    "그리피스(1928)는 폐렴 쌍구균에서 열처리한 병원성 S형 균과 살아 있는 비병원성 R형 균을 함께 쥐에 주사하면 쥐가 죽고 살아 있는 S형 균이 나오는 것을 발견했습니다. 한 균의 형질이 다른 균으로 옮겨 가는 이 현상을 형질 전환이라고 합니다.",
+    "에이버리(1944)는 S형 균 추출물을 단백질 분해 효소나 RNA 분해 효소로 처리해도 형질 전환이 일어나지만, DNA 분해 효소로 처리하면 일어나지 않는다는 것을 보여 형질 전환을 일으키는 물질이 DNA임을 밝혔습니다.",
+    "허시와 체이스(1952)는 단백질을 ³⁵S로, DNA를 ³²P로 표지한 박테리오파지를 대장균에 감염시켰습니다. 세균 안으로 들어간 것은 ³²P(DNA)였고, 새 파지가 만들어졌으므로 유전 물질이 DNA임을 확인했습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "한 세균의 형질이 다른 세균의 물질을 받아들여 바뀌는 현상을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "형질 전환"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "그리피스가 처음 발견했습니다.\n유전 물질이 옮겨 간 것입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "에이버리의 실험에서 S형 균 추출물을 DNA 분해 효소로 처리하면 형질 전환이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일어나지 않는다",
+      "일어나지 않습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "DNA가 분해되어 형질을 전달하지 못합니다.\n그래서 유전 물질이 DNA임을 알았습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "허시와 체이스는 파지의 DNA를 방사성 {{1}}(³²P)으로 표지했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "DNA에는 인이 많고 단백질에는 거의 없습니다.\n그래서 DNA를 구별해 추적할 수 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "허시와 체이스의 실험 결과를 정리하면?",
+   "steps": [
+    "³⁵S로 단백질을 표지한 파지를 감염시키면 방사선이 세균 밖(상층액)에서 검출됩니다.",
+    "³²P로 DNA를 표지한 파지를 감염시키면 방사선이 세균 안(침전물)에서 검출됩니다.",
+    "세균 안으로 들어가 새 파지를 만든 것은 DNA이므로 유전 물질은 DNA입니다."
+   ],
+   "answer": "세균 안으로 들어간 것은 DNA"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "허시와 체이스는 파지의 단백질을 방사성 {{1}}(³⁵S)으로 표지했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "황"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "황은 단백질의 아미노산에 있고 DNA에는 없습니다.\n그래서 단백질을 구별할 수 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "그리피스의 실험",
+   "body": [
+    "S형 균은 피막이 있어 병원성이 있고, R형 균은 피막이 없어 병원성이 없습니다.",
+    "살아 있는 S형 균 → 쥐 죽음, 살아 있는 R형 균 → 쥐 삶, 열처리한 S형 균 → 쥐 삶.",
+    "열처리한 S형 균 + 살아 있는 R형 균 → 쥐 죽음, 죽은 쥐에서 살아 있는 S형 균 발견. 열처리로 죽은 S형 균의 어떤 물질이 R형 균을 S형 균으로 바꾸었습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "폐렴 쌍구균 중 피막이 있어 병원성을 가진 것은 {{1}}형 균입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "S"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "피막 때문에 면역 세포에 잘 잡히지 않습니다.\nR형 균은 피막이 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "열처리한 S형 균과 살아 있는 R형 균을 함께 주사하면 쥐는 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "죽는다",
+      "죽습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "R형 균이 S형 균으로 형질 전환되었습니다.\n죽은 쥐에서 살아 있는 S형 균이 나왔습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "허시와 체이스의 실험에서 대장균 안에서 주로 검출된 방사성 원소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "³²P",
+      "32P",
+      "인"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "파지의 DNA가 세균 안으로 들어갔습니다.\n단백질 껍질은 밖에 남았습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "그리피스의 실험만으로는 유전 물질이 DNA라고 결론 내릴 수 없었던 이유는?",
+   "steps": [
+    "그리피스는 형질 전환이 일어난다는 것만 보였습니다.",
+    "어떤 물질이 형질 전환을 일으키는지는 밝히지 못했습니다.",
+    "에이버리가 분해 효소 실험으로 그 물질이 DNA임을 밝혔습니다."
+   ],
+   "answer": "형질 전환 물질의 정체를 몰랐기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "유전 물질 실험 정리",
+   "body": [
+    "그리피스: 형질 전환 발견. 에이버리: DNA 분해 효소 처리 시 형질 전환 없음 → DNA.",
+    "허시와 체이스: ³²P(DNA)만 세균 안으로 → DNA가 유전 물질."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "세 실험의 공통 결론은 유전 물질이 {{1}}라는 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "DNA"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "단백질이라는 예상을 뒤집었습니다.\n이후 DNA 구조 연구가 활발해졌습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "S형 균 추출물을 단백질 분해 효소로 처리한 뒤 R형 균과 섞으면?",
+   "steps": [
+    "단백질은 분해되지만 DNA는 그대로 남아 있습니다.",
+    "DNA가 R형 균에 들어가 형질 전환을 일으킵니다.",
+    "S형 균이 나타납니다."
+   ],
+   "answer": "형질 전환이 일어난다"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "S형 균 추출물을 단백질 분해 효소로 처리해도 형질 전환은 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일어난다",
+      "일어납니다"
+     ]
+    }
+   ],
+   "hint": "DNA는 남아 있습니다.",
+   "explanation": "DNA는 분해되지 않았기 때문입니다.\n단백질은 유전 물질이 아닙니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "허시와 체이스가 쓴 박테리오파지는 세균에 감염하는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "바이러스"
+     ]
+    }
+   ],
+   "hint": "스스로 번식하지 못하는 감염체입니다.",
+   "explanation": "단백질 껍질 안에 DNA가 들어 있습니다.\n구조가 단순해 실험에 알맞았습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA에는 황(S)이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "없다",
+      "없습니다"
+     ]
+    }
+   ],
+   "hint": "DNA의 구성 원소를 떠올리세요.",
+   "explanation": "DNA는 C, H, O, N, P로 이루어져 있습니다.\n그래서 황으로 단백질만 표지할 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "인(P)은 단백질에는 거의 없고 DNA의 {{1}}기에 많습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인산"
+     ]
+    }
+   ],
+   "hint": "뉴클레오타이드의 구성 성분입니다.",
+   "explanation": "DNA의 골격이 당과 인산으로 되어 있습니다.\n그래서 ³²P로 DNA를 표지합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "폐렴 쌍구균의 R형 균은 {{1}}이 없어 병원성이 없습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "피막"
+     ]
+    }
+   ],
+   "hint": "S형 균을 둘러싼 층입니다.",
+   "explanation": "면역 세포에 쉽게 잡아먹힙니다.\n콜로니 표면이 거칠어 R(rough)형입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "S형 균 추출물을 RNA 분해 효소로 처리해도 형질 전환은 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일어난다",
+      "일어납니다"
+     ]
+    }
+   ],
+   "hint": "DNA는 그대로입니다.",
+   "explanation": "RNA가 유전 물질이 아니기 때문입니다.\nDNA 분해 효소만 형질 전환을 막습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "허시와 체이스의 실험 과정과 결과를 설명하고, 이 실험에서 얻은 결론을 말해 보세요.",
+   "hint": "표지, 결과, 결론 순서로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "³⁵S",
+      "황"
+     ],
+     [
+      "³²P",
+      "인"
+     ],
+     [
+      "세균 안",
+      "침전물"
+     ],
+     [
+      "DNA"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "허시와 체이스는 단백질을 ³⁵S로, DNA를 ³²P로 표지한 파지를 각각 대장균에 감염시켰습니다. 세균 안에서는 ³²P가 검출되고 ³⁵S는 밖에 남았으며 세균 안에서 새 파지가 만들어졌으므로, 유전 물질은 단백질이 아니라 DNA라는 결론을 얻었습니다."
+  }
+ ]
+}

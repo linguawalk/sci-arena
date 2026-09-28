@@ -1,0 +1,371 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch05",
+  "no": 5,
+  "title": "유전 물질과 복제"
+ },
+ "lesson": {
+  "id": "c7-ch05-l03",
+  "no": 3,
+  "title": "DNA 복제의 원리",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "정확한 복사",
+   "body": [
+    "세포가 분열할 때마다 약 30억 쌍의 염기 서열이 거의 틀림없이 복사됩니다.",
+    "DNA의 상보적 구조가 정확한 복제를 가능하게 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "DNA 복제에서 새 DNA가 원래 가닥 하나와 새로 만든 가닥 하나로 이루어지는 방식을 {{1}}적 복제라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반보존"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원래 가닥의 절반이 보존됩니다.\n메셀슨과 스탈이 증명했습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "메셀슨과 스탈의 실험",
+   "body": [
+    "대장균을 무거운 질소(¹⁵N)가 든 배지에서 여러 세대 길러 DNA를 모두 무겁게 만든 뒤, 가벼운 질소(¹⁴N) 배지로 옮겨 기르며 DNA를 원심 분리했습니다.",
+    "1세대 DNA는 모두 중간 무게(¹⁵N–¹⁴N)였고, 2세대에서는 중간 무게 50%, 가벼운 DNA(¹⁴N–¹⁴N) 50%가 나타났습니다.",
+    "이 결과는 두 가닥이 풀려 각각 주형이 되어 새 가닥을 만드는 반보존적 복제와 일치합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "메셀슨과 스탈의 실험에서 ¹⁴N 배지로 옮긴 뒤 1세대 DNA는 모두 {{1}} 무게였습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "중간"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원래의 무거운 가닥과 새 가벼운 가닥이 합쳐졌습니다.\n보존적 복제라면 무거운 것과 가벼운 것이 나와야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "메셀슨과 스탈의 실험에서 2세대 DNA 중 가벼운 DNA(¹⁴N–¹⁴N)는 몇 %일까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "2세대 DNA 4분자 중 중간 2, 가벼운 2입니다.\n50%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "메셀슨과 스탈의 실험에서 3세대 DNA 중 중간 무게 DNA는 몇 %일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "3세대 DNA 8분자 중 무거운 가닥을 가진 것은 여전히 2분자입니다.\n2 ÷ 8 = 25%입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "¹⁵N DNA 1분자를 ¹⁴N 배지에서 n번 복제하면 ¹⁵N 가닥을 가진 DNA는 몇 분자일까요?",
+   "steps": [
+    "원래의 ¹⁵N 가닥 2개는 사라지지 않고 계속 보존됩니다.",
+    "각 ¹⁵N 가닥은 항상 한 DNA 분자에 들어 있습니다.",
+    "그래서 몇 번을 복제해도 ¹⁵N을 가진 DNA는 2분자이고, 전체는 2ⁿ분자입니다."
+   ],
+   "answer": "항상 2분자"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "만약 복제가 보존적이었다면 1세대에서는 무거운 DNA와 {{1}} DNA가 나타났을 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가벼운"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원래 DNA는 그대로, 새 DNA는 모두 새것이기 때문입니다.\n실제로는 중간 무게만 나타났습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "복제의 시작",
+   "body": [
+    "복제는 복제 원점이라는 특정 부위에서 시작됩니다. 원핵생물의 원형 DNA에는 복제 원점이 1개, 진핵생물의 긴 선형 DNA에는 여러 개 있습니다.",
+    "헬리케이스가 염기 사이의 수소 결합을 끊어 이중 나선을 풀면 Y자 모양의 복제 분기점이 생깁니다. 프라이메이스가 짧은 RNA 프라이머를 만들면, DNA 중합 효소가 프라이머의 3' 끝에 뉴클레오타이드를 이어 붙입니다.",
+    "DNA 중합 효소는 새 가닥을 항상 5'→3' 방향으로만 늘릴 수 있으며, 잘못 붙은 뉴클레오타이드를 고치는 교정 기능도 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA 이중 나선의 수소 결합을 끊어 두 가닥을 푸는 효소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "헬리케이스"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "복제 분기점을 만듭니다.\n나선(helix)을 푼다는 이름입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA 중합 효소는 새 가닥을 항상 5'→{{1}}' 방향으로 합성합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "3"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "새 뉴클레오타이드를 3' 끝에만 붙일 수 있습니다.\n그래서 두 가닥의 합성 방식이 달라집니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA 중합 효소가 합성을 시작하려면 짧은 {{1}}가 필요합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "프라이머"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "프라이머의 3' 끝에 뉴클레오타이드를 이어 붙입니다.\n복제에서는 RNA로 된 프라이머를 씁니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "DNA 중합 효소가 스스로 복제를 시작하지 못하는 이유는?",
+   "steps": [
+    "DNA 중합 효소는 이미 있는 가닥의 3' 끝에만 뉴클레오타이드를 붙일 수 있습니다.",
+    "처음에는 붙일 3' 끝이 없습니다.",
+    "그래서 프라이메이스가 RNA 프라이머를 먼저 만들어 줍니다."
+   ],
+   "answer": "붙일 3' 끝이 필요하기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "복제 원리 정리",
+   "body": [
+    "반보존적 복제(메셀슨·스탈). 복제 원점 → 헬리케이스로 풀림 → 프라이머 → DNA 중합 효소(5'→3', 교정).",
+    "원핵생물은 복제 원점 1개, 진핵생물은 여러 개입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "진핵생물의 긴 선형 DNA에는 복제 원점이 {{1}} 개 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "여러",
+      "많은"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "여러 곳에서 동시에 복제해 빨리 끝냅니다.\n원핵생물은 1개입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "¹⁵N DNA 1분자를 ¹⁴N 배지에서 4번 복제하면 ¹⁵N을 가진 DNA와 그 비율은?",
+   "steps": [
+    "4번 복제하면 2⁴ = 16분자입니다.",
+    "¹⁵N 가닥을 가진 DNA는 2분자입니다.",
+    "2 ÷ 16 = 12.5%입니다."
+   ],
+   "answer": "2분자, 12.5%"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "¹⁵N DNA 1분자를 ¹⁴N 배지에서 4번 복제하면 ¹⁵N 가닥을 가진 DNA는 몇 분자일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "원래 가닥은 사라지지 않습니다.",
+   "explanation": "원래의 ¹⁵N 가닥 2개가 각각 한 분자에 들어 있습니다.\n몇 번을 복제해도 2분자입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "위 문제에서 ¹⁵N 가닥을 가진 DNA는 전체의 몇 %일까요?",
+   "answer": "12.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "hint": "전체는 2⁴분자입니다.",
+   "explanation": "2 ÷ 16 = 12.5%입니다.\n세대가 지날수록 비율이 줄어듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "원핵생물의 원형 DNA에는 복제 원점이 몇 개 있을까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "진핵생물과 다릅니다.",
+   "explanation": "원핵생물은 복제 원점이 1개입니다.\n양방향으로 복제가 진행됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA 복제에서는 원래 DNA의 {{1}} 가닥이 모두 주형으로 쓰입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "두"
+     ]
+    }
+   ],
+   "hint": "이중 가닥입니다.",
+   "explanation": "두 가닥이 풀려 각각 새 가닥을 만듭니다.\n그래서 반보존적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA 복제에서 쓰이는 프라이머는 {{1}}로 이루어져 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "RNA"
+     ]
+    }
+   ],
+   "hint": "DNA가 아닌 핵산입니다.",
+   "explanation": "프라이메이스가 만듭니다.\n나중에 DNA로 바뀝니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA 중합 효소는 잘못 붙은 뉴클레오타이드를 떼어 내는 {{1}} 기능이 있어 복제가 정확합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "교정"
+     ]
+    }
+   ],
+   "hint": "틀린 것을 고치는 기능입니다.",
+   "explanation": "오류율을 크게 낮춥니다.\n그래도 드물게 돌연변이가 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "메셀슨과 스탈의 실험 결과가 반보존적 복제를 지지하는 이유를 설명해 보세요.",
+   "hint": "세대별 결과와 해석을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "¹⁵N",
+      "무거운"
+     ],
+     [
+      "1세대",
+      "중간"
+     ],
+     [
+      "2세대",
+      "가벼운"
+     ],
+     [
+      "반보존"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "¹⁵N DNA를 가진 대장균을 ¹⁴N 배지로 옮기면 1세대 DNA는 모두 중간 무게였고, 2세대에서는 중간 무게와 가벼운 DNA가 절반씩 나타났습니다. 이는 원래 가닥 하나와 새 가닥 하나로 이루어진 DNA가 만들어진다는 반보존적 복제의 예상과 일치합니다."
+  }
+ ]
+}

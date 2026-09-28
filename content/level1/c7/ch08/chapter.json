@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c7",
+  "chapter": {
+    "id": "c7-ch08",
+    "no": 8,
+    "title": "진화의 원리"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c7-ch08-l01",
+      "title": "하디–바인베르크 평형",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c7-ch08-l02",
+      "title": "진화의 요인",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c7-ch08-l03",
+      "title": "종 분화",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c7-ch08-l04",
+      "title": "분자 진화와 계통수",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c7-ch08-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

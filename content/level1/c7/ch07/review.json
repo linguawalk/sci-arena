@@ -1,0 +1,197 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch07",
+  "no": 7,
+  "title": "생명 공학 기술"
+ },
+ "review": {
+  "id": "c7-ch07-review",
+  "title": "생명 공학 기술 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "유전자 재조합에서 DNA의 특정 서열을 자르는 '분자 가위'는 {{1}} 효소입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "제한"
+     ]
+    }
+   ],
+   "hint": "자르는 위치가 제한되어 있습니다.",
+   "explanation": "점착 말단을 만듭니다.\n세균에서 얻습니다.",
+   "source_lesson": "c7-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "DNA 조각을 이어 재조합 DNA를 만드는 효소는 DNA {{1}} 효소입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "연결"
+     ]
+    }
+   ],
+   "hint": "잇는 효소입니다.",
+   "explanation": "리가아제라고 합니다.\n당–인산 골격을 잇습니다.",
+   "source_lesson": "c7-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "진핵생물 유전자를 대장균에서 발현시키려면 인트론이 없는 {{1}}를 씁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "cDNA"
+     ]
+    }
+   ],
+   "hint": "상보적 DNA입니다.",
+   "explanation": "역전사 효소로 mRNA에서 만듭니다.\n대장균은 스플라이싱을 못 합니다.",
+   "source_lesson": "c7-ch07-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "DNA 1분자로 PCR을 5회 반복하면 이론적으로 몇 분자가 될까요?",
+   "answer": "32",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "2ⁿ입니다.",
+   "explanation": "2⁵ = 32분자입니다.\n매번 2배입니다.",
+   "source_lesson": "c7-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "PCR의 신장 단계에서 새 가닥을 합성하는 내열성 효소는 {{1}} 중합 효소입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Taq"
+     ]
+    }
+   ],
+   "hint": "세균 이름에서 온 세 글자입니다.",
+   "explanation": "온천 세균에서 얻었습니다.\n높은 온도에서도 변성되지 않습니다.",
+   "source_lesson": "c7-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "전기 영동에서 작은 DNA 조각은 큰 조각보다 {{1}} 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "멀리"
+     ]
+    }
+   ],
+   "hint": "이동 거리를 생각하세요.",
+   "explanation": "젤의 그물을 쉽게 빠져나갑니다.\nDNA는 (+)극 쪽으로 갑니다.",
+   "source_lesson": "c7-ch07-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "크리스퍼 유전자 가위에서 표적 서열을 찾는 것은 가이드 RNA, DNA를 자르는 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Cas9"
+     ]
+    }
+   ],
+   "hint": "자르는 단백질입니다.",
+   "explanation": "가이드 RNA만 바꾸면 다른 유전자를 편집합니다.\n세균 면역에서 유래했습니다.",
+   "source_lesson": "c7-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "해충 저항성 단백질 유전자를 넣은 {{1}} 옥수수는 형질 전환 작물의 예입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Bt"
+     ]
+    }
+   ],
+   "hint": "세균 이름의 머리글자입니다.",
+   "explanation": "살충제 사용을 줄입니다.\n토양 세균의 유전자입니다.",
+   "source_lesson": "c7-ch07-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "생식세포 유전자 편집은 그 변화가 {{1}}에게 유전된다는 점에서 논란이 큽니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자손"
+     ]
+    }
+   ],
+   "hint": "다음 세대입니다.",
+   "explanation": "미래 세대에 영향을 줍니다.\n체세포 편집은 본인에게만 영향을 줍니다.",
+   "source_lesson": "c7-ch07-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "배아를 파괴하지 않고 체세포로 만드는 줄기세포를 유도 만능 줄기세포, 약자로 {{1}} 세포라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "iPS",
+      "IPS"
+     ]
+    }
+   ],
+   "hint": "영어 약자입니다.",
+   "explanation": "배아 줄기세포의 윤리 문제를 줄입니다.\n야마나카가 개발했습니다.",
+   "source_lesson": "c7-ch07-l04"
+  }
+ ]
+}

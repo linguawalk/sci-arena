@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "level": 1,
+  "course": {
+    "id": "c7",
+    "title": "생물Ⅱ",
+    "description": "효소와 물질대사, 세포 호흡과 광합성, 유전자 발현, 생명 공학"
+  },
+  "totals": {
+    "chapters": 8,
+    "lessons": 32,
+    "lesson_questions": 512,
+    "review_questions": 80,
+    "questions": 592
+  },
+  "chapters": [
+    {
+      "no": 1,
+      "id": "c7-ch01",
+      "title": "세포의 구조와 막 수송",
+      "dir": "ch01",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 2,
+      "id": "c7-ch02",
+      "title": "효소",
+      "dir": "ch02",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 3,
+      "id": "c7-ch03",
+      "title": "세포 호흡",
+      "dir": "ch03",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 4,
+      "id": "c7-ch04",
+      "title": "광합성",
+      "dir": "ch04",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 5,
+      "id": "c7-ch05",
+      "title": "유전 물질과 복제",
+      "dir": "ch05",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 6,
+      "id": "c7-ch06",
+      "title": "유전자 발현과 조절",
+      "dir": "ch06",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 7,
+      "id": "c7-ch07",
+      "title": "생명 공학 기술",
+      "dir": "ch07",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    },
+    {
+      "no": 8,
+      "id": "c7-ch08",
+      "title": "진화의 원리",
+      "dir": "ch08",
+      "lessons": 4,
+      "lesson_questions": 64,
+      "review_questions": 10
+    }
+  ]
+}

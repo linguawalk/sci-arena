@@ -1,0 +1,387 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch04",
+  "no": 4,
+  "title": "광합성"
+ },
+ "lesson": {
+  "id": "c7-ch04-l01",
+  "no": 1,
+  "title": "엽록체와 광합성 색소",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "빛을 모으는 초록 공장",
+   "body": [
+    "지구의 거의 모든 생물은 식물이 햇빛으로 만든 양분과 산소에 기대어 삽니다.",
+    "식물 세포의 엽록체는 빛에너지를 화학 에너지로 바꾸는 공장입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "식물 세포에서 광합성이 일어나는 세포 소기관은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "엽록체"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이중막으로 싸여 있고 자체 DNA가 있습니다.\n엽록소가 들어 있어 초록색입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "엽록체와 광합성 색소",
+   "body": [
+    "엽록체는 이중막 안에 납작한 주머니인 틸라코이드가 있고, 틸라코이드가 쌓인 것을 그라나, 그 주변의 액체 부분을 스트로마라고 합니다. 명반응은 틸라코이드 막, 캘빈 회로는 스트로마에서 일어납니다.",
+    "광합성 색소에는 빛에너지를 반응에 직접 쓰는 주색소인 엽록소 a와, 흡수한 빛을 엽록소 a에 전달하는 보조 색소인 엽록소 b와 카로티노이드가 있습니다.",
+    "엽록소는 청자색광과 적색광을 잘 흡수하고 녹색광은 거의 반사해 잎이 초록색으로 보입니다. 파장별 흡수 정도를 흡수 스펙트럼, 파장별 광합성 속도를 작용 스펙트럼이라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "광합성의 명반응은 엽록체의 {{1}} 막에서 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "틸라코이드"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "광합성 색소와 전자 전달계가 있습니다.\n그라나를 이룹니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "캘빈 회로는 엽록체의 {{1}}에서 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "스트로마"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "틸라코이드를 둘러싼 액체 부분입니다.\n탄소 고정 효소들이 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "잎이 초록색으로 보이는 것은 엽록소가 녹색광을 거의 흡수하지 않고 {{1}}하기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반사"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "청자색광과 적색광은 흡수합니다.\n반사된 녹색광이 눈에 들어옵니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "엥겔만은 해캄에 프리즘으로 나눈 빛을 비추고 호기성 세균을 넣었습니다. 세균은 어디에 모였을까요?",
+   "steps": [
+    "호기성 세균은 산소가 많은 곳에 모입니다.",
+    "광합성이 활발해 산소가 많이 나오는 곳은 청자색광과 적색광이 비치는 부분입니다.",
+    "그래서 세균이 청자색과 적색 부분에 많이 모였고, 이것이 작용 스펙트럼을 보여 줍니다."
+   ],
+   "answer": "청자색광과 적색광 부분"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "엥겔만의 실험에서 호기성 세균은 {{1}}광과 적색광이 비치는 곳에 많이 모였습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "청자색",
+      "파란",
+      "청색",
+      "보라"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이 빛에서 광합성이 활발해 산소가 많았습니다.\n엽록소의 흡수 스펙트럼과 비슷합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "색소의 분리",
+   "body": [
+    "종이 크로마토그래피로 잎의 색소를 분리하면 용매에 잘 녹고 종이에 약하게 붙는 색소일수록 멀리 이동합니다. 가장 멀리 가는 것은 주황색 카로틴이고, 잔토필, 엽록소 a, 엽록소 b 순입니다.",
+    "색소의 이동 거리를 용매의 이동 거리로 나눈 값을 전개율(Rf)이라고 하며, 색소마다 일정해 색소를 구별하는 데 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "종이 크로마토그래피에서 용매가 6 cm, 어떤 색소가 3 cm 이동했습니다. 이 색소의 전개율은 얼마일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": null,
+   "explanation": "Rf = 3 ÷ 6 = 0.5입니다.\n전개율은 항상 1보다 작습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "잎의 색소를 크로마토그래피로 분리하면 가장 멀리 이동하는 색소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "카로틴"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "주황색 색소입니다.\n용매에 가장 잘 녹습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "빛에너지를 반응에 직접 쓰는 주색소는 엽록소 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "a"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "광계의 반응 중심에 있습니다.\n엽록소 b와 카로티노이드는 보조 색소입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "보조 색소가 있으면 식물에 어떤 이점이 있을까요?",
+   "steps": [
+    "엽록소 a가 잘 흡수하지 못하는 파장의 빛을 보조 색소가 흡수합니다.",
+    "보조 색소는 흡수한 에너지를 엽록소 a에 전달합니다.",
+    "그래서 더 넓은 범위의 빛을 광합성에 쓸 수 있습니다."
+   ],
+   "answer": "이용할 수 있는 빛의 범위가 넓어진다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "엽록체 정리",
+   "body": [
+    "엽록체: 이중막, 틸라코이드(명반응), 스트로마(캘빈 회로). 주색소 엽록소 a, 보조 색소 엽록소 b·카로티노이드.",
+    "청자색·적색광을 흡수하고 녹색광을 반사합니다. 작용 스펙트럼은 흡수 스펙트럼과 비슷합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "가을에 엽록소가 분해되면 남아 있던 {{1}} 색소 때문에 잎이 노랗게 보입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "카로티노이드"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "여름에는 엽록소에 가려 보이지 않습니다.\n붉은 단풍은 안토시아닌 때문입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "용매가 5 cm, 카로틴이 4.5 cm 이동했다면 카로틴의 전개율은?",
+   "steps": [
+    "Rf = 색소 이동 거리 ÷ 용매 이동 거리입니다.",
+    "4.5 ÷ 5 = 0.9입니다."
+   ],
+   "answer": "0.9"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "용매가 5 cm, 카로틴이 4.5 cm 이동했습니다. 카로틴의 전개율은 얼마일까요?",
+   "answer": "0.9",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "hint": "Rf = 색소 ÷ 용매입니다.",
+   "explanation": "4.5 ÷ 5 = 0.9입니다.\n가장 큰 전개율입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "식물에 녹색광만 비추면 광합성이 거의 일어나지 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "않는다",
+      "않습니다"
+     ]
+    }
+   ],
+   "hint": "녹색광은 반사됩니다.",
+   "explanation": "엽록소가 녹색광을 거의 흡수하지 못합니다.\n청자색이나 적색광이 효과적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "엽록체에는 미토콘드리아처럼 자체 {{1}}가 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "DNA"
+     ]
+    }
+   ],
+   "hint": "유전 물질입니다.",
+   "explanation": "세포 내 공생설의 증거입니다.\n리보솜도 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "틸라코이드가 동전처럼 쌓인 구조를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "그라나"
+     ]
+    }
+   ],
+   "hint": "단수형은 그라눔입니다.",
+   "explanation": "빛을 받는 막 면적을 넓힙니다.\n스트로마 속에 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "보조 색소는 식물이 이용할 수 있는 빛의 파장 {{1}}를 넓혀 줍니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "범위"
+     ]
+    }
+   ],
+   "hint": "흡수할 수 있는 폭입니다.",
+   "explanation": "엽록소 a가 못 받는 빛을 흡수해 전달합니다.\n광합성 효율이 높아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "광합성으로 발생하는 산소는 {{1}}에서 나옵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "물"
+     ]
+    }
+   ],
+   "hint": "뿌리로 흡수한 물질입니다.",
+   "explanation": "물이 분해되어 산소가 발생합니다.\n다음 레슨에서 자세히 다룹니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "흡수 스펙트럼과 작용 스펙트럼의 뜻을 쓰고, 두 스펙트럼이 비슷한 이유를 설명해 보세요.",
+   "hint": "각각의 정의와 관계를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "흡수 스펙트럼",
+      "흡수"
+     ],
+     [
+      "작용 스펙트럼",
+      "광합성 속도"
+     ],
+     [
+      "파장"
+     ],
+     [
+      "엽록소",
+      "색소"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "흡수 스펙트럼은 색소가 빛의 파장에 따라 흡수하는 정도를, 작용 스펙트럼은 빛의 파장에 따른 광합성 속도를 나타낸 것입니다. 광합성 색소가 흡수한 빛에너지로 광합성이 일어나므로, 엽록소가 많이 흡수하는 청자색광과 적색광에서 광합성 속도도 커 두 스펙트럼이 비슷합니다."
+  }
+ ]
+}

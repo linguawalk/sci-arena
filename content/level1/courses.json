@@ -60,7 +60,7 @@
       "id": "c7",
       "title": "생물Ⅱ",
       "description": "효소와 물질대사, 세포 호흡과 광합성, 유전자 발현, 생명 공학",
-      "available": false,
+      "available": true,
       "subject": "biology",
       "grade": "Ⅱ"
     },

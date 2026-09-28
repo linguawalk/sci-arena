@@ -1,0 +1,389 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch01",
+  "no": 1,
+  "title": "세포의 구조와 막 수송"
+ },
+ "lesson": {
+  "id": "c7-ch01-l01",
+  "no": 1,
+  "title": "원핵세포와 진핵세포",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "두 종류의 세포",
+   "body": [
+    "세균 한 마리와 사람의 간세포는 모두 세포이지만 구조가 크게 다릅니다. 세균에는 핵이 없고, 간세포에는 핵과 여러 막으로 싸인 소기관이 있습니다.",
+    "세포는 핵막의 유무에 따라 크게 두 가지로 나뉩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "핵막이 없어 DNA가 세포질에 있는 세포를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원핵세포"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세균과 고세균이 원핵세포로 이루어져 있습니다.\n핵막이 있으면 진핵세포입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "원핵세포와 진핵세포의 비교",
+   "body": [
+    "원핵세포는 핵막과 막으로 싸인 세포 소기관이 없고, 원형 DNA가 세포질의 핵양체 부위에 있습니다. 세균은 펩티도글리칸으로 된 세포벽을 가지며, 작은 원형 DNA인 플라스미드를 가지기도 합니다. 크기는 보통 1~10 μm입니다.",
+    "진핵세포는 핵막으로 싸인 핵과 미토콘드리아, 소포체, 골지체 같은 막성 소기관이 있고, DNA는 선형으로 히스톤 단백질과 함께 염색체를 이룹니다. 크기는 보통 10~100 μm입니다.",
+    "리보솜은 원핵세포와 진핵세포에 모두 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "원핵세포와 진핵세포에 공통으로 있는 세포 소기관은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "리보솜"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "리보솜은 막이 없는 단백질 합성 장소입니다.\n모든 세포가 단백질을 만들어야 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "세균의 세포벽은 주로 {{1}}으로 이루어져 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "펩티도글리칸"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "식물 세포벽의 셀룰로스와 다릅니다.\n페니실린은 이 세포벽 합성을 막습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "세균이 염색체 DNA 외에 가지는 작은 원형 DNA를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "플라스미드"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "항생제 내성 유전자 등을 가지기도 합니다.\n유전자 재조합에 운반체로 쓰입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "원핵세포와 진핵세포의 공통점과 차이점은?",
+   "steps": [
+    "공통점: 세포막, 세포질, 리보솜, 유전 물질(DNA)이 있습니다.",
+    "차이점: 진핵세포에는 핵막과 막성 소기관이 있고 원핵세포에는 없습니다.",
+    "원핵세포의 DNA는 원형, 진핵세포의 염색체 DNA는 선형입니다."
+   ],
+   "answer": "핵막과 막성 소기관의 유무가 가장 큰 차이"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "대장균은 {{1}}세포로 이루어진 생물입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원핵"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "대장균은 세균입니다.\n핵막이 없습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "세포 내 공생설",
+   "body": [
+    "미토콘드리아와 엽록체는 원래 독립 생활을 하던 원핵생물이 다른 세포 안에 들어가 공생하면서 세포 소기관이 되었다는 설이 세포 내 공생설입니다.",
+    "그 증거로 두 소기관은 자신만의 원형 DNA와 리보솜을 가지고, 이중막으로 싸여 있으며, 세포 안에서 스스로 분열해 늘어납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "미토콘드리아와 엽록체가 원핵생물에서 유래했다는 설을 세포 내 {{1}}설이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공생"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "마굴리스가 널리 알렸습니다.\n여러 증거가 이 설을 뒷받침합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "미토콘드리아가 가진 자체 DNA는 세균처럼 {{1}} 모양입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원형"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세균의 DNA와 비슷합니다.\n세포 내 공생설의 증거입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "미토콘드리아와 엽록체는 {{1}}으로 싸여 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이중막"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "바깥막은 삼켜질 때 숙주의 막이었다고 봅니다.\n안쪽 막은 원래 세균의 막입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "미토콘드리아의 리보솜이 세균의 리보솜과 비슷하다는 것은 무엇을 뜻할까요?",
+   "steps": [
+    "진핵세포 세포질의 리보솜과 원핵세포의 리보솜은 크기와 구조가 다릅니다.",
+    "미토콘드리아의 리보솜은 원핵세포의 리보솜과 비슷합니다.",
+    "미토콘드리아가 원핵생물에서 유래했다는 증거가 됩니다."
+   ],
+   "answer": "원핵생물 기원의 증거"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "세포 비교 정리",
+   "body": [
+    "원핵세포: 핵막·막성 소기관 없음, 원형 DNA, 리보솜 있음, 1~10 μm. 진핵세포: 핵막·막성 소기관 있음, 선형 DNA, 10~100 μm.",
+    "미토콘드리아와 엽록체는 자체 DNA, 리보솜, 이중막을 가져 세포 내 공생설을 뒷받침합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "원핵세포의 DNA는 핵이 아닌 {{1}}에 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "세포질"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "핵양체라고 불리는 부위에 모여 있습니다.\n막으로 싸여 있지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "지름이 10배 큰 진핵세포의 부피는 원핵세포의 몇 배일까요? (공 모양으로 가정)",
+   "steps": [
+    "부피는 지름의 세제곱에 비례합니다.",
+    "10³ = 1000배입니다.",
+    "큰 진핵세포는 막성 소기관으로 공간을 나누어 효율을 높입니다."
+   ],
+   "answer": "1000배"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "빵을 만드는 효모는 {{1}}세포로 이루어진 균류입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진핵"
+     ]
+    }
+   ],
+   "hint": "균류는 어느 역에 속하나요?",
+   "explanation": "효모는 단세포 진핵생물입니다.\n핵과 미토콘드리아가 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "지름이 10배 큰 세포의 부피는 몇 배일까요? (공 모양으로 가정)",
+   "answer": "1000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "세제곱에 비례합니다.",
+   "explanation": "부피 ∝ 지름³이므로 10³ = 1000배입니다.\n진핵세포가 훨씬 큽니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "식물 세포의 세포벽은 주로 {{1}}로 이루어져 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "셀룰로스"
+     ]
+    }
+   ],
+   "hint": "종이의 원료이기도 합니다.",
+   "explanation": "포도당이 길게 연결된 다당류입니다.\n세균의 세포벽과 성분이 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "원핵세포에는 막으로 싸인 세포 소기관이 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "없다",
+      "없습니다"
+     ]
+    }
+   ],
+   "hint": "진핵세포와의 차이입니다.",
+   "explanation": "미토콘드리아, 소포체, 골지체가 없습니다.\n리보솜은 막이 없어 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "극한 환경에 사는 고세균은 {{1}}세포로 이루어져 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원핵"
+     ]
+    }
+   ],
+   "hint": "핵막이 없습니다.",
+   "explanation": "핵막이 없는 원핵생물입니다.\n세균과는 다른 역입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "페니실린은 세균의 {{1}} 합성을 방해해 세균을 죽입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "세포벽"
+     ]
+    }
+   ],
+   "hint": "펩티도글리칸으로 된 구조입니다.",
+   "explanation": "사람 세포에는 이 세포벽이 없어 영향이 적습니다.\n원핵세포의 특징을 노린 약입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "세포 내 공생설을 뒷받침하는 증거를 두 가지 이상 설명해 보세요.",
+   "hint": "DNA, 리보솜, 막, 분열 중에서 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "DNA"
+     ],
+     [
+      "리보솜"
+     ],
+     [
+      "이중막"
+     ],
+     [
+      "분열",
+      "원핵",
+      "세균"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "미토콘드리아와 엽록체는 세균처럼 자체의 원형 DNA와 원핵세포와 비슷한 리보솜을 가집니다. 또 이중막으로 싸여 있고 세포 안에서 스스로 분열해 늘어나므로, 원래 독립 생활을 하던 원핵생물이었다고 봅니다."
+  }
+ ]
+}

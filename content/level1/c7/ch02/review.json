@@ -1,0 +1,196 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch02",
+  "no": 2,
+  "title": "효소"
+ },
+ "review": {
+  "id": "c7-ch02-review",
+  "title": "효소 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "효소의 활성 부위에 입체 구조가 맞는 기질만 결합하는 성질을 기질 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "특이성"
+     ]
+    }
+   ],
+   "hint": "특별히 정해져 있다는 뜻입니다.",
+   "explanation": "자물쇠와 열쇠에 비유합니다.\n유도 적합으로 더 꼭 맞게 됩니다.",
+   "source_lesson": "c7-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "효소는 반응의 {{1}}를 낮추어 반응을 빠르게 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "활성화 에너지"
+     ]
+    }
+   ],
+   "hint": "반응이 넘어야 할 에너지 언덕입니다.",
+   "explanation": "반응열은 바꾸지 않습니다.\n촉매의 공통 성질입니다.",
+   "source_lesson": "c7-ch02-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "기질 농도를 계속 높여도 반응 속도가 일정해지는 것은 효소가 {{1}}되었기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "포화"
+     ]
+    }
+   ],
+   "hint": "빈 효소가 없는 상태입니다.",
+   "explanation": "모든 효소가 기질과 결합했습니다.\n최대 속도에 이릅니다.",
+   "source_lesson": "c7-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "최적 온도보다 훨씬 높은 온도에서 효소가 기능을 잃는 것은 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변성"
+     ]
+    }
+   ],
+   "hint": "단백질 구조가 망가지는 것입니다.",
+   "explanation": "단백질의 입체 구조가 바뀝니다.\n대개 되돌릴 수 없습니다.",
+   "source_lesson": "c7-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "작은창자에서 작용하는 트립신의 최적 pH는 약 얼마일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0.5,
+   "hint": "약한 염기성입니다.",
+   "explanation": "약한 염기성인 pH 약 8입니다.\n펩신은 약 2입니다.",
+   "source_lesson": "c7-ch02-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "기질 농도를 높이면 극복할 수 있는 저해는 {{1}} 저해입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경쟁적"
+     ]
+    }
+   ],
+   "hint": "활성 부위를 두고 다툽니다.",
+   "explanation": "활성 부위를 두고 기질과 경쟁합니다.\n최대 속도는 그대로입니다.",
+   "source_lesson": "c7-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "비경쟁적 저해제가 있으면 효소 반응의 최대 속도가 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "낮아"
+     ]
+    }
+   ],
+   "hint": "회복되지 않습니다.",
+   "explanation": "기질 농도를 높여도 회복되지 않습니다.\n효소 모양이 바뀌었습니다.",
+   "source_lesson": "c7-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "최종 산물이 앞 단계 효소를 저해해 생산을 조절하는 것을 {{1}} 저해라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "되먹임"
+     ]
+    }
+   ],
+   "hint": "결과가 원인으로 되돌아오는 조절입니다.",
+   "explanation": "음성 피드백의 예입니다.\n낭비를 막습니다.",
+   "source_lesson": "c7-ch02-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "주효소와 보조 인자가 결합한 완전한 효소를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전효소"
+     ]
+    }
+   ],
+   "hint": "완전한 효소입니다.",
+   "explanation": "보조 인자에는 금속 이온과 조효소가 있습니다.\n조효소는 주로 비타민에서 유래합니다.",
+   "source_lesson": "c7-ch02-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "위에서 분비되는 비활성 효소원인 펩시노젠은 염산에 의해 {{1}}이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "펩신"
+     ]
+    }
+   ],
+   "hint": "위의 단백질 분해 효소입니다.",
+   "explanation": "세포 자신이 소화되지 않도록 비활성 형태로 만듭니다.\n위 속에서 활성화됩니다.",
+   "source_lesson": "c7-ch02-l04"
+  }
+ ]
+}

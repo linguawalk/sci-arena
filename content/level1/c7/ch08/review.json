@@ -1,0 +1,187 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch08",
+  "no": 8,
+  "title": "진화의 원리"
+ },
+ "review": {
+  "id": "c7-ch08-review",
+  "title": "진화의 원리 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "대립유전자 A의 빈도가 0.8이면 a의 빈도는 얼마일까요?",
+   "answer": "0.2",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "합이 1입니다.",
+   "explanation": "q = 1 − 0.8 = 0.2입니다.\np + q = 1입니다.",
+   "source_lesson": "c7-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "평형 집단에서 aa의 빈도가 0.25이면 Aa의 빈도는 얼마일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "hint": "q부터 구하세요.",
+   "explanation": "q = 0.5, p = 0.5이므로 2pq = 0.5입니다.\nq²에서 시작합니다.",
+   "source_lesson": "c7-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "하디–바인베르크 평형이 유지되면 대립유전자 빈도가 변하지 않아 {{1}}가 일어나지 않습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진화"
+     ]
+    }
+   ],
+   "hint": "빈도 변화가 곧 이것입니다.",
+   "explanation": "큰 집단, 무작위 교배, 돌연변이·이주·자연선택 없음이 조건입니다.\n실제로는 깨집니다.",
+   "source_lesson": "c7-ch08-l01"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "작은 집단에서 우연히 대립유전자 빈도가 변하는 것을 유전적 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "부동"
+     ]
+    }
+   ],
+   "hint": "떠다닌다는 뜻입니다.",
+   "explanation": "병목 효과와 창시자 효과가 있습니다.\n적응과 관계없습니다.",
+   "source_lesson": "c7-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "항생제 내성 세균이 늘어나는 것처럼 한쪽 극단이 유리한 자연선택을 {{1}} 선택이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "방향성"
+     ]
+    }
+   ],
+   "hint": "한 방향으로 이동합니다.",
+   "explanation": "집단 평균이 한쪽으로 이동합니다.\n안정화 선택과 다릅니다.",
+   "source_lesson": "c7-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "소수가 새 지역에 정착해 원래 집단과 다른 대립유전자 빈도를 가지는 것을 {{1}} 효과라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "창시자"
+     ]
+    }
+   ],
+   "hint": "처음 세운 사람들입니다.",
+   "explanation": "유전적 부동의 한 형태입니다.\n섬 집단에서 흔합니다.",
+   "source_lesson": "c7-ch08-l02"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "노새처럼 잡종이 생식 능력이 없는 것은 접합 {{1}} 격리입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "후"
+     ]
+    }
+   ],
+   "hint": "수정 이후입니다.",
+   "explanation": "수정은 되지만 자손을 남기지 못합니다.\n말과 당나귀는 다른 종입니다.",
+   "source_lesson": "c7-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "식물에서 배수성으로 같은 지역에서 새 종이 생기는 것은 {{1}}적 종 분화입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "동소"
+     ]
+    }
+   ],
+   "hint": "같은 장소입니다.",
+   "explanation": "지리적 격리 없이 일어납니다.\n4n과 2n 사이 잡종은 불임입니다.",
+   "source_lesson": "c7-ch08-l03"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "분자 시계에서 차이 5개가 쌓이는 데 1천만 년이 걸린다면, 차이가 20개인 두 종은 약 몇 천만 년 전에 갈라졌을까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "비례식을 세우세요.",
+   "explanation": "20 ÷ 5 × 1천만 = 4천만 년입니다.\n차이가 시간에 비례합니다.",
+   "source_lesson": "c7-ch08-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "rRNA 분석으로 고세균은 세균보다 {{1}}과 더 가깝다는 것이 밝혀졌습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진핵생물",
+      "진핵 생물"
+     ]
+    }
+   ],
+   "hint": "핵막이 있는 생물입니다.",
+   "explanation": "우즈의 3역 분류의 근거입니다.\n고세균도 원핵생물입니다.",
+   "source_lesson": "c7-ch08-l04"
+  }
+ ]
+}

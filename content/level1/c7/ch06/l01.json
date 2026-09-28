@@ -1,0 +1,396 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch06",
+  "no": 6,
+  "title": "유전자 발현과 조절"
+ },
+ "lesson": {
+  "id": "c7-ch06-l01",
+  "no": 1,
+  "title": "전사와 RNA 가공",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "유전 정보를 옮겨 적다",
+   "body": [
+    "DNA는 핵 속에 보관된 원본 설계도입니다. 세포는 원본을 내보내지 않고, 필요한 부분만 RNA로 옮겨 적어 핵 밖으로 내보냅니다.",
+    "생물Ⅰ에서 배운 전사를 더 자세히 알아봅시다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "DNA의 유전 정보를 RNA로 옮기는 과정을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전사"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "RNA 중합 효소가 담당합니다.\n진핵세포에서는 핵에서 일어납니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "전사의 과정",
+   "body": [
+    "RNA 중합 효소가 유전자 앞쪽의 프로모터에 결합하면 DNA 이중 나선이 풀리고, 두 가닥 중 한 가닥(주형 가닥)을 따라 상보적인 RNA를 5'→3' 방향으로 합성합니다.",
+    "RNA에는 T 대신 U가 들어가므로 주형 가닥의 A에는 U가 짝을 이룹니다. DNA 복제와 달리 프라이머가 필요 없습니다.",
+    "RNA 중합 효소가 종결 부위에 이르면 전사가 끝나고 RNA가 떨어져 나옵니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "RNA 중합 효소가 전사를 시작하기 위해 결합하는 DNA 부위를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "프로모터"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "유전자의 앞쪽에 있습니다.\n어느 가닥을 주형으로 쓸지도 정합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "RNA 중합 효소는 전사를 시작할 때 프라이머가 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "필요 없다",
+      "필요하지 않다",
+      "필요 없습니다",
+      "필요하지 않습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "스스로 첫 뉴클레오타이드부터 이어 갈 수 있습니다.\nDNA 중합 효소와 다른 점입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "주형 가닥이 3'-TACG-5'이면 전사된 mRNA는 5'-{{1}}-3'입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "AUGC"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "T–A, A–U, C–G, G–C로 짝을 짓습니다.\nRNA에는 T 대신 U가 들어갑니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "DNA 주형 가닥 3'-TACGGATTC-5'의 전사 산물은?",
+   "steps": [
+    "주형 가닥에 상보적인 염기를 붙입니다: T→A, A→U, C→G, G→C.",
+    "mRNA는 5'-AUGCCUAAG-3'입니다.",
+    "주형 가닥의 반대 가닥(암호 가닥)과 서열이 같고 T만 U로 바뀝니다."
+   ],
+   "answer": "5'-AUGCCUAAG-3'"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "RNA에는 DNA의 타이민(T) 대신 {{1}}이 들어 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "U",
+      "유라실"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "주형 가닥의 A와 U가 짝을 이룹니다.\n당도 리보스로 다릅니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "진핵세포의 RNA 가공",
+   "body": [
+    "진핵세포에서 처음 만들어진 RNA(1차 전사체)는 핵 속에서 가공된 뒤 세포질로 나갑니다.",
+    "5' 끝에는 변형된 뉴클레오타이드인 5' 캡이, 3' 끝에는 A가 여러 개 붙은 폴리 A 꼬리가 붙어 mRNA를 분해로부터 보호하고 번역을 돕습니다.",
+    "유전자에는 단백질을 암호화하지 않는 인트론과 암호화하는 엑손이 섞여 있는데, 스플라이싱으로 인트론을 잘라 내고 엑손끼리 잇습니다. 엑손을 다르게 조합하는 선택적 스플라이싱으로 한 유전자에서 여러 단백질이 만들어지기도 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "RNA 가공에서 잘려 나가는 부분을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인트론"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "단백질을 암호화하지 않습니다.\n원핵생물에는 거의 없습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "스플라이싱 후 남아 서로 연결되는 부분을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "엑손"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "단백질의 아미노산 서열을 암호화합니다.\n성숙한 mRNA를 이룹니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "엑손을 다른 조합으로 이어 한 유전자에서 여러 단백질을 만드는 것을 {{1}} 스플라이싱이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "선택적"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "사람 유전자 수보다 단백질 종류가 훨씬 많은 이유입니다.\n세포마다 다르게 조합합니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "원핵세포와 진핵세포의 전사와 번역 장소는 어떻게 다를까요?",
+   "steps": [
+    "원핵세포는 핵막이 없어 전사와 번역이 모두 세포질에서 일어납니다.",
+    "전사가 끝나기 전에 번역이 시작되기도 합니다(동시 진행).",
+    "진핵세포는 핵에서 전사와 가공을 마친 뒤 세포질로 나가 번역됩니다."
+   ],
+   "answer": "원핵은 세포질에서 동시에, 진핵은 핵과 세포질로 나뉜다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "전사와 가공 정리",
+   "body": [
+    "전사: RNA 중합 효소, 프로모터 결합, 주형 가닥, 5'→3', 프라이머 불필요, T 대신 U.",
+    "진핵 RNA 가공(핵): 5' 캡, 폴리 A 꼬리, 스플라이싱(인트론 제거, 엑손 연결)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "원핵세포에서는 전사와 번역이 {{1}}에 일어날 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "동시",
+      "함께"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "핵막이 없어 전사 중인 mRNA에 리보솜이 바로 붙습니다.\n진핵세포는 따로 일어납니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "1차 전사체가 1000 뉴클레오타이드이고 인트론이 모두 300 뉴클레오타이드라면 성숙한 mRNA의 암호 부분은? (캡과 꼬리 제외)",
+   "steps": [
+    "인트론은 잘려 나갑니다.",
+    "1000 − 300 = 700 뉴클레오타이드입니다."
+   ],
+   "answer": "700 뉴클레오타이드"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1차 전사체가 1000 뉴클레오타이드이고 인트론이 모두 300 뉴클레오타이드입니다. 스플라이싱 후 남는 엑손은 몇 뉴클레오타이드일까요?",
+   "answer": "700",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "인트론을 빼세요.",
+   "explanation": "1000 − 300 = 700입니다.\n엑손만 남습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "폴리 A 꼬리는 mRNA의 {{1}}' 끝에 붙습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "3"
+     ]
+    }
+   ],
+   "hint": "캡과 반대쪽 끝입니다.",
+   "explanation": "5' 끝에는 캡이 붙습니다.\n꼬리는 mRNA의 수명을 늘립니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "5' 캡과 폴리 A 꼬리는 mRNA가 {{1}}되는 것을 막아 줍니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분해"
+     ]
+    }
+   ],
+   "hint": "잘게 부서지는 것입니다.",
+   "explanation": "세포질의 효소로부터 mRNA를 보호합니다.\n번역 시작도 돕습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "진핵세포의 RNA 가공은 {{1}}에서 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "핵"
+     ]
+    }
+   ],
+   "hint": "전사가 일어나는 곳입니다.",
+   "explanation": "가공을 마친 mRNA만 핵공을 통해 나갑니다.\n번역은 세포질에서 일어납니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "주형 가닥의 반대쪽 가닥은 mRNA와 서열이 같아(T만 U로 다름) {{1}} 가닥이라고 부릅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "암호"
+     ]
+    }
+   ],
+   "hint": "암호를 그대로 담은 가닥입니다.",
+   "explanation": "비주형 가닥이라고도 합니다.\n유전자 서열을 적을 때 주로 이 가닥을 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "RNA 중합 효소가 {{1}} 부위에 이르면 전사가 끝납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "종결"
+     ]
+    }
+   ],
+   "hint": "끝을 알리는 부위입니다.",
+   "explanation": "RNA가 떨어져 나오고 효소도 DNA에서 떨어집니다.\n유전자의 끝을 표시합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "진핵세포에서 1차 전사체가 성숙한 mRNA가 되는 가공 과정을 설명해 보세요.",
+   "hint": "세 가지 가공을 모두 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "5' 캡",
+      "캡"
+     ],
+     [
+      "폴리 A",
+      "꼬리"
+     ],
+     [
+      "인트론"
+     ],
+     [
+      "엑손"
+     ],
+     [
+      "스플라이싱"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "진핵세포의 1차 전사체는 핵 속에서 5' 끝에 5' 캡이, 3' 끝에 폴리 A 꼬리가 붙어 분해로부터 보호됩니다. 또 스플라이싱으로 단백질을 암호화하지 않는 인트론이 잘려 나가고 엑손끼리 연결되어 성숙한 mRNA가 된 뒤 세포질로 나갑니다."
+  }
+ ]
+}

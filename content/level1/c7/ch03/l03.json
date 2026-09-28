@@ -1,0 +1,348 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch03",
+  "no": 3,
+  "title": "세포 호흡"
+ },
+ "lesson": {
+  "id": "c7-ch03-l03",
+  "no": 3,
+  "title": "피루브산 산화와 TCA 회로",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "탄소가 빠져나가는 회로",
+   "body": [
+    "우리가 내쉬는 숨 속의 이산화 탄소는 대부분 미토콘드리아 속 회로 반응에서 나옵니다.",
+    "피루브산의 탄소는 이 회로를 돌며 모두 CO₂가 됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "미토콘드리아 기질에서 아세틸 CoA가 산화되어 CO₂를 내놓는 회로 반응을 {{1}} 회로라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "TCA"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "시트르산 회로, 크레브스 회로라고도 합니다.\n크레브스가 밝혔습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "피루브산 산화와 TCA 회로",
+   "body": [
+    "산소가 있으면 피루브산은 미토콘드리아 기질로 들어가 탄소 1개가 CO₂로 떨어지고 NADH가 생기며, 탄소 2개인 아세틸기가 조효소 A와 결합해 아세틸 CoA가 됩니다(피루브산 1분자당 CO₂ 1, NADH 1).",
+    "TCA 회로에서 아세틸 CoA(C₂)는 옥살아세트산(C₄)과 결합해 시트르산(C₆)이 되고, 여러 단계를 거치며 CO₂ 2분자를 내놓고 다시 옥살아세트산이 됩니다.",
+    "TCA 회로 1회전마다 CO₂ 2분자, NADH 3분자, FADH₂ 1분자, ATP 1분자가 만들어집니다. 포도당 1분자에서 피루브산 2분자가 생기므로 회로는 2번 돕니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "TCA 회로에서 아세틸 CoA와 옥살아세트산이 결합해 생기는 시트르산의 탄소 수는 몇 개일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "C₂ + C₄ = C₆입니다.\n시트르산 회로라는 이름의 유래입니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "피루브산 1분자가 아세틸 CoA로 산화될 때 CO₂는 몇 분자 생길까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "피루브산(C₃)에서 탄소 1개가 CO₂로 떨어져 아세틸기(C₂)가 됩니다.\nNADH도 1분자 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "TCA 회로가 1회전할 때 생기는 NADH는 몇 분자일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1회전마다 NADH 3, FADH₂ 1, ATP 1, CO₂ 2가 생깁니다.\n가장 많이 생기는 것은 NADH입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "포도당 1분자에서 TCA 회로가 만드는 산물은?",
+   "steps": [
+    "포도당 1분자 → 피루브산 2분자 → 아세틸 CoA 2분자이므로 회로가 2번 돕니다.",
+    "CO₂ 2 × 2 = 4, NADH 3 × 2 = 6, FADH₂ 1 × 2 = 2, ATP 1 × 2 = 2입니다."
+   ],
+   "answer": "CO₂ 4, NADH 6, FADH₂ 2, ATP 2"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "포도당 1분자에서 유래한 아세틸 CoA가 TCA 회로를 거치면 CO₂는 모두 몇 분자 생길까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "회로가 2번 돌고 1회전마다 CO₂ 2분자이므로 4분자입니다.\n피루브산 산화의 2분자를 더하면 6분자입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "탄소의 행방",
+   "body": [
+    "포도당의 탄소 6개는 해당 과정에서 피루브산 2분자에 나뉘어 들어가고, 피루브산 산화에서 2개, TCA 회로에서 4개가 CO₂로 빠져나갑니다. 모두 6개입니다.",
+    "옥살아세트산은 회로가 끝날 때마다 다시 만들어져 계속 쓰입니다.",
+    "TCA 회로는 산소를 직접 쓰지 않지만, 산소가 없으면 NADH가 NAD⁺로 되돌아가지 못해 곧 멈춥니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "TCA 회로에서 옥살아세트산은 회로가 끝날 때마다 다시 {{1}}되어 계속 쓰입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "재생"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "회로라는 이름이 붙은 이유입니다.\n아세틸 CoA만 계속 공급하면 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "포도당 1분자에서 TCA 회로를 통해 생기는 FADH₂는 몇 분자일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "1회전마다 1분자, 2번 돌아 2분자입니다.\n전자 전달계로 전자를 운반합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "옥살아세트산의 탄소 수는 몇 개일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "옥살아세트산(C₄)이 아세틸기(C₂)를 받아 시트르산(C₆)이 됩니다.\n회로 끝에 다시 C₄가 됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "TCA 회로는 산소를 직접 쓰지 않는데 왜 산소가 없으면 멈출까요?",
+   "steps": [
+    "TCA 회로에는 NAD⁺와 FAD가 계속 필요합니다.",
+    "NADH와 FADH₂는 전자 전달계에서 전자를 산소에 넘겨야 NAD⁺, FAD로 돌아옵니다.",
+    "산소가 없으면 NAD⁺가 바닥나 회로가 멈춥니다."
+   ],
+   "answer": "NAD⁺가 재생되지 않기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "피루브산 산화와 TCA 회로 정리",
+   "body": [
+    "피루브산(×2) → 아세틸 CoA: CO₂ 2, NADH 2. TCA 회로(×2): CO₂ 4, NADH 6, FADH₂ 2, ATP 2.",
+    "포도당의 탄소 6개가 모두 CO₂가 되고, 에너지는 주로 NADH와 FADH₂에 담깁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "TCA 회로는 산소를 직접 쓰지 않지만 산소가 없으면 {{1}}가 재생되지 않아 멈춥니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "NAD⁺",
+      "NAD+"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "전자 전달계가 멈추면 NADH가 쌓입니다.\n그래서 산소가 필요한 과정입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "포도당 1분자가 해당 과정부터 TCA 회로까지 거쳤을 때 생긴 NADH의 총수는?",
+   "steps": [
+    "해당 과정 2 + 피루브산 산화 2 + TCA 회로 6입니다.",
+    "모두 10분자입니다."
+   ],
+   "answer": "10분자"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "포도당 1분자가 해당 과정, 피루브산 산화, TCA 회로를 거치면 NADH는 모두 몇 분자 생길까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "세 단계를 더하세요.",
+   "explanation": "2 + 2 + 6 = 10분자입니다.\n대부분의 에너지가 NADH에 저장됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "포도당 1분자에서 해당 과정과 TCA 회로의 기질 수준 인산화로 만드는 ATP는 모두 몇 분자일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "두 단계의 ATP를 더하세요.",
+   "explanation": "해당 과정 순 2 + TCA 회로 2 = 4분자입니다.\n나머지 대부분은 산화적 인산화에서 만듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "아세틸 CoA의 아세틸기에는 탄소가 몇 개 있을까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "피루브산에서 탄소 하나가 빠졌습니다.",
+   "explanation": "피루브산(C₃)에서 CO₂ 하나가 빠진 C₂입니다.\n조효소 A가 운반합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "지방산도 분해되어 {{1}}가 된 뒤 TCA 회로로 들어갑니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "아세틸 CoA",
+      "아세틸CoA",
+      "아세틸 조효소 A"
+     ]
+    }
+   ],
+   "hint": "TCA 회로의 입구 물질입니다.",
+   "explanation": "그래서 지방도 에너지원으로 쓰입니다.\n탄수화물과 같은 회로를 이용합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "피루브산 2분자가 산화되면 아세틸 CoA는 몇 분자 생길까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "1 : 1로 바뀝니다.",
+   "explanation": "피루브산 1분자당 아세틸 CoA 1분자입니다.\n2분자가 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "TCA 회로의 반응에서 산소는 직접 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "쓰이지 않는다",
+      "쓰이지 않습니다",
+      "사용되지 않는다"
+     ]
+    }
+   ],
+   "hint": "산소가 직접 쓰이는 곳은 전자 전달계입니다.",
+   "explanation": "산소는 전자 전달계의 마지막 단계에서만 직접 쓰입니다.\n그래도 산소가 있어야 회로가 계속됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "포도당의 탄소 6개가 세포 호흡 과정에서 어떻게 CO₂로 빠져나가는지 설명해 보세요.",
+   "hint": "단계별 CO₂ 수를 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "피루브산"
+     ],
+     [
+      "아세틸 CoA",
+      "2"
+     ],
+     [
+      "TCA",
+      "4"
+     ],
+     [
+      "CO₂",
+      "이산화 탄소"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "포도당의 탄소 6개는 해당 과정에서 피루브산 2분자에 3개씩 나뉩니다. 피루브산이 아세틸 CoA가 될 때 탄소 2개가 CO₂로 빠져나가고, 남은 탄소 4개는 TCA 회로를 두 번 돌며 CO₂ 4분자로 빠져나가 모두 6분자의 CO₂가 됩니다."
+  }
+ ]
+}

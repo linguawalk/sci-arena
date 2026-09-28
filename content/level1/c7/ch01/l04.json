@@ -1,0 +1,390 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch01",
+  "no": 1,
+  "title": "세포의 구조와 막 수송"
+ },
+ "lesson": {
+  "id": "c7-ch01-l04",
+  "no": 4,
+  "title": "막 수송",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "드나드는 물질들",
+   "body": [
+    "세포는 끊임없이 양분과 산소를 받아들이고 노폐물을 내보냅니다. 어떤 물질은 저절로 들어오고, 어떤 물질은 에너지를 써서 억지로 끌어들입니다.",
+    "막을 통한 물질 이동 방법을 알아봅시다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "에너지를 쓰지 않고 농도가 높은 쪽에서 낮은 쪽으로 물질이 이동하는 것을 {{1}} 수송이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수동"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "확산, 촉진 확산, 삼투가 수동 수송입니다.\n농도 기울기를 따라 이동합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "수동 수송과 능동 수송",
+   "body": [
+    "단순 확산은 물질이 인지질 2중층을 직접 통과하는 것(O₂, CO₂)이고, 촉진 확산은 통로 단백질이나 운반체 단백질을 통해 농도 기울기를 따라 이동하는 것(포도당, 이온)입니다. 촉진 확산은 운반체 수가 한정되어 농도가 높아지면 속도가 더 늘지 않는 포화 현상이 나타납니다.",
+    "능동 수송은 ATP 에너지를 써서 농도가 낮은 쪽에서 높은 쪽으로 물질을 옮기는 것입니다.",
+    "대표적인 능동 수송인 Na⁺–K⁺ 펌프는 ATP 1분자를 써서 Na⁺ 3개를 세포 밖으로, K⁺ 2개를 세포 안으로 옮깁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "ATP를 써서 농도 기울기를 거슬러 물질을 옮기는 것을 {{1}} 수송이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "능동"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "농도가 낮은 쪽에서 높은 쪽으로 옮깁니다.\n운반체 단백질(펌프)이 필요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "Na⁺–K⁺ 펌프가 ATP 1분자를 쓸 때 세포 밖으로 내보내는 Na⁺는 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "Na⁺ 3개를 밖으로, K⁺ 2개를 안으로 옮깁니다.\n그래서 세포 안이 상대적으로 음전하를 띱니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "Na⁺–K⁺ 펌프가 ATP 1분자를 쓸 때 세포 안으로 들여오는 K⁺는 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "K⁺ 2개를 안으로 들여옵니다.\n신경 세포의 휴지 전위 유지에 중요합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "단순 확산과 촉진 확산의 공통점과 차이점은?",
+   "steps": [
+    "공통점: 에너지를 쓰지 않고 농도 기울기를 따라 이동합니다.",
+    "차이점: 단순 확산은 인지질을 직접 통과하고, 촉진 확산은 막 단백질을 이용합니다.",
+    "촉진 확산은 운반체가 모두 쓰이면 속도가 더 빨라지지 않습니다(포화)."
+   ],
+   "answer": "둘 다 수동 수송이지만 단백질 이용 여부가 다르다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "물질의 농도를 높여도 이동 속도가 일정 이상 빨라지지 않는 포화 현상은 {{1}} 확산의 특징입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "촉진"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "운반체 단백질의 수가 한정되어 있기 때문입니다.\n단순 확산은 농도에 비례해 빨라집니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "세포내 섭취와 세포외 배출",
+   "body": [
+    "단백질처럼 큰 물질은 막을 감싸 소낭을 만들어 이동합니다. 세포 밖 물질을 세포막으로 감싸 들이는 것을 세포내 섭취라고 하며, 백혈구가 세균을 삼키는 식세포 작용, 액체를 들이는 음세포 작용, 특정 물질이 수용체에 붙어 들어오는 수용체 매개 세포내 섭취(LDL 콜레스테롤)가 있습니다.",
+    "세포 안의 소낭이 세포막과 융합해 내용물을 내보내는 것은 세포외 배출입니다(소화 효소, 신경 전달 물질의 분비). 두 과정 모두 에너지가 필요합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "백혈구가 세균을 세포막으로 감싸 삼키는 것을 {{1}} 작용이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "식세포"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세포내 섭취의 한 종류입니다.\n삼킨 세균은 리소좀이 분해합니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "신경 세포가 신경 전달 물질을 시냅스로 내보내는 방식은 세포외 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "배출"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "소낭이 세포막과 융합해 내용물을 내보냅니다.\n에너지가 필요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "식물 세포를 고장액에 넣으면 물이 빠져나가 세포막이 세포벽에서 떨어지는 원형질 {{1}}가 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "삼투로 물이 빠져나가 액포가 줄어듭니다.\n저장액에 넣으면 되돌아옵니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "포도당 농도에 따른 흡수 속도가 처음에는 증가하다 어느 농도 이상에서 일정해진다면?",
+   "steps": [
+    "농도가 높아져도 속도가 더 늘지 않는 것은 포화 현상입니다.",
+    "운반체 단백질이 모두 쓰이고 있기 때문입니다.",
+    "따라서 포도당은 촉진 확산(또는 운반체를 쓰는 수송)으로 이동합니다."
+   ],
+   "answer": "운반체를 이용한 촉진 확산"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "막 수송 정리",
+   "body": [
+    "수동 수송(에너지 ×, 고 → 저): 단순 확산, 촉진 확산, 삼투. 능동 수송(ATP, 저 → 고): Na⁺–K⁺ 펌프.",
+    "큰 물질: 세포내 섭취(식세포·음세포·수용체 매개), 세포외 배출."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "농도 기울기를 거슬러 물질을 옮기려면 {{1}} 수송이 필요합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "능동"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "ATP 에너지를 씁니다.\n수동 수송은 기울기를 따라서만 이동합니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "세포에 산소 공급을 끊으면 어떤 수송이 멈출까요?",
+   "steps": [
+    "산소가 없으면 세포 호흡이 줄어 ATP가 부족해집니다.",
+    "ATP를 쓰는 능동 수송이 멈춥니다.",
+    "확산 같은 수동 수송은 계속 일어납니다."
+   ],
+   "answer": "능동 수송"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "세포 호흡을 억제해 ATP 생성을 막으면 {{1}} 수송이 먼저 멈춥니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "능동"
+     ]
+    }
+   ],
+   "hint": "에너지가 필요한 수송입니다.",
+   "explanation": "능동 수송만 ATP를 직접 씁니다.\n확산은 계속됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "식물의 뿌리털이 흙보다 농도가 높은 세포 안으로 무기 염류를 흡수하는 것은 {{1}} 수송입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "능동"
+     ]
+    }
+   ],
+   "hint": "농도가 낮은 흙에서 높은 세포로 옮깁니다.",
+   "explanation": "농도 기울기를 거슬러 흡수합니다.\n그래서 뿌리의 호흡이 중요합니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "적혈구가 운반체 단백질로 혈장의 포도당을 흡수하는 것은 {{1}} 확산입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "촉진"
+     ]
+    }
+   ],
+   "hint": "단백질의 도움을 받는 확산입니다.",
+   "explanation": "농도 기울기를 따라 단백질을 통해 이동합니다.\n에너지를 쓰지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "반투막을 사이에 두고 물이 이동하는 현상을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "삼투"
+     ]
+    }
+   ],
+   "hint": "화학Ⅱ에서도 배운 현상입니다.",
+   "explanation": "물은 용질 농도가 높은 쪽으로 이동합니다.\n수동 수송입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "신경 세포의 휴지 전위를 유지하는 데 중요한 능동 수송 단백질은 {{1}} 펌프입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Na⁺–K⁺",
+      "Na+-K+",
+      "나트륨–칼륨",
+      "나트륨-칼륨",
+      "Na-K"
+     ]
+    }
+   ],
+   "hint": "두 이온의 이름이 붙은 펌프입니다.",
+   "explanation": "Na⁺는 밖에, K⁺는 안에 많게 유지합니다.\n생물Ⅰ의 막전위와 연결됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "혈액의 LDL 콜레스테롤은 세포 표면의 수용체에 결합해 {{1}} 매개 세포내 섭취로 들어옵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수용체"
+     ]
+    }
+   ],
+   "hint": "결합하는 막 단백질의 이름입니다.",
+   "explanation": "특정 물질만 골라 들이는 방식입니다.\n수용체에 이상이 있으면 콜레스테롤 수치가 높아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "수동 수송과 능동 수송을 에너지 사용과 이동 방향으로 비교하고, 예를 들어 보세요.",
+   "hint": "두 가지를 기준에 따라 비교하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "수동"
+     ],
+     [
+      "능동"
+     ],
+     [
+      "ATP",
+      "에너지"
+     ],
+     [
+      "농도"
+     ],
+     [
+      "확산",
+      "펌프"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "수동 수송은 에너지를 쓰지 않고 농도가 높은 쪽에서 낮은 쪽으로 물질이 이동하는 것으로, 산소의 단순 확산과 포도당의 촉진 확산이 예입니다. 능동 수송은 ATP 에너지를 써서 농도가 낮은 쪽에서 높은 쪽으로 물질을 옮기는 것으로, Na⁺–K⁺ 펌프가 대표적입니다."
+  }
+ ]
+}

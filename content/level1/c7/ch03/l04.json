@@ -1,0 +1,385 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch03",
+  "no": 3,
+  "title": "세포 호흡"
+ },
+ "lesson": {
+  "id": "c7-ch03-l04",
+  "no": 4,
+  "title": "산화적 인산화와 발효",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "막을 이용한 ATP 공장",
+   "body": [
+    "미토콘드리아 내막에는 댐처럼 H⁺를 한쪽에 쌓아 두고, 그 H⁺가 되돌아 흐르는 힘으로 ATP를 만드는 장치가 있습니다.",
+    "세포 호흡 ATP의 대부분이 이렇게 만들어집니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "전자 전달계에서 전자가 이동하며 만든 에너지로 ATP를 합성하는 과정을 {{1}} 인산화라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산화적"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "미토콘드리아 내막에서 일어납니다.\n산소가 반드시 필요합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "전자 전달계와 화학 삼투",
+   "body": [
+    "NADH와 FADH₂가 가져온 전자는 내막의 전자 전달계를 따라 이동하며 에너지를 내놓고, 이 에너지로 H⁺가 기질에서 막 사이 공간으로 퍼내집니다.",
+    "막 사이 공간의 H⁺ 농도가 높아지면 H⁺는 농도 기울기를 따라 ATP 합성 효소를 통과해 기질로 되돌아오고, 이때 ATP가 만들어집니다. 이를 화학 삼투라고 합니다.",
+    "전자 전달계 끝에서 전자는 산소에 전달되어 H⁺와 함께 물이 됩니다. 산화적 인산화로 약 28분자의 ATP가 만들어져, 세포 호흡 전체로는 포도당 1분자당 약 32분자의 ATP를 얻습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "ATP 합성 효소를 통과하며 ATP를 만드는 데 쓰이는 이온은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "H⁺",
+      "H+",
+      "수소 이온"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "농도 기울기를 따라 흐르는 H⁺가 효소를 돌립니다.\n물레방아와 비슷합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "전자 전달이 일어나면 미토콘드리아 막 사이 공간의 H⁺ 농도는 기질보다 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높아"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "H⁺가 기질에서 막 사이 공간으로 퍼내집니다.\n이 기울기가 ATP 합성의 원동력입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "산소가 충분할 때 포도당 1분자로 얻는 ATP는 약 몇 분자일까요?",
+   "answer": "32",
+   "answer_format": "integer",
+   "tolerance": 2,
+   "hint": null,
+   "explanation": "해당 과정 2 + TCA 회로 2 + 산화적 인산화 약 28 = 약 32분자입니다.\n교과서에 따라 30~32로 나타냅니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "화학 삼투를 댐과 수력 발전에 비유하면?",
+   "steps": [
+    "전자 전달계는 전자의 에너지로 H⁺를 막 사이 공간으로 퍼 올리는 펌프입니다(물을 댐에 모음).",
+    "막 사이 공간에 H⁺가 모여 높은 농도(수위)가 됩니다.",
+    "H⁺가 ATP 합성 효소를 통해 흘러내리며 ATP를 만듭니다(물이 터빈을 돌려 전기 생산)."
+   ],
+   "answer": "H⁺ 기울기로 ATP를 만든다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "사이안화물은 전자 전달계를 막아 산소가 전자를 받지 못하게 하므로 {{1}} 생성이 멈춥니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "ATP"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "산화적 인산화가 멈춥니다.\n그래서 매우 강한 독입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "발효",
+   "body": [
+    "산소가 없으면 전자 전달계가 멈춰 NADH가 NAD⁺로 돌아가지 못합니다. 이때 세포는 피루브산에 NADH의 전자를 넘겨 NAD⁺를 되살리고 해당 과정을 계속합니다. 이것이 발효입니다.",
+    "젖산 발효는 피루브산이 젖산이 되는 것으로, 산소가 부족할 때 근육 세포와 유산균에서 일어납니다. 알코올 발효는 피루브산이 CO₂를 내놓고 에탄올이 되는 것으로, 효모에서 일어납니다.",
+    "발효는 해당 과정의 순 2 ATP만 얻습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "효모가 산소 없이 포도당을 분해해 에탄올과 CO₂를 만드는 것을 {{1}} 발효라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "알코올"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "술과 빵을 만드는 데 이용합니다.\n빵은 CO₂로 부풀어 오릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "격렬한 운동으로 산소가 부족하면 근육 세포에서 {{1}} 발효가 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "젖산"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "피루브산이 젖산으로 바뀝니다.\nNAD⁺를 재생해 ATP를 조금이라도 얻습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "발효로 포도당 1분자에서 얻는 ATP는 몇 분자일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "해당 과정의 순 2 ATP만 얻습니다.\n산소 호흡보다 훨씬 적습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "발효에서 피루브산을 젖산이나 에탄올로 바꾸는 이유는?",
+   "steps": [
+    "해당 과정이 계속되려면 NAD⁺가 있어야 합니다.",
+    "산소가 없으면 NADH가 쌓이고 NAD⁺가 바닥납니다.",
+    "NADH의 전자를 피루브산에 넘겨 NAD⁺를 되살리면 해당 과정을 계속해 ATP를 얻을 수 있습니다."
+   ],
+   "answer": "NAD⁺를 재생하기 위해"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "산화적 인산화와 발효 정리",
+   "body": [
+    "산화적 인산화: 전자 전달 → H⁺ 기울기 → ATP 합성 효소(화학 삼투), 최종 전자 수용체 O₂ → H₂O, 약 28 ATP.",
+    "발효(산소 없음): 젖산 발효, 알코올 발효, NAD⁺ 재생, 순 2 ATP."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "발효의 핵심 목적은 {{1}}를 재생해 해당 과정을 계속하는 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "NAD⁺",
+      "NAD+"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "NADH의 전자를 피루브산에 넘깁니다.\n그래야 해당 과정이 멈추지 않습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "산소 호흡은 발효보다 ATP를 몇 배 많이 얻을까요?",
+   "steps": [
+    "산소 호흡: 포도당 1분자당 약 32 ATP입니다.",
+    "발효: 2 ATP입니다.",
+    "32 ÷ 2 = 약 16배입니다."
+   ],
+   "answer": "약 16배"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "포도당 1분자당 산소 호흡(32 ATP)은 발효(2 ATP)보다 몇 배 많은 ATP를 얻을까요?",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "두 값을 나누세요.",
+   "explanation": "32 ÷ 2 = 16배입니다.\n그래서 산소가 있으면 훨씬 효율적입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "빵 반죽이 부풀어 오르는 것은 효모의 알코올 발효로 생긴 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CO₂",
+      "CO2",
+      "이산화 탄소"
+     ]
+    }
+   ],
+   "hint": "기체 생성물입니다.",
+   "explanation": "기체가 반죽 속에 갇혀 부풀립니다.\n에탄올은 굽는 동안 날아갑니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "산소가 없으면 전자 전달계가 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "멈춘다",
+      "멈춥니다",
+      "작동하지 않는다"
+     ]
+    }
+   ],
+   "hint": "최종 전자 수용체가 없습니다.",
+   "explanation": "전자를 받을 최종 수용체가 없습니다.\n그래서 산화적 인산화도 멈춥니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "요구르트와 김치는 유산균의 {{1}} 발효로 만들어집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "젖산"
+     ]
+    }
+   ],
+   "hint": "유산균의 발효입니다.",
+   "explanation": "젖산 때문에 새콤한 맛이 납니다.\n산성 환경이 다른 세균을 막습니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "막을 사이에 둔 H⁺의 농도 기울기로 ATP를 만드는 원리를 화학 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "삼투"
+     ]
+    }
+   ],
+   "hint": "삼투와 비슷한 이동입니다.",
+   "explanation": "미첼이 제안해 노벨상을 받았습니다.\n엽록체에서도 같은 원리로 ATP를 만듭니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "효모의 알코올 발효로 포도당 1분자에서 에탄올은 몇 분자 생길까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "피루브산 수와 같습니다.",
+   "explanation": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂입니다.\n피루브산 2분자가 각각 에탄올이 됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "산화적 인산화에서 ATP가 만들어지는 과정을 전자 전달, H⁺ 농도 기울기, ATP 합성 효소로 설명해 보세요.",
+   "hint": "순서대로 과정을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "전자 전달"
+     ],
+     [
+      "H⁺",
+      "수소 이온"
+     ],
+     [
+      "막 사이 공간",
+      "농도 기울기"
+     ],
+     [
+      "ATP 합성 효소"
+     ],
+     [
+      "산소",
+      "물"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "NADH와 FADH₂의 전자가 내막의 전자 전달계를 따라 이동하며 방출한 에너지로 H⁺를 막 사이 공간으로 퍼내 농도 기울기를 만듭니다. H⁺가 농도 기울기를 따라 ATP 합성 효소를 통해 기질로 돌아올 때 ATP가 만들어지며, 전자는 마지막에 산소에 전달되어 물이 됩니다."
+  }
+ ]
+}

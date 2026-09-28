@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "course": "c7",
+  "chapter": {
+    "id": "c7-ch07",
+    "no": 7,
+    "title": "생명 공학 기술"
+  },
+  "lessons": [
+    {
+      "no": 1,
+      "id": "c7-ch07-l01",
+      "title": "유전자 재조합",
+      "file": "l01.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 2,
+      "id": "c7-ch07-l02",
+      "title": "PCR과 전기 영동",
+      "file": "l02.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 3,
+      "id": "c7-ch07-l03",
+      "title": "유전자 편집과 생명 공학의 이용",
+      "file": "l03.json",
+      "questions": 16,
+      "screens": 23
+    },
+    {
+      "no": 4,
+      "id": "c7-ch07-l04",
+      "title": "생명 윤리",
+      "file": "l04.json",
+      "questions": 16,
+      "screens": 23
+    }
+  ],
+  "review": {
+    "id": "c7-ch07-review",
+    "file": "review.json",
+    "questions": 10
+  }
+}

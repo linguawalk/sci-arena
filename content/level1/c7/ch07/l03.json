@@ -1,0 +1,393 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch07",
+  "no": 7,
+  "title": "생명 공학 기술"
+ },
+ "lesson": {
+  "id": "c7-ch07-l03",
+  "no": 3,
+  "title": "유전자 편집과 생명 공학의 이용",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "유전자를 고쳐 쓰다",
+   "body": [
+    "2020년 노벨 화학상은 원하는 유전자를 정확하게 찾아 자르는 크리스퍼 유전자 가위를 개발한 두 과학자에게 돌아갔습니다.",
+    "생명 공학은 이제 유전자를 더하는 것을 넘어 고쳐 쓰는 단계로 나아가고 있습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "원하는 DNA 부위를 정확히 찾아 잘라 유전자를 고치는 도구를 유전자 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가위"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "대표적인 것이 크리스퍼(CRISPR-Cas9)입니다.\n유전자를 없애거나 바꿀 수 있습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "크리스퍼 유전자 가위",
+   "body": [
+    "크리스퍼 유전자 가위는 표적 DNA와 상보적인 서열을 가진 가이드 RNA와, DNA를 자르는 효소인 Cas9 단백질로 이루어집니다.",
+    "가이드 RNA가 표적 서열을 찾아 결합하면 Cas9가 그 자리의 DNA 두 가닥을 자릅니다. 세포가 잘린 DNA를 복구하는 과정에서 유전자가 망가지거나, 함께 넣어 준 정상 서열로 바뀝니다.",
+    "원래 세균이 침입한 바이러스 DNA를 기억하고 잘라 내던 면역 체계에서 유래했습니다. 가이드 RNA만 바꾸면 다른 유전자를 표적으로 할 수 있어 이전 기술보다 쉽고 저렴합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "크리스퍼 유전자 가위에서 표적 DNA 서열을 찾아가는 것은 {{1}} RNA입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가이드"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "표적과 상보적인 서열을 가집니다.\n바꾸면 다른 유전자를 표적으로 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "크리스퍼 유전자 가위에서 DNA를 자르는 효소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Cas9"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "가이드 RNA가 안내한 곳을 자릅니다.\n두 가닥을 모두 자릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "크리스퍼 시스템은 원래 {{1}}의 바이러스 방어 체계에서 유래했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "세균"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "감염된 바이러스 DNA 일부를 기억해 둡니다.\n다시 감염되면 잘라 냅니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "크리스퍼로 특정 유전자의 기능을 없애는 과정은?",
+   "steps": [
+    "표적 유전자와 상보적인 가이드 RNA를 만들어 Cas9와 함께 세포에 넣습니다.",
+    "가이드 RNA가 표적을 찾고 Cas9가 DNA를 자릅니다.",
+    "세포가 잘린 곳을 복구하며 염기가 조금 빠지거나 더해져 유전자가 제 기능을 잃습니다."
+   ],
+   "answer": "표적 절단 후 복구 과정에서 유전자가 망가진다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "크리스퍼로 다른 유전자를 편집하려면 {{1}} RNA의 서열만 바꾸면 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가이드"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "Cas9는 그대로 씁니다.\n그래서 빠르고 저렴합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "생명 공학의 이용",
+   "body": [
+    "의료: 유전자 재조합으로 인슐린, 성장 호르몬, 백신 같은 바이오 의약품을 만들고, 결함 유전자를 고치는 유전자 치료, 손상된 조직을 되살리는 줄기세포 치료, 한 가지 항원에만 결합하는 단일 클론 항체를 이용한 진단과 치료가 있습니다.",
+    "농업: 해충 저항성 유전자(Bt)를 넣은 옥수수, 비타민 A의 원료(베타카로틴)를 만드는 황금쌀 같은 형질 전환 작물이 있습니다.",
+    "사람의 유전체(약 30억 염기쌍)를 해독한 인간 유전체 사업 이후 유전체 분석이 질병 예측과 맞춤 의학에 쓰입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "베타카로틴을 만들도록 유전자를 넣어 비타민 A 결핍을 줄이려고 개발한 쌀을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "황금쌀"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "베타카로틴 때문에 노란빛을 띱니다.\n형질 전환 작물의 예입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "해충을 죽이는 단백질 유전자를 넣은 옥수수는 {{1}} 옥수수라고 부릅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Bt"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "토양 세균(Bacillus thuringiensis)의 유전자입니다.\n살충제 사용을 줄입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "결함이 있는 유전자를 정상 유전자로 고치거나 보충해 병을 치료하는 것을 유전자 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "치료"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "겸상 적혈구 빈혈증 등에 쓰이기 시작했습니다.\n유전자 가위가 활용됩니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "유전자 가위로 겸상 적혈구 빈혈증을 치료하는 방법은?",
+   "steps": [
+    "환자의 조혈 줄기세포를 몸 밖으로 꺼냅니다.",
+    "유전자 가위로 헤모글로빈 관련 유전자를 편집해 정상 헤모글로빈이 만들어지게 합니다.",
+    "편집한 줄기세포를 다시 넣으면 정상 적혈구가 만들어집니다."
+   ],
+   "answer": "줄기세포를 편집해 되돌려 넣는다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "유전자 편집과 이용 정리",
+   "body": [
+    "크리스퍼: 가이드 RNA(표적 찾기) + Cas9(자르기), 세균 면역에서 유래.",
+    "이용: 바이오 의약품, 유전자 치료, 줄기세포, 단일 클론 항체, 형질 전환 작물(Bt, 황금쌀), 유전체 분석."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "사람의 모든 유전 정보를 해독한 연구를 인간 {{1}} 사업이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유전체"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "2003년에 완료되었습니다.\n약 30억 염기쌍을 읽었습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "단일 클론 항체가 암 치료에 쓰이는 이유는?",
+   "steps": [
+    "단일 클론 항체는 한 가지 항원에만 정확히 결합합니다.",
+    "암세포에만 있는 항원을 표적으로 하면 암세포에만 결합합니다.",
+    "정상 세포의 피해를 줄이며 암세포를 공격하거나 약물을 전달할 수 있습니다."
+   ],
+   "answer": "특정 항원에만 결합하기 때문"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "단일 클론 항체는 {{1}} 가지 항원에만 결합합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "한"
+     ]
+    }
+   ],
+   "hint": "단일이라는 이름을 보세요.",
+   "explanation": "하나의 B 림프구 계통에서 만들어졌기 때문입니다.\n진단 키트와 표적 치료에 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "다 자란 동물의 체세포 핵을 이용해 유전적으로 같은 개체를 만드는 것을 체세포 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "복제"
+     ]
+    }
+   ],
+   "hint": "같은 개체를 만드는 것입니다.",
+   "explanation": "복제 양 돌리가 첫 사례입니다.\n멸종 위기 동물 보존에도 연구됩니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "줄기세포 치료는 손상된 조직이나 기관을 {{1}}하는 데 쓰입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "재생"
+     ]
+    }
+   ],
+   "hint": "다시 만들어 낸다는 뜻입니다.",
+   "explanation": "줄기세포가 필요한 세포로 분화합니다.\n재생 의학이라고 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "유전자 가위가 표적이 아닌 비슷한 서열을 잘못 자르는 것을 표적 {{1}}라고 하며, 부작용이 될 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이탈"
+     ]
+    }
+   ],
+   "hint": "표적에서 벗어난다는 뜻입니다.",
+   "explanation": "정확도를 높이는 연구가 계속되고 있습니다.\n안전성의 핵심 문제입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "사람 유전체는 약 몇 억 개의 염기쌍으로 이루어져 있을까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 3,
+   "hint": "10억 단위로 생각하세요.",
+   "explanation": "약 30억 염기쌍입니다.\n유전자는 약 2만 개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "유전자 재조합 미생물로 만드는 대표적인 바이오 의약품에는 인슐린과 {{1}} 호르몬이 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "성장"
+     ]
+    }
+   ],
+   "hint": "키가 자라는 데 관여하는 호르몬입니다.",
+   "explanation": "왜소증 치료에 쓰입니다.\n예전에는 사람 뇌하수체에서 얻었습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "크리스퍼 유전자 가위가 특정 유전자를 편집하는 원리를 설명해 보세요.",
+   "hint": "찾기 → 자르기 → 복구 순서입니다.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "가이드 RNA"
+     ],
+     [
+      "Cas9"
+     ],
+     [
+      "표적",
+      "상보"
+     ],
+     [
+      "자르",
+      "절단"
+     ],
+     [
+      "복구",
+      "편집"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "크리스퍼 유전자 가위는 표적 DNA와 상보적인 가이드 RNA가 표적 서열을 찾아 결합하면, 함께 있는 Cas9 효소가 그 자리의 DNA를 자릅니다. 세포가 잘린 DNA를 복구하는 과정에서 유전자가 망가지거나 넣어 준 정상 서열로 바뀌어 유전자가 편집됩니다."
+  }
+ ]
+}

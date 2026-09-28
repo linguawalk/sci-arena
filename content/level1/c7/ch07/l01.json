@@ -1,0 +1,410 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch07",
+  "no": 7,
+  "title": "생명 공학 기술"
+ },
+ "lesson": {
+  "id": "c7-ch07-l01",
+  "no": 1,
+  "title": "유전자 재조합",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "대장균이 만드는 인슐린",
+   "body": [
+    "예전에는 당뇨병 치료용 인슐린을 소와 돼지의 이자에서 추출했습니다. 지금은 사람의 인슐린 유전자를 넣은 대장균이 사람 인슐린을 대량으로 만들어 냅니다.",
+    "서로 다른 생물의 DNA를 잘라 붙이는 기술 덕분입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "서로 다른 생물의 DNA를 잘라 이어 붙여 새로운 DNA를 만드는 기술을 유전자 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "재조합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "재조합 DNA를 숙주 세포에 넣어 원하는 단백질을 얻습니다.\n생명 공학의 기본 기술입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "유전자 재조합의 도구",
+   "body": [
+    "제한 효소는 DNA의 특정 염기 서열(보통 4~8염기)을 인식해 자르는 효소입니다. 많은 제한 효소는 엇갈리게 잘라 한 가닥이 튀어나온 점착 말단을 만듭니다.",
+    "같은 제한 효소로 자른 DNA 조각은 점착 말단이 상보적이라 서로 짝을 짓고, DNA 연결 효소가 당–인산 골격을 이어 재조합 DNA를 만듭니다.",
+    "원하는 유전자를 세포에 넣는 운반체로는 세균의 작은 원형 DNA인 플라스미드를 주로 씁니다. 재조합 플라스미드를 대장균에 넣는 것을 형질 전환이라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA의 특정 염기 서열을 인식해 자르는 효소를 {{1}} 효소라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "제한"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "원래 세균이 침입한 바이러스 DNA를 자르는 데 쓰는 효소입니다.\n'분자 가위'라고도 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "유전자 재조합에서 유전자를 숙주 세포에 옮기는 운반체로 주로 쓰는 세균의 원형 DNA는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "플라스미드"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "스스로 복제되며 세균 사이를 옮겨 다닙니다.\n항생제 저항성 유전자를 가진 것이 많습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "같은 제한 효소로 자른 두 DNA의 점착 말단은 서로 {{1}}적이라 쉽게 짝을 짓습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상보"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "튀어나온 염기끼리 수소 결합합니다.\n연결 효소가 골격을 이어 줍니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "대장균으로 사람 인슐린을 만드는 과정은?",
+   "steps": [
+    "같은 제한 효소로 사람 인슐린 유전자와 플라스미드를 자릅니다.",
+    "DNA 연결 효소로 두 조각을 이어 재조합 플라스미드를 만듭니다.",
+    "재조합 플라스미드를 대장균에 넣고(형질 전환) 원하는 대장균을 골라 배양하면 인슐린이 만들어집니다."
+   ],
+   "answer": "자르기 → 붙이기 → 넣기 → 골라 기르기"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "ordering",
+   "prompt": "유전자 재조합 과정을 순서대로 배열하세요.",
+   "items": [
+    {
+     "id": "a",
+     "text": "재조합 DNA를 대장균에 넣는다"
+    },
+    {
+     "id": "b",
+     "text": "제한 효소로 유전자와 플라스미드를 자른다"
+    },
+    {
+     "id": "c",
+     "text": "원하는 대장균을 골라 배양한다"
+    },
+    {
+     "id": "d",
+     "text": "DNA 연결 효소로 재조합 DNA를 만든다"
+    }
+   ],
+   "answer_order": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "hint": null,
+   "explanation": "자르기 → 붙이기 → 형질 전환 → 선별과 배양 순서입니다.\n대장균이 빠르게 늘어 단백질을 대량 생산합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "선별과 cDNA",
+   "body": [
+    "모든 대장균이 플라스미드를 받아들이지는 않으므로, 플라스미드의 항생제 저항성 유전자를 이용해 항생제가 든 배지에서 자라는 대장균만 고릅니다.",
+    "플라스미드의 lacZ 유전자 안에 원하는 유전자를 끼워 넣으면 lacZ가 망가져 X-gal 배지에서 흰색 콜로니가 됩니다. 유전자가 들어가지 않은 플라스미드를 가진 대장균은 파란색 콜로니가 되어 구별할 수 있습니다.",
+    "진핵생물 유전자에는 인트론이 있어 세균이 제대로 발현하지 못합니다. 그래서 성숙한 mRNA를 역전사 효소로 DNA로 바꾼 cDNA(인트론 없음)를 씁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "mRNA를 주형으로 DNA를 합성하는 효소는 {{1}} 효소입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역전사"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "레트로바이러스에서 발견되었습니다.\ncDNA를 만드는 데 씁니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "lacZ 유전자 안에 원하는 유전자가 삽입된 플라스미드를 가진 대장균은 X-gal 배지에서 {{1}}색 콜로니를 만듭니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "흰"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "lacZ가 망가져 X-gal을 분해하지 못합니다.\n삽입이 없으면 파란색입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "항생제가 든 배지에서는 항생제 저항성 유전자를 가진 {{1}}를 받아들인 대장균만 자랍니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "플라스미드"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "플라스미드가 없는 대장균은 죽습니다.\n1차 선별 방법입니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "사람 유전자 대신 cDNA를 대장균에 넣는 이유는?",
+   "steps": [
+    "사람 유전자에는 인트론이 있습니다.",
+    "대장균(원핵생물)은 스플라이싱을 하지 못해 인트론을 제거하지 못합니다.",
+    "성숙한 mRNA로 만든 cDNA에는 인트론이 없어 대장균이 올바른 단백질을 만들 수 있습니다."
+   ],
+   "answer": "대장균은 인트론을 제거하지 못하기 때문"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "유전자 재조합 정리",
+   "body": [
+    "도구: 제한 효소(자르기), DNA 연결 효소(잇기), 플라스미드(운반체). 과정: 자르기 → 잇기 → 형질 전환 → 선별 → 배양.",
+    "선별: 항생제 저항성, lacZ 청백 선별. 진핵 유전자는 cDNA로 넣습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "역전사 효소로 만든 cDNA에는 {{1}}이 없습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인트론"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "성숙한 mRNA를 주형으로 했기 때문입니다.\n그래서 세균에서 발현할 수 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "6개의 염기 서열을 인식하는 제한 효소는 무작위 DNA에서 평균 몇 염기마다 자를까요?",
+   "steps": [
+    "각 자리에 올 수 있는 염기는 4가지입니다.",
+    "특정 6염기 서열이 나올 확률은 (1/4)⁶ = 1/4096입니다.",
+    "평균 4096염기마다 한 번 자릅니다."
+   ],
+   "answer": "약 4096염기"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "6개의 염기 서열을 인식하는 제한 효소는 무작위 DNA에서 평균 몇 염기마다 한 번 자를까요?",
+   "answer": "4096",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "각 자리마다 4가지 염기가 가능합니다.",
+   "explanation": "4⁶ = 4096입니다.\n인식 서열이 길수록 드물게 자릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "유전자 재조합 기술로 새로운 유전자를 넣은 생물을 {{1}}라고 부릅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "GMO",
+      "유전자 변형 생물",
+      "LMO"
+     ]
+    }
+   ],
+   "hint": "영어 약자로 흔히 부릅니다.",
+   "explanation": "유전자 변형 생물체입니다.\n작물, 동물, 미생물이 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA 연결 효소는 DNA 조각 사이의 당–{{1}} 골격을 이어 줍니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인산"
+     ]
+    }
+   ],
+   "hint": "DNA 골격의 성분입니다.",
+   "explanation": "끊어진 공유 결합을 다시 만듭니다.\n복제에서도 오카자키 절편을 잇습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "대장균으로 생산한 사람 인슐린은 {{1}} 치료에 쓰입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "당뇨병"
+     ]
+    }
+   ],
+   "hint": "혈당과 관련된 질병입니다.",
+   "explanation": "혈당을 낮추는 호르몬입니다.\n최초의 유전자 재조합 의약품입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "재조합 플라스미드를 대장균에 넣어 대장균의 형질을 바꾸는 것을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "형질 전환"
+     ]
+    }
+   ],
+   "hint": "앞 챕터에서 배운 현상입니다.",
+   "explanation": "그리피스가 발견한 현상과 같은 원리입니다.\n열 충격이나 전기로 넣습니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "제한 효소는 원래 세균이 침입한 {{1}}의 DNA를 잘라 스스로를 지키는 데 씁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "바이러스"
+     ]
+    }
+   ],
+   "hint": "세균에 감염하는 것입니다.",
+   "explanation": "세균 자신의 DNA는 메틸화로 보호합니다.\n세균의 면역 체계입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "대장균을 이용해 사람의 단백질을 생산하는 유전자 재조합 과정을 설명해 보세요.",
+   "hint": "도구와 순서를 함께 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "제한 효소"
+     ],
+     [
+      "플라스미드"
+     ],
+     [
+      "연결 효소"
+     ],
+     [
+      "대장균",
+      "형질 전환"
+     ],
+     [
+      "선별",
+      "배양"
+     ]
+    ],
+    "min_groups_matched": 4
+   },
+   "model_answer": "같은 제한 효소로 사람의 유전자(cDNA)와 플라스미드를 자른 뒤 DNA 연결 효소로 이어 재조합 플라스미드를 만듭니다. 이를 대장균에 넣고(형질 전환) 항생제 배지 등으로 재조합 플라스미드를 가진 대장균을 골라 배양하면 사람 단백질이 대량으로 만들어집니다."
+  }
+ ]
+}

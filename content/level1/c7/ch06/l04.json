@@ -1,0 +1,395 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch06",
+  "no": 6,
+  "title": "유전자 발현과 조절"
+ },
+ "lesson": {
+  "id": "c7-ch06-l04",
+  "no": 4,
+  "title": "진핵생물의 유전자 발현 조절과 발생",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "같은 설계도, 다른 세포",
+   "body": [
+    "사람의 신경 세포와 근육 세포는 모양도 하는 일도 전혀 다르지만, 두 세포의 핵 속 유전 정보는 똑같습니다.",
+    "세포마다 켜고 끄는 유전자가 다르기 때문입니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "같은 유전체를 가진 세포들이 서로 다른 형태와 기능을 가지게 되는 과정을 세포 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분화"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세포마다 발현하는 유전자 조합이 다릅니다.\n발생 과정에서 일어납니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "진핵생물의 발현 조절",
+   "body": [
+    "진핵생물은 여러 단계에서 유전자 발현을 조절합니다. DNA가 히스톤에 단단히 감겨 응축된 부분은 RNA 중합 효소가 접근하지 못해 발현되지 않고, 느슨한 부분은 발현될 수 있습니다.",
+    "진핵생물의 RNA 중합 효소는 혼자서는 프로모터에 결합하지 못하고, 여러 전사 인자의 도움을 받아야 합니다. 프로모터에서 멀리 떨어진 인핸서 같은 조절 부위에 특정 전사 인자가 결합하면 전사가 크게 촉진됩니다.",
+    "세포마다 가진 전사 인자의 조합이 달라 서로 다른 유전자가 발현됩니다. 전사 뒤에도 RNA 가공, mRNA의 분해 속도, 마이크로 RNA(miRNA)에 의한 번역 억제로 조절됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "진핵생물에서 RNA 중합 효소가 프로모터에 결합하도록 돕는 단백질을 전사 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인자"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "여러 전사 인자가 모여야 전사가 시작됩니다.\n세포마다 조합이 다릅니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA가 히스톤에 단단히 감겨 응축된 부위의 유전자는 발현이 {{1}}됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "억제"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "RNA 중합 효소와 전사 인자가 접근하지 못합니다.\n느슨해지면 발현될 수 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "프로모터에서 멀리 떨어져 있지만 전사 인자가 결합해 전사를 촉진하는 조절 부위를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인핸서"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "DNA가 굽어 프로모터 가까이 옵니다.\n세포 특이적 발현의 핵심입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "유전자 A는 조절 부위 x, y, 유전자 B는 x, z를 가집니다. 전사 인자 X, Y를 가진 세포에서는?",
+   "steps": [
+    "전사 인자 X는 조절 부위 x에, Y는 y에 결합합니다.",
+    "유전자 A는 x, y 모두에 전사 인자가 결합해 발현됩니다.",
+    "유전자 B는 z에 결합할 전사 인자가 없어 발현되지 않습니다(두 조절 부위가 모두 필요하다고 할 때)."
+   ],
+   "answer": "유전자 A만 발현된다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "근육 세포에서만 근육 단백질 유전자가 발현되는 것은 근육 세포에만 있는 특정 전사 인자의 {{1}} 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "조합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세포마다 가진 전사 인자가 다릅니다.\n유전 정보는 모든 세포가 같습니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "발생과 유전자",
+   "body": [
+    "수정란이 분열하며 세포 분화가 일어나는 과정에서, 특정 전사 인자를 만드는 핵심 조절 유전자가 세포의 운명을 정합니다. 예를 들어 MyoD 유전자가 발현되면 세포는 근육 세포로 분화합니다.",
+    "혹스 유전자는 몸의 앞뒤 축을 따라 어느 위치에 어떤 기관이 생길지를 정합니다. 초파리에서 혹스 유전자에 돌연변이가 생기면 더듬이 자리에 다리가 생기기도 합니다. 혹스 유전자는 초파리에서 사람까지 동물 전체에 널리 보존되어 있습니다.",
+    "아직 분화하지 않아 여러 종류의 세포로 분화할 수 있는 세포를 줄기세포라고 합니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "몸의 앞뒤 축을 따라 기관이 생길 위치를 정하는 유전자를 {{1}} 유전자라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "혹스"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "호메오 유전자라고도 합니다.\n동물 전체에 널리 보존되어 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "MyoD 유전자가 발현되면 세포는 {{1}} 세포로 분화합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "근육"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "MyoD는 근육 분화의 핵심 조절 유전자입니다.\n다른 근육 유전자들을 켭니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "초파리 혹스 유전자에 돌연변이가 생기면 더듬이 자리에 {{1}}가 생기기도 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다리"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기관이 생길 위치 정보가 바뀌었습니다.\n기관 자체는 정상적으로 만들어집니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "분화한 세포도 완전한 유전 정보를 가지고 있다는 증거는?",
+   "steps": [
+    "복제 양 돌리는 다 자란 양의 젖샘 세포 핵을 핵을 없앤 난자에 넣어 만들었습니다.",
+    "분화한 체세포의 핵으로 완전한 개체가 만들어졌습니다.",
+    "분화 과정에서 유전 정보가 사라지지 않고 발현만 달라진다는 뜻입니다."
+   ],
+   "answer": "체세포 핵으로 완전한 개체를 만든 복제 실험"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "진핵 조절 정리",
+   "body": [
+    "염색질 응축, 전사 인자 조합과 인핸서, RNA 가공과 분해, miRNA 등 여러 단계에서 조절합니다.",
+    "세포 분화: 같은 유전체, 다른 발현. 핵심 조절 유전자(MyoD), 혹스 유전자, 줄기세포."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "분화한 세포들의 유전체는 서로 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같다",
+      "같습니다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "모두 같은 수정란에서 왔습니다.\n발현하는 유전자만 다릅니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "복제 양 돌리의 탄생이 보여 주는 사실은?",
+   "steps": [
+    "돌리는 분화한 젖샘 세포의 핵에서 만들어졌습니다.",
+    "분화한 세포의 핵에도 개체를 만드는 데 필요한 모든 유전 정보가 있습니다."
+   ],
+   "answer": "분화한 세포에도 완전한 유전 정보가 있다"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "복제 양 돌리는 분화한 체세포의 핵에도 {{1}}한 유전 정보가 있다는 것을 보여 주었습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "완전"
+     ]
+    }
+   ],
+   "hint": "빠진 것 없이 모두 있다는 뜻입니다.",
+   "explanation": "체세포 핵으로 온전한 개체가 만들어졌습니다.\n유전 정보는 사라지지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "혹스 유전자가 초파리부터 사람까지 비슷하다는 것은 이 유전자가 진화 과정에서 잘 {{1}}되었다는 뜻입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보존"
+     ]
+    }
+   ],
+   "hint": "바뀌지 않고 유지되었다는 뜻입니다.",
+   "explanation": "몸의 설계를 정하는 중요한 유전자이기 때문입니다.\n공통 조상의 증거입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "여러 종류의 세포로 분화할 수 있는 미분화 세포를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "줄기세포"
+     ]
+    }
+   ],
+   "hint": "줄기에서 가지가 뻗듯 분화합니다.",
+   "explanation": "배아 줄기세포와 성체 줄기세포가 있습니다.\n재생 의학에 쓰입니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "마이크로 RNA(miRNA)는 표적 mRNA에 결합해 분해하거나 {{1}}을 억제합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "번역"
+     ]
+    }
+   ],
+   "hint": "mRNA로 단백질을 만드는 과정입니다.",
+   "explanation": "전사 뒤 단계의 조절입니다.\n단백질이 만들어지지 않게 합니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "히스톤에 아세틸기가 붙어 염색질이 느슨해지면 유전자 발현이 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증가"
+     ]
+    }
+   ],
+   "hint": "느슨하면 읽기 쉽습니다.",
+   "explanation": "전사 인자와 RNA 중합 효소가 접근하기 쉬워집니다.\n후성 유전 조절의 한 예입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "진핵생물의 RNA 중합 효소는 원핵생물과 달리 전사를 시작하려면 여러 {{1}}가 필요합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전사 인자"
+     ]
+    }
+   ],
+   "hint": "이 레슨의 핵심 단백질입니다.",
+   "explanation": "혼자서는 프로모터에 결합하지 못합니다.\n그래서 조절이 더 정교합니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "같은 유전체를 가진 세포들이 서로 다른 세포로 분화하는 원리를 전사 인자를 이용해 설명해 보세요.",
+   "hint": "같은 것과 다른 것을 구분하세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "같은 유전",
+      "유전체",
+      "유전 정보"
+     ],
+     [
+      "전사 인자"
+     ],
+     [
+      "조합",
+      "다른 유전자"
+     ],
+     [
+      "발현"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "한 개체의 모든 세포는 같은 유전 정보를 가지지만, 세포마다 가진 전사 인자의 조합이 다릅니다. 각 유전자는 조절 부위에 맞는 전사 인자가 결합할 때만 발현되므로, 세포마다 서로 다른 유전자가 발현되어 다른 형태와 기능을 가진 세포로 분화합니다."
+  }
+ ]
+}

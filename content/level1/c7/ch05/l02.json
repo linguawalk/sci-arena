@@ -1,0 +1,362 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch05",
+  "no": 5,
+  "title": "유전 물질과 복제"
+ },
+ "lesson": {
+  "id": "c7-ch05-l02",
+  "no": 2,
+  "title": "DNA의 구조",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "이중 나선의 발견",
+   "body": [
+    "1953년 왓슨과 크릭은 프랭클린의 X선 회절 사진과 샤가프의 자료를 바탕으로 DNA가 두 가닥이 꼬인 이중 나선이라는 모형을 발표했습니다.",
+    "이 구조는 DNA가 어떻게 복제되는지를 곧바로 알려 주었습니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "왓슨과 크릭이 제안한 DNA의 구조를 이중 {{1}} 구조라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "나선"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "두 가닥이 오른쪽으로 꼬여 있습니다.\n계단을 비튼 모양입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "DNA의 구조",
+   "body": [
+    "DNA의 단위체인 뉴클레오타이드는 인산, 디옥시리보스(당), 염기로 이루어집니다. 염기에는 아데닌(A), 구아닌(G), 사이토신(C), 타이민(T)이 있습니다.",
+    "뉴클레오타이드의 당과 인산이 번갈아 연결되어 바깥쪽 골격을 이루고, 두 가닥의 염기는 안쪽에서 A–T(수소 결합 2개), G–C(수소 결합 3개)로 상보적으로 결합합니다.",
+    "두 가닥은 방향이 서로 반대인 역평행 구조입니다(한 가닥이 5'→3'이면 다른 가닥은 3'→5'). 그래서 이중 가닥 DNA에서는 A = T, G = C입니다(샤가프 법칙)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "DNA의 두 가닥이 서로 반대 방향으로 배열된 것을 {{1}} 구조라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역평행"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "5'→3'과 3'→5'로 마주 봅니다.\n복제 방식에 중요한 영향을 줍니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "이중 가닥 DNA에서 A가 30%이면 G는 몇 %일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "A = T = 30%이므로 A + T = 60%입니다.\nG = C = 40% ÷ 2 = 20%입니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "G와 C 사이의 수소 결합은 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "G–C는 3개, A–T는 2개입니다.\nG–C가 많을수록 안정합니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "100개의 염기쌍으로 된 DNA에 A가 30개 있으면 두 가닥 사이 수소 결합의 총수는?",
+   "steps": [
+    "A = T = 30개이므로 A–T 쌍은 30개, G–C 쌍은 70개입니다.",
+    "수소 결합 = 30 × 2 + 70 × 3 = 60 + 210 = 270개입니다."
+   ],
+   "answer": "270개"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "100개의 염기쌍으로 된 이중 가닥 DNA에 A가 30개 있습니다. 두 가닥 사이 수소 결합은 모두 몇 개일까요?",
+   "answer": "270",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "A–T 30쌍 × 2 + G–C 70쌍 × 3 = 60 + 210 = 270개입니다.\n쌍의 종류에 따라 결합 수가 다릅니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "이중 나선의 크기와 염기의 짝",
+   "body": [
+    "이중 나선의 폭은 약 2 nm로 일정하고, 한 바퀴 도는 데 염기쌍 약 10개, 길이 3.4 nm입니다. 따라서 염기쌍 사이 간격은 0.34 nm입니다.",
+    "고리가 2개인 퓨린(A, G)이 고리가 1개인 피리미딘(T, C)과 짝을 이루므로 폭이 일정합니다.",
+    "각 가닥의 끝은 인산이 있는 5' 끝과, 당의 수산기(-OH)가 있는 3' 끝으로 구별됩니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "고리가 2개인 퓨린 염기는 A와 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "G"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "구아닌과 아데닌입니다.\nT와 C는 피리미딘입니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "numeric",
+   "prompt": "길이가 34 nm인 DNA 이중 나선에는 염기쌍이 몇 개 있을까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": null,
+   "explanation": "염기쌍 사이 간격이 0.34 nm이므로 34 ÷ 0.34 = 100개입니다.\n10바퀴입니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "G–C 염기쌍의 비율이 높은 DNA일수록 열에 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "안정"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "G–C는 수소 결합이 3개라 두 가닥이 잘 떨어지지 않습니다.\n변성 온도가 높습니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "한 가닥에서 A가 20개, T가 30개라면 다른 가닥의 A와 T는?",
+   "steps": [
+    "염기는 상보적으로 짝을 짓습니다.",
+    "한 가닥의 A 20개는 다른 가닥의 T 20개와, 한 가닥의 T 30개는 다른 가닥의 A 30개와 짝을 이룹니다.",
+    "다른 가닥에는 A 30개, T 20개가 있습니다."
+   ],
+   "answer": "A 30개, T 20개"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "DNA 구조 정리",
+   "body": [
+    "뉴클레오타이드 = 인산 + 디옥시리보스 + 염기(A, G, C, T). 당–인산 골격 바깥, 염기쌍 안쪽.",
+    "A–T(수소 결합 2), G–C(3), 역평행, 이중 가닥에서 A = T, G = C. 폭 2 nm, 한 바퀴 10 염기쌍 3.4 nm."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "DNA 가닥에서 인산이 있는 끝을 {{1}}' 끝이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "5"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반대쪽 당의 -OH가 있는 끝은 3' 끝입니다.\n방향을 나타내는 기준입니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "이중 가닥 DNA에서 (A + G) ÷ (T + C)의 값은?",
+   "steps": [
+    "이중 가닥에서 A = T, G = C입니다.",
+    "A + G = T + C이므로 비는 1입니다.",
+    "퓨린과 피리미딘의 양이 같습니다."
+   ],
+   "answer": "1"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "DNA 한 가닥에 A가 20개, T가 30개 있습니다. 상보적인 다른 가닥의 A는 몇 개일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "한 가닥의 T와 짝을 이룹니다.",
+   "explanation": "한 가닥의 T 30개와 짝을 이루는 A가 다른 가닥에 30개 있습니다.\n상보적 결합입니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "이중 가닥 DNA에서 (A + G) ÷ (T + C)의 값은 얼마일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "샤가프 법칙을 쓰세요.",
+   "explanation": "A = T, G = C이므로 퓨린과 피리미딘의 양이 같습니다.\n비는 1입니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA의 X선 회절 사진을 찍어 이중 나선 구조 발견에 결정적인 자료를 제공한 과학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "프랭클린"
+     ]
+    }
+   ],
+   "hint": "여성 과학자입니다.",
+   "explanation": "로절린드 프랭클린의 '51번 사진'이 유명합니다.\n나선 구조의 증거였습니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA를 이루는 당은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "디옥시리보스"
+     ]
+    }
+   ],
+   "hint": "RNA의 당과 다릅니다.",
+   "explanation": "RNA의 리보스보다 산소가 하나 적습니다.\n'디옥시'는 산소가 없다는 뜻입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "1000개의 염기쌍으로 된 DNA 이중 나선의 길이는 몇 nm일까요?",
+   "answer": "340",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "염기쌍 간격을 곱하세요.",
+   "explanation": "1000 × 0.34 = 340 nm입니다.\n염기쌍 사이 간격은 0.34 nm입니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "DNA 두 가닥의 상보적인 염기는 {{1}} 결합으로 연결되어 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소"
+     ]
+    }
+   ],
+   "hint": "약한 결합입니다.",
+   "explanation": "약한 결합이라 복제와 전사 때 쉽게 풀립니다.\nA–T 2개, G–C 3개입니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "DNA 이중 나선 구조의 특징을 세 가지 이상 설명해 보세요.",
+   "hint": "골격, 염기쌍, 방향을 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "당",
+      "인산",
+      "골격"
+     ],
+     [
+      "상보",
+      "A–T",
+      "G–C",
+      "A와 T"
+     ],
+     [
+      "수소 결합"
+     ],
+     [
+      "역평행",
+      "반대 방향"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "DNA는 당과 인산이 번갈아 연결된 골격이 바깥쪽에 있고 염기가 안쪽에서 짝을 이루는 이중 나선입니다. 염기는 A와 T, G와 C가 수소 결합으로 상보적으로 결합하며, 두 가닥은 방향이 서로 반대인 역평행 구조입니다."
+  }
+ ]
+}

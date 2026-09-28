@@ -1,0 +1,196 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch01",
+  "no": 1,
+  "title": "세포의 구조와 막 수송"
+ },
+ "review": {
+  "id": "c7-ch01-review",
+  "title": "세포의 구조와 막 수송 복습",
+  "minutes": 10
+ },
+ "questions": [
+  {
+   "type": "question",
+   "id": "r1",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "핵막과 막성 소기관이 없는 세포는 {{1}}세포입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원핵"
+     ]
+    }
+   ],
+   "hint": "핵막이 없습니다.",
+   "explanation": "세균과 고세균이 해당합니다.\nDNA는 세포질에 있습니다.",
+   "source_lesson": "c7-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r2",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "미토콘드리아와 엽록체가 원핵생물에서 유래했다는 설은 세포 내 {{1}}설입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공생"
+     ]
+    }
+   ],
+   "hint": "함께 산다는 뜻입니다.",
+   "explanation": "자체 DNA, 리보솜, 이중막이 증거입니다.\n스스로 분열합니다.",
+   "source_lesson": "c7-ch01-l01"
+  },
+  {
+   "type": "question",
+   "id": "r3",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "거친면 소포체에서 만들어진 단백질을 가공·포장하는 소기관은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "골지체"
+     ]
+    }
+   ],
+   "hint": "납작한 주머니 모양입니다.",
+   "explanation": "분비 소낭을 만들어 내보냅니다.\n분비 세포에서 발달합니다.",
+   "source_lesson": "c7-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r4",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "세포 안에서 가수 분해 효소로 물질을 분해하는 소기관은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "리소좀"
+     ]
+    }
+   ],
+   "hint": "골지체에서 만들어진 소낭입니다.",
+   "explanation": "세포 속 소화 기관입니다.\n내부가 산성입니다.",
+   "source_lesson": "c7-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r5",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "세포 분열 때 방추사를 이루는 세포 골격은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "미세 소관"
+     ]
+    }
+   ],
+   "hint": "관 모양의 세포 골격입니다.",
+   "explanation": "튜불린으로 이루어져 있습니다.\n섬모와 편모의 뼈대이기도 합니다.",
+   "source_lesson": "c7-ch01-l02"
+  },
+  {
+   "type": "question",
+   "id": "r6",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "인지질 2중층에 단백질이 박혀 있고 움직일 수 있다는 세포막 모델은 유동 {{1}} 모델입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "모자이크"
+     ]
+    }
+   ],
+   "hint": "조각 그림에 빗댄 이름입니다.",
+   "explanation": "싱어와 니컬슨이 제안했습니다.\n막은 유동적입니다.",
+   "source_lesson": "c7-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r7",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "인지질의 지방산 꼬리는 {{1}}성이라 막의 안쪽을 향합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "소수"
+     ]
+    }
+   ],
+   "hint": "물을 싫어하는 성질입니다.",
+   "explanation": "물을 싫어해 서로 모입니다.\n머리는 친수성입니다.",
+   "source_lesson": "c7-ch01-l03"
+  },
+  {
+   "type": "question",
+   "id": "r8",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "운반체 단백질을 이용해 농도 기울기를 따라 이동하며 포화 현상이 나타나는 수송은 {{1}} 확산입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "촉진"
+     ]
+    }
+   ],
+   "hint": "단백질의 도움을 받는 확산입니다.",
+   "explanation": "에너지를 쓰지 않습니다.\n운반체 수가 한정되어 있습니다.",
+   "source_lesson": "c7-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r9",
+   "stage": "review",
+   "qtype": "numeric",
+   "prompt": "Na⁺–K⁺ 펌프가 ATP 1분자로 옮기는 Na⁺와 K⁺는 모두 몇 개일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "3 + 2입니다.",
+   "explanation": "Na⁺ 3개(밖으로) + K⁺ 2개(안으로) = 5개입니다.\n능동 수송입니다.",
+   "source_lesson": "c7-ch01-l04"
+  },
+  {
+   "type": "question",
+   "id": "r10",
+   "stage": "review",
+   "qtype": "fill_blank",
+   "prompt": "백혈구가 세균을 삼키는 식세포 작용은 세포내 {{1}}의 한 종류입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "섭취"
+     ]
+    }
+   ],
+   "hint": "밖의 것을 안으로 들이는 것입니다.",
+   "explanation": "세포막으로 감싸 들입니다.\n에너지가 필요합니다.",
+   "source_lesson": "c7-ch01-l04"
+  }
+ ]
+}

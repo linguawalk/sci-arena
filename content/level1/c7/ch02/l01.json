@@ -1,0 +1,390 @@
+{
+ "schema_version": "1.0",
+ "site": "sci-arena",
+ "level": 1,
+ "course": {
+  "id": "c7",
+  "title": "생물Ⅱ"
+ },
+ "chapter": {
+  "id": "c7-ch02",
+  "no": 2,
+  "title": "효소"
+ },
+ "lesson": {
+  "id": "c7-ch02-l01",
+  "no": 1,
+  "title": "효소의 구조와 작용",
+  "minutes": 15
+ },
+ "tags": {
+  "domain": [
+   "생명과학"
+  ],
+  "region": "KR",
+  "curriculum": "2022-high"
+ },
+ "screens": [
+  {
+   "type": "explain",
+   "id": "s1",
+   "stage": "intro",
+   "title": "몸속의 촉매",
+   "body": [
+    "녹말은 체온에서 그냥 두면 몇 년이 지나도 거의 분해되지 않지만, 침 속 아밀레이스는 몇 초 만에 분해합니다.",
+    "생물의 몸속 반응은 대부분 효소 덕분에 체온에서도 빠르게 일어납니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "q1",
+   "stage": "intro",
+   "qtype": "fill_blank",
+   "prompt": "생물체에서 만들어져 화학 반응을 빠르게 하는 생체 촉매를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "효소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "대부분 단백질로 되어 있습니다.\n반응 뒤 그대로 남아 반복해서 쓰입니다."
+  },
+  {
+   "type": "explain",
+   "id": "s2",
+   "stage": "discover",
+   "title": "효소의 작용",
+   "body": [
+    "효소에는 특정 반응물(기질)이 결합하는 활성 부위가 있습니다. 효소와 기질이 결합해 효소–기질 복합체를 만들고, 반응 후 생성물이 떨어져 나가면 효소는 그대로 남아 다시 쓰입니다.",
+    "효소는 활성화 에너지를 낮추어 반응을 빠르게 하지만, 반응열(ΔH)은 바꾸지 않습니다.",
+    "효소는 활성 부위의 입체 구조에 맞는 기질에만 작용하는데, 이를 기질 특이성이라고 합니다. 기질이 결합하면서 활성 부위의 모양이 기질에 꼭 맞게 조금 변하기도 합니다(유도 적합)."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k1",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "효소에서 기질이 결합하는 부위를 {{1}} 부위라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "활성"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "기질과 입체 구조가 맞아야 결합합니다.\n그래서 효소는 기질 특이성을 가집니다."
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "효소가 있어도 반응의 반응열(ΔH)은 {{1}}.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변하지 않는다",
+      "변하지 않습니다",
+      "그대로이다"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "반응물과 생성물의 에너지는 같습니다.\n활성화 에너지만 낮아집니다."
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "효소는 반응 뒤 변하지 않고 남아 {{1}}해서 쓰입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반복",
+      "재사용"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "소모되지 않으므로 적은 양으로 많은 반응을 돕습니다.\n촉매의 특징입니다."
+  },
+  {
+   "type": "example",
+   "id": "e1",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "효소의 기질 특이성을 자물쇠와 열쇠에 비유하면?",
+   "steps": [
+    "효소의 활성 부위는 자물쇠의 구멍과 같습니다.",
+    "모양이 맞는 기질(열쇠)만 결합할 수 있습니다.",
+    "실제로는 결합하면서 활성 부위가 조금 변해 더 꼭 맞게 됩니다(유도 적합)."
+   ],
+   "answer": "모양이 맞는 기질만 결합한다"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "기질이 결합하면서 효소의 활성 부위 모양이 기질에 꼭 맞게 바뀌는 것을 유도 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적합"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "자물쇠–열쇠 모델을 보완한 설명입니다.\n활성 부위는 조금 유연합니다."
+  },
+  {
+   "type": "explain",
+   "id": "s3",
+   "stage": "discover",
+   "title": "효소의 이름과 예",
+   "body": [
+    "효소 이름은 대개 기질이나 반응 이름 뒤에 '-에이스(-ase)'를 붙입니다. 아밀레이스(녹말 분해), 리페이스(지방 분해), 카탈레이스(과산화 수소 분해) 등이 있습니다.",
+    "펩신과 트립신처럼 예전부터 쓰던 이름도 있습니다. 둘 다 단백질을 분해합니다.",
+    "간이나 감자 조각에 과산화 수소를 떨어뜨리면 카탈레이스가 작용해 산소 거품이 생깁니다."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k2",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "카탈레이스는 {{1}}를 물과 산소로 분해합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "과산화 수소"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "세포에 해로운 과산화 수소를 없앱니다.\n간세포에 많습니다."
+  },
+  {
+   "type": "question",
+   "id": "q5",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "아밀레이스의 기질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "녹말"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "녹말을 엿당으로 분해합니다.\n침과 이자액에 있습니다."
+  },
+  {
+   "type": "question",
+   "id": "q6",
+   "stage": "discover",
+   "qtype": "fill_blank",
+   "prompt": "효소와 기질이 결합해 만든 일시적인 구조를 효소–기질 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "복합체"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "이 상태에서 반응이 일어납니다.\n반응 후 생성물이 떨어져 나갑니다."
+  },
+  {
+   "type": "example",
+   "id": "e2",
+   "stage": "discover",
+   "title": "예제",
+   "problem": "효소가 반응을 빠르게 하는 원리를 에너지 도표로 설명하면?",
+   "steps": [
+    "반응이 일어나려면 활성화 에너지만큼의 언덕을 넘어야 합니다.",
+    "효소는 기질과 결합해 더 낮은 언덕을 넘는 경로를 만듭니다.",
+    "언덕이 낮아지면 체온에서도 많은 분자가 반응할 수 있어 반응이 빨라집니다."
+   ],
+   "answer": "활성화 에너지를 낮춘다"
+  },
+  {
+   "type": "explain",
+   "id": "s4",
+   "stage": "summary",
+   "title": "효소 정리",
+   "body": [
+    "효소: 주로 단백질, 활성 부위에 기질 결합 → 효소–기질 복합체 → 생성물. 활성화 에너지↓, ΔH 불변, 재사용.",
+    "기질 특이성: 활성 부위 입체 구조에 맞는 기질에만 작용."
+   ]
+  },
+  {
+   "type": "question",
+   "id": "k3",
+   "stage": "summary",
+   "qtype": "fill_blank",
+   "prompt": "효소는 주로 {{1}}로 이루어져 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단백질"
+     ]
+    }
+   ],
+   "hint": null,
+   "explanation": "그래서 온도와 pH의 영향을 크게 받습니다.\n일부 RNA 효소도 있습니다."
+  },
+  {
+   "type": "example",
+   "id": "e3",
+   "stage": "apply",
+   "title": "예제",
+   "problem": "효소가 없을 때 활성화 에너지가 80 kJ, 효소가 있을 때 50 kJ이면?",
+   "steps": [
+    "효소가 활성화 에너지를 80 − 50 = 30 kJ 낮추었습니다.",
+    "반응열은 두 경우가 같습니다."
+   ],
+   "answer": "30 kJ 낮아짐"
+  },
+  {
+   "type": "question",
+   "id": "q7",
+   "stage": "apply",
+   "qtype": "numeric",
+   "prompt": "어떤 반응의 활성화 에너지가 효소 없이는 80 kJ, 효소가 있으면 50 kJ입니다. 효소가 낮춘 활성화 에너지는 몇 kJ일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "hint": "두 값의 차이입니다.",
+   "explanation": "80 − 50 = 30 kJ입니다.\n반응열은 변하지 않습니다."
+  },
+  {
+   "type": "question",
+   "id": "q8",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "리페이스는 {{1}}을 지방산과 모노글리세리드로 분해합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지방"
+     ]
+    }
+   ],
+   "hint": "중성 지방입니다.",
+   "explanation": "이자액에 들어 있습니다.\n쓸개즙이 지방을 잘게 만들어 돕습니다."
+  },
+  {
+   "type": "question",
+   "id": "q9",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "트립신이 분해하는 기질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "단백질"
+     ]
+    }
+   ],
+   "hint": "아미노산으로 된 물질입니다.",
+   "explanation": "이자에서 분비되어 작은창자에서 작용합니다.\n펩신도 단백질을 분해합니다."
+  },
+  {
+   "type": "question",
+   "id": "q10",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "효소는 반복해서 쓰이므로 {{1}} 양으로도 많은 반응을 일으킬 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적은"
+     ]
+    }
+   ],
+   "hint": "많은 양이 필요하지 않습니다.",
+   "explanation": "한 분자가 1초에 수천 번 반응하기도 합니다.\n소모되지 않기 때문입니다."
+  },
+  {
+   "type": "question",
+   "id": "q11",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "간 조각에 과산화 수소를 떨어뜨리면 {{1}} 기체가 발생합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산소"
+     ]
+    }
+   ],
+   "hint": "불씨를 대면 확인할 수 있습니다.",
+   "explanation": "카탈레이스가 2H₂O₂ → 2H₂O + O₂를 촉매합니다.\n거품이 생깁니다."
+  },
+  {
+   "type": "question",
+   "id": "q12",
+   "stage": "apply",
+   "qtype": "fill_blank",
+   "prompt": "효소가 특정 기질에만 작용하는 것은 활성 부위의 {{1}} 구조가 기질과 맞아야 하기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "입체"
+     ]
+    }
+   ],
+   "hint": "3차원 모양입니다.",
+   "explanation": "3차원 모양이 맞아야 결합합니다.\n모양이 바뀌면 기능을 잃습니다."
+  },
+  {
+   "type": "question",
+   "id": "q13",
+   "stage": "apply",
+   "qtype": "written",
+   "prompt": "효소가 반응을 촉진하는 과정을 활성 부위와 활성화 에너지를 이용해 설명해 보세요.",
+   "hint": "결합 → 반응 → 분리 순서로 쓰세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "활성 부위"
+     ],
+     [
+      "기질"
+     ],
+     [
+      "복합체",
+      "결합"
+     ],
+     [
+      "활성화 에너지"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "효소의 활성 부위에 입체 구조가 맞는 기질이 결합해 효소–기질 복합체를 만듭니다. 효소는 활성화 에너지를 낮추어 반응이 빠르게 일어나게 하고, 반응 후 생성물이 떨어져 나가면 효소는 그대로 남아 다시 쓰입니다."
+  }
+ ]
+}
