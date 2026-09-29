@@ -1,0 +1,106 @@
+{
+ "no": 4,
+ "title": "운동량과 충돌",
+ "hours": 4,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "충격량–운동량 정리를 시간에 따라 변하는 힘에 적용할 수 있다.",
+  "탄성·비탄성 충돌을 운동량과 에너지로 분석할 수 있다.",
+  "질량 중심의 위치와 운동을 계산할 수 있다."
+ ],
+ "checklist": [
+  "운동량 p = mv, F = dp/dt",
+  "충격량 J = ∫F dt = Δp",
+  "고립계의 운동량 보존",
+  "완전 비탄성 충돌과 탄성 충돌",
+  "2차원 충돌의 성분별 보존",
+  "질량 중심 r_cm = Σmᵢrᵢ / M",
+  "로켓 운동(변하는 질량) 개념"
+ ],
+ "advice": [
+  "운동량 보존은 외력이 없을 때만 성립하고, 역학적 에너지 보존은 비보존력이 일을 하지 않을 때만 성립합니다. 충돌 문제에서는 거의 항상 운동량이 보존되지만 운동 에너지는 탄성 충돌일 때만 보존된다는 차이를 분명히 하세요.",
+  "질량 중심 개념은 여러 물체를 하나의 점처럼 다룰 수 있게 해 줍니다. 폭발하는 포탄의 파편들이 흩어져도 질량 중심은 원래 포물선을 그대로 따라간다는 예를 직접 계산해 보면 이 개념이 왜 강력한지 알 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 1 (역학·파동·열역학)",
+   "url": "https://openstax.org/details/books/university-physics-volume-1",
+   "lang": "영어",
+   "part": "9장 Linear Momentum and Collisions"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.01SC Classical Mechanics (2016년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/",
+   "lang": "영어",
+   "part": "Week 7~8 Momentum, Collisions"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "9장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "3 m/s로 움직이는 2 kg 물체가 정지한 1 kg 물체와 충돌해 한 덩어리가 되었습니다. 충돌 뒤 속력은 몇 m/s일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "2 × 3 = 3v\nv = 2 m/s (완전 비탄성 충돌)",
+   "hint": "운동량 보존을 쓰세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "질량이 같은 두 공이 1차원 탄성 충돌을 합니다. 4 m/s로 움직이던 공이 정지한 공에 부딪히면 충돌 뒤 두 번째 공의 속력은 몇 m/s일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "질량이 같은 1차원 탄성 충돌에서는 속도가 서로 바뀝니다.\n첫 번째 공은 멈추고 두 번째 공이 4 m/s로 움직입니다.",
+   "hint": "운동량과 운동 에너지가 모두 보존됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "F(t) = 10t (N)인 힘이 0초부터 2초까지 작용했습니다. 충격량은 몇 N·s일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "J = ∫₀² 10t dt = [5t²]₀² = 20 N·s",
+   "hint": "힘을 시간에 대해 적분하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "x = 0에 2 kg, x = 5 m에 3 kg 물체가 있습니다. 질량 중심의 x좌표는 몇 m일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "x_cm = (2 × 0 + 3 × 5) / 5 = 3 m",
+   "hint": "질량 가중 평균입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u04"
+}

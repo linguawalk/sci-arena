@@ -1,0 +1,110 @@
+{
+ "no": 2,
+ "title": "뉴턴 법칙과 그 응용",
+ "hours": 5,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "자유 물체 도형을 그려 운동 방정식을 세울 수 있다.",
+  "마찰력, 장력, 수직항력이 있는 문제를 풀 수 있다.",
+  "원운동에서 구심력을 제공하는 힘을 찾을 수 있다."
+ ],
+ "checklist": [
+  "관성 기준틀과 뉴턴 제1법칙",
+  "ΣF = ma를 성분별로 적용",
+  "자유 물체 도형(free-body diagram)",
+  "정지·운동 마찰력 f ≤ μₛN, f = μₖN",
+  "연결된 물체(애트우드 기계, 도르래)",
+  "원운동의 동역학 ΣF_r = mv²/r",
+  "항력(속도에 비례하는 저항)과 종단 속도"
+ ],
+ "advice": [
+  "일반물리 역학 문제의 절반 이상은 '자유 물체 도형을 제대로 그리는가'에서 결정됩니다. 물체마다 따로 그리고, 그 물체에 작용하는 힘만 표시하며, 좌표축을 운동 방향에 맞춰 잡는 세 가지를 습관으로 만드세요. 원운동에서 '구심력'이라는 새로운 힘을 그려 넣는 실수를 특히 조심하세요.",
+  "항력이 속도에 비례하는 경우 운동 방정식이 미분방정식 m dv/dt = mg − bv가 됩니다. 이를 풀어 종단 속도에 지수 함수로 다가가는 모습을 한 번 직접 유도해 보면, 물리 법칙이 미분방정식이라는 대학 물리의 관점이 분명해집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 1 (역학·파동·열역학)",
+   "url": "https://openstax.org/details/books/university-physics-volume-1",
+   "lang": "영어",
+   "part": "5~6장 Newton's Laws of Motion, Applications of Newton's Laws"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.01SC Classical Mechanics (2016년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/",
+   "lang": "영어",
+   "part": "Week 2~3 Newton's Laws, Circular Motion"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "5~6장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "마찰이 없는 30° 경사면에서 5 kg 물체의 가속도는 몇 m/s²일까요? (g = 10 m/s²)",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "a = g sin 30° = 10 × 0.5 = 5 m/s²\n질량과 관계없습니다.",
+   "hint": "경사면 방향 성분만 보세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "3 kg과 2 kg 물체를 도르래에 걸어 놓은 애트우드 기계의 가속도는 몇 m/s²일까요? (g = 10 m/s², 도르래 질량·마찰 무시)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "a = (m₁ − m₂)g / (m₁ + m₂) = 1 × 10 / 5 = 2 m/s²",
+   "hint": "두 물체를 한 계로 보세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "마찰 계수 0.4인 평평한 도로에서 반지름 40 m 곡선을 미끄러지지 않고 돌 수 있는 최대 속력은 약 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "12.6",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "μmg = mv²/r\nv = √(μgr) = √160 ≈ 12.6 m/s",
+   "hint": "마찰력이 구심력입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "뉴턴 제1법칙이 성립하는 좌표계를 {{1}} 기준틀이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "관성"
+     ]
+    }
+   ],
+   "explanation": "가속하지 않는 좌표계입니다.\n회전하는 좌표계에서는 원심력 같은 관성력이 필요합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u02"
+}

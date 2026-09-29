@@ -1,0 +1,116 @@
+{
+ "no": 3,
+ "title": "세포 대사: 효소, 호흡, 광합성",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "효소의 작용과 저해를 에너지 도표와 반응 속도로 설명할 수 있다.",
+  "세포 호흡의 단계별 산물과 ATP 수지를 설명할 수 있다.",
+  "광합성의 명반응과 캘빈 회로를 연결해 설명할 수 있다."
+ ],
+ "checklist": [
+  "자유 에너지와 ATP, 짝지음 반응",
+  "효소, 활성화 에너지, 경쟁적·비경쟁적 저해",
+  "해당 과정, 피루브산 산화, TCA 회로",
+  "전자 전달계와 화학 삼투",
+  "발효",
+  "광계 Ⅰ·Ⅱ와 명반응",
+  "캘빈 회로와 C₄·CAM 식물"
+ ],
+ "advice": [
+  "이 단원은 레벨1 생물Ⅱ 챕터 2~4의 핵심을 다시 정리합니다. 이미 배운 내용이 많으므로 세포 호흡과 광합성을 '전자가 어디서 와서 어디로 가는가'라는 하나의 질문으로 비교하세요. 두 과정 모두 전자 전달계와 H⁺ 농도 기울기로 ATP를 만든다는 공통점이 핵심입니다.",
+  "새로 나오는 C₄·CAM 식물은 광호흡을 피하려는 적응입니다. 루비스코가 O₂와도 반응한다는 약점과 연결해 이해하고, 옥수수·사탕수수(C₄)와 선인장(CAM)이 CO₂를 고정하는 장소나 시간을 어떻게 나누는지 비교해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "6~8장 Metabolism, Cellular Respiration, Photosynthesis"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "8~10장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "7.016 Introductory Biology (2018년 가을)",
+   "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/",
+   "lang": "영어",
+   "part": "강의 5~9 Biochemistry, Metabolism"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "산소가 충분할 때 포도당 1분자의 세포 호흡으로 얻는 ATP는 약 몇 분자일까요?",
+   "answer": "32",
+   "answer_format": "integer",
+   "tolerance": 2,
+   "explanation": "해당 과정 2 + TCA 회로 2 + 산화적 인산화 약 28\n교재에 따라 30~32",
+   "hint": "대부분 산화적 인산화에서 만들어집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "캘빈 회로에서 포도당 1분자를 만들려면 CO₂ 몇 분자를 고정해야 할까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "포도당의 탄소 6개가 모두 CO₂에서 옵니다.",
+   "hint": "포도당의 탄소 수입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "기질 농도를 충분히 높이면 극복되는 저해는 {{1}} 저해입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경쟁적"
+     ]
+    }
+   ],
+   "explanation": "저해제가 활성 부위를 두고 기질과 경쟁합니다.\n최대 속도는 변하지 않습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "세포 호흡의 전자 전달계에서 최종 전자 수용체는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산소",
+      "O2",
+      "O₂"
+     ]
+    }
+   ],
+   "explanation": "산소가 전자와 H⁺를 받아 물이 됩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u03"
+}

@@ -1,0 +1,112 @@
+{
+ "no": 11,
+ "title": "화학 열역학: 엔트로피와 자유 에너지",
+ "hours": 5,
+ "after": [
+  9
+ ],
+ "objectives": [
+  "엔트로피의 뜻과 표준 엔트로피 변화를 계산할 수 있다.",
+  "깁스 자유 에너지로 반응의 자발성을 판단할 수 있다.",
+  "ΔG°와 평형 상수의 관계를 쓸 수 있다."
+ ],
+ "checklist": [
+  "자발 과정과 열역학 제2법칙",
+  "엔트로피 S와 ΔS°rxn",
+  "깁스 자유 에너지 G = H − TS, ΔG = ΔH − TΔS",
+  "ΔH·ΔS 부호와 온도에 따른 자발성",
+  "ΔG = ΔG° + RT ln Q",
+  "ΔG° = −RT ln K"
+ ],
+ "advice": [
+  "고교 과정에서는 발열 반응이 대체로 잘 일어난다고만 배웠지만, 실제 자발성은 엔탈피와 엔트로피를 함께 고려한 깁스 자유 에너지로 결정됩니다. ΔH와 ΔS의 부호 조합 네 가지에 따라 자발성이 온도에 어떻게 의존하는지 표로 정리하세요.",
+  "ΔG° = −RT ln K는 열역학(에너지)과 평형(농도)을 잇는 가장 중요한 식입니다. K = 1일 때 ΔG° = 0이라는 것부터 확인하고, K가 크면 ΔG°가 크게 음수라는 관계를 수치로 익히세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "16장 Thermodynamics"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "Unit III 강의 17 Entropy and free energy"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "16장 Spontaneity, Entropy, and Free Energy"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "ΔH = −100 kJ, ΔS = −200 J/K인 반응의 300 K에서 ΔG는 몇 kJ일까요?",
+   "answer": "-40",
+   "answer_format": "decimal",
+   "tolerance": 0.5,
+   "explanation": "ΔG = ΔH − TΔS = −100 − 300 × (−0.2) = −40 kJ",
+   "hint": "단위를 kJ로 맞추세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "위 반응이 자발적이지 않게 되는 온도는 몇 K보다 높을 때일까요?",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "ΔG = 0: T = ΔH/ΔS = 100000 / 200 = 500 K\n500 K보다 높으면 ΔG > 0",
+   "hint": "ΔG = 0인 온도를 구하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "평형 상수 K = 1인 반응의 ΔG°는 몇 kJ/mol일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "ΔG° = −RT ln 1 = 0",
+   "hint": "ln 1 = 0입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "일정한 온도와 압력에서 자발적인 반응은 ΔG가 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "음",
+      "음수",
+      "-",
+      "−"
+     ]
+    }
+   ],
+   "explanation": "ΔG < 0이면 자발적, ΔG = 0이면 평형입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u11"
+}

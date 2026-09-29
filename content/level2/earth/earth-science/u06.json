@@ -1,0 +1,98 @@
+{
+ "no": 6,
+ "title": "대기의 구조와 복사 수지",
+ "hours": 4,
+ "after": [],
+ "objectives": [
+  "대기의 연직 구조와 층별 특징을 설명할 수 있다.",
+  "흑체 복사 법칙으로 태양과 지구 복사의 특징을 계산할 수 있다.",
+  "지구의 복사 평형과 온실 효과를 설명할 수 있다."
+ ],
+ "checklist": [
+  "대기의 조성과 연직 구조(대류권·성층권·중간권·열권)",
+  "오존층과 자외선 흡수",
+  "흑체 복사: 슈테판–볼츠만 법칙 E = σT⁴",
+  "빈의 변위 법칙 λ_max = b/T",
+  "태양 복사와 지구 복사의 파장 영역",
+  "복사 평형 온도와 온실 효과",
+  "위도별 에너지 불균형과 열 수송"
+ ],
+ "advice": [
+  "복사 법칙 두 개(슈테판–볼츠만, 빈)는 대기과학과 천문학 모두의 기초입니다. 태양(약 5800 K)과 지구(약 255~288 K)에 각각 적용해, 태양은 가시광선, 지구는 적외선을 주로 낸다는 결과를 직접 계산해 보세요.",
+  "온실 효과는 '대기가 태양 복사(가시광선)는 통과시키고 지구 복사(적외선)는 흡수해 다시 내보내는 것'으로 설명됩니다. 온실 기체가 없을 때의 복사 평형 온도(약 −18 °C)와 실제 평균 기온(약 15 °C)의 차이가 온실 효과의 크기입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Tarbuck · Lutgens · Tasa, Earth Science (장 번호는 원서 15판 기준, 번역본 『지구과학 개론』)",
+   "part": "16~17장 The Atmosphere: Composition, Structure, and Temperature"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "C. Donald Ahrens, Meteorology Today (대기 단원 보충)",
+   "part": "1~2장 Earth and Its Atmosphere, Energy: Warming and Cooling Earth"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "중위도에서 대류권의 두께는 약 몇 km일까요?",
+   "answer": "11",
+   "answer_format": "integer",
+   "tolerance": 2,
+   "explanation": "대류권 계면은 중위도에서 약 11 km입니다.\n적도에서 두껍고 극에서 얇습니다.",
+   "hint": "10 km 정도입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "흑체의 절대 온도가 2배가 되면 단위 면적당 방출 에너지는 몇 배가 될까요?",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "E = σT⁴\n2⁴ = 16배",
+   "hint": "T⁴에 비례합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "표면 온도 5800 K인 태양의 복사 에너지가 가장 강한 파장은 약 몇 nm일까요? (빈 상수 2.9 × 10⁶ nm·K)",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 20,
+   "explanation": "λ_max = 2.9 × 10⁶ / 5800 = 500 nm\n가시광선 영역",
+   "hint": "λ_max = b/T입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "온실 기체는 지구가 내보내는 {{1}} 복사를 흡수합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적외선"
+     ]
+    }
+   ],
+   "explanation": "CO₂, H₂O, CH₄ 등이 적외선을 흡수하고 다시 방출합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "earth",
+ "subject": "earth-science",
+ "id": "l2-earth-earth-science-u06"
+}

@@ -1,0 +1,107 @@
+{
+ "no": 1,
+ "title": "원자 구조와 양자역학적 모형",
+ "hours": 5,
+ "after": [],
+ "objectives": [
+  "빛의 입자성과 수소 원자 선스펙트럼으로 에너지 준위를 설명할 수 있다.",
+  "네 가지 양자수와 오비탈의 모양을 설명할 수 있다.",
+  "쌓음 원리·파울리 원리·훈트 규칙으로 전자 배치를 쓸 수 있다."
+ ],
+ "checklist": [
+  "전자기 복사와 광자 E = hν",
+  "수소 원자 스펙트럼과 보어 모형의 한계",
+  "드브로이 파장과 불확정성 원리",
+  "양자수 n, l, mₗ, mₛ와 오비탈(s, p, d, f)",
+  "쌓음 원리, 파울리 배타 원리, 훈트 규칙",
+  "전이 금속의 전자 배치(예외: Cr, Cu)"
+ ],
+ "advice": [
+  "레벨1에서 배운 보어 모형은 수소 원자에만 맞고, 다전자 원자는 오비탈 모형으로 설명해야 합니다. 양자수를 외울 때는 'n이 정해지면 l은 0부터 n − 1까지, l이 정해지면 mₗ은 −l부터 +l까지'라는 규칙에서 오비탈 개수를 직접 세어 보는 연습을 하세요.",
+  "오비탈 그림은 '전자가 도는 길'이 아니라 '전자를 발견할 확률 분포'라는 점을 기억하세요. 이 해석은 레벨3 물리화학의 양자화학 단원에서 슈뢰딩거 방정식으로 다시 나옵니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "6장 Electronic Structure and Periodic Properties of Elements 6.1~6.4절"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "Unit I The Atom (강의 1~8)"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "7장 Atomic Structure and Periodicity"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "주양자수 n = 3일 때 가능한 방위 양자수 l의 값은 몇 가지일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "l = 0, 1, 2 (3s, 3p, 3d)\n모두 3가지",
+   "hint": "l은 0부터 n − 1까지입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "3d 부껍질에 있는 오비탈은 몇 개일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "l = 2이면 mₗ = −2, −1, 0, 1, 2\n오비탈 5개",
+   "hint": "mₗ의 개수를 세세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "Fe(원자 번호 26)의 바닥상태 전자 배치 [Ar]3dˣ4s²에서 x는?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "26 − 18(Ar) − 2(4s) = 6\n[Ar]3d⁶4s²",
+   "hint": "Ar의 전자 수는 18입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "한 오비탈에는 스핀이 반대인 전자가 최대 2개까지 들어간다는 원리는 {{1}} 배타 원리입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "파울리"
+     ]
+    }
+   ],
+   "explanation": "네 양자수가 모두 같은 전자는 둘일 수 없습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u01"
+}

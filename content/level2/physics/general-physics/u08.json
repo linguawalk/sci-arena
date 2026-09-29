@@ -1,0 +1,106 @@
+{
+ "no": 8,
+ "title": "역학적 파동과 소리",
+ "hours": 4,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "파동 함수 y(x, t)에서 파장, 진동수, 속력을 읽을 수 있다.",
+  "줄의 파동 속력과 정상파 진동수를 구할 수 있다.",
+  "소리의 세기 준위와 도플러 효과를 계산할 수 있다."
+ ],
+ "checklist": [
+  "사인파 y = A sin(kx − ωt), k = 2π/λ, ω = 2πf",
+  "파동 속력 v = ω/k = fλ",
+  "줄의 파동 속력 v = √(T/μ)",
+  "중첩, 간섭, 정상파와 공명 진동수",
+  "소리의 세기와 데시벨 β = 10 log(I/I₀)",
+  "도플러 효과",
+  "맥놀이"
+ ],
+ "advice": [
+  "파동 함수 y(x, t)는 '위치 x에서 시간 t일 때의 변위'를 동시에 담고 있어 처음에는 낯섭니다. t를 고정하면 사진(파형), x를 고정하면 한 점의 진동이 된다는 두 관점을 번갈아 보는 연습을 하세요. 파동 방정식 ∂²y/∂t² = v²∂²y/∂x²는 전자기파에서 다시 나옵니다.",
+  "데시벨은 로그 눈금이라 세기가 10배가 될 때마다 10 dB씩 오릅니다. 수치 계산보다 '100배 세기 = +20 dB'처럼 감각으로 익혀 두면 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 1 (역학·파동·열역학)",
+   "url": "https://openstax.org/details/books/university-physics-volume-1",
+   "lang": "영어",
+   "part": "16~17장 Waves, Sound"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "16~17장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Physics",
+   "url": "https://www.khanacademy.org/science/physics",
+   "lang": "영어(일부 한국어)",
+   "part": "Mechanical waves and sound"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "장력 100 N, 단위 길이당 질량 0.01 kg/m인 줄에서 파동의 속력은 몇 m/s일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "v = √(T/μ) = √10000 = 100 m/s",
+   "hint": "v = √(T/μ)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "y = 0.02 sin(4x − 20t) (SI 단위)인 파동의 속력은 몇 m/s일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "k = 4, ω = 20\nv = ω/k = 5 m/s",
+   "hint": "v = ω/k입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "파동 속력 100 m/s, 길이 0.5 m인 양 끝 고정 줄의 기본 진동수는 몇 Hz일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "λ₁ = 2L = 1 m\nf₁ = v/λ₁ = 100 Hz",
+   "hint": "기본 진동에서 λ = 2L입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "소리의 세기가 100배가 되면 세기 준위는 몇 dB 커질까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Δβ = 10 log 100 = 20 dB",
+   "hint": "β = 10 log(I/I₀)입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u08"
+}

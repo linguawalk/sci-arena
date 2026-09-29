@@ -1,0 +1,120 @@
+{
+ "no": 7,
+ "title": "생명 공학과 유전체",
+ "hours": 4,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "유전자 재조합과 PCR의 원리를 설명할 수 있다.",
+  "전기 영동과 염기 서열 분석으로 DNA를 분석하는 방법을 설명할 수 있다.",
+  "유전자 편집과 유전체학의 응용과 윤리 문제를 설명할 수 있다."
+ ],
+ "checklist": [
+  "제한 효소, 플라스미드 운반체, 형질 전환",
+  "PCR과 겔 전기 영동",
+  "DNA 염기 서열 분석(생어법, 차세대 시퀀싱)",
+  "유전자 발현 분석(RT-PCR, 마이크로어레이, RNA-seq)",
+  "CRISPR–Cas9 유전자 편집",
+  "유전체학과 생물 정보학",
+  "생명 윤리"
+ ],
+ "advice": [
+  "레벨1 생물Ⅱ 챕터 7에서 배운 도구에 염기 서열 분석과 유전체학이 더해집니다. 각 기술을 '무엇을 알고 싶을 때 쓰는가'로 정리하세요. 예를 들어 '유전자가 어디서 얼마나 발현되는가'는 RNA-seq, '특정 서열이 있는가'는 PCR입니다.",
+  "차세대 시퀀싱으로 유전체 분석 비용이 크게 줄어든 것이 현대 생명과학을 어떻게 바꾸었는지(맞춤 의학, 진화 연구) 읽어 보면 레벨3 과목들의 방향이 보입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "17장 Biotechnology and Genomics"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "19~21장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "Biotechnology"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "DNA 1분자로 PCR을 10회 반복하면 이론적으로 몇 분자가 될까요?",
+   "answer": "1024",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "2¹⁰ = 1024",
+   "hint": "매번 2배입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "DNA의 특정 염기 서열을 인식해 자르는 효소를 {{1}} 효소라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "제한"
+     ]
+    }
+   ],
+   "explanation": "세균이 바이러스 DNA를 자르는 데 쓰는 효소입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "CRISPR 유전자 가위에서 DNA를 자르는 효소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Cas9"
+     ]
+    }
+   ],
+   "explanation": "가이드 RNA가 표적을 찾고 Cas9가 자릅니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "겔 전기 영동에서 DNA는 {{1}}극 쪽으로 이동합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "+",
+      "(+)",
+      "양"
+     ]
+    }
+   ],
+   "explanation": "인산기 때문에 음전하를 띱니다.\n작은 조각일수록 멀리 갑니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u07"
+}

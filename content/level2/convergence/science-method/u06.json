@@ -1,0 +1,105 @@
+{
+ "no": 6,
+ "title": "측정, 단위, 오차",
+ "hours": 4,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "SI 기본 단위와 단위 변환을 정확하게 할 수 있다.",
+  "유효숫자 규칙에 맞게 측정값과 계산 결과를 쓸 수 있다.",
+  "측정 불확도를 추정하고 계산 결과로 전파할 수 있다."
+ ],
+ "checklist": [
+  "SI 기본 단위 7개와 2019년 재정의(상수 기반)",
+  "접두어(k, M, m, μ, n)와 단위 변환",
+  "유효숫자와 반올림",
+  "정확도와 정밀도, 계통 오차와 우연 오차",
+  "평균, 표준편차, 평균의 표준 오차",
+  "불확도 전파(합: 절대 불확도, 곱: 상대 불확도)"
+ ],
+ "advice": [
+  "실험 보고서에서 가장 많이 감점되는 부분이 단위, 유효숫자, 불확도 표기입니다. 측정값은 항상 '값 ± 불확도 단위' 형태로 쓰고, 불확도는 보통 유효숫자 1~2자리로 반올림한다는 규칙을 이 단원에서 확실히 익히세요.",
+  "불확도 전파의 기본 규칙(더하고 뺄 때는 절대 불확도, 곱하고 나눌 때는 상대 불확도를 더함)만 알아도 대부분의 실험 계산을 처리할 수 있습니다. 정밀한 경우에는 제곱합의 제곱근을 쓴다는 것은 Taylor 교재에서 확인하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "John R. Taylor, An Introduction to Error Analysis (2판)",
+   "part": "1~4장"
+  },
+  {
+   "kind": "web",
+   "provider": "BIPM (국제도량형국)",
+   "title": "The International System of Units (SI Brochure)",
+   "url": "https://www.bipm.org/en/publications/si-brochure",
+   "lang": "영어·프랑스어",
+   "part": "2장 SI 기본 단위"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 1 (1장 Units and Measurement)",
+   "url": "https://openstax.org/details/books/university-physics-volume-1",
+   "lang": "영어",
+   "part": "1장 Units and Measurement"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "측정값 0.00520 m의 유효숫자는 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "앞의 0들은 자리만 나타냅니다.\n5, 2, 0의 3개",
+   "hint": "앞쪽의 0은 세지 않습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "길이 10.0 ± 0.1 cm의 상대 불확도는 몇 %일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "0.1 ÷ 10.0 × 100 = 1%",
+   "hint": "불확도 ÷ 측정값입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "상대 불확도가 1%인 가로와 2%인 세로를 곱해 넓이를 구하면 넓이의 상대 불확도는 약 몇 %일까요? (단순 합 규칙)",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "곱셈에서는 상대 불확도를 더합니다.\n1% + 2% = 3%",
+   "hint": "곱할 때는 상대 불확도를 더합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "SI 기본 단위는 모두 몇 개일까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "m, kg, s, A, K, mol, cd의 7개",
+   "hint": "길이, 질량, 시간, 전류, 온도, 물질의 양, 광도입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "convergence",
+ "subject": "science-method",
+ "id": "l2-convergence-science-method-u06"
+}

@@ -1,0 +1,117 @@
+{
+ "no": 9,
+ "title": "생물 다양성과 계통",
+ "hours": 4,
+ "after": [
+  8
+ ],
+ "objectives": [
+  "계통수를 읽고 공통 조상과 유연관계를 판단할 수 있다.",
+  "3역 체계와 주요 생물군의 특징을 설명할 수 있다.",
+  "식물과 동물의 주요 진화적 혁신을 설명할 수 있다."
+ ],
+ "checklist": [
+  "계통수, 분기학, 상동과 상사",
+  "분자 계통학과 분자 시계",
+  "3역(세균, 고세균, 진핵생물)",
+  "원생생물과 균류",
+  "식물의 육상 적응(관다발, 종자, 꽃)",
+  "동물의 체제(대칭, 배엽, 체강)와 주요 문"
+ ],
+ "advice": [
+  "생물 다양성 단원은 외울 것이 많아 보이지만, 각 생물군이 '어떤 문제를 어떤 구조로 해결했는가'라는 진화적 혁신의 흐름으로 보면 이야기로 기억됩니다. 예를 들어 식물은 물 부족(큐티클, 관다발) → 번식(종자) → 수분(꽃) 순으로 육상 환경에 적응했습니다.",
+  "계통수는 가지의 순서가 아니라 분기점(공통 조상)의 위치로 읽어야 합니다. 가지를 회전해도 같은 계통수라는 점을 확인하는 연습 문제를 꼭 풀어 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "20~29장 Phylogenies, Viruses, Prokaryotes, Protists, Fungi, Plants, Invertebrates, Vertebrates (필요한 부분만 골라 읽기)"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "26~34장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "Biodiversity and classification"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "우즈의 분류 체계에서 생물은 몇 개의 역으로 나뉠까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "세균역, 고세균역, 진핵생물역",
+   "hint": "rRNA 분석에 기반합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "rRNA 분석 결과 진핵생물과 더 가까운 원핵생물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "고세균"
+     ]
+    }
+   ],
+   "explanation": "극한 환경에 사는 원핵생물이 많습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "공통 조상에서 유래해 기본 구조가 같은 기관을 {{1}} 기관이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상동"
+     ]
+    }
+   ],
+   "explanation": "사람의 팔과 박쥐의 날개가 예입니다.\n기원이 다르고 기능이 비슷하면 상사 기관입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "관다발이 없고 포자로 번식하는 식물(이끼 등)을 {{1}}식물이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "선태"
+     ]
+    }
+   ],
+   "explanation": "가장 먼저 육상에 진출한 식물군입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u09"
+}

@@ -1,0 +1,101 @@
+{
+ "no": 8,
+ "title": "에너지 전환과 지속 가능성",
+ "hours": 4,
+ "after": [],
+ "objectives": [
+  "여러 에너지 전환 과정과 효율을 계산할 수 있다.",
+  "에너지원별 장단점을 정량적으로 비교할 수 있다.",
+  "지속 가능한 에너지 시스템의 과제를 설명할 수 있다."
+ ],
+ "checklist": [
+  "에너지 보존과 열역학 제1·2법칙의 한계",
+  "효율 = 유용한 출력 ÷ 입력",
+  "발전 방식(화력, 원자력, 수력, 태양광, 풍력)",
+  "에너지 밀도와 설비 이용률",
+  "에너지 저장(전지, 양수 발전, 수소)",
+  "탄소 배출과 에너지 전환 정책"
+ ],
+ "advice": [
+  "에너지 문제는 감정이 아니라 숫자로 논의해야 합니다. MacKay의 책처럼 '1인당 하루 몇 kWh'라는 공통 단위로 소비와 생산을 비교하면, 어떤 대안이 실제 규모를 채울 수 있는지 스스로 판단할 수 있습니다.",
+  "모든 에너지 전환에는 손실이 있고 열로 흩어진 에너지는 다시 쓰기 어렵다는 제2법칙의 제약을 기억하세요. 발전소 효율, 전기차와 내연기관차의 효율 비교처럼 생활 속 예로 계산해 보면 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "UIT Cambridge (저자 공개 무료본)",
+   "title": "David J. C. MacKay, Sustainable Energy – without the hot air",
+   "url": "https://www.withouthotair.com/",
+   "lang": "영어",
+   "part": "1~4장, 18장 Better planning 이후 요약 장"
+  },
+  {
+   "kind": "web",
+   "provider": "IPCC",
+   "title": "제6차 평가 보고서 종합 보고서(AR6 Synthesis Report)",
+   "url": "https://www.ipcc.ch/report/ar6/syr/",
+   "lang": "영어(기상청 한국어 번역본 있음)",
+   "part": "정책 결정자용 요약 C절 (완화 경로)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "100 J의 전기 에너지를 받아 30 J의 빛에너지를 내는 전등의 효율은 몇 %일까요?",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "30 ÷ 100 × 100 = 30%\n나머지 70 J는 주로 열이 됩니다.",
+   "hint": "출력 ÷ 입력입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "효율 40%인 화력 발전소에 연료 에너지 1000 MJ를 공급하면 얻는 전기 에너지는 몇 MJ일까요?",
+   "answer": "400",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "1000 × 0.4 = 400 MJ",
+   "hint": "입력 × 효율입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "에너지는 형태가 바뀌어도 전체 양이 보존된다는 법칙은 열역학 제{{1}}법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1"
+     ]
+    }
+   ],
+   "explanation": "제2법칙은 에너지 전환의 방향(엔트로피 증가)을 다룹니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "지구 대기 바깥에서 태양 광선에 수직인 면이 받는 태양 복사(태양 상수)는 약 몇 W/m²일까요?",
+   "answer": "1360",
+   "answer_format": "integer",
+   "tolerance": 20,
+   "explanation": "약 1361 W/m²\n지표에 도달하는 양은 이보다 작습니다.",
+   "hint": "1000을 조금 넘습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "convergence",
+ "subject": "science-method",
+ "id": "l2-convergence-science-method-u08"
+}

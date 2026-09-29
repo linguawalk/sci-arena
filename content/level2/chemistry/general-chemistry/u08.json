@@ -1,0 +1,110 @@
+{
+ "no": 8,
+ "title": "반응 속도론",
+ "hours": 5,
+ "after": [
+  7
+ ],
+ "objectives": [
+  "초기 속도법으로 속도 법칙과 반응 차수를 정할 수 있다.",
+  "적분 속도식으로 농도의 시간 변화와 반감기를 계산할 수 있다.",
+  "아레니우스 식으로 활성화 에너지와 온도의 영향을 계산할 수 있다."
+ ],
+ "checklist": [
+  "속도 법칙 rate = k[A]ᵐ[B]ⁿ",
+  "초기 속도법",
+  "0·1·2차 적분 속도식과 직선 그래프",
+  "반감기 (1차: t½ = 0.693/k)",
+  "충돌 이론과 활성화 에너지",
+  "아레니우스 식 k = Ae^(−Ea/RT)",
+  "반응 메커니즘과 속도 결정 단계, 촉매"
+ ],
+ "advice": [
+  "적분 속도식은 1차 반응 d[A]/dt = −k[A]를 적분해 ln[A] = ln[A]₀ − kt를 얻는 과정을 직접 해 보는 것이 중요합니다. 실험 자료에서 어떤 그래프(ln[A] 대 t, 1/[A] 대 t)가 직선이 되는지로 차수를 판정하는 방법을 익히세요.",
+  "아레니우스 식에서 온도가 조금만 올라도 속도 상수가 크게 변하는 이유를 수치로 확인해 보세요. 10 °C 오를 때 속도가 약 2배가 된다는 경험 규칙이 활성화 에너지 약 50 kJ/mol에 해당한다는 것을 계산할 수 있으면 충분합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "12장 Kinetics"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "Unit V Kinetics (강의 32~35)"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "11장 Chemical Kinetics"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "[A]를 2배로 했더니 처음 속도가 4배가 되었습니다. A에 대한 반응 차수는?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "2ᵐ = 4\nm = 2",
+   "hint": "2의 몇 제곱이 4일까요?",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "속도 상수 0.0693 s⁻¹인 1차 반응의 반감기는 몇 초일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "t½ = 0.693 / k = 10 s",
+   "hint": "t½ = 0.693/k입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "활성화 에너지가 50 kJ/mol인 반응을 300 K에서 310 K로 올리면 속도 상수는 약 몇 배가 될까요? (R = 8.314 J/(mol·K))",
+   "answer": "1.91",
+   "answer_format": "decimal",
+   "tolerance": 0.03,
+   "explanation": "k₂/k₁ = exp[(Ea/R)(1/T₁ − 1/T₂)]\n= exp[6014 × 1.075 × 10⁻⁴] ≈ e^0.647 ≈ 1.91",
+   "hint": "아레니우스 식의 두 온도 형태를 쓰세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "촉매는 반응의 {{1}}를 낮추어 반응 속도를 빠르게 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "활성화 에너지"
+     ]
+    }
+   ],
+   "explanation": "새로운 반응 경로를 제공합니다.\nΔH와 평형 상수는 바꾸지 않습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u08"
+}

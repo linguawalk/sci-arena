@@ -1,0 +1,222 @@
+{
+ "schema_version": "1.0",
+ "levels": {
+  "2": "대학 일반과학 (전문대졸·대학 1학년 수준)",
+  "3": "전공 핵심 (대졸·학부 전공 수준)"
+ },
+ "validation": {
+  "2": "대학 일반물리·일반화학·일반생물·지구과학개론 표준 교재의 목차",
+  "3": "학부 전공필수 과목 구성과 중등교사 임용시험(물리·화학·생물·지구과학) 과목 구성"
+ },
+ "tracks": [
+  {
+   "id": "physics",
+   "title": "물리",
+   "note": "미적분 기반 일반물리에서 시작해 역학·전자기학·양자역학으로 나아갑니다.",
+   "subjects": [
+    {
+     "level": 2,
+     "id": "general-physics",
+     "title": "일반물리",
+     "available": true
+    },
+    {
+     "level": 3,
+     "id": "classical-mechanics",
+     "title": "고전역학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "electromagnetism",
+     "title": "전자기학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "thermal-statistical",
+     "title": "열·통계물리",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "waves-optics",
+     "title": "파동·광학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "quantum-mechanics",
+     "title": "양자역학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "modern-physics",
+     "title": "상대성이론과 현대물리",
+     "available": false
+    }
+   ]
+  },
+  {
+   "id": "chemistry",
+   "title": "화학",
+   "note": "원자 구조와 결합에서 시작해 물리·유기·무기·분석화학의 네 기둥으로 나뉩니다.",
+   "subjects": [
+    {
+     "level": 2,
+     "id": "general-chemistry",
+     "title": "일반화학",
+     "available": true
+    },
+    {
+     "level": 3,
+     "id": "physical-chemistry",
+     "title": "물리화학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "organic-chemistry",
+     "title": "유기화학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "inorganic-chemistry",
+     "title": "무기화학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "analytical-chemistry",
+     "title": "분석화학",
+     "available": false
+    }
+   ]
+  },
+  {
+   "id": "biology",
+   "title": "생명과학",
+   "note": "분자에서 생태계까지. 세포·분자와 유전학을 먼저 공부하면 나머지가 쉬워집니다.",
+   "subjects": [
+    {
+     "level": 2,
+     "id": "general-biology",
+     "title": "일반생물",
+     "available": true
+    },
+    {
+     "level": 3,
+     "id": "cell-molecular",
+     "title": "세포·분자생물학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "genetics",
+     "title": "유전학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "physiology",
+     "title": "생리학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "ecology-evolution",
+     "title": "생태학과 진화",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "microbiology",
+     "title": "미생물학",
+     "available": false
+    }
+   ]
+  },
+  {
+   "id": "earth",
+   "title": "지구과학",
+   "note": "고체 지구, 대기, 해양, 우주의 네 분야. 물리·화학 레벨2와 함께 공부하면 좋습니다.",
+   "subjects": [
+    {
+     "level": 2,
+     "id": "earth-science",
+     "title": "지구과학개론",
+     "available": true
+    },
+    {
+     "level": 3,
+     "id": "geology",
+     "title": "지질학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "atmospheric-science",
+     "title": "대기과학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "oceanography",
+     "title": "해양학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "astronomy",
+     "title": "천문학",
+     "available": false
+    }
+   ]
+  },
+  {
+   "id": "convergence",
+   "title": "융합",
+   "note": "분과를 가로지르는 주제. 레벨2는 과학의 방법, 레벨3은 분과가 만나는 응용 분야입니다.",
+   "subjects": [
+    {
+     "level": 2,
+     "id": "science-method",
+     "title": "과학사와 과학의 방법",
+     "available": true
+    },
+    {
+     "level": 3,
+     "id": "biochemistry",
+     "title": "생화학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "environment-climate",
+     "title": "환경·기후과학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "materials-science",
+     "title": "재료과학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "biotechnology",
+     "title": "생명공학",
+     "available": false
+    },
+    {
+     "level": 3,
+     "id": "astrophysics",
+     "title": "천체물리",
+     "available": false
+    }
+   ]
+  }
+ ]
+}

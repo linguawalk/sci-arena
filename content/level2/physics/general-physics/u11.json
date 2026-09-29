@@ -1,0 +1,110 @@
+{
+ "no": 11,
+ "title": "자기장, 전자기 유도, 맥스웰 방정식",
+ "hours": 6,
+ "after": [
+  10
+ ],
+ "objectives": [
+  "비오–사바르 법칙과 앙페르 법칙으로 자기장을 계산할 수 있다.",
+  "패러데이 법칙으로 유도 기전력을 계산할 수 있다.",
+  "맥스웰 방정식 네 개의 의미와 전자기파의 탄생을 설명할 수 있다."
+ ],
+ "checklist": [
+  "로런츠 힘 F = qv × B, 전류가 받는 힘",
+  "비오–사바르 법칙",
+  "앙페르 법칙 ∮B·dl = μ₀I",
+  "직선 도선 B = μ₀I/(2πr), 솔레노이드 B = μ₀nI",
+  "패러데이 법칙 ε = −dΦ_B/dt와 렌츠 법칙",
+  "인덕턴스, RL·LC 회로",
+  "변위 전류와 맥스웰 방정식, 전자기파의 속력 c = 1/√(μ₀ε₀)"
+ ],
+ "advice": [
+  "이 단원은 일반물리의 정점입니다. 네 개의 맥스웰 방정식(가우스 법칙 두 개, 패러데이 법칙, 앙페르–맥스웰 법칙)을 적분형으로 한 장에 정리하고, 각각이 어떤 실험 사실을 요약하는지 적어 보세요. 맥스웰이 변위 전류를 추가하자 빛이 전자기파라는 결론이 나왔다는 흐름을 따라가면 전자기학 전체가 하나로 보입니다.",
+  "앙페르 법칙은 가우스 법칙의 자기장 버전입니다. 대칭성이 있는 경우에만 쉽게 쓸 수 있다는 점까지 같습니다. 두 법칙을 나란히 놓고 비교하면서 공부하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 2 (열역학·전기·자기)",
+   "url": "https://openstax.org/details/books/university-physics-volume-2",
+   "lang": "영어",
+   "part": "11~16장 Magnetic Forces and Fields, Sources of Magnetic Fields, Electromagnetic Induction, Inductance, AC Circuits, Electromagnetic Waves"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.02 Physics II: Electricity and Magnetism (2007년 봄)",
+   "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/",
+   "lang": "영어",
+   "part": "11~28강"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "28~33장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "10 A가 흐르는 긴 직선 도선에서 0.1 m 떨어진 곳의 자기장은 몇 μT일까요? (μ₀ = 4π × 10⁻⁷ T·m/A)",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "B = μ₀I/(2πr) = 4π × 10⁻⁷ × 10 / (2π × 0.1) = 2 × 10⁻⁵ T = 20 μT",
+   "hint": "앙페르 법칙의 결과입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "단위 길이당 1000회 감은 솔레노이드에 2 A가 흐를 때 내부 자기장은 약 몇 mT일까요? (μ₀ = 4π × 10⁻⁷ T·m/A)",
+   "answer": "2.51",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "explanation": "B = μ₀nI = 4π × 10⁻⁷ × 1000 × 2 ≈ 2.51 × 10⁻³ T",
+   "hint": "B = μ₀nI입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "세기 0.5 T의 자기장 속에서 길이 0.2 m 도체 막대가 자기장에 수직으로 10 m/s로 움직입니다. 유도 기전력은 몇 V일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "ε = BLv = 0.5 × 0.2 × 10 = 1 V",
+   "hint": "ε = BLv입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "맥스웰은 앙페르 법칙에 시간에 따라 변하는 전기장이 만드는 {{1}} 전류 항을 더해 전자기파를 예측했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "변위"
+     ]
+    }
+   ],
+   "explanation": "변위 전류 ε₀ dΦ_E/dt입니다.\n이 항 덕분에 파동 방정식이 나오고 속력이 c = 1/√(μ₀ε₀)가 됩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u11"
+}

@@ -1,0 +1,116 @@
+{
+ "no": 3,
+ "title": "화학 결합과 분자 구조",
+ "hours": 5,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "루이스 구조와 형식 전하, 공명 구조를 그릴 수 있다.",
+  "VSEPR 이론으로 분자 모양과 결합각을 예측할 수 있다.",
+  "혼성 오비탈로 결합을 설명할 수 있다."
+ ],
+ "checklist": [
+  "이온 결합과 격자 에너지",
+  "공유 결합, 루이스 구조, 옥텟 규칙과 예외",
+  "형식 전하와 공명",
+  "VSEPR: 전자 영역 수와 분자 모양",
+  "쌍극자 모멘트와 분자의 극성",
+  "sp, sp², sp³ 혼성과 σ·π 결합"
+ ],
+ "advice": [
+  "레벨1에서는 전자쌍 반발로 모양만 예측했지만, 대학에서는 혼성 오비탈로 '왜 그 방향으로 결합하는가'까지 설명합니다. 분자를 받으면 루이스 구조 → 전자 영역 수 → 혼성 → 모양 → 극성의 순서로 매번 같은 절차를 밟으세요.",
+  "공명 구조는 분자가 여러 구조 사이를 오가는 것이 아니라 실제 구조가 그 평균이라는 뜻입니다. 벤젠이나 탄산 이온에서 결합 길이가 모두 같은 이유를 공명으로 설명해 보면 개념이 분명해집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "7장 Chemical Bonding and Molecular Geometry, 8장 8.1~8.3절 Advanced Theories of Bonding"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "Unit II Chemical Bonding (강의 9~14)"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "8~9장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "CO₂ 분자의 모양은 {{1}}형입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "직선",
+      "선"
+     ]
+    }
+   ],
+   "explanation": "중심 C에 전자 영역 2개(이중 결합 2개)\n180°의 직선형",
+   "hint": "중심 원자의 전자 영역 수를 세세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "NH₃의 H–N–H 결합각은 약 몇 °일까요?",
+   "answer": "107",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "전자 영역 4개(정사면체 109.5°) 중 비공유 전자쌍 1개\n반발이 커서 약 107°",
+   "hint": "정사면체보다 조금 작습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "CH₄에서 C 원자의 혼성 오비탈은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "sp3",
+      "sp³"
+     ]
+    }
+   ],
+   "explanation": "전자 영역 4개 → sp³ 혼성\n109.5°의 정사면체",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "벤젠(C₆H₆)의 주된 공명 구조(케쿨레 구조)는 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "단일·이중 결합의 위치가 다른 두 구조\n실제 결합 길이는 모두 같습니다.",
+   "hint": "이중 결합의 배치를 바꿔 보세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u03"
+}

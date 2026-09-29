@@ -1,0 +1,107 @@
+{
+ "no": 1,
+ "title": "미적분으로 보는 운동학",
+ "hours": 5,
+ "after": [],
+ "objectives": [
+  "위치·속도·가속도를 미분과 적분으로 서로 바꿀 수 있다.",
+  "2·3차원 운동을 벡터 성분으로 나누어 분석할 수 있다.",
+  "상대 운동과 포물선 운동을 일반적인 경우로 풀 수 있다."
+ ],
+ "checklist": [
+  "속도 v = dx/dt, 가속도 a = dv/dt",
+  "적분으로 위치 복원: x(t) = x₀ + ∫v dt",
+  "위치 벡터 r(t)와 성분별 미분",
+  "포물선 운동: 수평 등속 + 연직 등가속",
+  "등속 원운동의 구심 가속도 v²/r",
+  "상대 속도의 벡터 합"
+ ],
+ "advice": [
+  "레벨1에서는 등가속도 공식(v = v₀ + at 등)을 외워서 썼지만, 대학에서는 가속도가 시간에 따라 변하는 경우까지 다룹니다. 공식이 필요할 때마다 '가속도를 적분하면 속도, 속도를 적분하면 위치'라는 관계에서 직접 유도해 보세요. 등가속도 공식이 이 적분의 특별한 경우라는 것을 확인하면 이후 모든 단원이 쉬워집니다.",
+  "2·3차원 운동은 항상 성분별로 나누어 따로 풀고 마지막에 합칩니다. 벡터 기호와 크기를 섞어 쓰는 실수가 많으니, 식을 쓸 때 벡터인지 크기인지 구별하는 습관을 들이세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 1 (역학·파동·열역학)",
+   "url": "https://openstax.org/details/books/university-physics-volume-1",
+   "lang": "영어",
+   "part": "2~4장 Vectors, Motion Along a Straight Line, Motion in Two and Three Dimensions"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.01SC Classical Mechanics (2016년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/",
+   "lang": "영어",
+   "part": "Week 1 Kinematics"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "2~4장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "x(t) = t³ − 6t² (m)인 물체의 t = 3 s일 때 속도는 몇 m/s일까요?",
+   "answer": "-9",
+   "answer_format": "decimal",
+   "tolerance": 0,
+   "explanation": "v = dx/dt = 3t² − 12t\nt = 3이면 27 − 36 = −9 m/s",
+   "hint": "x를 t로 미분하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "위 물체의 t = 3 s일 때 가속도는 몇 m/s²일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "a = dv/dt = 6t − 12\nt = 3이면 6 m/s²",
+   "hint": "v를 한 번 더 미분하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "20 m/s로 수평면과 30°로 던진 물체의 수평 도달 거리는 약 몇 m일까요? (g = 10 m/s²)",
+   "answer": "34.6",
+   "answer_format": "decimal",
+   "tolerance": 0.2,
+   "explanation": "R = v₀² sin 2θ / g = 400 × sin 60° / 10\n≈ 400 × 0.866 / 10 ≈ 34.6 m",
+   "hint": "R = v₀² sin 2θ / g입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "가속도를 시간에 대해 {{1}}하면 속도의 변화량을 얻습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적분"
+     ]
+    }
+   ],
+   "explanation": "Δv = ∫a dt\n그래프에서는 a–t 그래프 아래 넓이입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u01"
+}

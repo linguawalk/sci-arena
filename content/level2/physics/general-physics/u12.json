@@ -1,0 +1,107 @@
+{
+ "no": 12,
+ "title": "광학과 현대물리 입문",
+ "hours": 6,
+ "after": [
+  8,
+  11
+ ],
+ "objectives": [
+  "간섭과 회절 무늬의 위치를 계산할 수 있다.",
+  "광전 효과와 물질파로 빛과 물질의 이중성을 설명할 수 있다.",
+  "보어 모형으로 수소 원자의 에너지 준위를 계산할 수 있다."
+ ],
+ "checklist": [
+  "반사·굴절과 스넬 법칙, 렌즈 공식",
+  "이중 슬릿 간섭 d sin θ = mλ, 단일 슬릿 회절",
+  "광자 E = hf와 광전 효과",
+  "콤프턴 산란",
+  "물질파 λ = h/p",
+  "보어 모형 Eₙ = −13.6 eV/n²",
+  "특수 상대성이론 입문(시간 지연, E = mc²)"
+ ],
+ "advice": [
+  "이 단원은 고전 물리의 한계와 현대물리의 출발점을 보여 줍니다. 빛은 간섭하는 파동인데 광전 효과에서는 입자처럼 행동하고, 전자는 입자인데 회절한다는 모순을 정리해 두세요. 레벨3 양자역학은 이 모순을 해결하는 이론입니다.",
+  "계산에서는 hc = 1240 eV·nm 같은 편리한 조합을 쓰면 단위 변환 실수가 크게 줄어듭니다. 레벨1 물리Ⅱ 챕터 7·8과 겹치는 부분은 빠르게 복습하고, 수식 유도가 필요한 간섭 조건과 보어 모형에 시간을 쓰세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 3 (광학·현대물리)",
+   "url": "https://openstax.org/details/books/university-physics-volume-3",
+   "lang": "영어",
+   "part": "1~4장 Nature of Light, Geometric Optics, Interference, Diffraction, 5~8장 Relativity, Photons and Matter Waves, Atomic Structure"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "33~39장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Physics",
+   "url": "https://www.khanacademy.org/science/physics",
+   "lang": "영어(일부 한국어)",
+   "part": "Quantum physics"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "파장 500 nm의 빛으로 슬릿 간격 0.1 mm, 스크린 거리 1 m인 이중 슬릿 실험을 하면 밝은 무늬 간격은 몇 mm일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Δy = Lλ/d = 1 × 5 × 10⁻⁷ / 10⁻⁴ = 5 × 10⁻³ m = 5 mm",
+   "hint": "Δy = Lλ/d입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "파장 620 nm인 광자의 에너지는 몇 eV일까요? (hc = 1240 eV·nm)",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "E = 1240 / 620 = 2 eV",
+   "hint": "E = hc/λ입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "보어 모형에서 수소 원자의 n = 2 에너지 준위는 몇 eV일까요?",
+   "answer": "-3.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "Eₙ = −13.6 / n² = −13.6 / 4 = −3.4 eV",
+   "hint": "Eₙ = −13.6/n² eV입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "일함수 2.3 eV인 금속에 파장 400 nm의 빛을 비추면 광전자의 최대 운동 에너지는 몇 eV일까요? (hc = 1240 eV·nm)",
+   "answer": "0.8",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "explanation": "광자 에너지 = 1240/400 = 3.1 eV\nEₖ = 3.1 − 2.3 = 0.8 eV",
+   "hint": "Eₖ = hf − W입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u12"
+}

@@ -1,0 +1,119 @@
+{
+ "no": 13,
+ "title": "유기화학 입문",
+ "hours": 4,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "탄화수소와 주요 작용기를 구별하고 이름을 붙일 수 있다.",
+  "구조 이성질체와 입체 이성질체를 구별할 수 있다.",
+  "대표적인 유기 반응(첨가, 치환, 산화)의 예를 들 수 있다."
+ ],
+ "checklist": [
+  "알케인·알켄·알카인과 방향족 탄화수소",
+  "IUPAC 명명법 기초",
+  "작용기: 알코올, 알데하이드, 케톤, 카복실산, 에스터, 아민",
+  "구조 이성질체와 기하 이성질체(cis/trans)",
+  "카이랄성과 거울상 이성질체",
+  "첨가·치환·산화·축합 반응",
+  "고분자(첨가 중합, 축합 중합)"
+ ],
+ "advice": [
+  "이 단원은 레벨3 유기화학의 예고편입니다. 작용기의 이름과 구조를 카드로 만들어 외우고, 분자식이 같아도 구조가 다르면 성질이 달라진다는 이성질체 개념을 여러 예로 확인하세요.",
+  "카이랄성은 생명과학(아미노산, 약물)과 바로 연결되는 중요한 개념입니다. 탄소 하나에 서로 다른 네 원자단이 붙어 있는지로 카이랄 중심을 찾는 연습을 하고, 손과 장갑의 비유로 거울상 이성질체를 설명할 수 있으면 충분합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "20장 Organic Chemistry"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "22장 Organic and Biological Molecules"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Chemistry",
+   "url": "https://www.khanacademy.org/science/chemistry",
+   "lang": "영어(일부 한국어)",
+   "part": "Organic chemistry (입문 단원)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "C₄H₁₀의 구조 이성질체는 몇 가지일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "뷰테인(곧은 사슬)과 2-메틸프로페인(가지 사슬)\n2가지",
+   "hint": "곧은 사슬과 가지 사슬을 그려 보세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "−OH 작용기를 가진 탄화수소 유도체를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "알코올"
+     ]
+    }
+   ],
+   "explanation": "에탄올 CH₃CH₂OH가 대표적입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "에탄올을 산화하면 아세트알데하이드를 거쳐 {{1}}인 아세트산이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "카복실산"
+     ]
+    }
+   ],
+   "explanation": "−CHO가 −COOH로 산화됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "거울상과 겹쳐지지 않는 분자의 성질을 {{1}}성이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "카이랄",
+      "키랄"
+     ]
+    }
+   ],
+   "explanation": "탄소에 서로 다른 네 원자단이 붙으면 카이랄 중심이 됩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u13"
+}

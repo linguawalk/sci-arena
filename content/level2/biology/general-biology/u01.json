@@ -1,0 +1,117 @@
+{
+ "no": 1,
+ "title": "생명의 화학",
+ "hours": 4,
+ "after": [],
+ "objectives": [
+  "물의 성질을 수소 결합으로 설명할 수 있다.",
+  "네 가지 생체 고분자의 단위체와 결합을 구별할 수 있다.",
+  "단백질 구조의 4단계를 설명할 수 있다."
+ ],
+ "checklist": [
+  "원소, 화학 결합, 수소 결합",
+  "물의 성질(높은 비열, 응집력, 용매)과 pH",
+  "탄소 골격과 작용기",
+  "탄수화물, 지질, 단백질, 핵산의 단위체",
+  "탈수 축합과 가수 분해",
+  "단백질 구조 1~4차와 변성"
+ ],
+ "advice": [
+  "생명과학을 공부하다 막히는 지점의 상당수는 화학입니다. 이 단원에서 수소 결합, 극성, 작용기를 확실히 익혀 두면 효소, 막, DNA 구조가 모두 쉬워집니다. 생체 고분자마다 '단위체 – 결합 이름 – 대표 예 – 기능'을 표로 정리하세요.",
+  "단백질의 4단계 구조는 뒤의 효소, 막 단백질, 헤모글로빈, 항체 단원에서 계속 나옵니다. 아미노산 서열(1차 구조)이 결국 모양과 기능을 결정한다는 흐름을 기억하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "2~3장 The Chemical Foundation of Life, Biological Macromolecules"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "2~5장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "7.016 Introductory Biology (2018년 가을)",
+   "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/",
+   "lang": "영어",
+   "part": "강의 1~4 Chemistry of life"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "물의 높은 비열과 응집력은 물 분자 사이의 {{1}} 결합 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소"
+     ]
+    }
+   ],
+   "explanation": "극성 분자 사이의 수소 결합을 끊는 데 에너지가 필요합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "단백질을 이루는 기본 아미노산은 몇 종류일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "생물체 단백질은 20종의 아미노산으로 만들어집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "아미노산 두 개가 물 한 분자를 내놓으며 결합하는 반응을 {{1}} 반응이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "탈수 축합",
+      "탈수축합",
+      "축합"
+     ]
+    }
+   ],
+   "explanation": "이때 생기는 결합이 펩타이드 결합입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "DNA를 이루는 당은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "디옥시리보스",
+      "데옥시리보스"
+     ]
+    }
+   ],
+   "explanation": "RNA의 리보스보다 산소가 하나 적습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u01"
+}

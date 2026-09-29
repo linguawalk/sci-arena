@@ -1,0 +1,106 @@
+{
+ "no": 10,
+ "title": "전위, 축전기, 직류 회로",
+ "hours": 5,
+ "after": [
+  9
+ ],
+ "objectives": [
+  "전기장과 전위의 관계 V = −∫E·dl을 적용할 수 있다.",
+  "축전기의 전기 용량과 에너지를 계산할 수 있다.",
+  "키르히호프 법칙과 RC 회로의 시간 변화를 분석할 수 있다."
+ ],
+ "checklist": [
+  "전위 V = −∫E·dl, E = −∇V",
+  "점전하의 전위 kq/r, 등전위면",
+  "전기 용량 C = Q/V, 평행판 C = ε₀A/d",
+  "축전기 에너지 ½CV²와 전기장 에너지 밀도",
+  "전류, 저항, 옴의 법칙, 전력",
+  "키르히호프 법칙",
+  "RC 회로: 충전 q = CE(1 − e^(−t/RC))"
+ ],
+ "advice": [
+  "전기장과 전위의 관계는 힘과 퍼텐셜 에너지의 관계(F = −dU/dx)와 똑같습니다. 3단원의 내용을 떠올리며, 전위는 스칼라라서 여러 전하의 전위를 단순히 더할 수 있어 전기장보다 계산이 쉬운 경우가 많다는 점을 활용하세요.",
+  "RC 회로의 충전·방전은 이 과목에서 처음 만나는 1차 미분방정식 회로입니다. 시간 상수 τ = RC가 지나면 약 63% 충전된다는 것을 직접 유도하고, 반감기 개념과 비교해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 2 (열역학·전기·자기)",
+   "url": "https://openstax.org/details/books/university-physics-volume-2",
+   "lang": "영어",
+   "part": "7~10장 Electric Potential, Capacitance, Current and Resistance, Direct-Current Circuits"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.02 Physics II: Electricity and Magnetism (2007년 봄)",
+   "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/",
+   "lang": "영어",
+   "part": "5~10강"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "24~27장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "2 × 10⁻⁹ C의 점전하에서 0.6 m 떨어진 곳의 전위는 몇 V일까요? (k = 9 × 10⁹ N·m²/C²)",
+   "answer": "30",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "V = kq/r = 18 / 0.6 = 30 V",
+   "hint": "V = kq/r입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "2 μF 축전기에 10 V를 걸었을 때 저장된 에너지는 몇 μJ일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "U = ½CV² = ½ × 2 × 10⁻⁶ × 100 = 1 × 10⁻⁴ J = 100 μJ",
+   "hint": "½CV²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "저항 1 kΩ, 전기 용량 1 mF인 RC 회로의 시간 상수는 몇 초일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "τ = RC = 1000 × 0.001 = 1 s",
+   "hint": "τ = RC입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "3 Ω과 6 Ω을 병렬로 연결하고 12 V 전지를 연결했을 때 전지에서 나오는 전류는 몇 A일까요? (내부 저항 무시)",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "합성 저항 = 3 × 6 / 9 = 2 Ω\nI = 12 / 2 = 6 A",
+   "hint": "병렬 합성 저항부터 구하세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u10"
+}

@@ -1,0 +1,105 @@
+{
+ "no": 12,
+ "title": "전기화학",
+ "hours": 5,
+ "after": [
+  11
+ ],
+ "objectives": [
+  "표준 환원 전위로 전지의 표준 기전력을 계산할 수 있다.",
+  "기전력과 자유 에너지·평형 상수의 관계를 쓸 수 있다.",
+  "네른스트 식과 패러데이 법칙을 적용할 수 있다."
+ ],
+ "checklist": [
+  "갈바니 전지와 선 표기법",
+  "표준 환원 전위와 E°cell",
+  "ΔG° = −nFE°, E° = (RT/nF) ln K",
+  "네른스트 식 E = E° − (0.0592/n) log Q (25 °C)",
+  "농도차 전지, 실용 전지, 부식",
+  "전기 분해와 패러데이 법칙"
+ ],
+ "advice": [
+  "이 단원은 11단원 열역학과 레벨1 화학Ⅱ 챕터 8을 잇습니다. ΔG° = −nFE°를 쓰면 전지의 전압이 곧 반응의 자발성이라는 것이 분명해집니다. E°, ΔG°, K 세 값이 모두 같은 정보를 다른 형태로 담고 있다는 삼각형 그림을 그려 두세요.",
+  "네른스트 식은 농도가 표준 상태가 아닐 때 전압을 구하는 식으로, pH 측정기와 신경 세포 막전위의 원리이기도 합니다. log Q의 방향(생성물/반응물)을 틀리지 않도록 주의하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "17장 Electrochemistry"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "강의 26~30 Oxidation-reduction, Electrochemical cells"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "17장 Electrochemistry"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "Zn²⁺/Zn −0.76 V, Cu²⁺/Cu +0.34 V일 때 다니엘 전지의 표준 기전력은 몇 V일까요?",
+   "answer": "1.1",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "E° = 0.34 − (−0.76) = 1.10 V",
+   "hint": "E°(환원 전극) − E°(산화 전극)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "위 전지(n = 2)의 ΔG°는 약 몇 kJ일까요? (F = 96485 C/mol)",
+   "answer": "-212",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "explanation": "ΔG° = −nFE° = −2 × 96485 × 1.10 ≈ −212 000 J ≈ −212 kJ",
+   "hint": "ΔG° = −nFE°입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "위 전지에서 Q = 100일 때 25 °C의 기전력은 약 몇 V일까요?",
+   "answer": "1.04",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "explanation": "E = 1.10 − (0.0592/2) log 100 = 1.10 − 0.0592 ≈ 1.04 V",
+   "hint": "네른스트 식을 쓰세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "Cu²⁺ 수용액에 2 F(패러데이)의 전하를 흘리면 석출되는 구리는 몇 mol일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Cu²⁺ + 2e⁻ → Cu\n전자 2 mol당 Cu 1 mol",
+   "hint": "Cu²⁺는 전자 2개가 필요합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u12"
+}

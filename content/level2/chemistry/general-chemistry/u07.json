@@ -1,0 +1,105 @@
+{
+ "no": 7,
+ "title": "열화학",
+ "hours": 4,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "열량계 측정으로 반응열을 구할 수 있다.",
+  "헤스 법칙과 표준 생성 엔탈피로 반응 엔탈피를 계산할 수 있다.",
+  "결합 엔탈피로 반응열을 추정할 수 있다."
+ ],
+ "checklist": [
+  "계와 주위, 내부 에너지와 엔탈피",
+  "열용량과 열량계(q = mcΔT, 봄베 열량계)",
+  "헤스 법칙",
+  "표준 생성 엔탈피 ΔH°f",
+  "ΔH°rxn = ΣΔH°f(생성물) − ΣΔH°f(반응물)",
+  "결합 엔탈피"
+ ],
+ "advice": [
+  "이 단원은 레벨1 화학Ⅱ 챕터 4와 거의 같으므로 빠르게 복습하되, 부호 규약(계가 열을 흡수하면 q > 0)과 ΔU와 ΔH의 차이(PV 일)를 확실히 정리하세요. 이 구분은 11단원 열역학과 레벨3 물리화학에서 계속 쓰입니다.",
+  "생성 엔탈피 표를 쓰는 계산이 가장 많이 나옵니다. 홑원소 물질의 ΔH°f가 0이고, 물의 상태(l, g)에 따라 값이 다르다는 점에서 자주 실수하니 반응식의 상태 표시를 꼭 확인하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "5장 Thermochemistry"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "Unit III Thermodynamics (강의 15~16)"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "6장 Thermochemistry"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "물 100 g의 온도가 5 °C 올라갈 때 흡수한 열은 몇 J일까요? (물의 비열 4.18 J/(g·°C))",
+   "answer": "2090",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "q = mcΔT = 100 × 4.18 × 5 = 2090 J",
+   "hint": "q = mcΔT입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "C + O₂ → CO₂의 ΔH가 −394 kJ, CO + ½O₂ → CO₂의 ΔH가 −283 kJ일 때 C + ½O₂ → CO의 ΔH는 몇 kJ일까요?",
+   "answer": "-111",
+   "answer_format": "decimal",
+   "tolerance": 0.5,
+   "explanation": "첫째 식 − 둘째 식\n−394 − (−283) = −111 kJ",
+   "hint": "헤스 법칙입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "ΔH°f가 CH₄ −75, CO₂ −394, H₂O(l) −286 kJ/mol일 때 CH₄의 연소 엔탈피는 몇 kJ/mol일까요?",
+   "answer": "-891",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "explanation": "[−394 + 2(−286)] − (−75) = −891 kJ/mol",
+   "hint": "생성물 합 − 반응물 합입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "결합 엔탈피가 H–H 436, Cl–Cl 242, H–Cl 431 kJ/mol일 때 H₂ + Cl₂ → 2HCl의 ΔH는 약 몇 kJ일까요?",
+   "answer": "-184",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "explanation": "(436 + 242) − 2 × 431 = −184 kJ",
+   "hint": "끊는 결합 − 생기는 결합입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u07"
+}

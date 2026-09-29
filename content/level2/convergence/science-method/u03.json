@@ -1,0 +1,122 @@
+{
+ "no": 3,
+ "title": "과학 혁명",
+ "hours": 4,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "지동설이 제안되고 받아들여진 과정을 증거와 함께 설명할 수 있다.",
+  "갈릴레이와 케플러의 기여를 구별할 수 있다.",
+  "뉴턴의 종합이 과학에 준 의미를 설명할 수 있다."
+ ],
+ "checklist": [
+  "코페르니쿠스의 지동설(1543)",
+  "티코 브라헤의 정밀 관측",
+  "케플러의 행성 운동 법칙",
+  "갈릴레이의 망원경 관측과 낙하 운동 실험",
+  "뉴턴의 『프린키피아』(1687)와 만유인력",
+  "실험과 수학을 결합한 새로운 방법"
+ ],
+ "advice": [
+  "과학 혁명의 핵심은 '천상과 지상이 같은 법칙을 따른다'는 생각의 전환입니다. 코페르니쿠스에서 뉴턴까지 약 150년 동안 각 과학자가 무엇을 새로 보태었는지 연표로 정리하고, 각 단계에서 어떤 새로운 증거가 등장했는지 적어 보세요.",
+  "지동설이 처음에는 천동설보다 예측이 정확하지 않았다는 점은 흥미로운 사실입니다. 케플러가 원 대신 타원을 쓰고 나서야 정확도가 크게 좋아졌습니다. '좋은 이론'의 기준이 예측 정확도만이 아니라 단순성과 설명력이라는 점을 생각해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "web",
+   "provider": "Stanford Encyclopedia of Philosophy",
+   "title": "Scientific Revolutions",
+   "url": "https://plato.stanford.edu/entries/scientific-revolutions/",
+   "lang": "영어",
+   "part": "1~2절"
+  },
+  {
+   "kind": "book",
+   "provider": "University of Chicago Press",
+   "title": "Thomas S. Kuhn, The Structure of Scientific Revolutions (번역본 『과학혁명의 구조』)",
+   "part": "번역본 해설과 함께 7~9장"
+  },
+  {
+   "kind": "book",
+   "provider": "Hackett / Open University Press",
+   "title": "A. F. Chalmers, What Is This Thing Called Science? (번역본 『현대의 과학철학』)",
+   "part": "과학사 사례 장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "태양을 중심에 둔 우주 체계를 1543년에 발표한 천문학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "코페르니쿠스"
+     ]
+    }
+   ],
+   "explanation": "『천구의 회전에 관하여』를 발표했습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "망원경으로 목성의 위성과 금성의 위상 변화를 관측해 지동설을 지지한 과학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "갈릴레이",
+      "갈릴레오"
+     ]
+    }
+   ],
+   "explanation": "금성이 보름달 모양까지 보이는 것은 천동설로 설명할 수 없었습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "만유인력과 운동 법칙으로 천상과 지상의 운동을 통합한 뉴턴의 책은 『{{1}}』입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "프린키피아",
+      "자연철학의 수학적 원리"
+     ]
+    }
+   ],
+   "explanation": "1687년에 출판되었습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "케플러가 타원 궤도 법칙을 찾아내는 데 쓴 정밀 관측 자료는 {{1}}의 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "티코 브라헤",
+      "티코"
+     ]
+    }
+   ],
+   "explanation": "망원경 이전 시대의 가장 정밀한 육안 관측이었습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "convergence",
+ "subject": "science-method",
+ "id": "l2-convergence-science-method-u03"
+}

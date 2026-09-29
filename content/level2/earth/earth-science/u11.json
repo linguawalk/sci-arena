@@ -1,0 +1,102 @@
+{
+ "no": 11,
+ "title": "별과 은하, 우주론",
+ "hours": 5,
+ "after": [
+  10
+ ],
+ "objectives": [
+  "별의 등급과 거리 지수로 거리를 계산할 수 있다.",
+  "H–R도로 별의 진화 단계를 설명할 수 있다.",
+  "허블 법칙과 우주 배경 복사로 빅뱅 우주론을 설명할 수 있다."
+ ],
+ "checklist": [
+  "겉보기 등급과 절대 등급, 5등급 차 = 100배",
+  "거리 지수 m − M = 5 log d − 5",
+  "별의 스펙트럼 분류와 H–R도",
+  "별의 진화와 최후(백색 왜성, 중성자별, 블랙홀)",
+  "우리은하와 외부 은하의 분류",
+  "허블 법칙 v = H₀d",
+  "우주 배경 복사, 암흑 물질과 암흑 에너지"
+ ],
+ "advice": [
+  "천문학의 정량 계산은 거의 모두 로그(등급)와 비례식(허블 법칙)입니다. 5등급 차이가 밝기 100배라는 약속에서 거리 지수 공식을 스스로 유도해 보면 공식을 외울 필요가 없습니다.",
+  "H–R도는 별의 일생을 한 장에 담은 지도입니다. 태양 질량의 별과 무거운 별이 각각 H–R도 위에서 어떤 경로를 따라 움직이는지 그려 보고, 무거운 별이 초신성 폭발로 무거운 원소를 우주에 퍼뜨린다는 연결까지 정리하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e",
+   "lang": "영어",
+   "part": "17~23장 Stars, 24~30장 Galaxies and Cosmology (필요한 부분)"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Tarbuck · Lutgens · Tasa, Earth Science (장 번호는 원서 15판 기준, 번역본 『지구과학 개론』)",
+   "part": "24~25장 Light, Astronomical Observations, and the Sun; Beyond Our Solar System"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "겉보기 등급이 5등급 차이 나는 두 별의 밝기는 몇 배 차이일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "5등급 차이 = 밝기 100배로 정의합니다.",
+   "hint": "등급의 정의입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "거리 지수 m − M = 5인 별까지의 거리는 몇 pc일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "m − M = 5 log d − 5 = 5\nlog d = 2, d = 100 pc",
+   "hint": "5 log d − 5 = 5를 푸세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "허블 상수를 70 km/s/Mpc라 할 때 100 Mpc 떨어진 은하의 후퇴 속도는 몇 km/s일까요?",
+   "answer": "7000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "v = H₀d = 70 × 100 = 7000 km/s",
+   "hint": "v = H₀d입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "빅뱅 뒤 약 38만 년에 방출되어 지금은 약 2.7 K의 마이크로파로 관측되는 복사를 우주 {{1}} 복사라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "배경"
+     ]
+    }
+   ],
+   "explanation": "빅뱅 우주론의 가장 강력한 증거입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "earth",
+ "subject": "earth-science",
+ "id": "l2-earth-earth-science-u11"
+}

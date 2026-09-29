@@ -1,0 +1,138 @@
+{
+ "no": 9,
+ "title": "과학과 사회",
+ "hours": 3,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "연구 윤리의 원칙과 연구 부정행위의 유형을 설명할 수 있다.",
+  "동료 심사와 재현성이 과학 지식의 신뢰를 만드는 방식을 설명할 수 있다.",
+  "과학적 불확실성이 있는 사회적 쟁점을 균형 있게 논의할 수 있다."
+ ],
+ "checklist": [
+  "연구 부정행위(위조, 변조, 표절)",
+  "생명 윤리와 연구 대상자 보호",
+  "동료 심사와 학술지",
+  "재현성 위기와 개선 노력",
+  "과학 커뮤니케이션과 불확실성 전달",
+  "기후 변화, 유전자 편집, 인공지능 같은 사회적 쟁점"
+ ],
+ "advice": [
+  "과학 지식이 믿을 만한 이유는 개별 과학자가 틀리지 않아서가 아니라, 동료 심사와 재현 실험처럼 오류를 걸러내는 공동체의 절차가 있기 때문입니다. 이 단원에서 그 절차가 어떻게 작동하고 어디서 실패하는지 사례로 살펴보세요.",
+  "사회적 쟁점을 논의할 때는 '과학적 사실에 대한 질문'과 '가치 판단에 대한 질문'을 구별하는 것이 중요합니다. 예를 들어 기후 변화가 일어나고 있는가는 과학의 질문이고, 비용을 누가 부담할 것인가는 사회의 질문입니다."
+ ],
+ "resources": [
+  {
+   "kind": "web",
+   "provider": "IPCC",
+   "title": "제6차 평가 보고서 종합 보고서(AR6 Synthesis Report)",
+   "url": "https://www.ipcc.ch/report/ar6/syr/",
+   "lang": "영어(기상청 한국어 번역본 있음)",
+   "part": "정책 결정자용 요약의 확신도 표현(confidence, likelihood) 설명"
+  },
+  {
+   "kind": "web",
+   "provider": "Stanford Encyclopedia of Philosophy",
+   "title": "Scientific Research and Big Data",
+   "url": "https://plato.stanford.edu/entries/science-big-data/",
+   "lang": "영어",
+   "part": "개요 절"
+  },
+  {
+   "kind": "book",
+   "provider": "Hackett / Open University Press",
+   "title": "A. F. Chalmers, What Is This Thing Called Science? (번역본 『현대의 과학철학』)",
+   "part": "마지막 장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "다른 사람의 아이디어나 문장을 출처 없이 자기 것처럼 쓰는 연구 부정행위를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "표절"
+     ]
+    }
+   ],
+   "explanation": "위조(없는 자료 만들기), 변조(자료 조작)와 함께 3대 연구 부정행위입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "논문을 학술지에 싣기 전에 같은 분야 전문가가 검토하는 제도를 {{1}} 심사라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "동료"
+     ]
+    }
+   ],
+   "explanation": "피어 리뷰(peer review)라고도 합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "다른 연구자가 같은 방법으로 실험했을 때 같은 결과가 나오는 성질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "재현성"
+     ]
+    }
+   ],
+   "explanation": "과학 지식의 신뢰를 뒷받침하는 핵심 조건입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "written",
+   "prompt": "과학자가 불확실성이 큰 연구 결과를 대중에게 전달할 때 주의해야 할 점을 설명해 보세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "불확실",
+      "확신도",
+      "범위"
+     ],
+     [
+      "과장",
+      "단정"
+     ],
+     [
+      "근거",
+      "증거",
+      "자료"
+     ],
+     [
+      "이해",
+      "쉬운",
+      "맥락"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "연구 결과의 불확실성과 확신도를 숨기지 말고 범위와 함께 밝혀야 하며, 결론을 과장하거나 단정하지 않아야 합니다. 어떤 근거와 자료에 기반한 결과인지 알리고, 전문 용어를 줄여 대중이 맥락을 이해할 수 있도록 쉽게 설명해야 합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "convergence",
+ "subject": "science-method",
+ "id": "l2-convergence-science-method-u09"
+}

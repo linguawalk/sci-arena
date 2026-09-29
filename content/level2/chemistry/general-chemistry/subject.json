@@ -1,0 +1,232 @@
+{
+ "level": 2,
+ "track": "chemistry",
+ "id": "general-chemistry",
+ "title": "일반화학",
+ "tagline": "양자역학적 원자 모형에서 평형·열역학·전기화학, 그리고 유기화학의 입구까지",
+ "overview": [
+  "일반화학은 이공계 대학 1학년이 공통으로 배우는 화학입니다. 레벨1 화학Ⅰ·Ⅱ에서 다룬 원자, 결합, 기체, 용액, 평형, 반응 속도를 한 단계 더 정량적으로 다룹니다. 특히 원자 구조를 양자역학적 모형(오비탈)으로 설명하고, 반응이 일어나는 방향을 깁스 자유 에너지로 판단하는 것이 고교 과정과 가장 크게 다른 점입니다.",
+  "과목은 전반부(원자 구조, 주기성, 화학 결합, 분자 오비탈, 화학량론, 기체, 열화학)와 후반부(반응 속도론, 화학 평형, 산·염기 평형, 열역학, 전기화학, 유기화학 입문)로 나뉩니다. 대학에서는 보통 두 학기에 걸쳐 배웁니다.",
+  "레벨3 화학 트랙의 물리화학·유기화학·무기화학·분석화학과 융합 트랙 생화학·재료과학의 선수 과목이며, tech-arena 화학공학 레벨2의 출발점입니다. 이 가이드는 OpenStax Chemistry 2e와 Zumdahl 교재, MIT 5.111의 흐름을 따릅니다."
+ ],
+ "level_note": "레벨 2 (대학 1학년 수준). 목차 검증 기준: Zumdahl, Oxtoby, OpenStax Chemistry 등 일반화학 표준 교재의 목차.",
+ "prereq": {
+  "text": "레벨1 화학Ⅰ·Ⅱ가 선수입니다. 로그(pH)와 지수 함수(반응 속도)를 계산할 수 있어야 합니다. 아래 점검에서 틀린 문항이 있으면 연결된 챕터를 먼저 복습하세요.",
+  "links": [
+   {
+    "title": "화학Ⅰ · 코스 전체",
+    "href": "browse.html?c=c2"
+   },
+   {
+    "title": "화학Ⅱ · 챕터 1 기체",
+    "href": "browse.html?c=c6#ch01"
+   },
+   {
+    "title": "화학Ⅱ · 챕터 5 화학 평형",
+    "href": "browse.html?c=c6#ch05"
+   },
+   {
+    "title": "화학Ⅱ · 챕터 6 산·염기 평형",
+    "href": "browse.html?c=c6#ch06"
+   },
+   {
+    "title": "화학Ⅱ · 챕터 8 전기 화학",
+    "href": "browse.html?c=c6#ch08"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "NaCl 5.85 g은 몇 mol일까요? (화학식량 58.5)",
+    "answer": "0.1",
+    "answer_format": "decimal",
+    "tolerance": 0.001,
+    "explanation": "5.85 ÷ 58.5 = 0.1 mol (화학Ⅰ 몰)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "0.001 M HCl 수용액의 pH는?",
+    "answer": "3",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "[H₃O⁺] = 10⁻³ M이므로 pH = 3 (화학Ⅱ 챕터 6)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "A(g) ⇌ B(g)의 평형에서 [A] = 0.2 M, [B] = 0.6 M이면 K는?",
+    "answer": "3",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "K = [B]/[A] = 3 (화학Ⅱ 챕터 5)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p4",
+    "qtype": "fill_blank",
+    "prompt": "발열 반응의 ΔH는 {{1}}의 값입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "음",
+       "음수",
+       "-",
+       "−"
+      ]
+     }
+    ],
+    "explanation": "생성물의 엔탈피가 반응물보다 작습니다. (화학Ⅱ 챕터 4)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 물리화학",
+   "note": "열역학·양자화학·반응 속도론을 수식으로 본격적으로"
+  },
+  {
+   "title": "레벨3 · 유기화학",
+   "note": "작용기와 반응 메커니즘"
+  },
+  {
+   "title": "레벨3 · 무기화학",
+   "note": "대칭, 배위 화합물, 고체 구조"
+  },
+  {
+   "title": "레벨3 · 분석화학",
+   "note": "정량 분석과 기기 분석"
+  },
+  {
+   "title": "tech-arena 레벨2 · 화학공학",
+   "note": "물질·에너지 수지와 단위 조작"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "원자 구조와 양자역학적 모형",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "주기적 성질",
+   "hours": 4,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "화학 결합과 분자 구조",
+   "hours": 5,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "분자 오비탈 이론",
+   "hours": 4,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "화학량론과 수용액 반응",
+   "hours": 4,
+   "after": [],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "기체와 분자 간 힘",
+   "hours": 4,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "열화학",
+   "hours": 4,
+   "after": [
+    5
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "반응 속도론",
+   "hours": 5,
+   "after": [
+    7
+   ],
+   "file": "u08.json"
+  },
+  {
+   "no": 9,
+   "title": "화학 평형",
+   "hours": 4,
+   "after": [
+    7
+   ],
+   "file": "u09.json"
+  },
+  {
+   "no": 10,
+   "title": "산·염기 평형",
+   "hours": 5,
+   "after": [
+    9
+   ],
+   "file": "u10.json"
+  },
+  {
+   "no": 11,
+   "title": "화학 열역학: 엔트로피와 자유 에너지",
+   "hours": 5,
+   "after": [
+    9
+   ],
+   "file": "u11.json"
+  },
+  {
+   "no": 12,
+   "title": "전기화학",
+   "hours": 5,
+   "after": [
+    11
+   ],
+   "file": "u12.json"
+  },
+  {
+   "no": 13,
+   "title": "유기화학 입문",
+   "hours": 4,
+   "after": [
+    3
+   ],
+   "file": "u13.json"
+  }
+ ],
+ "total_hours": 58
+}

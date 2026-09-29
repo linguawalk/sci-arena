@@ -1,0 +1,114 @@
+{
+ "no": 8,
+ "title": "진화의 원리와 집단 유전",
+ "hours": 5,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "자연선택에 의한 진화의 증거를 설명할 수 있다.",
+  "하디–바인베르크 식으로 대립유전자 빈도를 계산할 수 있다.",
+  "종 분화의 과정과 생식적 격리를 설명할 수 있다."
+ ],
+ "checklist": [
+  "다윈과 자연선택, 진화의 증거(화석, 상동, 분자)",
+  "하디–바인베르크 평형 p² + 2pq + q² = 1",
+  "진화 요인(돌연변이, 자연선택, 유전적 부동, 유전자 흐름)",
+  "자연선택의 유형과 성선택",
+  "종의 개념과 생식적 격리",
+  "이소적·동소적 종 분화",
+  "대진화와 대멸종"
+ ],
+ "advice": [
+  "이 단원은 레벨1 생물Ⅱ 챕터 8과 같은 내용을 확장합니다. 하디–바인베르크 계산은 이미 연습했으므로, 실제 자료에서 평형에서 벗어난 정도를 보고 어떤 진화 요인이 작용했는지 추론하는 문제로 넘어가세요.",
+  "진화를 '개체가 환경에 맞게 변한다'고 오해하기 쉽습니다. 변이는 무작위로 생기고 환경이 그중 일부를 선택한다는 두 단계로 항상 설명하는 연습을 하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "18~19장 Evolution and Origin of Species, Evolution of Populations"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "22~25장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "History of life, Natural selection"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "하디–바인베르크 평형 집단에서 열성 동형 접합(aa) 빈도가 0.16이면 a의 빈도는? (소수로)",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "q² = 0.16\nq = 0.4",
+   "hint": "q²의 제곱근입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "위 집단에서 이형 접합(Aa) 빈도는? (소수로)",
+   "answer": "0.48",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "p = 0.6\n2pq = 2 × 0.6 × 0.4 = 0.48",
+   "hint": "2pq입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "작은 집단에서 우연에 의해 대립유전자 빈도가 변하는 것을 유전적 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "부동"
+     ]
+    }
+   ],
+   "explanation": "병목 효과와 창시자 효과가 예입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "두 집단이 교배해 생식 능력 있는 자손을 낳지 못하게 되면 생식적 {{1}}가 완성되어 다른 종이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "격리"
+     ]
+    }
+   ],
+   "explanation": "접합 전 격리와 접합 후 격리가 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u08"
+}

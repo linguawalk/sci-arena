@@ -1,0 +1,106 @@
+{
+ "no": 3,
+ "title": "일과 에너지",
+ "hours": 5,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "변하는 힘이 한 일을 적분으로 계산할 수 있다.",
+  "일–에너지 정리와 역학적 에너지 보존을 적용할 수 있다.",
+  "보존력과 퍼텐셜 에너지의 관계 F = −dU/dx를 설명할 수 있다."
+ ],
+ "checklist": [
+  "일 W = ∫F·dr (내적과 선적분)",
+  "운동 에너지와 일–에너지 정리",
+  "보존력과 퍼텐셜 에너지 U",
+  "F = −dU/dx, 퍼텐셜 곡선 읽기",
+  "용수철 퍼텐셜 ½kx², 중력 퍼텐셜 mgh와 −GMm/r",
+  "비보존력(마찰)과 에너지 손실",
+  "일률 P = dW/dt = F·v"
+ ],
+ "advice": [
+  "이 단원의 핵심은 '힘을 적분하면 에너지가 된다'는 관점입니다. 레벨1에서 W = Fs로 계산하던 것을 힘이 위치에 따라 변하는 경우로 넓히고, 반대로 퍼텐셜 에너지 곡선을 미분해 힘을 구하는 연습을 하세요. 퍼텐셜 곡선의 극소점이 안정 평형, 극대점이 불안정 평형이라는 그림은 분자 결합과 진동까지 이어집니다.",
+  "에너지 보존으로 풀 수 있는 문제는 뉴턴 법칙보다 훨씬 간단해지는 경우가 많습니다. 문제를 받으면 '힘과 가속도로 풀지, 처음과 나중의 에너지로 풀지'를 먼저 판단하는 연습을 하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 1 (역학·파동·열역학)",
+   "url": "https://openstax.org/details/books/university-physics-volume-1",
+   "lang": "영어",
+   "part": "7~8장 Work and Kinetic Energy, Potential Energy and Conservation of Energy"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.01SC Classical Mechanics (2016년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/",
+   "lang": "영어",
+   "part": "Week 5~6 Energy"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "7~8장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "x축 방향 힘 F(x) = 3x² (N)이 x = 0에서 2 m까지 한 일은 몇 J일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "W = ∫₀² 3x² dx = [x³]₀² = 8 J",
+   "hint": "힘을 위치에 대해 적분하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "용수철 상수 200 N/m인 용수철을 0.1 m 늘일 때 저장되는 에너지는 몇 J일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "U = ½kx² = ½ × 200 × 0.01 = 1 J",
+   "hint": "½kx²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "5 m 높이에서 정지 상태로 떨어진 물체의 바닥에서의 속력은 몇 m/s일까요? (g = 10 m/s², 공기 저항 무시)",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "mgh = ½mv²\nv = √(2gh) = √100 = 10 m/s",
+   "hint": "역학적 에너지 보존을 쓰세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "2 kg 물체를 4초 동안 10 m 들어 올리는 데 필요한 평균 일률은 몇 W일까요? (g = 10 m/s², 등속)",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "W = mgh = 200 J\nP = 200 / 4 = 50 W",
+   "hint": "P = W/t입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u03"
+}

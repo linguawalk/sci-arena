@@ -1,0 +1,108 @@
+{
+ "no": 4,
+ "title": "지진과 화산",
+ "hours": 4,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "지진의 규모와 진도를 구별하고 규모와 에너지의 관계를 계산할 수 있다.",
+  "P파와 S파의 도착 시간 차로 진원 거리를 구할 수 있다.",
+  "마그마의 성질에 따라 화산의 형태와 분출 양식을 설명할 수 있다."
+ ],
+ "checklist": [
+  "탄성 반발설과 단층",
+  "규모(에너지)와 진도(피해 정도)",
+  "규모 1 증가 → 에너지 약 32배",
+  "PS시와 진원 거리, 세 관측소로 진앙 찾기",
+  "마그마의 SiO₂ 함량과 점성",
+  "순상 화산, 성층 화산, 화산 쇄설물",
+  "지진·화산 분포와 판 경계"
+ ],
+ "advice": [
+  "지진 규모는 로그 척도라서 숫자 1의 차이가 에너지로는 약 32배라는 점이 가장 중요한 정량 개념입니다. 규모 5와 7의 에너지 차이를 계산해 보면 대지진이 얼마나 큰지 실감할 수 있습니다.",
+  "화산 형태는 '점성이 크면 폭발적이고 가파르다, 작으면 조용히 흘러 완만하다'는 한 가지 원리로 정리됩니다. 하와이, 후지산, 백두산을 예로 비교해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "4장 Volcanism, 11장 Earthquakes"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Tarbuck · Lutgens · Tasa, Earth Science (장 번호는 원서 15판 기준, 번역본 『지구과학 개론』)",
+   "part": "8~9장 Earthquakes, Volcanoes"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "지진의 규모가 1 커지면 방출 에너지는 약 몇 배가 될까요?",
+   "answer": "32",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "에너지 ∝ 10^(1.5M)\n10^1.5 ≈ 31.6 ≈ 32배",
+   "hint": "10^1.5입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "진원 거리(km) ≈ 8 × PS시(초)라고 할 때, PS시가 8초이면 진원 거리는 약 몇 km일까요?",
+   "answer": "64",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "8 × 8 = 64 km",
+   "hint": "주어진 경험식을 쓰세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "하와이처럼 경사가 완만한 순상 화산은 점성이 작은 {{1}}질 용암으로 만들어집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "현무암"
+     ]
+    }
+   ],
+   "explanation": "SiO₂가 적어 잘 흐릅니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "지진과 화산이 태평양 둘레에 띠 모양으로 분포하는 지역을 환태평양 {{1}}대라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "화산",
+      "조산",
+      "지진"
+     ]
+    }
+   ],
+   "explanation": "'불의 고리'라고도 합니다.\n섭입대가 둘러싸고 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "earth",
+ "subject": "earth-science",
+ "id": "l2-earth-earth-science-u04"
+}

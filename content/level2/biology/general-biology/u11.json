@@ -1,0 +1,117 @@
+{
+ "no": 11,
+ "title": "동물 생리: 순환, 호흡, 배설, 면역",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "심장 주기와 혈액 순환을 설명할 수 있다.",
+  "기체 교환과 헤모글로빈의 산소 운반을 설명할 수 있다.",
+  "콩팥의 여과·재흡수·분비와 면역 반응을 설명할 수 있다."
+ ],
+ "checklist": [
+  "항상성과 음성 피드백",
+  "심장 구조, 심장 주기, 심박출량",
+  "혈압과 모세 혈관 교환",
+  "폐의 기체 교환, 헤모글로빈 산소 해리 곡선",
+  "네프론의 여과·재흡수·분비와 삼투 조절",
+  "선천 면역과 적응 면역(B·T 림프구, 항체)"
+ ],
+ "advice": [
+  "생리학은 '구조가 기능을 결정한다'와 '항상성은 음성 피드백으로 유지된다'는 두 원리로 정리됩니다. 기관계마다 이 두 원리가 어떻게 적용되는지 찾아보세요. 레벨1 생물Ⅰ에서 배운 항상성과 면역을 기관 수준의 메커니즘으로 확장하는 단원입니다.",
+  "헤모글로빈 산소 해리 곡선이 S자인 이유와, 운동 중 CO₂·H⁺가 늘면 곡선이 오른쪽으로 이동해 산소를 더 많이 내놓는다는 보어 효과는 자주 나오는 핵심입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "33장 Animal Body, 39~42장 Respiratory, Circulatory, Osmotic Regulation, Immune System"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "40장, 42~44장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "Human biology"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "1회 박출량 70 mL, 심박수 72회/분이면 심박출량은 약 몇 L/분일까요?",
+   "answer": "5.04",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "explanation": "70 × 72 = 5040 mL/분 ≈ 5.04 L/분",
+   "hint": "1회 박출량 × 심박수입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "적혈구에서 산소를 운반하는 단백질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "헤모글로빈"
+     ]
+    }
+   ],
+   "explanation": "철을 포함한 헴 4개가 산소와 결합합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "콩팥에서 혈액이 보먼주머니로 걸러지는 과정을 사구체 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "여과"
+     ]
+    }
+   ],
+   "explanation": "혈구와 단백질은 걸러지지 않습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "항체를 만들어 분비하는 세포는 B 림프구가 분화한 {{1}} 세포입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "형질"
+     ]
+    }
+   ],
+   "explanation": "기억 세포는 2차 면역 반응을 빠르게 합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u11"
+}

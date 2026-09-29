@@ -1,0 +1,106 @@
+{
+ "no": 5,
+ "title": "회전 운동",
+ "hours": 6,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "각변위·각속도·각가속도를 선운동과 대응시킬 수 있다.",
+  "관성 모멘트를 적분으로 구하고 평행축 정리를 쓸 수 있다.",
+  "토크와 각운동량 보존으로 회전 문제를 풀 수 있다."
+ ],
+ "checklist": [
+  "각속도 ω = dθ/dt, 각가속도 α = dω/dt",
+  "관성 모멘트 I = Σmr² = ∫r² dm",
+  "막대·원판·구의 관성 모멘트, 평행축 정리",
+  "회전 운동 에너지 ½Iω²",
+  "토크 τ = r × F, τ = Iα",
+  "구르는 운동(병진 + 회전)",
+  "각운동량 L = Iω = r × p와 보존"
+ ],
+ "advice": [
+  "회전 운동은 선운동과 일대일로 대응합니다. x ↔ θ, v ↔ ω, m ↔ I, F ↔ τ, p ↔ L을 표로 정리해 두면 새로운 공식을 외울 필요가 거의 없습니다. 관성 모멘트는 '질량이 회전축에서 얼마나 멀리 퍼져 있는가'를 나타낸다는 뜻을 기억하세요.",
+  "구르는 물체 문제는 병진 운동 에너지와 회전 운동 에너지를 함께 고려해야 해서 가장 많이 틀리는 유형입니다. 미끄러지지 않고 구르는 조건 v = Rω를 쓰고, 같은 높이에서 굴러 내려올 때 속이 찬 구, 원판, 고리 가운데 무엇이 가장 빠른지 직접 계산해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 1 (역학·파동·열역학)",
+   "url": "https://openstax.org/details/books/university-physics-volume-1",
+   "lang": "영어",
+   "part": "10~11장 Fixed-Axis Rotation, Angular Momentum"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.01SC Classical Mechanics (2016년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/",
+   "lang": "영어",
+   "part": "Week 9~12 Rotational Motion, Angular Momentum"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "10~11장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "질량 2 kg, 반지름 0.5 m인 균일한 원판의 중심축에 대한 관성 모멘트는 몇 kg·m²일까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "explanation": "I = ½MR² = ½ × 2 × 0.25 = 0.25 kg·m²",
+   "hint": "원판은 ½MR²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "회전축에서 0.3 m 떨어진 곳에 10 N의 힘을 지레에 수직으로 가했습니다. 토크는 몇 N·m일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "τ = rF sin 90° = 0.3 × 10 = 3 N·m",
+   "hint": "τ = rF sin θ입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "회전하는 피겨 선수가 팔을 오므려 관성 모멘트를 절반으로 줄이면 각속도는 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "각운동량 보존: I₁ω₁ = I₂ω₂\nI가 1/2이면 ω는 2배",
+   "hint": "외부 토크가 없습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "균일한 원판이 높이 3 m의 경사면을 미끄러지지 않고 굴러 내려왔습니다. 바닥에서의 속력은 약 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "6.32",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "mgh = ½mv² + ½(½mR²)(v/R)² = ¾mv²\nv = √(4gh/3) = √40 ≈ 6.32 m/s",
+   "hint": "회전 운동 에너지를 함께 넣으세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u05"
+}

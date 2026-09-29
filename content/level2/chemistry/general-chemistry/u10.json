@@ -1,0 +1,107 @@
+{
+ "no": 10,
+ "title": "산·염기 평형",
+ "hours": 5,
+ "after": [
+  9
+ ],
+ "objectives": [
+  "약산·약염기 용액의 pH를 이온화 상수로 계산할 수 있다.",
+  "완충 용액의 pH를 헨더슨–하셀바흐 식으로 계산할 수 있다.",
+  "적정 곡선과 당량점, 지시약 선택을 설명할 수 있다."
+ ],
+ "checklist": [
+  "브뢴스테드–로우리 산·염기와 짝산·짝염기",
+  "Kw, pH, pOH",
+  "Ka, Kb와 Ka × Kb = Kw",
+  "약산의 pH: [H₃O⁺] ≈ √(KaC)",
+  "염의 가수 분해",
+  "완충 용액 pH = pKa + log([A⁻]/[HA])",
+  "적정 곡선, 당량점, 지시약",
+  "용해도곱 Ksp"
+ ],
+ "advice": [
+  "레벨1 화학Ⅱ 챕터 6에서 다룬 내용에 적정 곡선 계산과 용해도곱이 더해집니다. 적정 곡선의 네 구간(시작, 완충 구간, 당량점, 당량점 이후)마다 어떤 식으로 pH를 계산하는지 표로 정리해 두면 어떤 문제도 풀 수 있습니다.",
+  "완충 구간의 절반 지점(반당량점)에서 pH = pKa가 되는 이유를 헨더슨–하셀바흐 식으로 확인하고, 실험에서 이 점을 이용해 약산의 Ka를 구하는 방법까지 연결해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "14장 Acid-Base Equilibria, 15장 Equilibria of Other Reaction Classes"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "강의 21~25 Acid-base equilibrium, Titrations"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "13~15장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "0.01 M HCl 수용액의 pH는?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "[H₃O⁺] = 10⁻² M\npH = 2",
+   "hint": "강산은 모두 이온화합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "Ka = 1 × 10⁻⁵인 약산 0.1 M 수용액의 pH는?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "[H₃O⁺] ≈ √(10⁻⁵ × 0.1) = 10⁻³ M\npH = 3",
+   "hint": "√(KaC)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "pKa = 4.74인 아세트산과 아세트산 나트륨을 같은 농도로 섞은 완충 용액의 pH는?",
+   "answer": "4.74",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "[A⁻] = [HA]이면 log 1 = 0\npH = pKa = 4.74",
+   "hint": "헨더슨–하셀바흐 식입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "0.1 M 아세트산 25 mL를 0.1 M NaOH로 적정할 때 당량점까지 필요한 NaOH는 몇 mL일까요?",
+   "answer": "25",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "몰수가 같아지는 점\n0.0025 mol / 0.1 M = 25 mL",
+   "hint": "산과 염기의 몰수가 같아지는 점입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u10"
+}

@@ -1,0 +1,232 @@
+{
+ "level": 2,
+ "track": "biology",
+ "id": "general-biology",
+ "title": "일반생물",
+ "tagline": "생체 분자에서 세포, 유전, 진화, 생리, 생태계까지 생명과학의 전체 지도",
+ "overview": [
+  "일반생물은 생명과학 전공과 의·약·보건 계열 대학 1학년이 공통으로 배우는 과목입니다. 레벨1 생물Ⅰ·Ⅱ에서 다룬 세포, 유전, 항상성, 진화, 생태를 모두 다루되, '왜 그렇게 작동하는가'를 분자 수준의 메커니즘과 실험 증거로 설명한다는 점이 다릅니다.",
+  "과목은 생명의 화학과 세포(1~4단원), 유전학과 분자생물학(5~7단원), 진화와 생물 다양성(8~9단원), 식물과 동물의 구조와 기능(10~12단원), 생태학(13단원)으로 이루어집니다. 캠벨 생명과학의 큰 단원 구성과 같습니다.",
+  "레벨3 생명과학 트랙(세포·분자생물학, 유전학, 생리학, 생태학과 진화, 미생물학)과 융합 트랙의 생화학·생명공학의 선수 과목입니다. 화학 결합과 산화 환원을 자주 쓰므로 일반화학을 함께 공부하면 좋습니다."
+ ],
+ "level_note": "레벨 2 (대학 1학년 수준). 목차 검증 기준: Campbell Biology, OpenStax Biology 등 일반생물 표준 교재의 목차.",
+ "prereq": {
+  "text": "레벨1 생물Ⅰ·Ⅱ가 선수이고, 화학Ⅰ의 화학 결합과 산화 환원을 알고 있으면 좋습니다. 아래 점검에서 틀린 문항이 있으면 연결된 챕터를 먼저 복습하세요.",
+  "links": [
+   {
+    "title": "생물Ⅰ · 코스 전체",
+    "href": "browse.html?c=c3"
+   },
+   {
+    "title": "생물Ⅱ · 챕터 3 세포 호흡",
+    "href": "browse.html?c=c7#ch03"
+   },
+   {
+    "title": "생물Ⅱ · 챕터 5 유전 물질과 복제",
+    "href": "browse.html?c=c7#ch05"
+   },
+   {
+    "title": "생물Ⅱ · 챕터 8 진화의 원리",
+    "href": "browse.html?c=c7#ch08"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "이중 가닥 DNA에서 A가 30%이면 G는 몇 %일까요?",
+    "answer": "20",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "A = T = 30%, G = C = 20% (생물Ⅱ 챕터 5)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "Aa × aa 교배에서 자손이 열성 표현형일 확률은? (소수로)",
+    "answer": "0.5",
+    "answer_format": "decimal",
+    "tolerance": 0.01,
+    "explanation": "Aa : aa = 1 : 1 (생물Ⅰ 유전)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "세포 호흡에서 TCA 회로가 일어나는 소기관은 {{1}}입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "미토콘드리아"
+      ]
+     }
+    ],
+    "explanation": "미토콘드리아 기질에서 일어납니다. (생물Ⅱ 챕터 3)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p4",
+    "qtype": "fill_blank",
+    "prompt": "특정 항원과 결합하는 면역 단백질은 {{1}}입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "항체"
+      ]
+     }
+    ],
+    "explanation": "형질 세포가 만듭니다. (생물Ⅰ 면역)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 세포·분자생물학",
+   "note": "세포의 분자 메커니즘을 실험 중심으로"
+  },
+  {
+   "title": "레벨3 · 유전학",
+   "note": "전달·분자·집단 유전학"
+  },
+  {
+   "title": "레벨3 · 생리학",
+   "note": "기관계의 작동 원리"
+  },
+  {
+   "title": "레벨3 · 생태학과 진화",
+   "note": "개체군 모형과 진화 이론"
+  },
+  {
+   "title": "융합 레벨3 · 생화학",
+   "note": "대사 경로와 효소 반응 속도론"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "생명의 화학",
+   "hours": 4,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "세포 구조와 막",
+   "hours": 4,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "세포 대사: 효소, 호흡, 광합성",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "세포 신호 전달과 세포 주기",
+   "hours": 4,
+   "after": [
+    2
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "멘델 유전과 염색체 유전",
+   "hours": 5,
+   "after": [
+    4
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "분자 유전: 복제, 유전자 발현, 조절",
+   "hours": 6,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "생명 공학과 유전체",
+   "hours": 4,
+   "after": [
+    6
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "진화의 원리와 집단 유전",
+   "hours": 5,
+   "after": [
+    5
+   ],
+   "file": "u08.json"
+  },
+  {
+   "no": 9,
+   "title": "생물 다양성과 계통",
+   "hours": 4,
+   "after": [
+    8
+   ],
+   "file": "u09.json"
+  },
+  {
+   "no": 10,
+   "title": "식물의 구조와 기능",
+   "hours": 4,
+   "after": [
+    3
+   ],
+   "file": "u10.json"
+  },
+  {
+   "no": 11,
+   "title": "동물 생리: 순환, 호흡, 배설, 면역",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u11.json"
+  },
+  {
+   "no": 12,
+   "title": "동물 생리: 신경, 내분비, 생식",
+   "hours": 5,
+   "after": [
+    11
+   ],
+   "file": "u12.json"
+  },
+  {
+   "no": 13,
+   "title": "생태학: 개체군, 군집, 생태계",
+   "hours": 5,
+   "after": [
+    8
+   ],
+   "file": "u13.json"
+  }
+ ],
+ "total_hours": 62
+}

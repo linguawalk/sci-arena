@@ -1,0 +1,108 @@
+{
+ "no": 2,
+ "title": "고대와 중세의 과학",
+ "hours": 3,
+ "after": [],
+ "objectives": [
+  "그리스 자연철학의 자연관과 대표적 성과를 설명할 수 있다.",
+  "이슬람과 동아시아 과학의 기여를 설명할 수 있다.",
+  "천동설 모형이 오랫동안 받아들여진 이유를 설명할 수 있다."
+ ],
+ "checklist": [
+  "아리스토텔레스의 4원소설과 운동론",
+  "에라토스테네스의 지구 둘레 측정",
+  "프톨레마이오스의 천동설과 주전원",
+  "이슬람 과학(알하이삼의 광학, 대수학)",
+  "동아시아 과학(세종 시대 측우기·자격루·『칠정산』)",
+  "중세 대학과 과학의 전승"
+ ],
+ "advice": [
+  "과학사를 공부할 때 가장 경계해야 할 것은 옛 과학자를 '틀린 사람들'로 보는 태도입니다. 프톨레마이오스의 천동설은 당시 관측 자료를 매우 정확하게 예측한 훌륭한 모형이었습니다. 각 시대의 이론이 그 시대의 증거로 보아 합리적이었는지를 묻는 연습을 하세요.",
+  "에라토스테네스가 그림자 각도만으로 지구 둘레를 잰 계산은 간단한 기하와 비례식으로 직접 따라 할 수 있습니다. 직접 계산해 보면 고대 과학이 정량적이었다는 것을 실감할 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University of Chicago Press",
+   "title": "David C. Lindberg, The Beginnings of Western Science (번역본 『서양과학의 기원들』)",
+   "part": "3~5장, 8장"
+  },
+  {
+   "kind": "web",
+   "provider": "Stanford Encyclopedia of Philosophy",
+   "title": "Aristotle's Natural Philosophy",
+   "url": "https://plato.stanford.edu/entries/aristotle-natphil/",
+   "lang": "영어",
+   "part": "개요 절"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "그림자의 각도 차이로 지구의 둘레를 처음 측정한 고대 그리스 학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "에라토스테네스"
+     ]
+    }
+   ],
+   "explanation": "시에네와 알렉산드리아의 그림자 각도 차이를 이용했습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "두 도시의 태양 고도 차가 7.2°였다면 지구 둘레는 두 도시 사이 거리의 몇 배일까요?",
+   "answer": "50",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "360 ÷ 7.2 = 50배",
+   "hint": "360°를 나누세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "강우량을 정량적으로 측정하는 측우기를 만들어 전국에 보급한 조선의 왕은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "세종",
+      "세종대왕"
+     ]
+    }
+   ],
+   "explanation": "1441년 무렵 제작되었습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "행성이 작은 원(주전원)을 돌며 지구 둘레를 돈다는 모형으로 행성의 역행을 설명한 이론은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "천동설"
+     ]
+    }
+   ],
+   "explanation": "프톨레마이오스의 『알마게스트』에 집대성되었습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "convergence",
+ "subject": "science-method",
+ "id": "l2-convergence-science-method-u02"
+}

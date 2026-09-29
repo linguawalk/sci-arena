@@ -1,0 +1,115 @@
+{
+ "no": 9,
+ "title": "기후 변화",
+ "hours": 4,
+ "after": [
+  6,
+  8
+ ],
+ "objectives": [
+  "기후 시스템의 구성 요소와 되먹임 작용을 설명할 수 있다.",
+  "자연적 기후 변화 요인과 인위적 요인을 구별할 수 있다.",
+  "관측 자료와 IPCC 보고서의 핵심 결론을 해석할 수 있다."
+ ],
+ "checklist": [
+  "기후와 날씨의 구별",
+  "고기후 자료(빙하 코어, 나이테, 퇴적물)",
+  "밀란코비치 주기와 빙하기",
+  "화산, 태양 활동, 판 구조 변화",
+  "온실 기체 증가와 복사 강제력",
+  "양·음의 되먹임(얼음–알베도, 수증기)",
+  "IPCC 평가와 기후 변화 대응(완화, 적응)"
+ ],
+ "advice": [
+  "기후 변화 단원은 앞 단원(복사 수지, 대기, 해양)을 모두 모으는 종합 단원입니다. 되먹임 작용을 화살표 그림으로 그려 '처음 변화를 키우는가(양), 줄이는가(음)'를 판단하는 연습을 하세요.",
+  "IPCC 정책 결정자용 요약은 과학 문서를 직접 읽는 좋은 연습 자료입니다. '매우 가능성이 높다(very likely)' 같은 확신도 표현이 확률 범위로 정의되어 있다는 점에 주목해 읽어 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "web",
+   "provider": "IPCC",
+   "title": "제6차 평가 보고서 종합 보고서(AR6 Synthesis Report) 정책 결정자용 요약",
+   "url": "https://www.ipcc.ch/report/ar6/syr/",
+   "lang": "영어(기상청 한국어 번역본 있음)",
+   "part": "정책 결정자용 요약(SPM) A~B절"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Tarbuck · Lutgens · Tasa, Earth Science (장 번호는 원서 15판 기준, 번역본 『지구과학 개론』)",
+   "part": "21장 Global Climate"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "C. Donald Ahrens, Meteorology Today (대기 단원 보충)",
+   "part": "14장 Climate Change"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "산업 혁명 이전 대기의 CO₂ 농도는 약 몇 ppm이었을까요?",
+   "answer": "280",
+   "answer_format": "integer",
+   "tolerance": 10,
+   "explanation": "약 280 ppm\n최근에는 420 ppm을 넘었습니다.",
+   "hint": "300보다 조금 작습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "기온 상승으로 얼음이 녹아 알베도가 작아지고 더 많은 에너지를 흡수하는 것은 {{1}}의 되먹임입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "양",
+      "양성",
+      "+"
+     ]
+    }
+   ],
+   "explanation": "처음 변화(온난화)를 더 키우는 되먹임입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "지구 공전 궤도 이심률, 자전축 기울기, 세차 운동의 주기적 변화로 빙하기를 설명한 이론은 {{1}} 주기입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "밀란코비치"
+     ]
+    }
+   ],
+   "explanation": "약 10만, 4만 1천, 2만 6천 년 주기가 겹칩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "파리 협정은 산업화 이전 대비 지구 평균 기온 상승을 몇 °C 이내로 억제하려고 노력한다는 목표를 제시했을까요?",
+   "answer": "1.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "2 °C보다 훨씬 낮게 유지하고 1.5 °C로 억제하도록 노력한다는 목표입니다.",
+   "hint": "2보다 작습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "earth",
+ "subject": "earth-science",
+ "id": "l2-earth-earth-science-u09"
+}

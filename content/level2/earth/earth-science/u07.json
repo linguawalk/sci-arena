@@ -1,0 +1,108 @@
+{
+ "no": 7,
+ "title": "대기 운동과 날씨",
+ "hours": 5,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "단열 변화로 구름 생성과 대기 안정도를 설명할 수 있다.",
+  "기단, 전선, 온대 저기압의 날씨를 설명할 수 있다.",
+  "대기에 작용하는 힘과 대기 대순환을 설명할 수 있다."
+ ],
+ "checklist": [
+  "습도, 이슬점, 포화",
+  "건조·습윤 단열 감률과 대기 안정도",
+  "구름과 강수의 형성",
+  "기압 경도력, 전향력, 마찰력과 바람",
+  "기단과 전선, 온대 저기압",
+  "태풍과 뇌우",
+  "대기 대순환(3세포 모형)과 제트류"
+ ],
+ "advice": [
+  "건조 단열 감률(약 10 °C/km)과 습윤 단열 감률(약 5 °C/km)의 차이로 대기 안정도를 판단하는 것이 이 단원의 핵심 정량 개념입니다. 공기 덩어리의 온도와 주변 기온을 높이별로 표에 적어 비교하는 연습을 하세요.",
+  "레벨1 지학Ⅱ 챕터 4에서 다룬 지균풍·지상풍과 대기 대순환은 복습 수준으로 확인하고, 일기도를 직접 읽어 전선과 기압계를 찾는 실습(기상청 일기도 활용)에 시간을 쓰면 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Tarbuck · Lutgens · Tasa, Earth Science (장 번호는 원서 15판 기준, 번역본 『지구과학 개론』)",
+   "part": "18~20장 Moisture, Clouds, and Precipitation, Air Pressure and Wind, Weather Patterns and Severe Weather"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "C. Donald Ahrens, Meteorology Today (대기 단원 보충)",
+   "part": "4~11장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "건조 단열 감률이 10 °C/km일 때, 불포화 공기 덩어리가 2 km 상승하면 온도는 몇 °C 낮아질까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "10 × 2 = 20 °C",
+   "hint": "높이 × 감률입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "공기가 냉각되어 수증기가 포화되는 온도를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이슬점"
+     ]
+    }
+   ],
+   "explanation": "공기 덩어리가 이슬점에 이르면 구름이 생기기 시작합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "한랭 전선에서는 따뜻한 공기가 급하게 밀려 올라가 {{1}}이 잘 발달합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적란운"
+     ]
+    }
+   ],
+   "explanation": "좁은 지역에 소나기와 뇌우가 내립니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "중위도 30°~60°의 지상과 상층에서 서쪽에서 동쪽으로 부는 바람을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "편서풍"
+     ]
+    }
+   ],
+   "explanation": "페렐 순환의 지상 바람이며, 상층에는 제트류가 흐릅니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "earth",
+ "subject": "earth-science",
+ "id": "l2-earth-earth-science-u07"
+}

@@ -1,0 +1,119 @@
+{
+ "no": 12,
+ "title": "동물 생리: 신경, 내분비, 생식",
+ "hours": 5,
+ "after": [
+  11
+ ],
+ "objectives": [
+  "활동 전위의 발생과 전도를 이온 이동으로 설명할 수 있다.",
+  "시냅스 전달과 근육 수축을 설명할 수 있다.",
+  "호르몬의 작용과 피드백 조절, 생식과 발생 과정을 설명할 수 있다."
+ ],
+ "checklist": [
+  "휴지 전위와 활동 전위, 이온 통로",
+  "도약 전도",
+  "시냅스와 신경 전달 물질",
+  "근육 수축(활주설, Ca²⁺, ATP)",
+  "내분비계와 호르몬의 작용 방식",
+  "혈당·체온 조절과 피드백",
+  "생식 주기와 발생"
+ ],
+ "advice": [
+  "레벨1 생물Ⅰ의 신경·호르몬 단원을 이온 통로와 수용체 수준으로 깊게 다룹니다. 활동 전위 그래프의 각 구간에서 어떤 통로가 열리고 닫히는지를 직접 그림으로 설명할 수 있어야 합니다.",
+  "호르몬은 수용성(막 수용체, 빠름)과 지용성(세포 내 수용체, 유전자 발현, 느림)으로 나누면 작용 방식이 정리됩니다. 4단원의 신호 전달과 연결해 복습하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "35~37장 Nervous System, Sensory Systems, Endocrine System, 38장 Musculoskeletal, 43장 Reproduction"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "45~50장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "Nervous system and endocrine system"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "뉴런의 휴지 전위는 약 몇 mV일까요?",
+   "answer": "-70",
+   "answer_format": "decimal",
+   "tolerance": 5,
+   "explanation": "세포 안이 바깥보다 약 70 mV 낮습니다.",
+   "hint": "음의 값입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "시냅스 틈으로 분비되어 다음 뉴런에 신호를 전달하는 물질을 신경 {{1}} 물질이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "전달"
+     ]
+    }
+   ],
+   "explanation": "아세틸콜린, 도파민 등이 있습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "혈당을 낮추는 인슐린을 분비하는 기관은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이자",
+      "췌장"
+     ]
+    }
+   ],
+   "explanation": "이자섬의 β세포에서 분비됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "결과가 원인을 억제해 상태를 일정하게 유지하는 조절을 {{1}} 피드백이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "음성"
+     ]
+    }
+   ],
+   "explanation": "항상성 조절의 기본 원리입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u12"
+}

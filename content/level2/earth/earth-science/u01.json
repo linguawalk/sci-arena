@@ -1,0 +1,111 @@
+{
+ "no": 1,
+ "title": "지구계와 지구의 형성",
+ "hours": 3,
+ "after": [],
+ "objectives": [
+  "지구계의 네 권역과 권역 사이의 상호작용을 설명할 수 있다.",
+  "태양계와 지구의 형성 과정을 설명할 수 있다.",
+  "지구의 에너지원(태양, 지구 내부)을 구별할 수 있다."
+ ],
+ "checklist": [
+  "지구계: 지권·수권·기권·생물권",
+  "물 순환과 탄소 순환",
+  "성운설과 원시 지구",
+  "밀도 분화와 층상 구조",
+  "지구의 에너지원: 태양 복사, 내부 열(방사성 붕괴)",
+  "알베도와 지구 에너지 수지 개관"
+ ],
+ "advice": [
+  "이 과목 전체를 꿰는 관점이 '지구계'이므로, 앞으로 나올 모든 단원에서 '이 현상은 어느 권역과 어느 권역 사이의 에너지·물질 이동인가'를 적어 보는 습관을 들이세요. 예를 들어 화산 폭발은 지권에서 기권으로 기체와 먼지를 옮겨 기후에 영향을 줍니다.",
+  "레벨1 지학Ⅱ 챕터 1에서 배운 지구 형성 과정을 빠르게 복습하고, 지구가 가진 두 에너지원이 각각 어떤 현상(날씨·해류 vs 판 운동·화산)을 움직이는지 표로 정리하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Tarbuck · Lutgens · Tasa, Earth Science (장 번호는 원서 15판 기준, 번역본 『지구과학 개론』)",
+   "part": "1장 Introduction to Earth Science"
+  },
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "1장 Introduction to Geology"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e",
+   "lang": "영어",
+   "part": "14장 Cosmic Samples and the Origin of the Solar System"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "지구의 나이는 약 몇 억 년일까요?",
+   "answer": "46",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "운석의 방사성 연대로 약 46억 년",
+   "hint": "운석의 나이와 같습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "탄소가 대기, 바다, 생물, 암석 사이를 이동하는 것을 탄소 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "순환"
+     ]
+    }
+   ],
+   "explanation": "광합성, 호흡, 해양 흡수, 석회암 형성, 화석 연료 연소 등으로 이동합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "원시 지구의 마그마 바다에서 무거운 철이 가라앉아 핵이 된 과정을 밀도 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분화"
+     ]
+    }
+   ],
+   "explanation": "밀도에 따라 핵, 맨틀, 지각으로 나뉘었습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "지구에 들어오는 태양 복사의 약 30%가 반사됩니다. 지구의 알베도는? (소수로)",
+   "answer": "0.3",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "알베도 = 반사된 양 ÷ 들어온 양 ≈ 0.3",
+   "hint": "비율을 소수로 쓰세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "earth",
+ "subject": "earth-science",
+ "id": "l2-earth-earth-science-u01"
+}

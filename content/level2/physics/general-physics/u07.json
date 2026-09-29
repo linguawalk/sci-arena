@@ -1,0 +1,106 @@
+{
+ "no": 7,
+ "title": "유체와 열역학",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "기체 분자 운동론으로 온도와 압력을 설명할 수 있다.",
+  "열역학 제1법칙과 여러 과정에서의 일을 적분으로 계산할 수 있다.",
+  "열기관 효율과 엔트로피로 제2법칙을 설명할 수 있다."
+ ],
+ "checklist": [
+  "유체 정역학(압력, 부력)과 베르누이 방정식",
+  "이상 기체 PV = nRT와 분자 운동론 ⟨KE⟩ = (3/2)kT",
+  "열용량, 비열, 잠열",
+  "제1법칙 ΔU = Q − W, W = ∫P dV",
+  "등온·단열 과정 (PV^γ = 일정)",
+  "열기관과 카르노 효율 1 − T_c/T_h",
+  "엔트로피 dS = dQ_rev/T와 제2법칙"
+ ],
+ "advice": [
+  "기체가 한 일을 W = PΔV로만 계산했던 레벨1과 달리, 대학에서는 압력이 변하는 과정에서 W = ∫P dV를 계산합니다. 등온 팽창의 nRT ln(V₂/V₁)을 직접 유도해 보면 P–V 그래프 아래 넓이라는 의미가 확실해집니다.",
+  "엔트로피는 처음에는 추상적으로 느껴지지만 '열을 온도로 나눈 양'이라는 정의에서 출발해 카르노 기관의 효율 한계가 나온다는 흐름을 따라가 보세요. 이 단원의 미시적 설명은 레벨3 열·통계물리에서 본격적으로 다룹니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 1 (역학·파동·열역학)",
+   "url": "https://openstax.org/details/books/university-physics-volume-1",
+   "lang": "영어",
+   "part": "14장 Fluid Mechanics"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 2 (열역학·전기·자기)",
+   "url": "https://openstax.org/details/books/university-physics-volume-2",
+   "lang": "영어",
+   "part": "1~4장 Temperature and Heat, Kinetic Theory, First and Second Laws of Thermodynamics"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "14, 18~20장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "이상 기체 1 mol이 300 K에서 부피가 2배가 되도록 등온 팽창할 때 한 일은 약 몇 J일까요? (R = 8.31 J/(mol·K), ln 2 = 0.693)",
+   "answer": "1728",
+   "answer_format": "integer",
+   "tolerance": 10,
+   "explanation": "W = nRT ln(V₂/V₁) = 8.31 × 300 × 0.693 ≈ 1728 J",
+   "hint": "W = ∫P dV = nRT ln(V₂/V₁)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "600 K와 300 K 사이에서 작동하는 카르노 기관의 효율은 얼마일까요? (소수로)",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "e = 1 − T_c/T_h = 1 − 300/600 = 0.5",
+   "hint": "절대 온도를 쓰세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "물 2 kg의 온도를 10 °C 올리는 데 필요한 열은 약 몇 J일까요? (물의 비열 4186 J/(kg·K))",
+   "answer": "83720",
+   "answer_format": "integer",
+   "tolerance": 100,
+   "explanation": "Q = mcΔT = 2 × 4186 × 10 = 83720 J",
+   "hint": "Q = mcΔT입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "300 K에서 600 J의 열을 가역적으로 흡수한 계의 엔트로피 변화는 몇 J/K일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "ΔS = Q/T = 600/300 = 2 J/K",
+   "hint": "ΔS = Q_rev/T입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u07"
+}

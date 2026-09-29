@@ -1,0 +1,218 @@
+{
+ "level": 2,
+ "track": "physics",
+ "id": "general-physics",
+ "title": "일반물리",
+ "tagline": "미적분으로 다시 쓰는 역학·열·전자기·광학, 그리고 현대물리의 입구",
+ "overview": [
+  "일반물리는 이공계 대학 1학년이 공통으로 배우는 물리입니다. 다루는 현상은 레벨1 물리Ⅰ·Ⅱ와 많이 겹치지만, 모든 법칙을 미분과 적분으로 다시 씁니다. 속도는 위치의 미분, 일은 힘의 적분, 전기 선속은 전기장의 면적분입니다. 이 언어를 익히면 등가속도나 균일한 전기장 같은 특별한 경우가 아니어도 문제를 풀 수 있습니다.",
+  "과목은 크게 역학(운동학·뉴턴 법칙·에너지·운동량·회전·진동), 열과 파동, 전자기학(전기장·가우스 법칙·회로·자기장·유도·맥스웰 방정식), 광학과 현대물리 입문으로 이루어집니다. 한 학기에 역학과 열, 다음 학기에 전자기와 광학을 배우는 것이 일반적입니다.",
+  "레벨3 물리 트랙의 모든 과목(고전역학, 전자기학, 열·통계물리, 양자역학)과 tech-arena 기계·전기전자 레벨2의 선수 과목입니다. 이 가이드는 Halliday 교재와 OpenStax University Physics, MIT 8.01·8.02 강의의 흐름을 따릅니다."
+ ],
+ "level_note": "레벨 2 (대학 1학년 수준). 목차 검증 기준: Halliday, Young & Freedman, OpenStax University Physics 등 일반물리 표준 교재의 목차.",
+ "prereq": {
+  "text": "레벨1 물리Ⅰ·Ⅱ와 math-arena 레벨1 미적분(다항함수의 미분과 적분)이 선수입니다. 아래 점검에서 틀린 문항이 있으면 연결된 챕터를 먼저 복습하세요.",
+  "links": [
+   {
+    "title": "math-arena 레벨1 · 미적분",
+    "href": "https://math-arena.org/browse.html?c=c4"
+   },
+   {
+    "title": "물리Ⅱ · 챕터 1 평면 운동",
+    "href": "browse.html?c=c5#ch01"
+   },
+   {
+    "title": "물리Ⅱ · 챕터 2 원운동과 만유인력",
+    "href": "browse.html?c=c5#ch02"
+   },
+   {
+    "title": "물리Ⅱ · 챕터 5 전기장과 전위",
+    "href": "browse.html?c=c5#ch05"
+   },
+   {
+    "title": "물리Ⅱ · 챕터 6 자기장과 교류",
+    "href": "browse.html?c=c5#ch06"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "f(t) = t³일 때 f′(2)는?",
+    "answer": "12",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "f′(t) = 3t²\nf′(2) = 12 (미적분: 다항함수의 미분)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "∫₀² x dx는?",
+    "answer": "2",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "[x²/2]₀² = 2 (미적분: 정적분)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "벡터 (3, 4)의 크기는?",
+    "answer": "5",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "√(3² + 4²) = 5 (물리Ⅱ 챕터 1)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p4",
+    "qtype": "numeric",
+    "prompt": "반지름 5 m인 원을 10 m/s로 도는 물체의 구심 가속도는 몇 m/s²일까요?",
+    "answer": "20",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "a = v²/r = 100/5 = 20 m/s² (물리Ⅱ 챕터 2)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 고전역학",
+   "note": "라그랑주·해밀턴 역학으로 역학을 다시 세움"
+  },
+  {
+   "title": "레벨3 · 전자기학",
+   "note": "맥스웰 방정식을 벡터 미적분으로 본격적으로 다룸"
+  },
+  {
+   "title": "레벨3 · 열·통계물리",
+   "note": "열역학 법칙을 미시 상태의 통계로 설명"
+  },
+  {
+   "title": "레벨3 · 양자역학",
+   "note": "현대물리 입문 단원의 본격적인 이론"
+  },
+  {
+   "title": "tech-arena 레벨2 · 기계·전기전자",
+   "note": "정역학·동역학, 회로이론의 출발점"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "미적분으로 보는 운동학",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "뉴턴 법칙과 그 응용",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "일과 에너지",
+   "hours": 5,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "운동량과 충돌",
+   "hours": 4,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "회전 운동",
+   "hours": 6,
+   "after": [
+    4
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "중력과 진동",
+   "hours": 4,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "유체와 열역학",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "역학적 파동과 소리",
+   "hours": 4,
+   "after": [
+    6
+   ],
+   "file": "u08.json"
+  },
+  {
+   "no": 9,
+   "title": "전기장과 가우스 법칙",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u09.json"
+  },
+  {
+   "no": 10,
+   "title": "전위, 축전기, 직류 회로",
+   "hours": 5,
+   "after": [
+    9
+   ],
+   "file": "u10.json"
+  },
+  {
+   "no": 11,
+   "title": "자기장, 전자기 유도, 맥스웰 방정식",
+   "hours": 6,
+   "after": [
+    10
+   ],
+   "file": "u11.json"
+  },
+  {
+   "no": 12,
+   "title": "광학과 현대물리 입문",
+   "hours": 6,
+   "after": [
+    8,
+    11
+   ],
+   "file": "u12.json"
+  }
+ ],
+ "total_hours": 62
+}

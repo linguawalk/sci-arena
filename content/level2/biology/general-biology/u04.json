@@ -1,0 +1,114 @@
+{
+ "no": 4,
+ "title": "세포 신호 전달과 세포 주기",
+ "hours": 4,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "신호 전달의 수용–변환–반응 단계를 설명할 수 있다.",
+  "세포 주기의 단계와 체크포인트를 설명할 수 있다.",
+  "체세포 분열과 감수 분열을 비교할 수 있다."
+ ],
+ "checklist": [
+  "신호 분자와 수용체(막 수용체, 세포 내 수용체)",
+  "G 단백질 연결 수용체와 2차 전달자(cAMP)",
+  "인산화 연쇄 반응과 신호 증폭",
+  "세포 주기(G₁, S, G₂, M)와 체크포인트",
+  "사이클린–CDK와 암",
+  "감수 분열과 유전적 다양성(교차, 독립 분리)"
+ ],
+ "advice": [
+  "신호 전달은 대학에서 새로 비중이 커지는 주제입니다. 호르몬 하나가 세포 안에서 수천 배로 증폭되는 과정을 인산화 연쇄 반응의 그림으로 그려 보세요. 이 흐름은 12단원 호르몬, 레벨3 세포·분자생물학에서 계속 쓰입니다.",
+  "세포 주기의 체크포인트가 고장 나면 세포가 통제 없이 분열하는 것이 암이라는 연결을 기억하세요. 감수 분열은 레벨1에서 배운 내용을 5단원 유전 법칙과 연결해 '왜 멘델의 법칙이 성립하는가'를 설명하는 데 쓰입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "9~11장 Cell Communication, Cell Reproduction, Meiosis"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "11~13장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "Cell signaling, Cell cycle"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "세포 주기에서 DNA가 복제되는 시기는 {{1}}기입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "S"
+     ]
+    }
+   ],
+   "explanation": "간기의 S(합성)기에 DNA가 복제됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "체세포 분열 한 번으로 만들어지는 딸세포는 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "유전적으로 같은 딸세포 2개가 생깁니다.",
+   "hint": "한 번 나뉩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "많은 호르몬 신호를 세포 안으로 전달하는 대표적인 2차 전달자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "cAMP",
+      "고리형 AMP"
+     ]
+    }
+   ],
+   "explanation": "아데닐산 고리화 효소가 ATP로 만듭니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "2n = 46인 사람의 감수 분열로 만들어진 생식세포의 염색체 수는?",
+   "answer": "23",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "감수 분열로 염색체 수가 절반(n)이 됩니다.",
+   "hint": "n입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u04"
+}

@@ -1,0 +1,105 @@
+{
+ "no": 4,
+ "title": "분자 오비탈 이론",
+ "hours": 4,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "원자 오비탈의 결합으로 결합성·반결합성 분자 오비탈을 만들 수 있다.",
+  "2주기 이원자 분자의 결합 차수를 구할 수 있다.",
+  "O₂의 상자기성을 분자 오비탈로 설명할 수 있다."
+ ],
+ "checklist": [
+  "결합성(σ, π)과 반결합성(σ*, π*) 오비탈",
+  "분자 오비탈 에너지 준위 도표",
+  "결합 차수 = (결합성 전자 − 반결합성 전자)/2",
+  "결합 차수와 결합 길이·결합 에너지",
+  "상자기성과 반자기성",
+  "비편재화된 π 결합(벤젠)"
+ ],
+ "advice": [
+  "루이스 구조로는 O₂가 상자기성(자석에 끌림)이라는 사실을 설명할 수 없습니다. 분자 오비탈 이론은 이 실험 사실을 자연스럽게 설명하는 것으로 출발합니다. N₂와 O₂의 에너지 준위 도표를 손으로 여러 번 그려 전자를 채우는 연습을 하세요.",
+  "결합 차수가 0이면 분자가 존재하지 않는다(He₂)는 예측, 이온이 되면 결합 차수가 어떻게 변하는지(O₂⁺, O₂⁻)를 계산해 결합 길이를 비교하는 문제가 대표 유형입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "8장 8.4절 Molecular Orbital Theory"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "강의 12~13 Molecular orbital theory"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "9장 9.2~9.4절"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "O₂의 결합 차수는?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "결합성 전자 10, 반결합성 전자 6 (원자가 전자 기준 8과 4)\n(8 − 4)/2 = 2",
+   "hint": "(결합성 − 반결합성)/2입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "N₂의 결합 차수는?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "원자가 전자 10개: 결합성 8, 반결합성 2\n(8 − 2)/2 = 3 (삼중 결합)",
+   "hint": "(결합성 − 반결합성)/2입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "O₂ 분자의 홀전자는 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "π*2p 오비탈 두 개에 전자가 하나씩 들어갑니다.\n그래서 상자기성입니다.",
+   "hint": "훈트 규칙을 적용하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "He₂의 결합 차수는?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "σ1s² σ*1s²\n(2 − 2)/2 = 0이므로 안정한 분자가 없습니다.",
+   "hint": "전자 4개를 채워 보세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u04"
+}

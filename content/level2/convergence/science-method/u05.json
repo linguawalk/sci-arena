@@ -1,0 +1,135 @@
+{
+ "no": 5,
+ "title": "20세기 과학과 패러다임",
+ "hours": 4,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "상대성이론과 양자역학이 고전 물리의 어떤 한계에서 출발했는지 설명할 수 있다.",
+  "DNA 구조와 판 구조론의 발견 과정을 설명할 수 있다.",
+  "쿤의 패러다임과 과학 혁명 개념을 사례에 적용할 수 있다."
+ ],
+ "checklist": [
+  "특수·일반 상대성이론(아인슈타인)",
+  "양자역학의 탄생(플랑크, 보어, 하이젠베르크, 슈뢰딩거)",
+  "DNA 이중 나선(1953)과 분자생물학",
+  "대륙 이동설에서 판 구조론으로",
+  "쿤의 정상 과학, 변칙 사례, 패러다임 전환",
+  "빅 사이언스와 국제 협력(입자가속기, 인간 유전체 사업)"
+ ],
+ "advice": [
+  "쿤의 패러다임 개념은 20세기 사례로 보면 가장 잘 이해됩니다. 대륙 이동설이 약 50년 동안 받아들여지지 않다가 해저 확장설과 고지자기 증거로 판 구조론이 되는 과정을 정상 과학 → 변칙 사례 → 위기 → 새 패러다임의 단계에 맞춰 정리해 보세요.",
+  "DNA 구조 발견에서 로절린드 프랭클린의 X선 회절 자료가 한 역할은 과학의 협력과 공로 인정 문제를 보여 줍니다. 9단원의 과학과 사회 주제와 연결해 생각해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University of Chicago Press",
+   "title": "Thomas S. Kuhn, The Structure of Scientific Revolutions (번역본 『과학혁명의 구조』)",
+   "part": "1~10장"
+  },
+  {
+   "kind": "web",
+   "provider": "Stanford Encyclopedia of Philosophy",
+   "title": "Thomas Kuhn",
+   "url": "https://plato.stanford.edu/entries/thomas-kuhn/",
+   "lang": "영어",
+   "part": "3~4절"
+  },
+  {
+   "kind": "book",
+   "provider": "Hackett / Open University Press",
+   "title": "A. F. Chalmers, What Is This Thing Called Science? (번역본 『현대의 과학철학』)",
+   "part": "8장 쿤의 패러다임"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "『과학혁명의 구조』에서 '패러다임' 개념을 제시한 학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "쿤",
+      "토머스 쿤"
+     ]
+    }
+   ],
+   "explanation": "1962년에 출판되었습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "1953년 DNA 이중 나선 모형을 발표한 두 과학자는 왓슨과 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "크릭"
+     ]
+    }
+   ],
+   "explanation": "프랭클린의 X선 회절 사진이 결정적인 자료였습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "대륙 이동설이 판 구조론으로 받아들여지는 데 결정적인 역할을 한 해양 연구 결과는 해저 {{1}}설입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "확장"
+     ]
+    }
+   ],
+   "explanation": "해령 양쪽의 대칭적인 고지자기 줄무늬가 증거였습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "written",
+   "prompt": "쿤이 말한 '패러다임 전환'이 무엇인지 예를 들어 설명해 보세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "패러다임"
+     ],
+     [
+      "정상 과학",
+      "기존"
+     ],
+     [
+      "변칙",
+      "설명하지 못",
+      "위기"
+     ],
+     [
+      "전환",
+      "새로운",
+      "대체"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "패러다임은 한 시대 과학자 공동체가 공유하는 이론과 방법의 틀입니다. 정상 과학 속에서 기존 패러다임으로 설명하지 못하는 변칙 사례가 쌓여 위기가 오면, 새로운 패러다임이 기존 것을 대체하는 전환이 일어납니다. 천동설에서 지동설로, 대륙 고정설에서 판 구조론으로 바뀐 것이 예입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "convergence",
+ "subject": "science-method",
+ "id": "l2-convergence-science-method-u05"
+}

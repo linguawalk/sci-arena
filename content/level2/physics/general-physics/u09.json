@@ -1,0 +1,110 @@
+{
+ "no": 9,
+ "title": "전기장과 가우스 법칙",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "점전하와 연속 전하 분포의 전기장을 계산할 수 있다.",
+  "전기 선속과 가우스 법칙의 의미를 설명할 수 있다.",
+  "대칭성을 이용해 가우스 법칙으로 전기장을 구할 수 있다."
+ ],
+ "checklist": [
+  "쿨롱 법칙과 전기장 E = kq/r²",
+  "연속 전하 분포: E = ∫k dq/r²",
+  "전기 쌍극자",
+  "전기 선속 Φ = ∮E·dA",
+  "가우스 법칙 ∮E·dA = q_in/ε₀",
+  "구·무한 직선·무한 평면의 전기장",
+  "도체 내부 전기장 0과 표면 전하"
+ ],
+ "advice": [
+  "가우스 법칙은 대학 전자기학의 첫 번째 큰 도약입니다. 전기장을 직접 적분하면 복잡한 문제도 구·원기둥·평면 대칭이 있으면 폐곡면을 잘 골라 한 줄로 풀 수 있습니다. 가우스 면을 고를 때 '면 위에서 E가 일정하고 면에 수직이거나 나란한가'를 확인하는 습관을 들이세요.",
+  "무한 직선 전하의 전기장이 1/r, 무한 평면 전하의 전기장이 거리와 무관하다는 결과는 직관과 달라 보입니다. 전기력선이 퍼져 나가는 차원(3차원 구면, 2차원 원기둥, 퍼지지 않는 평면)으로 해석해 보면 이해가 쉬워집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 2 (열역학·전기·자기)",
+   "url": "https://openstax.org/details/books/university-physics-volume-2",
+   "lang": "영어",
+   "part": "5~6장 Electric Charges and Fields, Gauss's Law"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.02 Physics II: Electricity and Magnetism (2007년 봄)",
+   "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/",
+   "lang": "영어",
+   "part": "1~4강 Electric Field, Gauss's Law"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "21~23장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "1 × 10⁻⁹ C의 점전하에서 0.3 m 떨어진 곳의 전기장 세기는 몇 N/C일까요? (k = 9 × 10⁹ N·m²/C²)",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "E = kq/r² = 9 × 10⁹ × 10⁻⁹ / 0.09 = 100 N/C",
+   "hint": "E = kq/r²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "폐곡면 안에 8.85 × 10⁻¹² C의 전하가 있을 때 폐곡면을 지나는 전기 선속은 몇 N·m²/C일까요? (ε₀ = 8.85 × 10⁻¹² C²/(N·m²))",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Φ = q/ε₀ = 1 N·m²/C\n폐곡면의 모양과 관계없습니다.",
+   "hint": "가우스 법칙입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "무한히 긴 직선 전하에서 거리가 2배가 되면 전기장의 세기는 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "원기둥 가우스 면: E × 2πrL = λL/ε₀\nE ∝ 1/r이므로 1/2배",
+   "hint": "원기둥 모양 가우스 면을 쓰세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "정전기적 평형 상태인 도체 내부의 전기장은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "explanation": "내부에 전기장이 있으면 자유 전자가 움직이므로 평형이 아닙니다.\n그래서 여분의 전하는 표면에만 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u09"
+}

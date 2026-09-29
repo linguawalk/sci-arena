@@ -1,0 +1,114 @@
+{
+ "no": 6,
+ "title": "분자 유전: 복제, 유전자 발현, 조절",
+ "hours": 6,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "DNA 복제의 반보존성과 선도·지연 가닥을 설명할 수 있다.",
+  "전사, RNA 가공, 번역의 과정을 설명할 수 있다.",
+  "원핵생물과 진핵생물의 유전자 발현 조절을 비교할 수 있다."
+ ],
+ "checklist": [
+  "유전 물질 증거(그리피스, 에이버리, 허시–체이스)",
+  "DNA 구조와 반보존적 복제",
+  "복제 효소(헬리케이스, 중합 효소, 연결 효소)",
+  "전사와 RNA 가공(캡, 꼬리, 스플라이싱)",
+  "번역과 유전 암호",
+  "돌연변이의 종류와 영향",
+  "lac 오페론과 진핵생물 전사 조절, 후성 유전"
+ ],
+ "advice": [
+  "이 단원은 레벨1 생물Ⅱ 챕터 5~6과 거의 같으므로 핵심 그림(복제 분기점, 전사, 번역, 오페론)을 빈 종이에 다시 그릴 수 있는지 확인하는 방식으로 복습하세요. 새로 추가되는 후성 유전(DNA 메틸화, 히스톤 변형)은 '서열은 그대로인데 발현이 달라지는' 현상으로 정리하면 됩니다.",
+  "돌연변이 문제는 염기 하나가 바뀔 때 코돈이 어떻게 바뀌고 아미노산이 바뀌는지(침묵, 미스센스, 넌센스, 틀 이동)를 코돈표로 직접 따라가는 연습이 가장 효과적입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "14~16장 DNA Structure and Function, Genes and Proteins, Gene Expression"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "16~18장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "7.016 Introductory Biology (2018년 가을)",
+   "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/",
+   "lang": "영어",
+   "part": "강의 10~20 Molecular biology"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "새 DNA가 원래 가닥 하나와 새 가닥 하나로 이루어지는 복제 방식을 {{1}}적 복제라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반보존"
+     ]
+    }
+   ],
+   "explanation": "메셀슨과 스탈이 ¹⁵N 실험으로 증명했습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "4종류의 염기로 만들 수 있는 코돈은 모두 몇 가지일까요?",
+   "answer": "64",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "4³ = 64가지\n61가지가 아미노산, 3가지가 종결 코돈",
+   "hint": "4 × 4 × 4입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "lac 오페론에서 억제 단백질이 결합하는 부위는 {{1}} 부위입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작동"
+     ]
+    }
+   ],
+   "explanation": "젖당이 없을 때 억제 단백질이 작동 부위에 붙어 전사를 막습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "아미노산 100개로 된 폴리펩타이드를 암호화하는 mRNA 부위는 종결 코돈을 포함해 몇 염기일까요?",
+   "answer": "303",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "100 × 3 + 3 = 303염기",
+   "hint": "종결 코돈도 세세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u06"
+}

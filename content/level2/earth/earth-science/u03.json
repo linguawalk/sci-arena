@@ -1,0 +1,112 @@
+{
+ "no": 3,
+ "title": "지구 내부와 판 구조론",
+ "hours": 5,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "지진파 자료로 지구 내부 구조를 해석할 수 있다.",
+  "판 구조론의 증거와 판 경계의 종류를 설명할 수 있다.",
+  "판을 움직이는 힘을 설명할 수 있다."
+ ],
+ "checklist": [
+  "지진파(P파, S파)와 불연속면",
+  "지각·맨틀·외핵·내핵, 암석권과 연약권",
+  "대륙 이동설과 해저 확장설의 증거",
+  "고지자기 줄무늬와 해양 지각의 나이",
+  "발산·수렴·보존 경계와 지형",
+  "열점과 판의 이동 속도",
+  "맨틀 대류, 섭입하는 판의 당김, 해령의 밀어냄"
+ ],
+ "advice": [
+  "판 구조론은 지질학의 통합 이론입니다. 대륙 이동설이 처음에 받아들여지지 않은 이유(원동력 설명 부족)와 해저 확장설이 이를 해결한 과정을 역사적 순서로 정리하면, 과학 이론이 증거로 받아들여지는 과정을 보여 주는 좋은 사례가 됩니다(융합 트랙 과학사와 과학의 방법과 연결).",
+  "판의 이동 속도는 1년에 수 cm로 손톱이 자라는 속도와 비슷합니다. 이 속도로 대서양이 열리는 데 걸린 시간을 직접 계산해 보면 지질 시간의 규모가 실감 납니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "9~10장 Earth's Interior, Plate Tectonics"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Tarbuck · Lutgens · Tasa, Earth Science (장 번호는 원서 15판 기준, 번역본 『지구과학 개론』)",
+   "part": "7~8장 Plate Tectonics, Earth's Interior"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "해령에서 멀어질수록 해양 지각의 나이는 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "많아",
+      "오래"
+     ]
+    }
+   ],
+   "explanation": "해령에서 새 지각이 생겨 양쪽으로 이동합니다.",
+   "hint": "해저 확장설을 떠올리세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "판이 1년에 5 cm씩 움직인다면 1000 km를 이동하는 데 약 몇 백만 년이 걸릴까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "1000 km = 10⁸ cm\n10⁸ ÷ 5 = 2 × 10⁷년 = 20백만 년",
+   "hint": "단위를 cm로 맞추세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "S파가 통과하지 못하는 것으로 보아 액체 상태인 층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "외핵"
+     ]
+    }
+   ],
+   "explanation": "구텐베르크 불연속면 아래(약 2900 km)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "판을 움직이는 원동력으로 여겨 온 맨틀 내부의 열에 의한 흐름을 맨틀 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대류"
+     ]
+    }
+   ],
+   "explanation": "오늘날에는 섭입하는 판이 당기는 힘도 중요하다고 봅니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "earth",
+ "subject": "earth-science",
+ "id": "l2-earth-earth-science-u03"
+}

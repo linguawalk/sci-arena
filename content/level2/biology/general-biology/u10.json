@@ -1,0 +1,122 @@
+{
+ "no": 10,
+ "title": "식물의 구조와 기능",
+ "hours": 4,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "식물의 조직과 기관을 구별할 수 있다.",
+  "물과 양분의 수송을 증산–응집–장력설과 압류설로 설명할 수 있다.",
+  "식물 호르몬과 환경 반응을 설명할 수 있다."
+ ],
+ "checklist": [
+  "뿌리·줄기·잎, 분열 조직과 생장",
+  "물관과 체관",
+  "증산 작용, 응집–장력설",
+  "기공과 공변세포",
+  "체관의 당 수송(압류설)",
+  "식물 호르몬(옥신, 지베렐린, 사이토키닌, 앱시스산, 에틸렌)",
+  "굴성, 광주기성"
+ ],
+ "advice": [
+  "고교 과정에서 비중이 작았던 식물 생리는 대학 일반생물에서 한 단원을 차지합니다. 물이 100 m 높이의 나무 꼭대기까지 올라가는 원리를 물 분자의 응집력(1단원)과 증산으로 설명하는 것이 핵심입니다.",
+  "식물 호르몬은 이름과 기능이 헷갈리기 쉬우니 '생장 촉진(옥신·지베렐린·사이토키닌)과 억제·스트레스(앱시스산·에틸렌)'로 나누어 정리하고, 과일 숙성(에틸렌)이나 가뭄 때 기공 닫힘(앱시스산) 같은 생활 속 예를 하나씩 붙여 두세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "30~32장 Plant Form and Physiology, Soil and Plant Nutrition, Plant Reproduction"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "35~39장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "Plant biology"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "뿌리에서 흡수한 물이 올라가는 관다발 조직은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "물관"
+     ]
+    }
+   ],
+   "explanation": "죽은 세포로 이루어진 관입니다.\n양분은 체관으로 이동합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "기공을 열고 닫는 세포는 {{1}}세포입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "공변"
+     ]
+    }
+   ],
+   "explanation": "팽압 변화로 모양이 바뀌어 기공이 열리고 닫힙니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "식물이 빛 쪽으로 휘어 자라게 하는 호르몬은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "옥신"
+     ]
+    }
+   ],
+   "explanation": "그늘진 쪽으로 이동해 그쪽 세포를 더 길게 자라게 합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "잎에서 물이 수증기로 빠져나가는 현상을 {{1}} 작용이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "증산"
+     ]
+    }
+   ],
+   "explanation": "물을 위로 끌어올리는 원동력입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u10"
+}

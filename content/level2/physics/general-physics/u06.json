@@ -1,0 +1,109 @@
+{
+ "no": 6,
+ "title": "중력과 진동",
+ "hours": 4,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "만유인력 퍼텐셜로 궤도와 탈출 속도를 계산할 수 있다.",
+  "단조화 운동의 미분방정식과 해를 설명할 수 있다.",
+  "감쇠 진동과 공명의 특징을 설명할 수 있다."
+ ],
+ "checklist": [
+  "만유인력 F = GMm/r², 퍼텐셜 U = −GMm/r",
+  "원궤도 속력과 케플러 제3법칙 T² ∝ r³",
+  "탈출 속도 √(2GM/R)",
+  "단조화 운동 d²x/dt² = −ω²x, 해 x = A cos(ωt + φ)",
+  "용수철 진자 ω = √(k/m), 단진자 ω = √(g/L)",
+  "감쇠 진동, 강제 진동과 공명"
+ ],
+ "advice": [
+  "레벨1에서 결과로만 배웠던 T = 2π√(m/k)가 미분방정식 m x″ = −kx의 해에서 나온다는 것을 확인하는 것이 이 단원의 목표입니다. 단조화 운동은 물리 전체에서 가장 자주 나오는 모형으로, 분자 진동, LC 회로, 양자 조화 진동자까지 모두 같은 수학을 씁니다.",
+  "중력 퍼텐셜 −GMm/r의 음수 부호가 헷갈리면, 무한히 먼 곳을 0으로 잡았기 때문에 묶여 있는 상태는 음의 에너지를 가진다고 생각하세요. 전체 에너지가 0 이상이면 탈출한다는 조건으로 탈출 속도가 바로 나옵니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "University Physics Volume 1 (역학·파동·열역학)",
+   "url": "https://openstax.org/details/books/university-physics-volume-1",
+   "lang": "영어",
+   "part": "13장 Gravitation, 15장 Oscillations"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.01SC Classical Mechanics (2016년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/",
+   "lang": "영어",
+   "part": "Week 13~14 Gravitation, Simple Harmonic Motion"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Halliday · Resnick · Walker, Fundamentals of Physics (장 번호는 원서 10판 이후 기준, 번역본 『일반물리학』)",
+   "part": "13·15장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "질량 0.5 kg, 용수철 상수 50 N/m인 용수철 진자의 주기는 약 몇 초일까요?",
+   "answer": "0.628",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "ω = √(k/m) = 10 rad/s\nT = 2π/ω ≈ 0.628 s",
+   "hint": "T = 2π√(m/k)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "행성 표면에서의 탈출 속도는 √({{1}}GM/R)입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "2"
+     ]
+    }
+   ],
+   "explanation": "½mv² − GMm/R = 0\nv = √(2GM/R)",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "x(t) = 0.2 cos(5t) (m)로 진동하는 물체의 최대 속력은 몇 m/s일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "v = −0.2 × 5 sin(5t)\n최대 속력 Aω = 1 m/s",
+   "hint": "x를 미분하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "궤도 반지름이 4배인 인공위성의 공전 주기는 몇 배일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "T² ∝ r³\nT ∝ r^(3/2) = 4^(3/2) = 8배",
+   "hint": "케플러 제3법칙입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "physics",
+ "subject": "general-physics",
+ "id": "l2-physics-general-physics-u06"
+}

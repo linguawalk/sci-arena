@@ -1,0 +1,109 @@
+{
+ "no": 9,
+ "title": "화학 평형",
+ "hours": 4,
+ "after": [
+  7
+ ],
+ "objectives": [
+  "평형 상수 Kc와 Kp를 쓰고 서로 바꿀 수 있다.",
+  "ICE 표로 평형 농도를 계산할 수 있다.",
+  "반응 지수와 르샤틀리에 원리로 평형 이동을 예측할 수 있다."
+ ],
+ "checklist": [
+  "동적 평형과 질량 작용의 법칙",
+  "Kc와 Kp, Kp = Kc(RT)^Δn",
+  "불균일 평형(고체·순수 액체 제외)",
+  "반응 지수 Q와 반응 방향",
+  "ICE 표와 근사",
+  "르샤틀리에 원리(농도·압력·온도)"
+ ],
+ "advice": [
+  "이 단원은 레벨1 화학Ⅱ 챕터 5와 거의 같으므로, 새로 나오는 Kp와 이차방정식이 필요한 ICE 계산에 집중하세요. 'x가 처음 농도의 5%보다 작으면 무시한다'는 근사를 언제 써도 되는지 판단하는 연습이 산·염기 평형에서 그대로 쓰입니다.",
+  "평형 상수가 온도에만 의존한다는 사실은 11단원의 ΔG° = −RT ln K로 설명됩니다. 두 단원을 이어서 공부하면 평형과 열역학이 하나로 연결됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "13장 Fundamental Equilibrium Concepts"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "Unit IV Chemical Equilibrium (강의 18~20)"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "12장 Chemical Equilibrium"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "N₂O₄ ⇌ 2NO₂의 평형에서 [N₂O₄] = 0.04 M, [NO₂] = 0.2 M이면 Kc는?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Kc = 0.2² / 0.04 = 1",
+   "hint": "계수를 지수로 쓰세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "위 반응의 Kc가 1일 때 300 K에서 Kp는 얼마일까요? (R = 0.082 atm·L/(mol·K))",
+   "answer": "24.6",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "Δn = 2 − 1 = 1\nKp = Kc(RT)¹ = 0.082 × 300 = 24.6",
+   "hint": "Kp = Kc(RT)^Δn입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "H₂ + I₂ ⇌ 2HI (K = 64)에서 H₂, I₂를 각각 1 M로 시작하면 평형에서 [HI]는 몇 M일까요?",
+   "answer": "1.6",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "(2x)²/(1 − x)² = 64 → 2x/(1 − x) = 8\nx = 0.8, [HI] = 1.6 M",
+   "hint": "양변의 제곱근을 취하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "반응 지수 Q가 K보다 크면 {{1}}이 우세하게 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역반응"
+     ]
+    }
+   ],
+   "explanation": "생성물이 평형보다 많습니다.\nQ가 줄어드는 방향입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u09"
+}

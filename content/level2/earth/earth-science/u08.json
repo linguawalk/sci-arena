@@ -1,0 +1,106 @@
+{
+ "no": 8,
+ "title": "해양의 성질과 순환",
+ "hours": 4,
+ "after": [
+  7
+ ],
+ "objectives": [
+  "해수의 연직 수온·염분 구조를 설명할 수 있다.",
+  "표층 순환을 바람과 에크만 수송으로 설명할 수 있다.",
+  "열염 순환과 기후 조절 역할을 설명할 수 있다."
+ ],
+ "checklist": [
+  "해저 지형",
+  "해수의 염분과 조성",
+  "혼합층, 수온 약층, 심해층",
+  "표층 해류와 아열대 순환, 서안 강화",
+  "에크만 수송과 용승·침강",
+  "열염 순환(심층 순환)",
+  "엘니뇨·라니냐와 대기–해양 상호작용"
+ ],
+ "advice": [
+  "해양은 대기와 쌍을 이루는 지구의 열 운반 장치입니다. 대기 대순환의 바람 띠 그림 위에 표층 해류를 겹쳐 그려 보면 아열대 순환의 방향이 바람으로 설명된다는 것을 한눈에 볼 수 있습니다.",
+  "열염 순환은 수백~수천 년 규모의 느린 순환이지만 기후를 크게 좌우합니다. 북대서양에서 차고 짠 물이 가라앉는 과정이 약해지면 기후가 어떻게 변할 수 있는지 읽어 보면 9단원 기후 변화와 연결됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Roger Williams University Open Publishing (무료 공개 교재)",
+   "title": "Paul Webb, Introduction to Oceanography",
+   "url": "https://rwu.pressbooks.pub/webboceanography/",
+   "lang": "영어",
+   "part": "5장 Chemical Oceanography, 6장 Physical Oceanography, 8장 Oceans and Climate, 9장 Ocean Circulation"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Tarbuck · Lutgens · Tasa, Earth Science (장 번호는 원서 15판 기준, 번역본 『지구과학 개론』)",
+   "part": "13~15장 The Ocean Floor, Ocean Water and Ocean Life, The Dynamic Ocean"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "대양 해수의 평균 염분은 약 몇 psu(‰)일까요?",
+   "answer": "35",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "평균 약 35 psu\n증발이 많은 아열대에서 높습니다.",
+   "hint": "30대입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "혼합층과 심해층 사이에서 깊이에 따라 수온이 급하게 낮아지는 층을 수온 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "약층"
+     ]
+    }
+   ],
+   "explanation": "매우 안정해 위아래 물이 잘 섞이지 않습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "북반구에서 에크만 수송은 바람 방향의 오른쪽 몇 ° 방향으로 일어날까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "에크만층 전체의 평균 이동은 바람의 오른쪽 90°입니다.",
+   "hint": "직각입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "수온과 염분에 따른 밀도 차이로 일어나는 심층 순환을 {{1}} 순환이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "열염"
+     ]
+    }
+   ],
+   "explanation": "전 지구를 도는 데 약 1000년이 걸립니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "earth",
+ "subject": "earth-science",
+ "id": "l2-earth-earth-science-u08"
+}

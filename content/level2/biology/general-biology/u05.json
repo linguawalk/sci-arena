@@ -1,0 +1,110 @@
+{
+ "no": 5,
+ "title": "멘델 유전과 염색체 유전",
+ "hours": 5,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "분리·독립 법칙으로 교배 결과를 확률로 계산할 수 있다.",
+  "반성 유전과 연관·교차를 분석할 수 있다.",
+  "가계도로 유전 방식을 추론할 수 있다."
+ ],
+ "checklist": [
+  "분리 법칙과 독립 법칙, 확률의 곱·합 규칙",
+  "불완전 우성, 공동 우성, 복대립 유전자, 다인자 유전",
+  "염색체 유전설",
+  "반성 유전(X 연관)",
+  "연관과 교차, 재조합 빈도와 유전자 지도",
+  "가계도 분석",
+  "염색체 이상(비분리)"
+ ],
+ "advice": [
+  "교배 문제는 퍼넷 사각형을 그리기보다 유전자마다 따로 확률을 구해 곱하는 방법이 훨씬 빠르고 정확합니다. AaBbCc × AaBbCc 같은 문제로 곱 규칙을 연습하세요.",
+  "재조합 빈도 1%를 유전자 지도 거리 1 cM(센티모건)으로 쓰는 이유는, 두 유전자가 멀수록 그 사이에서 교차가 일어날 확률이 커지기 때문입니다. 세 유전자의 재조합 빈도로 순서를 정하는 문제를 한두 개 풀어 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "12~13장 Mendel's Experiments and Heredity, Modern Understandings of Inheritance"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "14~15장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "Classical and molecular genetics"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "Aa × Aa 교배에서 자손이 열성 표현형일 확률은? (소수로)",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "aa가 될 확률 1/2 × 1/2 = 1/4",
+   "hint": "각 부모가 a를 줄 확률을 곱하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "AaBb × AaBb(독립 유전)에서 두 형질 모두 우성 표현형인 자손의 비율은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "9/16"
+     ]
+    }
+   ],
+   "explanation": "3/4 × 3/4 = 9/16",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "X 연관 열성 형질의 보인자 어머니와 정상 아버지 사이에서 아들이 그 형질을 나타낼 확률은? (소수로)",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "아들은 어머니에게서 X를 받습니다.\n열성 X를 받을 확률 1/2",
+   "hint": "아들의 X는 어머니에게서 옵니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "두 유전자 사이의 재조합 빈도가 17%이면 유전자 지도 거리는 몇 cM일까요?",
+   "answer": "17",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "재조합 빈도 1% = 1 cM\n17 cM",
+   "hint": "1% = 1 cM입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u05"
+}

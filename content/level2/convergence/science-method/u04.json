@@ -1,0 +1,119 @@
+{
+ "no": 4,
+ "title": "근대 과학의 분화",
+ "hours": 4,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "화학 혁명과 에너지 보존 법칙이 확립된 과정을 설명할 수 있다.",
+  "진화론과 전자기 이론이 등장한 배경과 증거를 설명할 수 있다.",
+  "18~19세기에 과학이 분과로 나뉘고 제도화된 과정을 설명할 수 있다."
+ ],
+ "checklist": [
+  "라부아지에와 화학 혁명(연소 이론, 질량 보존)",
+  "돌턴의 원자설과 멘델레예프의 주기율표",
+  "열의 일당량과 에너지 보존(줄, 헬름홀츠)",
+  "다윈과 월리스의 자연선택설(1859)",
+  "패러데이와 맥스웰의 전자기 이론",
+  "과학의 제도화(학회, 대학 실험실, 전문 과학자)"
+ ],
+ "advice": [
+  "이 시기에 오늘날의 물리·화학·생물·지구과학이라는 분과가 자리를 잡았습니다. 각 분과의 대표적인 '출생 사건'(화학 혁명, 에너지 보존, 진화론, 전자기 통합)을 하나씩 골라, 그 이전의 생각과 무엇이 달라졌는지 비교해 보세요.",
+  "다윈이 『종의 기원』을 발표하기까지 20년 넘게 증거를 모은 과정은 과학에서 증거의 무게가 얼마나 중요한지 보여 줍니다. 레벨1 생물Ⅰ의 진화 단원과 연결해 읽으면 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "web",
+   "provider": "Stanford Encyclopedia of Philosophy",
+   "title": "Darwinism",
+   "url": "https://plato.stanford.edu/entries/darwinism/",
+   "lang": "영어",
+   "part": "1~3절"
+  },
+  {
+   "kind": "book",
+   "provider": "University of Chicago Press",
+   "title": "David C. Lindberg, The Beginnings of Western Science (번역본 『서양과학의 기원들』)",
+   "part": "후기 부분(근대 과학으로의 이행)"
+  },
+  {
+   "kind": "book",
+   "provider": "Hackett / Open University Press",
+   "title": "A. F. Chalmers, What Is This Thing Called Science? (번역본 『현대의 과학철학』)",
+   "part": "과학사 사례 장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "정량 실험으로 연소를 산소와의 결합으로 설명하고 질량 보존을 확립한 화학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "라부아지에"
+     ]
+    }
+   ],
+   "explanation": "플로지스톤설을 대체했습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "추의 낙하로 물을 휘저어 열의 일당량을 측정한 과학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "줄"
+     ]
+    }
+   ],
+   "explanation": "에너지 단위 J에 이름이 남았습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "자연선택에 의한 진화를 『종의 기원』(1859)으로 발표한 과학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "다윈"
+     ]
+    }
+   ],
+   "explanation": "월리스도 독립적으로 같은 결론에 이르렀습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "전기와 자기를 통합한 방정식으로 빛이 전자기파라고 예측한 과학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "맥스웰"
+     ]
+    }
+   ],
+   "explanation": "헤르츠가 실험으로 전자기파를 확인했습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "convergence",
+ "subject": "science-method",
+ "id": "l2-convergence-science-method-u04"
+}

@@ -90,7 +90,6 @@
 - 레슨 생성: tools/build_c{코스}_ch{NN}.py (공용 도구 tools/sk.py). 빌드 때 단계 A 엄격 검사를 항상 적용
   - 레슨당 문항 15~17개, 화면 20~24개, 예제 3개, 채점형 문항 풀이 20자 이상, 적용·복습 문항 힌트 필수
 - 빌드: python3 tools/build_c0_ch01.py content && python3 tools/make_course_index.py content
-- 레벨2·3 가이드는 math-arena 방식으로 추가 예정
 
 ## 진입 진단 (placement)
 - 문항 풀: content/level1/placement.json (tools/make_placement.py가 생성, 페이지는 placement_tpl.html → placement.html)
@@ -108,3 +107,16 @@
   - starts {코스: {c, ch, chTitle, chNo}}: 과목별 시작 위치
   - status {코스: pass | assumed | start | later | untested}
   - chapters {"c2-ch03": ok | weak | miss | start} (browse.html 챕터 표시)
+
+## 레벨2·3 가이드 (guide)
+- 트랙 목록: content/guides.json (5트랙: 물리·화학·생명과학·지구과학·융합, 과목별 level·available)
+- 과목: content/level{2|3}/{트랙}/{과목}/subject.json
+  - overview(분야 개요 3문단), tagline, level_note(수준과 목차 검증 기준)
+  - prereq: text, links(레벨1 챕터·math-arena), questions(선수 점검, id p1~)
+  - units: no, title, hours, after(먼저 볼 단원), file / total_hours / next(다음 과목)
+- 단원: uNN.json (math-arena·tech-arena 공통 단원 템플릿)
+  - objectives, checklist, advice(1~2문단, 문단당 80자 이상), resources(kind lecture|video|book|web, provider, title, part, url, lang), hours, selfcheck(레벨1 문항 스키마, stage = selfcheck)
+- 제작: tools/guide_{과목}.py (공용 도구 tools/gk.py — 저장 전에 단원 번호·선수 단원·분량·서술형 모범 답안 채점 통과를 검사)
+- 페이지: guide.html (?lv=&t=&s=&u=) — tools/make_guide.py가 player.html 공용 코드로 생성
+- 저장: localStorage "sci-arena:guide" = {단원 id: {checks: [체크한 항목 번호], sc: {문항 id: 정답 여부}}}
+- 추천 자료는 무료 공개 자료(OpenStax, MIT OCW, BCcampus, SEP 등)를 우선하고, 유료 교재는 URL 없이 장 번호만 적음

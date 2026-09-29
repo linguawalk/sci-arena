@@ -1,0 +1,135 @@
+{
+ "no": 1,
+ "title": "과학이란 무엇인가",
+ "hours": 3,
+ "after": [],
+ "objectives": [
+  "관찰, 가설, 법칙, 이론의 차이를 설명할 수 있다.",
+  "귀납과 연역, 반증 가능성의 개념을 예를 들어 설명할 수 있다.",
+  "대조 실험을 설계하고 변인을 구별할 수 있다."
+ ],
+ "checklist": [
+  "관찰과 추론, 가설과 예측",
+  "법칙(무엇이 일어나는가)과 이론(왜 일어나는가)",
+  "귀납 추론과 귀납의 문제",
+  "연역 추론과 가설–연역법",
+  "포퍼의 반증 가능성",
+  "대조군, 독립·종속·통제 변인",
+  "과학과 유사 과학의 구분"
+ ],
+ "advice": [
+  "일상에서 '그건 이론일 뿐이야'라고 할 때의 이론은 추측을 뜻하지만, 과학에서 이론은 많은 증거로 검증된 설명 체계를 뜻합니다. 진화론, 판 구조론, 원자론이 모두 이런 의미의 이론이라는 점을 이 단원에서 분명히 하세요.",
+  "과학 방법을 '관찰 → 가설 → 실험 → 결론'의 한 줄 공식으로만 외우면 실제 과학의 모습을 놓칩니다. 뒤의 과학사 단원에서 이 공식이 실제로는 얼마나 복잡하게 굴러갔는지 사례로 확인하며 이 단원의 개념을 다시 떠올려 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Hackett / Open University Press",
+   "title": "A. F. Chalmers, What Is This Thing Called Science? (번역본 『현대의 과학철학』)",
+   "part": "1~5장 (귀납, 반증주의)"
+  },
+  {
+   "kind": "web",
+   "provider": "Stanford Encyclopedia of Philosophy",
+   "title": "Scientific Method",
+   "url": "https://plato.stanford.edu/entries/scientific-method/",
+   "lang": "영어",
+   "part": "1~4절"
+  },
+  {
+   "kind": "web",
+   "provider": "Stanford Encyclopedia of Philosophy",
+   "title": "Karl Popper",
+   "url": "https://plato.stanford.edu/entries/popper/",
+   "lang": "영어",
+   "part": "Basic Statements, Falsifiability and Convention 절"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "과학 이론은 틀릴 수 있는 방식으로 검증 가능해야 한다는 반증 가능성을 강조한 철학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "포퍼",
+      "칼 포퍼"
+     ]
+    }
+   ],
+   "explanation": "반증될 수 없는 주장은 과학이 아니라고 보았습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "여러 개별 관찰에서 일반적인 법칙을 이끌어 내는 추론을 {{1}} 추론이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "귀납"
+     ]
+    }
+   ],
+   "explanation": "일반 원리에서 개별 결론을 끌어내는 것은 연역입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "실험에서 처리를 하지 않고 비교의 기준으로 삼는 집단을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대조군"
+     ]
+    }
+   ],
+   "explanation": "실험군과 대조군은 조작 변인만 달라야 합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "written",
+   "prompt": "과학에서 '가설'과 '이론'의 차이를 설명해 보세요.",
+   "rubric": {
+    "visibility": "hidden",
+    "keyword_groups": [
+     [
+      "가설"
+     ],
+     [
+      "검증",
+      "시험",
+      "예측"
+     ],
+     [
+      "이론"
+     ],
+     [
+      "증거",
+      "설명 체계",
+      "폭넓"
+     ]
+    ],
+    "min_groups_matched": 3
+   },
+   "model_answer": "가설은 현상을 설명하기 위해 제안된 잠정적인 설명으로 실험이나 관찰로 검증해야 합니다. 이론은 많은 증거로 반복해서 검증된, 넓은 범위의 현상을 설명하는 체계로 새로운 예측을 할 수 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "convergence",
+ "subject": "science-method",
+ "id": "l2-convergence-science-method-u01"
+}

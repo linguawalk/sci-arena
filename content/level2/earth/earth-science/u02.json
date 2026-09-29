@@ -1,0 +1,110 @@
+{
+ "no": 2,
+ "title": "광물과 암석",
+ "hours": 4,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "주요 조암 광물을 물리적 성질로 구별할 수 있다.",
+  "화성암·퇴적암·변성암의 생성 과정과 분류 기준을 설명할 수 있다.",
+  "암석의 순환을 지구계 관점에서 설명할 수 있다."
+ ],
+ "checklist": [
+  "광물의 정의와 규산염 사면체 구조",
+  "굳기, 쪼개짐, 조흔색 등 물리적 성질",
+  "화성암: 냉각 속도(조직)와 SiO₂ 함량(조성)",
+  "퇴적암: 쇄설성·화학적·유기적, 속성 작용",
+  "변성암: 접촉·광역 변성, 엽리",
+  "암석의 순환과 판 구조론"
+ ],
+ "advice": [
+  "레벨1 지학Ⅱ 챕터 2에서 다룬 내용이 많으므로, 실제 암석 표본 사진을 보며 이름을 맞히는 연습에 시간을 쓰세요. 화성암은 '결정 크기(식은 속도) × 색(SiO₂ 함량)'의 2 × 3 표 하나로 대부분 분류됩니다.",
+  "암석의 순환은 판 구조론과 연결하면 살아 있는 그림이 됩니다. 섭입대에서 녹는 퇴적물, 대륙 충돌대의 광역 변성, 해령의 현무암 생성처럼 각 과정이 어떤 판 경계에서 일어나는지 찾아보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "2~7장 Minerals, Intrusive Igneous Rocks, Volcanism, Weathering, Sediments and Sedimentary Rocks, Metamorphism"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Tarbuck · Lutgens · Tasa, Earth Science (장 번호는 원서 15판 기준, 번역본 『지구과학 개론』)",
+   "part": "2~3장 Minerals, Rocks"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "모스 굳기계에서 석영의 굳기는?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "석영은 7로 유리를 긁을 수 있습니다.",
+   "hint": "유리보다 단단합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "규산염 광물의 기본 구조는 SiO{{1}} 사면체입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "4",
+      "₄"
+     ]
+    }
+   ],
+   "explanation": "규소 1개를 산소 4개가 둘러쌉니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "마그마가 땅속 깊은 곳에서 천천히 식어 결정이 큰 화성암을 {{1}}암이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "심성"
+     ]
+    }
+   ],
+   "explanation": "화강암, 반려암이 예입니다.\n빨리 식으면 화산암입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "석회암이 변성 작용을 받으면 {{1}}이 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대리암"
+     ]
+    }
+   ],
+   "explanation": "방해석이 재결정됩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "earth",
+ "subject": "earth-science",
+ "id": "l2-earth-earth-science-u02"
+}

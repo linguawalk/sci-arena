@@ -1,0 +1,211 @@
+{
+ "level": 2,
+ "track": "earth",
+ "id": "earth-science",
+ "title": "지구과학개론",
+ "tagline": "고체 지구, 대기, 해양, 우주를 하나의 지구계로 묶어 보는 대학 입문",
+ "overview": [
+  "지구과학개론은 지질학, 대기과학, 해양학, 천문학의 네 분야를 한 과목에서 개관합니다. 레벨1 지학Ⅰ·Ⅱ에서 다룬 판 구조론, 대기와 해양, 별과 우주를 대학 수준의 자료 해석과 정량 계산(복사 법칙, 단열 감률, 방사성 연대, 거리 지수)으로 확장합니다.",
+  "과목의 중심 개념은 '지구계'입니다. 지권·수권·기권·생물권이 에너지와 물질(물, 탄소)을 주고받는 하나의 시스템이라는 관점으로 보면, 판 운동과 화산, 날씨와 해류, 기후 변화가 서로 연결됩니다.",
+  "레벨3 지구과학 트랙(지질학, 대기과학, 해양학, 천문학)과 융합 트랙의 환경·기후과학, 천체물리의 선수 과목입니다. 일반물리의 열과 복사, 일반화학의 기체 법칙을 함께 공부하면 대기·해양 단원이 훨씬 쉬워집니다."
+ ],
+ "level_note": "레벨 2 (대학 1학년 수준). 목차 검증 기준: Tarbuck 『Earth Science』 등 지구과학개론 표준 교재의 목차.",
+ "prereq": {
+  "text": "레벨1 지학Ⅰ·Ⅱ가 선수입니다. 로그와 지수 계산(연대 측정, 별의 등급)을 쓸 수 있어야 합니다. 아래 점검에서 틀린 문항이 있으면 연결된 챕터를 먼저 복습하세요.",
+  "links": [
+   {
+    "title": "지학Ⅰ · 코스 전체",
+    "href": "browse.html?c=c4"
+   },
+   {
+    "title": "지학Ⅱ · 챕터 1 지구의 형성과 내부",
+    "href": "browse.html?c=c8#ch01"
+   },
+   {
+    "title": "지학Ⅱ · 챕터 4 대기의 운동",
+    "href": "browse.html?c=c8#ch04"
+   },
+   {
+    "title": "지학Ⅱ · 챕터 6 천구와 좌표계",
+    "href": "browse.html?c=c8#ch06"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "위도 37°N에서 북극성의 고도는 약 몇 °일까요?",
+    "answer": "37",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "북극성의 고도 = 관측 지점의 위도 (지학Ⅱ 챕터 6)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "fill_blank",
+    "prompt": "해령은 판이 서로 멀어지는 {{1}}형 경계입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "발산"
+      ]
+     }
+    ],
+    "explanation": "맨틀 물질이 올라와 새 해양 지각이 생깁니다. (지학Ⅰ 판 구조론)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "반감기가 2번 지나면 남은 모원소는 처음의 몇 %일까요?",
+    "answer": "25",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "(1/2)² = 1/4 = 25% (지학Ⅰ 지구의 역사)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p4",
+    "qtype": "fill_blank",
+    "prompt": "상층에서 기압 경도력과 전향력이 평형을 이루어 등압선과 나란하게 부는 바람은 {{1}}입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "지균풍"
+      ]
+     }
+    ],
+    "explanation": "(지학Ⅱ 챕터 4)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 지질학",
+   "note": "광물학·암석학·구조지질학·층서학"
+  },
+  {
+   "title": "레벨3 · 대기과학",
+   "note": "대기 열역학과 역학, 기상 분석"
+  },
+  {
+   "title": "레벨3 · 해양학",
+   "note": "해수의 물리·화학적 성질과 해양 순환"
+  },
+  {
+   "title": "레벨3 · 천문학",
+   "note": "관측 천문학과 별·은하의 물리"
+  },
+  {
+   "title": "융합 레벨3 · 환경·기후과학",
+   "note": "기후 시스템과 기후 모델"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "지구계와 지구의 형성",
+   "hours": 3,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "광물과 암석",
+   "hours": 4,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "지구 내부와 판 구조론",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "지진과 화산",
+   "hours": 4,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "지질 시대와 지사 해석",
+   "hours": 4,
+   "after": [
+    2
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "대기의 구조와 복사 수지",
+   "hours": 4,
+   "after": [],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "대기 운동과 날씨",
+   "hours": 5,
+   "after": [
+    6
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "해양의 성질과 순환",
+   "hours": 4,
+   "after": [
+    7
+   ],
+   "file": "u08.json"
+  },
+  {
+   "no": 9,
+   "title": "기후 변화",
+   "hours": 4,
+   "after": [
+    6,
+    8
+   ],
+   "file": "u09.json"
+  },
+  {
+   "no": 10,
+   "title": "태양계와 천체 관측",
+   "hours": 4,
+   "after": [],
+   "file": "u10.json"
+  },
+  {
+   "no": 11,
+   "title": "별과 은하, 우주론",
+   "hours": 5,
+   "after": [
+    10
+   ],
+   "file": "u11.json"
+  }
+ ],
+ "total_hours": 46
+}

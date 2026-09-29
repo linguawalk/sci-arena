@@ -1,0 +1,113 @@
+{
+ "no": 2,
+ "title": "세포 구조와 막",
+ "hours": 4,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "원핵세포와 진핵세포, 동물세포와 식물세포를 비교할 수 있다.",
+  "내막계와 세포 골격의 기능을 설명할 수 있다.",
+  "수동 수송과 능동 수송을 구별할 수 있다."
+ ],
+ "checklist": [
+  "세포설과 현미경",
+  "세포 크기와 표면적 대 부피 비",
+  "핵, 리보솜, 내막계(소포체·골지체·리소좀)",
+  "미토콘드리아와 엽록체(세포 내 공생설)",
+  "세포 골격과 세포 외 기질",
+  "유동 모자이크 모델과 막 수송(확산·삼투·능동 수송·세포 내 섭취)"
+ ],
+ "advice": [
+  "이 단원은 레벨1 생물Ⅱ 챕터 1과 겹치므로 빠르게 복습하되, 세포가 작아야 하는 이유(표면적 대 부피 비)와 막 수송의 에너지 조건을 정량적으로 생각해 보세요. 세포의 각 구조를 '공장의 부서'에 비유해 분비 단백질이 만들어져 나가는 경로를 설명할 수 있으면 충분합니다.",
+  "현미경 사진(전자 현미경 이미지)을 보고 소기관을 찾아내는 연습도 도움이 됩니다. OpenStax 교재의 사진을 활용하고, 광학 현미경과 전자 현미경으로 각각 무엇까지 보이는지(분해능 차이)도 함께 정리해 두세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "4~5장 Cell Structure, Structure and Function of Plasma Membranes"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Urry 외, Campbell Biology (장 번호는 원서 12판 기준, 번역본 『캠벨 생명과학』)",
+   "part": "6~7장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "Structure of a cell, Membranes and transport"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "인지질 2중층에 단백질이 떠다니는 세포막 모델을 유동 {{1}} 모델이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "모자이크"
+     ]
+    }
+   ],
+   "explanation": "싱어와 니컬슨이 제안했습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "Na⁺–K⁺ 펌프는 ATP 1분자로 Na⁺ 몇 개를 세포 밖으로 내보낼까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Na⁺ 3개를 밖으로, K⁺ 2개를 안으로 옮깁니다.",
+   "hint": "3 : 2입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "한 변이 1인 정육면체의 표면적/부피 비는 6입니다. 한 변이 2인 정육면체의 표면적/부피 비는?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "표면적 24, 부피 8\n24/8 = 3 (한 변에 반비례)",
+   "hint": "표면적 6L², 부피 L³입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "fill_blank",
+   "prompt": "분비 단백질을 합성하는 리보솜이 붙어 있는 소기관은 {{1}} 소포체입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "거친면"
+     ]
+    }
+   ],
+   "explanation": "합성된 단백질은 골지체로 옮겨져 가공됩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "biology",
+ "subject": "general-biology",
+ "id": "l2-biology-general-biology-u02"
+}

@@ -1,0 +1,122 @@
+{
+ "no": 2,
+ "title": "주기적 성질",
+ "hours": 4,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "유효 핵전하로 원자 반지름과 이온화 에너지의 경향을 설명할 수 있다.",
+  "주기율표의 예외(N와 O, Be와 B)를 전자 배치로 설명할 수 있다.",
+  "순차 이온화 에너지로 원자가 전자 수를 추정할 수 있다."
+ ],
+ "checklist": [
+  "유효 핵전하 Z_eff와 가림 효과",
+  "원자 반지름·이온 반지름의 경향",
+  "1차·순차 이온화 에너지",
+  "전자 친화도",
+  "전기 음성도(폴링 척도)",
+  "금속·비금속 성질과 산화물의 산·염기성"
+ ],
+ "advice": [
+  "주기적 성질은 대부분 '유효 핵전하가 커지면 전자를 더 세게 붙잡는다'는 한 가지 원리로 설명됩니다. 경향을 외우기보다 같은 주기(오른쪽으로 Z_eff 증가)와 같은 족(아래로 껍질 증가)의 두 효과를 비교해 스스로 경향을 끌어내는 연습을 하세요.",
+  "N의 이온화 에너지가 O보다 큰 것처럼 경향에서 벗어나는 예외는 시험에 자주 나옵니다. 반쯤 채워진 p 부껍질의 안정성, 전자쌍 반발 같은 이유를 전자 배치 그림과 함께 설명할 수 있어야 합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Chemistry 2e",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "lang": "영어",
+   "part": "6장 6.5절 Periodic Variations in Element Properties"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.111SC Principles of Chemical Science (2014년 가을, 자기주도 학습용)",
+   "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/",
+   "lang": "영어",
+   "part": "강의 7~8 Periodic trends"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Zumdahl · Zumdahl · DeCoste, Chemistry (장 번호는 원서 10판 기준, 번역본 『일반화학』)",
+   "part": "7장 7.12~7.13절"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "같은 주기에서 원자 번호가 커질수록 원자 반지름은 {{1}}집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "작아"
+     ]
+    }
+   ],
+   "explanation": "유효 핵전하가 커져 전자를 더 강하게 끌어당깁니다.",
+   "hint": "유효 핵전하를 생각하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "N의 1차 이온화 에너지가 O보다 큰 것은 N의 2p 부껍질이 {{1}} 채워져 안정하기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반쯤",
+      "절반",
+      "반"
+     ]
+    }
+   ],
+   "explanation": "N: 2p³(반쯤 채움), O: 2p⁴\nO는 한 오비탈에 전자쌍이 있어 반발로 떼기 쉽습니다.",
+   "hint": "홀전자 배치를 비교하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "전기 음성도가 가장 큰 원소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "F",
+      "플루오린"
+     ]
+    }
+   ],
+   "explanation": "폴링 척도로 4.0입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q4",
+   "qtype": "numeric",
+   "prompt": "Mg의 순차 이온화 에너지가 크게 뛰는 것은 몇 번째 이온화 에너지일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Mg은 원자가 전자가 2개입니다.\n세 번째 전자는 안쪽 껍질에서 떼어야 하므로 크게 증가합니다.",
+   "hint": "원자가 전자 수 + 1입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 2,
+ "track": "chemistry",
+ "subject": "general-chemistry",
+ "id": "l2-chemistry-general-chemistry-u02"
+}
