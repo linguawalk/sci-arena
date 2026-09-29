@@ -1,0 +1,6380 @@
+{
+ "schema_version": "1.0",
+ "level": 1,
+ "base": "c0",
+ "tracks": [
+  {
+   "id": "phys",
+   "name": "물리",
+   "a": "c1",
+   "b": "c5"
+  },
+  {
+   "id": "chem",
+   "name": "화학",
+   "a": "c2",
+   "b": "c6"
+  },
+  {
+   "id": "bio",
+   "name": "생명과학",
+   "a": "c3",
+   "b": "c7"
+  },
+  {
+   "id": "earth",
+   "name": "지구과학",
+   "a": "c4",
+   "b": "c8"
+  }
+ ],
+ "pass_rate": 0.7,
+ "pick_from": 3,
+ "courses": [
+  {
+   "id": "c0",
+   "title": "기초 과학",
+   "description": "고교 과학에 필요한 중학 과학 핵심",
+   "chapters": [
+    {
+     "no": 1,
+     "dir": "ch01",
+     "id": "c0-ch01",
+     "title": "물질의 구성",
+     "review_id": "c0-ch01-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "불꽃 반응에서 노란색을 나타내는 원소는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "나트륨"
+         ]
+        }
+       ],
+       "hint": "소금(염화 나트륨)을 불에 뿌리면 어떤 색이 날지 떠올려 보세요.",
+       "explanation": "나트륨이 들어 있는 물질은 불꽃에서 노란색을 냅니다.\n칼륨은 보라색, 구리는 청록색입니다.",
+       "source_lesson": "c0-ch01-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "3H₂O에 들어 있는 원자는 모두 몇 개일까요?",
+       "answer": "9",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "분자 1개 속 원자 수를 먼저 구하세요.",
+       "explanation": "물 분자 1개에는 원자가 2 + 1 = 3개 있습니다.\n분자가 3개이므로 3 × 3 = 9개입니다.",
+       "source_lesson": "c0-ch01-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "원자핵의 전하가 +19인 칼륨이 K⁺ 이온이 되었습니다. 이 이온의 전자는 몇 개일까요?",
+       "answer": "18",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "+1은 전자 1개를 잃었다는 뜻입니다.",
+       "explanation": "칼륨 원자의 전자는 19개입니다.\nK⁺는 전자 1개를 잃은 이온이므로 19 − 1 = 18개입니다.",
+       "source_lesson": "c0-ch01-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "옷장 속 나프탈렌이 액체 없이 점점 작아지는 것은 {{1}} 현상입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "승화"
+         ]
+        }
+       ],
+       "hint": "액체가 생기지 않았다는 점에 주목하세요.",
+       "explanation": "나프탈렌은 고체에서 액체를 거치지 않고 바로 기체가 됩니다.\n이런 변화를 승화라고 합니다.",
+       "source_lesson": "c0-ch01-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "원자핵의 전하가 +7인 질소 원자에는 전자가 몇 개 있을까요?",
+       "answer": "7",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "원자는 중성입니다.",
+       "explanation": "원자는 전기적으로 중성입니다.\n원자핵의 전하 +7과 같은 크기가 되도록 전자는 7개입니다.",
+       "source_lesson": "c0-ch01-l01"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "dir": "ch02",
+     "id": "c0-ch02",
+     "title": "힘과 운동",
+     "review_id": "c0-ch02-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "합력이 0이 되어 정지한 물체가 계속 정지해 있는 상태를 힘의 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "평형"
+         ]
+        }
+       ],
+       "hint": "줄다리기에서 비길 때를 떠올리세요.",
+       "explanation": "합력이 0이면 힘이 평형을 이룹니다.\n책상 위의 책이 그 예입니다.",
+       "source_lesson": "c0-ch02-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "지구에서 질량 10 kg인 물체의 무게는 몇 N일까요?",
+       "answer": "98",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "질량 1 kg의 무게는 9.8 N입니다.",
+       "explanation": "지구에서 무게 = 9.8 × 질량입니다.\n9.8 × 10 = 98 N입니다.",
+       "source_lesson": "c0-ch02-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "90 km/h로 달리는 자동차의 속력은 몇 m/s일까요?",
+       "answer": "25",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "km/h 값을 3.6으로 나누세요.",
+       "explanation": "90 km/h = 90000 m ÷ 3600 s입니다.\n= 25 m/s입니다. (90 ÷ 3.6 = 25)",
+       "source_lesson": "c0-ch02-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "질량 5 kg인 물체를 2 m 높이로 들어 올렸습니다. 이 물체의 위치 에너지는 몇 J일까요?",
+       "answer": "98",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "들어 올린 일만큼 위치 에너지가 저장됩니다.",
+       "explanation": "위치 에너지 = 9.8 × 질량 × 높이입니다.\n9.8 × 5 × 2 = 98 J입니다.",
+       "source_lesson": "c0-ch02-l04"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "3 N으로 당기면 6 cm 늘어나는 용수철을 12 cm 늘이려면 몇 N으로 당겨야 할까요?",
+       "answer": "6",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "늘어난 길이가 몇 배인지 보세요.",
+       "explanation": "늘어난 길이는 힘에 비례합니다.\n12 cm는 6 cm의 2배이므로 힘도 3 N × 2 = 6 N입니다.",
+       "source_lesson": "c0-ch02-l02"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "dir": "ch03",
+     "id": "c0-ch03",
+     "title": "전기와 자기",
+     "review_id": "c0-ch03-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "털가죽으로 문지른 고무풍선이 (−)전하를 띠었습니다. 털가죽은 {{1}}전하를 띱니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "(+)",
+          "+",
+          "양",
+          "양(+)"
+         ]
+        }
+       ],
+       "hint": "한쪽이 얻은 전자는 다른 쪽이 잃은 전자입니다.",
+       "explanation": "풍선이 (−)전하를 띤 것은 털가죽의 전자를 얻었기 때문입니다.\n전자를 잃은 털가죽은 (+)전하를 띱니다.",
+       "source_lesson": "c0-ch03-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "20 Ω의 저항에 6 V의 전압을 걸면 몇 A의 전류가 흐를까요?",
+       "answer": "0.3",
+       "answer_format": "decimal",
+       "tolerance": 0.001,
+       "hint": "I = V / R입니다.",
+       "explanation": "전류 = 전압 ÷ 저항입니다.\n6 V ÷ 20 Ω = 0.3 A입니다.",
+       "source_lesson": "c0-ch03-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "10 Ω의 저항 두 개를 병렬로 연결하고 10 V를 걸었습니다. 전체 전류는 몇 A일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "각 갈래의 전류를 따로 구해 더하세요.",
+       "explanation": "병렬이므로 두 저항에 모두 10 V가 걸립니다.\n각각 10 ÷ 10 = 1 A가 흐르고, 전체는 1 + 1 = 2 A입니다.",
+       "source_lesson": "c0-ch03-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "코일 속에 철심을 넣고 전류를 흘려 만든 자석을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "전자석"
+         ]
+        }
+       ],
+       "hint": "전기로 만드는 자석입니다.",
+       "explanation": "코일의 자기장이 철심을 자석으로 만들어 자기장이 더 세집니다.\n전류를 끊으면 자석의 성질이 사라집니다.",
+       "source_lesson": "c0-ch03-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "대전되지 않은 검전기에 대전체를 가까이 하면 금속박이 {{1}}집니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "벌어"
+         ]
+        }
+       ],
+       "hint": "금속박 두 장이 띠는 전하의 종류가 같은지 생각하세요.",
+       "explanation": "정전기 유도로 두 금속박이 같은 종류의 전하를 띱니다.\n같은 전하끼리 밀어내므로 금속박이 벌어집니다.",
+       "source_lesson": "c0-ch03-l01"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "dir": "ch04",
+     "id": "c0-ch04",
+     "title": "빛과 파동",
+     "review_id": "c0-ch04-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "입사각이 35°일 때 반사각은 몇 도일까요?",
+       "answer": "35",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "반사의 법칙을 떠올리세요.",
+       "explanation": "반사의 법칙에 따라 입사각과 반사각은 같습니다.\n따라서 반사각은 35°입니다.",
+       "source_lesson": "c0-ch04-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "가까운 물체를 크고 바로 선 상으로 보여 주는 돋보기는 {{1}} 렌즈입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "볼록"
+         ]
+        }
+       ],
+       "hint": "빛을 모으는 렌즈입니다.",
+       "explanation": "돋보기는 가운데가 두꺼운 볼록 렌즈입니다.\n물체가 초점 안쪽에 있으면 크고 바로 선 상이 보입니다.",
+       "source_lesson": "c0-ch04-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "빨간빛과 초록빛, 파란빛을 모두 합성하면 {{1}} 빛이 됩니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "흰색",
+          "하얀색",
+          "흰",
+          "하양"
+         ]
+        }
+       ],
+       "hint": "빛의 삼원색을 떠올리세요.",
+       "explanation": "빛의 삼원색을 모두 합성하면 흰색이 됩니다.\n빛은 섞을수록 밝아집니다.",
+       "source_lesson": "c0-ch04-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "진동수가 170 Hz인 소리의 파장은 몇 m일까요? (소리의 속력 340 m/s)",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "파동의 속력 식을 파장에 대해 바꾸세요.",
+       "explanation": "속력 = 파장 × 진동수이므로 파장 = 속력 ÷ 진동수입니다.\n340 ÷ 170 = 2 m입니다.",
+       "source_lesson": "c0-ch04-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "평면거울 앞 3 m에 선 사람과 거울 속 상 사이의 거리는 몇 m일까요?",
+       "answer": "6",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "거울에서 상까지의 거리도 3 m입니다.",
+       "explanation": "상은 거울 뒤 3 m에 있는 것처럼 보입니다.\n3 + 3 = 6 m입니다.",
+       "source_lesson": "c0-ch04-l01"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "dir": "ch05",
+     "id": "c0-ch05",
+     "title": "생물의 구성과 기능",
+     "review_id": "c0-ch05-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "양분을 분해해 생명 활동에 필요한 에너지를 만드는 세포 속 구조는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "미토콘드리아"
+         ]
+        }
+       ],
+       "hint": "세포 호흡이 일어나는 곳입니다.",
+       "explanation": "미토콘드리아에서 세포 호흡이 일어나 에너지가 만들어집니다.\n동물 세포와 식물 세포에 모두 있습니다.",
+       "source_lesson": "c0-ch05-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "광합성으로 만든 포도당은 곧 {{1}}로 바뀌어 잎에 잠시 저장됩니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "녹말"
+         ]
+        }
+       ],
+       "hint": "아이오딘-아이오딘화 칼륨 용액으로 검출하는 물질입니다.",
+       "explanation": "포도당은 곧 물에 잘 녹지 않는 녹말로 바뀌어 잎에 저장됩니다.\n녹말은 밤에 설탕으로 바뀌어 체관을 통해 운반됩니다.",
+       "source_lesson": "c0-ch05-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지방을 분해하는 이자액 속 소화 효소는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "라이페이스"
+         ]
+        }
+       ],
+       "hint": "아밀레이스, 트립신, 라이페이스 중 지방에 작용하는 것입니다.",
+       "explanation": "라이페이스는 지방을 지방산과 모노글리세리드로 분해합니다.\n쓸개즙이 지방을 작은 알갱이로 만들어 이 작용을 돕습니다.",
+       "source_lesson": "c0-ch05-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "숨을 내쉴 때 가로막은 {{1}}갑니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "올라"
+         ]
+        }
+       ],
+       "hint": "들숨 때와 반대입니다.",
+       "explanation": "날숨 때 가로막이 올라가고 갈비뼈가 내려갑니다.\n흉강의 부피가 작아져 공기가 밖으로 나갑니다.",
+       "source_lesson": "c0-ch05-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "여러 조직이 모여 일정한 형태와 기능을 가진 단계를 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "기관"
+         ]
+        }
+       ],
+       "hint": "심장과 위가 해당하는 단계입니다.",
+       "explanation": "위, 심장, 잎처럼 여러 조직이 모여 일정한 기능을 하는 단계가 기관입니다.\n동물은 기관이 모여 기관계를 이룹니다.",
+       "source_lesson": "c0-ch05-l01"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "dir": "ch06",
+     "id": "c0-ch06",
+     "title": "지구계와 우주",
+     "review_id": "c0-ch06-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지구 표면과 내부의 암석과 흙으로 이루어진 권은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "지권"
+         ]
+        }
+       ],
+       "hint": "'땅 지(地)' 자가 들어갑니다.",
+       "explanation": "지권은 지각, 맨틀, 외핵, 내핵으로 이루어져 있습니다.\n지표의 암석과 흙도 지권에 속합니다.",
+       "source_lesson": "c0-ch06-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "높이 올라갈수록 기온이 높아지며 오로라가 나타나는 기권의 가장 바깥층은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "열권"
+         ]
+        }
+       ],
+       "hint": "기권의 네 층 중 가장 위층입니다.",
+       "explanation": "열권은 태양 에너지를 직접 흡수해 위로 갈수록 기온이 높아집니다.\n극지방에서는 오로라가 나타납니다.",
+       "source_lesson": "c0-ch06-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "지구의 자전 때문에 태양은 1시간에 몇 도씩 움직이는 것처럼 보일까요?",
+       "answer": "15",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "360을 24로 나누세요.",
+       "explanation": "지구가 24시간에 360° 자전합니다.\n360° ÷ 24 = 15°입니다.",
+       "source_lesson": "c0-ch06-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "수성, 금성, 지구, 화성처럼 크기가 작고 밀도가 큰 행성을 {{1}} 행성이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "지구형"
+         ]
+        }
+       ],
+       "hint": "이 무리에 우리가 사는 행성이 있습니다.",
+       "explanation": "이 네 행성은 단단한 암석 표면이 있어 밀도가 큽니다.\n지구와 비슷해 지구형 행성이라고 합니다.",
+       "source_lesson": "c0-ch06-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "마그마가 식어 굳어진 암석을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "화성암"
+         ]
+        }
+       ],
+       "hint": "'불 화(火)' 자가 들어갑니다.",
+       "explanation": "마그마나 용암이 식어 굳은 암석이 화성암입니다.\n현무암과 화강암이 대표적입니다.",
+       "source_lesson": "c0-ch06-l01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "title": "물리Ⅰ",
+   "description": "운동과 힘, 운동량, 에너지와 열, 전기와 자기, 파동과 빛",
+   "chapters": [
+    {
+     "no": 1,
+     "dir": "ch01",
+     "id": "c1-ch01",
+     "title": "운동의 기술",
+     "review_id": "c1-ch01-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "국제단위계에서 전류의 기본 단위는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "A",
+          "암페어"
+         ]
+        }
+       ],
+       "hint": "기본량 7개를 떠올리세요.",
+       "explanation": "전류는 7개 기본량 중 하나이고 단위는 A(암페어)입니다.\n전압의 단위 V는 유도 단위입니다.",
+       "source_lesson": "c1-ch01-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "서쪽으로 50 m 간 뒤 동쪽으로 20 m 왔습니다. 변위의 크기는 몇 m일까요?",
+       "answer": "30",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "되돌아온 거리는 빼야 합니다.",
+       "explanation": "서쪽을 +로 하면 +50 − 20 = +30 m입니다.\n변위의 크기는 30 m, 방향은 서쪽입니다.",
+       "source_lesson": "c1-ch01-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "속도가 3초 동안 12 m/s에서 3 m/s로 줄었습니다. 가속도의 크기는 몇 m/s²일까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "속도 변화량을 시간으로 나누세요.",
+       "explanation": "속도 변화량 = 3 − 12 = −9 m/s입니다.\n가속도 = −9 ÷ 3 = −3 m/s²이므로 크기는 3 m/s²입니다.",
+       "source_lesson": "c1-ch01-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "5 m/s로 움직이던 물체가 2 m/s²로 4초 동안 가속했습니다. 이동 거리는 몇 m일까요?",
+       "answer": "36",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "s = v₀t + ½at²을 쓰세요.",
+       "explanation": "s = v₀t + ½at² = 5 × 4 + ½ × 2 × 16입니다.\n= 20 + 16 = 36 m입니다.",
+       "source_lesson": "c1-ch01-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "3.6 km는 몇 m일까요?",
+       "answer": "3600",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "k는 10³입니다.",
+       "explanation": "1 km = 1000 m입니다.\n3.6 × 1000 = 3600 m입니다.",
+       "source_lesson": "c1-ch01-l01"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "dir": "ch02",
+     "id": "c1-ch02",
+     "title": "뉴턴 운동 법칙",
+     "review_id": "c1-ch02-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "한 물체에 서쪽으로 5 N, 남쪽으로 12 N의 힘이 작용합니다. 알짜힘의 크기는 몇 N일까요?",
+       "answer": "13",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "피타고라스 정리를 쓰세요.",
+       "explanation": "두 힘이 수직입니다.\n√(5² + 12²) = √169 = 13 N입니다.",
+       "source_lesson": "c1-ch02-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "질량 5 kg인 물체에 알짜힘 15 N이 작용합니다. 가속도는 몇 m/s²일까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "가속도 법칙을 쓰세요.",
+       "explanation": "a = F ÷ m입니다.\n15 ÷ 5 = 3 m/s²입니다.",
+       "source_lesson": "c1-ch02-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "작용과 반작용은 {{1}} 물체에 작용하고, 힘의 평형을 이루는 두 힘은 한 물체에 작용합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "서로 다른",
+          "다른",
+          "두"
+         ]
+        }
+       ],
+       "hint": "주어와 대상이 바뀌는 두 힘입니다.",
+       "explanation": "작용 반작용은 'A가 B에', 'B가 A에' 주는 힘이므로 서로 다른 물체에 작용합니다.\n그래서 서로 상쇄되지 않습니다.",
+       "source_lesson": "c1-ch02-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "두 물체 사이의 거리가 3배가 되면 만유인력은 처음의 몇 분의 1이 될까요? (분모를 쓰세요.)",
+       "answer": "9",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "거리의 제곱을 계산하세요.",
+       "explanation": "만유인력은 거리의 제곱에 반비례합니다.\n3² = 9이므로 1/9이 됩니다.",
+       "source_lesson": "c1-ch02-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "알짜힘이 0이면 정지한 물체는 계속 정지하고, 운동하던 물체는 등속 직선 운동을 합니다. 이것을 {{1}} 법칙이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "관성"
+         ]
+        }
+       ],
+       "hint": "뉴턴 운동 제1법칙의 이름입니다.",
+       "explanation": "뉴턴 운동 제1법칙을 관성 법칙이라고 합니다.\n물체가 운동 상태를 유지하려는 성질을 설명합니다.",
+       "source_lesson": "c1-ch02-l01"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "dir": "ch03",
+     "id": "c1-ch03",
+     "title": "운동량과 충격량",
+     "review_id": "c1-ch03-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "질량 0.5 kg인 공이 12 m/s로 움직입니다. 운동량의 크기는 몇 kg·m/s일까요?",
+       "answer": "6",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "질량과 속도를 곱하세요.",
+       "explanation": "p = mv입니다.\n0.5 × 12 = 6 kg·m/s입니다.",
+       "source_lesson": "c1-ch03-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "정지해 있던 4 kg 물체에 20 N의 힘이 2초 동안 작용했습니다. 나중 속력은 몇 m/s일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "충격량 = 운동량 변화량입니다.",
+       "explanation": "충격량 = 20 × 2 = 40 N·s입니다.\n4 × v = 40이므로 v = 10 m/s입니다.",
+       "source_lesson": "c1-ch03-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "2 kg 수레가 6 m/s로 달려와 정지한 4 kg 수레와 붙어 함께 움직였습니다. 충돌 후 속력은 몇 m/s일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "운동량 보존을 쓰세요.",
+       "explanation": "충돌 전 운동량 = 2 × 6 = 12 kg·m/s입니다.\n(2 + 4) × v = 12이므로 v = 2 m/s입니다.",
+       "source_lesson": "c1-ch03-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "70 kg인 사람이 8 m/s에서 에어백으로 0.4초 만에 멈췄습니다. 평균 힘은 몇 N일까요?",
+       "answer": "1400",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "평균 힘 = 운동량 변화량 ÷ 시간입니다.",
+       "explanation": "운동량 변화량 = 70 × 8 = 560 kg·m/s입니다.\n평균 힘 = 560 ÷ 0.4 = 1400 N입니다.",
+       "source_lesson": "c1-ch03-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "질량 0.1 kg인 공이 10 m/s로 벽에 부딪혀 반대 방향으로 10 m/s로 튕겼습니다. 운동량 변화량의 크기는 몇 kg·m/s일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "방향이 바뀌면 두 크기를 더합니다.",
+       "explanation": "처음 +1, 나중 −1 kg·m/s입니다.\n변화량 = −1 − 1 = −2이므로 크기는 2 kg·m/s입니다.",
+       "source_lesson": "c1-ch03-l01"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "dir": "ch04",
+     "id": "c1-ch04",
+     "title": "에너지와 열",
+     "review_id": "c1-ch04-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "마찰 없는 수평면에서 정지한 4 kg 물체에 10 N의 힘이 5 m 동안 작용했습니다. 나중 속력은 몇 m/s일까요?",
+       "answer": "5",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "일–운동 에너지 정리를 쓰세요.",
+       "explanation": "한 일 = 10 × 5 = 50 J = 운동 에너지입니다.\n½ × 4 × v² = 50에서 v² = 25, v = 5 m/s입니다.",
+       "source_lesson": "c1-ch04-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "높이 1.8 m인 마찰 없는 비탈에서 정지 상태로 미끄러진 물체의 바닥 속력은 몇 m/s일까요? (중력 가속도 g = 10 m/s²)",
+       "answer": "6",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "역학적 에너지 보존을 쓰세요.",
+       "explanation": "v = √(2gh) = √(2 × 10 × 1.8) = √36입니다.\nv = 6 m/s입니다.",
+       "source_lesson": "c1-ch04-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "기체에 600 J의 열을 가했더니 내부 에너지가 450 J 늘었습니다. 기체가 외부에 한 일은 몇 J일까요?",
+       "answer": "150",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "열역학 제1법칙을 쓰세요.",
+       "explanation": "Q = ΔU + W입니다.\nW = 600 − 450 = 150 J입니다.",
+       "source_lesson": "c1-ch04-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "고열원에서 400 J을 흡수하고 저열원으로 300 J을 방출하는 열기관의 효율은 몇 %일까요?",
+       "answer": "25",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "먼저 한 일을 구하세요.",
+       "explanation": "W = 400 − 300 = 100 J입니다.\ne = 100 ÷ 400 = 0.25, 곧 25%입니다.",
+       "source_lesson": "c1-ch04-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "질량 2 kg인 물체가 6 m/s로 움직입니다. 운동 에너지는 몇 J일까요?",
+       "answer": "36",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "속력을 먼저 제곱하세요.",
+       "explanation": "Eₖ = ½mv²입니다.\n½ × 2 × 36 = 36 J입니다.",
+       "source_lesson": "c1-ch04-l01"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "dir": "ch05",
+     "id": "c1-ch05",
+     "title": "전하와 전기 회로",
+     "review_id": "c1-ch05-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "두 점전하 사이의 전기력이 F입니다. 두 전하량을 모두 3배로 하면 전기력은 F의 몇 배가 될까요?",
+       "answer": "9",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "두 전하량의 곱을 생각하세요.",
+       "explanation": "전기력은 두 전하량의 곱에 비례합니다.\n3 × 3 = 9배입니다.",
+       "source_lesson": "c1-ch05-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "세기가 200 N/C인 전기장 속에 +0.05 C의 전하를 놓았습니다. 전하가 받는 힘은 몇 N일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "F = qE입니다.",
+       "explanation": "F = qE입니다.\n0.05 × 200 = 10 N입니다.",
+       "source_lesson": "c1-ch05-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "p형 반도체를 만들려면 규소에 붕소 같은 {{1}}족 원소를 도핑합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "13"
+         ]
+        }
+       ],
+       "hint": "원자가 전자가 3개인 족입니다.",
+       "explanation": "13족 원소는 원자가 전자가 3개라 결합에 전자 하나가 모자랍니다.\n그 빈자리인 양공이 전하 운반자가 됩니다.",
+       "source_lesson": "c1-ch05-l03"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "2 Ω과 2 Ω을 병렬로 연결한 부분에 4 Ω을 직렬로 연결했습니다. 전체 저항은 몇 Ω일까요?",
+       "answer": "5",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "병렬 부분을 먼저 계산하세요.",
+       "explanation": "병렬 부분: 2 × 2 ÷ 4 = 1 Ω입니다.\n전체: 1 + 4 = 5 Ω입니다.",
+       "source_lesson": "c1-ch05-l04"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "간격 0.01 m인 평행판에 50 V를 걸었습니다. 판 사이 전기장의 세기는 몇 V/m일까요?",
+       "answer": "5000",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "전압을 간격으로 나누세요.",
+       "explanation": "E = V ÷ d입니다.\n50 ÷ 0.01 = 5000 V/m입니다.",
+       "source_lesson": "c1-ch05-l02"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "dir": "ch06",
+     "id": "c1-ch06",
+     "title": "자기장과 전자기 유도",
+     "review_id": "c1-ch06-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "직선 도선의 전류를 3배로 하면 같은 거리에서 자기장의 세기는 처음의 몇 배가 될까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "자기장과 전류는 비례합니다.",
+       "explanation": "직선 전류의 자기장은 전류에 비례합니다.\n따라서 3배입니다.",
+       "source_lesson": "c1-ch06-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "철, 니켈, 코발트처럼 외부 자기장을 없애도 자성이 남는 물질을 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "강자성체"
+         ]
+        }
+       ],
+       "hint": "자석에 강하게 끌리는 물질입니다.",
+       "explanation": "강자성체는 자기 구역이 정렬된 상태가 유지됩니다.\n영구 자석을 만드는 데 씁니다.",
+       "source_lesson": "c1-ch06-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "감은 수 40회인 코일을 지나는 자기 선속이 0.2초 동안 0.05 Wb 변했습니다. 유도 기전력은 몇 V일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "패러데이 법칙을 쓰세요.",
+       "explanation": "V = N × ΔΦ ÷ Δt입니다.\n40 × 0.05 ÷ 0.2 = 10 V입니다.",
+       "source_lesson": "c1-ch06-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "1차 코일 500회, 2차 코일 100회인 변압기의 1차 쪽에 220 V를 걸었습니다. 2차 전압은 몇 V일까요?",
+       "answer": "44",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "전압의 비 = 감은 수의 비입니다.",
+       "explanation": "V₂ = V₁ × N₂ ÷ N₁입니다.\n220 × 100 ÷ 500 = 44 V입니다.",
+       "source_lesson": "c1-ch06-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "세기 0.4 T인 자기장에 수직인 길이 0.5 m 도선에 3 A가 흐릅니다. 도선이 받는 힘은 몇 N일까요?",
+       "answer": "0.6",
+       "answer_format": "decimal",
+       "tolerance": 0.001,
+       "hint": "F = BIL을 쓰세요.",
+       "explanation": "F = BIL입니다.\n0.4 × 3 × 0.5 = 0.6 N입니다.",
+       "source_lesson": "c1-ch06-l01"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "dir": "ch07",
+     "id": "c1-ch07",
+     "title": "파동과 빛",
+     "review_id": "c1-ch07-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "진동수 4 Hz, 파장 3 m인 파동의 속력은 몇 m/s일까요?",
+       "answer": "12",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "속력 = 진동수 × 파장입니다.",
+       "explanation": "v = fλ입니다.\n4 × 3 = 12 m/s입니다.",
+       "source_lesson": "c1-ch07-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "굴절률이 2인 매질 속 빛의 속력은 몇 × 10⁸ m/s일까요? (진공 속 빛의 속력 3 × 10⁸ m/s)",
+       "answer": "1.5",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "v = c ÷ n입니다.",
+       "explanation": "v = c ÷ n입니다.\n3 ÷ 2 = 1.5이므로 1.5 × 10⁸ m/s입니다.",
+       "source_lesson": "c1-ch07-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "전반사가 일어나려면 빛이 굴절률이 큰 매질에서 작은 매질로 진행하고, 입사각이 {{1}}보다 커야 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "임계각"
+         ]
+        }
+       ],
+       "hint": "굴절각이 90°가 되는 입사각입니다.",
+       "explanation": "두 조건을 모두 만족해야 전반사가 일어납니다.\n임계각은 굴절각이 90°가 되는 입사각입니다.",
+       "source_lesson": "c1-ch07-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "진폭이 4 cm, 1 cm인 두 파동의 마루와 골이 만났습니다. 합성파의 진폭은 몇 cm일까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "마루와 골이 만나면 상쇄 간섭입니다.",
+       "explanation": "상쇄 간섭이므로 진폭의 차를 구합니다.\n4 − 1 = 3 cm입니다.",
+       "source_lesson": "c1-ch07-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "파동이 다른 매질로 들어갈 때 속력과 파장은 변하지만 {{1}}는 변하지 않습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "진동수"
+         ]
+        }
+       ],
+       "hint": "파원이 정하는 양입니다.",
+       "explanation": "진동수는 파원이 정합니다.\n매질이 바뀌어도 그대로입니다.",
+       "source_lesson": "c1-ch07-l01"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "dir": "ch08",
+     "id": "c1-ch08",
+     "title": "빛과 물질의 이중성",
+     "review_id": "c1-ch08-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "일함수 4 eV인 금속에 광자 에너지 6 eV인 빛을 비추었습니다. 광전자의 최대 운동 에너지는 몇 eV일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "광자 에너지에서 일함수를 빼세요.",
+       "explanation": "Eₖ = hf − W입니다.\n6 − 4 = 2 eV입니다.",
+       "source_lesson": "c1-ch08-l01"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "전자 회절 실험은 전자의 {{1}}을 보여 줍니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "파동성"
+         ]
+        }
+       ],
+       "hint": "회절은 어떤 성질의 증거일까요?",
+       "explanation": "회절과 간섭은 파동의 특징입니다.\n전자가 회절 무늬를 만든다는 것은 전자가 파동의 성질을 가진다는 뜻입니다.",
+       "source_lesson": "c1-ch08-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "수소 원자의 전자가 n = 3(−1.51 eV)에서 n = 1(−13.6 eV)로 전이할 때 방출하는 광자의 에너지는 몇 eV일까요?",
+       "answer": "12.09",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "두 준위의 에너지 차이를 구하세요.",
+       "explanation": "E₃ − E₁ = −1.51 − (−13.6)입니다.\n= 12.09 eV입니다.",
+       "source_lesson": "c1-ch08-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "레이저는 들뜬 원자가 광자의 자극을 받아 같은 광자를 내놓는 {{1}}으로 빛을 증폭합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "유도 방출",
+          "유도방출"
+         ]
+        }
+       ],
+       "hint": "자극을 받아 일어나는 방출입니다.",
+       "explanation": "유도 방출로 나온 광자는 원래 광자와 파장, 방향, 위상이 같습니다.\nLASER의 SE가 Stimulated Emission(유도 방출)입니다.",
+       "source_lesson": "c1-ch08-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "광전 효과에서 빛의 세기를 키우면 광전자의 수는 늘지만 최대 운동 에너지는 {{1}}.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "변하지 않는다",
+          "그대로이다",
+          "같다",
+          "변하지 않습니다",
+          "일정하다"
+         ]
+        }
+       ],
+       "hint": "광자 하나의 에너지는 무엇으로 정해질까요?",
+       "explanation": "세기는 광자의 수를 바꿀 뿐 광자 하나의 에너지는 바꾸지 않습니다.\n최대 운동 에너지는 진동수로 정해집니다.",
+       "source_lesson": "c1-ch08-l01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "title": "화학Ⅰ",
+   "description": "화학의 언어, 원자와 주기율, 화학 결합, 산·염기와 산화 환원",
+   "chapters": [
+    {
+     "no": 1,
+     "dir": "ch01",
+     "id": "c2-ch01",
+     "title": "화학의 언어",
+     "review_id": "c2-ch01-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "암모니아(NH₃)의 분자량은 얼마일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+       "answer": "17",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "원자량을 모두 더하세요.",
+       "explanation": "N 1개와 H 3개입니다.\n14 + 1 × 3 = 17입니다.",
+       "source_lesson": "c2-ch01-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "프로페인의 연소 반응식 C₃H₈ + 5O₂ → 3CO₂ + {{1}}H₂O를 완성하세요.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "4"
+         ]
+        }
+       ],
+       "hint": "H 원자 수를 맞추세요.",
+       "explanation": "C₃H₈에 H가 8개 있습니다.\nH₂O 하나에 H가 2개이므로 4H₂O입니다.",
+       "source_lesson": "c2-ch01-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "C + O₂ → CO₂ 반응에서 이산화 탄소 44 g을 얻으려면 탄소가 몇 g 필요할까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+       "answer": "12",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "생성물의 몰수부터 구하세요.",
+       "explanation": "CO₂ 44 g = 1 mol이므로 탄소도 1 mol 필요합니다.\n1 × 12 = 12 g입니다.",
+       "source_lesson": "c2-ch01-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "소금 15 g을 물 135 g에 녹였습니다. 퍼센트 농도는 몇 %일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "분모는 용액의 질량입니다.",
+       "explanation": "용액의 질량은 150 g입니다.\n15 ÷ 150 × 100 = 10%입니다.",
+       "source_lesson": "c2-ch01-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "0 °C, 1 atm에서 이산화 탄소 22 g의 부피는 몇 L일까요? (원자량 H 1, C 12, N 14, O 16, Na 23, Mg 24, Cl 35.5, Ca 40)",
+       "answer": "11.2",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "질량을 몰수로 바꾼 뒤 부피를 구하세요.",
+       "explanation": "CO₂ 22 g = 22 ÷ 44 = 0.5 mol입니다.\n0.5 × 22.4 = 11.2 L입니다.",
+       "source_lesson": "c2-ch01-l01"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "dir": "ch02",
+     "id": "c2-ch02",
+     "title": "원소의 기원과 원자 구조",
+     "review_id": "c2-ch02-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "빅뱅 직후 만들어진 원소는 주로 수소와 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "헬륨",
+          "He"
+         ]
+        }
+       ],
+       "hint": "수소 다음으로 가벼운 원소입니다.",
+       "explanation": "빅뱅 후 약 3분 사이에 헬륨 원자핵이 만들어졌습니다.\n더 무거운 원소는 별에서 만들어졌습니다.",
+       "source_lesson": "c2-ch02-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "질량수 40, 원자 번호 20인 칼슘 원자의 중성자 수는 몇 개일까요?",
+       "answer": "20",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "질량수 − 원자 번호입니다.",
+       "explanation": "40 − 20 = 20개입니다.\n원자 번호는 양성자 수입니다.",
+       "source_lesson": "c2-ch02-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "주양자수 n = 2인 전자 껍질에 들어갈 수 있는 전자는 최대 몇 개일까요?",
+       "answer": "8",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "최대 전자 수는 2n²입니다.",
+       "explanation": "2n² = 2 × 4 = 8개입니다.\n2s 1개와 2p 3개 오비탈에 2개씩입니다.",
+       "source_lesson": "c2-ch02-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "인(원자 번호 15)의 바닥상태 전자 배치에서 홀전자는 몇 개일까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "훈트 규칙을 떠올리세요.",
+       "explanation": "1s² 2s² 2p⁶ 3s² 3p³입니다.\n3p 전자 3개가 세 오비탈에 하나씩 들어가 홀전자가 3개입니다.",
+       "source_lesson": "c2-ch02-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "별의 중심에서 가벼운 원자핵이 합쳐져 무거운 원소가 만들어지는 반응을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "핵융합",
+          "핵 융합"
+         ]
+        }
+       ],
+       "hint": "원자핵이 합쳐지는 반응입니다.",
+       "explanation": "별 중심의 높은 온도와 압력에서 일어납니다.\n철까지의 원소가 이렇게 만들어집니다.",
+       "source_lesson": "c2-ch02-l01"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "dir": "ch03",
+     "id": "c2-ch03",
+     "title": "주기율표와 주기적 성질",
+     "review_id": "c2-ch03-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "주기율표의 세로줄을 {{1}}, 가로줄을 주기라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "족"
+         ]
+        }
+       ],
+       "hint": "같은 세로줄 원소의 성질이 비슷합니다.",
+       "explanation": "세로줄은 1~18족, 가로줄은 1~7주기입니다.\n같은 족 원소는 원자가 전자 수가 같습니다.",
+       "source_lesson": "c2-ch03-l01"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "ordering",
+       "prompt": "전자 수가 같은 이온들을 반지름이 작은 것부터 순서대로 배열하세요.",
+       "items": [
+        {
+         "id": "a",
+         "text": "Na⁺"
+        },
+        {
+         "id": "b",
+         "text": "Al³⁺"
+        },
+        {
+         "id": "c",
+         "text": "F⁻"
+        },
+        {
+         "id": "d",
+         "text": "Mg²⁺"
+        }
+       ],
+       "answer_order": [
+        "b",
+        "d",
+        "a",
+        "c"
+       ],
+       "hint": "핵전하가 클수록 작습니다.",
+       "explanation": "모두 전자가 10개입니다.\n양성자 수가 Al 13 > Mg 12 > Na 11 > F 9 순이므로 Al³⁺이 가장 작습니다.",
+       "source_lesson": "c2-ch03-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "3주기의 P와 S 중 제1 이온화 에너지가 더 큰 것은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "P",
+          "인"
+         ]
+        }
+       ],
+       "hint": "N > O와 같은 예외입니다.",
+       "explanation": "S는 3p⁴로 짝지은 전자의 반발 때문에 전자 하나를 떼어 내기 쉽습니다.\n15족 > 16족의 예외입니다.",
+       "source_lesson": "c2-ch03-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "H–F 결합에서 부분적인 (−)전하를 띠는 원자는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "F",
+          "플루오린",
+          "불소"
+         ]
+        }
+       ],
+       "hint": "전기 음성도가 큰 쪽입니다.",
+       "explanation": "플루오린의 전기 음성도(4.0)가 수소(2.1)보다 훨씬 큽니다.\n공유 전자쌍이 F 쪽으로 치우칩니다.",
+       "source_lesson": "c2-ch03-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "원자 번호 16인 황은 몇 족 원소일까요?",
+       "answer": "16",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "원자가 전자 수를 구하세요.",
+       "explanation": "1s² 2s² 2p⁶ 3s² 3p⁴로 원자가 전자가 6개입니다.\n13~17족에서 일의 자리가 6이므로 16족입니다.",
+       "source_lesson": "c2-ch03-l01"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "dir": "ch04",
+     "id": "c2-ch04",
+     "title": "화학 결합",
+     "review_id": "c2-ch04-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "Mg²⁺과 O²⁻이 결합한 화합물의 화학식은 Mg{{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "O"
+         ]
+        }
+       ],
+       "hint": "전하의 크기가 같습니다.",
+       "explanation": "+2와 −2가 1 : 1로 결합하면 전하 합이 0입니다.\n화학식은 MgO입니다.",
+       "source_lesson": "c2-ch04-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "물 분자에서 산소 원자의 비공유 전자쌍은 몇 개일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "산소의 원자가 전자는 6개입니다.",
+       "explanation": "산소의 원자가 전자 6개 중 2개는 수소와 공유합니다.\n남은 4개가 비공유 전자쌍 2개를 이룹니다.",
+       "source_lesson": "c2-ch04-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "금속 결합은 금속 양이온과 {{1}} 사이의 인력으로 이루어집니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "자유 전자",
+          "자유전자"
+         ]
+        }
+       ],
+       "hint": "금속 전체를 자유롭게 움직이는 전자입니다.",
+       "explanation": "금속 원자의 원자가 전자가 자유 전자가 됩니다.\n자유 전자가 양이온들을 붙잡아 줍니다.",
+       "source_lesson": "c2-ch04-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "규산염 사면체(SiO₄)에서 규소 1개와 결합한 산소는 몇 개일까요?",
+       "answer": "4",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "사면체의 꼭짓점 수입니다.",
+       "explanation": "규소가 중심, 산소 4개가 정사면체의 꼭짓점에 있습니다.\n규산염 광물의 기본 단위입니다.",
+       "source_lesson": "c2-ch04-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "이온 결합 물질은 녹는점이 {{1}}고 고체에서는 전기가 통하지 않습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "높"
+         ]
+        }
+       ],
+       "hint": "이온 사이 인력이 강합니다.",
+       "explanation": "양이온과 음이온 사이 인력이 강합니다.\n그래서 녹이는 데 많은 에너지가 필요합니다.",
+       "source_lesson": "c2-ch04-l01"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "dir": "ch05",
+     "id": "c2-ch05",
+     "title": "분자의 구조와 성질",
+     "review_id": "c2-ch05-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "산소 원자의 루이스 전자점식에는 점이 몇 개 있을까요?",
+       "answer": "6",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "족 번호의 일의 자리입니다.",
+       "explanation": "산소는 16족으로 원자가 전자가 6개입니다.\n두 쌍과 홀전자 2개로 그립니다.",
+       "source_lesson": "c2-ch05-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "중심 원자 주위에 전자쌍 3개가 있고 모두 공유 전자쌍이면 분자 모양은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "평면 삼각형",
+          "평면삼각형"
+         ]
+        }
+       ],
+       "hint": "결합각이 120°입니다.",
+       "explanation": "세 전자쌍이 평면에서 120°씩 벌어집니다.\nBF₃가 그 예입니다.",
+       "source_lesson": "c2-ch05-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "정사면체 구조인 CF₄는 {{1}} 분자입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "무극성"
+         ]
+        }
+       ],
+       "hint": "CCl₄와 같은 구조입니다.",
+       "explanation": "C–F 결합은 극성이지만 네 결합이 대칭이라 상쇄됩니다.\n그래서 분자 전체는 무극성입니다.",
+       "source_lesson": "c2-ch05-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "극성 물질은 {{1}} 용매에 잘 녹습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "극성"
+         ]
+        }
+       ],
+       "hint": "물은 극성 용매입니다.",
+       "explanation": "비슷한 것끼리 잘 녹습니다.\n설탕과 소금은 극성 용매인 물에 잘 녹습니다.",
+       "source_lesson": "c2-ch05-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "암모니아(NH₃) 분자의 공유 전자쌍은 몇 개일까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "N–H 결합 수를 세세요.",
+       "explanation": "질소와 수소 3개가 각각 단일 결합을 합니다.\n공유 전자쌍은 3개입니다.",
+       "source_lesson": "c2-ch05-l01"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "dir": "ch06",
+     "id": "c2-ch06",
+     "title": "동적 평형과 산·염기",
+     "review_id": "c2-ch06-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "뚜껑을 닫은 병 속에서 물의 양이 일정해진 것은 증발과 응축이 같은 속도로 일어나는 {{1}} 상태이기 때문입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "동적 평형",
+          "동적평형",
+          "상평형"
+         ]
+        }
+       ],
+       "hint": "속도가 같은 평형 상태입니다.",
+       "explanation": "증발과 응축이 멈춘 것이 아니라 같은 속도로 계속 일어납니다.\n그래서 양이 변하지 않습니다.",
+       "source_lesson": "c2-ch06-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "아레니우스에 따르면 물에 녹아 OH⁻을 내놓는 물질을 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "염기"
+         ]
+        }
+       ],
+       "hint": "산의 반대입니다.",
+       "explanation": "NaOH, KOH는 물에서 OH⁻을 내놓습니다.\nH⁺을 내놓는 물질은 산입니다.",
+       "source_lesson": "c2-ch06-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "25 °C에서 [H₃O⁺] = 1 × 10⁻⁴ M인 수용액의 [OH⁻] = 1 × 10⁻ⁿ M입니다. n은 얼마일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "Kw = 1 × 10⁻¹⁴입니다.",
+       "explanation": "[OH⁻] = 10⁻¹⁴ ÷ 10⁻⁴ = 10⁻¹⁰ M입니다.\n산성 용액입니다.",
+       "source_lesson": "c2-ch06-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "0.0001 M 염산의 pH는 얼마일까요?",
+       "answer": "4",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "[H₃O⁺]의 지수를 보세요.",
+       "explanation": "[H₃O⁺] = 10⁻⁴ M이므로 pH = 4입니다.\n강산은 거의 모두 이온화합니다.",
+       "source_lesson": "c2-ch06-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "동적 평형 상태에서는 정반응과 역반응의 {{1}}가 같습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "속도"
+         ]
+        }
+       ],
+       "hint": "같아지는 것은 농도가 아닙니다.",
+       "explanation": "두 반응의 속도가 같아 겉보기 변화가 없습니다.\n농도가 같은 것이 아닙니다.",
+       "source_lesson": "c2-ch06-l01"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "dir": "ch07",
+     "id": "c2-ch07",
+     "title": "중화 반응",
+     "review_id": "c2-ch07-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "염산과 수산화 칼륨의 중화 반응에서 구경꾼 이온은 K⁺과 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "Cl⁻",
+          "Cl-",
+          "염화 이온"
+         ]
+        }
+       ],
+       "hint": "산의 음이온입니다.",
+       "explanation": "H⁺과 OH⁻만 반응해 물이 되고 K⁺과 Cl⁻은 그대로 남습니다.\n그래서 구경꾼 이온입니다.",
+       "source_lesson": "c2-ch07-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "0.2 M 염산 30 mL를 완전히 중화하는 데 필요한 0.3 M 수산화 나트륨 수용액은 몇 mL일까요?",
+       "answer": "20",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "nMV = n′M′V′을 쓰세요.",
+       "explanation": "0.2 × 30 = 0.3 × V입니다.\nV = 6 ÷ 0.3 = 20 mL입니다.",
+       "source_lesson": "c2-ch07-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "중화 적정에서 표준 용액을 넣어 떨어뜨린 부피를 재는 기구는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "뷰렛"
+         ]
+        }
+       ],
+       "hint": "꼭지가 달린 긴 눈금관입니다.",
+       "explanation": "뷰렛의 처음과 나중 눈금의 차가 사용한 부피입니다.\n시료는 피펫으로 잽니다.",
+       "source_lesson": "c2-ch07-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "약산과 강염기로 만든 탄산수소 나트륨(NaHCO₃)의 수용액은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "염기성"
+         ]
+        }
+       ],
+       "hint": "베이킹 소다의 액성입니다.",
+       "explanation": "HCO₃⁻이 물에서 OH⁻을 만듭니다.\n그래서 약한 염기성이며 산을 중화하는 데 씁니다.",
+       "source_lesson": "c2-ch07-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "염산에 수산화 나트륨 수용액을 넣을 때 용액의 온도가 가장 높은 지점이 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "중화점",
+          "완전 중화점"
+         ]
+        }
+       ],
+       "hint": "산과 염기가 모두 반응한 지점입니다.",
+       "explanation": "중화 반응은 발열 반응이라 반응한 양이 가장 많을 때 온도가 가장 높습니다.\n그 지점이 중화점입니다.",
+       "source_lesson": "c2-ch07-l01"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "dir": "ch08",
+     "id": "c2-ch08",
+     "title": "산화와 환원",
+     "review_id": "c2-ch08-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "물질이 전자를 잃는 반응을 산화, 전자를 얻는 반응을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "환원"
+         ]
+        }
+       ],
+       "hint": "산화의 반대입니다.",
+       "explanation": "산화와 환원은 전자의 이동으로 정의합니다.\n두 반응은 항상 동시에 일어납니다.",
+       "source_lesson": "c2-ch08-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "질산(HNO₃)에서 질소의 산화수는 +몇일까요?",
+       "answer": "5",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "H는 +1, O는 −2입니다.",
+       "explanation": "+1 + x + 3(−2) = 0입니다.\nx = +5입니다.",
+       "source_lesson": "c2-ch08-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "CuO + H₂ → Cu + H₂O 반응에서 H₂는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "환원제"
+         ]
+        }
+       ],
+       "hint": "산화수가 증가하는 물질의 역할입니다.",
+       "explanation": "H는 0에서 +1로 산화수가 증가합니다.\n자신은 산화되며 CuO를 환원시키므로 환원제입니다.",
+       "source_lesson": "c2-ch08-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "용광로에서 산화 철이 철로 바뀌는 반응에서 산화 철은 {{1}}됩니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "환원"
+         ]
+        }
+       ],
+       "hint": "산소를 잃는 반응입니다.",
+       "explanation": "철의 산화수가 +3에서 0으로 감소합니다.\n산소를 잃으므로 환원입니다.",
+       "source_lesson": "c2-ch08-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "질산 은 수용액에 구리선을 넣으면 구리는 {{1}}되고 은이 석출됩니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "산화"
+         ]
+        }
+       ],
+       "hint": "구리가 전자를 잃습니다.",
+       "explanation": "구리가 전자를 잃고 Cu²⁺이 됩니다.\nAg⁺은 전자를 얻어 은이 됩니다.",
+       "source_lesson": "c2-ch08-l01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "title": "생물Ⅰ",
+   "description": "세포와 유전 정보, 신경과 항상성, 면역, 유전, 진화와 생태계",
+   "chapters": [
+    {
+     "no": 1,
+     "dir": "ch01",
+     "id": "c3-ch01",
+     "title": "생명 시스템과 세포",
+     "review_id": "c3-ch01-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "외부 환경이 변해도 체내 상태를 일정하게 유지하는 생물의 특성을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "항상성"
+         ]
+        }
+       ],
+       "hint": "체온 유지가 예입니다.",
+       "explanation": "체온, 혈당량, 체액 농도가 일정하게 유지됩니다.\n생물의 중요한 특성입니다.",
+       "source_lesson": "c3-ch01-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "리보솜에서 합성된 단백질을 가공해 세포 밖으로 분비하는 소기관은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "골지체"
+         ]
+        }
+       ],
+       "hint": "분비 경로의 마지막 소기관입니다.",
+       "explanation": "골지체는 단백질을 가공하고 포장해 분비합니다.\n분비 세포에 발달해 있습니다.",
+       "source_lesson": "c3-ch01-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "양파 표피 세포를 진한 설탕물에 넣으면 {{1}}가 일어납니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "원형질 분리",
+          "원형질분리"
+         ]
+        }
+       ],
+       "hint": "세포막이 세포벽에서 떨어지는 현상입니다.",
+       "explanation": "삼투로 물이 빠져나가 세포막이 세포벽에서 떨어집니다.\n식물 세포에서 관찰됩니다.",
+       "source_lesson": "c3-ch01-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "ATP가 ADP와 인산으로 분해될 때 방출되는 {{1}}가 생명 활동에 쓰입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "에너지"
+         ]
+        }
+       ],
+       "hint": "ATP가 저장하고 있는 것입니다.",
+       "explanation": "ATP는 에너지를 저장했다가 필요할 때 내놓습니다.\n근육 수축, 물질 합성, 능동 수송에 쓰입니다.",
+       "source_lesson": "c3-ch01-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "동물의 구성 단계는 세포 → 조직 → 기관 → {{1}} → 개체입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "기관계"
+         ]
+        }
+       ],
+       "hint": "소화계, 순환계 같은 단계입니다.",
+       "explanation": "관련된 기관이 모여 기관계를 이룹니다.\n식물에는 기관계 대신 조직계가 있습니다.",
+       "source_lesson": "c3-ch01-l01"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "dir": "ch02",
+     "id": "c3-ch02",
+     "title": "유전 정보의 흐름",
+     "review_id": "c3-ch02-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "DNA에서 아데닌(A)과 상보적으로 결합하는 염기는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "T",
+          "타이민",
+          "티민"
+         ]
+        }
+       ],
+       "hint": "DNA에만 있는 염기입니다.",
+       "explanation": "A는 T와, G는 C와 짝을 짓습니다.\nRNA에서는 A의 짝이 U입니다.",
+       "source_lesson": "c3-ch02-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "DNA → RNA 과정을 전사, RNA → 단백질 과정을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "번역"
+         ]
+        }
+       ],
+       "hint": "언어를 바꾸는 것에 비유합니다.",
+       "explanation": "번역은 리보솜에서 일어납니다.\nmRNA의 코돈을 아미노산으로 바꿉니다.",
+       "source_lesson": "c3-ch02-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "주형 DNA 가닥이 TTG일 때 전사된 mRNA는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "AAC"
+         ]
+        }
+       ],
+       "hint": "주형 가닥과 상보적입니다.",
+       "explanation": "T → A, T → A, G → C입니다.\nmRNA는 AAC입니다.",
+       "source_lesson": "c3-ch02-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "mRNA의 코돈 GGC와 결합하는 tRNA의 안티코돈은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "CCG"
+         ]
+        }
+       ],
+       "hint": "상보적인 염기를 찾으세요.",
+       "explanation": "코돈과 안티코돈은 상보적입니다.\nG → C, G → C, C → G입니다.",
+       "source_lesson": "c3-ch02-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "어떤 DNA에서 사이토신(C)이 전체 염기의 15%입니다. 아데닌(A)은 몇 %일까요?",
+       "answer": "35",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "G와 C의 양이 같습니다.",
+       "explanation": "C = G = 15%이므로 G + C = 30%입니다.\nA + T = 70%이므로 A = 35%입니다.",
+       "source_lesson": "c3-ch02-l01"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "dir": "ch03",
+     "id": "c3-ch03",
+     "title": "신경계",
+     "review_id": "c3-ch03-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "뉴런에서 흥분을 다른 세포로 전달하는 긴 돌기를 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "축삭 돌기",
+          "축삭돌기",
+          "축삭"
+         ]
+        }
+       ],
+       "hint": "가지 돌기의 반대 역할입니다.",
+       "explanation": "축삭 돌기는 길게 뻗어 흥분을 멀리 전달합니다.\n말단에서 신경 전달 물질이 분비됩니다.",
+       "source_lesson": "c3-ch03-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "흥분이 축삭 돌기를 따라 15 cm 이동하는 데 5 ms가 걸렸습니다. 전도 속도는 몇 m/s일까요?",
+       "answer": "30",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "거리 ÷ 시간입니다.",
+       "explanation": "15 cm ÷ 5 ms = 3 cm/ms입니다.\n= 30 m/s입니다.",
+       "source_lesson": "c3-ch03-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "근육 원섬유 마디가 2.8 μm에서 2.2 μm로 수축했습니다. H대는 몇 μm 짧아졌을까요?",
+       "answer": "0.6",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "마디의 감소량과 같습니다.",
+       "explanation": "마디가 짧아진 만큼 H대도 짧아집니다.\n2.8 − 2.2 = 0.6 μm입니다.",
+       "source_lesson": "c3-ch03-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "기억, 판단, 언어 같은 고등 정신 활동을 담당하는 뇌는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "대뇌"
+         ]
+        }
+       ],
+       "hint": "뇌에서 가장 큰 부분입니다.",
+       "explanation": "대뇌는 감각, 운동 명령, 고등 정신 활동의 중추입니다.\n뇌에서 가장 큰 부분입니다.",
+       "source_lesson": "c3-ch03-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "활동 전위의 탈분극 단계에서는 {{1}}이 세포 안으로 들어옵니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "Na⁺",
+          "Na+",
+          "나트륨 이온"
+         ]
+        }
+       ],
+       "hint": "세포 밖에 많은 양이온입니다.",
+       "explanation": "Na⁺ 통로가 열려 Na⁺이 유입됩니다.\n막 안쪽이 (+)가 됩니다.",
+       "source_lesson": "c3-ch03-l01"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "dir": "ch04",
+     "id": "c3-ch04",
+     "title": "항상성",
+     "review_id": "c3-ch04-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "호르몬이 작용하는 특정 기관을 {{1}} 기관이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "표적"
+         ]
+        }
+       ],
+       "hint": "과녁을 뜻하는 말입니다.",
+       "explanation": "표적 기관의 세포에는 그 호르몬의 수용체가 있습니다.\n그래서 특정 기관에만 작용합니다.",
+       "source_lesson": "c3-ch04-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "혈당량이 높을 때 이자의 β세포에서 분비되는 호르몬은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "인슐린"
+         ]
+        }
+       ],
+       "hint": "혈당량을 낮추는 호르몬입니다.",
+       "explanation": "인슐린은 혈당량을 낮춥니다.\nα세포의 글루카곤과 길항 작용을 합니다.",
+       "source_lesson": "c3-ch04-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "더울 때 땀이 {{1}}하며 열을 빼앗아 체온을 낮춥니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "증발"
+         ]
+        }
+       ],
+       "hint": "액체가 기체로 되는 변화입니다.",
+       "explanation": "액체가 기체가 될 때 열을 흡수합니다.\n땀의 증발이 주요 열 발산 방법입니다.",
+       "source_lesson": "c3-ch04-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "땀을 많이 흘리면 항이뇨 호르몬 분비가 {{1}}합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "증가"
+         ]
+        }
+       ],
+       "hint": "체액이 진해진 경우입니다.",
+       "explanation": "체액의 삼투압이 높아져 ADH 분비가 늘어납니다.\n물 재흡수가 늘어 오줌이 줄어듭니다.",
+       "source_lesson": "c3-ch04-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "혈중 티록신이 많아지면 TSH 분비가 줄어드는 조절 방식을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "음성 피드백",
+          "음성피드백"
+         ]
+        }
+       ],
+       "hint": "결과가 원인을 억제하는 방식입니다.",
+       "explanation": "결과(티록신)가 원인(TSH)을 억제합니다.\n항상성 유지의 기본 원리입니다.",
+       "source_lesson": "c3-ch04-l01"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "dir": "ch05",
+     "id": "c3-ch05",
+     "title": "면역",
+     "review_id": "c3-ch05-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "세균성 질병은 {{1}}로 치료할 수 있지만, 바이러스성 질병에는 효과가 없습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "항생제"
+         ]
+        }
+       ],
+       "hint": "페니실린이 대표적인 예입니다.",
+       "explanation": "항생제는 세균의 세포벽이나 대사를 공격합니다.\n바이러스에는 공격할 대상이 없습니다.",
+       "source_lesson": "c3-ch05-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "눈물과 침 속의 {{1}}은 세균의 세포벽을 분해합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "라이소자임",
+          "리소자임"
+         ]
+        }
+       ],
+       "hint": "세포벽을 녹이는 효소입니다.",
+       "explanation": "라이소자임은 비특이적 방어에 쓰이는 효소입니다.\n세균의 세포벽을 녹입니다.",
+       "source_lesson": "c3-ch05-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "항체를 만들어 분비하는 세포는 B 림프구가 분화한 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "형질 세포",
+          "형질세포"
+         ]
+        }
+       ],
+       "hint": "B 림프구가 분화한 세포입니다.",
+       "explanation": "형질 세포가 항체를 대량으로 분비합니다.\n체액성 면역의 핵심입니다.",
+       "source_lesson": "c3-ch05-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "백신은 몸에 {{1}}을 넣어 스스로 면역을 얻게 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "항원"
+         ]
+        }
+       ],
+       "hint": "면역 반응을 일으키는 물질입니다.",
+       "explanation": "약하게 하거나 죽인 병원체, 또는 그 일부가 항원 역할을 합니다.\n혈청 요법은 항체를 넣습니다.",
+       "source_lesson": "c3-ch05-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "홍역, 독감, AIDS를 일으키는 병원체는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "바이러스"
+         ]
+        }
+       ],
+       "hint": "세포 구조가 아닌 병원체입니다.",
+       "explanation": "숙주 세포 안에서만 증식하는 병원체입니다.\n항바이러스제와 백신으로 대응합니다.",
+       "source_lesson": "c3-ch05-l01"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "dir": "ch06",
+     "id": "c3-ch06",
+     "title": "유전",
+     "review_id": "c3-ch06-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "사람의 체세포에서 성염색체를 제외한 상염색체는 몇 개일까요?",
+       "answer": "44",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "46에서 성염색체를 빼세요.",
+       "explanation": "46개 중 성염색체 2개를 뺍니다.\n44개(22쌍)입니다.",
+       "source_lesson": "c3-ch06-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "세포 주기에서 DNA가 복제되는 시기는 {{1}}기입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "S"
+         ]
+        }
+       ],
+       "hint": "합성을 뜻하는 영어의 첫 글자입니다.",
+       "explanation": "간기의 S기에 DNA가 복제됩니다.\n그 결과 DNA 양이 2배가 됩니다.",
+       "source_lesson": "c3-ch06-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "유전자형이 Aa인 부모 사이에서 AA인 자녀가 태어날 확률은 몇 %일까요?",
+       "answer": "25",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "각 부모에게서 A를 받을 확률은 1/2입니다.",
+       "explanation": "Aa × Aa → AA : Aa : aa = 1 : 2 : 1입니다.\nAA는 1/4 = 25%입니다.",
+       "source_lesson": "c3-ch06-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "감수 분열 때 염색체가 제대로 나뉘지 않는 {{1}}로 다운 증후군이 생길 수 있습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "비분리"
+         ]
+        }
+       ],
+       "hint": "분리되지 않는 현상입니다.",
+       "explanation": "비분리로 21번 염색체가 2개인 생식세포가 만들어집니다.\n수정되면 21번이 3개인 자손이 됩니다.",
+       "source_lesson": "c3-ch06-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "상동 염색체의 같은 위치에서 같은 형질을 결정하는 유전자를 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "대립유전자",
+          "대립 유전자"
+         ]
+        }
+       ],
+       "hint": "짝을 이루는 유전자입니다.",
+       "explanation": "A와 a처럼 표시합니다.\n하나는 어머니, 하나는 아버지에게서 옵니다.",
+       "source_lesson": "c3-ch06-l01"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "dir": "ch07",
+     "id": "c3-ch07",
+     "title": "진화와 생물 다양성",
+     "review_id": "c3-ch07-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "짧은 기간 넓은 지역에 살았던 생물의 화석으로 지층의 시대를 알려 주는 것을 {{1}} 화석이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "표준"
+         ]
+        }
+       ],
+       "hint": "시대를 알려 주는 화석입니다.",
+       "explanation": "삼엽충, 암모나이트, 화폐석이 대표적입니다.\n환경을 알려 주는 것은 시상 화석입니다.",
+       "source_lesson": "c3-ch07-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "환경에 유리한 변이를 가진 개체가 더 많이 살아남아 자손을 남기는 것을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "자연선택",
+          "자연 선택"
+         ]
+        }
+       ],
+       "hint": "다윈이 제안한 진화의 원리입니다.",
+       "explanation": "다윈 진화론의 핵심 개념입니다.\n세대를 거듭하며 유리한 형질이 쌓입니다.",
+       "source_lesson": "c3-ch07-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "자연 상태에서 교배해 생식 능력이 있는 자손을 낳는 생물 무리를 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "종"
+         ]
+        }
+       ],
+       "hint": "분류의 가장 작은 단위입니다.",
+       "explanation": "종은 분류의 기본 단위입니다.\n말과 당나귀는 다른 종입니다.",
+       "source_lesson": "c3-ch07-l03"
+      },
+      {
+       "type": "question",
+       "id": "r10",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "황소개구리와 뉴트리아처럼 토종 생물을 위협하는 생물을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "외래종",
+          "생태계 교란종",
+          "외래 생물"
+         ]
+        }
+       ],
+       "hint": "다른 지역에서 들어온 생물입니다.",
+       "explanation": "천적이 없어 빠르게 번식합니다.\n생물 다양성을 위협하는 요인입니다.",
+       "source_lesson": "c3-ch07-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "공룡과 암모나이트가 번성하고 멸종한 시대는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "중생대"
+         ]
+        }
+       ],
+       "hint": "고생대와 신생대 사이입니다.",
+       "explanation": "중생대 말 대멸종으로 공룡과 암모나이트가 사라졌습니다.\n그 뒤 신생대에 포유류가 번성했습니다.",
+       "source_lesson": "c3-ch07-l01"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "dir": "ch08",
+     "id": "c3-ch08",
+     "title": "생태계와 환경",
+     "review_id": "c3-ch08-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "죽은 생물과 배설물을 분해해 무기물로 되돌리는 생물을 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "분해자"
+         ]
+        }
+       ],
+       "hint": "버섯과 세균의 역할입니다.",
+       "explanation": "세균과 균류가 분해자입니다.\n물질 순환에 꼭 필요합니다.",
+       "source_lesson": "c3-ch08-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "실제 개체군의 생장 곡선은 {{1}} 때문에 S자 모양이 됩니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "환경 저항",
+          "환경저항"
+         ]
+        }
+       ],
+       "hint": "개체 수 증가를 막는 요인입니다.",
+       "explanation": "먹이 부족, 공간 부족 등이 환경 저항입니다.\n개체 수가 환경 수용력 근처에서 일정해집니다.",
+       "source_lesson": "c3-ch08-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "생산자 5000 kcal, 1차 소비자 500 kcal일 때 1차 소비자의 에너지 효율은 몇 %일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "전 단계 에너지로 나누세요.",
+       "explanation": "500 ÷ 5000 × 100 = 10%입니다.\n나머지는 대부분 호흡의 열로 빠져나갑니다.",
+       "source_lesson": "c3-ch08-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "생활 하수의 질소와 인 때문에 호수에 녹조가 생기는 현상을 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "부영양화"
+         ]
+        }
+       ],
+       "hint": "영양이 너무 많아진 상태입니다.",
+       "explanation": "영양염류가 지나치게 많아진 상태입니다.\n물속 산소가 부족해집니다.",
+       "source_lesson": "c3-ch08-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "숲이 우거져 숲속 습도가 높아지는 것은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "반작용"
+         ]
+        }
+       ],
+       "hint": "생물 → 환경 방향입니다.",
+       "explanation": "생물이 비생물적 환경에 영향을 주었습니다.\n반대 방향은 작용입니다.",
+       "source_lesson": "c3-ch08-l01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "title": "지학Ⅰ",
+   "description": "지구 시스템과 판 구조론, 지구의 역사, 대기와 해양, 별과 우주",
+   "chapters": [
+    {
+     "no": 1,
+     "dir": "ch01",
+     "id": "c4-ch01",
+     "title": "지구 시스템",
+     "review_id": "c4-ch01-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지구 시스템의 권역 중 대기로 이루어진 것은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "기권"
+         ]
+        }
+       ],
+       "hint": "공기로 된 권역입니다.",
+       "explanation": "기권은 대류권, 성층권, 중간권, 열권으로 나뉩니다.\n질소와 산소가 대부분입니다.",
+       "source_lesson": "c4-ch01-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "화산재가 햇빛을 가려 기온이 내려가는 것은 {{1}}이 기권에 영향을 준 예입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "지권"
+         ]
+        }
+       ],
+       "hint": "화산이 속하는 권역입니다.",
+       "explanation": "화산은 지권의 활동입니다.\n지권 → 기권의 상호작용입니다.",
+       "source_lesson": "c4-ch01-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "판의 운동과 화산 활동의 에너지원은 지구 {{1}} 에너지입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "내부"
+         ]
+        }
+       ],
+       "hint": "땅속 깊은 곳의 에너지입니다.",
+       "explanation": "방사성 원소의 붕괴열이 원천입니다.\n맨틀 대류를 일으킵니다.",
+       "source_lesson": "c4-ch01-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "육지의 연간 강수량이 120, 증발량이 75(단위: 10³ km³)입니다. 바다로 흘러가는 물의 양은 얼마일까요?",
+       "answer": "45",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "남는 물이 바다로 갑니다.",
+       "explanation": "강수량 − 증발량 = 120 − 75 = 45입니다.\n이만큼이 하천과 지하수로 바다에 갑니다.",
+       "source_lesson": "c4-ch01-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지진파의 S파가 통과하지 못해 액체라는 것을 알게 된 층은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "외핵"
+         ]
+        }
+       ],
+       "hint": "핵의 바깥 부분입니다.",
+       "explanation": "S파는 액체를 통과하지 못합니다.\n외핵은 철과 니켈이 녹은 액체입니다.",
+       "source_lesson": "c4-ch01-l01"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "dir": "ch02",
+     "id": "c4-ch02",
+     "title": "판 구조론",
+     "review_id": "c4-ch02-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "약 3억 년 전 모든 대륙이 하나로 모여 있던 초대륙을 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "판게아"
+         ]
+        }
+       ],
+       "hint": "'모든 땅'이라는 뜻입니다.",
+       "explanation": "베게너가 대륙 이동설에서 제안했습니다.\n약 2억 년 전부터 갈라지기 시작했습니다.",
+       "source_lesson": "c4-ch02-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "해령에서 멀어질수록 해양 지각의 나이는 많아지고 퇴적물의 두께는 {{1}}집니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "두꺼워",
+          "두터워"
+         ]
+        }
+       ],
+       "hint": "쌓인 시간이 길수록입니다.",
+       "explanation": "오래된 지각일수록 퇴적물이 오래 쌓였습니다.\n해저 확장설의 증거입니다.",
+       "source_lesson": "c4-ch02-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "해양판이 섭입하는 곳에서 만들어지는 깊은 해저 골짜기를 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "해구"
+         ]
+        }
+       ],
+       "hint": "해령과 반대되는 지형입니다.",
+       "explanation": "마리아나 해구가 가장 깊습니다.\n섭입형 수렴 경계의 지형입니다.",
+       "source_lesson": "c4-ch02-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "뜨거운 플룸이 올라와 판 내부에 화산을 만드는 곳을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "열점"
+         ]
+        }
+       ],
+       "hint": "뜨거운 지점입니다.",
+       "explanation": "하와이가 대표적입니다.\n위치가 거의 고정되어 있습니다.",
+       "source_lesson": "c4-ch02-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "대륙 이동설이 받아들여지지 않은 이유는 대륙을 움직이는 {{1}}을 설명하지 못했기 때문입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "원동력",
+          "힘"
+         ]
+        }
+       ],
+       "hint": "움직이게 하는 근본적인 힘입니다.",
+       "explanation": "원동력은 뒤에 맨틀 대류로 설명되었습니다.\n고지자기 연구로 대륙 이동설이 재조명되었습니다.",
+       "source_lesson": "c4-ch02-l01"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "dir": "ch03",
+     "id": "c4-ch03",
+     "title": "변동대와 화성 활동",
+     "review_id": "c4-ch03-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "진원 바로 위의 지표 지점을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "진앙"
+         ]
+        }
+       ],
+       "hint": "지표에 있는 지점입니다.",
+       "explanation": "진원은 땅속, 진앙은 지표의 지점입니다.\n지도에는 진앙을 표시합니다.",
+       "source_lesson": "c4-ch03-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "SiO₂ 함량이 많은 마그마는 점성이 커서 {{1}}적으로 분출합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "폭발"
+         ]
+        }
+       ],
+       "hint": "조용한 분출의 반대입니다.",
+       "explanation": "가스가 빠져나가지 못하고 압력이 쌓입니다.\n많은 화산재를 뿜어냅니다.",
+       "source_lesson": "c4-ch03-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "해령과 열점에서는 맨틀 물질이 상승하며 {{1}}이 낮아져 마그마가 생깁니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "압력"
+         ]
+        }
+       ],
+       "hint": "깊이와 관계된 조건입니다.",
+       "explanation": "감압 용융입니다.\n현무암질 마그마가 만들어집니다.",
+       "source_lesson": "c4-ch03-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "마그마가 지표 근처에서 빨리 식으면 결정이 {{1}}집니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "작아"
+         ]
+        }
+       ],
+       "hint": "식는 시간이 짧습니다.",
+       "explanation": "결정이 자랄 시간이 부족합니다.\n그래서 화산암은 결정이 작습니다.",
+       "source_lesson": "c4-ch03-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "P파 속도 8 km/s, S파 속도 4 km/s입니다. PS시가 15초라면 진원 거리는 몇 km일까요?",
+       "answer": "120",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "PS시 = d/4 − d/8입니다.",
+       "explanation": "PS시 = d/8이므로 d = 8 × 15 = 120 km입니다.\nPS시가 길수록 멀리서 난 지진입니다.",
+       "source_lesson": "c4-ch03-l01"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "dir": "ch04",
+     "id": "c4-ch04",
+     "title": "지구의 역사",
+     "review_id": "c4-ch04-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "주로 모래가 쌓여 만들어진 퇴적암은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "사암"
+         ]
+        }
+       ],
+       "hint": "모래 사(沙) 자를 씁니다.",
+       "explanation": "입자 크기에 따라 역암, 사암, 셰일로 나뉩니다.\n사암은 모래 크기입니다.",
+       "source_lesson": "c4-ch04-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "암석을 뚫고 들어간 관입암은 뚫린 암석보다 {{1}}습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "젊"
+         ]
+        }
+       ],
+       "hint": "나중에 생긴 것입니다.",
+       "explanation": "뚫린 암석이 먼저 있었습니다.\n관입의 법칙입니다.",
+       "source_lesson": "c4-ch04-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "반감기가 3번 지나면 모원소는 처음의 몇 %가 남을까요?",
+       "answer": "12.5",
+       "answer_format": "decimal",
+       "tolerance": 0.1,
+       "hint": "절반씩 세 번 줄어듭니다.",
+       "explanation": "(1/2)³ = 1/8 = 12.5%입니다.\n나머지는 자원소가 되었습니다.",
+       "source_lesson": "c4-ch04-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "공룡이 번성한 쥐라기와 백악기는 {{1}}에 속합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "중생대"
+         ]
+        }
+       ],
+       "hint": "고생대와 신생대 사이입니다.",
+       "explanation": "중생대는 트라이아스기, 쥐라기, 백악기입니다.\n백악기 말에 공룡이 멸종했습니다.",
+       "source_lesson": "c4-ch04-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "한 층 안에서 아래에서 위로 갈수록 입자가 작아지는 퇴적 구조를 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "점이 층리",
+          "점이층리"
+         ]
+        }
+       ],
+       "hint": "입자 크기가 점점 변하는 층리입니다.",
+       "explanation": "큰 입자가 먼저 가라앉아 생깁니다.\n지층의 위아래를 판단하는 데 씁니다.",
+       "source_lesson": "c4-ch04-l01"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "dir": "ch05",
+     "id": "c4-ch05",
+     "title": "대기와 날씨",
+     "review_id": "c4-ch05-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "우리나라 겨울에 영향을 주는 한랭 건조한 기단은 {{1}} 기단입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "시베리아"
+         ]
+        }
+       ],
+       "hint": "북쪽 대륙에서 생긴 기단입니다.",
+       "explanation": "시베리아 대륙에서 생깁니다.\n북서 계절풍을 몰고 옵니다.",
+       "source_lesson": "c4-ch05-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "저기압 중심에서는 {{1}} 기류가 생겨 흐리거나 비가 옵니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "상승"
+         ]
+        }
+       ],
+       "hint": "공기가 올라가는 흐름입니다.",
+       "explanation": "공기가 올라가며 식어 구름이 생깁니다.\n고기압에서는 하강 기류가 생깁니다.",
+       "source_lesson": "c4-ch05-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "태풍의 에너지원은 수증기가 응결할 때 방출하는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "숨은열",
+          "잠열",
+          "응결열"
+         ]
+        }
+       ],
+       "hint": "상태 변화 때 나오는 열입니다.",
+       "explanation": "따뜻한 바다의 수증기가 공급될 때 발달합니다.\n육지에 오르면 약해집니다.",
+       "source_lesson": "c4-ch05-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "뇌우의 성숙 단계에서는 상승 기류와 {{1}} 기류가 함께 나타납니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "하강"
+         ]
+        }
+       ],
+       "hint": "상승과 반대 방향입니다.",
+       "explanation": "천둥, 번개, 우박이 가장 심합니다.\n소멸 단계에서는 하강 기류만 남습니다.",
+       "source_lesson": "c4-ch05-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "좁은 지역에 소나기를 내리고 통과 후 기온이 내려가는 전선은 {{1}} 전선입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "한랭"
+         ]
+        }
+       ],
+       "hint": "찬 공기가 밀고 들어오는 전선입니다.",
+       "explanation": "찬 공기가 따뜻한 공기를 급하게 밀어 올립니다.\n적운형 구름이 생깁니다.",
+       "source_lesson": "c4-ch05-l01"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "dir": "ch06",
+     "id": "c4-ch06",
+     "title": "해양과 기후",
+     "review_id": "c4-ch06-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "해수 250 g에 염류가 9 g 녹아 있습니다. 염분은 몇 psu일까요?",
+       "answer": "36",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "해수 1 kg당 염류의 양입니다.",
+       "explanation": "1 kg으로 환산하면 9 × 4 = 36 g입니다.\n염분은 36 psu입니다.",
+       "source_lesson": "c4-ch06-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "고위도에서 저위도로 흐르는 차가운 해류를 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "한류"
+         ]
+        }
+       ],
+       "hint": "난류의 반대입니다.",
+       "explanation": "한류는 영양염과 용존 산소가 많습니다.\n난류는 반대 방향으로 흐릅니다.",
+       "source_lesson": "c4-ch06-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "평상시 동태평양 페루 연안에서는 깊은 곳의 찬 물이 올라오는 {{1}}이 일어납니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "용승"
+         ]
+        }
+       ],
+       "hint": "아래에서 위로 오르는 흐름입니다.",
+       "explanation": "영양염이 풍부해 좋은 어장이 됩니다.\n엘니뇨 때 약해집니다.",
+       "source_lesson": "c4-ch06-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지구 자전축의 기울기가 커지면 계절에 따른 기온 차이가 {{1}}집니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "커"
+         ]
+        }
+       ],
+       "hint": "여름은 더 덥고 겨울은 더 춥습니다.",
+       "explanation": "여름에는 태양 고도가 더 높고 겨울에는 더 낮아집니다.\n천문학적 요인의 하나입니다.",
+       "source_lesson": "c4-ch06-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "염분은 바다마다 달라도 염류 사이의 비율이 일정하다는 법칙을 염분비 {{1}}의 법칙이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "일정"
+         ]
+        }
+       ],
+       "hint": "비율이 변하지 않는다는 뜻입니다.",
+       "explanation": "해수가 오랜 세월 잘 섞였기 때문입니다.\n한 성분으로 전체 염분을 계산할 수 있습니다.",
+       "source_lesson": "c4-ch06-l01"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "dir": "ch07",
+     "id": "c4-ch07",
+     "title": "별",
+     "review_id": "c4-ch07-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "표면 온도가 높은 별일수록 최대 복사 파장이 {{1}}습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "짧"
+         ]
+        }
+       ],
+       "hint": "파란빛의 파장을 생각하세요.",
+       "explanation": "빈의 변위 법칙에 따라 파장은 온도에 반비례합니다.\n그래서 뜨거운 별이 파랗게 보입니다.",
+       "source_lesson": "c4-ch07-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "H-R도에서 별의 약 90%가 속하는 집단은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "주계열성"
+         ]
+        }
+       ],
+       "hint": "왼쪽 위에서 오른쪽 아래로 이어진 띠입니다.",
+       "explanation": "중심에서 수소 핵융합을 합니다.\n태양도 주계열성입니다.",
+       "source_lesson": "c4-ch07-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "핵융합 에너지는 질량 {{1}}이 E = mc²에 따라 바뀐 것입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "결손"
+         ]
+        }
+       ],
+       "hint": "줄어든 질량을 부르는 말입니다.",
+       "explanation": "반응 뒤 줄어든 질량이 에너지가 됩니다.\n수소 핵융합에서는 약 0.7%입니다.",
+       "source_lesson": "c4-ch07-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "행성의 반지름이 별의 1/20이라면 식 현상 때 별의 밝기는 몇 % 줄어들까요?",
+       "answer": "0.25",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "반지름 비의 제곱을 %로 바꾸세요.",
+       "explanation": "(1/20)² = 1/400 = 0.25%입니다.\n행성이 클수록 많이 줄어듭니다.",
+       "source_lesson": "c4-ch07-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "표면 온도가 2900 K인 별의 최대 복사 파장은 몇 μm일까요? (λmax = 2900 ÷ T)",
+       "answer": "1",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "식에 그대로 넣으세요.",
+       "explanation": "2900 ÷ 2900 = 1 μm입니다.\n적외선 영역으로 붉은 별입니다.",
+       "source_lesson": "c4-ch07-l01"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "dir": "ch08",
+     "id": "c4-ch08",
+     "title": "은하와 우주",
+     "review_id": "c4-ch08-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "우리은하는 {{1}} 나선 은하입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "막대"
+         ]
+        }
+       ],
+       "hint": "중심에 있는 구조의 모양입니다.",
+       "explanation": "중심을 막대 구조가 가로지릅니다.\n태양은 나선팔에 있습니다.",
+       "source_lesson": "c4-ch08-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "적색 편이량 z가 0.05인 은하의 후퇴 속도는 몇 km/s일까요? (c = 300,000 km/s)",
+       "answer": "15000",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "v = c × z입니다.",
+       "explanation": "v = 300,000 × 0.05 = 15000 km/s입니다.\n빛의 속도보다 훨씬 느릴 때 쓰는 식입니다.",
+       "source_lesson": "c4-ch08-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "우주 배경 복사의 온도는 약 몇 K일까요?",
+       "answer": "2.7",
+       "answer_format": "decimal",
+       "tolerance": 0.1,
+       "hint": "3 K보다 조금 낮습니다.",
+       "explanation": "약 2.7 K에 해당하는 마이크로파입니다.\n모든 방향에서 거의 균일합니다.",
+       "source_lesson": "c4-ch08-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "은하 바깥쪽의 회전 속도가 줄지 않는 것은 {{1}}의 존재를 알려 줍니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "암흑 물질",
+          "암흑물질"
+         ]
+        }
+       ],
+       "hint": "보이지 않는 물질입니다.",
+       "explanation": "보이지 않는 질량이 은하 바깥까지 퍼져 있습니다.\n중력 렌즈도 증거입니다.",
+       "source_lesson": "c4-ch08-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "나선팔이 없고 늙은 붉은 별이 많으며 성간 물질이 적은 은하는 {{1}} 은하입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "타원"
+         ]
+        }
+       ],
+       "hint": "모양에서 온 이름입니다.",
+       "explanation": "새로운 별이 거의 생기지 않습니다.\n허블 분류의 한 종류입니다.",
+       "source_lesson": "c4-ch08-l01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "title": "물리Ⅱ",
+   "description": "평면 운동과 만유인력, 진동과 열역학, 전자기, 양자",
+   "chapters": [
+    {
+     "no": 1,
+     "dir": "ch01",
+     "id": "c5-ch01",
+     "title": "평면 운동",
+     "review_id": "c5-ch01-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "크기가 10 N이고 x축과 37°를 이루는 힘의 x 성분은 몇 N일까요? (cos 37° = 0.8)",
+       "answer": "8",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "x 성분 = A cos θ입니다.",
+       "explanation": "10 × 0.8 = 8 N입니다.\ny 성분은 6 N입니다.",
+       "source_lesson": "c5-ch01-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "폭 80 m인 강을 배가 물에 대해 건너편 쪽으로 4 m/s로 나아갑니다. 강물이 3 m/s로 흐를 때 건너는 시간은 몇 초일까요?",
+       "answer": "20",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "가로지르는 성분만 생각하세요.",
+       "explanation": "80 ÷ 4 = 20초입니다.\n강물 속도는 건너는 시간과 무관합니다.",
+       "source_lesson": "c5-ch01-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "처음 속도의 연직 성분이 30 m/s인 공의 최고점 높이는 몇 m일까요? (g = 10 m/s²)",
+       "answer": "45",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "H = v_y0² ÷ 2g입니다.",
+       "explanation": "H = 30² ÷ 20 = 45 m입니다.\n최고점까지 3초 걸립니다.",
+       "source_lesson": "c5-ch01-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "마찰이 없는 경사각 37° 경사면에서 질량 4 kg인 물체의 가속도는 몇 m/s²일까요? (sin 37° = 0.6)",
+       "answer": "6",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "a = g sin θ입니다.",
+       "explanation": "a = g sin θ = 10 × 0.6 = 6 m/s²입니다.\n질량과 관계없습니다.",
+       "source_lesson": "c5-ch01-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "동쪽으로 8 m, 북쪽으로 6 m 이동했을 때 변위의 크기는 몇 m일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "피타고라스 정리를 쓰세요.",
+       "explanation": "√(8² + 6²) = 10 m입니다.\n두 변위가 직각입니다.",
+       "source_lesson": "c5-ch01-l01"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "dir": "ch02",
+     "id": "c5-ch02",
+     "title": "원운동과 만유인력",
+     "review_id": "c5-ch02-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "1초에 5바퀴 도는 물체의 주기는 몇 초일까요?",
+       "answer": "0.2",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "진동수의 역수입니다.",
+       "explanation": "T = 1 ÷ f = 1 ÷ 5 = 0.2초입니다.\n진동수는 5 Hz입니다.",
+       "source_lesson": "c5-ch02-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "질량 3 kg인 물체가 반지름 2 m인 원을 4 m/s로 돕니다. 구심력은 몇 N일까요?",
+       "answer": "24",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "F = mv² ÷ r입니다.",
+       "explanation": "F = 3 × 16 ÷ 2 = 24 N입니다.\n중심을 향합니다.",
+       "source_lesson": "c5-ch02-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "행성은 근일점에서 빠르고 원일점에서 느린데, 이는 케플러 제{{1}}법칙으로 설명됩니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "2"
+         ]
+        }
+       ],
+       "hint": "면적 속도 일정 법칙입니다.",
+       "explanation": "면적 속도 일정 법칙입니다.\n가까울 때 더 빨리 움직여야 같은 면적을 쓸습니다.",
+       "source_lesson": "c5-ch02-l03"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "두 물체 사이의 거리가 3배가 되면 만유인력은 몇 분의 1이 될까요?",
+       "answer": "9",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "거리의 제곱에 반비례합니다.",
+       "explanation": "F ∝ 1/r²이므로 1/9배가 됩니다.\n9분의 1입니다.",
+       "source_lesson": "c5-ch02-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "반지름 4 m인 원을 6 m/s로 도는 물체의 구심 가속도는 몇 m/s²일까요?",
+       "answer": "9",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "a = v² ÷ r입니다.",
+       "explanation": "a = 36 ÷ 4 = 9 m/s²입니다.\n방향은 중심을 향합니다.",
+       "source_lesson": "c5-ch02-l01"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "dir": "ch03",
+     "id": "c5-ch03",
+     "title": "단진동과 역학적 파동",
+     "review_id": "c5-ch03-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "진폭 0.1 m, 각진동수 4 rad/s인 단진동의 최대 속력은 몇 m/s일까요?",
+       "answer": "0.4",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "v_max = Aω입니다.",
+       "explanation": "v_max = Aω = 0.4 m/s입니다.\n진동 중심에서의 속력입니다.",
+       "source_lesson": "c5-ch03-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "용수철 진자의 추 질량을 9배로 하면 주기는 몇 배가 될까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "질량의 제곱근에 비례합니다.",
+       "explanation": "T ∝ √m이므로 3배입니다.\n용수철은 같을 때입니다.",
+       "source_lesson": "c5-ch03-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "단진자의 길이를 9배로 하면 주기는 몇 배가 될까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "길이의 제곱근에 비례합니다.",
+       "explanation": "T ∝ √l이므로 3배입니다.\n질량과 관계없습니다.",
+       "source_lesson": "c5-ch03-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "진동수 50 Hz, 파장 4 m인 파동의 속력은 몇 m/s일까요?",
+       "answer": "200",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "v = fλ입니다.",
+       "explanation": "v = fλ = 50 × 4 = 200 m/s입니다.\n1초에 50파장 진행합니다.",
+       "source_lesson": "c5-ch03-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "단진동에서 가속도의 크기는 진동의 양 {{1}}에서 가장 큽니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "끝"
+         ]
+        }
+       ],
+       "hint": "변위가 가장 큰 곳입니다.",
+       "explanation": "가속도는 변위에 비례합니다.\n중심에서는 0입니다.",
+       "source_lesson": "c5-ch03-l01"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "dir": "ch04",
+     "id": "c5-ch04",
+     "title": "열역학과 유체",
+     "review_id": "c5-ch04-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "온도가 일정할 때 기체의 압력을 3배로 하면 부피는 몇 분의 1이 될까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "PV = 일정입니다.",
+       "explanation": "보일 법칙에 따라 PV가 일정합니다.\n부피는 1/3이 됩니다.",
+       "source_lesson": "c5-ch04-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "압력 3 × 10⁵ Pa로 일정하게 유지하며 기체가 0.002 m³ 팽창했습니다. 기체가 한 일은 몇 J일까요?",
+       "answer": "600",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "W = PΔV입니다.",
+       "explanation": "W = PΔV = 3 × 10⁵ × 0.002 = 600 J입니다.\nP–V 그래프 아래 넓이입니다.",
+       "source_lesson": "c5-ch04-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "부피 0.005 m³인 물체가 물속에 완전히 잠겨 있습니다. 부력은 몇 N일까요? (ρ = 1000 kg/m³, g = 10 m/s²)",
+       "answer": "50",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "B = ρVg입니다.",
+       "explanation": "B = 1000 × 0.005 × 10 = 50 N입니다.\n밀어낸 물의 무게입니다.",
+       "source_lesson": "c5-ch04-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "단면적 6 cm²인 관에서 1 m/s로 흐르던 물이 단면적 2 cm²인 곳을 지날 때 속력은 몇 m/s일까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "A₁v₁ = A₂v₂입니다.",
+       "explanation": "v₂ = 6 × 1 ÷ 2 = 3 m/s입니다.\n연속 방정식입니다.",
+       "source_lesson": "c5-ch04-l04"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "기체의 절대 온도가 3배가 되면 분자의 평균 운동 에너지는 몇 배가 될까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "절대 온도에 비례합니다.",
+       "explanation": "Eₖ ∝ T이므로 3배입니다.\n섭씨온도가 아닌 절대 온도입니다.",
+       "source_lesson": "c5-ch04-l01"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "dir": "ch05",
+     "id": "c5-ch05",
+     "title": "전기장과 전위",
+     "review_id": "c5-ch05-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "3 C의 전하가 12 N의 전기력을 받는 곳의 전기장 세기는 몇 N/C일까요?",
+       "answer": "4",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "E = F ÷ q입니다.",
+       "explanation": "E = F ÷ q = 12 ÷ 3 = 4 N/C입니다.\n그 자리의 성질입니다.",
+       "source_lesson": "c5-ch05-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "0.5 C의 전하가 전위차 20 V를 지날 때 전기력이 한 일은 몇 J일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "W = qΔV입니다.",
+       "explanation": "W = qΔV = 0.5 × 20 = 10 J입니다.\n운동 에너지로 바뀔 수 있습니다.",
+       "source_lesson": "c5-ch05-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "전기 용량 5 μF인 축전기에 4 V의 전압을 걸면 저장되는 전하량은 몇 μC일까요?",
+       "answer": "20",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "Q = CV입니다.",
+       "explanation": "Q = CV = 5 × 4 = 20 μC입니다.\n전압에 비례합니다.",
+       "source_lesson": "c5-ch05-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "기전력 6 V, 내부 저항 1 Ω인 전지에 2 Ω의 저항을 연결했습니다. 흐르는 전류는 몇 A일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "I = ε ÷ (R + r)입니다.",
+       "explanation": "I = 6 ÷ 3 = 2 A입니다.\n단자 전압은 4 V입니다.",
+       "source_lesson": "c5-ch05-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "점전하로부터의 거리가 3배가 되면 전기장의 세기는 몇 분의 1이 될까요?",
+       "answer": "9",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "거리의 제곱에 반비례합니다.",
+       "explanation": "E ∝ 1/r²이므로 1/9이 됩니다.\n역제곱 법칙입니다.",
+       "source_lesson": "c5-ch05-l01"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "dir": "ch06",
+     "id": "c5-ch06",
+     "title": "자기장과 교류",
+     "review_id": "c5-ch06-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "전하량 1 C인 입자가 세기 2 T인 자기장에 수직으로 5 m/s로 움직입니다. 로런츠 힘은 몇 N일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "F = qvB입니다.",
+       "explanation": "F = qvB = 1 × 5 × 2 = 10 N입니다.\n속도에 수직입니다.",
+       "source_lesson": "c5-ch06-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "감은 수 200인 코일을 지나는 자기 선속이 0.1초 동안 0.01 Wb 변했습니다. 유도 기전력의 크기는 몇 V일까요?",
+       "answer": "20",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "ε = NΔΦ/Δt입니다.",
+       "explanation": "ε = 200 × 0.01 ÷ 0.1 = 20 V입니다.\n패러데이 법칙입니다.",
+       "source_lesson": "c5-ch06-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "1차 코일 200회, 2차 코일 50회인 변압기의 1차에 100 V를 걸면 2차 전압은 몇 V일까요?",
+       "answer": "25",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "전압은 감은 수에 비례합니다.",
+       "explanation": "V₂ = 100 × 50 ÷ 200 = 25 V입니다.\n강압 변압기입니다.",
+       "source_lesson": "c5-ch06-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "최댓값이 141 V인 교류 전압의 실효값은 약 몇 V일까요? (√2 ≈ 1.41)",
+       "answer": "100",
+       "answer_format": "integer",
+       "tolerance": 1,
+       "hint": "√2로 나누세요.",
+       "explanation": "141 ÷ 1.41 = 100 V입니다.\n실효값 = 최댓값 ÷ √2입니다.",
+       "source_lesson": "c5-ch06-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "로런츠 힘만 받는 대전 입자는 속력이 {{1}}.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "변하지 않는다",
+          "일정하다",
+          "변하지 않습니다",
+          "일정합니다"
+         ]
+        }
+       ],
+       "hint": "힘이 속도에 수직입니다.",
+       "explanation": "로런츠 힘은 일을 하지 않습니다.\n방향만 바뀝니다.",
+       "source_lesson": "c5-ch06-l01"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "dir": "ch07",
+     "id": "c5-ch07",
+     "title": "전자기파와 빛",
+     "review_id": "c5-ch07-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "진동수 3 × 10⁹ Hz인 전자기파의 파장은 몇 m일까요? (c = 3 × 10⁸ m/s)",
+       "answer": "0.1",
+       "answer_format": "decimal",
+       "tolerance": 0.002,
+       "hint": "λ = c ÷ f입니다.",
+       "explanation": "λ = 3 × 10⁸ ÷ (3 × 10⁹) = 0.1 m입니다.\n마이크로파입니다.",
+       "source_lesson": "c5-ch07-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "파장 400 nm, 슬릿 간격 0.2 mm, 스크린 거리 1 m인 이중 슬릿 실험의 밝은 무늬 간격은 몇 mm일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "Δx = Lλ/d입니다.",
+       "explanation": "Δx = 1 × 4 × 10⁻⁷ ÷ (2 × 10⁻⁴) = 2 × 10⁻³ m = 2 mm입니다.\n파장에 비례합니다.",
+       "source_lesson": "c5-ch07-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "파장이 길수록, 틈이 좁을수록 {{1}}이 잘 일어납니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "회절"
+         ]
+        }
+       ],
+       "hint": "틈을 지나 퍼지는 현상입니다.",
+       "explanation": "파동이 틈 뒤로 퍼지는 현상입니다.\n소리가 담장을 넘는 이유입니다.",
+       "source_lesson": "c5-ch07-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "편광된 빛이 투과축과 45°를 이루는 편광판을 지나면 세기는 처음의 몇 %가 될까요?",
+       "answer": "50",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "I = I₀ cos² θ입니다.",
+       "explanation": "cos² 45° = 1/2이므로 50%입니다.\n말뤼스 법칙입니다.",
+       "source_lesson": "c5-ch07-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "전자기파는 가속 운동하는 {{1}}에 의해 발생합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "전하"
+         ]
+        }
+       ],
+       "hint": "전자, 양성자가 가진 것입니다.",
+       "explanation": "안테나 속 전자의 진동이 대표적입니다.\n정지한 전하는 전자기파를 내지 않습니다.",
+       "source_lesson": "c5-ch07-l01"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "dir": "ch08",
+     "id": "c5-ch08",
+     "title": "양자 세계",
+     "review_id": "c5-ch08-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "파장 496 nm인 빛의 광자 에너지는 몇 eV일까요? (hc = 1240 eV·nm)",
+       "answer": "2.5",
+       "answer_format": "decimal",
+       "tolerance": 0.02,
+       "hint": "E = 1240 ÷ λ입니다.",
+       "explanation": "E = 1240 ÷ 496 = 2.5 eV입니다.\n청록색 빛입니다.",
+       "source_lesson": "c5-ch08-l01"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "입자의 속력이 3배가 되면 물질파 파장은 몇 분의 1이 될까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "λ = h/p입니다.",
+       "explanation": "λ = h/(mv)이므로 1/3이 됩니다.\n운동량에 반비례합니다.",
+       "source_lesson": "c5-ch08-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "위치와 운동량을 동시에 정확히 알 수 없다는 원리는 {{1}} 원리입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "불확정성"
+         ]
+        }
+       ],
+       "hint": "하이젠베르크의 원리입니다.",
+       "explanation": "Δx × Δp ≥ h/4π입니다.\n하이젠베르크가 제안했습니다.",
+       "source_lesson": "c5-ch08-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "에너지 장벽이 얇을수록 터널 효과가 일어날 확률은 {{1}}집니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "커"
+         ]
+        }
+       ],
+       "hint": "두꺼울 때와 반대입니다.",
+       "explanation": "파동 함수가 덜 줄어든 채로 장벽을 빠져나옵니다.\nSTM과 플래시 메모리에 이용됩니다.",
+       "source_lesson": "c5-ch08-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "에너지 6 eV인 광자를 일함수 4 eV인 금속에 비추면 광전자의 최대 운동 에너지는 몇 eV일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "Eₖ = hf − W입니다.",
+       "explanation": "Eₖ = 6 − 4 = 2 eV입니다.\n정지 전압은 2 V입니다.",
+       "source_lesson": "c5-ch08-l01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "title": "화학Ⅱ",
+   "description": "기체와 용액, 반응열, 화학 평형, 반응 속도, 전기 화학",
+   "chapters": [
+    {
+     "no": 1,
+     "dir": "ch01",
+     "id": "c6-ch01",
+     "title": "기체",
+     "review_id": "c6-ch01-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "1520 mmHg는 몇 atm일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "760으로 나누세요.",
+       "explanation": "1520 ÷ 760 = 2 atm입니다.\n1 atm = 760 mmHg입니다.",
+       "source_lesson": "c6-ch01-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "압력이 일정할 때 200 K에서 4 L인 기체를 300 K로 데우면 부피는 몇 L가 될까요?",
+       "answer": "6",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "V₁/T₁ = V₂/T₂입니다.",
+       "explanation": "V₂ = 4 × 300 ÷ 200 = 6 L입니다.\n샤를 법칙입니다.",
+       "source_lesson": "c6-ch01-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "0 °C, 1 atm에서 부피 5.6 L인 기체는 몇 mol일까요?",
+       "answer": "0.25",
+       "answer_format": "decimal",
+       "tolerance": 0.005,
+       "hint": "22.4 L로 나누세요.",
+       "explanation": "5.6 ÷ 22.4 = 0.25 mol입니다.\n1 mol은 22.4 L입니다.",
+       "source_lesson": "c6-ch01-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "질소의 부분 압력 1.5 atm, 산소의 부분 압력 0.5 atm인 혼합 기체의 전체 압력은 몇 atm일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "부분 압력을 더하세요.",
+       "explanation": "1.5 + 0.5 = 2 atm입니다.\n돌턴 법칙입니다.",
+       "source_lesson": "c6-ch01-l04"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "절대 온도는 섭씨온도에 {{1}}을 더한 값입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "273"
+         ]
+        }
+       ],
+       "hint": "절대 영도의 섭씨온도 크기입니다.",
+       "explanation": "T(K) = t(°C) + 273입니다.\n0 K는 −273 °C입니다.",
+       "source_lesson": "c6-ch01-l02"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "dir": "ch02",
+     "id": "c6-ch02",
+     "title": "분자 간 힘과 물질의 상태",
+     "review_id": "c6-ch02-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "분자량이 클수록 커지며 모든 분자 사이에 작용하는 힘은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "분산력"
+         ]
+        }
+       ],
+       "hint": "모든 분자에 작용합니다.",
+       "explanation": "순간 쌍극자에 의한 힘입니다.\n할로젠의 끓는점 순서를 설명합니다.",
+       "source_lesson": "c6-ch02-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "H₂O, HF, NH₃의 끓는점이 비정상적으로 높은 것은 {{1}} 때문입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "수소 결합"
+         ]
+        }
+       ],
+       "hint": "F, O, N과 H 사이의 분자 간 힘입니다.",
+       "explanation": "F, O, N에 결합한 H가 이웃 분자에 강하게 끌립니다.\n분자 간 힘 가운데 가장 강합니다.",
+       "source_lesson": "c6-ch02-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "액체는 증기 압력이 {{1}}과 같아질 때 끓습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "외부 압력",
+          "대기압"
+         ]
+        }
+       ],
+       "hint": "바깥에서 누르는 압력입니다.",
+       "explanation": "그래서 끓는점은 외부 압력에 따라 달라집니다.\n산 위에서는 낮아집니다.",
+       "source_lesson": "c6-ch02-l03"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "드라이아이스와 아이오딘은 분자 간 힘으로 이루어진 {{1}} 결정입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "분자"
+         ]
+        }
+       ],
+       "hint": "분자로 이루어진 결정입니다.",
+       "explanation": "녹는점이 낮고 승화합니다.\n분자 간 힘이 약하기 때문입니다.",
+       "source_lesson": "c6-ch02-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "분자량이 비슷할 때 극성 분자는 {{1}} 힘이 더해져 무극성 분자보다 끓는점이 높습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "쌍극자–쌍극자",
+          "쌍극자-쌍극자",
+          "쌍극자 쌍극자"
+         ]
+        }
+       ],
+       "hint": "극성 분자 사이의 힘입니다.",
+       "explanation": "δ+와 δ−가 끌어당깁니다.\nCO가 N₂보다 끓는점이 높은 이유입니다.",
+       "source_lesson": "c6-ch02-l01"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "dir": "ch03",
+     "id": "c6-ch03",
+     "title": "용액",
+     "review_id": "c6-ch03-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "소금 15 g을 물 135 g에 녹인 소금물의 퍼센트 농도는 몇 %일까요?",
+       "answer": "10",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "용액 = 용질 + 용매입니다.",
+       "explanation": "15 ÷ 150 × 100 = 10%입니다.\n용액 질량으로 나눕니다.",
+       "source_lesson": "c6-ch03-l01"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "순수한 용매의 증기 압력이 200 mmHg이고 용매의 몰 분율이 0.95입니다. 용액의 증기 압력은 몇 mmHg일까요?",
+       "answer": "190",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "P = x_용매 × P°입니다.",
+       "explanation": "P = 0.95 × 200 = 190 mmHg입니다.\n라울 법칙입니다.",
+       "source_lesson": "c6-ch03-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "1 m 포도당 수용액의 어는점은 몇 °C일까요? (물의 Kb = 0.52 °C/m, Kf = 1.86 °C/m)",
+       "answer": "-1.86",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "0 °C에서 어는점 내림을 빼세요.",
+       "explanation": "ΔT_f = 1.86 × 1 = 1.86 °C이므로 어는점은 −1.86 °C입니다.\n비전해질입니다.",
+       "source_lesson": "c6-ch03-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "0.05 M 포도당 수용액의 300 K에서 삼투압은 몇 atm일까요? (R = 0.082 atm·L/(mol·K))",
+       "answer": "1.23",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "π = CRT입니다.",
+       "explanation": "π = 0.05 × 0.082 × 300 = 1.23 atm입니다.\n반트호프 식입니다.",
+       "source_lesson": "c6-ch03-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "NaOH 0.2 mol을 녹여 용액 500 mL를 만들었습니다. 몰 농도는 몇 M일까요?",
+       "answer": "0.4",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "몰수 ÷ 용액 L입니다.",
+       "explanation": "0.2 ÷ 0.5 = 0.4 M입니다.\n부피를 L로 바꿉니다.",
+       "source_lesson": "c6-ch03-l01"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "dir": "ch04",
+     "id": "c6-ch04",
+     "title": "반응열",
+     "review_id": "c6-ch04-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "흡열 반응의 ΔH는 {{1}}의 값을 가집니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "양",
+          "양수",
+          "(+)",
+          "+"
+         ]
+        }
+       ],
+       "hint": "발열 반응과 반대입니다.",
+       "explanation": "생성물의 엔탈피가 반응물보다 큽니다.\n주위에서 열을 흡수합니다.",
+       "source_lesson": "c6-ch04-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "물 100 g의 온도가 20 °C 올라갔습니다. 물이 얻은 열은 몇 J일까요? (물의 비열 4.2 J/(g·°C))",
+       "answer": "8400",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "Q = cmΔT입니다.",
+       "explanation": "Q = 4.2 × 100 × 20 = 8400 J입니다.\nQ = cmΔT입니다.",
+       "source_lesson": "c6-ch04-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "반응열은 반응 경로와 관계없이 처음과 나중 상태로만 정해진다는 것을 {{1}} 법칙이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "헤스"
+         ]
+        }
+       ],
+       "hint": "스위스 출신 러시아 화학자의 이름입니다.",
+       "explanation": "총열량 불변 법칙입니다.\n반응식을 더하고 빼서 반응열을 구합니다.",
+       "source_lesson": "c6-ch04-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "결합 에너지는 기체 분자의 결합 1 mol을 {{1}} 데 필요한 에너지입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "끊는"
+         ]
+        }
+       ],
+       "hint": "결합을 어떻게 하는 에너지일까요?",
+       "explanation": "결합을 끊으려면 에너지를 흡수해야 합니다.\n단위는 kJ/mol입니다.",
+       "source_lesson": "c6-ch04-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "A + B → C의 ΔH가 −120 kJ일 때 C → A + B의 ΔH는 몇 kJ일까요?",
+       "answer": "120",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "부호를 바꾸세요.",
+       "explanation": "역반응은 부호가 반대이므로 +120 kJ입니다.\n흡열 반응입니다.",
+       "source_lesson": "c6-ch04-l01"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "dir": "ch05",
+     "id": "c6-ch05",
+     "title": "화학 평형",
+     "review_id": "c6-ch05-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "A(g) ⇌ B(g)의 평형에서 [A] = 0.2 M, [B] = 0.6 M입니다. K는 얼마일까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "K = [B] ÷ [A]입니다.",
+       "explanation": "K = 0.6 ÷ 0.2 = 3입니다.\n생성물 ÷ 반응물입니다.",
+       "source_lesson": "c6-ch05-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "반응 지수 Q가 평형 상수 K보다 작으면 {{1}}이 일어납니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "정반응"
+         ]
+        }
+       ],
+       "hint": "Q를 키우는 방향입니다.",
+       "explanation": "생성물이 부족합니다.\nQ가 K에 가까워지는 방향입니다.",
+       "source_lesson": "c6-ch05-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "평형 상태에서 생성물을 제거하면 평형은 {{1}} 쪽으로 이동합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "정반응"
+         ]
+        }
+       ],
+       "hint": "생성물을 다시 만드는 방향입니다.",
+       "explanation": "줄어든 생성물을 보충하는 방향입니다.\n르샤틀리에 원리입니다.",
+       "source_lesson": "c6-ch05-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "정반응이 발열인 평형에서 온도를 높이면 평형 상수는 {{1}}합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "감소"
+         ]
+        }
+       ],
+       "hint": "흡열 방향으로 이동합니다.",
+       "explanation": "흡열인 역반응 쪽으로 이동합니다.\n온도만 K를 바꿉니다.",
+       "source_lesson": "c6-ch05-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "평형 상수 식에는 기체와 수용액의 농도만 쓰고 고체와 순수한 {{1}}는 쓰지 않습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "액체"
+         ]
+        }
+       ],
+       "hint": "물 같은 순수한 물질의 상태입니다.",
+       "explanation": "농도가 일정하기 때문입니다.\nCaCO₃ 분해의 K = [CO₂]입니다.",
+       "source_lesson": "c6-ch05-l01"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "dir": "ch06",
+     "id": "c6-ch06",
+     "title": "산·염기 평형",
+     "review_id": "c6-ch06-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "[H₃O⁺] = 1 × 10⁻⁴ M인 용액의 pH는 얼마일까요?",
+       "answer": "4",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "pH = −log[H₃O⁺]입니다.",
+       "explanation": "pH = −log(10⁻⁴) = 4입니다.\n산성입니다.",
+       "source_lesson": "c6-ch06-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "K_a = 1 × 10⁻⁶인 약한 산 1 M 수용액의 pH는 얼마일까요?",
+       "answer": "3",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "√(K_a × C)입니다.",
+       "explanation": "[H₃O⁺] ≈ √(10⁻⁶ × 1) = 10⁻³ M입니다.\npH = 3입니다.",
+       "source_lesson": "c6-ch06-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "CH₃COONa 수용액은 CH₃COO⁻의 가수 분해 때문에 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "염기성"
+         ]
+        }
+       ],
+       "hint": "OH⁻가 생깁니다.",
+       "explanation": "OH⁻가 생깁니다.\n약한 산 + 강한 염기의 염입니다.",
+       "source_lesson": "c6-ch06-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "pK_a = 6이고 [A⁻] = [HA]인 완충 용액의 pH는 얼마일까요?",
+       "answer": "6",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "log 1 = 0입니다.",
+       "explanation": "농도가 같으면 pH = pK_a = 6입니다.\n완충 능력이 가장 큽니다.",
+       "source_lesson": "c6-ch06-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "25 °C에서 0.01 M NaOH 수용액의 pH는 얼마일까요? (완전 이온화)",
+       "answer": "12",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "pH + pOH = 14입니다.",
+       "explanation": "pOH = 2이므로 pH = 12입니다.\n강한 염기성입니다.",
+       "source_lesson": "c6-ch06-l01"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "dir": "ch07",
+     "id": "c6-ch07",
+     "title": "반응 속도",
+     "review_id": "c6-ch07-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "반응물의 농도가 10초 동안 0.5 M에서 0.3 M로 줄었습니다. 평균 반응 속도는 몇 M/s일까요?",
+       "answer": "0.02",
+       "answer_format": "decimal",
+       "tolerance": 0.001,
+       "hint": "감소량을 시간으로 나누세요.",
+       "explanation": "(0.5 − 0.3) ÷ 10 = 0.02 M/s입니다.\n농도 변화 ÷ 시간입니다.",
+       "source_lesson": "c6-ch07-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "반감기가 8분인 1차 반응에서 24분 뒤 남은 반응물은 처음의 몇 %일까요?",
+       "answer": "12.5",
+       "answer_format": "decimal",
+       "tolerance": 0.1,
+       "hint": "24분은 반감기 몇 번일까요?",
+       "explanation": "반감기 3번이므로 1/8 = 12.5%입니다.\n1차 반응의 반감기는 일정합니다.",
+       "source_lesson": "c6-ch07-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "정반응의 활성화 에너지가 40 kJ, ΔH = −60 kJ일 때 역반응의 활성화 에너지는 몇 kJ일까요?",
+       "answer": "100",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "Eₐ(역) = Eₐ(정) − ΔH입니다.",
+       "explanation": "Eₐ(역) = 40 − (−60) = 100 kJ입니다.\n발열 반응입니다.",
+       "source_lesson": "c6-ch07-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "정촉매는 활성화 에너지를 낮추지만 반응열 ΔH와 {{1}} 상수는 바꾸지 않습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "평형"
+         ]
+        }
+       ],
+       "hint": "K라는 기호의 상수입니다.",
+       "explanation": "정반응과 역반응을 똑같이 빠르게 합니다.\n평형에 빨리 도달할 뿐입니다.",
+       "source_lesson": "c6-ch07-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "[A]를 3배로 했더니 처음 반응 속도가 9배가 되었습니다. A에 대한 반응 차수는 얼마일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "3의 몇 제곱이 9일까요?",
+       "explanation": "3ᵐ = 9이므로 m = 2입니다.\n2차 반응입니다.",
+       "source_lesson": "c6-ch07-l01"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "dir": "ch08",
+     "id": "c6-ch08",
+     "title": "전기 화학",
+     "review_id": "c6-ch08-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "화학 전지에서 반응성이 큰 금속은 산화되어 {{1}}극이 됩니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "(−)",
+          "−",
+          "-",
+          "음"
+         ]
+        }
+       ],
+       "hint": "전자가 나가는 극입니다.",
+       "explanation": "전자를 내놓는 전극입니다.\n다니엘 전지에서는 아연입니다.",
+       "source_lesson": "c6-ch08-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "철과 은으로 만든 전지의 표준 기전력은 몇 V일까요? (표준 환원 전위: Mg²⁺/Mg −2.37 V, Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Ag⁺/Ag +0.80 V)",
+       "answer": "1.24",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "E°(+) − E°(−)입니다.",
+       "explanation": "E° = 0.80 − (−0.44) = 1.24 V입니다.\n은이 (+)극입니다.",
+       "source_lesson": "c6-ch08-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "납축전지는 충전해서 다시 쓸 수 있는 {{1}}차 전지입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "2"
+         ]
+        }
+       ],
+       "hint": "충전 가능한 전지입니다.",
+       "explanation": "방전하면 두 전극이 PbSO₄가 됩니다.\n충전하면 되돌아갑니다.",
+       "source_lesson": "c6-ch08-l03"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "전기 분해에서 전원의 (+)극에 연결된 전극에서는 {{1}}가 일어납니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "산화"
+         ]
+        }
+       ],
+       "hint": "환원의 반대입니다.",
+       "explanation": "음이온이나 물이 전자를 잃습니다.\n전지와 극의 부호가 반대로 대응합니다.",
+       "source_lesson": "c6-ch08-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "다니엘 전지에서 구리 12.8 g이 석출되었다면 이동한 전자는 몇 mol일까요? (Cu 64)",
+       "answer": "0.4",
+       "answer_format": "decimal",
+       "tolerance": 0.01,
+       "hint": "Cu 1 mol에 전자 2 mol입니다.",
+       "explanation": "12.8 ÷ 64 = 0.2 mol Cu, 전자는 2배인 0.4 mol입니다.\nCu²⁺ + 2e⁻ → Cu입니다.",
+       "source_lesson": "c6-ch08-l01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "title": "생물Ⅱ",
+   "description": "효소와 물질대사, 세포 호흡과 광합성, 유전자 발현, 생명 공학",
+   "chapters": [
+    {
+     "no": 1,
+     "dir": "ch01",
+     "id": "c7-ch01",
+     "title": "세포의 구조와 막 수송",
+     "review_id": "c7-ch01-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "핵막과 막성 소기관이 없는 세포는 {{1}}세포입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "원핵"
+         ]
+        }
+       ],
+       "hint": "핵막이 없습니다.",
+       "explanation": "세균과 고세균이 해당합니다.\nDNA는 세포질에 있습니다.",
+       "source_lesson": "c7-ch01-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "거친면 소포체에서 만들어진 단백질을 가공·포장하는 소기관은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "골지체"
+         ]
+        }
+       ],
+       "hint": "납작한 주머니 모양입니다.",
+       "explanation": "분비 소낭을 만들어 내보냅니다.\n분비 세포에서 발달합니다.",
+       "source_lesson": "c7-ch01-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "인지질 2중층에 단백질이 박혀 있고 움직일 수 있다는 세포막 모델은 유동 {{1}} 모델입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "모자이크"
+         ]
+        }
+       ],
+       "hint": "조각 그림에 빗댄 이름입니다.",
+       "explanation": "싱어와 니컬슨이 제안했습니다.\n막은 유동적입니다.",
+       "source_lesson": "c7-ch01-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "운반체 단백질을 이용해 농도 기울기를 따라 이동하며 포화 현상이 나타나는 수송은 {{1}} 확산입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "촉진"
+         ]
+        }
+       ],
+       "hint": "단백질의 도움을 받는 확산입니다.",
+       "explanation": "에너지를 쓰지 않습니다.\n운반체 수가 한정되어 있습니다.",
+       "source_lesson": "c7-ch01-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "미토콘드리아와 엽록체가 원핵생물에서 유래했다는 설은 세포 내 {{1}}설입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "공생"
+         ]
+        }
+       ],
+       "hint": "함께 산다는 뜻입니다.",
+       "explanation": "자체 DNA, 리보솜, 이중막이 증거입니다.\n스스로 분열합니다.",
+       "source_lesson": "c7-ch01-l01"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "dir": "ch02",
+     "id": "c7-ch02",
+     "title": "효소",
+     "review_id": "c7-ch02-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "효소의 활성 부위에 입체 구조가 맞는 기질만 결합하는 성질을 기질 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "특이성"
+         ]
+        }
+       ],
+       "hint": "특별히 정해져 있다는 뜻입니다.",
+       "explanation": "자물쇠와 열쇠에 비유합니다.\n유도 적합으로 더 꼭 맞게 됩니다.",
+       "source_lesson": "c7-ch02-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "기질 농도를 계속 높여도 반응 속도가 일정해지는 것은 효소가 {{1}}되었기 때문입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "포화"
+         ]
+        }
+       ],
+       "hint": "빈 효소가 없는 상태입니다.",
+       "explanation": "모든 효소가 기질과 결합했습니다.\n최대 속도에 이릅니다.",
+       "source_lesson": "c7-ch02-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "기질 농도를 높이면 극복할 수 있는 저해는 {{1}} 저해입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "경쟁적"
+         ]
+        }
+       ],
+       "hint": "활성 부위를 두고 다툽니다.",
+       "explanation": "활성 부위를 두고 기질과 경쟁합니다.\n최대 속도는 그대로입니다.",
+       "source_lesson": "c7-ch02-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "주효소와 보조 인자가 결합한 완전한 효소를 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "전효소"
+         ]
+        }
+       ],
+       "hint": "완전한 효소입니다.",
+       "explanation": "보조 인자에는 금속 이온과 조효소가 있습니다.\n조효소는 주로 비타민에서 유래합니다.",
+       "source_lesson": "c7-ch02-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "효소는 반응의 {{1}}를 낮추어 반응을 빠르게 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "활성화 에너지"
+         ]
+        }
+       ],
+       "hint": "반응이 넘어야 할 에너지 언덕입니다.",
+       "explanation": "반응열은 바꾸지 않습니다.\n촉매의 공통 성질입니다.",
+       "source_lesson": "c7-ch02-l01"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "dir": "ch03",
+     "id": "c7-ch03",
+     "title": "세포 호흡",
+     "review_id": "c7-ch03-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "ATP가 ADP와 무기 인산으로 분해될 때 {{1}}가 방출됩니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "에너지"
+         ]
+        }
+       ],
+       "hint": "ATP가 전달하는 것입니다.",
+       "explanation": "약 30 kJ/mol입니다.\n세포의 여러 활동에 쓰입니다.",
+       "source_lesson": "c7-ch03-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "해당 과정에서 포도당 1분자당 순수하게 얻는 ATP는 몇 분자일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "생성 − 소비입니다.",
+       "explanation": "4 생성 − 2 소비 = 2입니다.\n산소가 필요 없습니다.",
+       "source_lesson": "c7-ch03-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "TCA 회로가 1회전할 때 생기는 CO₂는 몇 분자일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "아세틸기의 탄소 수와 같습니다.",
+       "explanation": "1회전마다 CO₂ 2, NADH 3, FADH₂ 1, ATP 1입니다.\n포도당 1분자당 2번 돕니다.",
+       "source_lesson": "c7-ch03-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "미토콘드리아 내막의 ATP 합성 효소는 {{1}}가 통과할 때 ATP를 만듭니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "H⁺",
+          "H+",
+          "수소 이온"
+         ]
+        }
+       ],
+       "hint": "농도 기울기를 이루는 이온입니다.",
+       "explanation": "막 사이 공간에서 기질로 흐릅니다.\n화학 삼투입니다.",
+       "source_lesson": "c7-ch03-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "세포 호흡의 최종 전자 수용체는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "산소"
+         ]
+        }
+       ],
+       "hint": "우리가 들이마시는 기체입니다.",
+       "explanation": "전자와 H⁺를 받아 물이 됩니다.\n없으면 전자 전달계가 멈춥니다.",
+       "source_lesson": "c7-ch03-l01"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "dir": "ch04",
+     "id": "c7-ch04",
+     "title": "광합성",
+     "review_id": "c7-ch04-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "광합성 색소 가운데 가장 멀리 이동하는 주황색 색소는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "카로틴"
+         ]
+        }
+       ],
+       "hint": "당근의 색소입니다.",
+       "explanation": "용매에 가장 잘 녹습니다.\n전개율이 가장 큽니다.",
+       "source_lesson": "c7-ch04-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "명반응에서 발생하는 산소는 {{1}}의 분해로 생깁니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "물"
+         ]
+        }
+       ],
+       "hint": "뿌리로 흡수한 물질입니다.",
+       "explanation": "루벤이 ¹⁸O로 증명했습니다.\n물의 광분해입니다.",
+       "source_lesson": "c7-ch04-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "포도당 1분자를 만들 때 캘빈 회로에서 쓰이는 ATP는 몇 분자일까요?",
+       "answer": "18",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "CO₂ 1분자당 ATP 3분자입니다.",
+       "explanation": "CO₂ 6분자 × ATP 3 = 18분자입니다.\nNADPH는 12분자입니다.",
+       "source_lesson": "c7-ch04-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "광합성량과 호흡량이 같아지는 빛의 세기를 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "보상점"
+         ]
+        }
+       ],
+       "hint": "서로 보상하는 점입니다.",
+       "explanation": "겉보기 기체 출입이 없습니다.\n음지 식물이 낮습니다.",
+       "source_lesson": "c7-ch04-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "엽록소는 청자색광과 {{1}}광을 잘 흡수합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "적색"
+         ]
+        }
+       ],
+       "hint": "빨간색 빛입니다.",
+       "explanation": "녹색광은 반사합니다.\n작용 스펙트럼과 비슷합니다.",
+       "source_lesson": "c7-ch04-l01"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "dir": "ch05",
+     "id": "c7-ch05",
+     "title": "유전 물질과 복제",
+     "review_id": "c7-ch05-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "그리피스는 폐렴 쌍구균 실험에서 {{1}} 현상을 처음 발견했습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "형질 전환"
+         ]
+        }
+       ],
+       "hint": "형질이 바뀌는 현상입니다.",
+       "explanation": "R형 균이 S형 균으로 바뀌었습니다.\n유전 물질의 존재를 보여 주었습니다.",
+       "source_lesson": "c7-ch05-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "이중 가닥 DNA에서 G가 35%이면 A는 몇 %일까요?",
+       "answer": "15",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "A = T, G = C입니다.",
+       "explanation": "G = C = 35%이므로 A + T = 30%입니다.\nA = 15%입니다.",
+       "source_lesson": "c7-ch05-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "메셀슨과 스탈의 실험은 DNA가 {{1}}적으로 복제된다는 것을 증명했습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "반보존"
+         ]
+        }
+       ],
+       "hint": "절반이 보존됩니다.",
+       "explanation": "원래 가닥 하나가 새 DNA에 보존됩니다.\n1세대는 모두 중간 무게였습니다.",
+       "source_lesson": "c7-ch05-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지연 가닥의 오카자키 절편은 DNA {{1}} 효소가 이어 붙입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "연결"
+         ]
+        }
+       ],
+       "hint": "조각을 잇는 효소입니다.",
+       "explanation": "리가아제라고도 합니다.\n틈을 공유 결합으로 잇습니다.",
+       "source_lesson": "c7-ch05-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "허시와 체이스의 실험에서 세균 안으로 들어간 파지의 성분은 {{1}}였습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "DNA"
+         ]
+        }
+       ],
+       "hint": "³²P로 표지한 성분입니다.",
+       "explanation": "³²P로 표지했습니다.\n단백질은 밖에 남았습니다.",
+       "source_lesson": "c7-ch05-l01"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "dir": "ch06",
+     "id": "c7-ch06",
+     "title": "유전자 발현과 조절",
+     "review_id": "c7-ch06-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "진핵세포의 RNA 가공에서 인트론을 잘라 내고 엑손을 잇는 과정을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "스플라이싱"
+         ]
+        }
+       ],
+       "hint": "잘라서 잇는 과정입니다.",
+       "explanation": "핵 속에서 일어납니다.\n선택적 스플라이싱도 있습니다.",
+       "source_lesson": "c7-ch06-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "번역을 시작하는 개시 코돈 AUG는 {{1}}을 지정합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "메싸이오닌"
+         ]
+        }
+       ],
+       "hint": "황을 포함한 아미노산입니다.",
+       "explanation": "그래서 새 단백질은 대개 메싸이오닌으로 시작합니다.\n종결 코돈은 아미노산을 지정하지 않습니다.",
+       "source_lesson": "c7-ch06-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "젖당이 없을 때 젖당 오페론의 작동 부위에는 {{1}} 단백질이 결합해 있습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "억제"
+         ]
+        }
+       ],
+       "hint": "전사를 막는 단백질입니다.",
+       "explanation": "RNA 중합 효소의 이동을 막습니다.\n젖당이 오면 떨어집니다.",
+       "source_lesson": "c7-ch06-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "진핵생물에서 프로모터와 멀리 떨어져 전사를 촉진하는 조절 부위를 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "인핸서"
+         ]
+        }
+       ],
+       "hint": "강화한다는 뜻입니다.",
+       "explanation": "특정 전사 인자가 결합합니다.\n세포 특이적 발현을 만듭니다.",
+       "source_lesson": "c7-ch06-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "전사에서 RNA 중합 효소가 결합하는 부위는 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "프로모터"
+         ]
+        }
+       ],
+       "hint": "전사 시작 부위입니다.",
+       "explanation": "유전자 앞쪽에 있습니다.\n진핵생물은 전사 인자가 함께 필요합니다.",
+       "source_lesson": "c7-ch06-l01"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "dir": "ch07",
+     "id": "c7-ch07",
+     "title": "생명 공학 기술",
+     "review_id": "c7-ch07-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "유전자 재조합에서 DNA의 특정 서열을 자르는 '분자 가위'는 {{1}} 효소입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "제한"
+         ]
+        }
+       ],
+       "hint": "자르는 위치가 제한되어 있습니다.",
+       "explanation": "점착 말단을 만듭니다.\n세균에서 얻습니다.",
+       "source_lesson": "c7-ch07-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "DNA 1분자로 PCR을 5회 반복하면 이론적으로 몇 분자가 될까요?",
+       "answer": "32",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "2ⁿ입니다.",
+       "explanation": "2⁵ = 32분자입니다.\n매번 2배입니다.",
+       "source_lesson": "c7-ch07-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "크리스퍼 유전자 가위에서 표적 서열을 찾는 것은 가이드 RNA, DNA를 자르는 것은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "Cas9"
+         ]
+        }
+       ],
+       "hint": "자르는 단백질입니다.",
+       "explanation": "가이드 RNA만 바꾸면 다른 유전자를 편집합니다.\n세균 면역에서 유래했습니다.",
+       "source_lesson": "c7-ch07-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "생식세포 유전자 편집은 그 변화가 {{1}}에게 유전된다는 점에서 논란이 큽니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "자손"
+         ]
+        }
+       ],
+       "hint": "다음 세대입니다.",
+       "explanation": "미래 세대에 영향을 줍니다.\n체세포 편집은 본인에게만 영향을 줍니다.",
+       "source_lesson": "c7-ch07-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "DNA 조각을 이어 재조합 DNA를 만드는 효소는 DNA {{1}} 효소입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "연결"
+         ]
+        }
+       ],
+       "hint": "잇는 효소입니다.",
+       "explanation": "리가아제라고 합니다.\n당–인산 골격을 잇습니다.",
+       "source_lesson": "c7-ch07-l01"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "dir": "ch08",
+     "id": "c7-ch08",
+     "title": "진화의 원리",
+     "review_id": "c7-ch08-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "대립유전자 A의 빈도가 0.8이면 a의 빈도는 얼마일까요?",
+       "answer": "0.2",
+       "answer_format": "decimal",
+       "tolerance": 0.005,
+       "hint": "합이 1입니다.",
+       "explanation": "q = 1 − 0.8 = 0.2입니다.\np + q = 1입니다.",
+       "source_lesson": "c7-ch08-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "작은 집단에서 우연히 대립유전자 빈도가 변하는 것을 유전적 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "부동"
+         ]
+        }
+       ],
+       "hint": "떠다닌다는 뜻입니다.",
+       "explanation": "병목 효과와 창시자 효과가 있습니다.\n적응과 관계없습니다.",
+       "source_lesson": "c7-ch08-l02"
+      },
+      {
+       "type": "question",
+       "id": "r7",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "노새처럼 잡종이 생식 능력이 없는 것은 접합 {{1}} 격리입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "후"
+         ]
+        }
+       ],
+       "hint": "수정 이후입니다.",
+       "explanation": "수정은 되지만 자손을 남기지 못합니다.\n말과 당나귀는 다른 종입니다.",
+       "source_lesson": "c7-ch08-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "분자 시계에서 차이 5개가 쌓이는 데 1천만 년이 걸린다면, 차이가 20개인 두 종은 약 몇 천만 년 전에 갈라졌을까요?",
+       "answer": "4",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "비례식을 세우세요.",
+       "explanation": "20 ÷ 5 × 1천만 = 4천만 년입니다.\n차이가 시간에 비례합니다.",
+       "source_lesson": "c7-ch08-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "평형 집단에서 aa의 빈도가 0.25이면 Aa의 빈도는 얼마일까요?",
+       "answer": "0.5",
+       "answer_format": "decimal",
+       "tolerance": 0.005,
+       "hint": "q부터 구하세요.",
+       "explanation": "q = 0.5, p = 0.5이므로 2pq = 0.5입니다.\nq²에서 시작합니다.",
+       "source_lesson": "c7-ch08-l01"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "title": "지학Ⅱ",
+   "description": "지구 내부와 암석, 대기와 해수의 운동, 천구와 행성의 운동",
+   "chapters": [
+    {
+     "no": 1,
+     "dir": "ch01",
+     "id": "c8-ch01",
+     "title": "지구의 형성과 내부",
+     "review_id": "c8-ch01-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "원시 지구의 마그마 바다에서 철과 니켈이 가라앉아 {{1}}을 이루었습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "핵"
+         ]
+        }
+       ],
+       "hint": "지구의 중심부입니다.",
+       "explanation": "밀도 분화입니다.\n가벼운 물질은 맨틀이 되었습니다.",
+       "source_lesson": "c8-ch01-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지각과 맨틀의 경계를 {{1}}면이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "모호"
+         ]
+        }
+       ],
+       "hint": "발견한 과학자의 이름을 줄인 말입니다.",
+       "explanation": "모호로비치치 불연속면입니다.\n대륙에서 약 35 km 깊이입니다.",
+       "source_lesson": "c8-ch01-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지구의 중력은 {{1}}에서 가장 작습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "적도"
+         ]
+        }
+       ],
+       "hint": "원심력이 가장 큰 곳입니다.",
+       "explanation": "원심력이 가장 크고 중심까지 거리가 멉니다.\n극에서 가장 큽니다.",
+       "source_lesson": "c8-ch01-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "진북과 자북 사이의 각을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "편각"
+         ]
+        }
+       ],
+       "hint": "방향이 치우친 각입니다.",
+       "explanation": "지구 자기장의 3요소 가운데 하나입니다.\n우리나라는 서쪽으로 약 8°입니다.",
+       "source_lesson": "c8-ch01-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "원시 대기의 이산화 탄소는 바다에 녹아 {{1}}으로 쌓였습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "석회암"
+         ]
+        }
+       ],
+       "hint": "탄산 칼슘으로 된 암석입니다.",
+       "explanation": "탄산염 암석입니다.\n대기의 CO₂가 크게 줄었습니다.",
+       "source_lesson": "c8-ch01-l01"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "dir": "ch02",
+     "id": "c8-ch02",
+     "title": "광물과 암석",
+     "review_id": "c8-ch02-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "겉보기 색이 비슷한 금과 황철석은 {{1}}으로 구별합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "조흔색"
+         ]
+        }
+       ],
+       "hint": "가루의 색입니다.",
+       "explanation": "금은 노란색, 황철석은 검은색입니다.\n조흔판에 긁어 봅니다.",
+       "source_lesson": "c8-ch02-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "규산염 사면체가 평면으로 이어진 판상 구조의 광물은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "운모"
+         ]
+        }
+       ],
+       "hint": "얇게 벗겨지는 광물입니다.",
+       "explanation": "한 방향으로 얇게 쪼개집니다.\n흑운모와 백운모가 있습니다.",
+       "source_lesson": "c8-ch02-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "편광 현미경의 개방 니콜에서 재물대를 돌릴 때 광물의 색이 변하는 성질을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "다색성"
+         ]
+        }
+       ],
+       "hint": "여러 색을 띠는 성질입니다.",
+       "explanation": "흑운모에서 뚜렷합니다.\n석영에는 없습니다.",
+       "source_lesson": "c8-ch02-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "석회암이 접촉 변성 작용을 받으면 {{1}}이 됩니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "대리암"
+         ]
+        }
+       ],
+       "hint": "조각상의 재료입니다.",
+       "explanation": "방해석이 재결정됩니다.\n조각품에 쓰입니다.",
+       "source_lesson": "c8-ch02-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "모스 굳기계에서 활석의 굳기는 얼마일까요?",
+       "answer": "1",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "가장 작은 값입니다.",
+       "explanation": "가장 무른 기준 광물입니다.\n다이아몬드는 10입니다.",
+       "source_lesson": "c8-ch02-l01"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "dir": "ch03",
+     "id": "c8-ch03",
+     "title": "지질 구조와 한반도",
+     "review_id": "c8-ch03-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "습곡에서 아래로 오목하게 휜 부분을 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "향사"
+         ]
+        }
+       ],
+       "hint": "배사와 짝을 이룹니다.",
+       "explanation": "중심에 젊은 지층이 있습니다.\n위로 볼록한 부분은 배사입니다.",
+       "source_lesson": "c8-ch03-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "용암이 식으며 수축해 생긴 기둥 모양의 절리는 {{1}} 절리입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "주상"
+         ]
+        }
+       ],
+       "hint": "기둥 모양입니다.",
+       "explanation": "현무암에서 잘 발달합니다.\n제주도 해안이 대표적입니다.",
+       "source_lesson": "c8-ch03-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지층면과 수평면이 만나 생긴 선의 방향을 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "주향"
+         ]
+        }
+       ],
+       "hint": "지층의 방향입니다.",
+       "explanation": "N30°E처럼 나타냅니다.\n경사 방향과 수직입니다.",
+       "source_lesson": "c8-ch03-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "석회암이 많고 삼엽충 화석이 나오는 한반도 고생대 전기 지층은 {{1}} 누층군입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "조선"
+         ]
+        }
+       ],
+       "hint": "해성층입니다.",
+       "explanation": "얕은 바다에서 쌓였습니다.\n석회 동굴이 발달합니다.",
+       "source_lesson": "c8-ch03-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "장력을 받아 상반이 아래로 내려간 단층은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "정단층"
+         ]
+        }
+       ],
+       "hint": "상반이 내려갔습니다.",
+       "explanation": "발산형 경계에서 잘 생깁니다.\n지각이 늘어납니다.",
+       "source_lesson": "c8-ch03-l01"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "dir": "ch04",
+     "id": "c8-ch04",
+     "title": "대기의 운동",
+     "review_id": "c8-ch04-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "북반구에서 전향력은 운동 방향의 {{1}}쪽으로 작용합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "오른"
+         ]
+        }
+       ],
+       "hint": "북반구의 방향입니다.",
+       "explanation": "남반구는 왼쪽입니다.\n적도에서는 0입니다.",
+       "source_lesson": "c8-ch04-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "상층에서 기압 경도력과 전향력이 평형을 이루어 등압선과 나란하게 부는 바람은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "지균풍"
+         ]
+        }
+       ],
+       "hint": "등압선이 직선일 때의 바람입니다.",
+       "explanation": "북반구에서 저기압을 왼쪽에 두고 붑니다.\n마찰이 없습니다.",
+       "source_lesson": "c8-ch04-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "지상풍은 마찰력 때문에 등압선을 비스듬히 가로질러 {{1}}기압 쪽으로 붑니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "저"
+         ]
+        }
+       ],
+       "hint": "공기가 모이는 쪽입니다.",
+       "explanation": "그래서 저기압에서 수렴이 일어납니다.\n고기압에서는 발산합니다.",
+       "source_lesson": "c8-ch04-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "위도 30°~60°의 지상에서는 {{1}}이 붑니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "편서풍"
+         ]
+        }
+       ],
+       "hint": "서쪽에서 부는 바람입니다.",
+       "explanation": "페렐 순환의 지상 바람입니다.\n우리나라가 이 바람대에 있습니다.",
+       "source_lesson": "c8-ch04-l04"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "기압 경도력은 등압선 간격이 {{1}}을수록 큽니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "좁"
+         ]
+        }
+       ],
+       "hint": "등압선이 촘촘한 경우입니다.",
+       "explanation": "짧은 거리에서 기압 차가 큽니다.\n바람이 강합니다.",
+       "source_lesson": "c8-ch04-l01"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "dir": "ch05",
+     "id": "c8-ch05",
+     "title": "해수의 운동",
+     "review_id": "c8-ch05-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "북반구에서 에크만 수송은 바람 방향의 {{1}}쪽 90°로 일어납니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "오른"
+         ]
+        }
+       ],
+       "hint": "북반구 전향력의 방향입니다.",
+       "explanation": "전향력 때문입니다.\n남반구는 왼쪽입니다.",
+       "source_lesson": "c8-ch05-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "수압 경도력과 전향력이 평형을 이루어 흐르는 해류를 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "지형류"
+         ]
+        }
+       ],
+       "hint": "해수면 지형이 만든 흐름입니다.",
+       "explanation": "북반구에서 해수면이 높은 쪽을 오른쪽에 둡니다.\n지균풍과 비슷합니다.",
+       "source_lesson": "c8-ch05-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "수심 250 m인 곳을 지나는 천해파의 속도는 몇 m/s일까요? (g = 10 m/s²)",
+       "answer": "50",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "v = √(gh)입니다.",
+       "explanation": "v = √(10 × 250) = √2500 = 50 m/s입니다.\n수심에만 관계됩니다.",
+       "source_lesson": "c8-ch05-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "만조 시각은 매일 약 몇 분씩 늦어질까요?",
+       "answer": "50",
+       "answer_format": "integer",
+       "tolerance": 5,
+       "hint": "1시간보다 조금 짧습니다.",
+       "explanation": "달의 공전 때문입니다.\n만조 간격은 약 12시간 25분입니다.",
+       "source_lesson": "c8-ch05-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "에크만 수송으로 표층 해수가 해안에서 멀어지면 깊은 곳의 찬 물이 올라오는 {{1}}이 일어납니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "용승"
+         ]
+        }
+       ],
+       "hint": "솟아오르는 흐름입니다.",
+       "explanation": "영양염이 풍부해 좋은 어장이 됩니다.\n수온이 낮아집니다.",
+       "source_lesson": "c8-ch05-l01"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "dir": "ch06",
+     "id": "c8-ch06",
+     "title": "천구와 좌표계",
+     "review_id": "c8-ch06-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "위도 33°N인 제주에서 북극성의 고도는 약 몇 °일까요?",
+       "answer": "33",
+       "answer_format": "integer",
+       "tolerance": 0.5,
+       "hint": "고도 = 위도입니다.",
+       "explanation": "북극성의 고도는 위도와 같습니다.\n약 33°입니다.",
+       "source_lesson": "c8-ch06-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "북점을 기준으로 잰 방위각 90°는 {{1}}쪽입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "동"
+         ]
+        }
+       ],
+       "hint": "시계 방향으로 첫 번째 방위입니다.",
+       "explanation": "북 0°, 동 90°, 남 180°, 서 270°입니다.\n시계 방향으로 잽니다.",
+       "source_lesson": "c8-ch06-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "적경을 재는 기준점은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "춘분점"
+         ]
+        }
+       ],
+       "hint": "3월 21일경 태양이 있는 점입니다.",
+       "explanation": "적경 0h입니다.\n동쪽으로 갈수록 커집니다.",
+       "source_lesson": "c8-ch06-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "일주 운동으로 별이 120° 움직이는 데 몇 시간이 걸릴까요?",
+       "answer": "8",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "1시간에 15°입니다.",
+       "explanation": "120 ÷ 15 = 8시간입니다.\n1시간에 15°입니다.",
+       "source_lesson": "c8-ch06-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "태양이 1년 동안 천구 위를 움직이는 길을 {{1}}라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "황도"
+         ]
+        }
+       ],
+       "hint": "태양의 길입니다.",
+       "explanation": "천구의 적도와 약 23.5° 기울어져 있습니다.\n황도 12궁이 이 길을 따라 있습니다.",
+       "source_lesson": "c8-ch06-l01"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "dir": "ch07",
+     "id": "c8-ch07",
+     "title": "행성의 운동",
+     "review_id": "c8-ch07-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "외행성이 태양의 정반대 방향에 있어 한밤중에 남중하고 가장 밝을 때를 {{1}}이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "충"
+         ]
+        }
+       ],
+       "hint": "태양과 반대쪽입니다.",
+       "explanation": "지구와 가장 가깝습니다.\n이 무렵 역행합니다.",
+       "source_lesson": "c8-ch07-l01"
+      },
+      {
+       "type": "question",
+       "id": "r4",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "공전 주기가 2년인 외행성의 회합 주기는 몇 년일까요?",
+       "answer": "2",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "1/S = 1 − 1/P입니다.",
+       "explanation": "1/S = 1 − 1/2 = 1/2이므로 S = 2년입니다.\n외행성 공식입니다.",
+       "source_lesson": "c8-ch07-l02"
+      },
+      {
+       "type": "question",
+       "id": "r6",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "긴반지름 5 AU, 이심률 0.2인 궤도의 근일점 거리는 몇 AU일까요?",
+       "answer": "4",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "a(1 − e)입니다.",
+       "explanation": "a(1 − e) = 5 × 0.8 = 4 AU입니다.\n원일점은 6 AU입니다.",
+       "source_lesson": "c8-ch07-l03"
+      },
+      {
+       "type": "question",
+       "id": "r9",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "우리나라 최초의 달 궤도선은 {{1}}입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "다누리"
+         ]
+        }
+       ],
+       "hint": "'달을 누리다'는 뜻의 이름입니다.",
+       "explanation": "2022년 발사되었습니다.\n달 둘레를 돌며 관측합니다.",
+       "source_lesson": "c8-ch07-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "금성은 최대 이각이 약 47°라 {{1}}에는 볼 수 없습니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "한밤중"
+         ]
+        }
+       ],
+       "hint": "자정 무렵입니다.",
+       "explanation": "새벽 동쪽 하늘이나 초저녁 서쪽 하늘에서만 보입니다.\n내행성의 특징입니다.",
+       "source_lesson": "c8-ch07-l01"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "dir": "ch08",
+     "id": "c8-ch08",
+     "title": "우주 관측과 탐사",
+     "review_id": "c8-ch08-review",
+     "questions": [
+      {
+       "type": "question",
+       "id": "r1",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "구경이 3배인 망원경의 집광력은 몇 배일까요?",
+       "answer": "9",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "구경의 제곱입니다.",
+       "explanation": "집광력 ∝ D²이므로 9배입니다.\n더 어두운 천체를 볼 수 있습니다.",
+       "source_lesson": "c8-ch08-l01"
+      },
+      {
+       "type": "question",
+       "id": "r3",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "대형 망원경은 색수차가 없고 크게 만들기 쉬운 {{1}} 망원경입니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "반사"
+         ]
+        }
+       ],
+       "hint": "거울을 씁니다.",
+       "explanation": "오목 거울로 빛을 모읍니다.\n굴절 망원경은 렌즈를 씁니다.",
+       "source_lesson": "c8-ch08-l02"
+      },
+      {
+       "type": "question",
+       "id": "r5",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "제임스 웹 우주 망원경은 주로 {{1}}을 관측합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "적외선"
+         ]
+        }
+       ],
+       "hint": "열선이라고도 합니다.",
+       "explanation": "먼 원시 은하와 먼지 속 별 탄생을 봅니다.\nL2 지점에 있습니다.",
+       "source_lesson": "c8-ch08-l03"
+      },
+      {
+       "type": "question",
+       "id": "r8",
+       "stage": "diagnostic",
+       "qtype": "fill_blank",
+       "prompt": "별빛의 도플러 효과로 행성의 존재를 알아내는 방법을 {{1}} 방법이라고 합니다.",
+       "blanks": [
+        {
+         "id": 1,
+         "answers": [
+          "시선 속도"
+         ]
+        }
+       ],
+       "hint": "관측자 방향의 속도입니다.",
+       "explanation": "별이 행성 때문에 흔들립니다.\n적색·청색 편이를 측정합니다.",
+       "source_lesson": "c8-ch08-l04"
+      },
+      {
+       "type": "question",
+       "id": "r2",
+       "stage": "diagnostic",
+       "qtype": "numeric",
+       "prompt": "대물렌즈 초점 거리 900 mm, 접안렌즈 초점 거리 30 mm인 망원경의 배율은 몇 배일까요?",
+       "answer": "30",
+       "answer_format": "integer",
+       "tolerance": 0,
+       "hint": "초점 거리의 비입니다.",
+       "explanation": "900 ÷ 30 = 30배입니다.\n대물 ÷ 접안입니다.",
+       "source_lesson": "c8-ch08-l01"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
