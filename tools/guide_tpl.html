@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>가이드 · sci-arena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/*__PLAYER_CSS__*/
+/* ---------- 가이드 전용 (플레이어 레이아웃 덮어쓰기) ---------- */
+body{display:block;min-height:0}
+a{color:inherit}
+.site{border-bottom:1px solid var(--grid)}
+.site .wrap{display:flex;align-items:center;justify-content:space-between;min-height:60px;gap:12px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px}
+.logo{font-weight:700;font-size:18px;text-decoration:none;white-space:nowrap}
+.logo span{background:linear-gradient(transparent 58%,var(--marker) 58%)}
+.site nav{display:flex;gap:4px;flex-wrap:wrap}
+.site nav a{font-size:15px;color:var(--ink-soft);text-decoration:none;padding:8px 10px;border-radius:8px;white-space:nowrap}
+.site nav a:hover,.site nav a[aria-current]{background:var(--blue-soft);color:var(--blue)}
+main{max-width:820px;padding:28px 20px 90px}
+.crumb{font-size:14px;color:var(--ink-soft);margin:0 0 10px}
+.crumb a{color:var(--blue);text-decoration:none}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.badge{font-size:13px;font-weight:700;border-radius:999px;padding:4px 10px;background:var(--blue-soft);color:var(--blue)}
+.badge.soft{background:var(--grid);color:var(--ink-soft)}
+.lede{font-size:18px;line-height:1.7;color:var(--ink-soft);margin:-8px 0 18px}
+h2.sec{font-size:21px;margin:38px 0 14px;padding-top:18px;border-top:2px solid var(--ink)}
+h2.sec small{font-size:14px;font-weight:500;color:var(--ink-soft);margin-left:8px}
+.prose p{font-size:17px;line-height:1.8;margin:0 0 14px}
+.note{font-size:15px;color:var(--ink-soft);line-height:1.6}
+ul.goals{margin:0;padding-left:1.2em}
+ul.goals li{font-size:17px;line-height:1.7;margin:0 0 6px}
+.checklist{list-style:none;margin:0;padding:0;border-top:1px solid var(--grid)}
+.checklist li{border-bottom:1px solid var(--grid)}
+.checklist label{display:flex;gap:12px;align-items:flex-start;padding:11px 4px;cursor:pointer;font-size:16px;line-height:1.6}
+.checklist input{width:20px;height:20px;margin-top:3px;accent-color:var(--ok);flex:0 0 auto}
+.checklist input:checked + span{color:var(--ink-soft)}
+.meter{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--ink-soft);margin:0 0 12px}
+.meter .track{flex:1;max-width:260px;height:8px;background:var(--grid);border-radius:4px;overflow:hidden}
+.meter i{display:block;height:100%;background:var(--ok)}
+.res{display:grid;gap:10px}
+.res a,.res div.r{display:block;border:1px solid var(--grid);border-radius:var(--radius-m);background:#fff;padding:12px 14px;text-decoration:none}
+.res a:hover{border-color:var(--blue)}
+.res .k{font-size:12px;font-weight:700;color:var(--blue);letter-spacing:.02em}
+.res .t{display:block;font-size:16px;font-weight:700;margin:2px 0}
+.res .p{display:block;font-size:15px;color:var(--ink-soft);line-height:1.5}
+.qcard{border:1px solid var(--grid);border-radius:var(--radius-m);background:#fff;padding:16px;margin:0 0 14px}
+.qcard .qn{font-size:13px;color:var(--ink-soft);margin:0 0 6px}
+.qcard .prompt{font-size:18px;margin-bottom:14px}
+.qrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.qrow .btn{min-width:0;padding:10px 18px;font-size:16px}
+.qfb{margin-top:12px;padding:12px 14px;border-radius:var(--radius-s);font-size:16px;line-height:1.6}
+.qfb.ok{background:var(--ok-soft)} .qfb.bad{background:var(--bad-soft)}
+.qfb strong{display:block}
+.qfb.ok strong{color:var(--ok)} .qfb.bad strong{color:var(--bad)}
+.road{display:grid;gap:10px}
+.stage-row{display:grid;grid-template-columns:64px 1fr;gap:10px;align-items:start}
+.stage-row .st{font-size:13px;color:var(--ink-soft);padding-top:14px}
+.stage-row .cards{display:flex;flex-wrap:wrap;gap:10px}
+a.ucard{flex:1 1 220px;display:block;border:1px solid var(--grid);border-radius:var(--radius-m);background:#fff;padding:12px 14px;text-decoration:none}
+a.ucard:hover{border-color:var(--blue)}
+a.ucard.done{border-color:#BFE3CF;background:var(--ok-soft)}
+.ucard .no{font-size:13px;color:var(--blue);font-weight:700}
+.ucard .t{display:block;font-size:16px;font-weight:700;margin:2px 0 4px}
+.ucard .m{display:block;font-size:13px;color:var(--ink-soft)}
+.pager{display:flex;justify-content:space-between;gap:10px;margin-top:40px;flex-wrap:wrap}
+.pager a{flex:1 1 200px;border:1px solid var(--grid);border-radius:var(--radius-m);padding:12px 14px;text-decoration:none;background:#fff}
+.pager a:hover{border-color:var(--blue)}
+.pager small{display:block;color:var(--ink-soft);font-size:13px}
+.pager .nx{text-align:right}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 18px}
+.links a{font-size:15px;color:var(--blue);background:var(--blue-soft);border-radius:8px;padding:6px 10px;text-decoration:none}
+.tracks{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.trk{border:1px solid var(--grid);border-radius:var(--radius-m);background:#fff;padding:16px}
+.trk h3{margin:0 0 6px;font-size:19px}
+.trk p{margin:0 0 12px;font-size:15px;color:var(--ink-soft);line-height:1.6}
+.trk ul{list-style:none;margin:0;padding:0}
+.trk li{display:flex;gap:8px;align-items:center;padding:7px 0;border-top:1px solid var(--grid);font-size:15px}
+.trk li .lv{font-size:12px;font-weight:700;border-radius:6px;padding:2px 6px;background:var(--grid);color:var(--ink-soft);flex:0 0 auto}
+.trk li .lv.l2{background:var(--blue-soft);color:var(--blue)}
+.trk li a{color:var(--blue);font-weight:700;text-decoration:none}
+.trk li .soon{margin-left:auto;font-size:12px;color:#7C889E}
+.next li{margin-bottom:6px}
+@media (max-width:640px){.tracks{grid-template-columns:1fr}.stage-row{grid-template-columns:1fr}.stage-row .st{padding-top:0}.site nav a{padding:6px 7px;font-size:14px}}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap"><a class="logo" href="index.html"><span>sci-arena</span></a>
+  <nav><a href="placement.html">진입 진단</a><a href="browse.html">레벨1 코스</a><a href="guide.html" id="navGuide">레벨2·3 가이드</a></nav></div></header>
+<main id="main" aria-live="polite"></main>
+
+<script>
+"use strict";
+const $ = s => document.querySelector(s);
+/*__KIT__*/
+
+/* ---------- 가이드 ---------- */
+const P = new URLSearchParams(location.search);
+const TRACK = P.get("t"), SUBJ = P.get("s"), UNIT = P.get("u") ? +P.get("u") : null, LV = P.get("lv") || "2";
+const main = $("#main");
+const KEY = "sci-arena:guide";
+const pad2 = n => String(n).padStart(2, "0");
+const store = {
+  all(){ try{ return JSON.parse(localStorage.getItem(KEY)) || {}; }catch(e){ return {}; } },
+  get(id){ return this.all()[id] || {checks:[], sc:{}}; },
+  put(id, rec){ try{ const a = this.all(); a[id] = rec; localStorage.setItem(KEY, JSON.stringify(a)); }catch(e){} }
+};
+async function j(u){ const r = await fetch(u); if (!r.ok) throw new Error(u); return r.json(); }
+const KIND = {lecture:"강의", video:"영상", book:"교재", web:"웹 자료"};
+
+/* 문항 카드: 플레이어와 같은 채점 코드로 즉시 확인 */
+function qCard(q, n, onResult){
+  const card = document.createElement("div"); card.className = "qcard";
+  card.innerHTML = `<p class="qn">${n}</p>`;
+  const host = document.createElement("div"); card.appendChild(host);
+  const api = buildQuestion(q, host);
+  if (q.figure){ const pr = host.querySelector(".prompt"); if (pr) pr.after(figure(q.figure)); }
+  const row = document.createElement("div"); row.className = "qrow";
+  const chk = document.createElement("button"); chk.className = "btn"; chk.textContent = "확인"; chk.disabled = !api.ready;
+  const rev = document.createElement("button"); rev.className = "btn ghost"; rev.textContent = q.qtype === "written" ? "모범 답안 보기" : "정답 보기";
+  row.append(chk, rev); card.appendChild(row);
+  const fbx = document.createElement("div"); card.appendChild(fbx);
+  api.onChange = () => { chk.disabled = !api.ready; };
+  (api.enter || []).forEach(inp => inp.addEventListener("keydown", e => { if (e.key === "Enter" && !chk.disabled){ e.preventDefault(); chk.click(); } }));
+  const show = (ok, revealed) => {
+    let h;
+    if (q.qtype === "written") h = (ok ? "<strong>핵심을 잘 짚었어요</strong>" : "<strong>모범 답안과 비교해 보세요</strong>") + esc(q.model_answer || "");
+    else { h = ok ? "<strong>맞았어요</strong>" : "<strong>정답을 확인하세요</strong>";
+      if (!ok) h += '<p class="answerline">정답: ' + esc(answerText(q)) + "</p>";
+      h += solHtml(q.explanation); }
+    fbx.className = "qfb " + (ok ? "ok" : "bad"); fbx.innerHTML = h;
+    if (ok || revealed){ api.lock(); if (revealed) api.reveal(); chk.hidden = true; rev.hidden = true; }
+    onResult && onResult(ok, revealed);
+  };
+  chk.onclick = () => { if (!api.ready) return; const ok = !!api.check();
+    if (!ok && q.qtype !== "written"){ fbx.className = "qfb bad"; fbx.innerHTML = "<strong>아직 아니에요</strong>" + (q.hint ? esc(q.hint) : "다시 생각해 보거나 정답을 확인하세요."); onResult && onResult(false, false); return; }
+    show(ok, false); };
+  rev.onclick = () => show(false, true);
+  return card;
+}
+
+/* 트랙 목록 */
+async function tracksView(){
+  const g = await j("content/guides.json");
+  document.title = "레벨2·3 가이드 · sci-arena"; $("#navGuide").setAttribute("aria-current", "page");
+  main.innerHTML = `<h1>레벨2·3 학습 가이드</h1>
+    <p class="lede">레벨2(대학 1학년 일반과학)와 레벨3(학부 전공 핵심)은 5개 학문 트랙의 독학 가이드로 운영합니다. 과목마다 무엇을, 어떤 순서로, 어디까지 공부할지와 검증된 공개 강의·교재, 자가점검 문항을 제공합니다.</p>
+    <div class="badges"><span class="badge">레벨2 · ${esc(g.levels["2"])}</span><span class="badge soft">레벨3 · ${esc(g.levels["3"])}</span></div>
+    <div class="tracks">${g.tracks.map(t => `<section class="trk"><h3>${esc(t.title)}</h3><p>${esc(t.note)}</p><ul>
+      ${t.subjects.map(s => `<li><span class="lv l${s.level}">L${s.level}</span>${s.available
+        ? `<a href="guide.html?lv=${s.level}&t=${t.id}&s=${s.id}">${esc(s.title)}</a>`
+        : `<span>${esc(s.title)}</span><span class="soon">준비 중</span>`}</li>`).join("")}</ul></section>`).join("")}</div>
+    <p class="note" style="margin-top:22px">목차 검증 기준 — 레벨2: ${esc(g.validation["2"])}. 레벨3: ${esc(g.validation["3"])}.</p>`;
+}
+
+/* 단계(깊이) 계산: 선수 단원 중 가장 깊은 단계 + 1 */
+function stages(units){
+  const d = {}; units.forEach(u => { d[u.no] = u.after.length ? Math.max(...u.after.map(a => d[a])) + 1 : 1; });
+  const rows = {}; units.forEach(u => (rows[d[u.no]] = rows[d[u.no]] || []).push(u)); return rows;
+}
+function unitProgress(sub, u, detail){
+  const rec = store.get(`l${sub.level}-${sub.track}-${sub.id}-u${pad2(u.no)}`);
+  return {checks:rec.checks.length, sc:Object.values(rec.sc).filter(Boolean).length};
+}
+
+async function subjectView(){
+  const base = `content/level${LV}/${TRACK}/${SUBJ}/`;
+  const sub = await j(base + "subject.json");
+  document.title = `${sub.title} · 레벨${sub.level} 가이드 · sci-arena`;
+  const rows = stages(sub.units);
+  const road = Object.keys(rows).map(k => `<div class="stage-row"><span class="st">${k}단계</span><div class="cards">${rows[k].map(u => {
+      const pr = unitProgress(sub, u);
+      return `<a class="ucard${pr.sc >= 3 ? " done" : ""}" href="guide.html?lv=${LV}&t=${TRACK}&s=${SUBJ}&u=${u.no}"><span class="no">단원 ${u.no}</span>
+        <span class="t">${esc(u.title)}</span><span class="m">${u.hours}시간${u.after.length ? ` · 먼저: ${u.after.join(", ")}단원` : " · 여기서 시작"}${pr.checks || pr.sc ? ` · 체크 ${pr.checks} · 자가점검 ${pr.sc}` : ""}</span></a>`; }).join("")}</div></div>`).join("");
+  main.innerHTML = `<p class="crumb"><a href="guide.html">레벨2·3 가이드</a> › 레벨${sub.level}</p>
+    <h1>${esc(sub.title)}</h1><p class="lede">${esc(sub.tagline)}</p>
+    <div class="badges"><span class="badge">레벨${sub.level}</span><span class="badge soft">${sub.units.length}단원</span><span class="badge soft">약 ${sub.total_hours}시간</span></div>
+    <h2 class="sec">이 과목은</h2><div class="prose">${sub.overview.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+    <p class="note">${esc(sub.level_note)}</p>
+    <h2 class="sec">시작 전 점검 <small>레벨1과 이어지는 ${sub.prereq.questions.length}문항</small></h2>
+    <p class="prose" style="font-size:16px;line-height:1.7">${esc(sub.prereq.text)}</p>
+    <div class="links">${sub.prereq.links.map(l => `<a href="${esc(l.href)}">${esc(l.title)}</a>`).join("")}</div>
+    <div id="pre"></div>
+    <h2 class="sec">단원 로드맵 <small>같은 단계의 단원은 순서와 관계없이 공부해도 됩니다</small></h2>
+    <div class="road">${road}</div>
+    <h2 class="sec">다음에 공부할 것</h2><ul class="goals next">${sub.next.map(n => `<li><b>${esc(n.title)}</b> — ${esc(n.note)}</li>`).join("")}</ul>`;
+  const pre = $("#pre");
+  sub.prereq.questions.forEach((q, k) => pre.appendChild(qCard(q, `점검 ${k + 1}`)));
+}
+
+async function unitView(){
+  const base = `content/level${LV}/${TRACK}/${SUBJ}/`;
+  const sub = await j(base + "subject.json");
+  const meta = sub.units.find(u => u.no === UNIT); if (!meta) throw new Error(`단원 ${UNIT}`);
+  const u = await j(base + meta.file);
+  const id = u.id, rec = store.get(id);
+  document.title = `${u.title} · ${sub.title} · sci-arena`;
+  const i = sub.units.indexOf(meta), prev = sub.units[i - 1], next = sub.units[i + 1];
+  const link = x => `guide.html?lv=${LV}&t=${TRACK}&s=${SUBJ}&u=${x.no}`;
+  main.innerHTML = `<p class="crumb"><a href="guide.html">레벨2·3 가이드</a> › <a href="guide.html?lv=${LV}&t=${TRACK}&s=${SUBJ}">${esc(sub.title)}</a> › 단원 ${u.no}</p>
+    <h1>${u.no}. ${esc(u.title)}</h1>
+    <div class="badges"><span class="badge">예상 ${u.hours}시간</span>${u.after.length ? `<span class="badge soft">먼저 볼 단원: ${u.after.map(a => `${a}. ${esc(sub.units.find(x => x.no === a).title)}`).join(", ")}</span>` : `<span class="badge soft">첫 단원</span>`}</div>
+    <h2 class="sec">학습 목표</h2><ul class="goals">${u.objectives.map(o => `<li>${esc(o)}</li>`).join("")}</ul>
+    <h2 class="sec">핵심 개념 체크리스트 <small>이해한 항목에 표시하세요</small></h2>
+    <div class="meter"><div class="track"><i id="ckbar"></i></div><span id="cknum"></span></div>
+    <ul class="checklist">${u.checklist.map((c, k) => `<li><label><input type="checkbox" data-k="${k}"${rec.checks.includes(k) ? " checked" : ""}><span>${esc(c)}</span></label></li>`).join("")}</ul>
+    <h2 class="sec">학습 조언</h2><div class="prose">${u.advice.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+    <h2 class="sec">추천 자료</h2><div class="res">${u.resources.map(r => { const inner = `<span class="k">${KIND[r.kind] || "자료"} · ${esc(r.provider)}${r.lang ? " · " + esc(r.lang) : ""}</span>
+        <span class="t">${esc(r.title)}</span><span class="p">${esc(r.part || "")}</span>`;
+      return r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${inner}</a>` : `<div class="r">${inner}</div>`; }).join("")}</div>
+    <h2 class="sec">자가점검 <small>${u.selfcheck.length}문항</small></h2><div id="sc"></div>
+    <div class="pager">${prev ? `<a href="${link(prev)}"><small>이전 단원</small>${prev.no}. ${esc(prev.title)}</a>` : `<span></span>`}
+      ${next ? `<a class="nx" href="${link(next)}"><small>다음 단원</small>${next.no}. ${esc(next.title)}</a>` : `<a class="nx" href="guide.html?lv=${LV}&t=${TRACK}&s=${SUBJ}"><small>마지막 단원</small>과목 로드맵으로</a>`}</div>`;
+  const upd = () => { const r = store.get(id); const n = r.checks.length;
+    $("#ckbar").style.width = Math.round(n / u.checklist.length * 100) + "%"; $("#cknum").textContent = `${n} / ${u.checklist.length}`; };
+  main.querySelectorAll(".checklist input").forEach(cb => cb.addEventListener("change", () => {
+    const r = store.get(id), k = +cb.dataset.k; r.checks = r.checks.filter(x => x !== k); if (cb.checked) r.checks.push(k); store.put(id, r); upd(); }));
+  upd();
+  const sc = $("#sc");
+  u.selfcheck.forEach((q, k) => sc.appendChild(qCard(q, `자가점검 ${k + 1}`, (ok, revealed) => {
+    const r = store.get(id); if (ok) r.sc[q.id] = true; else if (revealed && !(q.id in r.sc)) r.sc[q.id] = false; store.put(id, r); })));
+}
+
+(async () => {
+  try{
+    if (TRACK && SUBJ && UNIT) await unitView();
+    else if (TRACK && SUBJ) await subjectView();
+    else await tracksView();
+  }catch(e){ main.innerHTML = `<div class="error">가이드를 불러오지 못했습니다. <code>${esc(e.message)}</code></div>`; }
+})();
+</script>
+</body>
+</html>
