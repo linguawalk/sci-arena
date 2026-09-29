@@ -90,4 +90,21 @@
 - 레슨 생성: tools/build_c{코스}_ch{NN}.py (공용 도구 tools/sk.py). 빌드 때 단계 A 엄격 검사를 항상 적용
   - 레슨당 문항 15~17개, 화면 20~24개, 예제 3개, 채점형 문항 풀이 20자 이상, 적용·복습 문항 힌트 필수
 - 빌드: python3 tools/build_c0_ch01.py content && python3 tools/make_course_index.py content
-- 진입 진단(placement)과 레벨2·3 가이드는 레벨1 코스가 쌓인 뒤 math-arena 방식으로 추가
+- 레벨2·3 가이드는 math-arena 방식으로 추가 예정
+
+## 진입 진단 (placement)
+- 문항 풀: content/level1/placement.json (tools/make_placement.py가 생성, 페이지는 placement_tpl.html → placement.html)
+  - 챕터마다 5문항, 각 챕터 review.json에서 선별. 서술형, 앞 문항에 기대는 문항("위 문제에서…"), 그림 없이 그림·그래프를 언급하는 문항 제외
+  - 후보 5문항은 레슨별로 번갈아 뽑아, 실제 출제 후보(앞 3문항)가 서로 다른 레슨에서 오게 함. 출제는 그중 무작위 1문항
+  - pass_rate 0.7: 8챕터 코스는 6문항, 6챕터 코스(c0)는 5문항 이상 맞히면 통과. 탈락이 확정되면 그 코스는 즉시 종료
+- 구조: 기초(c0) + 과목 트랙 4개 — 물리(c1→c5), 화학(c2→c6), 생명(c3→c7), 지구(c4→c8)
+- 흐름(placement.html)
+  - 학습 수준 선택: 중학 과학이 자신 없음(c0부터) / 중학 과학 마침(Ⅰ부터) / Ⅰ 과목까지 공부(Ⅰ 통과 시 같은 과목 Ⅱ 자동 진단)
+  - 진단할 과목 선택(1~4개)
+  - c0에서 탈락하면 과목 진단은 뒤로 미룸. Ⅰ 코스에서 크게 탈락(정답 < 오답)하면 c0를 추가로 진단
+  - 결과 화면에서 진단하지 않은 코스(Ⅰ, 또는 Ⅰ 통과 뒤 Ⅱ)를 이어서 진단 가능
+- 저장: localStorage "sci-arena:placement" (version 2)
+  - start {c, ch, chTitle, chNo}: 가장 먼저 시작할 곳(c0 > Ⅰ > Ⅱ 순)
+  - starts {코스: {c, ch, chTitle, chNo}}: 과목별 시작 위치
+  - status {코스: pass | assumed | start | later | untested}
+  - chapters {"c2-ch03": ok | weak | miss | start} (browse.html 챕터 표시)
