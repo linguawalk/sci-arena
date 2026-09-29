@@ -60,7 +60,7 @@ nav .soon em{font-style:normal;font-size:13px;margin-left:auto;color:#7C889E}
 </style>
 </head>
 <body>
-<header><div class="wrap"><a class="logo" href="./"><span>sci-arena</span></a></div></header>
+<header><div class="wrap"><a class="logo" href="./"><span>sci-arena</span></a><a href="placement.html" style="font-size:15px;color:var(--blue)">진입 진단</a></div></header>
 <div class="wrap layout">
   <nav aria-label="레벨1 코스"><h2>레벨1 코스</h2><ol id="courses"></ol></nav>
   <main id="main"></main>
@@ -106,8 +106,12 @@ async function j(u){ const r = await fetch(u); if (!r.ok) throw new Error(u); re
     if (placement && placement.status){
       const st = placement.status[COURSE];
       if (st === "pass" || st === "assumed") banner = `<div class="plbox ok">진단 결과 이 코스는 건너뛰어도 됩니다. '복습 권장' 표시가 있는 챕터만 챕터 복습으로 확인하세요.</div>`;
-      else if (st === "start" || (placement.start && placement.start.c === COURSE)) banner = `<div class="plbox start">진단 추천: 챕터 ${+placement.start.ch.slice(2)}부터 시작하세요. <a href="player.html?c=${COURSE}&ch=${placement.start.ch.slice(2)}&l=01">바로 시작</a></div>`;
-    }
+      else {
+        const sp = (placement.starts || {})[COURSE] || (placement.start && placement.start.c === COURSE ? placement.start : null);
+        if (sp) banner = `<div class="plbox start">진단 추천: 챕터 ${+sp.ch.slice(2)}부터 시작하세요. <a href="player.html?c=${COURSE}&ch=${sp.ch.slice(2)}&l=01">바로 시작</a></div>`;
+        else if (st === "later") banner = `<div class="plbox">진단 결과 앞 코스를 먼저 마치고 이 코스로 오면 좋습니다. <a href="placement.html">진단 결과 보기</a></div>`;
+      }
+    } else banner = `<div class="plbox">어디서 시작할지 모르겠다면 <a href="placement.html">진입 진단</a>을 먼저 해 보세요.</div>`;
     main.innerHTML = banner + `<div class="course-head"><h1>${esc(course.course.title)}</h1><p>${esc(course.course.description)}. 레슨 ${course.totals.lessons}개, ${course.totals.questions}문항입니다.</p></div>
       <div class="meter"><div class="track" role="progressbar" aria-label="코스 진행률" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div><span>${done} / ${total} 완료</span></div>${html}`;
     document.title = `${course.course.title} · sci-arena`;

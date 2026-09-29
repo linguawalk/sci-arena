@@ -43,14 +43,14 @@ h1{font-size:clamp(40px,6vw,68px);line-height:1.12;letter-spacing:-.035em;margin
 </style>
 </head>
 <body>
-<header><div class="wrap"><a class="logo" href="./"><span>sci-arena</span></a><nav><a href="browse.html">코스</a></nav></div></header>
+<header><div class="wrap"><a class="logo" href="./"><span>sci-arena</span></a><nav><a href="placement.html">진입 진단</a><a href="browse.html">코스</a></nav></div></header>
 <main class="wrap">
   <section class="hero">
     <div>
       <h1>읽기 전에<br>먼저 풀어 봅니다</h1>
       <p class="lede">짧은 설명 하나, 곧바로 문제 하나. 15분짜리 레슨을 따라가다 보면 개념이 손에 먼저 익습니다. 중학 핵심부터 고교 과학까지 차례로 이어집니다.</p>
-      <div class="cta" id="cta"><a class="btn" href="player.html?c=c0&ch=01&l=01">처음부터 시작하기</a><a class="btn ghost" href="browse.html">전체 코스 보기</a></div>
-      <p class="cta-note" id="ctaNote">기초가 불안하면 중학 과학 핵심을 담은 코스 0부터 시작하세요. 진입 진단은 준비 중입니다.</p>
+      <div class="cta" id="cta"><a class="btn" href="placement.html">진단으로 시작 위치 찾기</a><a class="btn ghost" href="player.html?c=c0&ch=01&l=01">처음부터 시작하기</a><a class="btn ghost" href="browse.html">전체 코스 보기</a></div>
+      <p class="cta-note" id="ctaNote">챕터마다 한 문제씩, 과목별로 어디서 시작하면 좋을지 알려 드립니다. 기초가 불안하면 코스 0부터 시작하세요.</p>
     </div>
     <figure class="plot">
       <svg viewBox="0 0 400 320" role="img" aria-label="원자핵 주위를 도는 전자 여섯 개로 나타낸 탄소 원자 모형">
@@ -71,5 +71,20 @@ h1{font-size:clamp(40px,6vw,68px);line-height:1.12;letter-spacing:-.035em;margin
     <div class="later"><h2>레벨3 전공 핵심</h2><p>물리·화학·생명과학·지구과학·융합 트랙의 전공 과목을 독학 가이드로 제공합니다. 준비 중입니다.</p></div>
   </section>
 </main>
+<script>
+(() => {
+  let pl = null; try { pl = JSON.parse(localStorage.getItem("sci-arena:placement")); } catch (e) {}
+  if (!pl) return;
+  const cta = document.getElementById("cta"), note = document.getElementById("ctaNote");
+  const names = {c0:"기초 과학", c1:"물리Ⅰ", c2:"화학Ⅰ", c3:"생물Ⅰ", c4:"지학Ⅰ", c5:"물리Ⅱ", c6:"화학Ⅱ", c7:"생물Ⅱ", c8:"지학Ⅱ"};
+  if (pl.start){
+    cta.innerHTML = `<a class="btn" href="player.html?c=${pl.start.c}&ch=${pl.start.ch.slice(2)}&l=01">추천 위치에서 시작하기</a><a class="btn ghost" href="placement.html">진단 결과 다시 보기</a><a class="btn ghost" href="browse.html?c=${pl.start.c}">전체 코스 보기</a>`;
+    const n = Object.keys(pl.starts || {}).length;
+    note.textContent = `진단 결과: ${names[pl.start.c] || ""} 챕터 ${+pl.start.ch.slice(2)}부터 시작하기를 추천합니다.${n > 1 ? ` 다른 과목 ${n - 1}개의 시작 위치는 진단 결과에 있습니다.` : ""}`;
+  } else {
+    note.textContent = "진단 결과: 진단한 코스를 모두 통과했습니다. 진단 결과 화면에서 다음 코스를 확인하세요.";
+  }
+})();
+</script>
 </body>
 </html>

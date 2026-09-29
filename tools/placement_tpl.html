@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>진입 진단 · sci-arena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/*__PLAYER_CSS__*/
+/* ---------- 진단 전용 ---------- */
+.lede{font-size:18px;line-height:1.75;color:var(--ink-soft);margin:0 0 22px}
+.facts{list-style:none;margin:0 0 26px;padding:0;display:grid;gap:8px}
+.facts li{font-size:16px;line-height:1.6;padding-left:22px;position:relative}
+.facts li::before{content:"";position:absolute;left:4px;top:.62em;width:8px;height:8px;border-radius:50%;background:var(--blue)}
+fieldset{border:none;margin:0;padding:0}
+legend{font-size:18px;font-weight:700;margin:0 0 12px}
+.choice{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border:2px solid var(--grid-strong);border-radius:var(--radius-m);background:#fff;margin-bottom:10px;cursor:pointer}
+.choice:hover{border-color:var(--blue)}
+.choice input{margin-top:4px;accent-color:var(--blue);width:18px;height:18px;flex:0 0 auto}
+.choice b{display:block;font-size:17px}
+.choice span{font-size:15px;color:var(--ink-soft);line-height:1.5}
+.choice:has(input:checked){border-color:var(--blue);background:var(--blue-soft)}
+.course-tag{display:inline-block;font-size:13px;font-weight:700;color:var(--blue);background:var(--blue-soft);border-radius:999px;padding:3px 10px;margin:0 0 10px}
+.result-hero{border:2px solid var(--ink);border-radius:var(--radius-m);padding:20px;background:#fff;margin:0 0 26px}
+.result-hero .kicker{font-size:14px;color:var(--ink-soft);margin:0 0 4px}
+.result-hero h1{margin:0 0 10px}
+.result-hero p{margin:0 0 16px;font-size:16px;line-height:1.6;color:var(--ink-soft)}
+.cta-row{display:flex;flex-wrap:wrap;gap:10px}
+a.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+h2.sec{font-size:19px;margin:30px 0 12px}
+.clist{list-style:none;margin:0;padding:0;border-top:1px solid var(--grid)}
+.clist li{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:12px 4px;border-bottom:1px solid var(--grid);font-size:16px}
+.clist .sub{display:block;font-size:14px;color:var(--ink-soft);margin-top:2px}
+.chip{font-size:13px;font-weight:700;border-radius:999px;padding:4px 10px;white-space:nowrap}
+.chip.pass{background:var(--ok-soft);color:var(--ok)}
+.chip.assumed{background:var(--ok-soft);color:var(--ok);opacity:.8}
+.chip.start{background:var(--marker);color:var(--ink)}
+.chip.later{background:var(--grid);color:var(--ink-soft)}
+.chip.fail{background:var(--bad-soft);color:var(--bad)}
+.chip.untested{background:transparent;color:var(--ink-soft);border:1px solid var(--grid-strong)}
+.weak a{color:var(--blue)}
+details.miss{border:1px solid var(--grid);border-radius:var(--radius-m);background:#fff;margin:0 0 10px}
+details.miss summary{cursor:pointer;padding:12px 14px;font-size:16px;line-height:1.5}
+details.miss summary small{color:var(--ink-soft)}
+details.miss .inner{padding:0 14px 14px;font-size:16px;line-height:1.6}
+.elect{display:grid;gap:10px;margin-top:6px}
+.elect .card{border:1px solid var(--grid);border-radius:var(--radius-m);background:#fff;padding:14px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.elect .card p{margin:0;font-size:15px;color:var(--ink-soft)}
+.note{font-size:14px;color:var(--ink-soft);line-height:1.6}
+.track{border:1px solid var(--grid);border-radius:var(--radius-m);background:#fff;padding:14px 16px;margin:0 0 10px}
+.track h3{margin:0 0 8px;font-size:17px}
+.track .row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 0;font-size:16px;border-top:1px solid var(--grid)}
+.track .row:first-of-type{border-top:none}
+.track .row .sub{display:block;font-size:14px;color:var(--ink-soft)}
+.track .acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.subj{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:0 0 6px}
+.subj .choice{margin:0}
+.err{color:var(--bad);font-size:15px;margin:8px 0 0}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-inner">
+  <button class="close" id="close" aria-label="진단 나가기">✕</button>
+  <div class="bar" role="progressbar" aria-label="진단 진행률" aria-valuemin="0" aria-valuemax="100"><i id="barFill"></i></div>
+  <span class="where" id="where">진입 진단</span>
+</div></header>
+<main id="main" aria-live="polite"></main>
+<div class="feedback" id="fb" hidden><div class="fb-inner">
+  <div class="fb-text" id="fbText"></div>
+  <button class="btn ghost" id="skipBtn">모르겠어요</button>
+  <button class="btn" id="mainBtn">다음</button>
+</div></div>
+
+<script>
+"use strict";
+const $ = s => document.querySelector(s);
+/*__KIT__*/
+
+/* ---------- 진단 ---------- */
+const KEY = "sci-arena:placement";
+const main = $("#main"), fb = $("#fb"), fbText = $("#fbText"), mainBtn = $("#mainBtn"), skipBtn = $("#skipBtn");
+let POOL, byId = {}, S = null, TR = {};
+const pick = arr => arr[Math.floor(Math.random() * arr.length)];
+const num = cid => +cid.slice(1);
+
+const LEVELS = [
+  {v:"base", t:"중학 과학이 아직 자신 없어요", d:"기초 과학(코스 0)부터 확인한 뒤 고른 과목으로 넘어갑니다."},
+  {v:"one", t:"중학 과학은 마쳤어요", d:"고른 과목의 Ⅰ 코스부터 확인합니다. 많이 틀리면 기초 과학도 확인합니다."},
+  {v:"two", t:"Ⅰ 과목까지 공부했어요", d:"Ⅰ 코스를 통과하면 이어서 같은 과목의 Ⅱ 코스까지 확인합니다."}
+];
+
+function progressTo(p){ $("#barFill").style.width = p + "%"; document.querySelector(".bar").setAttribute("aria-valuenow", Math.round(p)); }
+
+function intro(){
+  fb.hidden = true; progressTo(0); $("#where").textContent = "진입 진단";
+  const saved = loadSaved();
+  main.innerHTML = `<p class="stage">진입 진단</p>
+    <h1>어디서부터 시작하면 좋을지 찾아 봅니다</h1>
+    <p class="lede">챕터마다 한 문제씩 풀면, 이미 아는 내용은 건너뛰고 과목마다 필요한 곳부터 시작할 수 있게 추천해 드립니다.</p>
+    <ul class="facts">
+      <li>코스 하나에 6~8문항입니다. 네 과목을 모두 고르면 보통 25~40분 걸립니다.</li>
+      <li>푸는 동안에는 정답을 알려 주지 않습니다. 틀린 문제의 풀이는 끝에 모아서 보여 드립니다.</li>
+      <li>모르는 문제는 찍지 말고 <b>모르겠어요</b>를 눌러 주세요. 그래야 추천이 정확해집니다.</li>
+      <li>계산 문제에 필요한 상수는 문제에 적혀 있습니다. 종이와 연필이 있으면 편합니다.</li>
+    </ul>
+    <fieldset><legend>지금까지 어디까지 공부했나요?</legend>
+      ${LEVELS.map((o, k) => `<label class="choice"><input type="radio" name="lv" value="${o.v}"${k === 1 ? " checked" : ""}>
+        <div><b>${esc(o.t)}</b><span>${esc(o.d)}</span></div></label>`).join("")}
+    </fieldset>
+    <fieldset style="margin-top:18px"><legend>진단할 과목을 고르세요</legend>
+      <div class="subj">${POOL.tracks.map(t => `<label class="choice"><input type="checkbox" name="subj" value="${t.id}" checked>
+        <div><b>${esc(t.name)}</b><span>${esc(byId[t.a].title)} · ${esc(byId[t.b].title)}</span></div></label>`).join("")}</div>
+      <p class="err" id="err" hidden>과목을 하나 이상 고르세요.</p>
+    </fieldset>
+    <div class="cta-row" style="margin-top:18px"><button class="btn" id="go">진단 시작</button>
+      ${saved ? `<a class="btn ghost" href="#" id="last">지난 결과 보기</a>` : ""}</div>`;
+  $("#go").onclick = () => {
+    const subjects = [...document.querySelectorAll("input[name=subj]:checked")].map(x => x.value);
+    if (!subjects.length){ $("#err").hidden = false; return; }
+    begin(document.querySelector("input[name=lv]:checked").value, subjects);
+  };
+  if (saved) $("#last").onclick = e => { e.preventDefault(); S = saved.state; result(); };
+}
+
+function begin(level, subjects){
+  const firsts = POOL.tracks.filter(t => subjects.includes(t.id)).map(t => t.a);
+  S = {level, subjects, queue: level === "base" ? [POOL.base, ...firsts] : firsts, tested:{}, answers:[], at:Date.now()};
+  runCourse(S.queue.shift());
+}
+
+/* 한 코스 블록: 챕터마다 한 문항 */
+let block = null;
+function runCourse(cid){
+  const c = byId[cid];
+  const need = Math.ceil(c.chapters.length * POOL.pass_rate - 1e-9);
+  block = {cid, need, allowWrong:c.chapters.length - need, i:0, right:0, wrong:0,
+           qs:c.chapters.map(ch => ({ch, q:pick(ch.questions.slice(0, Math.min(POOL.pick_from, ch.questions.length)))}))};
+  S.tested[cid] = {status:"running", right:0, wrong:0, asked:0, chapters:{}};
+  askNext();
+}
+
+let api = null;
+function askNext(){
+  const b = block, c = byId[b.cid];
+  if (b.i >= b.qs.length) return endCourse();
+  const {ch, q} = b.qs[b.i];
+  const done = S.answers.length, est = done + (b.qs.length - b.i) + S.queue.length * 7 + 1;
+  progressTo(Math.min(95, done / est * 100));
+  $("#where").textContent = `진단 · ${c.title}`;
+  main.innerHTML = `<span class="course-tag">${esc(c.title)} · ${b.i + 1} / ${b.qs.length}</span>`;
+  window.scrollTo(0, 0);
+  const host = document.createElement("div"); main.appendChild(host);
+  api = buildQuestion(q, host);
+  if (q.figure){ const pr = host.querySelector(".prompt"); if (pr) pr.after(figure(q.figure)); }
+  fb.hidden = false; fbText.innerHTML = ""; skipBtn.hidden = false;
+  mainBtn.textContent = "다음"; mainBtn.disabled = !api.ready;
+  api.onChange = () => { mainBtn.disabled = !api.ready; };
+  (api.enter || []).forEach(inp => inp.addEventListener("keydown", e => { if (e.key === "Enter" && !mainBtn.disabled){ e.preventDefault(); mainBtn.click(); } }));
+  { const a = api; if (a.focus && matchMedia("(pointer:fine)").matches) setTimeout(() => { if (api === a) a.focus(); }, 50); }
+}
+
+function record(correct, skipped){
+  const b = block, {ch, q} = b.qs[b.i];
+  S.answers.push({c:b.cid, ch:ch.dir, chTitle:ch.title, qid:q.id, correct, skipped, q});
+  const t = S.tested[b.cid]; t.asked++; t.chapters[ch.dir] = correct ? "ok" : "miss";
+  if (correct){ b.right++; t.right++; } else { b.wrong++; t.wrong++; }
+  b.i++;
+  if (b.wrong > b.allowWrong) return endCourse();   // 탈락이 확정되면 바로 멈춤
+  askNext();
+}
+mainBtn.addEventListener("click", () => { if (!api || !api.ready) return; api.lock(); record(!!api.check(), false); });
+skipBtn.addEventListener("click", () => { if (api) api.lock(); record(false, true); });
+
+function endCourse(){
+  const b = block, t = S.tested[b.cid], cid = b.cid;
+  t.status = b.right >= b.need ? "pass" : "fail";
+  t.severe = t.status === "fail" && b.right < b.wrong;
+  block = null;
+  if (cid === POOL.base){
+    if (t.status === "fail") S.queue = S.queue.filter(x => x === POOL.base);   // 기초부터: Ⅰ 진단은 뒤로 미룸
+  } else {
+    const tr = TR[cid];
+    if (tr && tr.a === cid){
+      if (t.status === "pass" && S.level === "two" && !S.tested[tr.b] && !S.queue.includes(tr.b)) S.queue.unshift(tr.b);
+      if (t.severe && !S.tested[POOL.base] && !S.queue.includes(POOL.base)) S.queue.unshift(POOL.base);
+    }
+  }
+  const nx = S.queue.shift();
+  if (nx) return runCourse(nx);
+  result();
+}
+
+/* 판정 */
+function firstMiss(cid){
+  const t = S.tested[cid], ch = byId[cid].chapters.find(ch => t.chapters[ch.dir] === "miss") || byId[cid].chapters[0];
+  return {c:cid, ch:ch.dir, chTitle:ch.title, chNo:ch.no};
+}
+function placement(){
+  const status = {}, base = POOL.base, tb = S.tested[base];
+  const aSevere = POOL.tracks.some(tr => S.tested[tr.a] && S.tested[tr.a].severe);
+  status[base] = tb ? (tb.status === "pass" ? "pass" : "start") : (aSevere ? "untested" : "assumed");
+  const baseStart = status[base] === "start";
+  POOL.tracks.forEach(tr => {
+    const ta = S.tested[tr.a], tb2 = S.tested[tr.b];
+    if (ta) status[tr.a] = ta.status === "pass" ? "pass" : (baseStart ? "later" : "start");
+    else status[tr.a] = baseStart && S.subjects.includes(tr.id) ? "later" : "untested";
+    if (tb2) status[tr.b] = tb2.status === "pass" ? "pass" : (status[tr.a] === "pass" ? "start" : "later");
+    else status[tr.b] = status[tr.a] === "pass" ? "untested" : (status[tr.a] === "untested" ? "untested" : "later");
+  });
+  const starts = {};
+  Object.keys(status).forEach(cid => { if (status[cid] === "start") starts[cid] = firstMiss(cid); });
+  let start = starts[base] || null;
+  if (!start){ const a = POOL.tracks.find(tr => starts[tr.a]); if (a) start = starts[a.a]; }
+  if (!start){ const b = POOL.tracks.find(tr => starts[tr.b]); if (b) start = starts[b.b]; }
+  const weak = S.answers.filter(a => !a.correct && (status[a.c] === "pass" || status[a.c] === "assumed"));
+  const chapters = {};
+  S.answers.forEach(a => { const st = status[a.c]; chapters[`${a.c}-${a.ch}`] = a.correct ? "ok" : (st === "pass" || st === "assumed" ? "weak" : "miss"); });
+  Object.values(starts).forEach(s => { chapters[`${s.c}-${s.ch}`] = "start"; });
+  return {status, start, starts, weak, chapters};
+}
+
+function save(pl){
+  try{ localStorage.setItem(KEY, JSON.stringify({version:2, at:Date.now(), start:pl.start, starts:pl.starts, status:pl.status, chapters:pl.chapters, state:S})); }catch(e){}
+}
+function loadSaved(){ try{ const v = JSON.parse(localStorage.getItem(KEY)); return v && v.state ? v : null; }catch(e){ return null; } }
+
+const LABEL = {pass:"진단 통과", assumed:"건너뛰어도 됨", start:"여기서 시작", later:"이후 과정", fail:"보충 필요", untested:"진단 안 함"};
+const startLink = s => `player.html?c=${s.c}&ch=${s.ch.slice(2)}&l=01`;
+
+function result(){
+  fb.hidden = true; progressTo(100); $("#where").textContent = "진단 결과";
+  const pl = placement(); save(pl);
+  let hero;
+  if (pl.start){
+    const c = byId[pl.start.c];
+    const others = Object.values(pl.starts).filter(s => s.c !== pl.start.c);
+    hero = `<div class="result-hero"><p class="kicker">가장 먼저 시작할 곳</p>
+      <h1>코스 ${num(pl.start.c)} ${esc(c.title)}<br>챕터 ${pl.start.chNo} ${esc(pl.start.chTitle)}</h1>
+      <p>${pl.start.chNo > 1 ? `앞의 챕터 ${pl.start.chNo - 1}개는 진단을 통과했습니다. ` : ""}${pl.start.c === POOL.base ? "기초 과학을 먼저 채운 뒤 과목별 Ⅰ 코스로 넘어가세요." : ""}${others.length ? ` 다른 과목의 시작 위치는 아래 과목별 결과에 있습니다.` : ""}</p>
+      <div class="cta-row"><a class="btn" href="${startLink(pl.start)}">여기서 시작하기</a>
+        <a class="btn ghost" href="browse.html?c=${pl.start.c}">코스 둘러보기</a></div></div>`;
+  } else {
+    hero = `<div class="result-hero"><p class="kicker">진단 결과</p><h1>진단한 코스를 모두 통과했습니다</h1>
+      <p>아래 과목별 결과에서 아직 진단하지 않은 코스를 이어서 확인할 수 있습니다. 통과한 코스 안에서 틀린 챕터는 챕터 복습으로 채우세요.</p></div>`;
+  }
+  const chipRow = (cid, extra) => { const c = byId[cid], st = pl.status[cid], t = S.tested[cid];
+    const sub = t ? `${t.right} / ${t.asked}문항 정답` : (st === "assumed" ? "과목 코스 결과로 보아 진단을 생략했습니다" : "");
+    return `<div class="row"><div>코스 ${num(cid)} ${esc(c.title)}${sub ? `<span class="sub">${sub}</span>` : ""}</div><span class="chip ${st}">${LABEL[st]}</span></div>`; };
+  const base = `<div class="track"><h3>기초</h3>${chipRow(POOL.base)}
+    ${pl.status[POOL.base] === "untested" ? `<div class="acts"><button class="btn ghost" data-run="${POOL.base}">기초 과학 진단하기</button></div>` : ""}
+    ${pl.starts[POOL.base] ? `<div class="acts"><a class="btn" href="${startLink(pl.starts[POOL.base])}">챕터 ${pl.starts[POOL.base].chNo}부터 시작</a></div>` : ""}</div>`;
+  const tracks = POOL.tracks.map(tr => {
+    const acts = [];
+    [tr.a, tr.b].forEach(cid => { if (pl.starts[cid]) acts.push(`<a class="btn" href="${startLink(pl.starts[cid])}">${esc(byId[cid].title)} 챕터 ${pl.starts[cid].chNo}부터 시작</a>`); });
+    if (pl.status[tr.a] === "untested") acts.push(`<button class="btn ghost" data-run="${tr.a}">${esc(byId[tr.a].title)} 진단하기</button>`);
+    if (pl.status[tr.a] === "pass" && pl.status[tr.b] === "untested")
+      acts.push(`<button class="btn ghost" data-run="${tr.b}">${esc(byId[tr.b].title)} 진단하기</button>`,
+                `<a class="btn link" href="player.html?c=${tr.b}&ch=01&l=01">${esc(byId[tr.b].title)} 처음부터</a>`);
+    return `<div class="track"><h3>${esc(tr.name)}</h3>${chipRow(tr.a)}${chipRow(tr.b)}${acts.length ? `<div class="acts">${acts.join("")}</div>` : ""}</div>`;
+  }).join("");
+  const weak = pl.weak.length ? `<h2 class="sec">복습하면 좋은 챕터</h2>
+    <p class="note">통과한 코스 안에서 틀린 챕터입니다. 챕터 복습(10문항)으로 빈 곳을 채우세요.</p>
+    <ul class="clist weak">${pl.weak.map(a => `<li><div>코스 ${num(a.c)} ${esc(byId[a.c].title)} · 챕터 ${+a.ch.slice(2)} ${esc(a.chTitle)}</div><a href="player.html?c=${a.c}&ch=${a.ch.slice(2)}&review=1">챕터 복습</a></li>`).join("")}</ul>` : "";
+  const misses = S.answers.filter(a => !a.correct);
+  const missHtml = misses.length ? `<h2 class="sec">틀린 문항 다시 보기</h2>${misses.map(a => `<details class="miss">
+      <summary>${esc(byId[a.c].title)} · ${esc(a.chTitle)} ${a.skipped ? "<small>(모르겠어요)</small>" : ""}</summary>
+      <div class="inner"><p>${esc(a.q.prompt.replace(/\{\{\d+\}\}/g, "□"))}</p><p class="answerline">정답: ${esc(answerText(a.q))}</p>${a.q.explanation ? solHtml(a.q.explanation) : ""}</div></details>`).join("")}` : "";
+  main.innerHTML = hero + `<h2 class="sec">과목별 결과</h2>` + base + tracks + weak + missHtml +
+    `<div class="cta-row" style="margin-top:28px"><button class="btn ghost" id="again">처음부터 다시 진단</button><a class="btn link" href="index.html">첫 화면</a></div>`;
+  main.querySelectorAll("[data-run]").forEach(b => b.onclick = () => { S.queue = []; runCourse(b.dataset.run); });
+  $("#again").onclick = () => { S = null; intro(); };
+  window.scrollTo(0, 0);
+}
+
+$("#close").addEventListener("click", () => {
+  if (block && !confirm("진단을 그만둘까요? 지금까지 푼 내용은 저장되지 않습니다.")) return;
+  location.href = "index.html";
+});
+
+(async () => {
+  try{
+    const r = await fetch("content/level1/placement.json"); if (!r.ok) throw new Error("content/level1/placement.json");
+    POOL = await r.json(); POOL.courses.forEach(c => byId[c.id] = c);
+    POOL.tracks.forEach(t => { TR[t.a] = t; TR[t.b] = t; });
+    intro();
+  }catch(e){ main.innerHTML = `<div class="error">진단 문항을 불러오지 못했습니다. <code>${esc(e.message)}</code></div>`; }
+})();
+</script>
+</body>
+</html>
