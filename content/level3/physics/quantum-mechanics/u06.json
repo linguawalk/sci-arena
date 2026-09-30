@@ -1,0 +1,94 @@
+{
+ "no": 6,
+ "title": "근사법",
+ "hours": 6,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "시간 무관 섭동 이론으로 에너지 보정을 계산할 수 있다.",
+  "변분법으로 바닥 상태 에너지의 상한을 구할 수 있다.",
+  "시간 의존 섭동과 페르미 황금률로 전이를 설명할 수 있다."
+ ],
+ "checklist": [
+  "1차·2차 섭동 보정",
+  "축퇴 섭동 이론",
+  "수소 원자의 미세 구조, 제이만 효과",
+  "변분 원리와 헬륨 원자",
+  "시간 의존 섭동, 흡수·방출",
+  "페르미 황금률과 선택 규칙"
+ ],
+ "advice": [
+  "정확히 풀 수 있는 문제는 몇 개 되지 않으므로 실제 물리는 대부분 근사법으로 계산합니다. 1차 섭동 보정 E₁ = ⟨ψ⁰|H′|ψ⁰⟩ 하나만으로도 많은 결과를 얻을 수 있으니, 여러 퍼텐셜에 적용해 보는 연습을 하세요. 변분법은 '어떤 시험 함수를 넣어도 바닥 상태 에너지보다 작아지지 않는다'는 보장을 이해하는 것이 핵심입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Griffiths · Schroeter, Introduction to Quantum Mechanics (3판, 번역본 『양자역학』)",
+   "part": "7~9장 Time-Independent Perturbation Theory, The Variational Principle, Time-Dependent Perturbation Theory"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.05 Quantum Physics II (2013년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/",
+   "lang": "영어",
+   "part": "Lecture (perturbation theory)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "섭동 H′ = V₀(상수) = 2가 더해졌을 때 어떤 준위의 1차 에너지 보정은?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "E₁ = ⟨ψ|V₀|ψ⟩ = V₀ = 2",
+   "hint": "규격화된 상태의 기댓값입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "변분법으로 구한 에너지는 실제 바닥 상태 에너지의 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상한",
+      "위 한계",
+      "상계"
+     ]
+    }
+   ],
+   "explanation": "어떤 시험 함수를 써도 바닥 상태보다 낮아지지 않습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "시간 의존 섭동에서 단위 시간당 전이 확률을 주는 식을 페르미 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "황금률"
+     ]
+    }
+   ],
+   "explanation": "Γ = (2π/ħ)|⟨f|H′|i⟩|²ρ(E_f)",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "quantum-mechanics",
+ "id": "l3-physics-quantum-mechanics-u06"
+}

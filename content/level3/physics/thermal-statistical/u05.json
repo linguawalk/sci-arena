@@ -1,0 +1,93 @@
+{
+ "no": 5,
+ "title": "상전이와 화학 퍼텐셜",
+ "hours": 5,
+ "after": [
+  1,
+  3
+ ],
+ "objectives": [
+  "상평형 조건과 클라우지우스–클라페이롱 식을 쓸 수 있다.",
+  "반데르발스 기체로 액체–기체 상전이를 설명할 수 있다.",
+  "이징 모형과 평균장 근사로 강자성 전이를 설명할 수 있다."
+ ],
+ "checklist": [
+  "화학 퍼텐셜 μ = (∂G/∂N)와 상평형 조건",
+  "상평형 그림, 삼중점, 임계점",
+  "클라우지우스–클라페이롱 식 dP/dT = L/(TΔV)",
+  "반데르발스 기체와 맥스웰 등면적 규칙",
+  "1차 상전이(잠열)와 연속 상전이",
+  "이징 모형과 평균장 근사"
+ ],
+ "advice": [
+  "상전이는 '미시적으로는 같은 분자인데 거시적으로 성질이 갑자기 바뀌는' 현상이라 통계물리의 가장 흥미로운 주제입니다. 1차 상전이(물의 끓음)와 연속 상전이(자석의 퀴리 온도)를 잠열과 질서 변수의 변화로 구별하고, 이징 모형은 평균장 근사까지만 이해하면 학부 수준으로 충분합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Daniel V. Schroeder, An Introduction to Thermal Physics (번역본 『열물리학』)",
+   "part": "5장 5.3~5.6절 Phase Transformations, 8장 8.2절 Ising Model"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Lectures on Theoretical Physics (Statistical Physics, Quantum Mechanics 등 노트 목록)",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/teaching.html",
+   "lang": "영어",
+   "part": "Statistical Physics 노트 5장 Phase Transitions"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "상이 바뀔 때 온도 변화 없이 흡수하거나 방출하는 열을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "잠열"
+     ]
+    }
+   ],
+   "explanation": "1차 상전이의 특징입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "액체와 기체의 구별이 사라지는 온도와 압력의 점을 {{1}}점이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "임계"
+     ]
+    }
+   ],
+   "explanation": "그보다 높은 온도에서는 초임계 유체가 됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "물이 끓는 것처럼 잠열이 있는 상전이는 몇 차 상전이일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "잠열과 부피 변화가 있으면 1차 상전이입니다.\n강자성 전이는 연속(2차) 상전이입니다.",
+   "hint": "잠열의 유무로 구별합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "thermal-statistical",
+ "id": "l3-physics-thermal-statistical-u05"
+}

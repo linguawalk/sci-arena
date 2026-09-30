@@ -1,0 +1,96 @@
+{
+ "no": 7,
+ "title": "크로마토그래피와 분리",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "분배와 머무름으로 크로마토그래피 분리의 원리를 설명할 수 있다.",
+  "이론단수, 분해능, 판 높이를 계산하고 해석할 수 있다.",
+  "GC, HPLC, 전기 영동의 적용 대상을 구별할 수 있다."
+ ],
+ "checklist": [
+  "분배 계수와 머무름 인자",
+  "머무름 시간과 선택도",
+  "이론단수 N = 16(t_R/w)², 판 높이",
+  "반 딤터 식과 띠 넓어짐",
+  "분해능 R_s = 2Δt_R/(w₁ + w₂)",
+  "기체 크로마토그래피(GC)와 검출기",
+  "고성능 액체 크로마토그래피(HPLC), 역상 분리",
+  "모세관 전기 영동"
+ ],
+ "advice": [
+  "크로마토그래피의 목표는 두 봉우리를 떼어 놓는 것(분해능)이고, 분해능은 봉우리 사이 거리(선택도)와 봉우리 폭(효율)으로 결정됩니다. 실제 크로마토그램에서 머무름 시간과 봉우리 폭을 읽어 분해능과 이론단수를 계산해 보세요. GC는 휘발성 물질, HPLC는 비휘발성·열에 약한 물질에 쓴다는 선택 기준도 중요합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "LibreTexts (무료 공개 교재)",
+   "title": "David Harvey, Analytical Chemistry 2.1",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)",
+   "lang": "영어",
+   "part": "12장 Chromatographic and Electrophoretic Methods"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Skoog · Holler · Crouch, Principles of Instrumental Analysis (번역본 『기기분석』)",
+   "part": "26~30장"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Daniel C. Harris, Quantitative Chemical Analysis (번역본 『분석화학』)",
+   "part": "23~26장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "두 봉우리의 머무름 시간 차가 1분이고 폭이 각각 0.5분일 때 분해능은?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "R_s = 2 × 1 / (0.5 + 0.5) = 2\n1.5 이상이면 기준선 분리입니다.",
+   "hint": "R_s = 2Δt_R/(w₁ + w₂)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "머무름 시간 10분, 봉우리 밑변 폭 1분인 봉우리의 이론단수는?",
+   "answer": "1600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "N = 16(10/1)² = 1600",
+   "hint": "N = 16(t_R/w)²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "기체 크로마토그래피는 {{1}}성이 있고 열에 안정한 물질의 분리에 적합합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "휘발"
+     ]
+    }
+   ],
+   "explanation": "비휘발성·열에 약한 물질은 HPLC로 분리합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "analytical-chemistry",
+ "id": "l3-chemistry-analytical-chemistry-u07"
+}

@@ -1,0 +1,94 @@
+{
+ "no": 7,
+ "title": "원자·분자·고체 물리 입문",
+ "hours": 5,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "분자 결합과 분자 스펙트럼(회전·진동)을 설명할 수 있다.",
+  "주기적 퍼텐셜에서 에너지띠가 생기는 원리를 설명할 수 있다.",
+  "반도체와 레이저의 원리를 양자역학으로 설명할 수 있다."
+ ],
+ "checklist": [
+  "수소 분자 이온과 공유 결합",
+  "분자의 회전·진동 스펙트럼",
+  "자유 전자 모형과 페르미 에너지",
+  "블로흐 정리와 에너지띠",
+  "도체, 절연체, 반도체와 띠 간격",
+  "도핑, p–n 접합",
+  "유도 방출과 레이저"
+ ],
+ "advice": [
+  "이 단원은 양자역학이 오늘날의 기술(반도체, 레이저, LED)을 어떻게 설명하는지 보여 줍니다. 깊은 계산보다 '원자 여러 개가 모이면 에너지 준위가 띠로 퍼진다'는 그림과 띠 간격의 크기로 물질의 전기적 성질이 정해진다는 흐름을 이해하는 데 집중하세요. 더 깊은 내용은 tech-arena 반도체 과목에서 다룹니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Kenneth S. Krane, Modern Physics (4판, 번역본 『현대물리학』)",
+   "part": "9~11장 Molecular Structure, Statistical Physics, Solid-State Physics"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Lectures on Theoretical Physics (Statistical Physics, Quantum Mechanics 등 노트 목록)",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/teaching.html",
+   "lang": "영어",
+   "part": "Solid State Physics 노트 1~2장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "반도체에서 원자가 띠와 전도 띠 사이의 에너지 차이를 띠 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "간격",
+      "틈"
+     ]
+    }
+   ],
+   "explanation": "실리콘은 약 1.1 eV입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "실리콘의 띠 간격은 약 몇 eV일까요?",
+   "answer": "1.1",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "상온에서 약 1.12 eV입니다.",
+   "hint": "1 eV 정도입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "들어온 광자와 같은 광자를 방출하게 하는 과정을 {{1}} 방출이라고 하며, 레이저의 원리입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유도"
+     ]
+    }
+   ],
+   "explanation": "아인슈타인이 1917년에 제안했습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "quantum-mechanics",
+ "id": "l3-physics-quantum-mechanics-u07"
+}

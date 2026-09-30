@@ -1,0 +1,91 @@
+{
+ "no": 6,
+ "title": "전자기파",
+ "hours": 6,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "맥스웰 방정식에서 파동 방정식을 유도할 수 있다.",
+  "경계에서의 반사·투과와 프레넬 식을 쓸 수 있다.",
+  "편광과 도체 속 전자기파(표피 깊이)를 설명할 수 있다."
+ ],
+ "checklist": [
+  "파동 방정식과 c = 1/√(μ₀ε₀)",
+  "평면파, 세기, 복사압",
+  "선형 매질 속 전자기파와 굴절률",
+  "수직 입사 반사율 ((n₁ − n₂)/(n₁ + n₂))²",
+  "사입사, 프레넬 식, 브루스터 각",
+  "편광(선·원·타원)",
+  "도체 속 감쇠와 표피 깊이, 분산"
+ ],
+ "advice": [
+  "레벨1과 일반물리에서 결과로 배운 반사·굴절·편광이 경계 조건 네 개에서 모두 유도된다는 것이 이 단원의 핵심입니다. 브루스터 각에서 반사광이 완전히 편광되는 이유를 프레넬 식으로 확인해 보면 편광 선글라스의 원리까지 연결됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "David J. Griffiths, Introduction to Electrodynamics (4판, 번역본 『전자기학』)",
+   "part": "9장 Electromagnetic Waves"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Eugene Hecht, Optics (5판, 번역본 『광학』)",
+   "part": "3~4장 Electromagnetic Theory, Photons, and Light; The Propagation of Light"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.03SC Physics III: Vibrations and Waves (2016년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/",
+   "lang": "영어",
+   "part": "Lecture 16~22 (electromagnetic waves)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "공기에서 굴절률 1.5인 유리에 빛이 수직으로 입사할 때 반사율은 몇 %일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "R = ((1.5 − 1)/(1.5 + 1))² = 0.04 = 4%",
+   "hint": "((n₁ − n₂)/(n₁ + n₂))²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "굴절률 1인 두 매질 사이처럼 tan θ_B = n₂/n₁ = 1이면 브루스터 각은 몇 °일까요?",
+   "answer": "45",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "tan θ_B = 1\nθ_B = 45°",
+   "hint": "tan θ = 1인 각입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "굴절률 1.5인 유리 속에서 빛의 속력은 몇 × 10⁸ m/s일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "v = c/n = 3 × 10⁸ / 1.5 = 2 × 10⁸ m/s",
+   "hint": "v = c/n입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "electromagnetism",
+ "id": "l3-physics-electromagnetism-u06"
+}

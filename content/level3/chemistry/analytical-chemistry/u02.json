@@ -1,0 +1,89 @@
+{
+ "no": 2,
+ "title": "검량과 방법 검증",
+ "hours": 5,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "최소 제곱법으로 검량선을 만들고 미지 농도를 구할 수 있다.",
+  "외부 표준, 내부 표준, 표준 첨가법을 상황에 맞게 고를 수 있다.",
+  "검출 한계와 정량 한계, 방법 검증 항목을 설명할 수 있다."
+ ],
+ "checklist": [
+  "외부 표준 검량선과 선형 최소 제곱",
+  "결정 계수와 잔차 분석",
+  "내부 표준법",
+  "표준 첨가법과 매트릭스 효과",
+  "바탕값 보정",
+  "검출 한계(3σ/기울기)와 정량 한계(10σ/기울기)",
+  "방법 검증: 선택성, 직선성, 정확도, 정밀도, 견고성"
+ ],
+ "advice": [
+  "검량선은 기기 분석의 모든 결과가 거쳐 가는 관문입니다. 표준 용액 자료로 검량선을 그리고 미지 시료의 농도와 그 불확도까지 계산하는 과정을 스프레드시트로 완성해 두면, 이후 분광·크로마토그래피 단원에서 그대로 재사용할 수 있습니다. 시료 성분(매트릭스)이 신호를 바꿀 때 표준 첨가법이 필요한 이유를 꼭 이해하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "LibreTexts (무료 공개 교재)",
+   "title": "David Harvey, Analytical Chemistry 2.1",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)",
+   "lang": "영어",
+   "part": "5장 Standardizing Analytical Methods"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Daniel C. Harris, Quantitative Chemical Analysis (번역본 『분석화학』)",
+   "part": "4~5장 Statistics, Quality Assurance and Calibration Methods"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "검량선이 y = 2x + 1일 때 신호 y = 9인 시료의 농도 x는?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "9 = 2x + 1\nx = 4",
+   "hint": "식을 x에 대해 푸세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "바탕 신호의 표준편차 0.02, 검량선 기울기 0.5일 때 검출 한계(3σ/기울기)는? (소수로)",
+   "answer": "0.12",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "explanation": "3 × 0.02 / 0.5 = 0.12",
+   "hint": "3σ/m입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "시료 자체에 알려진 양의 분석 물질을 더해 매트릭스 효과를 보정하는 방법을 표준 {{1}}법이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "첨가"
+     ]
+    }
+   ],
+   "explanation": "신호 증가량으로 원래 농도를 외삽합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "analytical-chemistry",
+ "id": "l3-chemistry-analytical-chemistry-u02"
+}

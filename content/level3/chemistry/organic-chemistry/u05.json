@@ -1,0 +1,95 @@
+{
+ "no": 5,
+ "title": "방향족 화합물",
+ "hours": 6,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "휘켈 규칙으로 방향족성을 판정할 수 있다.",
+  "친전자성 방향족 치환 반응의 메커니즘을 설명할 수 있다.",
+  "치환기의 활성화·지향 효과를 예측할 수 있다."
+ ],
+ "checklist": [
+  "벤젠의 구조와 안정성, 공명 에너지",
+  "휘켈 규칙 4n + 2 π 전자",
+  "방향족·반방향족·비방향족 화합물",
+  "친전자성 방향족 치환(할로젠화, 나이트로화, 설폰화, 프리델–크래프츠)",
+  "활성화기와 비활성화기",
+  "오르토·파라 지향과 메타 지향",
+  "친핵성 방향족 치환 입문"
+ ],
+ "advice": [
+  "치환기 효과는 치환기가 고리에 전자를 주는지(공명 주개: −OH, −NH₂) 빼는지(−NO₂, −C=O)에 따라 반응성과 지향이 결정된다는 원리 하나로 정리됩니다. 시그마 복합체(아레늄 이온)의 공명 구조를 오르토·메타·파라 각각에 대해 그려 보면 지향 효과가 저절로 이해됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Clayden · Greeves · Warren, Organic Chemistry (2판, 번역본 『유기화학』)",
+   "part": "21~22장 Electrophilic aromatic substitution, Conjugate addition and nucleophilic aromatic substitution"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Klein, Organic Chemistry (번역본 『유기화학』)",
+   "part": "17~18장"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Organic Chemistry (McMurry)",
+   "url": "https://openstax.org/details/books/organic-chemistry",
+   "lang": "영어",
+   "part": "15~16장 Benzene and Aromaticity, Chemistry of Benzene"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "휘켈 규칙에서 n = 1일 때 방향족 화합물의 π 전자 수는?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "4n + 2 = 6 (벤젠)",
+   "hint": "4n + 2입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "휘켈 규칙에서 n = 2일 때 방향족 화합물의 π 전자 수는?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "4n + 2 = 10 (나프탈렌 등)",
+   "hint": "4n + 2입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "페놀의 −OH처럼 공명으로 전자를 주는 치환기는 {{1}}·파라 지향기입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오르토"
+     ]
+    }
+   ],
+   "explanation": "오르토·파라 위치의 시그마 복합체가 추가 공명으로 안정화됩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "organic-chemistry",
+ "id": "l3-chemistry-organic-chemistry-u05"
+}

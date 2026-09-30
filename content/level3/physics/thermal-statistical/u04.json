@@ -1,0 +1,90 @@
+{
+ "no": 4,
+ "title": "이상 기체와 등분배 정리",
+ "hours": 5,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "상자 속 입자의 양자 상태로 이상 기체의 분배 함수를 구할 수 있다.",
+  "사쿠르–테트로드 식의 의미를 설명할 수 있다.",
+  "기체의 열용량이 온도에 따라 변하는 이유를 설명할 수 있다."
+ ],
+ "checklist": [
+  "단일 입자 분배 함수와 양자 부피",
+  "구별 불가능성과 N!",
+  "이상 기체의 F, P, S (사쿠르–테트로드)",
+  "C_V = (3/2)Nk",
+  "회전·진동 자유도의 '얼어붙음'",
+  "화학 퍼텐셜 입문"
+ ],
+ "advice": [
+  "이원자 기체의 열용량이 저온에서 (3/2)R, 상온에서 (5/2)R, 고온에서 (7/2)R로 계단처럼 변하는 그래프는 고전 등분배 정리가 양자 효과로 깨지는 가장 좋은 예입니다. 에너지 준위 간격과 kT를 비교해 어떤 자유도가 '살아 있는지' 판단하는 연습을 하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Daniel V. Schroeder, An Introduction to Thermal Physics (번역본 『열물리학』)",
+   "part": "6장 6.6~6.7절, 2장 2.5~2.6절"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume I 39~40장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "단원자 이상 기체 1 mol의 정적 몰열용량 C_V는 R의 몇 배일까요?",
+   "answer": "1.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "병진 자유도 3개 × ½R = (3/2)R",
+   "hint": "등분배 정리입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "상온의 이원자 이상 기체의 C_V는 R의 몇 배일까요?",
+   "answer": "2.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "병진 3 + 회전 2 = 5개 × ½R\n진동은 상온에서 얼어붙어 있습니다.",
+   "hint": "진동 자유도는 상온에서 기여하지 않습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "등분배 정리는 에너지에 {{1}}으로 들어가는 자유도마다 평균 ½kT를 준다는 정리입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이차",
+      "제곱",
+      "2차"
+     ]
+    }
+   ],
+   "explanation": "½mv², ½kx²처럼 변수의 제곱 항입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "thermal-statistical",
+ "id": "l3-physics-thermal-statistical-u04"
+}

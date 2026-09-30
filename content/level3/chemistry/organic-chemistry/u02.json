@@ -1,0 +1,99 @@
+{
+ "no": 2,
+ "title": "알케인과 입체화학",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "뉴먼 투영과 의자형 구조로 형태 분석을 할 수 있다.",
+  "카이랄 중심에 R/S 배열을 붙일 수 있다.",
+  "거울상·부분입체 이성질체와 메소 화합물을 구별할 수 있다."
+ ],
+ "checklist": [
+  "알케인의 명명과 물리적 성질",
+  "뉴먼 투영과 형태 이성질체(엇갈림, 가려짐)",
+  "사이클로헥세인의 의자형, 축 방향과 적도 방향",
+  "카이랄성과 카이랄 중심",
+  "CIP 우선순위 규칙과 R/S 표기",
+  "거울상 이성질체, 부분입체 이성질체, 메소 화합물",
+  "광학 활성과 라세미 혼합물"
+ ],
+ "advice": [
+  "입체화학은 3차원 상상력이 필요해 많은 학생이 어려워하는 부분입니다. 분자 모형(분자 모형 세트나 무료 3D 뷰어)을 손으로 돌려 보면서 공부하는 것이 가장 효과적입니다. 의자형 사이클로헥세인에서 큰 치환기가 적도 방향을 선호하는 이유를 직접 모형으로 확인해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Clayden · Greeves · Warren, Organic Chemistry (2판, 번역본 『유기화학』)",
+   "part": "14~16장 Stereochemistry, Conformational analysis"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Klein, Organic Chemistry (번역본 『유기화학』)",
+   "part": "4~5장"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Organic Chemistry (McMurry)",
+   "url": "https://openstax.org/details/books/organic-chemistry",
+   "lang": "영어",
+   "part": "3~5장 Alkanes, Cycloalkanes, Stereochemistry"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "사이클로헥세인의 가장 안정한 형태는 {{1}}형입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "의자"
+     ]
+    }
+   ],
+   "explanation": "모든 C–C 결합이 엇갈림 형태라 비틀림 무리가 없습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "카이랄 중심이 3개인 분자(메소 화합물 없음)의 입체 이성질체는 최대 몇 개일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "2ⁿ = 2³ = 8",
+   "hint": "2ⁿ입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "두 거울상 이성질체가 1 : 1로 섞여 광학 활성이 없는 혼합물을 {{1}} 혼합물이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "라세미"
+     ]
+    }
+   ],
+   "explanation": "회전 방향이 반대인 두 성분이 서로 상쇄합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "organic-chemistry",
+ "id": "l3-chemistry-organic-chemistry-u02"
+}

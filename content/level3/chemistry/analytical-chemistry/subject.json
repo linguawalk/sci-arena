@@ -1,0 +1,152 @@
+{
+ "level": 3,
+ "track": "chemistry",
+ "id": "analytical-chemistry",
+ "title": "분석화학",
+ "tagline": "얼마나 들어 있는가를 믿을 수 있게 재는 방법: 통계, 평형, 적정, 기기 분석",
+ "overview": [
+  "분석화학은 물질 속에 무엇이 얼마나 들어 있는지를 정확하고 신뢰할 수 있게 측정하는 방법을 다룹니다. 측정 자료의 통계적 평가와 검량에서 시작해, 평형 화학을 바탕으로 한 고전적 정량 분석(적정, 무게 분석), 그리고 전기화학·분광·크로마토그래피·질량 분석 같은 기기 분석으로 나아갑니다.",
+  "환경 오염 물질 측정, 의약품 품질 관리, 임상 검사, 법과학, 식품 안전이 모두 분석화학의 응용입니다. 이 가이드는 정량 분석과 기기 분석을 한 과목으로 묶고, 품질 보증과 시료 전처리로 마무리합니다.",
+  "화학과 전공필수이며 중등 화학 임용시험의 분석화학 영역에 해당합니다. 레벨2 과학사와 과학의 방법의 측정·오차 단원을 먼저 보면 1~2단원이 쉬워집니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Harris 『Quantitative Chemical Analysis』, Skoog 『Principles of Instrumental Analysis』 목차와 중등 화학 임용시험 분석화학 영역.",
+ "prereq": {
+  "text": "레벨2 일반화학의 평형·산염기·전기화학 단원과 레벨2 과학사와 과학의 방법의 측정·오차 단원이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 일반화학 · 9단원 화학 평형",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=9"
+   },
+   {
+    "title": "레벨2 일반화학 · 10단원 산·염기 평형",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=10"
+   },
+   {
+    "title": "레벨2 일반화학 · 12단원 전기화학",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=12"
+   },
+   {
+    "title": "레벨2 과학사와 과학의 방법 · 6단원 측정, 단위, 오차",
+    "href": "guide.html?lv=2&t=convergence&s=science-method&u=6"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "0.1 M HCl 25 mL를 중화하는 데 0.2 M NaOH는 몇 mL 필요할까요?",
+    "answer": "12.5",
+    "answer_format": "decimal",
+    "tolerance": 0.05,
+    "explanation": "0.0025 mol / 0.2 M = 12.5 mL (일반화학 5단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "Ka = 1 × 10⁻⁵인 약산 0.1 M 수용액의 pH는?",
+    "answer": "3",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "√(10⁻⁶) = 10⁻³ M (일반화학 10단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "측정값 0.00520 m의 유효숫자는 몇 개일까요?",
+    "answer": "3",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "5, 2, 0 (과학의 방법 6단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "융합 레벨3 · 환경·기후과학",
+   "note": "환경 시료 분석과 모니터링"
+  },
+  {
+   "title": "융합 레벨3 · 생화학",
+   "note": "단백질·대사체 분석"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "분석 과정과 자료 평가",
+   "hours": 6,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "검량과 방법 검증",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "평형 화학의 심화",
+   "hours": 6,
+   "after": [],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "적정법과 무게 분석",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "전기화학 분석",
+   "hours": 5,
+   "after": [
+    3
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "분광 분석",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "크로마토그래피와 분리",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "질량 분석, 시료 전처리, 품질 보증",
+   "hours": 5,
+   "after": [
+    7
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 45
+}

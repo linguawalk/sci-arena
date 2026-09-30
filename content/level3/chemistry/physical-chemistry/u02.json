@@ -1,0 +1,91 @@
+{
+ "no": 2,
+ "title": "제2·3법칙과 자유 에너지",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "여러 과정의 엔트로피 변화를 계산할 수 있다.",
+  "헬름홀츠·깁스 에너지와 자발성 조건을 유도할 수 있다.",
+  "기본 방정식과 맥스웰 관계식을 쓸 수 있다."
+ ],
+ "checklist": [
+  "엔트로피 dS = dq_rev/T와 클라우지우스 부등식",
+  "등온 팽창, 가열, 상전이의 ΔS",
+  "제3법칙과 절대 엔트로피",
+  "A = U − TS, G = H − TS와 자발성",
+  "dG = V dP − S dT",
+  "맥스웰 관계식",
+  "G의 온도·압력 의존성(깁스–헬름홀츠 식)"
+ ],
+ "advice": [
+  "엔트로피 계산의 요령은 '실제 과정이 비가역이어도 같은 처음·나중 상태를 잇는 가역 경로를 하나 만들어 계산한다'는 것입니다. 상태 함수라서 가능한 방법이니 1단원의 개념과 연결해 이해하세요. 물리 트랙 열·통계물리 1단원과 거의 같은 내용이므로 그쪽을 공부했다면 화학적 응용(반응의 ΔS°, ΔG°)에 집중하면 됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Atkins · de Paula · Keeler, Atkins' Physical Chemistry (11판 이후, 번역본 『물리화학』)",
+   "part": "3장 The Second and Third Laws"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.60 Thermodynamics & Kinetics (2008년 봄)",
+   "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/",
+   "lang": "영어",
+   "part": "Lecture 9~16"
+  },
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "McQuarrie · Simon, Physical Chemistry: A Molecular Approach (번역본 『물리화학』)",
+   "part": "20~22장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "이상 기체 1 mol이 등온에서 부피가 2배가 될 때 엔트로피 변화는 약 몇 J/K일까요? (R = 8.314 J/(mol·K))",
+   "answer": "5.76",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "explanation": "ΔS = nR ln 2 = 8.314 × 0.693 ≈ 5.76 J/K",
+   "hint": "nR ln(V₂/V₁)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "제3법칙에 따르면 절대 영도에서 완전한 결정의 엔트로피는 얼마일까요?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "완전한 결정은 미시 상태가 하나(Ω = 1)\nS = k ln 1 = 0",
+   "hint": "S = k ln Ω에서 Ω = 1입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "0 °C(273 K)에서 얼음의 융해열이 6010 J/mol이면 융해 엔트로피는 약 몇 J/(mol·K)일까요?",
+   "answer": "22",
+   "answer_format": "decimal",
+   "tolerance": 0.2,
+   "explanation": "ΔS = ΔH/T = 6010/273 ≈ 22.0 J/(mol·K)",
+   "hint": "상전이 온도에서 ΔS = ΔH/T입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "physical-chemistry",
+ "id": "l3-chemistry-physical-chemistry-u02"
+}

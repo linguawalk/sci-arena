@@ -1,0 +1,89 @@
+{
+ "no": 4,
+ "title": "적정법과 무게 분석",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "산·염기 적정 곡선을 계산하고 지시약을 고를 수 있다.",
+  "EDTA 착물 적정과 산화 환원 적정을 계산할 수 있다.",
+  "무게 분석의 원리와 조건을 설명할 수 있다."
+ ],
+ "checklist": [
+  "적정의 기본(표준 용액, 당량점, 종말점)",
+  "강산·약산·다양성자산 적정 곡선",
+  "지시약 선택과 전위차 종말점",
+  "EDTA 착물 적정과 금속 지시약, 물의 경도",
+  "산화 환원 적정(과망가니즈산, 다이크로뮴산, 아이오딘 적정)",
+  "침전 적정",
+  "무게 분석과 침전의 조건"
+ ],
+ "advice": [
+  "적정 곡선은 3단원의 평형 계산을 적정 부피에 따라 반복한 것입니다. 약산–강염기 적정 곡선을 스프레드시트로 한 번 완성해 두면 착물 적정과 산화 환원 적정도 같은 방식으로 그릴 수 있습니다. 적정 계산의 핵심은 반응식의 몰 비이므로, 산화 환원 적정에서는 전자 수로 몰 비를 먼저 정하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "LibreTexts (무료 공개 교재)",
+   "title": "David Harvey, Analytical Chemistry 2.1",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)",
+   "lang": "영어",
+   "part": "8~9장 Gravimetric Methods, Titrimetric Methods"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Daniel C. Harris, Quantitative Chemical Analysis (번역본 『분석화학』)",
+   "part": "10~12장, 15~16장, 26장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "0.01 M EDTA 20 mL로 Ca²⁺ 시료 25 mL를 적정했습니다. Ca²⁺의 농도는 몇 M일까요? (1 : 1 반응)",
+   "answer": "0.008",
+   "answer_format": "decimal",
+   "tolerance": 0.0002,
+   "explanation": "EDTA 몰수 = 0.0002 mol\n0.0002 / 0.025 = 0.008 M",
+   "hint": "EDTA와 금속은 1 : 1로 반응합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O에서 MnO₄⁻ 1 mol은 Fe²⁺ 몇 mol과 반응할까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Mn은 5개의 전자를 받고 Fe²⁺는 1개씩 내놓습니다.",
+   "hint": "전자 수를 맞추세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "적정에서 당량점 근처의 급격한 pH 변화를 색 변화로 알려 주는 물질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지시약"
+     ]
+    }
+   ],
+   "explanation": "지시약의 변색 범위가 당량점 pH를 포함해야 합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "analytical-chemistry",
+ "id": "l3-chemistry-analytical-chemistry-u04"
+}

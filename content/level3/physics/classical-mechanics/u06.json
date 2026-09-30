@@ -1,0 +1,94 @@
+{
+ "no": 6,
+ "title": "비관성 좌표계와 강체 회전",
+ "hours": 6,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "회전 좌표계에서 원심력과 코리올리 힘을 유도할 수 있다.",
+  "관성 텐서와 주축을 구할 수 있다.",
+  "오일러 방정식으로 강체의 자유 회전을 분석할 수 있다."
+ ],
+ "checklist": [
+  "가속·회전 좌표계와 관성력",
+  "코리올리 힘 −2mω × v와 푸코 진자",
+  "관성 텐서와 주축(고유값 문제)",
+  "평행축 정리와 회전 운동 에너지",
+  "오일러 방정식",
+  "팽이의 세차 운동"
+ ],
+ "advice": [
+  "코리올리 힘은 지학Ⅱ의 전향력과 같은 것입니다. 태풍의 회전, 푸코 진자, 에크만 수송이 모두 같은 식에서 나온다는 것을 확인하면 이 단원이 지구과학과도 연결됩니다. 관성 텐서의 주축을 구하는 것은 선형대수의 고유값 문제 그 자체이므로, 행렬 대각화를 복습한 뒤 시작하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "John R. Taylor, Classical Mechanics (번역본 『고전역학』)",
+   "part": "9~10장 Mechanics in Noninertial Frames, Rotational Motion of Rigid Bodies"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Classical Dynamics (라그랑주·해밀턴 역학, 강체)",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/dynamics.htm",
+   "lang": "영어",
+   "part": "3장 The Motion of Rigid Bodies"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Thornton · Marion, Classical Dynamics of Particles and Systems (5판, 번역본 『고전역학』)",
+   "part": "10~11장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "북반구에서 움직이는 물체에 작용하는 코리올리 힘은 운동 방향의 {{1}}쪽을 향합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오른"
+     ]
+    }
+   ],
+   "explanation": "−2mω × v에서 북반구의 ω 성분 방향 때문입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "3차원 강체의 관성 텐서에는 서로 수직인 주축이 몇 개 있을까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "3 × 3 대칭 행렬이므로 직교하는 고유벡터(주축) 3개",
+   "hint": "3 × 3 대칭 행렬의 고유벡터 수입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "질량 3 kg, 길이 1 m인 가는 막대의 한쪽 끝을 지나는 수직축에 대한 관성 모멘트는 몇 kg·m²일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "I = ML²/3 = 3 × 1 / 3 = 1 kg·m²\n(중심축 ML²/12 + 평행축 M(L/2)²)",
+   "hint": "평행축 정리를 쓰세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "classical-mechanics",
+ "id": "l3-physics-classical-mechanics-u06"
+}

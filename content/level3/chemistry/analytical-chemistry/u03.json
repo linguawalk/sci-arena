@@ -1,0 +1,90 @@
+{
+ "no": 3,
+ "title": "평형 화학의 심화",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "이온 세기와 활동도 계수로 실제 용액의 평형을 계산할 수 있다.",
+  "질량 수지·전하 수지로 복잡한 평형을 체계적으로 풀 수 있다.",
+  "용해도와 착물 형성 평형을 계산할 수 있다."
+ ],
+ "checklist": [
+  "이온 세기와 데바이–휘켈 식",
+  "활동도와 활동도 계수",
+  "체계적 평형 풀이(질량 수지, 전하 수지)",
+  "다양성자산과 분율 도표(α)",
+  "용해도곱과 공통 이온 효과",
+  "착물 형성 상수와 조건부 형성 상수"
+ ],
+ "advice": [
+  "일반화학의 평형 계산은 대부분 근사를 썼지만, 분석화학에서는 여러 평형이 동시에 일어나는 실제 용액을 질량 수지와 전하 수지로 빠짐없이 푸는 법을 배웁니다. 다양성자산(인산 등)의 분율 도표를 스프레드시트로 그려 보면 pH에 따라 어떤 화학종이 우세한지 한눈에 보이며, 이것이 적정과 완충 설계의 기초가 됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "LibreTexts (무료 공개 교재)",
+   "title": "David Harvey, Analytical Chemistry 2.1",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)",
+   "lang": "영어",
+   "part": "6장 Equilibrium Chemistry"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Daniel C. Harris, Quantitative Chemical Analysis (번역본 『분석화학』)",
+   "part": "6~9장 Chemical Equilibrium, Activity, Systematic Treatment, Monoprotic and Polyprotic Acid-Base Equilibria"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "AgCl의 Ksp = 1.8 × 10⁻¹⁰일 때 순수한 물에서의 몰 용해도는 약 몇 × 10⁻⁵ M일까요?",
+   "answer": "1.34",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "explanation": "s² = 1.8 × 10⁻¹⁰\ns ≈ 1.34 × 10⁻⁵ M",
+   "hint": "s = √Ksp입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "용액의 이온 세기가 커지면 이온의 활동도 계수는 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "explanation": "주변 이온이 전하를 가려 유효 농도가 작아집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "AgCl 포화 용액에 NaCl을 넣으면 공통 이온 효과로 AgCl의 용해도가 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "explanation": "Cl⁻가 많아져 평형이 침전 쪽으로 이동합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "analytical-chemistry",
+ "id": "l3-chemistry-analytical-chemistry-u03"
+}

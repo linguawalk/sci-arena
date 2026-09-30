@@ -1,0 +1,88 @@
+{
+ "no": 8,
+ "title": "운동론과 수송 현상",
+ "hours": 4,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "평균 자유 경로와 충돌 빈도를 계산할 수 있다.",
+  "확산·열전도·점성을 같은 틀로 설명할 수 있다.",
+  "무작위 행보로 확산 거리를 추정할 수 있다."
+ ],
+ "checklist": [
+  "평균 자유 경로 ℓ = 1/(√2 nσ)",
+  "충돌 빈도와 평균 속력",
+  "확산과 피크 법칙, 확산 방정식",
+  "열전도와 점성",
+  "무작위 행보와 ⟨x²⟩ ∝ t",
+  "브라운 운동과 아인슈타인 관계"
+ ],
+ "advice": [
+  "확산, 열전도, 점성은 각각 입자, 에너지, 운동량이 분자 충돌로 옮겨지는 같은 현상입니다. 세 계수를 운동론으로 어림해 보면 모두 (평균 속력) × (평균 자유 경로)의 모양이라는 것을 볼 수 있습니다. 확산 거리가 시간의 제곱근에 비례한다는 결과는 생물학(세포 안의 분자 이동)에도 자주 쓰입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Daniel V. Schroeder, An Introduction to Thermal Physics (번역본 『열물리학』)",
+   "part": "1장 1.7절 Rates of Processes"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume I 43장 Diffusion"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "기체의 수 밀도가 2배가 되면 평균 자유 경로는 몇 배가 될까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "ℓ ∝ 1/n\n1/2배",
+   "hint": "밀도에 반비례합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "확산 시간이 4배가 되면 평균 확산 거리는 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "⟨x²⟩ ∝ t이므로 거리 ∝ √t\n√4 = 2배",
+   "hint": "시간의 제곱근에 비례합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "입자 흐름이 농도 기울기에 비례한다는 확산 법칙은 {{1}} 법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "피크"
+     ]
+    }
+   ],
+   "explanation": "J = −D ∂n/∂x",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "thermal-statistical",
+ "id": "l3-physics-thermal-statistical-u08"
+}

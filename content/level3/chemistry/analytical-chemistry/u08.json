@@ -1,0 +1,99 @@
+{
+ "no": 8,
+ "title": "질량 분석, 시료 전처리, 품질 보증",
+ "hours": 5,
+ "after": [
+  7
+ ],
+ "objectives": [
+  "질량 분석기의 이온화원과 질량 분석부를 설명할 수 있다.",
+  "크로마토그래피–질량 분석 결합의 응용을 설명할 수 있다.",
+  "시료 채취·전처리와 품질 보증 체계를 설명할 수 있다."
+ ],
+ "checklist": [
+  "이온화: 전자 이온화, 전자 분무 이온화(ESI), MALDI",
+  "질량 분석부: 사중극자, 비행 시간, 이온 트랩",
+  "GC–MS, LC–MS/MS와 다중 반응 감시",
+  "다가 이온과 단백질 분석",
+  "시료 채취와 대표성",
+  "추출, 고체상 추출, 농축",
+  "품질 관리 도표, 인증 표준물질, 실험실 인증"
+ ],
+ "advice": [
+  "현대 분석 실험실의 주력 장비는 크로마토그래피로 분리하고 질량 분석으로 확인하는 결합 기기입니다. 도핑 검사, 잔류 농약 분석, 단백질체 분석이 모두 이 방식입니다. 동시에 '분석 결과의 가장 큰 오차는 기기보다 시료 채취와 전처리에서 나온다'는 사실을 기억하고, 품질 보증 절차가 왜 필요한지 1단원의 통계와 연결해 정리하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "LibreTexts (무료 공개 교재)",
+   "title": "David Harvey, Analytical Chemistry 2.1",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)",
+   "lang": "영어",
+   "part": "7장 Obtaining and Preparing Samples for Analysis, 14장 Developing a Standard Method"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Skoog · Holler · Crouch, Principles of Instrumental Analysis (번역본 『기기분석』)",
+   "part": "11장, 20장 (질량 분석)"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Daniel C. Harris, Quantitative Chemical Analysis (번역본 『분석화학』)",
+   "part": "22장 Mass Spectrometry"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "단백질처럼 크고 열에 약한 분자를 용액에서 여러 전하를 띤 이온으로 만드는 이온화 방법은 전자 {{1}} 이온화(ESI)입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분무"
+     ]
+    }
+   ],
+   "explanation": "2002년 노벨 화학상(펜)의 주제입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "질량 10000인 단백질이 양성자 2개를 얻어 [M + 2H]²⁺가 되면 m/z는 약 얼마일까요? (H⁺ 질량 1)",
+   "answer": "5001",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "(10000 + 2) / 2 = 5001",
+   "hint": "질량을 전하로 나누세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "분석 결과의 정확도를 확인하기 위해 쓰는, 성분 함량이 공인된 기관에서 보증된 시료를 {{1}} 표준물질이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인증"
+     ]
+    }
+   ],
+   "explanation": "CRM(Certified Reference Material)이라고 합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "analytical-chemistry",
+ "id": "l3-chemistry-analytical-chemistry-u08"
+}

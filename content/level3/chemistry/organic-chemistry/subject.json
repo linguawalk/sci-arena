@@ -1,0 +1,170 @@
+{
+ "level": 3,
+ "track": "chemistry",
+ "id": "organic-chemistry",
+ "title": "유기화학",
+ "tagline": "구조와 전자의 흐름으로 반응을 이해하고, 분광학으로 분자를 확인한다",
+ "overview": [
+  "유기화학은 탄소 화합물의 구조, 성질, 반응을 다룹니다. 외울 반응이 많아 보이지만, 대부분의 반응은 '전자가 풍부한 곳(친핵체)이 전자가 부족한 곳(친전자체)을 공격한다'는 원리와 굽은 화살표로 전자의 이동을 나타내는 반응 메커니즘으로 이해할 수 있습니다.",
+  "과목은 구조와 입체화학, 치환·제거 반응, 알켄과 방향족의 반응, 카보닐 화학, 분광학적 구조 결정의 순서로 진행됩니다. 대학에서는 보통 두 학기에 걸쳐 배우며, 이 가이드는 핵심 반응 유형과 메커니즘에 집중해 8단원으로 묶었습니다.",
+  "화학과·화학공학·약학·생명과학 계열의 공통 전공 과목이며 중등 화학 임용시험의 핵심 과목입니다. 융합 트랙 생화학의 선수 과목이기도 합니다."
+ ],
+ "level_note": "레벨 3 (학부 2학년 전공). 목차 검증 기준: Clayden, Klein, McMurry 교재 목차와 중등 화학 임용시험 유기화학 영역.",
+ "prereq": {
+  "text": "레벨2 일반화학의 화학 결합, 분자 오비탈, 산·염기, 유기화학 입문 단원이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 일반화학 · 3단원 화학 결합과 분자 구조",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=3"
+   },
+   {
+    "title": "레벨2 일반화학 · 4단원 분자 오비탈 이론",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=4"
+   },
+   {
+    "title": "레벨2 일반화학 · 10단원 산·염기 평형",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=10"
+   },
+   {
+    "title": "레벨2 일반화학 · 13단원 유기화학 입문",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=13"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "fill_blank",
+    "prompt": "CH₄에서 C 원자의 혼성 오비탈은 {{1}}입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "sp3",
+       "sp³"
+      ]
+     }
+    ],
+    "explanation": "전자 영역 4개 → sp³ (일반화학 3단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "C₄H₁₀의 구조 이성질체는 몇 가지일까요?",
+    "answer": "2",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "뷰테인과 2-메틸프로페인 (일반화학 13단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "pKa가 작을수록 더 {{1}} 산입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "강한",
+       "센"
+      ]
+     }
+    ],
+    "explanation": "Ka가 클수록 pKa가 작습니다. (일반화학 10단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "융합 레벨3 · 생화학",
+   "note": "생체 분자의 구조와 대사 반응"
+  },
+  {
+   "title": "레벨3 · 분석화학",
+   "note": "크로마토그래피와 분광 분석"
+  },
+  {
+   "title": "tech-arena 레벨2 · 화학공학",
+   "note": "유기 공정과 고분자"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "구조, 결합, 산과 염기",
+   "hours": 6,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "알케인과 입체화학",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "친핵성 치환과 제거 반응",
+   "hours": 7,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "알켄과 알카인의 첨가 반응",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "방향족 화합물",
+   "hours": 6,
+   "after": [
+    4
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "카보닐 화학 1: 알데하이드와 케톤",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "카보닐 화학 2: 카복실산 유도체와 엔올",
+   "hours": 6,
+   "after": [
+    6
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "분광학적 구조 결정과 생체 분자",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 49
+}

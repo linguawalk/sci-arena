@@ -1,0 +1,101 @@
+{
+ "no": 6,
+ "title": "분자 구조와 분광학",
+ "hours": 6,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "LCAO와 휘켈 방법으로 분자 오비탈을 구성할 수 있다.",
+  "회전·진동·전자 분광의 선택 규칙과 스펙트럼을 해석할 수 있다.",
+  "NMR의 원리를 설명할 수 있다."
+ ],
+ "checklist": [
+  "보른–오펜하이머 근사",
+  "LCAO 분자 오비탈과 H₂⁺",
+  "휘켈 분자 오비탈 이론(에틸렌, 뷰타다이엔, 벤젠)",
+  "마이크로파(회전) 분광: 선 간격 2B",
+  "적외선(진동) 분광과 선택 규칙",
+  "전자 분광, 형광과 인광",
+  "NMR의 원리와 화학적 이동"
+ ],
+ "advice": [
+  "분광학은 '에너지 준위 사이의 간격을 빛으로 잰다'는 한 가지 원리입니다. 5단원의 세 모형(회전자, 진동자, 상자 속 입자)이 각각 마이크로파, 적외선, 자외선–가시광선 분광에 대응한다는 표를 만들어 두세요. 선택 규칙(진동 분광은 쌍극자 모멘트가 변해야 한다 등)을 알면 어떤 분자가 어떤 스펙트럼을 보일지 미리 예측할 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Atkins · de Paula · Keeler, Atkins' Physical Chemistry (11판 이후, 번역본 『물리화학』)",
+   "part": "10~12장 Molecular structure, symmetry, spectroscopy"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.61 Physical Chemistry (2017년 가을, 양자화학)",
+   "url": "https://ocw.mit.edu/courses/5-61-physical-chemistry-fall-2017/",
+   "lang": "영어",
+   "part": "Lecture 21~36"
+  },
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "McQuarrie · Simon, Physical Chemistry: A Molecular Approach (번역본 『물리화학』)",
+   "part": "9~15장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "휘켈 방법은 공액 분자의 {{1}} 전자만 따로 다루는 근사입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "π",
+      "파이",
+      "pi"
+     ]
+    }
+   ],
+   "explanation": "σ 골격과 π 계를 분리해 계산합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "분자 진동이 적외선을 흡수하려면 진동할 때 {{1}} 모멘트가 변해야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "쌍극자"
+     ]
+    }
+   ],
+   "explanation": "그래서 N₂, O₂ 같은 동핵 이원자 분자는 적외선을 흡수하지 않습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "회전 상수 B = 10 cm⁻¹인 분자의 순수 회전 스펙트럼에서 이웃한 선 사이 간격은 몇 cm⁻¹일까요?",
+   "answer": "20",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "ΔJ = +1 전이의 에너지 2B(J + 1)\n이웃한 선 간격은 2B = 20 cm⁻¹",
+   "hint": "2B입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "physical-chemistry",
+ "id": "l3-chemistry-physical-chemistry-u06"
+}

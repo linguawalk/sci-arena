@@ -1,0 +1,84 @@
+{
+ "no": 6,
+ "title": "결정장·리간드장 이론",
+ "hours": 6,
+ "after": [
+  3,
+  5
+ ],
+ "objectives": [
+  "팔면체·사면체장에서 d 오비탈 갈라짐을 그릴 수 있다.",
+  "결정장 안정화 에너지와 고스핀·저스핀을 판정할 수 있다.",
+  "분광화학적 계열로 착물의 색과 자성을 설명할 수 있다."
+ ],
+ "checklist": [
+  "팔면체장의 t₂g와 e_g 갈라짐, Δₒ",
+  "사면체장 Δ_t ≈ (4/9)Δₒ",
+  "결정장 안정화 에너지(CFSE)",
+  "고스핀·저스핀과 짝지음 에너지",
+  "분광화학적 계열(I⁻ < ... < CN⁻ < CO)",
+  "얀–텔러 효과",
+  "리간드장 이론(σ·π 결합)과 전자 스펙트럼"
+ ],
+ "advice": [
+  "결정장 이론은 전이 금속 착물의 색과 자성을 'd 오비탈 에너지 차이 Δ와 짝지음 에너지의 경쟁'으로 설명합니다. d¹부터 d¹⁰까지 팔면체장에서 고스핀·저스핀 배치와 홀전자 수, CFSE를 표로 직접 채워 보세요. 이 표 하나로 대부분의 문제를 풀 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Miessler · Fischer · Tarr, Inorganic Chemistry (5판, 번역본 『무기화학』)",
+   "part": "10~11장 Coordination Chemistry II: Bonding; III: Electronic Spectra"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Housecroft · Sharpe, Inorganic Chemistry (번역본 『무기화학』)",
+   "part": "20장 d-Block metal chemistry: coordination complexes 결합 이론"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "팔면체 저스핀 d⁶ 착물(예: [Fe(CN)₆]⁴⁻)의 홀전자 수는?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "t₂g⁶ e_g⁰\n모든 전자가 짝을 이룹니다(반자성).",
+   "hint": "t₂g 오비탈 3개를 먼저 채웁니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "팔면체 고스핀 d⁵ 착물(예: [Mn(H₂O)₆]²⁺)의 홀전자 수는?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "t₂g³ e_g²\n다섯 전자가 모두 홀전자",
+   "hint": "짝짓기 전에 모든 오비탈을 하나씩 채웁니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "팔면체장에서 d³ 착물의 결정장 안정화 에너지는 Δₒ의 몇 배일까요?",
+   "answer": "-1.2",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "t₂g 전자 하나당 −0.4Δₒ\n3 × (−0.4) = −1.2Δₒ",
+   "hint": "t₂g 전자는 −0.4Δₒ씩입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "inorganic-chemistry",
+ "id": "l3-chemistry-inorganic-chemistry-u06"
+}

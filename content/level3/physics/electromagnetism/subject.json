@@ -1,0 +1,163 @@
+{
+ "level": 3,
+ "track": "physics",
+ "id": "electromagnetism",
+ "title": "전자기학과 광학",
+ "tagline": "맥스웰 방정식을 벡터 미적분으로 풀고, 전자기파에서 파동 광학까지",
+ "overview": [
+  "전자기학은 일반물리에서 적분형으로 배운 맥스웰 방정식을 미분형(발산과 회전)으로 다시 쓰고, 경계값 문제와 물질 속 전자기장, 전자기파와 복사까지 체계적으로 푸는 과목입니다. 벡터 미적분과 편미분방정식(라플라스 방정식)이 주요 도구입니다.",
+  "이 가이드는 파동·광학을 전자기학의 후반부로 통합했습니다. 전자기파의 반사와 굴절, 편광에서 출발해 간섭, 회절, 결맞음, 레이저까지 빛을 전자기파로 다루는 흐름입니다. 마지막 단원에서 복사와 상대론적 전기역학을 다룹니다.",
+  "물리학과 전공필수이며 중등 물리 임용시험의 핵심 과목입니다. tech-arena 전기전자 레벨3(전자기장·통신)의 이론적 기초이기도 합니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Griffiths 『Introduction to Electrodynamics』와 Hecht 『Optics』 목차, 중등 물리 임용시험 전자기·광학 영역.",
+ "prereq": {
+  "text": "레벨2 일반물리의 전자기 단원과 math-arena 레벨2 대학 미적분학(다변수: 발산정리·스토크스 정리)이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 일반물리 · 9단원 전기장과 가우스 법칙",
+    "href": "guide.html?lv=2&t=physics&s=general-physics&u=9"
+   },
+   {
+    "title": "레벨2 일반물리 · 11단원 자기장, 전자기 유도, 맥스웰 방정식",
+    "href": "guide.html?lv=2&t=physics&s=general-physics&u=11"
+   },
+   {
+    "title": "레벨2 일반물리 · 12단원 광학과 현대물리 입문",
+    "href": "guide.html?lv=2&t=physics&s=general-physics&u=12"
+   },
+   {
+    "title": "math-arena 레벨2 · 대학 미적분학(다변수)",
+    "href": "https://math-arena.org/guide.html?lv=2&t=analysis&s=calculus"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "F = (x, y, z)의 발산 ∇·F는?",
+    "answer": "3",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "1 + 1 + 1 = 3 (다변수 미적분)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "fill_blank",
+    "prompt": "폐곡면을 지나는 전기 선속은 내부 전하를 {{1}}으로 나눈 값입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "ε₀",
+       "ε0",
+       "엡실론0",
+       "진공 유전율"
+      ]
+     }
+    ],
+    "explanation": "가우스 법칙 ∮E·dA = q/ε₀ (일반물리 9단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "파장 500 nm의 빛이 굴절률 1.5인 유리 속에서 갖는 파장은 몇 nm일까요?",
+    "answer": "333",
+    "answer_format": "integer",
+    "tolerance": 1,
+    "explanation": "λ/n = 500/1.5 ≈ 333 nm (일반물리 12단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 양자역학과 현대물리",
+   "note": "빛과 원자의 상호작용을 양자적으로"
+  },
+  {
+   "title": "tech-arena 레벨3 · 전자기장과 통신",
+   "note": "안테나, 도파관, 전송선로"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "벡터 해석과 정전기학",
+   "hours": 7,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "퍼텐셜 경계값 문제",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "물질 속의 전기장",
+   "hours": 4,
+   "after": [
+    1
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "정자기학과 물질 속의 자기장",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "전기역학과 맥스웰 방정식",
+   "hours": 6,
+   "after": [
+    3,
+    4
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "전자기파",
+   "hours": 6,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "파동 광학",
+   "hours": 6,
+   "after": [
+    6
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "복사와 상대론적 전기역학",
+   "hours": 5,
+   "after": [
+    6
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 46
+}

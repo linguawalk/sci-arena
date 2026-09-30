@@ -1,0 +1,93 @@
+{
+ "no": 8,
+ "title": "특수 상대성이론",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "로런츠 변환으로 시간 지연과 길이 수축을 유도할 수 있다.",
+  "4-벡터와 불변량으로 운동학 문제를 풀 수 있다.",
+  "상대론적 에너지와 운동량으로 충돌과 붕괴를 분석할 수 있다."
+ ],
+ "checklist": [
+  "아인슈타인의 두 가설과 동시성의 상대성",
+  "로런츠 변환과 γ = 1/√(1 − v²/c²)",
+  "시간 지연, 길이 수축, 속도 합성",
+  "시공간 도표와 고유 시간",
+  "4-벡터, 민코프스키 계량, 불변량",
+  "E = γmc², E² = (pc)² + (mc²)²",
+  "상대론적 충돌과 입자 붕괴"
+ ],
+ "advice": [
+  "상대성이론의 역설(쌍둥이 역설, 막대와 헛간)은 대부분 '동시성이 관측자마다 다르다'는 점을 놓쳐서 생깁니다. 시공간 도표를 그려서 푸는 습관을 들이면 역설이 저절로 풀립니다. 충돌 문제는 4-운동량의 불변량 E² − (pc)²을 쓰면 좌표계를 바꾸지 않고도 짧게 풀 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "John R. Taylor, Classical Mechanics (번역본 『고전역학』)",
+   "part": "15장 Special Relativity"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Dynamics and Relativity 외 강의 노트 목록",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/teaching.html",
+   "lang": "영어",
+   "part": "Dynamics and Relativity 노트 5~7장"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume I 15~17장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "v = 0.6c로 움직이는 물체의 로런츠 인자 γ는?",
+   "answer": "1.25",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "explanation": "γ = 1/√(1 − 0.36) = 1/0.8 = 1.25",
+   "hint": "1/√(1 − β²)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "위 물체에서 고유 시간으로 10초가 지날 때 정지 관측자가 재는 시간은 몇 초일까요?",
+   "answer": "12.5",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "Δt = γΔτ = 1.25 × 10 = 12.5 s",
+   "hint": "시간 지연입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "γ = 2인 입자의 운동 에너지는 정지 에너지 mc²의 몇 배일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "K = (γ − 1)mc² = mc²",
+   "hint": "K = E − mc²입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "classical-mechanics",
+ "id": "l3-physics-classical-mechanics-u08"
+}

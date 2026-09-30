@@ -1,0 +1,96 @@
+{
+ "no": 2,
+ "title": "진동: 감쇠, 강제 진동, 공명",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "감쇠 진동의 세 경우(과소·임계·과대)를 구별할 수 있다.",
+  "강제 진동의 진폭과 위상을 구하고 공명을 설명할 수 있다.",
+  "주기적 외력을 푸리에 급수로 분해할 수 있다."
+ ],
+ "checklist": [
+  "x″ + 2βx′ + ω₀²x = 0과 특성 방정식",
+  "과소 감쇠 ω₁ = √(ω₀² − β²), 임계 감쇠 β = ω₀",
+  "강제 진동의 정상 상태 해와 위상 지연",
+  "공명 곡선과 품질 인자 Q = ω₀/(2β)",
+  "푸리에 급수와 중첩",
+  "비선형 진동과 혼돈 입문"
+ ],
+ "advice": [
+  "감쇠·강제 진동은 LC 회로, 원자의 빛 흡수, 건물의 지진 응답까지 같은 식으로 쓰입니다. 복소수 지수 함수 e^(iωt)로 해를 구하는 방법을 반드시 익히세요. 삼각함수로 푸는 것보다 계산이 훨씬 짧고, 전자기학과 양자역학에서 그대로 쓰입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "John R. Taylor, Classical Mechanics (번역본 『고전역학』)",
+   "part": "5장 Oscillations"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.03SC Physics III: Vibrations and Waves (2016년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/",
+   "lang": "영어",
+   "part": "Lecture 1~6 (damped and driven oscillators)"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume I 21~25장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "x″ + 12x′ + 100x = 0으로 과소 감쇠 진동하는 계의 각진동수 ω₁은? (2β = 12, ω₀² = 100)",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "β = 6, ω₀ = 10\nω₁ = √(100 − 36) = 8",
+   "hint": "ω₁ = √(ω₀² − β²)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "ω₀ = 10 rad/s, β = 0.5 s⁻¹인 진동자의 품질 인자 Q는?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Q = ω₀/(2β) = 10/1 = 10",
+   "hint": "Q = ω₀/(2β)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "평형으로 가장 빨리 돌아가며 진동하지 않는 감쇠는 β = ω₀인 {{1}} 감쇠입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "임계"
+     ]
+    }
+   ],
+   "explanation": "β < ω₀이면 과소 감쇠, β > ω₀이면 과대 감쇠입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "classical-mechanics",
+ "id": "l3-physics-classical-mechanics-u02"
+}

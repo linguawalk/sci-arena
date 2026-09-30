@@ -1,0 +1,88 @@
+{
+ "no": 8,
+ "title": "복사와 상대론적 전기역학",
+ "hours": 5,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "지연 퍼텐셜과 쌍극자 복사를 설명할 수 있다.",
+  "라모어 공식으로 가속 전하의 복사를 계산할 수 있다.",
+  "전자기장을 4-벡터와 텐서로 쓸 수 있다."
+ ],
+ "checklist": [
+  "스칼라·벡터 퍼텐셜과 게이지(쿨롱, 로렌츠)",
+  "지연 퍼텐셜",
+  "전기 쌍극자 복사, P ∝ ω⁴",
+  "라모어 공식 P = q²a²/(6πε₀c³)",
+  "레일리 산란과 하늘의 색",
+  "전자기장 텐서와 로런츠 변환"
+ ],
+ "advice": [
+  "가속하는 전하만 빛을 낸다는 사실은 안테나, X선관, 싱크로트론, 그리고 고전적 원자 모형의 붕괴 문제까지 연결됩니다. 쌍극자 복사 세기가 ω⁴에 비례한다는 결과 하나로 하늘이 파란 이유를 설명해 보세요. 상대론적 전기역학은 고전역학 8단원을 먼저 본 뒤 공부하면 쉽습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "David J. Griffiths, Introduction to Electrodynamics (4판, 번역본 『전자기학』)",
+   "part": "10~12장 Potentials and Fields, Radiation, Electrodynamics and Relativity"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Electromagnetism",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/em.html",
+   "lang": "영어",
+   "part": "4~5장 Electromagnetism and Relativity, Electromagnetic Radiation"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "진동하는 전기 쌍극자의 복사 세기는 ω⁴에 비례합니다. 진동수가 2배가 되면 복사 세기는 몇 배일까요?",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "P ∝ ω⁴이므로 2⁴ = 16배",
+   "hint": "ω⁴에 비례합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "라모어 공식에서 전하의 가속도가 2배가 되면 복사 일률은 몇 배일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "P ∝ a²\n2² = 4배",
+   "hint": "a²에 비례합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "파장이 짧은 파란빛이 더 많이 산란되어 하늘이 파랗게 보이는 현상을 {{1}} 산란이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "레일리"
+     ]
+    }
+   ],
+   "explanation": "산란 세기 ∝ 1/λ⁴입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "electromagnetism",
+ "id": "l3-physics-electromagnetism-u08"
+}

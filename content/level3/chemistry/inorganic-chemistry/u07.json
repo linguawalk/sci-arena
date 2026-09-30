@@ -1,0 +1,91 @@
+{
+ "no": 7,
+ "title": "배위 화합물의 반응과 유기금속 화학",
+ "hours": 6,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "리간드 치환 반응의 메커니즘과 트랜스 효과를 설명할 수 있다.",
+  "18전자 규칙으로 유기금속 화합물의 안정성을 판단할 수 있다.",
+  "유기금속 촉매 순환의 기본 단계를 설명할 수 있다."
+ ],
+ "checklist": [
+  "치환 반응: 해리(D)·회합(A)·교환(I) 메커니즘",
+  "불활성·치환 활성 착물",
+  "평면 사각 착물의 트랜스 효과",
+  "전자 이동 반응(내부권·외부권)",
+  "18전자 규칙과 전자 세기",
+  "금속 카보닐과 역결합",
+  "산화적 첨가, 환원적 제거, 이동 삽입과 촉매 순환(수소화, 교차 결합)"
+ ],
+ "advice": [
+  "유기금속 촉매는 현대 합성 화학과 화학 산업의 중심입니다(여러 차례 노벨 화학상의 주제). 18전자 세기를 여러 화합물로 연습한 뒤, 윌킨슨 촉매의 수소화 순환이나 팔라듐 교차 결합 순환을 '산화적 첨가 → 이동 삽입 → 환원적 제거'의 단계로 따라가 보세요. 유기화학의 반응 메커니즘과 연결됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Miessler · Fischer · Tarr, Inorganic Chemistry (5판, 번역본 『무기화학』)",
+   "part": "12~14장 Coordination Chemistry IV: Reactions and Mechanisms, Organometallic Chemistry, Organometallic Reactions and Catalysis"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Housecroft · Sharpe, Inorganic Chemistry (번역본 『무기화학』)",
+   "part": "24장 Organometallic compounds of d-block elements"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "Cr(CO)₆에서 Cr(0)의 d 전자 6개와 CO 여섯 개가 주는 전자를 합한 원자가 전자 수는?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "6 + 6 × 2 = 18\n18전자 규칙을 만족합니다.",
+   "hint": "CO는 전자 2개를 줍니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "평면 사각 착물에서 특정 리간드가 자신과 마주 보는 자리의 리간드를 잘 치환되게 하는 효과를 {{1}} 효과라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "트랜스"
+     ]
+    }
+   ],
+   "explanation": "시스플라틴 합성 경로를 설계하는 데 쓰입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "촉매 순환의 마지막에 금속에서 두 리간드가 결합해 생성물로 떨어져 나가는 단계를 {{1}} 제거라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "환원적"
+     ]
+    }
+   ],
+   "explanation": "산화적 첨가의 역과정입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "inorganic-chemistry",
+ "id": "l3-chemistry-inorganic-chemistry-u07"
+}

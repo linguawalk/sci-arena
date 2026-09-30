@@ -1,0 +1,90 @@
+{
+ "no": 1,
+ "title": "열역학 법칙과 열역학 퍼텐셜",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "열역학 제1·2법칙을 미분 형태로 쓸 수 있다.",
+  "U, H, F, G의 자연 변수와 쓰임을 구별할 수 있다.",
+  "맥스웰 관계식으로 측정 가능한 양을 연결할 수 있다."
+ ],
+ "checklist": [
+  "dU = T dS − P dV",
+  "열용량 C_V, C_P와 이상 기체의 γ",
+  "엔탈피 H, 헬름홀츠 F = U − TS, 깁스 G = H − TS",
+  "르장드르 변환과 자연 변수",
+  "맥스웰 관계식",
+  "평형 조건: 일정 T·P에서 G 최소"
+ ],
+ "advice": [
+  "열역학 퍼텐셜 네 개가 헷갈리면 '어떤 변수를 일정하게 두는 실험인가'로 고르세요. 화학 반응처럼 일정 온도·압력이면 G, 일정 온도·부피면 F입니다. 맥스웰 관계식은 외우기보다 각 퍼텐셜의 미분식에서 2차 편미분의 순서를 바꾸어 직접 끌어내는 연습을 하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Daniel V. Schroeder, An Introduction to Thermal Physics (번역본 『열물리학』)",
+   "part": "1~5장 Energy in Thermal Physics ~ Free Energy and Chemical Thermodynamics"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.044 Statistical Physics I (2013년 봄)",
+   "url": "https://ocw.mit.edu/courses/8-044-statistical-physics-i-spring-2013/",
+   "lang": "영어",
+   "part": "Lecture notes (thermodynamics)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "F = U − TS로 정의되는 열역학 퍼텐셜을 {{1}} 자유 에너지라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "헬름홀츠"
+     ]
+    }
+   ],
+   "explanation": "일정 온도·부피 조건에서 평형이면 F가 최소입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "단원자 이상 기체의 비열 비 γ = C_P/C_V는? (소수 둘째 자리까지)",
+   "answer": "1.67",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "C_V = (3/2)R, C_P = (5/2)R\nγ = 5/3 ≈ 1.67",
+   "hint": "C_P = C_V + R입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "일정한 온도와 압력에서 평형 상태는 {{1}} 자유 에너지가 최소인 상태입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "깁스"
+     ]
+    }
+   ],
+   "explanation": "그래서 화학에서 ΔG로 자발성을 판단합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "thermal-statistical",
+ "id": "l3-physics-thermal-statistical-u01"
+}

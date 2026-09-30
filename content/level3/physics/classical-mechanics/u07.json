@@ -1,0 +1,97 @@
+{
+ "no": 7,
+ "title": "연성 진동자와 정규 모드",
+ "hours": 5,
+ "after": [
+  2,
+  3
+ ],
+ "objectives": [
+  "여러 자유도의 작은 진동을 행렬 고유값 문제로 쓸 수 있다.",
+  "정규 모드와 정규 진동수를 구할 수 있다.",
+  "연속체(줄)의 파동을 정규 모드의 극한으로 설명할 수 있다."
+ ],
+ "checklist": [
+  "평형점 근처의 작은 진동과 이차 근사",
+  "질량 행렬 M, 강성 행렬 K와 det(K − ω²M) = 0",
+  "정규 모드와 정규 좌표",
+  "두 진자, 세 질점 사슬",
+  "연속 극한과 파동 방정식",
+  "분자 진동과 고체의 격자 진동 입문"
+ ],
+ "advice": [
+  "정규 모드는 '복잡한 진동도 서로 독립적인 단순 진동의 합'이라는 생각입니다. 두 질점–세 용수철 문제를 손으로 완전히 풀고, 한 질점만 밀었을 때 에너지가 두 질점 사이를 오가는 맥놀이 현상을 정규 모드의 중첩으로 설명해 보세요. 이 생각은 양자역학의 고유 상태 전개와 고체 물리의 포논으로 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "John R. Taylor, Classical Mechanics (번역본 『고전역학』)",
+   "part": "11장 Coupled Oscillators and Normal Modes"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.03SC Physics III: Vibrations and Waves (2016년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/",
+   "lang": "영어",
+   "part": "Lecture 7~12 (coupled oscillators, normal modes)"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume I 49장 Modes"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "질량 m 두 개를 같은 용수철 상수 k인 용수철 세 개로 벽 사이에 연결했습니다. k/m = 1일 때 큰 정규 진동수는? (소수 셋째 자리까지)",
+   "answer": "1.732",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "ω₁ = √(k/m) = 1 (같은 방향)\nω₂ = √(3k/m) = √3 ≈ 1.732 (반대 방향)",
+   "hint": "두 질점이 반대로 움직이는 모드입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "1차원으로만 움직이는 질점 3개가 용수철로 연결된 계의 정규 모드는 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "자유도 수만큼 정규 모드가 있습니다.",
+   "hint": "자유도를 세세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "계의 모든 부분이 같은 진동수로 진동하는 운동 형태를 {{1}} 모드라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정규"
+     ]
+    }
+   ],
+   "explanation": "일반적인 운동은 정규 모드의 중첩입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "classical-mechanics",
+ "id": "l3-physics-classical-mechanics-u07"
+}

@@ -1,0 +1,99 @@
+{
+ "no": 3,
+ "title": "친핵성 치환과 제거 반응",
+ "hours": 7,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "SN1과 SN2의 메커니즘, 속도식, 입체화학을 비교할 수 있다.",
+  "E1과 E2 반응과 자이체프 규칙을 설명할 수 있다.",
+  "기질·친핵체·용매·온도로 네 반응의 경쟁을 판단할 수 있다."
+ ],
+ "checklist": [
+  "할로젠화 알킬과 이탈기",
+  "SN2: 2차 속도식, 뒤쪽 공격, 입체 반전",
+  "SN1: 탄소 양이온, 1차 속도식, 라세미화, 자리옮김",
+  "E2: 안티 동일 평면, 자이체프·호프만 생성물",
+  "E1과 탄소 양이온",
+  "기질(1·2·3차), 친핵체 세기, 용매(양성자성·비양성자성)",
+  "치환 대 제거의 경쟁"
+ ],
+ "advice": [
+  "이 단원은 유기화학 반응 선택의 첫 번째 큰 관문입니다. '기질의 차수 → 친핵체/염기의 세기와 크기 → 용매 → 온도'의 순서로 판단하는 흐름도를 직접 만들어 벽에 붙여 두세요. 각 반응의 속도식과 입체화학 결과가 메커니즘에서 어떻게 나오는지 연결하면 외울 것이 크게 줄어듭니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Clayden · Greeves · Warren, Organic Chemistry (2판, 번역본 『유기화학』)",
+   "part": "15장 Nucleophilic substitution at saturated carbon, 17장 Elimination reactions"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Klein, Organic Chemistry (번역본 『유기화학』)",
+   "part": "7~8장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.12 Organic Chemistry I (2003년 봄)",
+   "url": "https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2003/",
+   "lang": "영어",
+   "part": "강의 노트 (substitution and elimination)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "SN2 반응의 전체 반응 차수는?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "속도 = k[기질][친핵체]\n1 + 1 = 2차",
+   "hint": "두 분자가 한 단계에서 반응합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "SN2 반응에서 카이랄 중심의 배열은 {{1}}됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반전"
+     ]
+    }
+   ],
+   "explanation": "친핵체가 이탈기의 반대쪽에서 공격하기 때문입니다(왈덴 반전).",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "3차 할로젠화 알킬이 극성 양성자성 용매에서 약한 친핵체와 반응하면 주로 {{1}} 반응이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "SN1"
+     ]
+    }
+   ],
+   "explanation": "안정한 3차 탄소 양이온을 거칩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "organic-chemistry",
+ "id": "l3-chemistry-organic-chemistry-u03"
+}

@@ -1,0 +1,90 @@
+{
+ "no": 8,
+ "title": "화학 반응 속도론",
+ "hours": 6,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "복잡한 반응 메커니즘에서 속도식을 유도할 수 있다.",
+  "아레니우스 식과 전이 상태 이론을 설명할 수 있다.",
+  "효소·촉매 반응의 속도론을 분석할 수 있다."
+ ],
+ "checklist": [
+  "적분 속도식과 반감기(0·1·2차)",
+  "기본 단계와 분자도",
+  "정상 상태 근사와 속도 결정 단계",
+  "연쇄 반응",
+  "아레니우스 식과 활성화 에너지 결정",
+  "충돌 이론과 전이 상태 이론(아이링 식)",
+  "미카엘리스–멘텐 식과 촉매 반응"
+ ],
+ "advice": [
+  "메커니즘에서 속도식을 유도하는 정상 상태 근사는 이 단원의 가장 중요한 기술입니다. 중간체의 농도 변화를 0으로 두고 식을 정리하는 과정을 여러 반응(N₂O₅ 분해, 효소 반응)에 반복 적용해 보세요. 미카엘리스–멘텐 식은 생화학의 효소 속도론으로 바로 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Atkins · de Paula · Keeler, Atkins' Physical Chemistry (11판 이후, 번역본 『물리화학』)",
+   "part": "17~18장 Chemical kinetics, Reaction dynamics"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.60 Thermodynamics & Kinetics (2008년 봄)",
+   "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/",
+   "lang": "영어",
+   "part": "Lecture 29~36"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "반응 중간체의 농도가 거의 변하지 않는다고 보고 속도식을 유도하는 방법을 {{1}} 근사라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정상 상태",
+      "정상상태"
+     ]
+    }
+   ],
+   "explanation": "d[중간체]/dt ≈ 0으로 둡니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "300 K에서 310 K로 올릴 때 속도 상수가 2배가 되는 반응의 활성화 에너지는 약 몇 kJ/mol일까요? (R = 8.314 J/(mol·K))",
+   "answer": "53.6",
+   "answer_format": "decimal",
+   "tolerance": 1,
+   "explanation": "Ea = R ln 2 / (1/300 − 1/310) ≈ 5.763 / 1.075 × 10⁻⁴ ≈ 53 600 J/mol",
+   "hint": "아레니우스 식의 두 온도 형태입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "미카엘리스–멘텐 식에서 [S] = K_M일 때 반응 속도는 최대 속도의 몇 배일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "v = V_max[S]/(K_M + [S]) = V_max/2",
+   "hint": "[S]에 K_M을 넣으세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "physical-chemistry",
+ "id": "l3-chemistry-physical-chemistry-u08"
+}

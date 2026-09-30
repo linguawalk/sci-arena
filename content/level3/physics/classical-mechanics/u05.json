@@ -1,0 +1,94 @@
+{
+ "no": 5,
+ "title": "중심력과 궤도",
+ "hours": 5,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "두 물체 문제를 환산 질량으로 한 물체 문제로 바꿀 수 있다.",
+  "유효 퍼텐셜로 궤도의 종류를 판정할 수 있다.",
+  "궤도 방정식을 풀어 케플러 법칙을 유도할 수 있다."
+ ],
+ "checklist": [
+  "질량 중심 좌표와 환산 질량 μ = m₁m₂/(m₁ + m₂)",
+  "각운동량 보존과 평면 운동",
+  "유효 퍼텐셜 U_eff = U + L²/(2μr²)",
+  "원·타원·포물선·쌍곡선 궤도와 이심률",
+  "케플러 법칙의 유도",
+  "궤도 이동(호만 전이)과 산란 입문"
+ ],
+ "advice": [
+  "유효 퍼텐셜 그래프 한 장이 이 단원의 전부라고 해도 좋습니다. 에너지 수준선을 그어 전환점(근일점, 원일점)과 궤도의 종류를 읽는 연습을 충분히 하세요. 레벨1 물리Ⅱ와 지학Ⅱ에서 결과로만 배운 케플러 법칙이 여기서 운동 방정식의 해로 나오는 과정을 따라가면, 고전역학이 무엇을 할 수 있는지 실감하게 됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "John R. Taylor, Classical Mechanics (번역본 『고전역학』)",
+   "part": "8장 Two-Body Central-Force Problems"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Thornton · Marion, Classical Dynamics of Particles and Systems (5판, 번역본 『고전역학』)",
+   "part": "8장 Central-Force Motion"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume I 7장 The Theory of Gravitation"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "질량이 각각 2 kg인 두 물체의 환산 질량은 몇 kg일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "μ = 2 × 2 / (2 + 2) = 1 kg",
+   "hint": "μ = m₁m₂/(m₁ + m₂)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "U = −k/r인 중심력에서 μ = 1, k = 4, L = 2(모두 같은 단위계)일 때 원궤도의 반지름은?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "원궤도: U_eff의 최솟값\nr₀ = L²/(μk) = 4/4 = 1",
+   "hint": "dU_eff/dr = 0을 푸세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "이심률 e = 0인 궤도는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "원"
+     ]
+    }
+   ],
+   "explanation": "0 < e < 1 타원, e = 1 포물선, e > 1 쌍곡선입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "classical-mechanics",
+ "id": "l3-physics-classical-mechanics-u05"
+}

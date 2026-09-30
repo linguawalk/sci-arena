@@ -1,0 +1,92 @@
+{
+ "no": 3,
+ "title": "양자역학의 형식론",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "상태를 힐베르트 공간의 벡터로, 관측량을 에르미트 연산자로 나타낼 수 있다.",
+  "측정 가설과 일반화된 불확정성 원리를 설명할 수 있다.",
+  "디랙 표기로 계산할 수 있다."
+ ],
+ "checklist": [
+  "힐베르트 공간과 내적, 디랙 표기 ⟨α|β⟩",
+  "에르미트 연산자와 실수 고유값, 직교 고유 함수",
+  "측정 가설과 파동 함수 붕괴",
+  "교환자 [x, p] = iħ",
+  "일반화된 불확정성 원리 σ_Aσ_B ≥ |⟨[A, B]⟩|/2",
+  "시간에 따른 기댓값 변화, 에너지–시간 불확정성"
+ ],
+ "advice": [
+  "형식론은 선형대수를 양자역학의 언어로 번역하는 단원입니다. 유한 차원(2×2 행렬) 예제로 고유값, 고유벡터, 측정 확률을 계산해 보면 무한 차원 함수 공간에서도 같은 논리가 적용된다는 것을 이해할 수 있습니다. 5단원의 스핀이 바로 이런 2차원 예입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Griffiths · Schroeter, Introduction to Quantum Mechanics (3판, 번역본 『양자역학』)",
+   "part": "3장 Formalism"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.05 Quantum Physics II (2013년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/",
+   "lang": "영어",
+   "part": "Lecture 1~10 (Dirac notation, operators)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "관측량을 나타내는 에르미트 연산자의 고유값은 항상 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "실수"
+     ]
+    }
+   ],
+   "explanation": "측정값은 실수여야 하기 때문입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "두 연산자가 {{1}} 가능하면(교환자가 0이면) 두 관측량을 동시에 정확히 측정할 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "교환"
+     ]
+    }
+   ],
+   "explanation": "공통 고유 상태가 존재합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "위치–운동량 불확정성 σ_xσ_p의 최솟값은 ħ의 몇 배일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "σ_xσ_p ≥ ħ/2\n가우스 파동 묶음에서 등호",
+   "hint": "ħ/2입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "quantum-mechanics",
+ "id": "l3-physics-quantum-mechanics-u03"
+}

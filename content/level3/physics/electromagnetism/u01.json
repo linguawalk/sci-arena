@@ -1,0 +1,90 @@
+{
+ "no": 1,
+ "title": "벡터 해석과 정전기학",
+ "hours": 7,
+ "after": [],
+ "objectives": [
+  "기울기·발산·회전과 적분 정리를 전자기 문제에 쓸 수 있다.",
+  "가우스 법칙의 미분형 ∇·E = ρ/ε₀를 쓸 수 있다.",
+  "전위와 정전 에너지를 계산할 수 있다."
+ ],
+ "checklist": [
+  "기울기, 발산, 회전과 라플라시안",
+  "발산정리와 스토크스 정리",
+  "디랙 델타 함수",
+  "∇·E = ρ/ε₀, ∇ × E = 0",
+  "전위 V와 E = −∇V, 푸아송 방정식",
+  "정전 에너지와 도체"
+ ],
+ "advice": [
+  "Griffiths 1장의 벡터 해석은 가볍게 넘기기 쉽지만 이후 모든 단원의 언어입니다. 구면·원통 좌표의 발산과 회전 공식을 매번 찾아볼 수 있게 표로 정리하고, 1/r² 장의 발산이 원점에서 델타 함수가 된다는 것을 이해하면 점전하와 연속 전하를 하나의 식으로 다룰 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "David J. Griffiths, Introduction to Electrodynamics (4판, 번역본 『전자기학』)",
+   "part": "1~2장 Vector Analysis, Electrostatics"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Electromagnetism",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/em.html",
+   "lang": "영어",
+   "part": "Div, Grad and Curl, 1장 Electrostatics"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume II 1~5장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "r = (x, y, z)의 발산 ∇·r은?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "∂x/∂x + ∂y/∂y + ∂z/∂z = 3",
+   "hint": "성분별로 미분하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "정전기장 E의 회전 ∇ × E는?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "정전기장은 보존장이므로 회전이 0입니다.\n그래서 전위 V가 존재합니다.",
+   "hint": "보존장입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "전하가 고르게 분포한 반지름 R인 구의 내부에서, r = R/2인 곳의 전기장은 표면(r = R) 전기장의 몇 배일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "내부에서 E ∝ r (가우스 법칙)\n(R/2)/R = 0.5",
+   "hint": "내부 전하가 r³에 비례합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "electromagnetism",
+ "id": "l3-physics-electromagnetism-u01"
+}

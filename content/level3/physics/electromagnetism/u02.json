@@ -1,0 +1,87 @@
+{
+ "no": 2,
+ "title": "퍼텐셜 경계값 문제",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "라플라스 방정식의 성질과 유일성 정리를 설명할 수 있다.",
+  "영상법과 변수 분리법으로 전위를 구할 수 있다.",
+  "다중극 전개로 먼 곳의 전위를 근사할 수 있다."
+ ],
+ "checklist": [
+  "라플라스 방정식 ∇²V = 0과 평균값 성질",
+  "유일성 정리",
+  "영상 전하법",
+  "직교·구면 좌표 변수 분리, 르장드르 다항식",
+  "다중극 전개(단극, 쌍극자, 사중극)"
+ ],
+ "advice": [
+  "이 단원은 전자기학에서 수학이 가장 무거운 부분입니다. 변수 분리법은 math-arena 레벨3 편미분방정식과 같은 방법이므로 함께 보면 좋습니다. 유일성 정리 덕분에 '추측한 해가 경계 조건을 만족하면 그것이 답'이라는 점이 영상법의 근거라는 것을 이해하면, 기법들이 임의의 요령이 아니라 하나의 논리로 묶입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "David J. Griffiths, Introduction to Electrodynamics (4판, 번역본 『전자기학』)",
+   "part": "3장 Potentials"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.07 Electromagnetism II (2012년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-07-electromagnetism-ii-fall-2012/",
+   "lang": "영어",
+   "part": "강의 노트 (boundary value problems)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "접지된 무한 도체 평면 위에 점전하 q가 있을 때, 영상 전하는 q의 몇 배일까요?",
+   "answer": "-1",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "평면에 대해 대칭인 위치에 −q를 두면 평면의 전위가 0이 됩니다.",
+   "hint": "평면의 전위가 0이 되어야 합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "전하가 없는 영역에서 전위가 만족하는 방정식은 {{1}} 방정식입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "라플라스"
+     ]
+    }
+   ],
+   "explanation": "∇²V = 0\n전하가 있으면 푸아송 방정식 ∇²V = −ρ/ε₀입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "전기 쌍극자의 전위는 먼 곳에서 거리의 제곱에 반비례합니다. 거리가 2배가 되면 전위는 몇 배일까요?",
+   "answer": "0.25",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "V ∝ 1/r²\n(1/2)² = 0.25",
+   "hint": "1/r²입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "electromagnetism",
+ "id": "l3-physics-electromagnetism-u02"
+}

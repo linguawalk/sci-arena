@@ -1,0 +1,92 @@
+{
+ "no": 1,
+ "title": "열역학 제1법칙",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "상태 함수와 경로 함수를 구별할 수 있다.",
+  "가역·비가역 과정에서 일과 열을 계산할 수 있다.",
+  "열용량과 단열 과정을 이상 기체에 적용할 수 있다."
+ ],
+ "checklist": [
+  "계, 주위, 상태 함수(U, H)와 경로 함수(q, w)",
+  "가역 팽창 일 w = −∫P dV",
+  "등온 가역 팽창 w = −nRT ln(V₂/V₁)",
+  "C_V, C_P와 C_P − C_V = nR",
+  "단열 과정 TV^(γ−1) = 일정",
+  "엔탈피와 열화학 순환(키르히호프 법칙)"
+ ],
+ "advice": [
+  "일반화학에서 공식으로 쓰던 것을 이 단원에서는 적분으로 직접 유도합니다. 등온·단열·등압·등적 네 과정마다 q, w, ΔU, ΔH를 표로 정리하고, P–V 그래프 위에서 각 과정이 어떤 곡선인지 함께 그려 두면 이후 단원에서 계속 참고할 수 있습니다. 부호 규약(계가 받은 일을 +로 할지)이 교재마다 다르니 한 가지로 통일하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Atkins · de Paula · Keeler, Atkins' Physical Chemistry (11판 이후, 번역본 『물리화학』)",
+   "part": "1~2장 The properties of gases, The First Law"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.60 Thermodynamics & Kinetics (2008년 봄)",
+   "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/",
+   "lang": "영어",
+   "part": "Lecture 1~8"
+  },
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "McQuarrie · Simon, Physical Chemistry: A Molecular Approach (번역본 『물리화학』)",
+   "part": "19장 The First Law of Thermodynamics"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "이상 기체 2 mol이 300 K에서 부피가 2배가 되도록 등온 가역 팽창할 때 한 일의 크기는 약 몇 kJ일까요? (R = 8.314 J/(mol·K))",
+   "answer": "3.46",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "explanation": "|w| = nRT ln 2 = 2 × 8.314 × 300 × 0.693 ≈ 3458 J ≈ 3.46 kJ",
+   "hint": "nRT ln(V₂/V₁)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "처음과 나중 상태에만 의존하고 경로와 무관한 U, H 같은 양을 {{1}} 함수라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상태"
+     ]
+    }
+   ],
+   "explanation": "열 q와 일 w는 경로에 따라 달라지는 경로 함수입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "300 K의 단원자 이상 기체가 가역 단열 팽창해 부피가 2배가 되면 온도는 약 몇 K일까요? (γ = 5/3)",
+   "answer": "189",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "TV^(γ−1) = 일정\nT₂ = 300 × (1/2)^(2/3) ≈ 189 K",
+   "hint": "γ − 1 = 2/3입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "physical-chemistry",
+ "id": "l3-chemistry-physical-chemistry-u01"
+}

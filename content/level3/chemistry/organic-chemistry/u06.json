@@ -1,0 +1,103 @@
+{
+ "no": 6,
+ "title": "카보닐 화학 1: 알데하이드와 케톤",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "카보닐기의 친핵성 첨가 메커니즘을 설명할 수 있다.",
+  "그리냐르 시약과 수소화물 환원으로 알코올을 합성할 수 있다.",
+  "아세탈, 이민, 비티히 반응을 설명할 수 있다."
+ ],
+ "checklist": [
+  "카보닐기의 극성과 친전자성",
+  "친핵성 첨가와 사면체 중간체",
+  "수화물, 헤미아세탈, 아세탈(보호기)",
+  "이민과 엔아민",
+  "수소화물(NaBH₄, LiAlH₄) 환원",
+  "그리냐르·유기리튬 시약",
+  "비티히 반응"
+ ],
+ "advice": [
+  "카보닐 화학은 유기화학 후반부 전체의 중심입니다. 알코올·알데하이드·케톤·카복실산 사이의 산화·환원 관계를 한 장의 지도로 그리고, 그리냐르 시약으로 탄소 수를 늘려 1차·2차·3차 알코올을 만드는 경로를 연습하세요. 합성 문제의 대부분이 이 지도 위를 오가는 문제입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Clayden · Greeves · Warren, Organic Chemistry (2판, 번역본 『유기화학』)",
+   "part": "6장 Nucleophilic addition to the carbonyl group, 9장 Using organometallic reagents, 11장 Nucleophilic substitution at C=O"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Klein, Organic Chemistry (번역본 『유기화학』)",
+   "part": "19~20장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Organic chemistry",
+   "url": "https://www.khanacademy.org/science/organic-chemistry",
+   "lang": "영어",
+   "part": "Aldehydes and ketones"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "그리냐르 시약이 케톤과 반응한 뒤 산으로 처리하면 {{1}} 알코올이 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "3차"
+     ]
+    }
+   ],
+   "explanation": "카보닐 탄소에 새 탄소가 붙어 탄소 세 개와 결합합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "알데하이드를 NaBH₄로 환원하면 {{1}} 알코올이 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1차"
+     ]
+    }
+   ],
+   "explanation": "케톤을 환원하면 2차 알코올이 생깁니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "친핵체가 카보닐 탄소를 공격해 사면체 중간체를 만드는 반응을 친핵성 {{1}} 반응이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "첨가"
+     ]
+    }
+   ],
+   "explanation": "알데하이드·케톤의 가장 기본적인 반응 유형입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "organic-chemistry",
+ "id": "l3-chemistry-organic-chemistry-u06"
+}

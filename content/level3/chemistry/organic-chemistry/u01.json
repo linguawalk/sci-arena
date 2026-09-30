@@ -1,0 +1,97 @@
+{
+ "no": 1,
+ "title": "구조, 결합, 산과 염기",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "루이스 구조, 혼성, 공명으로 유기 분자의 전자 분포를 나타낼 수 있다.",
+  "유도 효과와 공명 효과로 산의 세기를 비교할 수 있다.",
+  "굽은 화살표로 전자의 이동을 나타낼 수 있다."
+ ],
+ "checklist": [
+  "혼성 오비탈(sp³, sp², sp)과 결합 길이·각",
+  "공명 구조와 형식 전하",
+  "작용기와 명명법(IUPAC)",
+  "유도 효과와 공명 효과",
+  "pKa와 짝염기의 안정성(ARIO: 원자, 공명, 유도, 오비탈)",
+  "굽은 화살표와 반응 메커니즘 표기"
+ ],
+ "advice": [
+  "유기화학 전체를 관통하는 도구는 굽은 화살표입니다. 화살표는 항상 전자쌍(비공유 전자쌍이나 결합)에서 출발해 원자나 결합으로 향한다는 규칙을 이 단원에서 확실히 익히세요. 산의 세기는 '짝염기가 음전하를 얼마나 잘 안정화하는가'로 판단한다는 원리 하나로 대부분의 비교 문제를 풀 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Clayden · Greeves · Warren, Organic Chemistry (2판, 번역본 『유기화학』)",
+   "part": "1~8장 (구조, 결합, 비편재화, 산성도)"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Klein, Organic Chemistry (번역본 『유기화학』)",
+   "part": "1~3장"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Organic chemistry",
+   "url": "https://www.khanacademy.org/science/organic-chemistry",
+   "lang": "영어",
+   "part": "Structure and bonding, Resonance and acid-base chemistry"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "pKa = 5인 약산이 pH 7 용액에 있을 때 [A⁻]/[HA]는?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "pH − pKa = log([A⁻]/[HA]) = 2\n비 = 10² = 100",
+   "hint": "헨더슨–하셀바흐 식입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "전기 음성도가 큰 원자가 σ 결합을 통해 전자를 끌어당기는 효과를 {{1}} 효과라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유도"
+     ]
+    }
+   ],
+   "explanation": "거리가 멀어질수록 빠르게 약해집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "에틸렌(C₂H₄)에서 C 원자의 혼성 오비탈은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "sp2",
+      "sp²"
+     ]
+    }
+   ],
+   "explanation": "전자 영역 3개 → sp², 남은 p 오비탈이 π 결합을 만듭니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "organic-chemistry",
+ "id": "l3-chemistry-organic-chemistry-u01"
+}

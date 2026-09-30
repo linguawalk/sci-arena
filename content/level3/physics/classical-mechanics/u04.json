@@ -1,0 +1,100 @@
+{
+ "no": 4,
+ "title": "대칭과 보존 법칙, 해밀턴 역학",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "뇌터 정리로 대칭과 보존 법칙을 연결할 수 있다.",
+  "르장드르 변환으로 해밀토니안을 만들고 해밀턴 방정식을 쓸 수 있다.",
+  "위상 공간과 푸아송 괄호의 의미를 설명할 수 있다."
+ ],
+ "checklist": [
+  "뇌터 정리: 대칭 ↔ 보존량",
+  "시간 병진 → 에너지, 공간 병진 → 운동량, 회전 → 각운동량",
+  "일반화 운동량과 해밀토니안 H = Σpq̇ − L",
+  "해밀턴 방정식 q̇ = ∂H/∂p, ṗ = −∂H/∂q",
+  "위상 공간과 리우빌 정리",
+  "푸아송 괄호와 양자역학의 교환자"
+ ],
+ "advice": [
+  "뇌터 정리는 현대 물리학의 가장 깊은 원리 가운데 하나입니다. '에너지가 보존되는 것은 물리 법칙이 시간에 따라 변하지 않기 때문'이라는 문장을 자기 말로 설명할 수 있을 때까지 곱씹어 보세요. 해밀턴 역학은 계산 도구로는 라그랑주 역학보다 편하지 않은 경우가 많지만, 푸아송 괄호가 양자역학의 교환자로 바뀌는 연결 때문에 반드시 익혀야 합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "John R. Taylor, Classical Mechanics (번역본 『고전역학』)",
+   "part": "7장 7.8~7.10절, 13장 Hamiltonian Mechanics"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Classical Dynamics (라그랑주·해밀턴 역학, 강체)",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/dynamics.htm",
+   "lang": "영어",
+   "part": "2장 Noether's theorem, 4장 The Hamiltonian Formalism"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.09 Classical Mechanics III (2014년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-09-classical-mechanics-iii-fall-2014/",
+   "lang": "영어",
+   "part": "Lecture notes 3~4"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "물리 법칙이 시간에 따라 변하지 않는 대칭은 {{1}} 보존과 연결됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "에너지"
+     ]
+    }
+   ],
+   "explanation": "시간 병진 대칭 → 에너지 보존 (뇌터 정리)",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "H = p²/(2m) + ½kx²에서 m = 1 kg, k = 4 N/m일 때 해밀턴 방정식으로 얻은 진동의 각진동수는 몇 rad/s일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "ẋ = p/m, ṗ = −kx → ẍ = −(k/m)x\nω = √4 = 2 rad/s",
+   "hint": "두 방정식을 합치세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "공간 회전에 대한 대칭은 {{1}} 보존과 연결됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "각운동량"
+     ]
+    }
+   ],
+   "explanation": "중심력 문제에서 각운동량이 보존되는 이유입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "classical-mechanics",
+ "id": "l3-physics-classical-mechanics-u04"
+}

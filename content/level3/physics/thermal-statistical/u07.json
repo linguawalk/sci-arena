@@ -1,0 +1,88 @@
+{
+ "no": 7,
+ "title": "흑체 복사와 고체의 열용량",
+ "hours": 5,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "광자 기체로 플랑크 분포와 흑체 복사 법칙을 유도할 수 있다.",
+  "우주 배경 복사를 흑체 복사로 해석할 수 있다.",
+  "아인슈타인·디바이 모형으로 고체의 열용량을 설명할 수 있다."
+ ],
+ "checklist": [
+  "광자 기체와 플랑크 분포",
+  "슈테판–볼츠만 법칙 ∝ T⁴, 빈의 변위 법칙",
+  "우주 배경 복사(약 2.7 K)",
+  "포논과 고체의 열용량",
+  "아인슈타인 모형과 디바이 모형(저온 T³ 법칙)",
+  "뒬롱–프티 법칙"
+ ],
+ "advice": [
+  "흑체 복사는 양자역학이 탄생한 문제이자 보스–아인슈타인 통계의 가장 깔끔한 응용입니다. 플랑크 식에서 빈의 법칙과 슈테판–볼츠만 법칙이 모두 나오는 과정을 따라가면 레벨2에서 결과로만 쓴 법칙들이 하나로 묶입니다. 고체의 열용량은 광자 대신 포논을 넣은 같은 계산이라는 점을 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Daniel V. Schroeder, An Introduction to Thermal Physics (번역본 『열물리학』)",
+   "part": "7장 7.4~7.5절 Blackbody Radiation, Debye Theory of Solids"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume I 41~42장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "흑체의 온도가 2배가 되면 복사 세기는 몇 배일까요?",
+   "answer": "16",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "E ∝ T⁴\n2⁴ = 16배",
+   "hint": "T⁴에 비례합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "온도 2.7 K인 우주 배경 복사의 최대 세기 파장은 약 몇 mm일까요? (빈 상수 2.9 × 10⁻³ m·K)",
+   "answer": "1.07",
+   "answer_format": "decimal",
+   "tolerance": 0.03,
+   "explanation": "λ = 2.9 × 10⁻³ / 2.7 ≈ 1.07 × 10⁻³ m",
+   "hint": "λ_max = b/T입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "저온에서 고체의 열용량이 T³에 비례한다는 결과를 설명하는 모형은 {{1}} 모형입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "디바이"
+     ]
+    }
+   ],
+   "explanation": "아인슈타인 모형은 저온에서 지수적으로 줄어 실험과 맞지 않습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "thermal-statistical",
+ "id": "l3-physics-thermal-statistical-u07"
+}

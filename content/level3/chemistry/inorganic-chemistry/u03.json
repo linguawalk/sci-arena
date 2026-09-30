@@ -1,0 +1,86 @@
+{
+ "no": 3,
+ "title": "분자 오비탈과 결합",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "대칭이 맞는 원자 오비탈을 조합해 분자 오비탈을 만들 수 있다.",
+  "이핵 이원자 분자와 다원자 분자의 MO 도표를 그릴 수 있다.",
+  "MO 이론으로 결합 차수, 자성, 반응성을 설명할 수 있다."
+ ],
+ "checklist": [
+  "LCAO와 대칭 맞춤 조합(SALC)",
+  "동핵·이핵 이원자 분자의 MO 도표",
+  "CO와 NO의 결합",
+  "다원자 분자(H₂O, NH₃, CH₄)의 MO",
+  "프런티어 오비탈(HOMO, LUMO)",
+  "3중심 결합(B₂H₆)"
+ ],
+ "advice": [
+  "CO의 MO 도표는 유기금속 화학(7단원)에서 CO가 금속과 어떻게 결합하는지(σ 주개, π 받개)를 설명하는 핵심이므로 손으로 여러 번 그려 보세요. 대칭 맞춤 조합은 '같은 대칭(기약 표현)을 가진 오비탈끼리만 섞인다'는 규칙 하나를 이해하면 됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Miessler · Fischer · Tarr, Inorganic Chemistry (5판, 번역본 『무기화학』)",
+   "part": "5장 Molecular Orbitals"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Housecroft · Sharpe, Inorganic Chemistry (번역본 『무기화학』)",
+   "part": "2장, 5장 Bonding in polyatomic molecules"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "CO의 결합 차수는?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "N₂와 전자 수가 같은 등전자 분자\n(8 − 2)/2 = 3",
+   "hint": "N₂와 등전자입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "원자 오비탈은 같은 {{1}}을 가진 것끼리만 섞여 분자 오비탈을 만듭니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대칭"
+     ]
+    }
+   ],
+   "explanation": "대칭이 다르면 겹침 적분이 0입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "NO의 결합 차수는? (소수로)",
+   "answer": "2.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "원자가 전자 11개: 결합성 8, 반결합성 3\n(8 − 3)/2 = 2.5",
+   "hint": "O₂보다 전자가 하나 적습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "inorganic-chemistry",
+ "id": "l3-chemistry-inorganic-chemistry-u03"
+}

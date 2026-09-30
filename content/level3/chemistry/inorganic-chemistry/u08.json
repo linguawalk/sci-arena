@@ -1,0 +1,99 @@
+{
+ "no": 8,
+ "title": "원소의 화학, 생무기화학, 고체 재료",
+ "hours": 5,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "주족·전이 원소의 주기적 경향과 대표 화합물을 설명할 수 있다.",
+  "생명체 속 금속(철, 구리, 아연, 망가니즈)의 역할을 설명할 수 있다.",
+  "무기 고체 재료(반도체, 초전도체, 촉매)의 구조와 성질을 연결할 수 있다."
+ ],
+ "checklist": [
+  "수소, 알칼리·알칼리 토금속",
+  "붕소족·탄소족·질소족·산소족·할로젠·비활성 기체의 화학",
+  "전이 금속의 산화 상태와 경향",
+  "생무기화학: 헤모글로빈, 사이토크롬, 광계 Ⅱ의 망가니즈 클러스터",
+  "금속 약물과 독성",
+  "반도체, 세라믹, 초전도체, 제올라이트"
+ ],
+ "advice": [
+  "원소별 화학은 분량이 많으므로 모든 것을 외우기보다 족마다 대표 화합물 두세 개와 그 성질을 1~7단원의 원리(주기성, HSAB, 결정장)로 설명해 보는 방식으로 공부하세요. 생무기화학은 생화학과, 고체 재료는 tech-arena 재료 과목과 이어지는 다리 역할을 합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Housecroft · Sharpe, Inorganic Chemistry (번역본 『무기화학』)",
+   "part": "10~18장 (주족 원소), 29장 Bioinorganic chemistry (필요한 부분)"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Miessler · Fischer · Tarr, Inorganic Chemistry (5판, 번역본 『무기화학』)",
+   "part": "8장 Chemistry of the Main Group Elements, 16장 Bioinorganic and Environmental Chemistry"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "헤모글로빈에서 산소와 결합하는 금속은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "철",
+      "Fe"
+     ]
+    }
+   ],
+   "explanation": "헴의 Fe²⁺가 O₂와 결합합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "1962년 처음으로 화합물(XePtF₆)이 합성되어 비활성 기체도 반응할 수 있음을 보여 준 원소는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "제논",
+      "크세논",
+      "Xe"
+     ]
+    }
+   ],
+   "explanation": "바틀릿이 합성했습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "광합성에서 물을 산화해 산소를 발생시키는 광계 Ⅱ의 촉매 중심에 있는 금속은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "망가니즈",
+      "망간",
+      "Mn"
+     ]
+    }
+   ],
+   "explanation": "Mn₄CaO₅ 클러스터입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "inorganic-chemistry",
+ "id": "l3-chemistry-inorganic-chemistry-u08"
+}

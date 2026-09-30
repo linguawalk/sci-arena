@@ -1,0 +1,163 @@
+{
+ "level": 3,
+ "track": "physics",
+ "id": "classical-mechanics",
+ "title": "고전역학",
+ "tagline": "뉴턴 역학을 라그랑주·해밀턴 형식으로 다시 세우고 특수 상대성이론까지",
+ "overview": [
+  "고전역학은 일반물리에서 배운 뉴턴 역학을 더 강력한 수학적 틀로 다시 세우는 과목입니다. 힘 대신 에너지와 작용(action)에서 출발하는 라그랑주 역학은 복잡한 구속 조건이 있는 문제를 체계적으로 풀게 해 주고, 해밀턴 역학은 양자역학과 통계역학의 출발점이 됩니다.",
+  "대칭성과 보존 법칙의 관계(뇌터 정리), 중심력 문제와 궤도, 회전 좌표계와 강체, 연성 진동자의 정규 모드는 물리학 전체에서 반복해 쓰이는 핵심 도구입니다. 이 가이드는 특수 상대성이론을 마지막 단원으로 포함해 별도 과목 없이 다룹니다.",
+  "물리학과 전공필수 과목이며 중등 물리 임용시험의 핵심 과목입니다. 상미분방정식과 선형대수(고유값)를 쓰므로 math-arena 레벨2 과목을 함께 공부하면 좋습니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Taylor, Thornton·Marion 교재 목차와 중등 물리 임용시험 역학 영역.",
+ "prereq": {
+  "text": "레벨2 일반물리의 역학 단원과 math-arena 레벨2 상미분방정식·선형대수가 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 일반물리 · 3단원 일과 에너지",
+    "href": "guide.html?lv=2&t=physics&s=general-physics&u=3"
+   },
+   {
+    "title": "레벨2 일반물리 · 5단원 회전 운동",
+    "href": "guide.html?lv=2&t=physics&s=general-physics&u=5"
+   },
+   {
+    "title": "레벨2 일반물리 · 6단원 중력과 진동",
+    "href": "guide.html?lv=2&t=physics&s=general-physics&u=6"
+   },
+   {
+    "title": "math-arena 레벨2 · 상미분방정식",
+    "href": "https://math-arena.org/guide.html?lv=2&t=analysis&s=ode"
+   },
+   {
+    "title": "math-arena 레벨2 · 선형대수",
+    "href": "https://math-arena.org/guide.html?lv=2&t=algebra&s=linear-algebra"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "x″ + 4x = 0의 해 x = cos(ωt)에서 ω는?",
+    "answer": "2",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "ω² = 4\nω = 2 (상미분방정식)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "행렬 [[2, 0], [0, 3]]의 고유값 가운데 큰 것은?",
+    "answer": "3",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "대각 행렬의 고유값은 대각 성분 2, 3 (선형대수)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "관성 모멘트 2 kg·m²인 물체가 3 rad/s로 돌 때 회전 운동 에너지는 몇 J일까요?",
+    "answer": "9",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "½Iω² = ½ × 2 × 9 = 9 J (일반물리 5단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 양자역학과 현대물리",
+   "note": "해밀턴 역학과 정규 모드가 양자역학의 언어가 됨"
+  },
+  {
+   "title": "레벨3 · 열·통계물리",
+   "note": "해밀토니안과 위상 공간이 통계역학의 기초"
+  },
+  {
+   "title": "tech-arena 레벨2 · 기계(동역학·진동)",
+   "note": "공학 동역학과 기계 진동의 이론적 바탕"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "뉴턴 역학 다시 보기",
+   "hours": 6,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "진동: 감쇠, 강제 진동, 공명",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "변분법과 라그랑주 역학",
+   "hours": 7,
+   "after": [
+    1
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "대칭과 보존 법칙, 해밀턴 역학",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "중심력과 궤도",
+   "hours": 5,
+   "after": [
+    3
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "비관성 좌표계와 강체 회전",
+   "hours": 6,
+   "after": [
+    4
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "연성 진동자와 정규 모드",
+   "hours": 5,
+   "after": [
+    2,
+    3
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "특수 상대성이론",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 47
+}

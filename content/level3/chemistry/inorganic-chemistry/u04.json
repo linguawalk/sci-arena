@@ -1,0 +1,96 @@
+{
+ "no": 4,
+ "title": "산·염기와 고체 구조",
+ "hours": 5,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "루이스 산·염기와 HSAB 원리로 반응성을 예측할 수 있다.",
+  "이온 결정의 구조와 배위수를 설명할 수 있다.",
+  "본–하버 순환으로 격자 에너지를 계산할 수 있다."
+ ],
+ "checklist": [
+  "브뢴스테드·루이스 산·염기",
+  "단단한·무른 산과 염기(HSAB)",
+  "금속 결합과 띠 이론 입문",
+  "조밀 쌓임(hcp, ccp)과 틈새 자리",
+  "이온 결정 구조(NaCl, CsCl, 섬아연석, 형석)",
+  "반지름 비와 배위수",
+  "격자 에너지와 본–하버 순환"
+ ],
+ "advice": [
+  "HSAB 원리는 '작고 전하 밀도가 큰 단단한 이온끼리, 크고 편극되기 쉬운 무른 이온끼리 잘 결합한다'는 경험 규칙으로, 광물이 어떤 원소와 함께 산출되는지(지질학)와 독성 중금속이 왜 황 원자에 잘 붙는지(생화학)까지 설명합니다. 결정 구조는 모형이나 3D 뷰어로 단위 세포를 직접 세어 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Miessler · Fischer · Tarr, Inorganic Chemistry (5판, 번역본 『무기화학』)",
+   "part": "6~7장 Acid-Base and Donor-Acceptor Chemistry, The Crystalline Solid State"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Housecroft · Sharpe, Inorganic Chemistry (번역본 『무기화학』)",
+   "part": "6~7장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "무른 산인 Ag⁺는 할로젠화 이온 가운데 가장 무른 염기인 {{1}}과 가장 강하게 결합합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "I⁻",
+      "I-",
+      "아이오딘화 이온",
+      "요오드화 이온"
+     ]
+    }
+   ],
+   "explanation": "그래서 AgI의 용해도가 가장 작습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "NaCl 결정에서 Na⁺ 하나를 둘러싼 Cl⁻의 수(배위수)는?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "정팔면체 배위, 배위수 6",
+   "hint": "팔면체입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "이온화 에너지, 전자 친화도, 승화열 등을 이어 격자 에너지를 구하는 열화학 순환을 {{1}} 순환이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "본–하버",
+      "본-하버",
+      "본하버"
+     ]
+    }
+   ],
+   "explanation": "헤스 법칙을 이온 결정에 적용한 것입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "inorganic-chemistry",
+ "id": "l3-chemistry-inorganic-chemistry-u04"
+}

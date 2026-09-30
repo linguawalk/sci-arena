@@ -1,0 +1,101 @@
+{
+ "no": 5,
+ "title": "전기역학과 맥스웰 방정식",
+ "hours": 6,
+ "after": [
+  3,
+  4
+ ],
+ "objectives": [
+  "패러데이 법칙의 미분형과 변위 전류를 설명할 수 있다.",
+  "맥스웰 방정식의 미분형과 경계 조건을 쓸 수 있다.",
+  "포인팅 벡터와 전자기 에너지·운동량 보존을 설명할 수 있다."
+ ],
+ "checklist": [
+  "기전력과 옴의 법칙 J = σE",
+  "∇ × E = −∂B/∂t",
+  "변위 전류와 ∇ × B = μ₀J + μ₀ε₀∂E/∂t",
+  "맥스웰 방정식(진공·물질)과 경계 조건",
+  "연속 방정식과 전하 보존",
+  "에너지 밀도와 포인팅 벡터 S = E × B/μ₀"
+ ],
+ "advice": [
+  "네 개의 맥스웰 방정식을 미분형과 적분형으로 나란히 쓰고, 각각을 발산정리와 스토크스 정리로 바꿔 보는 연습을 하세요. 포인팅 정리는 '전자기장도 에너지를 담고 흐르게 한다'는 것을 보여 주며, 전선이 아니라 전선 주변의 장으로 에너지가 전달된다는 놀라운 그림을 줍니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "David J. Griffiths, Introduction to Electrodynamics (4판, 번역본 『전자기학』)",
+   "part": "7~8장 Electrodynamics, Conservation Laws"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Electromagnetism",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/em.html",
+   "lang": "영어",
+   "part": "3장 Electrodynamics"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.07 Electromagnetism II (2012년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-07-electromagnetism-ii-fall-2012/",
+   "lang": "영어",
+   "part": "강의 노트 (conservation laws)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "전자기 에너지가 흐르는 방향과 세기를 나타내는 S = E × B/μ₀를 {{1}} 벡터라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "포인팅"
+     ]
+    }
+   ],
+   "explanation": "단위는 W/m²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "세기 1000 V/m인 전기장의 에너지 밀도 ½ε₀E²는 약 몇 μJ/m³일까요? (ε₀ = 8.85 × 10⁻¹²)",
+   "answer": "4.43",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "½ × 8.85 × 10⁻¹² × 10⁶ ≈ 4.43 × 10⁻⁶ J/m³",
+   "hint": "½ε₀E²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "∂ρ/∂t + ∇·J = 0인 연속 방정식은 전하 {{1}}을 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보존"
+     ]
+    }
+   ],
+   "explanation": "맥스웰 방정식에서 유도됩니다.\n변위 전류가 없으면 이 식과 모순됩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "electromagnetism",
+ "id": "l3-physics-electromagnetism-u05"
+}

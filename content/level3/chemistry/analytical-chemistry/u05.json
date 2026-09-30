@@ -1,0 +1,89 @@
+{
+ "no": 5,
+ "title": "전기화학 분석",
+ "hours": 5,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "전위차법과 이온 선택성 전극의 원리를 설명할 수 있다.",
+  "네른스트 식으로 전위와 농도의 관계를 계산할 수 있다.",
+  "전기량법과 전압전류법의 원리를 설명할 수 있다."
+ ],
+ "checklist": [
+  "기준 전극(SHE, Ag/AgCl, 포화 칼로멜)과 지시 전극",
+  "네른스트 식과 1가 이온당 59.2 mV/decade",
+  "유리 전극과 pH 측정",
+  "이온 선택성 전극과 선택 계수",
+  "전위차 적정",
+  "전기량법(패러데이 법칙)",
+  "전압전류법(순환 전압전류법)과 바이오센서(혈당 측정기)"
+ ],
+ "advice": [
+  "pH 미터가 왜 pH 1당 약 59 mV의 전압 변화를 보이는지 네른스트 식으로 확인하는 것이 이 단원의 출발점입니다. 혈당 측정기가 효소 반응으로 생긴 전류를 재는 전기화학 센서라는 것처럼, 생활 속 전기화학 분석 기기의 원리를 하나씩 찾아 설명해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "LibreTexts (무료 공개 교재)",
+   "title": "David Harvey, Analytical Chemistry 2.1",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)",
+   "lang": "영어",
+   "part": "11장 Electrochemical Methods"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Daniel C. Harris, Quantitative Chemical Analysis (번역본 『분석화학』)",
+   "part": "13~17장 (전기화학, 전위차법, 전기분석)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "25 °C에서 이상적인 pH 전극은 pH가 1 변할 때 전위가 약 몇 mV 변할까요?",
+   "answer": "59",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "0.0592 V × 1 = 59.2 mV (네른스트 기울기)",
+   "hint": "RT ln 10 / F입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "pH 측정에 쓰이는, 얇은 유리막 양쪽의 H⁺ 활동도 차이로 전위가 생기는 전극을 {{1}} 전극이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "유리"
+     ]
+    }
+   ],
+   "explanation": "가장 널리 쓰이는 이온 선택성 전극입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "Ag⁺ 용액에 96485 C의 전하를 흘리면 석출되는 은은 약 몇 g일까요? (Ag 원자량 107.9)",
+   "answer": "107.9",
+   "answer_format": "decimal",
+   "tolerance": 0.5,
+   "explanation": "96485 C = 전자 1 mol → Ag 1 mol = 107.9 g",
+   "hint": "패러데이 법칙입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "analytical-chemistry",
+ "id": "l3-chemistry-analytical-chemistry-u05"
+}

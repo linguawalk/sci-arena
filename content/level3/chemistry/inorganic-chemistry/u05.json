@@ -1,0 +1,83 @@
+{
+ "no": 5,
+ "title": "배위 화합물의 구조와 이성질",
+ "hours": 5,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "배위 화합물을 명명하고 중심 금속의 산화수와 배위수를 구할 수 있다.",
+  "배위수별 기하 구조를 설명할 수 있다.",
+  "기하·광학·결합 이성질체를 구별할 수 있다."
+ ],
+ "checklist": [
+  "베르너의 배위 이론",
+  "리간드 종류(단좌, 다좌, 킬레이트)와 킬레이트 효과",
+  "IUPAC 명명법",
+  "배위수 4(평면 사각, 사면체)와 6(팔면체)",
+  "기하 이성질(cis/trans, fac/mer)",
+  "광학 이성질과 결합 이성질",
+  "착물 형성 상수"
+ ],
+ "advice": [
+  "배위 화합물 명명과 이성질체 세기는 연습량이 곧 실력입니다. [Pt(NH₃)₂Cl₂]의 cis와 trans가 서로 다른 약효를 가진다는 사실(cis는 항암제 시스플라틴)을 기억하면 이성질체가 왜 중요한지 실감할 수 있습니다. EDTA 같은 킬레이트 리간드는 분석화학의 착물 적정으로 바로 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Miessler · Fischer · Tarr, Inorganic Chemistry (5판, 번역본 『무기화학』)",
+   "part": "9장 Coordination Chemistry I: Structures and Isomers"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Housecroft · Sharpe, Inorganic Chemistry (번역본 『무기화학』)",
+   "part": "19장 d-Block metal chemistry: coordination complexes"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "[Co(NH₃)₆]³⁺에서 코발트의 산화수는?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "NH₃는 중성 리간드\nCo = +3",
+   "hint": "착이온 전하와 리간드 전하를 비교하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "평면 사각형 [Pt(NH₃)₂Cl₂]의 기하 이성질체는 몇 가지일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "cis와 trans 두 가지",
+   "hint": "같은 리간드가 이웃하는지 마주 보는지입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "EDTA⁴⁻ 한 분자는 금속 이온과 최대 몇 자리로 배위할까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "N 2개와 카복실산 O 4개로 6자리 킬레이트",
+   "hint": "질소와 산소 주개 원자를 모두 세세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "inorganic-chemistry",
+ "id": "l3-chemistry-inorganic-chemistry-u05"
+}

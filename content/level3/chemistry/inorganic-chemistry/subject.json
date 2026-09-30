@@ -1,0 +1,155 @@
+{
+ "level": 3,
+ "track": "chemistry",
+ "id": "inorganic-chemistry",
+ "title": "무기화학",
+ "tagline": "대칭과 분자 오비탈로 결합을 설명하고, 배위 화합물과 유기금속 화학까지",
+ "overview": [
+  "무기화학은 탄소 화합물을 제외한 주기율표 전체 원소의 구조, 결합, 반응을 다룹니다. 물리화학의 양자론을 도구로 삼아, 분자의 대칭(점군)으로 분자 오비탈과 분광 스펙트럼을 해석하고, 전이 금속 배위 화합물의 색·자성·반응성을 결정장·리간드장 이론으로 설명합니다.",
+  "과목 후반부는 배위 화합물의 반응, 18전자 규칙과 유기금속 촉매, 그리고 생명체 속 금속(생무기화학)과 고체·재료 화학으로 이어집니다. 산업 촉매와 신소재, 의약품 개발의 기초가 되는 분야입니다.",
+  "화학과 전공필수이며 중등 화학 임용시험의 무기화학 영역에 해당합니다. 물리화학의 양자화학 단원을 먼저 공부하면 대칭과 분자 오비탈 단원이 훨씬 쉬워집니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Miessler·Fischer·Tarr, Housecroft·Sharpe 교재 목차와 중등 화학 임용시험 무기화학 영역.",
+ "prereq": {
+  "text": "레벨2 일반화학의 원자 구조, 주기성, 분자 오비탈 단원과 레벨3 물리화학의 양자화학 단원이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 일반화학 · 2단원 주기적 성질",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=2"
+   },
+   {
+    "title": "레벨2 일반화학 · 4단원 분자 오비탈 이론",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=4"
+   },
+   {
+    "title": "레벨3 물리화학 · 5단원 양자화학의 기초",
+    "href": "guide.html?lv=3&t=chemistry&s=physical-chemistry&u=5"
+   },
+   {
+    "title": "레벨3 물리화학 · 6단원 분자 구조와 분광학",
+    "href": "guide.html?lv=3&t=chemistry&s=physical-chemistry&u=6"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "O₂의 결합 차수는?",
+    "answer": "2",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "(8 − 4)/2 = 2 (일반화학 4단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "3d 부껍질의 오비탈은 몇 개일까요?",
+    "answer": "5",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "l = 2 → 2l + 1 = 5 (일반화학 1단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "Cr₂O₇²⁻에서 Cr의 산화수는?",
+    "answer": "6",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "2x − 14 = −2, x = 6 (일반화학 5단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "융합 레벨3 · 생화학",
+   "note": "금속 효소와 생체 에너지론"
+  },
+  {
+   "title": "tech-arena 레벨2 · 재료",
+   "note": "고체 구조와 재료의 성질"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "원자 구조와 주기성 심화",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "대칭과 점군",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "분자 오비탈과 결합",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "산·염기와 고체 구조",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "배위 화합물의 구조와 이성질",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "결정장·리간드장 이론",
+   "hours": 6,
+   "after": [
+    3,
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "배위 화합물의 반응과 유기금속 화학",
+   "hours": 6,
+   "after": [
+    6
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "원소의 화학, 생무기화학, 고체 재료",
+   "hours": 5,
+   "after": [
+    4
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 44
+}

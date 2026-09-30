@@ -1,0 +1,97 @@
+{
+ "no": 6,
+ "title": "분광 분석",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "베르–람베르트 법칙으로 흡광도와 농도를 계산할 수 있다.",
+  "분광 광도계의 구성과 오차 요인을 설명할 수 있다.",
+  "형광, 원자 흡수, ICP 분광법을 비교할 수 있다."
+ ],
+ "checklist": [
+  "전자기 복사와 물질의 상호작용",
+  "투과도와 흡광도, A = εbc",
+  "분광 광도계 구성(광원, 단색화 장치, 검출기)",
+  "베르 법칙의 편차",
+  "형광과 인광 분광법",
+  "원자 흡수 분광법(AAS)",
+  "유도 결합 플라스마 방출 분광법·질량 분석(ICP-OES, ICP-MS)",
+  "적외선·라만 분광의 분석적 이용"
+ ],
+ "advice": [
+  "베르–람베르트 법칙은 분석화학에서 가장 많이 쓰이는 식입니다. 흡광도가 너무 크거나(빛이 거의 통과하지 못함) 너무 작을 때 오차가 커지는 이유를 투과도로 설명할 수 있어야 합니다. 원자 분광법(AAS, ICP)은 환경 시료의 중금속 분석에 표준으로 쓰이므로 각 방법의 검출 한계와 장단점을 표로 비교해 두세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "LibreTexts (무료 공개 교재)",
+   "title": "David Harvey, Analytical Chemistry 2.1",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)",
+   "lang": "영어",
+   "part": "10장 Spectroscopic Methods"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Skoog · Holler · Crouch, Principles of Instrumental Analysis (번역본 『기기분석』)",
+   "part": "6~10장, 13~15장 (분광법 원리, UV-Vis, 형광, 원자 분광)"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Daniel C. Harris, Quantitative Chemical Analysis (번역본 『분석화학』)",
+   "part": "18~21장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "몰 흡광 계수 1.0 × 10⁴ L/(mol·cm), 셀 길이 1 cm, 농도 5.0 × 10⁻⁵ M일 때 흡광도는?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "A = εbc = 10⁴ × 1 × 5 × 10⁻⁵ = 0.5",
+   "hint": "A = εbc입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "흡광도가 1인 용액의 투과도는 몇 %일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "A = −log T\nT = 10⁻¹ = 10%",
+   "hint": "A = −log T입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "고온의 아르곤 플라스마로 원자를 들뜨게 해 방출되는 빛으로 여러 원소를 동시에 분석하는 방법은 ICP {{1}} 분광법입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "방출",
+      "원자 방출"
+     ]
+    }
+   ],
+   "explanation": "ICP-OES라고 합니다.\n질량 분석기와 결합하면 ICP-MS입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "analytical-chemistry",
+ "id": "l3-chemistry-analytical-chemistry-u06"
+}

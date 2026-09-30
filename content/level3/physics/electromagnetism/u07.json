@@ -1,0 +1,90 @@
+{
+ "no": 7,
+ "title": "파동 광학",
+ "hours": 6,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "여러 슬릿 간섭과 회절격자의 조건을 계산할 수 있다.",
+  "프라운호퍼 회절과 분해능 한계를 설명할 수 있다.",
+  "결맞음과 레이저의 원리를 설명할 수 있다."
+ ],
+ "checklist": [
+  "중첩과 간섭, 박막 간섭, 마이컬슨 간섭계",
+  "다중 슬릿과 회절격자 d sin θ = mλ",
+  "프라운호퍼 회절과 푸리에 변환",
+  "원형 구멍 회절과 레일리 기준 θ = 1.22λ/D",
+  "시간·공간 결맞음",
+  "레이저(유도 방출, 밀도 반전, 공진기)",
+  "홀로그래피 입문"
+ ],
+ "advice": [
+  "프라운호퍼 회절 무늬가 구멍 모양의 푸리에 변환이라는 사실은 광학에서 가장 아름다운 결과 가운데 하나입니다. 이 관점을 잡으면 망원경의 분해능, X선 결정학, 신호 처리가 같은 원리로 보입니다. 계산 문제는 회절격자와 레일리 기준을 충분히 연습하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Eugene Hecht, Optics (5판, 번역본 『광학』)",
+   "part": "9~12장 Interference, Diffraction, Fourier Optics, Coherence; 13장 Lasers"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume I 28~33장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "1 mm에 600줄인 회절격자에 파장 500 nm의 빛을 비추면 1차 밝은 무늬의 각도는 약 몇 °일까요?",
+   "answer": "17.46",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "d = 1/600 mm ≈ 1.667 μm\nsin θ = 0.5/1.667 = 0.3, θ ≈ 17.46°",
+   "hint": "d sin θ = λ입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "구경 1 m 망원경의 파장 500 nm에서 분해 한계 각은 몇 × 10⁻⁷ rad일까요?",
+   "answer": "6.1",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "θ = 1.22λ/D = 1.22 × 5 × 10⁻⁷ = 6.1 × 10⁻⁷ rad",
+   "hint": "레일리 기준입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "레이저 빛은 위상이 일정하게 유지되는 성질인 {{1}}이 매우 좋습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "결맞음",
+      "가간섭성"
+     ]
+    }
+   ],
+   "explanation": "그래서 먼 거리에서도 간섭 무늬를 만들 수 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "electromagnetism",
+ "id": "l3-physics-electromagnetism-u07"
+}

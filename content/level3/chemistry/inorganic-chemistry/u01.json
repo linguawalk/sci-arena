@@ -1,0 +1,88 @@
+{
+ "no": 1,
+ "title": "원자 구조와 주기성 심화",
+ "hours": 5,
+ "after": [],
+ "objectives": [
+  "슬레이터 규칙으로 유효 핵전하를 계산할 수 있다.",
+  "주기적 성질의 경향과 예외를 전자 배치로 설명할 수 있다.",
+  "무거운 원소의 특이 현상(란타넘족 수축, 불활성 전자쌍 효과)을 설명할 수 있다."
+ ],
+ "checklist": [
+  "다전자 원자와 오비탈 에너지",
+  "슬레이터 규칙과 유효 핵전하",
+  "이온화 에너지, 전자 친화도, 전기 음성도(폴링, 멀리컨)",
+  "원자·이온 반지름의 경향",
+  "란타넘족 수축",
+  "불활성 전자쌍 효과와 상대론 효과 입문"
+ ],
+ "advice": [
+  "일반화학에서 경향으로 외운 주기성을 슬레이터 규칙이라는 계산 도구로 정량화하는 단원입니다. 몇 원소의 유효 핵전하를 직접 계산해 경향과 맞는지 확인하세요. 5d 원소가 4d 원소와 크기가 거의 같은 이유(란타넘족 수축)는 전이 금속 화학 전체에서 반복해 쓰이는 사실입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Miessler · Fischer · Tarr, Inorganic Chemistry (5판, 번역본 『무기화학』)",
+   "part": "2장 Atomic Structure"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Housecroft · Sharpe, Inorganic Chemistry (번역본 『무기화학』)",
+   "part": "1장 Basic concepts: atoms"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "슬레이터 규칙으로 구한 Na(1s²2s²2p⁶3s¹) 3s 전자의 유효 핵전하는? (소수 첫째 자리까지)",
+   "answer": "2.2",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "가림 상수 S = 8 × 0.85 + 2 × 1.00 = 8.8\nZ_eff = 11 − 8.8 = 2.2",
+   "hint": "n − 1 껍질은 0.85, n − 2 이하는 1.00입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "4f 전자의 가림이 약해 란타넘족 뒤 원소의 반지름이 예상보다 작아지는 현상을 란타넘족 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수축"
+     ]
+    }
+   ],
+   "explanation": "그래서 Zr과 Hf의 반지름이 거의 같습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "Tl, Pb, Bi처럼 무거운 13~15족 원소에서 {{1}} 전자쌍이 결합에 잘 참여하지 않아 낮은 산화수가 안정해지는 것을 불활성 전자쌍 효과라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "6s"
+     ]
+    }
+   ],
+   "explanation": "Pb²⁺가 Pb⁴⁺보다 안정한 이유입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "inorganic-chemistry",
+ "id": "l3-chemistry-inorganic-chemistry-u01"
+}

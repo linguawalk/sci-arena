@@ -1,0 +1,154 @@
+{
+ "level": 3,
+ "track": "physics",
+ "id": "quantum-mechanics",
+ "title": "양자역학과 현대물리",
+ "tagline": "슈뢰딩거 방정식과 디랙 표기에서 수소 원자, 스핀, 섭동 이론, 그리고 원자·고체·핵 물리까지",
+ "overview": [
+  "양자역학은 원자 이하의 세계를 기술하는 이론입니다. 파동 함수와 슈뢰딩거 방정식, 연산자와 측정, 불확정성 원리를 배우고, 무한 우물·조화 진동자·수소 원자 같은 대표 문제를 정확히 풉니다. 각운동량과 스핀, 동일 입자와 파울리 원리는 주기율표와 화학 결합을 설명하는 바탕입니다.",
+  "이 가이드는 현대물리를 양자역학의 응용으로 통합했습니다. 근사법(섭동 이론, 변분법) 다음에 원자·분자·고체 물리(에너지띠, 반도체, 레이저)와 핵·입자 물리 입문을 두어, 양자역학이 실제로 무엇을 설명하는지까지 이어 줍니다.",
+  "물리학과 전공필수이며 중등 물리 임용시험의 핵심 과목입니다. 화학의 물리화학(양자화학), 재료·반도체 공학의 기초이기도 합니다."
+ ],
+ "level_note": "레벨 3 (학부 3학년 전공). 목차 검증 기준: Griffiths 『Introduction to Quantum Mechanics』와 Krane 『Modern Physics』 목차, 중등 물리 임용시험 현대물리 영역.",
+ "prereq": {
+  "text": "레벨2 일반물리의 현대물리 입문, 레벨3 고전역학의 해밀턴 역학, math-arena 선형대수(고유값)와 상미분방정식이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 일반물리 · 12단원 광학과 현대물리 입문",
+    "href": "guide.html?lv=2&t=physics&s=general-physics&u=12"
+   },
+   {
+    "title": "레벨3 고전역학 · 4단원 대칭과 보존 법칙, 해밀턴 역학",
+    "href": "guide.html?lv=3&t=physics&s=classical-mechanics&u=4"
+   },
+   {
+    "title": "math-arena 레벨2 · 선형대수",
+    "href": "https://math-arena.org/guide.html?lv=2&t=algebra&s=linear-algebra"
+   },
+   {
+    "title": "math-arena 레벨2 · 상미분방정식",
+    "href": "https://math-arena.org/guide.html?lv=2&t=analysis&s=ode"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "행렬 [[0, 1], [1, 0]]의 고유값 가운데 큰 것은?",
+    "answer": "1",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "λ² − 1 = 0\nλ = ±1 (선형대수)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "파장 620 nm인 광자의 에너지는 몇 eV일까요? (hc = 1240 eV·nm)",
+    "answer": "2",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "1240/620 = 2 eV (일반물리 12단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "보어 모형에서 수소 원자의 바닥 상태 에너지는 몇 eV일까요?",
+    "answer": "-13.6",
+    "answer_format": "decimal",
+    "tolerance": 0.05,
+    "explanation": "E₁ = −13.6 eV (일반물리 12단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "화학 레벨3 · 물리화학",
+   "note": "양자화학과 분광학"
+  },
+  {
+   "title": "tech-arena 레벨3 · 반도체",
+   "note": "에너지띠와 소자 물리"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "파동 함수와 슈뢰딩거 방정식",
+   "hours": 6,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "1차원 퍼텐셜 문제",
+   "hours": 7,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "양자역학의 형식론",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "3차원 문제와 수소 원자",
+   "hours": 7,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "스핀과 동일 입자",
+   "hours": 5,
+   "after": [
+    4
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "근사법",
+   "hours": 6,
+   "after": [
+    4
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "원자·분자·고체 물리 입문",
+   "hours": 5,
+   "after": [
+    5
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "핵물리와 입자물리 입문",
+   "hours": 5,
+   "after": [
+    5
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 47
+}

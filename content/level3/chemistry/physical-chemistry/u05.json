@@ -1,0 +1,93 @@
+{
+ "no": 5,
+ "title": "양자화학의 기초",
+ "hours": 7,
+ "after": [],
+ "objectives": [
+  "슈뢰딩거 방정식의 대표 모형(상자 속 입자, 조화 진동자, 강체 회전자)을 풀 수 있다.",
+  "수소 원자의 오비탈과 양자수를 설명할 수 있다.",
+  "다전자 원자의 근사(유효 핵전하, 스핀)를 설명할 수 있다."
+ ],
+ "checklist": [
+  "양자역학의 가설과 연산자",
+  "상자 속 입자와 공액 분자의 π 전자",
+  "조화 진동자와 분자 진동",
+  "강체 회전자 E = BJ(J + 1)과 분자 회전",
+  "수소 원자와 오비탈의 모양",
+  "다전자 원자, 스핀, 파울리 원리"
+ ],
+ "advice": [
+  "물리 트랙 양자역학 1~5단원과 같은 내용을 화학의 눈으로 다시 보는 단원입니다. 상자 속 입자 모형으로 공액 분자(카로틴 등)의 색을 예측하는 계산을 꼭 해 보세요. 가장 단순한 모형이 실제 분자의 흡수 파장을 꽤 잘 맞힌다는 것을 보면 양자화학이 화학자에게 왜 유용한지 실감할 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Atkins · de Paula · Keeler, Atkins' Physical Chemistry (11판 이후, 번역본 『물리화학』)",
+   "part": "7~9장 Quantum theory, motion, atomic structure"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.61 Physical Chemistry (2017년 가을, 양자화학)",
+   "url": "https://ocw.mit.edu/courses/5-61-physical-chemistry-fall-2017/",
+   "lang": "영어",
+   "part": "Lecture 1~20"
+  },
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "McQuarrie · Simon, Physical Chemistry: A Molecular Approach (번역본 『물리화학』)",
+   "part": "1~8장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "상자 속 입자에서 n = 1 → 2 전이 에너지는 바닥 상태 에너지 E₁의 몇 배일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Eₙ ∝ n²\nE₂ − E₁ = 4E₁ − E₁ = 3E₁",
+   "hint": "E₂ = 4E₁입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "강체 회전자의 J = 2 준위 에너지는 회전 상수 B의 몇 배일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "E = BJ(J + 1) = 2 × 3 B = 6B",
+   "hint": "J(J + 1)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "조화 진동자의 에너지 준위 간격은 모두 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "같",
+      "일정"
+     ]
+    }
+   ],
+   "explanation": "Eᵥ = (v + ½)hν이므로 간격은 hν로 일정합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "physical-chemistry",
+ "id": "l3-chemistry-physical-chemistry-u05"
+}

@@ -1,0 +1,90 @@
+{
+ "no": 4,
+ "title": "3차원 문제와 수소 원자",
+ "hours": 7,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "구면 좌표에서 슈뢰딩거 방정식을 변수 분리할 수 있다.",
+  "각운동량 연산자의 고유값을 구할 수 있다.",
+  "수소 원자의 에너지 준위와 축퇴를 설명할 수 있다."
+ ],
+ "checklist": [
+  "구면 조화 함수 Y_l^m",
+  "각운동량 L² = l(l + 1)ħ², L_z = mħ",
+  "각운동량 사다리 연산자",
+  "지름 방정식과 유효 퍼텐셜",
+  "수소 원자 Eₙ = −13.6 eV/n²과 축퇴 n²",
+  "수소 스펙트럼과 선택 규칙"
+ ],
+ "advice": [
+  "수소 원자는 양자역학이 정확히 풀어낸 가장 중요한 실제 문제입니다. 지름 방정식의 급수 풀이는 한 번 따라가 보고, 결과(양자수 n, l, m의 허용 범위와 에너지)를 확실히 익히세요. 화학에서 외운 1s, 2p, 3d 오비탈이 여기서 Y_l^m과 지름 함수의 곱으로 나옵니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Griffiths · Schroeter, Introduction to Quantum Mechanics (3판, 번역본 『양자역학』)",
+   "part": "4장 Quantum Mechanics in Three Dimensions"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.04 Quantum Physics I (2016년 봄)",
+   "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/",
+   "lang": "영어",
+   "part": "Lecture 18~24"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Kenneth S. Krane, Modern Physics (4판, 번역본 『현대물리학』)",
+   "part": "7장 The Hydrogen Atom in Wave Mechanics"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "수소 원자의 n = 2 준위의 축퇴도는? (스핀 제외)",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "l = 0(1개) + l = 1(3개) = 4 = n²",
+   "hint": "n²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "l = 2일 때 가능한 자기 양자수 m은 몇 가지일까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "m = −2, −1, 0, 1, 2\n2l + 1 = 5",
+   "hint": "2l + 1입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "l = 1인 상태의 L² 고윳값은 ħ²의 몇 배일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "l(l + 1) = 1 × 2 = 2",
+   "hint": "l(l + 1)ħ²입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "quantum-mechanics",
+ "id": "l3-physics-quantum-mechanics-u04"
+}

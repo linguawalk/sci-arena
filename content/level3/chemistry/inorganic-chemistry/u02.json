@@ -1,0 +1,96 @@
+{
+ "no": 2,
+ "title": "대칭과 점군",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "분자의 대칭 요소와 대칭 조작을 찾을 수 있다.",
+  "흐름도로 분자의 점군을 판별할 수 있다.",
+  "지표표를 읽고 대칭으로 극성·카이랄성·IR 활성을 판단할 수 있다."
+ ],
+ "checklist": [
+  "대칭 요소: E, Cₙ, σ, i, Sₙ",
+  "점군 판별 흐름도",
+  "대표 점군(C₂ᵥ, C₃ᵥ, D₃ₕ, D₄ₕ, T_d, O_h)",
+  "지표표와 기약 표현",
+  "대칭과 쌍극자 모멘트, 카이랄성",
+  "진동 모드의 대칭과 IR·라만 활성"
+ ],
+ "advice": [
+  "점군은 처음 배울 때 추상적이지만, 분자 모형을 손에 들고 돌려 보면 금방 익숙해집니다. 물(C₂ᵥ), 암모니아(C₃ᵥ), BF₃(D₃ₕ), 메테인(T_d), SF₆(O_h)의 대칭 요소를 모두 찾아보는 것부터 시작하세요. 지표표는 3단원 분자 오비탈과 6단원 리간드장 이론에서 다시 쓰이는 도구입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Miessler · Fischer · Tarr, Inorganic Chemistry (5판, 번역본 『무기화학』)",
+   "part": "4장 Symmetry and Group Theory"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Housecroft · Sharpe, Inorganic Chemistry (번역본 『무기화학』)",
+   "part": "3장 Introduction to molecular symmetry"
+  },
+  {
+   "kind": "web",
+   "provider": "LibreTexts Chemistry (무료 공개 교재 모음)",
+   "title": "Inorganic Chemistry 서가",
+   "url": "https://chem.libretexts.org/",
+   "lang": "영어",
+   "part": "Inorganic Chemistry 서가 Symmetry 단원"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "물 분자(H₂O)의 점군은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "C2v",
+      "C₂ᵥ",
+      "C2V"
+     ]
+    }
+   ],
+   "explanation": "C₂ 축 하나와 수직 거울면 두 개가 있습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "NH₃ 분자의 주 회전축은 몇 겹(Cₙ의 n) 회전축일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "120°씩 돌려도 같은 모양 → C₃",
+   "hint": "H 원자가 3개입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "대칭 중심(i)을 가진 분자의 쌍극자 모멘트는?",
+   "answer": "0",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "대칭 중심이 있으면 모든 결합 쌍극자가 상쇄됩니다.",
+   "hint": "반대쪽이 똑같습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "inorganic-chemistry",
+ "id": "l3-chemistry-inorganic-chemistry-u02"
+}

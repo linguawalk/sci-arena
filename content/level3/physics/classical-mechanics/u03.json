@@ -1,0 +1,102 @@
+{
+ "no": 3,
+ "title": "변분법과 라그랑주 역학",
+ "hours": 7,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "오일러–라그랑주 방정식을 유도하고 최단 경로 문제에 쓸 수 있다.",
+  "일반화 좌표로 라그랑지안을 세워 운동 방정식을 얻을 수 있다.",
+  "구속 조건과 라그랑주 승수를 다룰 수 있다."
+ ],
+ "checklist": [
+  "범함수와 변분, 오일러–라그랑주 방정식",
+  "최단 강하선, 측지선 문제",
+  "해밀턴의 최소 작용 원리",
+  "L = T − U와 일반화 좌표",
+  "구속 조건(홀로노믹)과 라그랑주 승수",
+  "진자, 이중 진자, 경사면 위 물체"
+ ],
+ "advice": [
+  "라그랑주 역학의 힘은 '힘을 몰라도 에너지만 쓰면 운동 방정식이 나온다'는 데 있습니다. 구속력(장력, 수직항력)을 계산하지 않아도 되므로 이중 진자처럼 뉴턴 법칙으로는 복잡한 문제가 기계적인 절차가 됩니다. 처음에는 뉴턴 법칙으로 풀 수 있는 문제(단진자, 애트우드 기계)를 두 방법으로 풀어 결과가 같은지 확인하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "John R. Taylor, Classical Mechanics (번역본 『고전역학』)",
+   "part": "6~7장 Calculus of Variations, Lagrange's Equations"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Classical Dynamics (라그랑주·해밀턴 역학, 강체)",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/dynamics.htm",
+   "lang": "영어",
+   "part": "2장 The Lagrangian Formulation"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.09 Classical Mechanics III (2014년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-09-classical-mechanics-iii-fall-2014/",
+   "lang": "영어",
+   "part": "Lecture notes 1~2"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "길이 0.4 m 단진자의 라그랑지안에서 얻은 작은 진동의 각진동수는 몇 rad/s일까요? (g = 10 m/s²)",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "L = ½ml²θ̇² − mgl(1 − cos θ)\n작은 각에서 θ̈ = −(g/l)θ, ω = √(10/0.4) = 5",
+   "hint": "ω = √(g/l)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "실제 운동 경로는 작용 S = ∫L dt가 정류값을 갖는 경로라는 원리를 {{1}}의 원리라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "해밀턴",
+      "최소 작용",
+      "최소작용"
+     ]
+    }
+   ],
+   "explanation": "해밀턴의 원리(최소 작용 원리)라고 합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "라그랑지안에 어떤 좌표가 나타나지 않으면(순환 좌표), 그 좌표에 대한 일반화 {{1}}이 보존됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "운동량"
+     ]
+    }
+   ],
+   "explanation": "∂L/∂q = 0이면 d(∂L/∂q̇)/dt = 0입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "classical-mechanics",
+ "id": "l3-physics-classical-mechanics-u03"
+}

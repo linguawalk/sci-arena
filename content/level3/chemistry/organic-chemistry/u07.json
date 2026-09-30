@@ -1,0 +1,98 @@
+{
+ "no": 7,
+ "title": "카보닐 화학 2: 카복실산 유도체와 엔올",
+ "hours": 6,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "친핵성 아실 치환의 메커니즘과 유도체의 반응성 순서를 설명할 수 있다.",
+  "엔올과 엔올레이트의 반응(α 치환, 알돌, 클라이젠)을 설명할 수 있다.",
+  "탄소–탄소 결합을 만드는 합성 경로를 설계할 수 있다."
+ ],
+ "checklist": [
+  "카복실산의 산성도",
+  "유도체 반응성: 산 염화물 > 산 무수물 > 에스터 > 아마이드",
+  "친핵성 아실 치환과 사면체 중간체",
+  "에스터 가수 분해(비누화)와 에스터화",
+  "케토–엔올 호변 이성과 엔올레이트",
+  "α 할로젠화, 알킬화",
+  "알돌 축합, 클라이젠 축합, 마이클 첨가"
+ ],
+ "advice": [
+  "아실 치환과 알데하이드·케톤 첨가의 차이는 '사면체 중간체에서 떠날 수 있는 이탈기가 있는가' 하나입니다. 이 차이를 이해하면 유도체의 반응성 순서도 이탈기의 안정성으로 설명됩니다. 알돌과 클라이젠 반응은 생화학의 대사 경로(해당 과정, 지방산 합성)에서 효소가 쓰는 반응과 똑같으므로 생화학을 공부할 때 다시 만나게 됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Clayden · Greeves · Warren, Organic Chemistry (2판, 번역본 『유기화학』)",
+   "part": "10장 Nucleophilic substitution at the carbonyl group, 20장 Formation and reactions of enols, 25~26장 Alkylation of enolates, Reactions of enolates with carbonyl compounds"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Klein, Organic Chemistry (번역본 『유기화학』)",
+   "part": "21~22장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "카복실산 유도체 가운데 친핵성 아실 치환 반응성이 가장 큰 것은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산 염화물",
+      "산염화물",
+      "아실 할라이드",
+      "아실 클로라이드"
+     ]
+    }
+   ],
+   "explanation": "Cl⁻가 가장 좋은 이탈기이기 때문입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "알돌 반응에서 친핵체 역할을 하는 것은 카보닐 화합물의 {{1}}레이트입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "엔올"
+     ]
+    }
+   ],
+   "explanation": "α 수소가 떨어져 생긴 엔올레이트가 다른 카보닐을 공격합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "에스터를 염기 수용액으로 가수 분해해 카복실산 염과 알코올을 얻는 반응을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "비누화"
+     ]
+    }
+   ],
+   "explanation": "지방을 비누로 만드는 반응입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "organic-chemistry",
+ "id": "l3-chemistry-organic-chemistry-u07"
+}

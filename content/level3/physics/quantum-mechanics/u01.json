@@ -1,0 +1,92 @@
+{
+ "no": 1,
+ "title": "파동 함수와 슈뢰딩거 방정식",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "파동 함수의 확률 해석과 규격화를 설명할 수 있다.",
+  "시간 의존·무관 슈뢰딩거 방정식을 쓸 수 있다.",
+  "기댓값과 확률 흐름을 계산할 수 있다."
+ ],
+ "checklist": [
+  "흑체 복사·광전 효과·콤프턴 산란에서 양자 가설로",
+  "드브로이 파장과 전자 회절",
+  "보른의 확률 해석과 규격화",
+  "슈뢰딩거 방정식 iħ∂Ψ/∂t = ĤΨ",
+  "변수 분리와 정상 상태",
+  "기댓값 ⟨x⟩, ⟨p⟩와 에렌페스트 정리"
+ ],
+ "advice": [
+  "양자역학의 첫 관문은 '파동 함수 자체는 측정할 수 없고 |Ψ|²만 확률로 의미가 있다'는 해석을 받아들이는 것입니다. 해석 논쟁에 오래 머무르기보다 계산 규칙(규격화, 기댓값, 정상 상태)을 먼저 익히고, 해석 문제는 과목을 마친 뒤 다시 보는 것이 효율적입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Griffiths · Schroeter, Introduction to Quantum Mechanics (3판, 번역본 『양자역학』)",
+   "part": "1장 The Wave Function"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Kenneth S. Krane, Modern Physics (4판, 번역본 『현대물리학』)",
+   "part": "3~4장 The Particlelike Properties of Electromagnetic Radiation, The Wavelike Properties of Particles"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.04 Quantum Physics I (2016년 봄)",
+   "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/",
+   "lang": "영어",
+   "part": "Lecture 1~8"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "0 ≤ x ≤ 4에서 ψ = A(상수)이고 나머지에서 0인 파동 함수의 규격화 상수 A는? (A > 0)",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "∫|ψ|² dx = A² × 4 = 1\nA = 0.5",
+   "hint": "전체 확률이 1이어야 합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "|Ψ(x, t)|²는 입자를 위치 x에서 발견할 확률 {{1}}를 나타냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "밀도"
+     ]
+    }
+   ],
+   "explanation": "보른의 확률 해석입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "150 V로 가속한 전자의 드브로이 파장은 약 몇 nm일까요? (λ ≈ 1.226/√V nm)",
+   "answer": "0.1",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "explanation": "λ = 1.226/√150 ≈ 0.100 nm\n결정의 원자 간격과 비슷해 회절이 일어납니다.",
+   "hint": "주어진 식에 대입하세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "quantum-mechanics",
+ "id": "l3-physics-quantum-mechanics-u01"
+}

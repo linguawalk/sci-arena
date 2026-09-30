@@ -1,0 +1,97 @@
+{
+ "no": 5,
+ "title": "스핀과 동일 입자",
+ "hours": 5,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "스핀 ½을 2차원 상태 공간과 파울리 행렬로 나타낼 수 있다.",
+  "슈테른–게를라흐 실험을 설명할 수 있다.",
+  "파울리 원리로 원자의 전자 배치와 주기율표를 설명할 수 있다."
+ ],
+ "checklist": [
+  "스핀 ½과 파울리 행렬",
+  "슈테른–게를라흐 실험과 연속 측정",
+  "자기장 속 스핀 세차",
+  "각운동량의 합성",
+  "동일 입자: 대칭·반대칭 파동 함수",
+  "페르미온, 보손, 파울리 배타 원리",
+  "다전자 원자와 주기율표"
+ ],
+ "advice": [
+  "스핀은 고전적인 대응물이 없는 순수한 양자 개념이라 처음엔 낯섭니다. 하지만 2×2 행렬만으로 모든 계산이 되므로 형식론(3단원)을 연습하기에 가장 좋은 예제입니다. 연속 슈테른–게를라흐 장치 문제를 풀어 보면 측정이 상태를 바꾼다는 양자역학의 핵심을 직접 체험할 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Griffiths · Schroeter, Introduction to Quantum Mechanics (3판, 번역본 『양자역학』)",
+   "part": "4장 4.4절 Spin, 5장 Identical Particles"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.05 Quantum Physics II (2013년 가을)",
+   "url": "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/",
+   "lang": "영어",
+   "part": "Lecture (spin, addition of angular momentum)"
+  },
+  {
+   "kind": "book",
+   "provider": "Caltech (온라인 무료 공개)",
+   "title": "The Feynman Lectures on Physics",
+   "url": "https://www.feynmanlectures.caltech.edu/",
+   "lang": "영어",
+   "part": "Volume III 5~6장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "스핀 ½ 입자의 S_z를 측정할 때 나올 수 있는 값은 몇 가지일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "+ħ/2와 −ħ/2의 두 가지",
+   "hint": "위와 아래입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "두 페르미온이 같은 양자 상태에 있을 수 없다는 원리는 {{1}} 배타 원리입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "파울리"
+     ]
+    }
+   ],
+   "explanation": "반대칭 파동 함수에서 나옵니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "주양자수 n = 3인 껍질에 들어갈 수 있는 전자는 최대 몇 개일까요?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "2n² = 18 (스핀 2가지 포함)",
+   "hint": "2n²입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "quantum-mechanics",
+ "id": "l3-physics-quantum-mechanics-u05"
+}

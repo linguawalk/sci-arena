@@ -1,0 +1,100 @@
+{
+ "no": 4,
+ "title": "화학 평형의 열역학",
+ "hours": 5,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "ΔG°와 평형 상수의 관계를 유도할 수 있다.",
+  "반트호프 식으로 온도에 따른 K의 변화를 계산할 수 있다.",
+  "활동도와 실제 용액의 평형을 설명할 수 있다."
+ ],
+ "checklist": [
+  "반응 깁스 에너지 Δ_rG = Δ_rG° + RT ln Q",
+  "Δ_rG° = −RT ln K",
+  "르샤틀리에 원리의 열역학적 근거",
+  "반트호프 식 d ln K/dT = ΔH°/(RT²)",
+  "활동도와 활동도 계수, 데바이–휘켈 극한 법칙",
+  "전기화학 평형과 네른스트 식"
+ ],
+ "advice": [
+  "이 단원은 일반화학에서 결과로 쓴 식들을 유도하는 곳입니다. 특히 반트호프 식은 ln K를 1/T에 대해 그리면 기울기가 −ΔH°/R인 직선이 된다는 형태로 실험 자료 해석에 자주 쓰입니다. 실제 이온 용액이 이상적이지 않은 이유(이온 사이 상호작용)를 활동도 개념으로 설명할 수 있으면 분석화학으로 넘어갈 준비가 된 것입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Atkins · de Paula · Keeler, Atkins' Physical Chemistry (11판 이후, 번역본 『물리화학』)",
+   "part": "6장 Chemical equilibrium"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "5.60 Thermodynamics & Kinetics (2008년 봄)",
+   "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/",
+   "lang": "영어",
+   "part": "Lecture 25~28"
+  },
+  {
+   "kind": "web",
+   "provider": "LibreTexts Chemistry (무료 공개 교재 모음)",
+   "title": "Physical & Theoretical Chemistry, Organic Chemistry 서가",
+   "url": "https://chem.libretexts.org/",
+   "lang": "영어",
+   "part": "Physical & Theoretical Chemistry 서가 Chemical Equilibria"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "298 K에서 ΔG° = −5.71 kJ/mol인 반응의 평형 상수는 약 얼마일까요? (R = 8.314 J/(mol·K))",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0.3,
+   "explanation": "K = exp(5710 / (8.314 × 298)) ≈ e^2.30 ≈ 10",
+   "hint": "K = exp(−ΔG°/RT)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "발열 반응(ΔH° < 0)은 온도가 올라가면 평형 상수가 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "explanation": "반트호프 식에서 ΔH° < 0이면 d ln K/dT < 0입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "실제 용액에서 농도 대신 평형 상수 식에 쓰는 '유효 농도'를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "활동도"
+     ]
+    }
+   ],
+   "explanation": "a = γc (γ: 활동도 계수)",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "physical-chemistry",
+ "id": "l3-chemistry-physical-chemistry-u04"
+}

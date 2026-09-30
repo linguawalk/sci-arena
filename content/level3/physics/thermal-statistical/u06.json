@@ -1,0 +1,92 @@
+{
+ "no": 6,
+ "title": "양자 통계",
+ "hours": 6,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "페르미온과 보손의 분포 함수를 쓸 수 있다.",
+  "금속 자유 전자의 페르미 에너지를 설명할 수 있다.",
+  "보스–아인슈타인 응축을 설명할 수 있다."
+ ],
+ "checklist": [
+  "동일 입자, 페르미온과 보손",
+  "그랜드 정준 앙상블과 화학 퍼텐셜",
+  "페르미–디랙 분포 1/(e^((E−μ)/kT) + 1)",
+  "보스–아인슈타인 분포 1/(e^((E−μ)/kT) − 1)",
+  "축퇴 전자 기체와 페르미 에너지",
+  "보스–아인슈타인 응축"
+ ],
+ "advice": [
+  "두 분포의 차이는 분모의 +1과 −1 하나뿐이지만 결과는 금속과 초유체만큼 다릅니다. 고온·저밀도 극한에서 두 분포가 모두 볼츠만 분포로 돌아간다는 것을 확인하면, 언제 양자 통계가 필요한지(입자 사이 거리가 드브로이 파장과 비슷할 때) 판단할 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Daniel V. Schroeder, An Introduction to Thermal Physics (번역본 『열물리학』)",
+   "part": "7장 Quantum Statistics 7.1~7.3, 7.6절"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Lectures on Theoretical Physics (Statistical Physics, Quantum Mechanics 등 노트 목록)",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/teaching.html",
+   "lang": "영어",
+   "part": "Statistical Physics 노트 3장 Quantum Gases"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "절대 영도에서 페르미온이 채운 가장 높은 에너지 준위를 페르미 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "에너지"
+     ]
+    }
+   ],
+   "explanation": "금속에서 수 eV로 kT보다 훨씬 큽니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "매우 낮은 온도에서 많은 보손이 가장 낮은 에너지 상태에 모이는 현상을 보스–아인슈타인 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "응축"
+     ]
+    }
+   ],
+   "explanation": "1995년 알칼리 원자 기체에서 처음 실현되었습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "스핀이 정해진 한 양자 상태에 페르미온은 최대 몇 개까지 들어갈 수 있을까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "파울리 배타 원리 때문에 1개입니다.",
+   "hint": "파울리 원리입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "thermal-statistical",
+ "id": "l3-physics-thermal-statistical-u06"
+}

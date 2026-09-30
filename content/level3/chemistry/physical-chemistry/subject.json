@@ -1,0 +1,165 @@
+{
+ "level": 3,
+ "track": "chemistry",
+ "id": "physical-chemistry",
+ "title": "물리화학",
+ "tagline": "열역학·양자화학·통계 열역학·반응 속도론으로 화학 현상을 수식으로 설명한다",
+ "overview": [
+  "물리화학은 화학 현상을 물리 법칙과 수학으로 설명하는 분야입니다. 반응이 왜 일어나는가(열역학), 분자는 어떤 구조를 가지며 빛과 어떻게 상호작용하는가(양자화학과 분광학), 거시적 성질이 분자의 성질에서 어떻게 나오는가(통계 열역학), 반응은 얼마나 빨리 일어나는가(반응 속도론)의 네 질문을 다룹니다.",
+  "일반화학에서 결과로 배운 ΔG° = −RT ln K, 오비탈, 아레니우스 식이 모두 여기서 유도됩니다. 대학에서는 보통 열역학·속도론 한 학기와 양자화학·분광학 한 학기로 나누어 배우며, 이 가이드도 앞 네 단원과 뒤 네 단원이 이 구분을 따릅니다.",
+  "화학과 전공필수이며 중등 화학 임용시험의 핵심 과목입니다. 물리 트랙의 열·통계물리, 양자역학과 내용이 많이 겹치므로, 두 트랙을 함께 공부하면 한쪽을 훨씬 빨리 끝낼 수 있습니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Atkins, McQuarrie·Simon 교재 목차와 중등 화학 임용시험 물리화학 영역.",
+ "prereq": {
+  "text": "레벨2 일반화학의 열화학·평형·열역학·반응 속도론 단원과 대학 미적분(편미분, 적분)이 선수입니다. 물리 트랙 레벨3를 공부했다면 5~7단원은 빠르게 넘어가도 됩니다.",
+  "links": [
+   {
+    "title": "레벨2 일반화학 · 8단원 반응 속도론",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=8"
+   },
+   {
+    "title": "레벨2 일반화학 · 11단원 화학 열역학",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=11"
+   },
+   {
+    "title": "레벨2 일반화학 · 1단원 원자 구조와 양자역학적 모형",
+    "href": "guide.html?lv=2&t=chemistry&s=general-chemistry&u=1"
+   },
+   {
+    "title": "레벨3 물리 · 열·통계물리 3단원 분배 함수",
+    "href": "guide.html?lv=3&t=physics&s=thermal-statistical&u=3"
+   },
+   {
+    "title": "레벨3 물리 · 양자역학 2단원 1차원 문제",
+    "href": "guide.html?lv=3&t=physics&s=quantum-mechanics&u=2"
+   },
+   {
+    "title": "math-arena 레벨2 · 대학 미적분학(다변수)",
+    "href": "https://math-arena.org/guide.html?lv=2&t=analysis&s=calculus"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "ΔH = −100 kJ, ΔS = −200 J/K인 반응의 300 K에서 ΔG는 몇 kJ일까요?",
+    "answer": "-40",
+    "answer_format": "decimal",
+    "tolerance": 0.5,
+    "explanation": "ΔG = ΔH − TΔS = −100 + 60 = −40 kJ (일반화학 11단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "f(x, y) = x²y일 때 ∂f/∂x를 (x, y) = (1, 3)에서 구하면?",
+    "answer": "6",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "∂f/∂x = 2xy = 6 (다변수 미적분)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "1차 반응의 속도 상수가 0.0693 s⁻¹이면 반감기는 몇 초일까요?",
+    "answer": "10",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "t½ = 0.693/k = 10 s (일반화학 8단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 무기화학",
+   "note": "대칭과 분자 오비탈을 배위 화합물에 적용"
+  },
+  {
+   "title": "레벨3 · 분석화학",
+   "note": "분광학의 원리를 정량 분석에 적용"
+  },
+  {
+   "title": "융합 레벨3 · 생화학",
+   "note": "생체 에너지론과 효소 반응 속도론"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "열역학 제1법칙",
+   "hours": 6,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "제2·3법칙과 자유 에너지",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "상평형과 용액",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "화학 평형의 열역학",
+   "hours": 5,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "양자화학의 기초",
+   "hours": 7,
+   "after": [],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "분자 구조와 분광학",
+   "hours": 6,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "통계 열역학",
+   "hours": 5,
+   "after": [
+    2,
+    5
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "화학 반응 속도론",
+   "hours": 6,
+   "after": [
+    4
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 47
+}

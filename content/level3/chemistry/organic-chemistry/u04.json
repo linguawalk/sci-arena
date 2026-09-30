@@ -1,0 +1,101 @@
+{
+ "no": 4,
+ "title": "알켄과 알카인의 첨가 반응",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "친전자성 첨가의 메커니즘과 위치 선택성을 설명할 수 있다.",
+  "첨가 반응의 입체화학(syn, anti)을 예측할 수 있다.",
+  "알켄과 알카인을 이용한 간단한 합성 경로를 설계할 수 있다."
+ ],
+ "checklist": [
+  "알켄의 안정성과 수소화 열",
+  "HX 첨가와 마르코브니코프 규칙, 탄소 양이온 자리옮김",
+  "수화 반응, 수소화붕소화–산화(반마르코브니코프)",
+  "할로젠 첨가(anti)와 할로하이드린",
+  "에폭시화, 다이하이드록시화, 오존 분해",
+  "알카인의 반응과 산성도",
+  "합성 전략 입문(역합성)"
+ ],
+ "advice": [
+  "알켄 반응은 종류가 많으므로 '어떤 원자가 어느 탄소에 붙는가(위치 선택성)'와 '같은 쪽인가 반대쪽인가(입체 선택성)' 두 가지로 표를 만들어 정리하세요. 마르코브니코프 규칙은 외우지 말고 '더 안정한 탄소 양이온을 거친다'는 이유로 설명하는 연습을 하면, 수소화붕소화가 왜 반대 결과를 주는지도 자연스럽게 이해됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Clayden · Greeves · Warren, Organic Chemistry (2판, 번역본 『유기화학』)",
+   "part": "19~20장 Electrophilic addition to alkenes, Formation and reactions of enols 앞부분"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Klein, Organic Chemistry (번역본 『유기화학』)",
+   "part": "9~10장"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Organic Chemistry (McMurry)",
+   "url": "https://openstax.org/details/books/organic-chemistry",
+   "lang": "영어",
+   "part": "7~9장 Alkenes, Alkynes"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "HBr이 비대칭 알켄에 첨가될 때 H가 수소가 더 많은 탄소에 붙는다는 규칙을 {{1}} 규칙이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "마르코브니코프"
+     ]
+    }
+   ],
+   "explanation": "더 안정한 탄소 양이온을 거치기 때문입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "Br₂가 알켄에 첨가될 때 두 Br 원자는 서로 {{1}} 방향으로 붙습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반대",
+      "anti",
+      "안티"
+     ]
+    }
+   ],
+   "explanation": "브로모늄 이온 중간체의 뒤쪽을 Br⁻가 공격합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "알카인 1 mol을 알케인으로 완전히 수소화하려면 H₂가 몇 mol 필요할까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "삼중 결합 → 이중 결합 → 단일 결합\nH₂ 2 mol",
+   "hint": "π 결합 두 개입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "organic-chemistry",
+ "id": "l3-chemistry-organic-chemistry-u04"
+}

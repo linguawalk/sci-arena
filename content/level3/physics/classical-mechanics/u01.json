@@ -1,0 +1,92 @@
+{
+ "no": 1,
+ "title": "뉴턴 역학 다시 보기",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "속도에 의존하는 저항력이 있는 운동 방정식을 풀 수 있다.",
+  "보존 법칙과 퍼텐셜로 1차원 운동을 분석할 수 있다.",
+  "변하는 질량계(로켓)를 운동량으로 다룰 수 있다."
+ ],
+ "checklist": [
+  "극좌표·원통 좌표에서의 운동 방정식",
+  "선형·이차 저항력과 종단 속도",
+  "로켓 방정식 Δv = u ln(m₀/m)",
+  "보존력 조건 ∇ × F = 0과 퍼텐셜",
+  "1차원 퍼텐셜 운동과 전환점",
+  "각운동량 보존과 토크"
+ ],
+ "advice": [
+  "일반물리에서 이미 본 내용이지만 여기서는 미분방정식을 끝까지 푸는 것이 목표입니다. 저항력이 있는 포물선 운동처럼 해석해를 구할 수 있는 문제는 직접 풀고, 그 결과를 저항이 0인 극한과 비교해 검산하는 습관을 들이세요. 이 '극한으로 검산하기'는 이후 모든 단원에서 가장 유용한 도구입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "John R. Taylor, Classical Mechanics (번역본 『고전역학』)",
+   "part": "1~4장"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Thornton · Marion, Classical Dynamics of Particles and Systems (5판, 번역본 『고전역학』)",
+   "part": "2장 Newtonian Mechanics—Single Particle"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Dynamics and Relativity 외 강의 노트 목록",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/teaching.html",
+   "lang": "영어",
+   "part": "Dynamics and Relativity 노트 1~4장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "선형 저항력 F = −bv를 받으며 떨어지는 질량 2 kg 물체의 종단 속도는 몇 m/s일까요? (b = 4 kg/s, g = 10 m/s²)",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "종단 속도에서 mg = bv\nv = mg/b = 20/4 = 5 m/s",
+   "hint": "가속도가 0이 되는 조건입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "힘 F가 보존력이려면 ∇ × F = {{1}}이어야 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0"
+     ]
+    }
+   ],
+   "explanation": "회전이 0이면 퍼텐셜 U가 존재해 F = −∇U로 쓸 수 있습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "배기 속도 2 km/s인 로켓의 질량비 m₀/m가 e일 때 속도 증가량은 몇 km/s일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Δv = u ln(m₀/m) = 2 × ln e = 2 km/s",
+   "hint": "로켓 방정식입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "classical-mechanics",
+ "id": "l3-physics-classical-mechanics-u01"
+}

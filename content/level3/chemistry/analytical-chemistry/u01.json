@@ -1,0 +1,87 @@
+{
+ "no": 1,
+ "title": "분석 과정과 자료 평가",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "분석 과정의 단계와 오차의 종류를 설명할 수 있다.",
+  "평균, 표준편차, 신뢰 구간을 계산할 수 있다.",
+  "t 검정, F 검정, 이상값 검정으로 자료를 비교할 수 있다."
+ ],
+ "checklist": [
+  "분석 과정: 문제 정의 → 시료 채취 → 전처리 → 측정 → 해석",
+  "계통 오차와 우연 오차, 정확도와 정밀도",
+  "평균, 표준편차, 상대 표준편차",
+  "정규 분포와 신뢰 구간",
+  "t 검정(평균 비교), F 검정(분산 비교)",
+  "이상값 검정(Q, 그럽스)",
+  "유효숫자와 불확도 전파"
+ ],
+ "advice": [
+  "분석화학은 숫자를 믿을 수 있게 만드는 학문이므로 통계가 첫 단원입니다. 같은 시료를 여러 번 잰 자료로 평균과 표준편차, 95% 신뢰 구간을 스프레드시트로 계산하고, 두 방법의 결과가 통계적으로 다른지 t 검정을 직접 해 보세요. 이 도구는 모든 실험 과목에서 그대로 쓰입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "LibreTexts (무료 공개 교재)",
+   "title": "David Harvey, Analytical Chemistry 2.1",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)",
+   "lang": "영어",
+   "part": "1~4장 Introduction, Basic Tools, Vocabulary, Evaluating Analytical Data"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Daniel C. Harris, Quantitative Chemical Analysis (번역본 『분석화학』)",
+   "part": "3~4장 Experimental Error, Statistics"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "측정값 10, 12, 14의 평균은?",
+   "answer": "12",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "(10 + 12 + 14) / 3 = 12",
+   "hint": "산술 평균입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "측정값 10, 12, 14의 표준편차(표본, n − 1)는?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "편차 제곱합 = 4 + 0 + 4 = 8\ns = √(8/2) = 2",
+   "hint": "n − 1로 나누세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "같은 시료를 반복 측정했을 때 결과가 서로 얼마나 가까운지를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정밀도"
+     ]
+    }
+   ],
+   "explanation": "참값에 가까운 정도는 정확도입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "analytical-chemistry",
+ "id": "l3-chemistry-analytical-chemistry-u01"
+}

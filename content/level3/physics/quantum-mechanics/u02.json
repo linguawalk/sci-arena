@@ -1,0 +1,96 @@
+{
+ "no": 2,
+ "title": "1차원 퍼텐셜 문제",
+ "hours": 7,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "무한 우물과 조화 진동자의 에너지 준위와 파동 함수를 구할 수 있다.",
+  "사다리 연산자로 조화 진동자를 풀 수 있다.",
+  "계단·장벽 퍼텐셜에서 반사·투과와 터널링을 설명할 수 있다."
+ ],
+ "checklist": [
+  "무한 사각 우물 Eₙ = n²π²ħ²/(2mL²)",
+  "조화 진동자 Eₙ = (n + ½)ħω, 영점 에너지",
+  "사다리 연산자 a₊, a₋",
+  "자유 입자와 파동 묶음",
+  "델타 함수 퍼텐셜, 유한 우물",
+  "퍼텐셜 장벽과 터널링, 투과 계수"
+ ],
+ "advice": [
+  "이 단원의 문제들은 양자역학 전체의 '표준 예제'입니다. 무한 우물은 손으로 완전히 풀고, 조화 진동자는 미분방정식 풀이와 사다리 연산자 두 방법으로 모두 풀어 보세요. 사다리 연산자 방법은 4단원 각운동량과 양자장론까지 이어지는 대수적 사고방식입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Griffiths · Schroeter, Introduction to Quantum Mechanics (3판, 번역본 『양자역학』)",
+   "part": "2장 Time-Independent Schrödinger Equation"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "8.04 Quantum Physics I (2016년 봄)",
+   "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/",
+   "lang": "영어",
+   "part": "Lecture 9~17"
+  },
+  {
+   "kind": "lecture",
+   "provider": "David Tong (Cambridge) 강의 노트, 무료",
+   "title": "Lectures on Theoretical Physics (Statistical Physics, Quantum Mechanics 등 노트 목록)",
+   "url": "https://www.damtp.cam.ac.uk/user/tong/teaching.html",
+   "lang": "영어",
+   "part": "Quantum Mechanics 노트 2장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "무한 사각 우물에서 n = 3 상태의 에너지는 바닥 상태 에너지의 몇 배일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Eₙ ∝ n²\n3² = 9배",
+   "hint": "n²에 비례합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "양자 조화 진동자의 바닥 상태 에너지는 ħω의 몇 배일까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "E₀ = ½ħω (영점 에너지)",
+   "hint": "(n + ½)ħω에서 n = 0입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "입자가 고전적으로는 넘을 수 없는 에너지 장벽을 통과하는 현상을 {{1}} 효과라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "터널"
+     ]
+    }
+   ],
+   "explanation": "α 붕괴, 터널 다이오드, 주사 터널링 현미경의 원리입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "physics",
+ "subject": "quantum-mechanics",
+ "id": "l3-physics-quantum-mechanics-u02"
+}

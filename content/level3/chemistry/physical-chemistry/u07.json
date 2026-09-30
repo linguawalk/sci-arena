@@ -1,0 +1,95 @@
+{
+ "no": 7,
+ "title": "통계 열역학",
+ "hours": 5,
+ "after": [
+  2,
+  5
+ ],
+ "objectives": [
+  "분자 분배 함수로 열역학량을 계산할 수 있다.",
+  "병진·회전·진동 분배 함수의 크기를 비교할 수 있다.",
+  "평형 상수를 분배 함수로 설명할 수 있다."
+ ],
+ "checklist": [
+  "볼츠만 분포와 분자 분배 함수 q = Σgᵢe^(−εᵢ/kT)",
+  "정준 분배 함수 Q = qᴺ/N!",
+  "병진·회전·진동·전자 분배 함수",
+  "내부 에너지, 엔트로피, 열용량의 통계적 계산",
+  "평형 상수의 통계적 표현",
+  "전이 상태 이론의 통계적 기초"
+ ],
+ "advice": [
+  "통계 열역학은 5·6단원의 양자 준위와 1~4단원의 열역학을 잇는 다리입니다. 분배 함수를 '실온에서 실제로 접근 가능한 상태의 수'라고 해석하면 병진 분배 함수가 매우 크고 진동 분배 함수가 거의 1인 이유를 직관적으로 이해할 수 있습니다. 물리 트랙 열·통계물리 3~4단원과 함께 보면 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Atkins · de Paula · Keeler, Atkins' Physical Chemistry (11판 이후, 번역본 『물리화학』)",
+   "part": "13~14장 Statistical thermodynamics"
+  },
+  {
+   "kind": "book",
+   "provider": "University Science Books",
+   "title": "McQuarrie · Simon, Physical Chemistry: A Molecular Approach (번역본 『물리화학』)",
+   "part": "17~18장 Boltzmann factor, partition functions"
+  },
+  {
+   "kind": "web",
+   "provider": "LibreTexts Chemistry (무료 공개 교재 모음)",
+   "title": "Physical & Theoretical Chemistry, Organic Chemistry 서가",
+   "url": "https://chem.libretexts.org/",
+   "lang": "영어",
+   "part": "Physical & Theoretical Chemistry 서가 Statistical Mechanics"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "에너지가 같은(ε = 0) 상태 3개로만 이루어진 계의 분자 분배 함수 q는?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "q = 3 × e⁰ = 3\n축퇴도가 곧 분배 함수가 됩니다.",
+   "hint": "모든 볼츠만 인자가 1입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "접근 가능한 상태들의 볼츠만 인자를 모두 더한 q를 분자 {{1}} 함수라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "분배"
+     ]
+    }
+   ],
+   "explanation": "q에서 평균 에너지와 엔트로피 등을 얻습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "병진 분배 함수는 부피에 비례합니다. 부피가 2배가 되면 병진 분배 함수는 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "q_trans ∝ V\n2배",
+   "hint": "부피에 비례합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "chemistry",
+ "subject": "physical-chemistry",
+ "id": "l3-chemistry-physical-chemistry-u07"
+}
