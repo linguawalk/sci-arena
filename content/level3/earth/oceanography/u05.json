@@ -1,0 +1,99 @@
+{
+ "no": 5,
+ "title": "대양 순환",
+ "hours": 6,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "풍성 순환(아열대 순환)과 서안 강화를 설명할 수 있다.",
+  "열염 순환과 전 지구 컨베이어 벨트를 설명할 수 있다.",
+  "주요 해류와 수괴의 분포를 설명할 수 있다."
+ ],
+ "checklist": [
+  "바람 응력과 아열대·아한대 순환",
+  "스베르드럽 수송",
+  "서안 강화와 서안 경계류(쿠로시오, 멕시코 만류)",
+  "적도 해류계와 적도 반류",
+  "열염 순환과 심층수 형성(북대서양, 남극)",
+  "남극 순환류",
+  "해류의 측정(부이, 아르고 플로트)"
+ ],
+ "advice": [
+  "대양 순환은 바람이 움직이는 표층 순환과 밀도 차가 움직이는 심층 순환 두 층으로 나누어 이해하세요. 서안 강화는 코리올리 매개변수가 위도에 따라 달라지기 때문에 생긴다는 설명을 따라가 보고, 해류의 수송량을 스베르드럽(Sv) 단위로 표현하는 데 익숙해지세요. 아르고 플로트 자료는 오늘날 해양 관측의 중심입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Talley 외, Descriptive Physical Oceanography (6판)",
+   "part": "9~13장 (대양별 순환)"
+  },
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics",
+   "part": "10~11장 The wind-driven circulation, The thermohaline circulation"
+  },
+  {
+   "kind": "book",
+   "provider": "Roger Williams University Open Publishing (무료 공개 교재)",
+   "title": "Paul Webb, Introduction to Oceanography",
+   "url": "https://rwu.pressbooks.pub/webboceanography/",
+   "lang": "영어",
+   "part": "9장 Ocean Circulation"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "대양의 서쪽 가장자리 해류가 좁고 빠르게 흐르는 현상을 {{1}} 강화라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "서안"
+     ]
+    }
+   ],
+   "explanation": "쿠로시오와 멕시코 만류가 예입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "그린란드 근처에서 차고 짜진 해수가 가라앉아 만들어지는 수괴를 북대서양 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "심층수"
+     ]
+    }
+   ],
+   "explanation": "열염 순환의 중요한 출발점입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "해류 수송량 단위 1 Sv(스베르드럽)는 초당 10의 몇 제곱 m³일까요?",
+   "answer": "6",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "1 Sv = 10⁶ m³/s\n멕시코 만류는 약 30~150 Sv입니다.",
+   "hint": "백만입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "oceanography",
+ "id": "l3-earth-oceanography-u05"
+}

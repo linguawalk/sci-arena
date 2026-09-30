@@ -1,0 +1,97 @@
+{
+ "no": 3,
+ "title": "퇴적학과 층서학",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "풍화·운반·퇴적 과정과 퇴적 구조를 해석할 수 있다.",
+  "퇴적 환경을 암상과 화석으로 추정할 수 있다.",
+  "층서 원리와 월터의 법칙으로 지층을 대비할 수 있다."
+ ],
+ "checklist": [
+  "물리적·화학적 풍화",
+  "입도, 분급, 원마도와 운반 과정",
+  "퇴적 구조(사층리, 연흔, 점이층리, 건열)",
+  "쇄설성·화학적·생물학적 퇴적암",
+  "퇴적 환경(하천, 삼각주, 해빈, 대륙붕, 심해)",
+  "암석·생층서·연대층서와 대비",
+  "월터의 법칙과 해진·해퇴, 속성 작용"
+ ],
+ "advice": [
+  "퇴적암은 과거 환경의 기록입니다. 퇴적 구조 사진을 보고 '물이 어느 방향으로 흘렀는가, 물 위였는가 아래였는가, 위아래가 뒤집혔는가'를 읽어 내는 연습이 핵심입니다. 월터의 법칙(수평으로 이웃한 환경이 수직으로 쌓인다)은 해수면 변동을 지층에서 읽는 열쇠이므로 그림으로 확실히 이해해 두세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Sam Boggs, Principles of Sedimentology and Stratigraphy (퇴적학·층서학)",
+   "part": "1~12장 (필요한 부분)"
+  },
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "5~6장 Weathering and Soil, Sediments and Sedimentary Rocks"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "사층리의 기울어진 방향으로 과거 물이나 바람이 흐른 {{1}}을 알 수 있습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "방향"
+     ]
+    }
+   ],
+   "explanation": "사층리는 흐름의 하류 쪽으로 기울어집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "수평으로 이웃한 퇴적 환경이 시간이 지나며 수직으로 쌓인다는 법칙은 {{1}}의 법칙입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "월터"
+     ]
+    }
+   ],
+   "explanation": "해진·해퇴를 해석하는 데 쓰입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "퇴적물이 다짐과 교결로 굳어 퇴적암이 되는 과정을 {{1}} 작용이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "속성"
+     ]
+    }
+   ],
+   "explanation": "레벨1에서 배운 개념을 확장한 것입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "geology",
+ "id": "l3-earth-geology-u03"
+}

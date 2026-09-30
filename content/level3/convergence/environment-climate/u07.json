@@ -1,0 +1,99 @@
+{
+ "no": 7,
+ "title": "수질·토양 오염과 물 순환 변화",
+ "hours": 5,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "부영양화와 녹조의 원인과 과정을 설명할 수 있다.",
+  "중금속·유기 오염 물질과 미세플라스틱의 거동과 영향을 설명할 수 있다.",
+  "기후 변화에 따른 물 순환의 변화(가뭄, 홍수)를 설명할 수 있다."
+ ],
+ "checklist": [
+  "수질 지표(BOD, COD, 용존 산소)",
+  "영양염(질소, 인)과 부영양화, 녹조·적조",
+  "중금속(수은, 카드뮴, 납)과 생물 농축",
+  "잔류성 유기 오염 물질(POPs)",
+  "미세플라스틱의 발생과 거동",
+  "토양 오염과 정화",
+  "온난화와 물 순환 강화(클라우지우스–클라페이롱), 극한 강수와 가뭄"
+ ],
+ "advice": [
+  "환경 오염 물질을 공부할 때는 '어디서 나와서, 어떻게 이동하고, 어디에 쌓이며, 누구에게 해를 주는가'의 네 단계로 정리하세요. 수은이 먹이 사슬을 따라 농축되어 미나마타병을 일으킨 사례는 생태학 7단원의 에너지 흐름과 반대로 오염 물질이 위로 갈수록 진해진다는 것을 보여 줍니다. 기온 1 °C 상승당 대기가 품는 수증기가 약 7% 늘어난다는 사실은 극한 강수 증가의 핵심 근거입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "CRC Press",
+   "title": "Stanley E. Manahan, Environmental Chemistry (번역본 『환경화학』)",
+   "part": "수질 화학·토양 화학 장"
+  },
+  {
+   "kind": "web",
+   "provider": "IPCC",
+   "title": "제6차 평가 보고서(AR6) 종합 보고서와 제1실무그룹 보고서",
+   "url": "https://www.ipcc.ch/report/ar6/syr/",
+   "lang": "영어(기상청 한국어 번역본 있음)",
+   "part": "제1실무그룹 8장 Water cycle changes"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Kump · Kasting · Crane, The Earth System (번역본 『지구 시스템의 이해』)",
+   "part": "물 순환 장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "호수나 하천에 {{1}}과 질소 같은 영양염이 과도하게 들어오면 부영양화로 녹조가 생깁니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인"
+     ]
+    }
+   ],
+   "explanation": "담수에서는 인이 제한 영양염인 경우가 많습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "미세플라스틱은 보통 크기가 몇 mm 미만인 플라스틱 조각을 말할까요?",
+   "answer": "5",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "5 mm 미만을 미세플라스틱으로 정의합니다.",
+   "hint": "한 자리 수입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "공장 폐수의 메틸수은이 어패류에 농축되어 발생한 일본의 공해병은 {{1}}병입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "미나마타"
+     ]
+    }
+   ],
+   "explanation": "생물 농축의 대표적 사례입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "environment-climate",
+ "id": "l3-convergence-environment-climate-u07"
+}

@@ -1,0 +1,98 @@
+{
+ "no": 4,
+ "title": "항성 진화와 최후",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "질량에 따른 별의 진화 경로를 H–R도 위에서 설명할 수 있다.",
+  "주계열 수명을 질량으로 어림할 수 있다.",
+  "백색 왜성, 중성자별, 블랙홀의 형성 조건과 물리를 설명할 수 있다."
+ ],
+ "checklist": [
+  "주계열 수명 t ∝ M/L ∝ M^(−2.5)",
+  "적색 거성, 헬륨 섬광, 수평 가지, 점근 거성 가지",
+  "행성상 성운과 백색 왜성",
+  "전자 축퇴압과 찬드라세카르 한계(약 1.4 M☉)",
+  "무거운 별의 핵융합 껍질과 철 핵",
+  "핵붕괴 초신성, Ia형 초신성",
+  "중성자별, 펄서, 블랙홀",
+  "성단의 H–R도와 나이"
+ ],
+ "advice": [
+  "별의 일생은 '질량이 모든 것을 결정한다'는 한 문장으로 요약됩니다. 태양 질량과 20배 질량인 별의 진화 경로를 H–R도에 나란히 그려 비교하세요. 백색 왜성을 지탱하는 전자 축퇴압은 열·통계물리 6단원의 페르미–디랙 통계가 실제 천체에서 나타나는 예이며, 성단의 전향점으로 나이를 재는 방법은 우주의 나이 추정에도 쓰입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Carroll · Ostlie, An Introduction to Modern Astrophysics (번역본 『현대 천체물리학』)",
+   "part": "13~18장 Main Sequence and Post-Main-Sequence Stellar Evolution, Stellar Pulsation, The Fate of Massive Stars, Degenerate Remnants"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e",
+   "lang": "영어",
+   "part": "22~23장 Stars from Adolescence to Old Age, The Death of Stars"
+  },
+  {
+   "kind": "lecture",
+   "provider": "Open Yale Courses",
+   "title": "ASTR 160 Frontiers and Controversies in Astrophysics (Bailyn, 24강)",
+   "url": "https://oyc.yale.edu/astronomy/astr-160",
+   "lang": "영어",
+   "part": "12~14강 Stellar Mass Black Holes, Pulsars"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "주계열 수명이 M^(−2.5)에 비례하고 태양의 수명이 100억 년일 때, 10배 질량인 별의 수명은 약 몇 백만 년일까요?",
+   "answer": "32",
+   "answer_format": "integer",
+   "tolerance": 2,
+   "explanation": "10^(−2.5) ≈ 0.00316\n0.00316 × 10 000백만 년 ≈ 32백만 년",
+   "hint": "10^(−2.5)를 곱하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "백색 왜성이 가질 수 있는 최대 질량(찬드라세카르 한계)은 태양 질량의 약 몇 배일까요?",
+   "answer": "1.4",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "약 1.4 M☉\n이보다 무거우면 전자 축퇴압으로 버틸 수 없습니다.",
+   "hint": "1과 2 사이입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "빠르게 자전하며 규칙적인 전파 펄스를 내는 중성자별을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "펄서"
+     ]
+    }
+   ],
+   "explanation": "1967년 벨과 휴이시가 발견했습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "astronomy",
+ "id": "l3-earth-astronomy-u04"
+}

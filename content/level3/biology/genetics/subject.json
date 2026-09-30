@@ -1,0 +1,159 @@
+{
+ "level": 3,
+ "track": "biology",
+ "id": "genetics",
+ "title": "유전학",
+ "tagline": "교배와 돌연변이 분석에서 유전체학, 양적 유전, 집단 유전까지",
+ "overview": [
+  "유전학은 형질이 어떻게 전달되고 변하는지를 다룹니다. 세포·분자생물학이 유전자 산물의 작동 방식을 묻는다면, 유전학은 돌연변이와 교배, 가계와 집단 자료를 분석해 유전자의 존재와 기능, 위치를 추론합니다. 확률과 통계가 핵심 도구입니다.",
+  "과목은 전달 유전학(멘델 유전의 확장, 연관 지도, 세균·바이러스 유전), 분자 유전학(돌연변이와 수선, 유전자 조절의 유전학적 분석, 유전체학), 양적·집단 유전학으로 나뉩니다. 이 가이드는 생명공학의 유전자 분석 기술을 유전체학 단원에 통합했습니다.",
+  "생명과학과 전공필수이며 중등 생물 임용시험의 핵심 과목입니다. 집단 유전학은 생태학과 진화의 선수이며, 통계(카이제곱 검정, 분산)는 math-arena 확률과 통계에서 보충할 수 있습니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Griffiths 『Introduction to Genetic Analysis』, Pierce 『Genetics』 목차와 중등 생물 임용시험 유전 영역.",
+ "prereq": {
+  "text": "레벨2 일반생물의 멘델 유전, 분자 유전, 진화 단원과 기초 확률이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 일반생물 · 5단원 멘델 유전과 염색체 유전",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=5"
+   },
+   {
+    "title": "레벨2 일반생물 · 6단원 분자 유전",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=6"
+   },
+   {
+    "title": "레벨2 일반생물 · 8단원 진화의 원리와 집단 유전",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=8"
+   },
+   {
+    "title": "math-arena 레벨1 · 확률과 통계",
+    "href": "https://math-arena.org/browse.html?c=c5"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "fill_blank",
+    "prompt": "AaBb × AaBb(독립 유전)에서 두 형질 모두 우성 표현형인 자손의 비율은 {{1}}입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "9/16"
+      ]
+     }
+    ],
+    "explanation": "3/4 × 3/4 = 9/16 (일반생물 5단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "하디–바인베르크 평형 집단에서 aa 빈도가 0.16이면 a의 빈도는? (소수로)",
+    "answer": "0.4",
+    "answer_format": "decimal",
+    "tolerance": 0.01,
+    "explanation": "√0.16 = 0.4 (일반생물 8단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "두 유전자 사이 재조합 빈도가 12%이면 지도 거리는 몇 cM일까요?",
+    "answer": "12",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "1% = 1 cM (일반생물 5단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 생태학과 진화",
+   "note": "집단 유전학을 진화 이론으로 확장"
+  },
+  {
+   "title": "레벨3 · 세포·분자생물학",
+   "note": "유전자 산물의 분자 메커니즘"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "멘델 유전의 확장과 통계",
+   "hours": 6,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "연관과 유전자 지도",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "세균과 바이러스의 유전학",
+   "hours": 4,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "돌연변이, DNA 수선, 염색체 이상",
+   "hours": 5,
+   "after": [
+    2
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "유전자 조절의 유전학적 분석",
+   "hours": 5,
+   "after": [
+    3
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "유전체학과 유전자 분석 기술",
+   "hours": 5,
+   "after": [
+    4
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "양적 유전",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "집단 유전학",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 42
+}

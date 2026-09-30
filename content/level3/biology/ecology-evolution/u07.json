@@ -1,0 +1,97 @@
+{
+ "no": 7,
+ "title": "생태계 생태학",
+ "hours": 5,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "1차 생산량과 에너지 흐름을 정량적으로 계산할 수 있다.",
+  "탄소·질소·인 순환의 과정과 생물의 역할을 설명할 수 있다.",
+  "생태계 생산성을 제한하는 요인을 설명할 수 있다."
+ ],
+ "checklist": [
+  "총1차 생산량(GPP)과 순1차 생산량(NPP = GPP − R)",
+  "생산성을 제한하는 요인(빛, 물, 영양염)",
+  "영양 단계와 생태 효율(약 10%)",
+  "생태 피라미드",
+  "분해와 영양염 순환",
+  "탄소 순환, 질소 순환(질소 고정, 질산화, 탈질산화), 인 순환",
+  "부영양화"
+ ],
+ "advice": [
+  "이 단원은 생태학이 화학·지구과학과 만나는 곳입니다. 질소 순환의 각 단계를 담당하는 미생물과 반응(산화·환원)을 세포·분자생물학 8단원의 대사 다양성과 연결해 정리하세요. 인간 활동(비료, 화석 연료)이 각 순환을 어떻게 바꾸었는지는 환경·기후과학 과목의 핵심 주제로 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Begon · Townsend · Harper, Ecology: From Individuals to Ecosystems (번역본 『생태학』)",
+   "part": "20~22장 (에너지 흐름, 물질 순환)"
+  },
+  {
+   "kind": "lecture",
+   "provider": "Open Yale Courses",
+   "title": "EEB 122 Principles of Evolution, Ecology and Behavior (Stearns, 36강)",
+   "url": "https://oyc.yale.edu/ecology-and-evolutionary-biology/eeb-122",
+   "lang": "영어",
+   "part": "30강 Energy and Matter in Ecosystems"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "46장 Ecosystems"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "어떤 생태계의 총1차 생산량이 1000, 생산자의 호흡량이 400(같은 단위)이면 순1차 생산량은?",
+   "answer": "600",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "NPP = GPP − R = 600",
+   "hint": "총생산 − 호흡입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "생산자 에너지 1000 kJ에서 생태 효율 10%로 두 단계를 거치면 2차 소비자가 얻는 에너지는 몇 kJ일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "1000 × 0.1 × 0.1 = 10 kJ",
+   "hint": "두 번 10%를 곱하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "대기의 N₂를 생물이 쓸 수 있는 NH₃로 바꾸는 과정을 질소 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "고정"
+     ]
+    }
+   ],
+   "explanation": "뿌리혹박테리아와 남세균 등이 합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "ecology-evolution",
+ "id": "l3-biology-ecology-evolution-u07"
+}

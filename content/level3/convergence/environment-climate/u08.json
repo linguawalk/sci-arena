@@ -1,0 +1,108 @@
+{
+ "no": 8,
+ "title": "기후 변화 대응: 완화, 적응, 에너지 전환",
+ "hours": 5,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "완화와 적응의 차이와 주요 수단을 설명할 수 있다.",
+  "탄소 중립 경로와 부문별 감축 수단을 정량적으로 비교할 수 있다.",
+  "기후 정책과 국제 협약의 구조를 설명할 수 있다."
+ ],
+ "checklist": [
+  "완화(배출 감축)와 적응(피해 대비)",
+  "탄소 중립(순배출 0)과 넷제로 경로",
+  "부문별 감축: 전력(재생 에너지, 원자력), 수송(전기화), 산업, 건물",
+  "탄소 포집·저장(CCS)과 이산화 탄소 제거(CDR)",
+  "에너지 저장과 전력망",
+  "파리 협정과 국가 온실가스 감축 목표(NDC)",
+  "한국의 탄소 중립 기본법과 기후 적응"
+ ],
+ "advice": [
+  "기후 대응은 과학, 기술, 경제, 정책이 만나는 영역이므로 이 단원에서는 과학적 사실과 가치 판단을 구별하는 레벨2 과학사와 과학의 방법 9단원의 태도가 중요합니다. MacKay의 책처럼 각 감축 수단의 규모를 같은 단위(TWh, GtCO₂)로 비교해 보고, IPCC 제3실무그룹의 감축 비용 곡선을 읽어 보세요. 1~5단원의 과학이 어떤 정책 선택의 근거가 되는지 연결하는 것이 이 과목의 마무리입니다."
+ ],
+ "resources": [
+  {
+   "kind": "web",
+   "provider": "IPCC",
+   "title": "제6차 평가 보고서(AR6) 종합 보고서와 제1실무그룹 보고서",
+   "url": "https://www.ipcc.ch/report/ar6/syr/",
+   "lang": "영어(기상청 한국어 번역본 있음)",
+   "part": "정책 결정자용 요약 C절, 제3실무그룹 보고서 요약"
+  },
+  {
+   "kind": "book",
+   "provider": "UIT Cambridge (저자 공개 무료본)",
+   "title": "David J. C. MacKay, Sustainable Energy – without the hot air",
+   "url": "https://www.withouthotair.com/",
+   "lang": "영어",
+   "part": "전반부(소비·생산 비교)와 후반부 계획 장"
+  },
+  {
+   "kind": "web",
+   "provider": "기상청 기후정보포털",
+   "title": "한반도 기후 변화 전망, 기후 변화 시나리오",
+   "url": "https://www.climate.go.kr/",
+   "lang": "한국어",
+   "part": "국가 기후 변화 적응 대책 자료"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "배출한 온실가스와 흡수·제거한 양이 같아 순배출이 {{1}}이 되는 상태를 탄소 중립이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "0",
+      "영"
+     ]
+    }
+   ],
+   "explanation": "넷제로(net zero)라고도 합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "발전소 등에서 나온 CO₂를 포집해 땅속 깊이 저장하는 기술을 탄소 포집·{{1}}(CCS)이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "저장"
+     ]
+    }
+   ],
+   "explanation": "Carbon Capture and Storage의 약자입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "온실가스 배출을 줄여 기후 변화 자체를 늦추는 대응을 {{1}}라고 하고, 이미 일어나는 변화의 피해에 대비하는 것을 적응이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "완화"
+     ]
+    }
+   ],
+   "explanation": "두 가지 대응이 함께 필요합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "environment-climate",
+ "id": "l3-convergence-environment-climate-u08"
+}

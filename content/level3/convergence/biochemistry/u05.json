@@ -1,0 +1,83 @@
+{
+ "no": 5,
+ "title": "시트르산 회로와 산화적 인산화",
+ "hours": 6,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "피루브산 탈수소 효소와 시트르산 회로의 반응과 산물을 설명할 수 있다.",
+  "전자 전달계의 복합체와 화학 삼투를 설명할 수 있다.",
+  "P/O 비로 포도당 1분자의 ATP 수를 계산할 수 있다."
+ ],
+ "checklist": [
+  "피루브산 탈수소 효소 복합체와 조효소",
+  "시트르산 회로 8단계와 산물(NADH 3, FADH₂ 1, GTP 1, CO₂ 2)",
+  "회로의 조절과 보충 반응",
+  "전자 전달계(복합체 Ⅰ~Ⅳ, 유비퀴논, 사이토크롬 c)",
+  "양성자 구동력과 화학 삼투",
+  "ATP 합성 효소의 회전 촉매",
+  "P/O 비(NADH 약 2.5, FADH₂ 약 1.5)와 ATP 수지"
+ ],
+ "advice": [
+  "레벨1·2에서 '약 32 ATP'라고 배운 숫자가 P/O 비에서 어떻게 나오는지 직접 계산해 보세요. NADH와 FADH₂가 몇 개씩 생기는지 단계별로 세고 각각에 P/O 비를 곱하면 됩니다. ATP 합성 효소가 H⁺ 흐름으로 실제로 회전하는 분자 모터라는 사실(1997년 노벨 화학상)은 세포·분자생물학과 연결되는 흥미로운 주제입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Nelson · Cox, Lehninger Principles of Biochemistry (번역본 『레닌저 생화학』)",
+   "part": "16장 The Citric Acid Cycle, 19장 Oxidative Phosphorylation"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Berg 외, Biochemistry (Stryer, 번역본 『생화학』)",
+   "part": "17~18장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "NADH 1분자가 전자 전달계로 전자를 넘길 때 만들어지는 ATP는 약 몇 분자일까요? (소수로)",
+   "answer": "2.5",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "NADH의 P/O 비는 약 2.5입니다.\nFADH₂는 약 1.5입니다.",
+   "hint": "3보다 조금 작습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "시트르산 회로가 한 번 돌 때 나오는 CO₂는 몇 분자일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "아세틸기의 탄소 2개만큼 CO₂ 2분자가 나옵니다.",
+   "hint": "아세틸기의 탄소 수입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "사이안화물이 결합해 전자 전달을 막는 사이토크롬 c 산화 효소는 복합체 몇 번일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "복합체 Ⅳ(사이토크롬 c 산화 효소)가 O₂에 전자를 넘깁니다.",
+   "hint": "마지막 복합체입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "biochemistry",
+ "id": "l3-convergence-biochemistry-u05"
+}

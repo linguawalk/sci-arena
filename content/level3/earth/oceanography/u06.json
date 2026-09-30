@@ -1,0 +1,100 @@
+{
+ "no": 6,
+ "title": "파랑과 조석",
+ "hours": 5,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "분산 관계로 심해파와 천해파의 속력을 계산할 수 있다.",
+  "쓰나미와 연안 과정을 설명할 수 있다.",
+  "평형 조석론과 실제 조석(조석 성분, 조류)을 설명할 수 있다."
+ ],
+ "checklist": [
+  "파랑의 분산 관계",
+  "심해파 c = gT/(2π), 천해파 c = √(gh)",
+  "풍랑과 너울, 파랑 스펙트럼",
+  "쇄파, 굴절, 연안류",
+  "쓰나미",
+  "기조력과 평형 조석론",
+  "조석 성분(M₂, S₂, K₁, O₁), 무조점과 조석 예보"
+ ],
+ "advice": [
+  "파랑은 분산 관계 하나에서 심해파와 천해파의 두 극한이 나온다는 것을 확인하는 것이 핵심입니다. 실제 조석은 평형 조석론의 두 번 부푼 모양과 달리 대양 분지 안에서 회전하는 조석파(무조점 둘레)로 나타난다는 점이 중요합니다. 국립해양조사원의 조석 예보를 보며 서해안의 큰 조차와 조석 성분을 확인해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Roger Williams University Open Publishing (무료 공개 교재)",
+   "title": "Paul Webb, Introduction to Oceanography",
+   "url": "https://rwu.pressbooks.pub/webboceanography/",
+   "lang": "영어",
+   "part": "10장 Waves 및 조석 관련 장"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Tom Garrison, Oceanography: An Invitation to Marine Science (번역본 『해양학』)",
+   "part": "파랑·조석 장"
+  },
+  {
+   "kind": "web",
+   "provider": "국립해양조사원",
+   "title": "조석·해류·해양 관측 자료",
+   "url": "https://www.khoa.go.kr/",
+   "lang": "한국어",
+   "part": "조석 예보, 조류도"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "수심 4000 m인 대양을 지나는 쓰나미(천해파)의 속력은 약 몇 m/s일까요? (g = 10 m/s²)",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "c = √(gh) = √40000 = 200 m/s",
+   "hint": "√(gh)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "주기 10초인 심해파의 속력은 약 몇 m/s일까요? (g = 9.8 m/s², 소수 첫째 자리까지)",
+   "answer": "15.6",
+   "answer_format": "decimal",
+   "tolerance": 0.2,
+   "explanation": "c = gT/(2π) = 98/6.283 ≈ 15.6 m/s",
+   "hint": "c = gT/(2π)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "조차가 가장 큰 사리는 태양·지구·달이 일직선이 되는 {{1}} 무렵에 나타납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "삭망",
+      "보름과 그믐",
+      "그믐과 보름",
+      "삭과 망"
+     ]
+    }
+   ],
+   "explanation": "삭(그믐)과 망(보름) 무렵입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "oceanography",
+ "id": "l3-earth-oceanography-u06"
+}

@@ -1,0 +1,96 @@
+{
+ "no": 4,
+ "title": "해양 역학 기초",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "회전 좌표계에서 해수 운동 방정식을 규모 분석으로 단순화할 수 있다.",
+  "에크만 층과 에크만 수송, 용승·침강을 설명할 수 있다.",
+  "해수면 경사로 지형류의 속력을 계산할 수 있다."
+ ],
+ "checklist": [
+  "해수에 작용하는 힘: 압력 경도력, 코리올리 힘, 마찰",
+  "정역학 평형과 해수면 높이",
+  "에크만 나선과 에크만 수송",
+  "연안 용승과 적도 용승, 에크만 펌핑",
+  "지형류 평형 v = (g/f)(∂η/∂x)",
+  "위성 해면 고도 관측",
+  "관성 진동"
+ ],
+ "advice": [
+  "대기과학 5단원의 지균풍과 이 단원의 지형류는 같은 식입니다. 기압 대신 해수면 높이의 경사를 쓰면 됩니다. 인공위성 고도계로 잰 해수면 높이 지도에서 해수면이 1 m 기울어진 곳의 해류 속력을 직접 계산해 보면 이 식의 힘을 알 수 있습니다. 에크만 펌핑은 5단원 대양 순환의 원동력으로 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics",
+   "part": "9~10장 The ocean and its circulation, The wind-driven circulation"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "12.003 Atmosphere, Ocean and Climate Dynamics (2008년 가을)",
+   "url": "https://ocw.mit.edu/courses/12-003-atmosphere-ocean-and-climate-dynamics-fall-2008/",
+   "lang": "영어",
+   "part": "Lecture (ocean dynamics)"
+  },
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Talley 외, Descriptive Physical Oceanography (6판)",
+   "part": "7장 Dynamical Processes"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "북반구에서 에크만 수송은 바람 방향의 오른쪽 몇 °로 일어날까요?",
+   "answer": "90",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "에크만층 전체의 평균 수송은 바람의 오른쪽 90°입니다.",
+   "hint": "직각입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "100 km에 걸쳐 해수면이 1 m 기울어진 곳의 지형류 속력은 약 몇 m/s일까요? (g = 10 m/s², f = 10⁻⁴ s⁻¹)",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "v = (g/f)(Δη/Δx) = (10/10⁻⁴) × (1/10⁵) = 1 m/s",
+   "hint": "(g/f) × 기울기입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "지형류는 해수면 경사가 만드는 {{1}} 경도력과 코리올리 힘이 평형을 이루는 흐름입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "압력",
+      "수압"
+     ]
+    }
+   ],
+   "explanation": "지균풍과 같은 원리입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "oceanography",
+ "id": "l3-earth-oceanography-u04"
+}

@@ -1,0 +1,90 @@
+{
+ "no": 3,
+ "title": "효소 반응 속도론과 조절",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "미카엘리스–멘텐 식과 라인위버–버크 도표로 K_M과 V_max를 구할 수 있다.",
+  "여러 저해 방식을 속도 자료로 구별할 수 있다.",
+  "효소의 촉매 메커니즘과 조절 방식을 설명할 수 있다."
+ ],
+ "checklist": [
+  "효소와 활성화 에너지, 전이 상태 안정화",
+  "미카엘리스–멘텐 식 v = V_max[S]/(K_M + [S])",
+  "k_cat, k_cat/K_M과 효소 효율",
+  "라인위버–버크 이중 역수 도표",
+  "경쟁적·비경쟁적·반경쟁적 저해",
+  "촉매 메커니즘(산–염기, 공유 결합, 금속 이온): 키모트립신",
+  "알로스테리 조절, 공유 변형(인산화), 효소원 활성화"
+ ],
+ "advice": [
+  "효소 속도론은 물리화학 8단원의 정상 상태 근사를 그대로 쓰는 단원입니다. 속도 자료를 라인위버–버크 도표로 바꿔 저해 방식(기울기만 변하는가, 절편도 변하는가)을 판별하는 연습을 여러 번 하세요. 약물의 상당수가 효소 저해제이므로 이 단원은 약학과 의학의 기초이기도 합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Nelson · Cox, Lehninger Principles of Biochemistry (번역본 『레닌저 생화학』)",
+   "part": "6장 Enzymes"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Berg 외, Biochemistry (Stryer, 번역본 『생화학』)",
+   "part": "8~10장 Enzymes: Basic Concepts and Kinetics, Catalytic Strategies, Regulatory Strategies"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "[S] = 3K_M일 때 효소 반응 속도는 V_max의 몇 배일까요?",
+   "answer": "0.75",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "v = V_max × 3K_M / (K_M + 3K_M) = 0.75V_max",
+   "hint": "미카엘리스–멘텐 식에 대입하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "K_M = 2 mM인 효소의 라인위버–버크 도표에서 x절편은 몇 mM⁻¹일까요?",
+   "answer": "-0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "x절편 = −1/K_M = −0.5 mM⁻¹",
+   "hint": "−1/K_M입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "경쟁적 저해제가 있으면 V_max는 그대로이고 겉보기 {{1}}이 커집니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "K_M",
+      "KM",
+      "Km",
+      "미카엘리스 상수"
+     ]
+    }
+   ],
+   "explanation": "라인위버–버크 도표에서 y절편은 같고 기울기가 커집니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "biochemistry",
+ "id": "l3-convergence-biochemistry-u03"
+}

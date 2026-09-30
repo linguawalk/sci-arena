@@ -1,0 +1,96 @@
+{
+ "no": 2,
+ "title": "복사 강제력과 기후 민감도",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "온실 기체와 에어로졸의 복사 강제력을 계산할 수 있다.",
+  "기후 민감도와 되먹임 매개변수의 관계를 설명할 수 있다.",
+  "간단한 에너지 균형 모형으로 기온 반응을 어림할 수 있다."
+ ],
+ "checklist": [
+  "복사 강제력의 정의(W/m²)",
+  "CO₂ 강제력 ΔF = 5.35 ln(C/C₀)",
+  "메테인, 아산화 질소, 할로카본",
+  "에어로졸의 직접·간접 효과(냉각)",
+  "기후 민감도 λ와 평형 기후 민감도(ECS, CO₂ 2배 시 약 3 °C)",
+  "과도 기후 반응(TCR)과 해양의 열 흡수",
+  "0차원 에너지 균형 모형"
+ ],
+ "advice": [
+  "기후 변화의 정량적 핵심은 ΔT = λΔF라는 한 줄 식입니다. CO₂ 2배의 강제력(약 3.7 W/m²)에 기후 민감도를 곱해 평형 온난화를 어림해 보세요. 스프레드시트로 해양의 열용량을 넣은 간단한 에너지 균형 모형을 만들어 보면, 강제력이 생긴 뒤 기온이 왜 서서히 따라 오르는지(과도 반응)를 직접 볼 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "web",
+   "provider": "IPCC",
+   "title": "제6차 평가 보고서(AR6) 종합 보고서와 제1실무그룹 보고서",
+   "url": "https://www.ipcc.ch/report/ar6/syr/",
+   "lang": "영어(기상청 한국어 번역본 있음)",
+   "part": "제1실무그룹 7장 The Earth's energy budget, climate feedbacks and climate sensitivity"
+  },
+  {
+   "kind": "book",
+   "provider": "Elsevier",
+   "title": "Dennis L. Hartmann, Global Physical Climatology (2판)",
+   "part": "10장 Climate Sensitivity and Feedback Mechanisms"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Archer, Global Warming: Understanding the Forecast",
+   "part": "3~4장, 7장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "CO₂ 농도가 2배가 될 때의 복사 강제력은 약 몇 W/m²일까요? (ΔF = 5.35 ln(C/C₀))",
+   "answer": "3.7",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "5.35 × ln 2 ≈ 3.71 W/m²",
+   "hint": "ln 2 ≈ 0.693입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "기후 민감도 매개변수가 0.8 K/(W/m²)일 때 CO₂ 2배(3.7 W/m²)에 대한 평형 온난화는 약 몇 K일까요?",
+   "answer": "2.96",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "ΔT = λΔF = 0.8 × 3.7 ≈ 2.96 K",
+   "hint": "ΔT = λΔF입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "황산염 에어로졸은 햇빛을 반사하고 구름을 밝게 해 전체적으로 {{1}} 효과를 냅니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "냉각",
+      "음의 강제력"
+     ]
+    }
+   ],
+   "explanation": "온실 기체에 의한 온난화의 일부를 가리고 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "environment-climate",
+ "id": "l3-convergence-environment-climate-u02"
+}

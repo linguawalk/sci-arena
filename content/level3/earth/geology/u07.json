@@ -1,0 +1,101 @@
+{
+ "no": 7,
+ "title": "지질 연대학과 지구의 역사",
+ "hours": 5,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "방사성 동위원소 연대 측정법과 적용 범위를 설명할 수 있다.",
+  "지질 시대의 주요 사건(생물 진화, 대멸종, 대륙 이동)을 설명할 수 있다.",
+  "한반도의 지질 역사를 지층·암석과 연결할 수 있다."
+ ],
+ "checklist": [
+  "방사성 붕괴와 연대 식 t = (1/λ) ln(1 + D/P)",
+  "U–Pb(지르콘), K–Ar·Ar–Ar, Rb–Sr, ¹⁴C",
+  "안정 동위원소(δ¹⁸O)와 고기후",
+  "지질 시대 구분과 국제 표준",
+  "생명의 진화와 5대 대멸종",
+  "초대륙 순환(로디니아, 판게아)",
+  "한반도의 지체 구조와 지사"
+ ],
+ "advice": [
+  "연대 측정법은 '반감기가 측정할 시간 규모와 맞아야 한다'는 원리로 고르면 됩니다. 지르콘 U–Pb 연대가 왜 가장 신뢰받는지(결정이 생길 때 Pb를 거의 받아들이지 않음)를 이해하세요. 한반도 지사는 레벨1 지학Ⅱ 챕터 3에서 배운 내용을 판 구조 환경(섭입, 충돌)으로 다시 해석하는 연습을 하면 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "8장 Measuring Geological Time, 22장 The Origin of Earth and the Solar System"
+  },
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Stephen Marshak, Earth: Portrait of a Planet (번역본 『지구: 행성의 초상』)",
+   "part": "지구 역사 장"
+  },
+  {
+   "kind": "web",
+   "provider": "한국지질자원연구원",
+   "title": "지질도·지질 정보 서비스",
+   "url": "https://www.kigam.re.kr/",
+   "lang": "한국어",
+   "part": "지질도와 한반도 지질 자료"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "반감기 12.5억 년인 동위원소계에서 모원소가 1/8 남았다면 암석의 나이는 약 몇 십억 년일까요?",
+   "answer": "3.75",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "explanation": "1/8 = 반감기 3번\n1.25 × 3 = 3.75십억 년",
+   "hint": "반감기 몇 번일까요?",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "가장 오래된 지구 물질의 연대 측정에 널리 쓰이는 광물은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "지르콘"
+     ]
+    }
+   ],
+   "explanation": "U–Pb 연대 측정에 씁니다.\n약 44억 년 된 지르콘이 발견되었습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "생물 종의 약 90%가 사라진 가장 큰 대멸종은 고생대 {{1}}기 말에 일어났습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "페름"
+     ]
+    }
+   ],
+   "explanation": "약 2억 5200만 년 전이며, 대규모 화산 활동이 원인으로 꼽힙니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "geology",
+ "id": "l3-earth-geology-u07"
+}

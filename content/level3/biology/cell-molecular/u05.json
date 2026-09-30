@@ -1,0 +1,94 @@
+{
+ "no": 5,
+ "title": "막 수송과 세포 내 단백질 표적화",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "운반체·통로·펌프에 의한 막 수송을 설명할 수 있다.",
+  "신호 서열에 의한 단백질 분류를 설명할 수 있다.",
+  "소낭 수송(분비, 세포 내 섭취)의 분자 기구를 설명할 수 있다."
+ ],
+ "checklist": [
+  "막 지질과 막 단백질",
+  "운반체, 이온 통로, ATP 구동 펌프(Na⁺–K⁺ ATPase)",
+  "막전위와 이온 기울기",
+  "신호 서열과 SRP, 소포체로의 공동 번역 이동",
+  "핵·미토콘드리아·퍼옥시좀으로의 표적화",
+  "소낭 코트(COPⅡ, COPⅠ, 클라트린)와 SNARE",
+  "세포외 배출과 수용체 매개 세포 내 섭취"
+ ],
+ "advice": [
+  "단백질이 올바른 장소로 가는 원리는 '주소 역할을 하는 신호 서열'과 '그것을 읽는 수용체' 한 쌍입니다. 핵, 소포체, 미토콘드리아, 리소좀으로 가는 단백질이 각각 어떤 신호와 수용체를 쓰는지 표로 만드세요. 2013년 노벨 생리의학상(소낭 수송)의 연구 내용을 읽어 보면 이 단원의 실험적 배경을 알 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Alberts 외, Molecular Biology of the Cell (7판, 번역본 『세포의 분자생물학』)",
+   "part": "11~13장 Membrane Transport, Intracellular Compartments and Protein Sorting, Intracellular Membrane Traffic"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Lodish 외, Molecular Cell Biology (번역본 『분자세포생물학』)",
+   "part": "11장, 13~14장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "번역 중인 리보솜의 신호 서열을 인식해 소포체로 데려가는 복합체는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "SRP",
+      "신호 인식 입자"
+     ]
+    }
+   ],
+   "explanation": "Signal Recognition Particle의 약자입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "소포체에서 골지체로 가는 소낭을 만드는 코트 단백질은 COP{{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "II",
+      "Ⅱ",
+      "2"
+     ]
+    }
+   ],
+   "explanation": "COPⅠ은 골지체에서 소포체로 되돌아가는 수송에 쓰입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "Na⁺–K⁺ ATPase가 ATP 1분자로 세포 안으로 들여오는 K⁺는 몇 개일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Na⁺ 3개를 내보내고 K⁺ 2개를 들여옵니다.",
+   "hint": "3 : 2입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "cell-molecular",
+ "id": "l3-biology-cell-molecular-u05"
+}

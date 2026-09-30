@@ -1,0 +1,94 @@
+{
+ "no": 1,
+ "title": "지구 시스템과 기후 시스템",
+ "hours": 5,
+ "after": [],
+ "objectives": [
+  "기후 시스템의 구성 요소와 시간 척도를 설명할 수 있다.",
+  "지구 에너지 수지와 복사 평형 온도를 계산할 수 있다.",
+  "주요 기후 되먹임의 부호와 크기를 설명할 수 있다."
+ ],
+ "checklist": [
+  "기후와 날씨, 기후 시스템(대기, 해양, 빙권, 육지, 생물권)",
+  "구성 요소별 시간 척도와 기억",
+  "지구 에너지 수지와 복사 평형 온도(약 255 K)",
+  "온실 효과의 크기(약 33 K)",
+  "되먹임: 수증기(양), 기온 감률, 얼음–알베도(양), 구름(불확실), 플랑크(음)",
+  "기후 변수의 관측(기온, 해수면, 해빙)"
+ ],
+ "advice": [
+  "기후과학의 첫 도구는 지구 전체를 하나의 점으로 보는 에너지 수지입니다. 들어오는 태양 복사와 나가는 지구 복사가 같다는 식에서 255 K를 계산하고, 실제 288 K와의 차이가 온실 효과라는 것을 스스로 재현해 보세요. 되먹임은 부호뿐 아니라 크기(W/m²/K)로 비교한다는 점이 레벨2와 다른 점입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Elsevier",
+   "title": "Dennis L. Hartmann, Global Physical Climatology (2판)",
+   "part": "1~2장 Introduction to the Climate System, The Global Energy Balance"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Kump · Kasting · Crane, The Earth System (번역본 『지구 시스템의 이해』)",
+   "part": "1~3장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "12.003 Atmosphere, Ocean and Climate Dynamics (2008년 가을)",
+   "url": "https://ocw.mit.edu/courses/12-003-atmosphere-ocean-and-climate-dynamics-fall-2008/",
+   "lang": "영어",
+   "part": "Lecture 1~4"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "태양 상수 1361 W/m², 알베도 0.3일 때 지구의 복사 평형 온도는 약 몇 K일까요? (σ = 5.67 × 10⁻⁸)",
+   "answer": "255",
+   "answer_format": "integer",
+   "tolerance": 3,
+   "explanation": "T = [S(1 − α)/(4σ)]^(1/4) ≈ 255 K",
+   "hint": "들어오는 복사를 4로 나누세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "온난화로 대기 중 수증기가 늘어 온실 효과가 더 강해지는 것은 {{1}}의 되먹임입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "양",
+      "양성",
+      "+"
+     ]
+    }
+   ],
+   "explanation": "가장 큰 양의 되먹임입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "지구 평균 기온(약 288 K)과 복사 평형 온도(약 255 K)의 차이로 나타낸 온실 효과의 크기는 약 몇 K일까요?",
+   "answer": "33",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "288 − 255 = 33 K",
+   "hint": "두 온도의 차입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "environment-climate",
+ "id": "l3-convergence-environment-climate-u01"
+}

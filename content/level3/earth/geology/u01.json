@@ -1,0 +1,93 @@
+{
+ "no": 1,
+ "title": "광물학",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "결정의 대칭과 결정계를 설명할 수 있다.",
+  "규산염 광물을 사면체 결합 구조로 분류할 수 있다.",
+  "광물의 물리적·광학적 성질로 광물을 감정할 수 있다."
+ ],
+ "checklist": [
+  "결정 구조, 단위 세포, 7개 결정계",
+  "대칭 요소와 밀러 지수 입문",
+  "화학 결합과 이온 치환(고용체)",
+  "규산염 구조: 독립형·사슬형·판상·망상",
+  "주요 조암 광물(감람석, 휘석, 각섬석, 운모, 장석, 석영)",
+  "편광 현미경 관찰(굴절률, 복굴절, 소광각)",
+  "X선 회절"
+ ],
+ "advice": [
+  "광물학은 암석학의 알파벳입니다. 조암 광물 열 가지 정도를 손 표본, 현미경 사진, 화학식, 결정 구조의 네 측면에서 모두 알아볼 수 있게 되는 것이 목표입니다. 레벨1 지학Ⅱ의 편광 현미경 관찰을 복습하고, 무료 공개된 박편 사진 자료를 찾아 광물을 맞히는 연습을 하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Klein · Dutrow, Manual of Mineral Science (광물학)",
+   "part": "1~5장, 12~13장 (결정학, 규산염)"
+  },
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "2장 Minerals"
+  },
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Stephen Marshak, Earth: Portrait of a Planet (번역본 『지구: 행성의 초상』)",
+   "part": "광물 장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "광물의 결정계는 모두 몇 가지일까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "등축, 정방, 육방, 삼방, 사방, 단사, 삼사정계",
+   "hint": "입방정계부터 삼사정계까지입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "석영처럼 망상 구조인 규산염 광물에서 SiO₄ 사면체 하나는 이웃 사면체와 산소를 몇 개 공유할까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "망상 구조는 네 꼭짓점의 산소를 모두 공유합니다.\n그래서 화학식이 SiO₂입니다.",
+   "hint": "모든 꼭짓점입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "10개의 기준 광물로 광물의 굳기를 비교하는 척도를 {{1}} 굳기계라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "모스"
+     ]
+    }
+   ],
+   "explanation": "활석(1)부터 다이아몬드(10)까지입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "geology",
+ "id": "l3-earth-geology-u01"
+}

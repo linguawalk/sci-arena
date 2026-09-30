@@ -1,0 +1,103 @@
+{
+ "no": 5,
+ "title": "기후 모델과 미래 전망",
+ "hours": 6,
+ "after": [
+  2,
+  3
+ ],
+ "objectives": [
+  "기후 모델의 구조와 모수화, 검증 방법을 설명할 수 있다.",
+  "SSP 시나리오와 탄소 예산의 의미를 설명할 수 있다.",
+  "기후 전망의 불확실성의 원천을 구별할 수 있다."
+ ],
+ "checklist": [
+  "기후 모델의 계층(에너지 균형 모형 ~ 지구 시스템 모형)",
+  "격자, 모수화(구름, 대류), 앙상블",
+  "과거 기후 재현과 검출·원인 규명",
+  "공통 사회경제 경로(SSP) 시나리오",
+  "누적 배출량과 온난화의 선형 관계, 잔여 탄소 예산",
+  "불확실성: 시나리오, 모델, 내부 변동",
+  "한반도 기후 변화 전망"
+ ],
+ "advice": [
+  "기후 모델이 수십 년 뒤를 전망할 수 있는 이유는 날씨처럼 초기 조건을 맞히는 것이 아니라 강제력에 대한 평균적인 반응을 계산하기 때문입니다(대기과학 8단원). 누적 CO₂ 배출량과 온난화가 거의 직선 관계라는 결과에서 '1.5 °C까지 남은 탄소 예산'이라는 정책 개념이 나온다는 흐름을 따라가 보세요. 기상청 기후정보포털의 한반도 전망 자료도 함께 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "web",
+   "provider": "IPCC",
+   "title": "제6차 평가 보고서(AR6) 종합 보고서와 제1실무그룹 보고서",
+   "url": "https://www.ipcc.ch/report/ar6/syr/",
+   "lang": "영어(기상청 한국어 번역본 있음)",
+   "part": "정책 결정자용 요약 B절, 제1실무그룹 4장 Future global climate"
+  },
+  {
+   "kind": "web",
+   "provider": "기상청 기후정보포털",
+   "title": "한반도 기후 변화 전망, 기후 변화 시나리오",
+   "url": "https://www.climate.go.kr/",
+   "lang": "한국어",
+   "part": "한반도 기후 변화 전망 보고서"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Archer, Global Warming: Understanding the Forecast",
+   "part": "11~12장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "IPCC AR6에서 미래 사회경제 발전 경로와 배출량을 묶어 만든 시나리오를 {{1}} 시나리오라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "SSP",
+      "공통 사회경제 경로"
+     ]
+    }
+   ],
+   "explanation": "SSP1-1.9부터 SSP5-8.5까지 있습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "특정 온난화 목표를 넘지 않기 위해 앞으로 더 배출할 수 있는 CO₂의 총량을 잔여 탄소 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "예산"
+     ]
+    }
+   ],
+   "explanation": "누적 배출량과 온난화가 거의 비례하기 때문에 정의할 수 있습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "IPCC AR6에 따르면 2011~2020년 지구 평균 지표 기온은 1850~1900년보다 약 몇 °C 높을까요?",
+   "answer": "1.1",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "약 1.1 °C (1850~1900년 대비)",
+   "hint": "1 °C를 조금 넘습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "environment-climate",
+ "id": "l3-convergence-environment-climate-u05"
+}

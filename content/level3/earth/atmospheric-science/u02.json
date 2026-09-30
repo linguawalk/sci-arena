@@ -1,0 +1,95 @@
+{
+ "no": 2,
+ "title": "대기 열역학과 안정도",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "건조 단열 감률과 온위를 유도할 수 있다.",
+  "습윤 과정(포화, 상당 온위)과 습윤 단열 감률을 설명할 수 있다.",
+  "단열선도로 대기 안정도와 대류 가능성을 판단할 수 있다."
+ ],
+ "checklist": [
+  "열역학 제1법칙과 건조 단열 과정",
+  "건조 단열 감률 Γ_d = g/c_p ≈ 9.8 K/km",
+  "온위 θ = T(1000/p)^(R/c_p)",
+  "수증기압, 혼합비, 상대 습도, 클라우지우스–클라페이롱",
+  "습윤 단열 감률과 상당 온위",
+  "절대 안정·조건부 불안정·절대 불안정",
+  "단열선도(스큐T–로그P), CAPE와 대류"
+ ],
+ "advice": [
+  "온위는 '공기 덩어리를 1000 hPa까지 단열적으로 옮겼을 때의 온도'로, 단열 과정에서 보존되는 양이라 공기 덩어리를 추적하는 데 매우 유용합니다. 기상청 고층 관측 자료로 단열선도를 직접 그려 대기 안정도와 구름 높이를 판단하는 연습을 해 보세요. 이것이 뇌우 예보의 출발점입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Wallace · Hobbs, Atmospheric Science: An Introductory Survey (2판, 번역본 『대기과학』)",
+   "part": "3장 Atmospheric Thermodynamics"
+  },
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics: An Introductory Text",
+   "part": "4~5장 The vertical structure of the atmosphere, Convection"
+  },
+  {
+   "kind": "web",
+   "provider": "기상청",
+   "title": "기상자료개방포털 (관측 자료, 일기도, 고층 자료)",
+   "url": "https://data.kma.go.kr/",
+   "lang": "한국어",
+   "part": "고층 기상 관측 자료"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "500 hPa에서 기온이 273 K인 공기의 온위는 약 몇 K일까요? (R/c_p = 0.286)",
+   "answer": "333",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "θ = 273 × (1000/500)^0.286 ≈ 273 × 1.219 ≈ 333 K",
+   "hint": "θ = T(1000/p)^0.286입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "건조 단열 감률 g/c_p는 약 몇 K/km일까요? (g = 9.8 m/s², c_p = 1004 J/(kg·K), 소수 첫째 자리까지)",
+   "answer": "9.8",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "g/c_p = 9.8 / 1004 K/m ≈ 9.8 K/km",
+   "hint": "단위를 km로 바꾸세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "환경 기온 감률이 건조 단열 감률보다 크면 대기는 절대 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "불안정"
+     ]
+    }
+   ],
+   "explanation": "공기 덩어리가 올라갈수록 주변보다 따뜻해져 계속 상승합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "atmospheric-science",
+ "id": "l3-earth-atmospheric-science-u02"
+}

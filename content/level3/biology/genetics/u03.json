@@ -1,0 +1,98 @@
+{
+ "no": 3,
+ "title": "세균과 바이러스의 유전학",
+ "hours": 4,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "세균의 세 가지 유전자 전달 방식을 구별할 수 있다.",
+  "중단 교배로 세균 유전자 지도를 작성하는 원리를 설명할 수 있다.",
+  "파지 유전학(재조합, 상보성)을 설명할 수 있다."
+ ],
+ "checklist": [
+  "세균 돌연변이체와 선택 배지",
+  "접합: F 인자, F⁺, Hfr, F′",
+  "중단 교배와 시간 지도",
+  "형질 전환",
+  "일반·특수 형질 도입",
+  "파지의 재조합과 벤저의 rII 상보성 분석",
+  "수평적 유전자 전달과 항생제 내성"
+ ],
+ "advice": [
+  "세균 유전학은 현대 분자생물학을 탄생시킨 분야입니다. Hfr 균주를 믹서로 떼어 놓는 시간에 따라 전달된 유전자가 달라지는 중단 교배 실험을 그림으로 그려 보면, 시간(분)이 곧 유전자 지도 거리가 된다는 발상의 교묘함을 알 수 있습니다. 세포·분자생물학 8단원과 함께 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Griffiths 외, Introduction to Genetic Analysis (번역본 『유전학』)",
+   "part": "5장 The Genetics of Bacteria and Their Viruses"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Microbiology",
+   "url": "https://openstax.org/details/books/microbiology",
+   "lang": "영어",
+   "part": "11장 Mechanisms of Microbial Genetics"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "F 인자를 가진 세균이 선모로 다른 세균에 DNA를 직접 전달하는 방식을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "접합"
+     ]
+    }
+   ],
+   "explanation": "F 인자가 염색체에 삽입된 균주를 Hfr이라고 합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "박테리오파지가 세균 DNA를 옮기는 유전자 전달 방식을 형질 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "도입"
+     ]
+    }
+   ],
+   "explanation": "형질 전환은 주변 DNA를 직접 흡수하는 방식입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "Hfr 균주의 중단 교배에서 유전자가 전달되는 {{1}}으로 유전자의 순서와 거리를 정합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "시간",
+      "순서"
+     ]
+    }
+   ],
+   "explanation": "세균 유전자 지도의 단위는 분(minute)입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "genetics",
+ "id": "l3-biology-genetics-u03"
+}

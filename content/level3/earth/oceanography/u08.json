@@ -1,0 +1,102 @@
+{
+ "no": 8,
+ "title": "해양 생물·생지화학과 한반도 주변 바다",
+ "hours": 5,
+ "after": [
+  3,
+  5
+ ],
+ "objectives": [
+  "해양 1차 생산을 제한하는 요인을 설명할 수 있다.",
+  "생물 펌프와 해양 탄소 흡수를 설명할 수 있다.",
+  "동해·황해·남해의 해양학적 특징을 비교할 수 있다."
+ ],
+ "checklist": [
+  "식물 플랑크톤과 1차 생산, 빛과 영양염의 제한",
+  "봄 대증식과 성층",
+  "먹이망과 미생물 루프",
+  "생물 펌프와 해양 탄소 격리",
+  "용승 해역과 수산 자원",
+  "동해(깊음, 동해 고유수, 극전선), 황해(얕음, 큰 조차), 남해(쓰시마 난류)",
+  "적조, 저산소, 해양 쓰레기"
+ ],
+ "advice": [
+  "1차 생산은 '빛은 위에, 영양염은 아래에'라는 모순을 성층과 혼합이 어떻게 풀어 주는지로 이해하세요. 봄 대증식이 왜 봄에 일어나는지 설명할 수 있으면 이 단원의 핵심을 잡은 것입니다. 한반도 주변 바다는 좁은 지역에 깊은 대양형 바다(동해)와 얕은 대륙붕 바다(황해)가 함께 있는 흥미로운 비교 대상입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Roger Williams University Open Publishing (무료 공개 교재)",
+   "title": "Paul Webb, Introduction to Oceanography",
+   "url": "https://rwu.pressbooks.pub/webboceanography/",
+   "lang": "영어",
+   "part": "해양 생물·생산성 관련 장"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Tom Garrison, Oceanography: An Invitation to Marine Science (번역본 『해양학』)",
+   "part": "해양 생물·생산성 장"
+  },
+  {
+   "kind": "web",
+   "provider": "국립해양조사원",
+   "title": "조석·해류·해양 관측 자료",
+   "url": "https://www.khoa.go.kr/",
+   "lang": "한국어",
+   "part": "한반도 주변 해양 관측 자료"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "표층의 생물이 만든 유기물이 가라앉아 탄소를 심해로 옮기는 과정을 {{1}} 펌프라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "생물"
+     ]
+    }
+   ],
+   "explanation": "해양이 대기의 CO₂를 흡수하는 중요한 경로입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "수온이 1 °C 안팎으로 매우 차갑고 균질한 동해 깊은 곳의 해수를 동해 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "고유수"
+     ]
+    }
+   ],
+   "explanation": "동해가 작은 대양처럼 자체적으로 심층수를 만든다는 증거입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "황해의 평균 수심은 약 몇 m일까요?",
+   "answer": "44",
+   "answer_format": "integer",
+   "tolerance": 10,
+   "explanation": "약 44 m로 매우 얕은 대륙붕 바다입니다.",
+   "hint": "100 m보다 훨씬 얕습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "oceanography",
+ "id": "l3-earth-oceanography-u08"
+}

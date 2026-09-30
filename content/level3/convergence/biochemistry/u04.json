@@ -1,0 +1,96 @@
+{
+ "no": 4,
+ "title": "생체 에너지론과 해당 과정",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "실제 세포 조건에서 ΔG를 계산하고 짝지음 반응을 설명할 수 있다.",
+  "해당 과정의 단계와 에너지 수지, 조절 지점을 설명할 수 있다.",
+  "발효와 포도당 신생합성을 해당 과정과 비교할 수 있다."
+ ],
+ "checklist": [
+  "ΔG = ΔG°′ + RT ln Q와 짝지음 반응",
+  "ATP의 고에너지 인산 결합과 인산기 전달 퍼텐셜",
+  "산화 환원 반응과 NAD⁺/NADH",
+  "해당 과정 10단계와 에너지 투자·회수",
+  "조절 효소(헥소키네이스, PFK-1, 피루브산 키네이스)",
+  "젖산·알코올 발효",
+  "포도당 신생합성과 코리 회로"
+ ],
+ "advice": [
+  "대사 경로를 외울 때는 모든 단계를 한꺼번에 외우지 말고 '비가역 단계(조절 지점)', 'ATP·NADH가 생기거나 쓰이는 단계', '탄소 수가 바뀌는 단계'를 먼저 표시하세요. 해당 과정에서 ΔG°′가 양수인 단계도 실제 세포 농도에서는 ΔG가 음수가 되어 진행된다는 것을 계산으로 확인하면 생체 에너지론이 이해됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Nelson · Cox, Lehninger Principles of Biochemistry (번역본 『레닌저 생화학』)",
+   "part": "13~14장 Bioenergetics, Glycolysis and Gluconeogenesis"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Berg 외, Biochemistry (Stryer, 번역본 『생화학』)",
+   "part": "15~16장 Metabolism: Basic Concepts, Glycolysis and Gluconeogenesis"
+  },
+  {
+   "kind": "video",
+   "provider": "Khan Academy",
+   "title": "Biology: 효소, 세포 호흡, 광합성 단원",
+   "url": "https://www.khanacademy.org/science/biology",
+   "lang": "영어(일부 한국어)",
+   "part": "Cellular respiration"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "ΔG°′ = +5 kJ/mol인 반응이 310 K에서 Q = 0.01일 때 ΔG는 약 몇 kJ/mol일까요? (R = 8.314 J/(mol·K))",
+   "answer": "-6.87",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "RT ln Q = 2.577 × ln 0.01 ≈ −11.87 kJ/mol\nΔG = 5 − 11.87 ≈ −6.87 kJ/mol",
+   "hint": "ΔG = ΔG°′ + RT ln Q입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "해당 과정에서 포도당 1분자당 순수하게 얻는 ATP는 몇 분자일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "4 생성 − 2 소비 = 2",
+   "hint": "투자 2, 회수 4입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "해당 과정의 가장 중요한 조절 효소로, 프럭토스 6-인산을 인산화하는 효소는 포스포프럭토{{1}}(PFK-1)입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "키네이스",
+      "키나아제"
+     ]
+    }
+   ],
+   "explanation": "ATP에 의해 저해되고 AMP에 의해 활성화됩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "biochemistry",
+ "id": "l3-convergence-biochemistry-u04"
+}

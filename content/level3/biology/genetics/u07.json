@@ -1,0 +1,87 @@
+{
+ "no": 7,
+ "title": "양적 유전",
+ "hours": 5,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "다인자 형질의 연속 분포를 설명할 수 있다.",
+  "분산을 분해해 유전력을 계산할 수 있다.",
+  "선발 반응을 예측할 수 있다."
+ ],
+ "checklist": [
+  "다인자 유전과 정규 분포",
+  "평균, 분산, 공분산",
+  "표현형 분산 V_P = V_G + V_E",
+  "넓은 의미·좁은 의미 유전력 H², h²",
+  "쌍둥이 연구와 친족 상관",
+  "선발 반응 R = h²S",
+  "양적 형질 유전자좌(QTL)"
+ ],
+ "advice": [
+  "유전력은 가장 많이 오해되는 개념입니다. '특정 집단과 환경에서 표현형 차이 가운데 유전적 차이로 설명되는 비율'일 뿐, 한 개인의 형질이 몇 %가 유전인지 뜻하지 않는다는 점을 분명히 하세요. 선발 반응 식은 육종에서 바로 쓰이는 실용적인 식이므로 숫자 예로 연습해 두면 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Griffiths 외, Introduction to Genetic Analysis (번역본 『유전학』)",
+   "part": "19장 The Inheritance of Complex Traits"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Benjamin Pierce, Genetics: A Conceptual Approach (번역본 『유전학』)",
+   "part": "24장 Quantitative Genetics"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "표현형 분산 100, 상가적 유전 분산 40인 형질의 좁은 의미 유전력 h²은? (소수로)",
+   "answer": "0.4",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "h² = V_A/V_P = 40/100 = 0.4",
+   "hint": "V_A/V_P입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "h² = 0.4인 형질에서 선발 차 S = 10이면 선발 반응 R은?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "R = h²S = 0.4 × 10 = 4",
+   "hint": "R = h²S입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "유전력을 추정할 때 유전자형이 같은 {{1}} 쌍둥이와 이란성 쌍둥이의 닮음 정도를 비교합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "일란성"
+     ]
+    }
+   ],
+   "explanation": "일란성 쌍둥이는 유전자형이 같습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "genetics",
+ "id": "l3-biology-genetics-u07"
+}

@@ -1,0 +1,99 @@
+{
+ "no": 6,
+ "title": "유전체학과 유전자 분석 기술",
+ "hours": 5,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "염기 서열 분석과 유전체 조립의 원리를 설명할 수 있다.",
+  "순방향·역방향 유전학의 차이를 설명할 수 있다.",
+  "유전자 편집과 전장 유전체 연관 분석을 설명할 수 있다."
+ ],
+ "checklist": [
+  "재조합 DNA, 클로닝, PCR 복습",
+  "생어 시퀀싱과 차세대 시퀀싱",
+  "유전체 조립과 주석",
+  "비교 유전체학",
+  "순방향 유전학(돌연변이 선별)과 역방향 유전학(녹아웃, RNAi, CRISPR)",
+  "전장 유전체 연관 분석(GWAS)",
+  "유전자 검사와 윤리"
+ ],
+ "advice": [
+  "생명공학 기술을 유전학의 질문과 연결하는 단원입니다. '표현형에서 유전자를 찾는' 순방향 유전학과 '유전자에서 표현형을 찾는' 역방향 유전학의 방향을 분명히 구별하세요. GWAS는 연관 지도(2단원)를 수십만 개의 SNP로 확장한 것이라는 연결을 보면 전달 유전학과 유전체학이 하나로 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Griffiths 외, Introduction to Genetic Analysis (번역본 『유전학』)",
+   "part": "10장 Gene Isolation and Manipulation, 14장 Genomes and Genomics"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Benjamin Pierce, Genetics: A Conceptual Approach (번역본 『유전학』)",
+   "part": "19~20장"
+  },
+  {
+   "kind": "video",
+   "provider": "iBiology (연구자 강연 영상, 무료)",
+   "title": "iBiology 강연 모음",
+   "url": "https://www.ibiology.org/",
+   "lang": "영어",
+   "part": "CRISPR·유전체학 관련 강연"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "유전체 전체의 SNP와 질병의 관련성을 찾는 연구를 전장 유전체 {{1}} 분석(GWAS)이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "연관"
+     ]
+    }
+   ],
+   "explanation": "Genome-Wide Association Study의 약자입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "사람의 반수체 유전체는 약 몇 십억 염기쌍일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0.3,
+   "explanation": "약 30억(3 × 10⁹) 염기쌍",
+   "hint": "30억입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "특정 유전자를 제거하거나 망가뜨려 그 기능을 알아보는 생물을 {{1}} 생물(예: 생쥐)이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "녹아웃"
+     ]
+    }
+   ],
+   "explanation": "역방향 유전학의 대표적 방법입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "genetics",
+ "id": "l3-biology-genetics-u06"
+}

@@ -1,0 +1,97 @@
+{
+ "no": 3,
+ "title": "감각과 근육",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "감각 수용기의 변환과 부호화를 설명할 수 있다.",
+  "골격근 수축의 활주 필라멘트설과 흥분–수축 연관을 설명할 수 있다.",
+  "골격근, 심근, 평활근을 비교할 수 있다."
+ ],
+ "checklist": [
+  "감각 수용기와 수용기 전위, 적응",
+  "시각(광수용기, 로돕신)과 청각(유모 세포)",
+  "근육의 구조(근원섬유, 근절, A대·I대)",
+  "활주 필라멘트설과 교차 다리 주기",
+  "흥분–수축 연관(근소포체, Ca²⁺, 트로포닌·트로포미오신)",
+  "운동 단위, 가중과 강직",
+  "심근과 평활근의 특징"
+ ],
+ "advice": [
+  "근육 수축은 세포·분자생물학의 모터 단백질이 조직 수준에서 작동하는 예입니다. '신경 자극 → 근소포체의 Ca²⁺ 방출 → 트로포닌 결합 → 교차 다리 형성 → ATP로 분리'의 순서를 그림으로 정리하세요. 사후 강직이 왜 생기는지(ATP 부족으로 교차 다리가 떨어지지 않음)를 설명할 수 있으면 이 흐름을 제대로 이해한 것입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Dee U. Silverthorn, Human Physiology: An Integrated Approach (번역본 『인체생리학』)",
+   "part": "10장 Sensory Physiology, 12장 Muscles"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "lang": "영어",
+   "part": "10장 Muscle Tissue, 14장 The Somatic Nervous System"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "골격근에서 Ca²⁺가 결합해 트로포미오신을 움직이고 수축을 시작하게 하는 단백질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "트로포닌"
+     ]
+    }
+   ],
+   "explanation": "Ca²⁺가 결합하면 액틴의 미오신 결합 부위가 드러납니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "근육이 수축해도 길이가 변하지 않는 근절의 띠는 미오신 필라멘트 전체 길이에 해당하는 {{1}}대입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "A"
+     ]
+    }
+   ],
+   "explanation": "I대와 H대는 짧아집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "어두운 곳에서 빛에 민감하게 반응하며 로돕신을 가진 광수용기는 {{1}}세포입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "막대"
+     ]
+    }
+   ],
+   "explanation": "색을 구별하는 것은 원뿔세포입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "physiology",
+ "id": "l3-biology-physiology-u03"
+}

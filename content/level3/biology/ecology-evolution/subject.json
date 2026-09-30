@@ -1,0 +1,159 @@
+{
+ "level": 3,
+ "track": "biology",
+ "id": "ecology-evolution",
+ "title": "생태학과 진화",
+ "tagline": "자연선택과 집단 유전에서 행동, 개체군, 군집, 생태계, 그리고 보전까지",
+ "overview": [
+  "진화는 생물학의 통합 이론이고, 생태학은 생물과 환경의 상호작용을 다루는 학문입니다. 두 분야는 '환경이 자연선택의 방향을 정하고, 진화한 생물이 다시 환경을 바꾼다'는 방식으로 긴밀하게 연결되어 있어 한 과목으로 묶었습니다.",
+  "앞부분은 진화(자연선택 이론, 집단 유전학과 미세 진화, 종 분화와 계통)와 행동 생태학을, 뒷부분은 개체군·군집·생태계 생태학과 보전 생물학을 다룹니다. 수리 모형(로지스틱 생장, 로트카–볼테라 식, 해밀턴 규칙)이 곳곳에서 쓰입니다.",
+  "생명과학과 전공 과목이며 중등 생물 임용시험의 진화·생태 영역입니다. 유전학의 집단 유전학 단원을 먼저 공부하면 좋고, 환경·기후과학으로 이어집니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Futuyma 『Evolution』, Begon·Ricklefs 생태학 교재 목차와 중등 생물 임용시험 진화·생태 영역.",
+ "prereq": {
+  "text": "레벨2 일반생물의 진화·생물 다양성·생태학 단원과 레벨3 유전학의 집단 유전학 단원이 선수입니다. 로그와 간단한 미분방정식을 쓸 수 있어야 합니다.",
+  "links": [
+   {
+    "title": "레벨2 일반생물 · 8단원 진화의 원리와 집단 유전",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=8"
+   },
+   {
+    "title": "레벨2 일반생물 · 9단원 생물 다양성과 계통",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=9"
+   },
+   {
+    "title": "레벨2 일반생물 · 13단원 생태학: 개체군, 군집, 생태계",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=13"
+   },
+   {
+    "title": "레벨3 유전학 · 8단원 집단 유전학",
+    "href": "guide.html?lv=3&t=biology&s=genetics&u=8"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "하디–바인베르크 평형에서 q = 0.4이면 이형 접합 빈도는? (소수로)",
+    "answer": "0.48",
+    "answer_format": "decimal",
+    "tolerance": 0.01,
+    "explanation": "2 × 0.6 × 0.4 = 0.48 (유전학 8단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "K = 1000인 로지스틱 생장 개체군의 증가 속도가 최대인 개체 수는?",
+    "answer": "500",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "K/2 = 500 (일반생물 13단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "공통 조상에서 유래해 기본 구조가 같은 기관을 {{1}} 기관이라고 합니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "상동"
+      ]
+     }
+    ],
+    "explanation": "(일반생물 9단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "융합 레벨3 · 환경·기후과학",
+   "note": "지구 변화와 생태계의 반응"
+  },
+  {
+   "title": "레벨3 · 해양학",
+   "note": "해양 생태계와 생지화학 순환"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "진화의 증거와 자연선택 이론",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "집단 유전학과 미세 진화",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "종 분화와 계통 발생",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "행동 생태학",
+   "hours": 5,
+   "after": [
+    2
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "개체군 생태학",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "군집 생태학",
+   "hours": 6,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "생태계 생태학",
+   "hours": 5,
+   "after": [
+    6
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "보전 생물학과 지구 변화",
+   "hours": 4,
+   "after": [
+    6
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 43
+}

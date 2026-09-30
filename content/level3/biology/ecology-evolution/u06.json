@@ -1,0 +1,101 @@
+{
+ "no": 6,
+ "title": "군집 생태학",
+ "hours": 6,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "종간 경쟁과 포식을 로트카–볼테라 모형으로 설명할 수 있다.",
+  "군집 구조와 종 다양성 지수를 계산할 수 있다.",
+  "교란과 천이, 핵심종의 역할을 설명할 수 있다."
+ ],
+ "checklist": [
+  "생태적 지위와 경쟁 배타 원리",
+  "로트카–볼테라 경쟁 모형과 공존 조건",
+  "포식자–피식자 동태와 주기",
+  "상리 공생, 기생, 간접 효과",
+  "종 풍부도, 균등도, 다양성 지수(심프슨, 섀넌)",
+  "핵심종과 영양 단계 연쇄",
+  "교란, 천이, 중간 교란 가설"
+ ],
+ "advice": [
+  "로트카–볼테라 모형은 두 종의 개체 수 변화를 연립 미분방정식으로 쓴 것입니다. 수학적 해석이 부담스럽다면 위상 평면에 등경사선(개체 수가 변하지 않는 선)을 그려 공존과 배제를 판단하는 그래프 방법부터 익히세요. 핵심종(해달, 불가사리)의 사례는 군집이 단순한 종의 합이 아니라는 것을 보여 줍니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Begon · Townsend · Harper, Ecology: From Individuals to Ecosystems (번역본 『생태학』)",
+   "part": "8~10장, 16~19장 (경쟁, 포식, 군집 구조)"
+  },
+  {
+   "kind": "lecture",
+   "provider": "Open Yale Courses",
+   "title": "EEB 122 Principles of Evolution, Ecology and Behavior (Stearns, 36강)",
+   "url": "https://oyc.yale.edu/ecology-and-evolutionary-biology/eeb-122",
+   "lang": "영어",
+   "part": "군집 관련 강의(17~31강 가운데), 31강 Why So Many Species?"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "45장 45.6~45.7절"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "두 종이 각각 50%씩인 군집의 심프슨 다양성 지수 1 − Σpᵢ²는? (소수로)",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "Σp² = 0.25 + 0.25 = 0.5\n1 − 0.5 = 0.5",
+   "hint": "각 비율의 제곱을 더하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "같은 자원을 완전히 공유하는 두 종은 오래 공존할 수 없다는 원리를 {{1}} 배타 원리라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경쟁"
+     ]
+    }
+   ],
+   "explanation": "가우스가 짚신벌레 실험으로 보여 주었습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "로트카–볼테라 포식자–피식자 모형에서 두 종의 개체 수는 시간에 따라 {{1}}적으로 오르내립니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "주기"
+     ]
+    }
+   ],
+   "explanation": "포식자의 증감이 피식자보다 조금 늦게 나타납니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "ecology-evolution",
+ "id": "l3-biology-ecology-evolution-u06"
+}

@@ -1,0 +1,103 @@
+{
+ "no": 8,
+ "title": "응용 지질과 야외 조사",
+ "hours": 5,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "지하수의 흐름을 다르시 법칙으로 계산할 수 있다.",
+  "광물·에너지 자원의 생성 과정을 설명할 수 있다.",
+  "지질 재해를 평가하고 야외 조사 방법을 설명할 수 있다."
+ ],
+ "checklist": [
+  "대수층, 지하수면, 수리 전도도",
+  "다르시 법칙 Q = KAi",
+  "광상의 생성(열수, 마그마, 퇴적, 풍화)",
+  "석유·천연가스의 근원암, 저류암, 덮개암",
+  "지질 재해(지진, 산사태, 액상화, 싱크홀)",
+  "야외 조사: 클리노미터, 주향·경사 측정, 노두 기재",
+  "지질도 읽기와 단면도 작성"
+ ],
+ "advice": [
+  "지질학은 결국 야외에서 완성되는 학문입니다. 가까운 노두(도로 절개면, 해안 절벽)를 찾아 암석을 기재하고 주향·경사를 재어 보는 경험이 교재 여러 장보다 값집니다. 한국지질자원연구원의 지질도를 내려받아 사는 지역의 지질을 먼저 확인해 보세요. 다르시 법칙은 tech-arena 토목(지반) 과목으로 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "14~15장, 20장 Groundwater, Mass Wasting, Geological Resources"
+  },
+  {
+   "kind": "web",
+   "provider": "한국지질자원연구원",
+   "title": "지질도·지질 정보 서비스",
+   "url": "https://www.kigam.re.kr/",
+   "lang": "한국어",
+   "part": "1 : 50,000 지질도"
+  },
+  {
+   "kind": "web",
+   "provider": "USGS (미국 지질조사국)",
+   "title": "지진·화산·지하수·광물 자원 자료",
+   "url": "https://www.usgs.gov/",
+   "lang": "영어",
+   "part": "Water Resources, Mineral Resources 자료"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "지하수를 저장하고 쉽게 흐르게 하는 투수성 지층을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "대수층"
+     ]
+    }
+   ],
+   "explanation": "사암, 자갈층, 절리가 많은 암석이 좋은 대수층입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "수리 전도도 10 m/일, 단면적 2 m², 수두 경사 0.05인 대수층의 지하수 유량은 몇 m³/일일까요?",
+   "answer": "1",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "Q = KAi = 10 × 2 × 0.05 = 1 m³/일",
+   "hint": "다르시 법칙입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "지진동으로 포화된 모래층이 일시적으로 액체처럼 행동하는 현상을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "액상화"
+     ]
+    }
+   ],
+   "explanation": "2017년 포항 지진 때 국내에서도 관찰되었습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "geology",
+ "id": "l3-earth-geology-u08"
+}

@@ -1,0 +1,103 @@
+{
+ "no": 4,
+ "title": "고기후와 자연 기후 변동",
+ "hours": 5,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "고기후 기록(빙하 코어, 해양 퇴적물, 나이테)의 원리를 설명할 수 있다.",
+  "밀란코비치 주기와 빙하기–간빙기 순환을 설명할 수 있다.",
+  "화산, 태양, 내부 변동(ENSO)의 영향과 크기를 비교할 수 있다."
+ ],
+ "checklist": [
+  "기후 대리 지표와 연대 측정",
+  "산소 동위원소 δ¹⁸O와 고수온·빙하량",
+  "빙하 코어의 CO₂·온도 기록(80만 년)",
+  "밀란코비치 주기(이심률 약 10만 년, 자전축 기울기 약 4만 1천 년, 세차 약 2만 3천 년)",
+  "과거의 급격한 온난화(PETM)",
+  "화산 폭발과 태양 활동의 영향",
+  "내부 변동(ENSO, PDO, AMO)"
+ ],
+ "advice": [
+  "고기후는 '과거에도 기후가 크게 변했으니 지금의 변화도 자연적인 것 아닌가'라는 질문에 답하는 데 꼭 필요합니다. 빙하기–간빙기 순환에서 CO₂와 기온이 함께 움직였다는 빙하 코어 자료를 보고, 그때의 변화 속도(수천 년)와 지금의 속도(수십 년)를 비교해 보세요. 자연 요인의 크기를 복사 강제력(W/m²)으로 비교하면 인위적 요인의 비중이 분명해집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Kump · Kasting · Crane, The Earth System (번역본 『지구 시스템의 이해』)",
+   "part": "11~14장 (고기후)"
+  },
+  {
+   "kind": "web",
+   "provider": "IPCC",
+   "title": "제6차 평가 보고서(AR6) 종합 보고서와 제1실무그룹 보고서",
+   "url": "https://www.ipcc.ch/report/ar6/syr/",
+   "lang": "영어(기상청 한국어 번역본 있음)",
+   "part": "제1실무그룹 2장 Changing state of the climate system(고기후 부분)"
+  },
+  {
+   "kind": "web",
+   "provider": "NOAA Climate.gov",
+   "title": "기후 자료, 지표, 해설 기사",
+   "url": "https://www.climate.gov/",
+   "lang": "영어",
+   "part": "Paleoclimate 해설 자료"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "빙하 코어와 해양 퇴적물의 {{1}} 동위원소 비(δ¹⁸O)로 과거의 기온과 빙하량을 추정합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산소"
+     ]
+    }
+   ],
+   "explanation": "무거운 ¹⁸O와 가벼운 ¹⁶O의 비율입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "밀란코비치 주기 가운데 지구 궤도 이심률의 변화 주기는 약 몇 천 년일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 10,
+   "explanation": "약 10만 년(100천 년)\n최근 빙하기–간빙기 순환의 주기와 비슷합니다.",
+   "hint": "가장 긴 주기입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "1991년 피나투보 화산 폭발 뒤 성층권 에어로졸 때문에 지구 평균 기온이 1~2년 동안 {{1}}했습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "하강",
+      "감소",
+      "낮아"
+     ]
+    }
+   ],
+   "explanation": "약 0.5 °C 낮아졌습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "environment-climate",
+ "id": "l3-convergence-environment-climate-u04"
+}

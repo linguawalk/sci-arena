@@ -1,0 +1,160 @@
+{
+ "level": 3,
+ "track": "convergence",
+ "id": "biochemistry",
+ "title": "생화학",
+ "tagline": "생체 분자의 구조와 기능, 효소 반응 속도론, 대사 경로와 그 조절을 화학으로",
+ "overview": [
+  "생화학은 생명 현상을 화학의 언어로 설명합니다. 단백질·탄수화물·지질·핵산의 구조가 어떻게 기능을 결정하는지, 효소가 반응을 어떻게 빠르게 하고 조절되는지, 세포가 에너지를 얻고 물질을 만드는 대사 경로가 어떻게 서로 연결되고 조절되는지를 다룹니다.",
+  "화학 트랙(물리화학의 열역학·반응 속도론, 유기화학의 반응 메커니즘)과 생명과학 트랙(세포·분자생물학, 생리학)이 만나는 대표적인 융합 과목입니다. 레벨1 생물Ⅱ와 레벨2 일반생물에서 그림으로 배운 세포 호흡과 광합성이 여기서 효소 하나하나의 반응과 에너지 계산으로 풀립니다.",
+  "생명과학·화학·약학·의학 계열의 공통 전공 과목입니다. 유기화학의 카보닐 화학을 먼저 공부하면 대사 반응의 메커니즘이 훨씬 쉬워집니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Lehninger, Berg(Stryer) 교재 목차와 중등 화학·생물 임용시험의 생화학 관련 영역.",
+ "prereq": {
+  "text": "레벨3 유기화학(카보닐 화학), 물리화학(열역학·반응 속도론), 세포·분자생물학이 선수입니다. 모두 마치지 않았다면 링크된 단원만 먼저 보아도 됩니다.",
+  "links": [
+   {
+    "title": "레벨3 유기화학 · 7단원 카보닐 화학 2",
+    "href": "guide.html?lv=3&t=chemistry&s=organic-chemistry&u=7"
+   },
+   {
+    "title": "레벨3 물리화학 · 8단원 화학 반응 속도론",
+    "href": "guide.html?lv=3&t=chemistry&s=physical-chemistry&u=8"
+   },
+   {
+    "title": "레벨3 물리화학 · 4단원 화학 평형의 열역학",
+    "href": "guide.html?lv=3&t=chemistry&s=physical-chemistry&u=4"
+   },
+   {
+    "title": "레벨2 일반생물 · 3단원 세포 대사",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=3"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "미카엘리스–멘텐 식에서 [S] = K_M일 때 속도는 최대 속도의 몇 배일까요?",
+    "answer": "0.5",
+    "answer_format": "decimal",
+    "tolerance": 0.01,
+    "explanation": "V_max/2 (물리화학 8단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "298 K에서 ΔG° = −5.71 kJ/mol이면 평형 상수는 약 얼마일까요?",
+    "answer": "10",
+    "answer_format": "integer",
+    "tolerance": 0.3,
+    "explanation": "K = e^(5710/(8.314 × 298)) ≈ 10 (물리화학 4단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "알돌 반응에서 친핵체 역할을 하는 것은 카보닐 화합물의 {{1}}레이트입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "엔올"
+      ]
+     }
+    ],
+    "explanation": "(유기화학 7단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 생리학",
+   "note": "대사 조절을 기관계 수준에서"
+  },
+  {
+   "title": "tech-arena 레벨2~3 · 생명공학·바이오공정",
+   "note": "효소 공학과 발효 공정"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "생체 분자의 구조",
+   "hours": 6,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "단백질의 기능",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "효소 반응 속도론과 조절",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "생체 에너지론과 해당 과정",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "시트르산 회로와 산화적 인산화",
+   "hours": 6,
+   "after": [
+    4
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "광합성과 탄수화물 대사",
+   "hours": 5,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "지질·아미노산·뉴클레오타이드 대사",
+   "hours": 6,
+   "after": [
+    5
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "대사의 통합과 조절",
+   "hours": 5,
+   "after": [
+    6,
+    7
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 45
+}

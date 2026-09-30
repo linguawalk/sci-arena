@@ -1,0 +1,94 @@
+{
+ "no": 2,
+ "title": "연관과 유전자 지도",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "검정 교배 자료로 재조합 빈도와 지도 거리를 구할 수 있다.",
+  "3점 교배로 유전자 순서와 간섭을 계산할 수 있다.",
+  "사람 유전자 지도 작성(LOD 점수, 분자 표지)을 설명할 수 있다."
+ ],
+ "checklist": [
+  "연관과 재조합, 교차",
+  "재조합 빈도와 센티모건(cM)",
+  "3점 검정 교배와 이중 교차",
+  "일치 계수와 간섭 I = 1 − (관찰 이중 교차 / 기대 이중 교차)",
+  "지도 함수와 다중 교차",
+  "사람 연관 분석과 LOD 점수, 분자 표지(SNP)"
+ ],
+ "advice": [
+  "3점 교배 문제는 순서가 정해져 있습니다. 가장 많은 두 부류(부모형)와 가장 적은 두 부류(이중 교차형)를 먼저 찾고, 둘을 비교해 가운데 유전자를 정한 뒤 거리와 간섭을 계산하세요. 이 절차를 몇 문제만 따라 하면 기계적으로 풀 수 있게 됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Griffiths 외, Introduction to Genetic Analysis (번역본 『유전학』)",
+   "part": "4장 Mapping Eukaryote Chromosomes by Recombination"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Benjamin Pierce, Genetics: A Conceptual Approach (번역본 『유전학』)",
+   "part": "7장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "7.03 Genetics (2004년 가을)",
+   "url": "https://ocw.mit.edu/courses/7-03-genetics-fall-2004/",
+   "lang": "영어",
+   "part": "Lecture 7~10"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "A–B 재조합 빈도 10%, B–C 20%인데 이중 교차가 1% 관찰되었습니다. 간섭은? (소수로)",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "기대 이중 교차 = 0.1 × 0.2 = 2%\n일치 계수 = 1/2 = 0.5, 간섭 = 1 − 0.5 = 0.5",
+   "hint": "기대 이중 교차는 두 빈도의 곱입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "지도 거리 15 cM인 두 유전자 사이의 재조합 빈도는 몇 %일까요? (가까운 거리)",
+   "answer": "15",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "1 cM ≈ 재조합 빈도 1%",
+   "hint": "1 cM = 1%입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "두 유전자가 같은 {{1}}에 가까이 있으면 함께 유전되는 경향이 있는데, 이를 연관이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염색체"
+     ]
+    }
+   ],
+   "explanation": "교차가 일어나야 재조합형이 생깁니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "genetics",
+ "id": "l3-biology-genetics-u02"
+}

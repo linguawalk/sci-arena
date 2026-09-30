@@ -1,0 +1,83 @@
+{
+ "no": 1,
+ "title": "관측 천문학과 복사",
+ "hours": 5,
+ "after": [],
+ "objectives": [
+  "등급 체계와 흑체 복사 법칙을 천체에 적용할 수 있다.",
+  "스펙트럼선으로 천체의 조성·온도·속도를 알아내는 원리를 설명할 수 있다.",
+  "망원경과 검출기의 원리를 설명할 수 있다."
+ ],
+ "checklist": [
+  "겉보기·절대 등급, 거리 지수, 색지수",
+  "흑체 복사(플랑크, 빈, 슈테판–볼츠만)",
+  "키르히호프 법칙과 스펙트럼의 종류",
+  "원자 에너지 준위와 스펙트럼선",
+  "도플러 효과 Δλ/λ = v/c",
+  "망원경(집광력, 분해능), CCD, 대기의 창",
+  "다파장 천문학과 우주 망원경"
+ ],
+ "advice": [
+  "천문학의 거의 모든 정보는 빛에서 옵니다. 스펙트럼 한 장에서 온도(연속 스펙트럼의 모양), 조성(흡수선의 종류), 시선 속도(선의 이동)를 모두 읽어 낼 수 있다는 것이 이 단원의 핵심입니다. 등급 계산은 로그 척도에 익숙해질 때까지 여러 번 연습하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Carroll · Ostlie, An Introduction to Modern Astrophysics (번역본 『현대 천체물리학』)",
+   "part": "1~6장 (천구, 궤도, 빛, 스펙트럼, 망원경)"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e",
+   "lang": "영어",
+   "part": "4~6장 Radiation and Spectra, Astronomical Instruments"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "겉보기 등급이 5등급 차이 나는 두 별의 밝기 비는?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "5등급 = 밝기 100배로 정의합니다.",
+   "hint": "정의입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "정지 파장 656.3 nm인 수소선이 657.0 nm 근처에서(Δλ = 0.656 nm) 관측되었습니다. 시선 속도는 약 몇 km/s일까요? (c = 3 × 10⁵ km/s)",
+   "answer": "300",
+   "answer_format": "integer",
+   "tolerance": 5,
+   "explanation": "v = c × Δλ/λ = 3 × 10⁵ × 0.656/656.3 ≈ 300 km/s (멀어짐)",
+   "hint": "Δλ/λ = v/c입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "표면 온도 약 5800 K인 태양의 복사가 가장 강한 파장은 약 몇 nm일까요? (빈 상수 2.9 × 10⁶ nm·K)",
+   "answer": "500",
+   "answer_format": "integer",
+   "tolerance": 20,
+   "explanation": "λ_max = 2.9 × 10⁶ / 5800 = 500 nm",
+   "hint": "빈의 변위 법칙입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "astronomy",
+ "id": "l3-earth-astronomy-u01"
+}

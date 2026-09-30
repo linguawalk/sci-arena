@@ -1,0 +1,90 @@
+{
+ "no": 2,
+ "title": "집단 유전학과 미세 진화",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "선택 모형으로 대립유전자 빈도의 변화를 계산할 수 있다.",
+  "유전적 부동과 유효 집단 크기를 설명할 수 있다.",
+  "중립 이론과 분자 진화를 설명할 수 있다."
+ ],
+ "checklist": [
+  "적응도와 선택 계수",
+  "열성 치사 대립유전자에 대한 선택 q′ = q/(1 + q)",
+  "이형 접합자 우세와 균형 선택",
+  "유전적 부동, 고정 확률, 유효 집단 크기",
+  "돌연변이–선택 평형",
+  "기무라의 중립 이론과 분자 시계",
+  "양적 형질의 진화"
+ ],
+ "advice": [
+  "유전학 8단원에서 배운 도구를 진화 속도의 질문에 적용하는 단원입니다. 열성 치사 대립유전자가 선택으로 줄어드는 속도를 여러 세대 계산해 보면 희귀해질수록 거의 줄지 않는다는 것을 볼 수 있습니다. 중립 이론은 '분자 수준 변이의 대부분은 선택이 아니라 부동으로 퍼진다'는 주장이며, 분자 시계의 이론적 근거입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Futuyma · Kirkpatrick, Evolution (번역본 『진화학』)",
+   "part": "9~12장 (부동, 선택, 양적 형질)"
+  },
+  {
+   "kind": "lecture",
+   "provider": "Open Yale Courses",
+   "title": "EEB 122 Principles of Evolution, Ecology and Behavior (Stearns, 36강)",
+   "url": "https://oyc.yale.edu/ecology-and-evolutionary-biology/eeb-122",
+   "lang": "영어",
+   "part": "4~6강 Neutral Evolution, How Selection Changes the Genetic Composition of Population, Origin and Maintenance of Genetic Variation"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "열성 치사 대립유전자의 빈도가 0.1일 때 한 세대의 선택 뒤 빈도는? (q′ = q/(1 + q), 소수 넷째 자리까지)",
+   "answer": "0.0909",
+   "answer_format": "decimal",
+   "tolerance": 0.002,
+   "explanation": "q′ = 0.1 / 1.1 ≈ 0.0909",
+   "hint": "주어진 식에 대입하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "분자 수준의 변이 대부분이 선택적으로 중립이며 유전적 부동으로 고정된다는 이론을 제안한 학자는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기무라",
+      "기무라 모토오"
+     ]
+    }
+   ],
+   "explanation": "1968년 중립 진화 이론을 발표했습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "수컷 10마리, 암컷 90마리인 집단의 유효 집단 크기 Nₑ = 4NₘN_f / (Nₘ + N_f)는?",
+   "answer": "36",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "4 × 10 × 90 / 100 = 36\n실제 개체 수 100보다 훨씬 작습니다.",
+   "hint": "식에 대입하세요.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "ecology-evolution",
+ "id": "l3-biology-ecology-evolution-u02"
+}

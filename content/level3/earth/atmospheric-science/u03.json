@@ -1,0 +1,94 @@
+{
+ "no": 3,
+ "title": "구름 물리와 강수",
+ "hours": 5,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "구름 방울의 생성(응결핵, 쾰러 곡선)을 설명할 수 있다.",
+  "충돌·병합과 베르제론 과정으로 강수 형성을 설명할 수 있다.",
+  "기상 레이더의 원리를 설명할 수 있다."
+ ],
+ "checklist": [
+  "균질·불균질 핵화와 응결핵",
+  "곡률 효과와 용질 효과(쾰러 곡선)",
+  "구름 방울 크기와 낙하 속도",
+  "충돌–병합(따뜻한 비)",
+  "빙정 과정(베르제론–핀다이젠)",
+  "강수 형태(비, 눈, 우박, 어는비)",
+  "기상 레이더와 반사도"
+ ],
+ "advice": [
+  "구름 방울(약 10 μm)이 빗방울(약 1 mm)이 되려면 부피가 백만 배 커져야 한다는 사실에서 출발하세요. 단순한 응결만으로는 이 성장이 너무 느리기 때문에 충돌–병합과 빙정 과정이 필요하다는 논리로 이 단원 전체가 정리됩니다. 인공 강우(구름 씨뿌리기)가 어떤 과정을 이용하는지도 생각해 보세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Wallace · Hobbs, Atmospheric Science: An Introductory Survey (2판, 번역본 『대기과학』)",
+   "part": "6장 Cloud Microphysics"
+  },
+  {
+   "kind": "web",
+   "provider": "UCAR COMET MetEd (무료 기상 교육 모듈, 가입 필요)",
+   "title": "MetEd 기상학 학습 모듈",
+   "url": "https://www.meted.ucar.edu/",
+   "lang": "영어(일부 한국어)",
+   "part": "구름 물리, 레이더 기상학 모듈"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "과냉각 물방울과 빙정이 함께 있을 때 빙정이 물방울의 수증기를 빼앗아 자라는 과정을 {{1}} 과정이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "베르제론",
+      "빙정"
+     ]
+    }
+   ],
+   "explanation": "얼음 위의 포화 수증기압이 물 위보다 낮기 때문입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "반지름 10 μm인 구름 방울이 반지름 1 mm인 빗방울이 되려면 부피가 몇 배 커져야 할까요?",
+   "answer": "1000000",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "반지름 100배 → 부피 100³ = 10⁶배",
+   "hint": "부피는 반지름의 세제곱입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "수증기가 응결할 때 물방울이 생기는 바탕이 되는 미세 입자를 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "응결핵"
+     ]
+    }
+   ],
+   "explanation": "해염, 황산염, 먼지 등이 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "atmospheric-science",
+ "id": "l3-earth-atmospheric-science-u03"
+}

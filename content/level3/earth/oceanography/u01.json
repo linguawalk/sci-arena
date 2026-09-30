@@ -1,0 +1,98 @@
+{
+ "no": 1,
+ "title": "해양 분지와 해저 지질",
+ "hours": 5,
+ "after": [],
+ "objectives": [
+  "해저 지형을 판 구조론과 연결해 설명할 수 있다.",
+  "해양 퇴적물의 종류와 분포를 설명할 수 있다.",
+  "해저 탐사 방법을 설명할 수 있다."
+ ],
+ "checklist": [
+  "대륙 주변부(대륙붕, 대륙 사면, 대륙대)",
+  "심해 평원, 해령, 해구, 해산",
+  "판 구조와 해양 분지의 형성·소멸",
+  "해양 퇴적물(육성, 생물성, 수성, 우주성)",
+  "석회질·규질 연니와 탄산염 보상 심도(CCD)",
+  "음향 측심과 다중빔, 해저 시추"
+ ],
+ "advice": [
+  "해저 지형은 지질학 6단원의 판 구조 과정이 바다 밑에서 그대로 드러난 모습입니다. NOAA의 해저 지형도를 보며 해령, 해구, 열점 해산열을 찾아보세요. 탄산염 보상 심도는 깊은 곳일수록 탄산 칼슘이 녹는다는 화학 평형 개념으로, 3단원의 탄산염 화학과 연결됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Roger Williams University Open Publishing (무료 공개 교재)",
+   "title": "Paul Webb, Introduction to Oceanography",
+   "url": "https://rwu.pressbooks.pub/webboceanography/",
+   "lang": "영어",
+   "part": "해저 지형·해양 퇴적물 관련 장"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Tom Garrison, Oceanography: An Invitation to Marine Science (번역본 『해양학』)",
+   "part": "해저 지형·퇴적물 장"
+  },
+  {
+   "kind": "web",
+   "provider": "NOAA Ocean Exploration",
+   "title": "해양 탐사 자료와 교육 자료",
+   "url": "https://oceanexplorer.noaa.gov/",
+   "lang": "영어",
+   "part": "해저 지형 탐사 자료"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "전 세계 바다의 평균 수심은 약 몇 m일까요?",
+   "answer": "3700",
+   "answer_format": "integer",
+   "tolerance": 200,
+   "explanation": "약 3700 m (최대 약 11 000 m, 마리아나 해구)",
+   "hint": "4 km보다 조금 얕습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "해양판이 섭입하는 곳에 생기는 깊고 좁은 골짜기를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "해구"
+     ]
+    }
+   ],
+   "explanation": "마리아나 해구가 가장 깊습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "이 깊이보다 깊은 곳에서는 탄산 칼슘 껍데기가 녹아 쌓이지 못하는 깊이를 탄산염 {{1}} 심도라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "보상"
+     ]
+    }
+   ],
+   "explanation": "CCD라고 하며 대략 4~5 km입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "oceanography",
+ "id": "l3-earth-oceanography-u01"
+}

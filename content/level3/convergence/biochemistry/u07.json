@@ -1,0 +1,87 @@
+{
+ "no": 7,
+ "title": "지질·아미노산·뉴클레오타이드 대사",
+ "hours": 6,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "지방산의 β 산화와 합성을 비교할 수 있다.",
+  "아미노산 분해와 요소 회로를 설명할 수 있다.",
+  "뉴클레오타이드 합성과 관련 약물의 작용을 설명할 수 있다."
+ ],
+ "checklist": [
+  "지방산의 활성화와 카르니틴 운반",
+  "β 산화의 4단계와 에너지 수지",
+  "케톤체 생성",
+  "지방산 합성(아세틸-CoA 카복실화 효소, 지방산 합성 효소)",
+  "콜레스테롤 합성과 스타틴",
+  "아미노기 전이, 산화적 탈아미노화, 요소 회로",
+  "뉴클레오타이드 합성과 항암제(메토트렉세이트)"
+ ],
+ "advice": [
+  "β 산화는 지방산을 탄소 2개씩 잘라 아세틸-CoA로 만드는 반복 회로입니다. 팔미트산(C16)이 몇 번 돌고 아세틸-CoA가 몇 개 생기는지 세어 ATP 수를 계산해 보면, 지방이 탄수화물보다 무게당 에너지가 두 배 이상인 이유가 숫자로 나옵니다. 스타틴(콜레스테롤 합성 저해)처럼 대사 효소를 표적으로 하는 약물을 경로 그림에 표시해 두세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Nelson · Cox, Lehninger Principles of Biochemistry (번역본 『레닌저 생화학』)",
+   "part": "17~18장, 21~22장 (지방산 분해, 아미노산 분해, 지질 생합성, 아미노산·뉴클레오타이드 생합성)"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Berg 외, Biochemistry (Stryer, 번역본 『생화학』)",
+   "part": "22~26장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "팔미트산(탄소 16개)을 β 산화로 완전히 분해하려면 β 산화 회로가 몇 번 돌아야 할까요?",
+   "answer": "7",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "한 번에 탄소 2개씩, 마지막에 C₄ → 2C₂\n16/2 − 1 = 7번",
+   "hint": "n/2 − 1입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "팔미트산 1분자의 β 산화로 생기는 아세틸-CoA는 몇 분자일까요?",
+   "answer": "8",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "탄소 16개 / 2 = 8분자",
+   "hint": "탄소 2개당 하나입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "아미노산의 질소를 요소로 바꾸어 배출하는 요소 회로는 주로 {{1}}에서 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "간"
+     ]
+    }
+   ],
+   "explanation": "미토콘드리아와 세포질에 걸쳐 일어납니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "biochemistry",
+ "id": "l3-convergence-biochemistry-u07"
+}

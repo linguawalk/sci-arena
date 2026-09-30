@@ -1,0 +1,98 @@
+{
+ "no": 1,
+ "title": "세포 연구 방법과 단백질",
+ "hours": 5,
+ "after": [],
+ "objectives": [
+  "광학·전자 현미경과 세포 분획법의 원리를 설명할 수 있다.",
+  "단백질의 구조와 기능, 접힘과 품질 관리를 설명할 수 있다.",
+  "단백질 분석 기술(전기 영동, 웨스턴 블롯, 질량 분석)을 설명할 수 있다."
+ ],
+ "checklist": [
+  "현미경의 분해능(광학 약 200 nm), 형광 현미경과 GFP",
+  "전자 현미경, 극저온 전자 현미경",
+  "세포 분획과 원심 분리",
+  "단백질 구조 1~4차, 도메인과 모티프",
+  "샤페론과 단백질 접힘",
+  "SDS-PAGE, 웨스턴 블롯, 질량 분석",
+  "모델 생물(대장균, 효모, 초파리, 생쥐)"
+ ],
+ "advice": [
+  "이 과목은 '어떻게 알았는가'가 '무엇을 아는가'만큼 중요합니다. 교재의 그림마다 어떤 실험 기술로 얻은 자료인지 찾아 표시하는 습관을 들이세요. 이 단원의 기술 목록(현미경, 분획, 전기 영동, 블롯)을 한 장에 정리해 두면 이후 모든 단원의 실험 그림을 해석하는 도구가 됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Alberts 외, Molecular Biology of the Cell (7판, 번역본 『세포의 분자생물학』)",
+   "part": "8~9장 Analyzing Cells, Molecules, and Systems; Visualizing Cells, 3장 Proteins"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Lodish 외, Molecular Cell Biology (번역본 『분자세포생물학』)",
+   "part": "3~4장"
+  },
+  {
+   "kind": "video",
+   "provider": "iBiology (연구자 강연 영상, 무료)",
+   "title": "iBiology 강연 모음",
+   "url": "https://www.ibiology.org/",
+   "lang": "영어",
+   "part": "현미경·단백질 구조 관련 강연"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "살아 있는 세포에서 단백질의 위치를 추적하는 데 널리 쓰이는 해파리 유래 형광 단백질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "GFP",
+      "녹색 형광 단백질"
+     ]
+    }
+   ],
+   "explanation": "2008년 노벨 화학상 주제입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "가시광선을 쓰는 광학 현미경의 분해능 한계는 약 몇 nm일까요?",
+   "answer": "200",
+   "answer_format": "integer",
+   "tolerance": 30,
+   "explanation": "빛의 파장의 절반 정도인 약 200 nm",
+   "hint": "가시광선 파장의 절반쯤입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "새로 합성된 단백질이 올바르게 접히도록 돕는 단백질을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "샤페론"
+     ]
+    }
+   ],
+   "explanation": "열 충격 단백질(Hsp70, Hsp90) 등이 대표적입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "cell-molecular",
+ "id": "l3-biology-cell-molecular-u01"
+}

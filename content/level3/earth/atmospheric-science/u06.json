@@ -1,0 +1,103 @@
+{
+ "no": 6,
+ "title": "대기 대순환과 중위도 요란",
+ "hours": 6,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "대기 대순환의 관측 구조와 각운동량 수송을 설명할 수 있다.",
+  "경압 불안정으로 온대 저기압의 발달을 설명할 수 있다.",
+  "로스비파와 상층 기압골·능의 관계를 설명할 수 있다."
+ ],
+ "checklist": [
+  "위도별 에너지 불균형과 열 수송",
+  "해들리 순환, 페렐 순환, 극순환",
+  "제트류와 각운동량 보존",
+  "로스비파와 편서풍 파동",
+  "경압 불안정과 온대 저기압의 생애",
+  "전선의 구조와 전선 형성",
+  "상층 발산과 지상 저기압 발달"
+ ],
+ "advice": [
+  "레벨2까지는 3세포 모형을 그림으로 받아들였지만, 여기서는 해들리 순환이 왜 적도에서 극까지 이어지지 못하고 30°에서 멈추는지(각운동량 보존과 경압 불안정)를 이해하는 것이 목표입니다. 실제 500 hPa 일기도에서 기압골과 능을 찾고, 그 아래 지상 저기압이 어디서 발달하는지 비교해 보면 상층과 지상의 연결이 보입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics: An Introductory Text",
+   "part": "8장 The general circulation of the atmosphere"
+  },
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Wallace · Hobbs, Atmospheric Science: An Introductory Survey (2판, 번역본 『대기과학』)",
+   "part": "7~8장 Atmospheric Dynamics, Weather Systems"
+  },
+  {
+   "kind": "web",
+   "provider": "기상청",
+   "title": "기상자료개방포털 (관측 자료, 일기도, 고층 자료)",
+   "url": "https://data.kma.go.kr/",
+   "lang": "한국어",
+   "part": "일기도(지상·500 hPa)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "적도에서 상승해 위도 30° 부근에서 하강하는 열대의 연직 순환을 {{1}} 순환이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "해들리"
+     ]
+    }
+   ],
+   "explanation": "무역풍과 아열대 고압대를 만듭니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "남북 온도 경도가 클 때 중위도 요란이 에너지를 얻어 성장하는 불안정을 {{1}} 불안정이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "경압"
+     ]
+    }
+   ],
+   "explanation": "온대 저기압이 발달하는 원리입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "편서풍대에서 남북으로 굽이치며 서쪽으로 전파하려는 성질을 가진 대규모 파동을 {{1}}파라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "로스비"
+     ]
+    }
+   ],
+   "explanation": "코리올리 매개변수가 위도에 따라 변하기 때문에 생깁니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "atmospheric-science",
+ "id": "l3-earth-atmospheric-science-u06"
+}

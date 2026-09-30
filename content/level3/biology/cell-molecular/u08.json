@@ -1,0 +1,93 @@
+{
+ "no": 8,
+ "title": "미생물의 세포 생물학",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "원핵세포의 구조와 그람 염색의 원리를 설명할 수 있다.",
+  "미생물의 성장과 대사의 다양성을 설명할 수 있다.",
+  "세균의 유전자 전달과 바이러스의 증식을 설명할 수 있다."
+ ],
+ "checklist": [
+  "세균과 고세균의 세포 구조",
+  "그람 양성·음성 세포벽(펩티도글리칸, 외막)",
+  "미생물 성장 곡선과 세대 시간",
+  "대사 다양성(화학 합성, 광합성 세균, 혐기 호흡)",
+  "형질 전환, 접합, 형질 도입",
+  "바이러스 구조와 용균·용원 주기",
+  "항생제 작용과 내성"
+ ],
+ "advice": [
+  "미생물학은 세포·분자생물학의 원리가 가장 단순한 형태로 드러나는 분야입니다. 세균의 지수 성장을 계산해 보고(세대 시간 20분이면 하루 만에 몇 마리가 되는가), 항생제마다 세포의 어느 부분(세포벽, 리보솜, DNA 복제)을 공격하는지 1~5단원과 연결해 정리하세요. 수평적 유전자 전달이 항생제 내성 확산의 원인이라는 점은 유전학 3단원과 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Microbiology",
+   "url": "https://openstax.org/details/books/microbiology",
+   "lang": "영어",
+   "part": "3~4장, 6장, 9~11장 (세포 구조, 원핵생물 다양성, 바이러스, 성장, 대사, 유전학)"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Madigan 외, Brock Biology of Microorganisms (번역본 『브록 미생물학』)",
+   "part": "2~6장, 8~10장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "세대 시간이 20분인 세균 한 마리가 2시간 동안 지수 성장하면 몇 마리가 될까요?",
+   "answer": "64",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "2시간 = 6세대\n2⁶ = 64마리",
+   "hint": "몇 번 분열하는지 세세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "그람 양성균은 두꺼운 {{1}} 층 때문에 크리스털 바이올렛 염색이 남습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "펩티도글리칸"
+     ]
+    }
+   ],
+   "explanation": "그람 음성균은 얇은 펩티도글리칸과 외막을 가집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "박테리오파지가 한 세균의 DNA를 다른 세균으로 옮기는 과정을 형질 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "도입"
+     ]
+    }
+   ],
+   "explanation": "형질 전환(DNA 흡수), 접합(세균 간 직접 전달)과 구별합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "cell-molecular",
+ "id": "l3-biology-cell-molecular-u08"
+}

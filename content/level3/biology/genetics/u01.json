@@ -1,0 +1,96 @@
+{
+ "no": 1,
+ "title": "멘델 유전의 확장과 통계",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "확률 규칙과 카이제곱 검정으로 교배 결과를 분석할 수 있다.",
+  "대립유전자 사이·유전자 사이 상호작용(상위성)을 비율로 판별할 수 있다.",
+  "침투도, 표현도, 다면 발현을 설명할 수 있다."
+ ],
+ "checklist": [
+  "곱·합 규칙과 이항 분포",
+  "카이제곱(χ²) 적합도 검정과 자유도",
+  "불완전 우성, 공동 우성, 치사 대립유전자",
+  "복대립 유전자와 상보성 검정",
+  "유전자 상호작용: 9 : 7(보족), 9 : 3 : 4(열성 상위), 12 : 3 : 1(우성 상위)",
+  "침투도, 표현도, 다면 발현, 환경의 영향"
+ ],
+ "advice": [
+  "변형된 멘델 비율(9 : 7, 9 : 3 : 4 등)은 외우지 말고 9 : 3 : 3 : 1의 네 무리를 어떻게 합쳤는지로 해석하세요. 가상의 생화학 경로(물질 A → B → C, 각 단계에 유전자 하나)를 그려 놓고 어느 유전자가 고장 나면 어떤 색이 되는지 따져 보면 상위성 비율이 저절로 나옵니다. 카이제곱 검정은 자유도와 유의 수준을 매번 명시하는 습관을 들이세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Griffiths 외, Introduction to Genetic Analysis (번역본 『유전학』)",
+   "part": "2~3장, 6장 Gene Interaction"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Benjamin Pierce, Genetics: A Conceptual Approach (번역본 『유전학』)",
+   "part": "3장, 5장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "7.03 Genetics (2004년 가을)",
+   "url": "https://ocw.mit.edu/courses/7-03-genetics-fall-2004/",
+   "lang": "영어",
+   "part": "Lecture 1~6"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "두 유전자 모두 우성 대립유전자가 있어야 형질이 나타나는 보족 유전에서 F₂의 비율은 9 : {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "7"
+     ]
+    }
+   ],
+   "explanation": "9 : 3 : 3 : 1에서 뒤의 3 + 3 + 1 = 7이 한 무리가 됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "표현형 4가지의 관찰 비율을 기대 비율과 비교하는 카이제곱 검정의 자유도는?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "자유도 = 범주 수 − 1 = 3",
+   "hint": "범주 수 − 1입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "같은 유전자형인데 일부 개체만 형질을 나타내는 경우, 그 유전자형의 {{1}}도가 100%보다 낮다고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "침투"
+     ]
+    }
+   ],
+   "explanation": "표현도는 형질이 나타나는 정도의 차이를 말합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "genetics",
+ "id": "l3-biology-genetics-u01"
+}

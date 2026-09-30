@@ -1,0 +1,101 @@
+{
+ "no": 4,
+ "title": "내분비와 생식",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "호르몬의 화학적 종류와 작용 방식을 구별할 수 있다.",
+  "시상하부–뇌하수체 축과 되먹임 조절을 설명할 수 있다.",
+  "생식 주기와 호르몬 조절을 설명할 수 있다."
+ ],
+ "checklist": [
+  "펩타이드·스테로이드·아민 호르몬과 수용체",
+  "시상하부–뇌하수체 전엽·후엽",
+  "갑상샘, 부신(코르티솔, 에피네프린)",
+  "혈당 조절(인슐린, 글루카곤)과 당뇨병",
+  "칼슘 조절(부갑상샘 호르몬, 칼시트리올)",
+  "남성·여성 생식 생리와 월경 주기",
+  "임신과 분만(양성 되먹임)"
+ ],
+ "advice": [
+  "호르몬은 이름이 많지만 '어디서 분비되어 어디에 작용하고 무엇이 분비를 억제하는가'의 세 칸짜리 표로 정리하면 됩니다. 시상하부 → 뇌하수체 → 표적 내분비샘으로 이어지는 3단계 축과 음성 되먹임을 갑상샘과 부신 피질에서 같은 그림으로 그려 보세요. 월경 주기에서 LH 급증은 드문 양성 되먹임의 예입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Dee U. Silverthorn, Human Physiology: An Integrated Approach (번역본 『인체생리학』)",
+   "part": "7장 Introduction to the Endocrine System, 22~23장, 26장"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "lang": "영어",
+   "part": "17장 The Endocrine System, 27~28장 (생식)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "스테로이드 호르몬은 지용성이라 세포막을 통과해 주로 {{1}}에 있는 수용체와 결합합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "세포 안",
+      "세포 내",
+      "세포질",
+      "핵"
+     ]
+    }
+   ],
+   "explanation": "호르몬–수용체 복합체가 유전자 전사를 조절합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "월경 주기 중간에 LH가 급격히 증가하면 {{1}}이 일어납니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "배란"
+     ]
+    }
+   ],
+   "explanation": "에스트로젠의 양성 되먹임으로 LH가 급증합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "혈중 갑상샘 호르몬이 많아지면 뇌하수체의 TSH 분비가 {{1}}됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "억제",
+      "감소"
+     ]
+    }
+   ],
+   "explanation": "음성 되먹임입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "physiology",
+ "id": "l3-biology-physiology-u04"
+}

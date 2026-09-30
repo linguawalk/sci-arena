@@ -1,0 +1,99 @@
+{
+ "no": 8,
+ "title": "보전 생물학과 지구 변화",
+ "hours": 4,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "생물 다양성 감소의 원인과 측정 방법을 설명할 수 있다.",
+  "종–면적 관계와 서식지 파편화의 영향을 계산할 수 있다.",
+  "기후 변화가 생물에 미치는 영향과 보전 전략을 설명할 수 있다."
+ ],
+ "checklist": [
+  "생물 다양성의 세 수준(유전자, 종, 생태계)",
+  "멸종 위험과 IUCN 적색 목록",
+  "서식지 손실과 파편화, 가장자리 효과",
+  "종–면적 관계 S = cAᶻ와 섬 생물 지리학",
+  "외래종, 남획, 오염",
+  "기후 변화와 분포 이동, 생물 계절 변화",
+  "보호 구역, 복원 생태학, 생태계 서비스"
+ ],
+ "advice": [
+  "보전 생물학은 앞 단원들의 이론(개체군 모형, 유전적 부동, 군집 구조)을 실제 문제에 적용하는 종합 단원입니다. 작은 개체군이 왜 위험한지(부동으로 유전적 다양성 감소, 근친교배)를 2단원과 연결하고, 종–면적 관계로 서식지가 줄 때 잃게 될 종 수를 어림해 보세요. 한국의 멸종 위기종 복원 사례(여우, 반달가슴곰)를 찾아보는 것도 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Begon · Townsend · Harper, Ecology: From Individuals to Ecosystems (번역본 『생태학』)",
+   "part": "보전 장"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "47장 Conservation Biology and Biodiversity"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Ricklefs · Relyea, Ecology: The Economy of Nature (번역본 『생태학』)",
+   "part": "보전·지구 변화 장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "종–면적 관계 S = cA^0.25에서 면적이 16배가 되면 종 수는 몇 배가 될까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "16^0.25 = 2배",
+   "hint": "16의 네제곱근입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "서식지가 조각나면서 가장자리 환경이 늘어 내부 종이 불리해지는 현상을 {{1}} 효과라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "가장자리"
+     ]
+    }
+   ],
+   "explanation": "빛, 바람, 포식자가 가장자리에서 달라집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "세계자연보전연맹이 종의 멸종 위험을 평가해 발표하는 목록을 {{1}} 목록이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "적색"
+     ]
+    }
+   ],
+   "explanation": "IUCN Red List입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "ecology-evolution",
+ "id": "l3-biology-ecology-evolution-u08"
+}

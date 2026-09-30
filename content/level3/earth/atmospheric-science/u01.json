@@ -1,0 +1,93 @@
+{
+ "no": 1,
+ "title": "대기의 조성, 구조, 정역학 평형",
+ "hours": 5,
+ "after": [],
+ "objectives": [
+  "대기의 조성과 연직 온도 구조를 설명할 수 있다.",
+  "정역학 방정식과 측고 공식을 유도할 수 있다.",
+  "척도 고도로 높이에 따른 기압 변화를 계산할 수 있다."
+ ],
+ "checklist": [
+  "대기 조성과 미량 기체",
+  "대류권, 성층권(오존), 중간권, 열권",
+  "이상 기체 상태 방정식 p = ρRT",
+  "정역학 방정식 dp/dz = −ρg",
+  "척도 고도 H = RT/g (약 8 km)와 p = p₀e^(−z/H)",
+  "측고 공식과 층후",
+  "표준 대기"
+ ],
+ "advice": [
+  "정역학 방정식은 대기과학의 첫 번째 핵심 식입니다. 등온 대기를 가정해 기압이 높이에 따라 지수적으로 줄어든다는 결과를 직접 유도하고, 척도 고도 약 8 km가 뜻하는 바(8 km 오를 때마다 기압이 약 1/e로 줄어듦)를 숫자로 익히세요. 층후가 평균 기온에 비례한다는 측고 공식은 일기도 해석에서 계속 쓰입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Wallace · Hobbs, Atmospheric Science: An Introductory Survey (2판, 번역본 『대기과학』)",
+   "part": "1장, 3장 3.1~3.2절 Atmospheric Thermodynamics"
+  },
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics: An Introductory Text",
+   "part": "1~3장 Characteristics of the atmosphere, The global energy balance, Convection 앞부분"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "12.003 Atmosphere, Ocean and Climate Dynamics (2008년 가을)",
+   "url": "https://ocw.mit.edu/courses/12-003-atmosphere-ocean-and-climate-dynamics-fall-2008/",
+   "lang": "영어",
+   "part": "Lecture 1~3"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "척도 고도 8 km인 등온 대기에서 높이 16 km의 기압은 지표 기압의 약 몇 배일까요?",
+   "answer": "0.135",
+   "answer_format": "decimal",
+   "tolerance": 0.005,
+   "explanation": "p/p₀ = e^(−16/8) = e^(−2) ≈ 0.135",
+   "hint": "e^(−z/H)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "해면 표준 기압은 약 몇 hPa일까요?",
+   "answer": "1013",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "1 atm = 1013.25 hPa",
+   "hint": "1 atm입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "성층권에서 높이 올라갈수록 기온이 오르는 것은 {{1}}이 자외선을 흡수하기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오존"
+     ]
+    }
+   ],
+   "explanation": "오존층이 약 20~30 km 높이에 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "atmospheric-science",
+ "id": "l3-earth-atmospheric-science-u01"
+}

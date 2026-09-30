@@ -1,0 +1,103 @@
+{
+ "no": 6,
+ "title": "세포 신호 전달과 세포 골격",
+ "hours": 6,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "G 단백질 연결 수용체와 수용체 티로신 인산화 효소 경로를 비교할 수 있다.",
+  "신호 증폭과 종료의 메커니즘을 설명할 수 있다.",
+  "세포 골격과 모터 단백질의 기능을 설명할 수 있다."
+ ],
+ "checklist": [
+  "신호 분자와 수용체의 종류",
+  "GPCR, G 단백질(GTP/GDP 스위치), cAMP·Ca²⁺",
+  "수용체 티로신 인산화 효소와 Ras–MAPK 경로",
+  "PI3K–Akt 경로와 신호 통합",
+  "액틴 미세 섬유, 미세 소관, 중간 섬유",
+  "모터 단백질(미오신, 키네신, 다이네인)",
+  "세포 이동과 부착"
+ ],
+ "advice": [
+  "신호 전달 경로는 이름이 많아 외우기 어렵지만, 대부분 '수용체 활성화 → 분자 스위치(GTP 결합, 인산화) → 증폭 → 표적 단백질 → 종료'라는 같은 틀을 따릅니다. 한 경로를 이 틀로 완전히 정리한 뒤 다른 경로를 비교하면 됩니다. Ras 같은 스위치가 켜진 채 고정되면 암이 된다는 7단원과의 연결을 기억하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Alberts 외, Molecular Biology of the Cell (7판, 번역본 『세포의 분자생물학』)",
+   "part": "15~16장 Cell Signaling, The Cytoskeleton"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Lodish 외, Molecular Cell Biology (번역본 『분자세포생물학』)",
+   "part": "15~18장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "7.016 Introductory Biology (2018년 가을)",
+   "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/",
+   "lang": "영어",
+   "part": "Lecture (cell signaling)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "EGF 수용체처럼 리간드가 결합하면 서로의 {{1}} 잔기를 인산화하는 수용체를 수용체 티로신 인산화 효소라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "티로신"
+     ]
+    }
+   ],
+   "explanation": "인산화된 티로신에 신호 단백질이 결합합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "G 단백질은 {{1}}와 결합했을 때 활성 상태가 됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "GTP"
+     ]
+    }
+   ],
+   "explanation": "GTP가 GDP로 가수 분해되면 꺼집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "미세 소관 위에서 주로 + 끝 방향으로 화물을 운반하는 모터 단백질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "키네신"
+     ]
+    }
+   ],
+   "explanation": "다이네인은 − 끝 방향으로 이동합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "cell-molecular",
+ "id": "l3-biology-cell-molecular-u06"
+}

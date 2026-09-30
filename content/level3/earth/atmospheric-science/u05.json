@@ -1,0 +1,95 @@
+{
+ "no": 5,
+ "title": "대기 역학 기초",
+ "hours": 7,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "회전 좌표계의 운동 방정식을 규모 분석으로 단순화할 수 있다.",
+  "지균풍, 경도풍, 온도풍을 유도하고 계산할 수 있다.",
+  "와도와 발산의 의미를 설명할 수 있다."
+ ],
+ "checklist": [
+  "회전 좌표계의 운동 방정식과 코리올리 매개변수 f = 2Ω sin φ",
+  "규모 분석과 로스비 수",
+  "지균풍 V_g = (1/ρf)∂p/∂n",
+  "경도풍과 순환풍",
+  "온도풍: 수평 온도 경도 → 연직 바람 시어",
+  "와도, 발산, 연속 방정식",
+  "마찰과 에크만층"
+ ],
+ "advice": [
+  "대기 역학의 요령은 규모 분석입니다. 운동 방정식의 각 항 크기를 어림해 중위도 종관 규모에서는 기압 경도력과 코리올리 힘이 가장 크다는 것을 확인하면 지균풍이 자연스럽게 나옵니다. 온도풍 관계는 '남쪽이 따뜻하면 높이 올라갈수록 서풍이 강해진다'는 결과로, 제트류가 왜 대류권 계면 근처에서 가장 강한지를 설명합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Holton · Hakim, An Introduction to Dynamic Meteorology (역학 대기학)",
+   "part": "1~4장 (기본 방정식, 규모 분석, 순환과 와도)"
+  },
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics: An Introductory Text",
+   "part": "6~7장 The equations of fluid motion, Balanced flow"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "12.003 Atmosphere, Ocean and Climate Dynamics (2008년 가을)",
+   "url": "https://ocw.mit.edu/courses/12-003-atmosphere-ocean-and-climate-dynamics-fall-2008/",
+   "lang": "영어",
+   "part": "Lecture (dynamics)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "위도 30°에서 코리올리 매개변수 f는 약 몇 × 10⁻⁵ s⁻¹일까요? (Ω = 7.29 × 10⁻⁵ s⁻¹)",
+   "answer": "7.29",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "f = 2Ω sin 30° = Ω ≈ 7.29 × 10⁻⁵ s⁻¹",
+   "hint": "sin 30° = 0.5입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "기압 경도가 100 km당 1 hPa, 공기 밀도 1.2 kg/m³, f = 10⁻⁴ s⁻¹일 때 지균풍 속력은 약 몇 m/s일까요?",
+   "answer": "8.33",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "∂p/∂n = 100 Pa / 10⁵ m = 10⁻³ Pa/m\nV = 10⁻³ / (1.2 × 10⁻⁴) ≈ 8.33 m/s",
+   "hint": "V = (1/ρf)∂p/∂n입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "높이에 따른 지균풍의 변화(연직 시어)를 온도{{1}}이라고 하며, 수평 온도 경도에 비례합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "풍"
+     ]
+    }
+   ],
+   "explanation": "온도풍 관계입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "atmospheric-science",
+ "id": "l3-earth-atmospheric-science-u05"
+}

@@ -1,0 +1,103 @@
+{
+ "no": 3,
+ "title": "전사, RNA 가공, 번역",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "원핵·진핵생물의 전사 개시와 RNA 중합 효소를 비교할 수 있다.",
+  "RNA 가공과 핵 수송을 설명할 수 있다.",
+  "번역의 단계와 단백질 분해를 설명할 수 있다."
+ ],
+ "checklist": [
+  "RNA 중합 효소 Ⅰ·Ⅱ·Ⅲ와 일반 전사 인자",
+  "5′ 캡, 스플라이싱(스플라이세오솜), 폴리 A 꼬리",
+  "선택적 스플라이싱",
+  "mRNA의 핵 밖 수송과 분해",
+  "리보솜 구조와 A·P·E 자리",
+  "번역 개시·신장·종결과 번역 조절",
+  "유비퀴틴–프로테아솜 분해"
+ ],
+ "advice": [
+  "일반생물에서 배운 흐름에 '어떤 단백질 복합체가 무엇을 하는가'를 덧붙이는 단원입니다. 리보솜의 세 자리(A·P·E)를 tRNA가 차례로 옮겨 가는 그림을 손으로 그려 보고, 항생제가 리보솜의 어느 단계를 막는지 연결해 보세요. 단백질의 생성뿐 아니라 분해(유비퀴틴 표지)도 조절의 한 방법이라는 점이 7단원 세포 주기와 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Alberts 외, Molecular Biology of the Cell (7판, 번역본 『세포의 분자생물학』)",
+   "part": "6장 How Cells Read the Genome"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Lodish 외, Molecular Cell Biology (번역본 『분자세포생물학』)",
+   "part": "5장, 10장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "7.016 Introductory Biology (2018년 가을)",
+   "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/",
+   "lang": "영어",
+   "part": "Lecture (transcription, translation)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "진핵생물 mRNA 전구체에서 인트론을 제거하는 RNA–단백질 복합체는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "스플라이세오솜"
+     ]
+    }
+   ],
+   "explanation": "snRNP들이 모여 만들어집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "번역 신장 중 새 아미노산을 단 tRNA가 들어오는 리보솜 자리는 {{1}} 자리입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "A"
+     ]
+    }
+   ],
+   "explanation": "A(아미노아실) → P(펩티딜) → E(출구) 순으로 이동합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "유비퀴틴으로 표지된 단백질을 분해하는 세포 안의 복합체는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "프로테아솜"
+     ]
+    }
+   ],
+   "explanation": "세포 주기 단백질의 시기별 분해에 중요합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "cell-molecular",
+ "id": "l3-biology-cell-molecular-u03"
+}

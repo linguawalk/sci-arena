@@ -1,0 +1,106 @@
+{
+ "no": 4,
+ "title": "유전자 발현의 조절",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "전사 인자와 인핸서에 의한 조절을 설명할 수 있다.",
+  "염색질 변형과 DNA 메틸화의 후성 유전적 조절을 설명할 수 있다.",
+  "비암호 RNA(miRNA, lncRNA)에 의한 조절을 설명할 수 있다."
+ ],
+ "checklist": [
+  "원핵생물의 오페론 복습",
+  "전사 인자의 DNA 결합 도메인(징크 핑거, 헬릭스–턴–헬릭스)",
+  "인핸서, 매개체 복합체, 절연체",
+  "히스톤 변형(아세틸화, 메틸화)",
+  "DNA 메틸화와 유전체 각인",
+  "miRNA·siRNA와 RNA 간섭",
+  "세포 분화와 줄기세포, 역분화(iPS)"
+ ],
+ "advice": [
+  "같은 유전체를 가진 세포들이 서로 다른 세포가 되는 이유는 모두 이 단원에서 설명됩니다. 조절 단계를 '염색질 → 전사 → RNA 가공 → mRNA 안정성·번역 → 단백질 분해'로 줄 세워 각 단계의 대표 메커니즘을 하나씩 적어 보세요. iPS 세포가 전사 인자 네 개만으로 만들어졌다는 사실은 전사 인자가 세포 운명을 결정한다는 강력한 증거입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Alberts 외, Molecular Biology of the Cell (7판, 번역본 『세포의 분자생물학』)",
+   "part": "7장 Control of Gene Expression"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Lodish 외, Molecular Cell Biology (번역본 『분자세포생물학』)",
+   "part": "9장 Transcriptional Control, 10장 Post-transcriptional"
+  },
+  {
+   "kind": "video",
+   "provider": "iBiology (연구자 강연 영상, 무료)",
+   "title": "iBiology 강연 모음",
+   "url": "https://www.ibiology.org/",
+   "lang": "영어",
+   "part": "후성 유전·줄기세포 관련 강연"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "프로모터 부근 CpG의 DNA 메틸화는 일반적으로 전사를 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "억제"
+     ]
+    }
+   ],
+   "explanation": "메틸화된 DNA에 결합하는 단백질이 염색질을 응축시킵니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "표적 mRNA에 결합해 번역을 억제하거나 분해를 유도하는 약 22 nt의 작은 RNA를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "miRNA",
+      "마이크로 RNA",
+      "마이크로RNA"
+     ]
+    }
+   ],
+   "explanation": "사람 유전자의 절반 이상이 miRNA 조절을 받는 것으로 봅니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "히스톤의 아세틸화는 염색질을 느슨하게 해 전사를 {{1}}합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "활성화",
+      "촉진"
+     ]
+    }
+   ],
+   "explanation": "아세틸기가 히스톤의 양전하를 중화해 DNA와의 결합이 약해집니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "cell-molecular",
+ "id": "l3-biology-cell-molecular-u04"
+}

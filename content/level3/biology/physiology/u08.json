@@ -1,0 +1,93 @@
+{
+ "no": 8,
+ "title": "소화, 대사, 면역",
+ "hours": 5,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "소화관의 운동·분비·흡수와 그 조절을 설명할 수 있다.",
+  "에너지 균형과 체온 조절을 설명할 수 있다.",
+  "선천·적응 면역의 세포와 분자를 통합적으로 설명할 수 있다."
+ ],
+ "checklist": [
+  "소화관의 구조와 장 신경계",
+  "소화 효소와 효소원의 활성화",
+  "위장관 호르몬(가스트린, 세크레틴, CCK)",
+  "영양소 흡수(당, 아미노산, 지질과 암죽관)",
+  "에너지 균형, 대사율, 흡수 상태와 공복 상태",
+  "체온 조절",
+  "선천 면역, 항체 매개·세포 매개 면역, 면역 기억"
+ ],
+ "advice": [
+  "이 단원은 여러 기관계를 '영양소가 들어와 저장되고 쓰이는 흐름'과 '몸을 지키는 흐름'으로 통합합니다. 식사 뒤(흡수 상태)와 공복 때 인슐린·글루카곤이 간, 근육, 지방 조직에 무엇을 시키는지 표로 정리하면 생화학의 대사 조절로 자연스럽게 이어집니다. 면역은 레벨1·2에서 배운 내용을 세포 신호(사이토카인)와 연결해 복습하세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Dee U. Silverthorn, Human Physiology: An Integrated Approach (번역본 『인체생리학』)",
+   "part": "21~22장 The Digestive System, Metabolism and Energy Balance, 24장 The Immune System"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "lang": "영어",
+   "part": "21장 (면역), 23~24장 (소화, 대사)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "이자에서 분비된 트립시노젠은 작은창자에서 활성화되어 {{1}}이 되고, 다른 효소원들도 활성화합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "트립신"
+     ]
+    }
+   ],
+   "explanation": "엔테로키네이스가 처음 활성화를 시작합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "지방 1 g이 완전히 산화될 때 내는 에너지는 약 몇 kcal일까요?",
+   "answer": "9",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "지방 약 9 kcal/g, 탄수화물·단백질 약 4 kcal/g",
+   "hint": "탄수화물의 두 배 이상입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "같은 항원에 두 번째로 노출되었을 때 빠르고 강한 면역 반응이 일어나는 것은 {{1}} 세포 덕분입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "기억"
+     ]
+    }
+   ],
+   "explanation": "백신의 원리입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "physiology",
+ "id": "l3-biology-physiology-u08"
+}

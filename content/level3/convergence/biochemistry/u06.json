@@ -1,0 +1,91 @@
+{
+ "no": 6,
+ "title": "광합성과 탄수화물 대사",
+ "hours": 5,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "광합성의 명반응과 탄소 고정을 생화학적으로 설명할 수 있다.",
+  "글리코젠 합성·분해와 그 조절을 설명할 수 있다.",
+  "오탄당 인산 경로의 역할을 설명할 수 있다."
+ ],
+ "checklist": [
+  "광계 Ⅰ·Ⅱ와 Z 도식, 광인산화",
+  "캘빈 회로와 루비스코, C₄·CAM 식물",
+  "글리코젠 합성(UDP-포도당)과 분해(글리코젠 인산화 효소)",
+  "호르몬(인슐린, 글루카곤, 에피네프린)에 의한 글리코젠 조절",
+  "오탄당 인산 경로와 NADPH·리보스 5-인산",
+  "당 신생·해당 과정의 상호 조절"
+ ],
+ "advice": [
+  "광합성과 세포 호흡은 전자 전달계와 ATP 합성 효소를 공유하는 거울상 같은 과정입니다. Z 도식(광합성 전자 흐름)을 5단원의 호흡 전자 전달계 옆에 나란히 그려 비교하세요. 오탄당 인산 경로는 에너지(ATP)가 아니라 합성에 필요한 환원력(NADPH)과 핵산 재료를 만드는 경로라는 점이 핵심입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Nelson · Cox, Lehninger Principles of Biochemistry (번역본 『레닌저 생화학』)",
+   "part": "15장 Principles of Metabolic Regulation(글리코젠), 20장 Photosynthesis and Carbohydrate Synthesis"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Berg 외, Biochemistry (Stryer, 번역본 『생화학』)",
+   "part": "19~21장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "캘빈 회로에서 포도당 1분자를 만드는 데 쓰이는 ATP는 몇 분자일까요?",
+   "answer": "18",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "CO₂ 6분자 × ATP 3 = 18 (NADPH는 12)",
+   "hint": "CO₂ 1분자당 ATP 3분자입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "오탄당 인산 경로의 주된 산물은 생합성에 쓰이는 환원력인 {{1}}와 리보스 5-인산입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "NADPH"
+     ]
+    }
+   ],
+   "explanation": "지방산 합성과 항산화에 쓰입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "글리코젠을 분해해 포도당 1-인산을 만드는 효소는 글리코젠 {{1}} 효소입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인산화",
+      "가인산 분해"
+     ]
+    }
+   ],
+   "explanation": "글루카곤·에피네프린 신호로 활성화됩니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "biochemistry",
+ "id": "l3-convergence-biochemistry-u06"
+}

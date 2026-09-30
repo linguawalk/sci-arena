@@ -1,0 +1,102 @@
+{
+ "no": 7,
+ "title": "중규모 기상과 악기상",
+ "hours": 5,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "뇌우와 중규모 대류계의 구조와 생애를 설명할 수 있다.",
+  "태풍의 에너지원과 구조, 발생 조건을 설명할 수 있다.",
+  "한반도의 계절별 악기상과 국지풍을 설명할 수 있다."
+ ],
+ "checklist": [
+  "단일 세포·다세포·초세포 뇌우",
+  "연직 바람 시어와 뇌우의 조직화",
+  "중규모 대류계와 스콜선",
+  "태풍의 구조(눈, 눈벽, 나선형 강우대)와 에너지원(잠열)",
+  "태풍 발생 조건(해수면 온도, 코리올리 효과)",
+  "국지풍(해륙풍, 산곡풍, 푄)",
+  "한반도의 장마, 집중호우, 폭설, 황사"
+ ],
+ "advice": [
+  "악기상은 앞 단원들의 원리가 한꺼번에 작동하는 현상입니다. 태풍을 '따뜻한 바다의 잠열로 움직이는 열기관'으로 이해하고, 해수면 온도가 약 26 °C 이상이어야 발생하는 이유를 2단원 습윤 과정과 연결해 보세요. 기상청 태풍 정보와 레이더 영상을 실제 사례로 함께 보면 학습 효과가 큽니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Wallace · Hobbs, Atmospheric Science: An Introductory Survey (2판, 번역본 『대기과학』)",
+   "part": "8장 Weather Systems 8.3~8.4절"
+  },
+  {
+   "kind": "web",
+   "provider": "UCAR COMET MetEd (무료 기상 교육 모듈, 가입 필요)",
+   "title": "MetEd 기상학 학습 모듈",
+   "url": "https://www.meted.ucar.edu/",
+   "lang": "영어(일부 한국어)",
+   "part": "뇌우, 열대 기상 모듈"
+  },
+  {
+   "kind": "web",
+   "provider": "기상청",
+   "title": "기상자료개방포털 (관측 자료, 일기도, 고층 자료)",
+   "url": "https://data.kma.go.kr/",
+   "lang": "한국어",
+   "part": "태풍 정보, 레이더 영상"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "태풍을 유지하는 주된 에너지원은 수증기가 응결할 때 방출되는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "잠열"
+     ]
+    }
+   ],
+   "explanation": "따뜻한 바다에서 증발한 수증기가 에너지를 운반합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "태풍이 발생하려면 해수면 온도가 약 몇 °C 이상이어야 할까요?",
+   "answer": "26",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "약 26~27 °C 이상",
+   "hint": "20대 중반입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "늦봄~초여름 영동 지방에서 불어온 공기가 태백산맥을 넘어 영서 지방에 고온 건조한 바람이 부는 푄 현상을 {{1}}이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "높새바람",
+      "높새"
+     ]
+    }
+   ],
+   "explanation": "산을 넘으며 건조 단열 하강으로 기온이 오릅니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "atmospheric-science",
+ "id": "l3-earth-atmospheric-science-u07"
+}

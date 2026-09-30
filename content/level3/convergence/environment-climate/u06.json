@@ -1,0 +1,100 @@
+{
+ "no": 6,
+ "title": "대기 오염과 환경 화학",
+ "hours": 5,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "성층권 오존층 파괴의 화학과 몬트리올 의정서의 효과를 설명할 수 있다.",
+  "광화학 스모그와 미세먼지의 생성을 설명할 수 있다.",
+  "산성 강하물과 대기 오염의 건강 영향을 설명할 수 있다."
+ ],
+ "checklist": [
+  "성층권 오존의 생성과 파괴(채프먼 반응)",
+  "CFC와 염소 촉매 순환, 남극 오존 구멍",
+  "몬트리올 의정서와 오존층 회복",
+  "대류권 오존과 광화학 스모그(NOₓ, VOC)",
+  "미세먼지(PM10, PM2.5)의 1차·2차 생성",
+  "황산화물·질소 산화물과 산성비",
+  "대기 질 관측과 환경 기준"
+ ],
+ "advice": [
+  "오존층 문제는 과학이 환경 문제를 발견하고 국제 협약으로 해결한 가장 성공적인 사례입니다(1995년 노벨 화학상). 염소 원자 하나가 촉매로 수많은 오존 분자를 파괴하는 순환 반응을 반응식으로 써 보고, 이 사례가 기후 변화 대응에 주는 교훈을 생각해 보세요. 한국의 미세먼지 문제는 2차 생성(기체가 입자로 바뀌는 과정)의 비중이 크다는 점이 중요합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "CRC Press",
+   "title": "Stanley E. Manahan, Environmental Chemistry (번역본 『환경화학』)",
+   "part": "대기 화학·대기 오염 장"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Kump · Kasting · Crane, The Earth System (번역본 『지구 시스템의 이해』)",
+   "part": "오존층 장"
+  },
+  {
+   "kind": "web",
+   "provider": "기상청 기후정보포털",
+   "title": "한반도 기후 변화 전망, 기후 변화 시나리오",
+   "url": "https://www.climate.go.kr/",
+   "lang": "한국어",
+   "part": "대기 환경 관련 자료"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "성층권에서 CFC가 분해되어 나온 {{1}} 원자가 촉매로 작용해 오존을 파괴합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "염소",
+      "Cl"
+     ]
+    }
+   ],
+   "explanation": "Cl + O₃ → ClO + O₂, ClO + O → Cl + O₂",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "초미세먼지를 나타내는 PM2.5는 지름 몇 μm 이하의 입자일까요?",
+   "answer": "2.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "지름 2.5 μm 이하의 입자입니다.",
+   "hint": "이름에 숫자가 있습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "질소 산화물과 휘발성 유기 화합물이 햇빛을 받아 반응해 대류권에 만드는 대표적인 2차 오염 물질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오존"
+     ]
+    }
+   ],
+   "explanation": "광화학 스모그의 주성분입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "environment-climate",
+ "id": "l3-convergence-environment-climate-u06"
+}

@@ -1,0 +1,98 @@
+{
+ "no": 2,
+ "title": "화성암석학",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "마그마가 생성되는 세 가지 조건을 판 구조 환경과 연결할 수 있다.",
+  "보웬 반응 계열과 분별 결정 작용을 설명할 수 있다.",
+  "화성암을 조직과 조성으로 분류할 수 있다."
+ ],
+ "checklist": [
+  "마그마 생성: 감압 용융, 물 첨가(섭입대), 가열",
+  "부분 용융과 마그마의 조성",
+  "보웬 반응 계열(불연속·연속 계열)",
+  "분별 결정 작용, 마그마 혼합, 동화 작용",
+  "2성분 상평형 그림(공융계, 고용체)",
+  "화성암 분류(IUGS)와 조직",
+  "판 구조 환경별 화성 활동"
+ ],
+ "advice": [
+  "화성암석학의 핵심 질문은 '같은 맨틀에서 어떻게 현무암부터 화강암까지 다양한 마그마가 나오는가'입니다. 부분 용융과 분별 결정 작용이 SiO₂ 함량을 어떻게 바꾸는지 보웬 반응 계열 그림 위에 화살표로 그려 보세요. 상평형 그림은 물리화학 3단원과 같은 원리이므로 함께 공부하면 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "John D. Winter, Principles of Igneous and Metamorphic Petrology (화성·변성암석학)",
+   "part": "1~14장 (화성암석학)"
+  },
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "3~4장 Intrusive Igneous Rocks, Volcanism"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "마그마가 식을 때 광물이 정출되는 순서를 정리한 것을 보웬 {{1}} 계열이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "반응"
+     ]
+    }
+   ],
+   "explanation": "고온에서 감람석, 저온에서 석영이 정출됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "해령에서 맨틀이 올라오며 압력이 줄어 녹는 것을 {{1}} 용융이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감압"
+     ]
+    }
+   ],
+   "explanation": "온도 변화 없이 녹는점이 낮아져 부분 용융이 일어납니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "부분 용융으로 생긴 마그마는 원래 암석보다 SiO₂가 {{1}}습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "많",
+      "풍부하"
+     ]
+    }
+   ],
+   "explanation": "녹는점이 낮은 규산이 풍부한 성분이 먼저 녹기 때문입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "geology",
+ "id": "l3-earth-geology-u02"
+}

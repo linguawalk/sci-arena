@@ -1,0 +1,102 @@
+{
+ "no": 3,
+ "title": "해양 화학과 탄소 순환",
+ "hours": 5,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "해수의 주요 성분과 염분비 일정 법칙을 설명할 수 있다.",
+  "탄산염계와 해양 산성화를 평형으로 설명할 수 있다.",
+  "영양염과 용존 산소의 분포를 설명할 수 있다."
+ ],
+ "checklist": [
+  "주요 이온과 염분비 일정 법칙",
+  "용존 기체(O₂, CO₂)와 용해도",
+  "탄산염계: CO₂ ⇌ H₂CO₃ ⇌ HCO₃⁻ ⇌ CO₃²⁻",
+  "해양의 CO₂ 흡수와 해양 산성화",
+  "영양염(질산염, 인산염, 규산염)의 분포",
+  "산소 최소층과 저산소 해역",
+  "해양 탄소 펌프(용해 펌프, 생물 펌프)"
+ ],
+ "advice": [
+  "해양 산성화는 화학 평형 문제입니다. 대기의 CO₂가 바다에 녹으면 탄산염계가 어떻게 이동해 pH가 낮아지고 탄산 이온이 줄어드는지를 르샤틀리에 원리로 설명해 보세요. pH가 0.1만 낮아져도 H⁺ 농도가 약 26% 늘어난다는 것을 계산해 보면 작은 숫자 변화의 의미를 실감할 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Roger Williams University Open Publishing (무료 공개 교재)",
+   "title": "Paul Webb, Introduction to Oceanography",
+   "url": "https://rwu.pressbooks.pub/webboceanography/",
+   "lang": "영어",
+   "part": "5장 Chemical Oceanography"
+  },
+  {
+   "kind": "book",
+   "provider": "Cengage",
+   "title": "Tom Garrison, Oceanography: An Invitation to Marine Science (번역본 『해양학』)",
+   "part": "해수의 화학 장"
+  },
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics",
+   "part": "해양 탄소 관련 장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "대기의 CO₂가 바다에 녹아 해수의 pH가 낮아지는 현상을 해양 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "산성화"
+     ]
+    }
+   ],
+   "explanation": "산업화 이후 표층 pH가 약 0.1 낮아졌습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "해수에 녹은 무기 탄소는 대부분 {{1}} 이온의 형태로 존재합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "탄산수소",
+      "HCO₃⁻",
+      "HCO3-",
+      "중탄산"
+     ]
+    }
+   ],
+   "explanation": "해수 pH(약 8.1)에서 약 90%가 HCO₃⁻입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "해수의 pH가 8.2에서 8.1로 낮아지면 H⁺ 농도는 약 몇 % 증가할까요?",
+   "answer": "26",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "10^0.1 ≈ 1.26\n약 26% 증가",
+   "hint": "pH는 로그 척도입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "oceanography",
+ "id": "l3-earth-oceanography-u03"
+}

@@ -1,0 +1,96 @@
+{
+ "no": 8,
+ "title": "대사의 통합과 조절",
+ "hours": 5,
+ "after": [
+  6,
+  7
+ ],
+ "objectives": [
+  "기관별 대사 특징(간, 근육, 지방, 뇌)을 비교할 수 있다.",
+  "흡수 상태·공복·굶주림에서 호르몬에 따른 대사 전환을 설명할 수 있다.",
+  "당뇨병과 비만을 대사 조절의 관점에서 설명할 수 있다."
+ ],
+ "checklist": [
+  "기관별 연료 선호와 대사 분업",
+  "인슐린과 글루카곤의 작용(인산화 신호)",
+  "흡수 상태, 공복, 장기 굶주림(케톤체)",
+  "AMP 활성 인산화 효소(AMPK)와 mTOR",
+  "당뇨병(1형, 2형)과 인슐린 저항성",
+  "비만과 렙틴",
+  "운동 시 대사"
+ ],
+ "advice": [
+  "마지막 단원은 앞의 모든 경로를 하나의 지도에 올리는 작업입니다. '포도당, 지방산, 아미노산, 케톤체가 어느 기관에서 만들어지고 어디서 쓰이는가'를 식사 직후, 하룻밤 공복, 며칠 굶주림의 세 상황으로 나누어 그려 보세요. 생리학 8단원과 짝을 이루며, 당뇨병 같은 질병을 분자 수준에서 이해하는 출발점이 됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Nelson · Cox, Lehninger Principles of Biochemistry (번역본 『레닌저 생화학』)",
+   "part": "23장 Hormonal Regulation and Integration of Mammalian Metabolism"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Berg 외, Biochemistry (Stryer, 번역본 『생화학』)",
+   "part": "27장 The Integration of Metabolism"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "식사 뒤 혈당이 높을 때 분비되어 포도당 흡수와 글리코젠 합성을 촉진하는 호르몬은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "인슐린"
+     ]
+    }
+   ],
+   "explanation": "이자의 β세포에서 분비됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "장기 굶주림 때 간에서 지방산으로 만들어 뇌의 에너지원으로 쓰이는 물질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "케톤체"
+     ]
+    }
+   ],
+   "explanation": "아세토아세트산, β-하이드록시뷰티르산 등입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "세포의 에너지가 부족해 {{1}} 농도가 높아지면 AMPK가 활성화되어 ATP 생성 경로를 켭니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "AMP"
+     ]
+    }
+   ],
+   "explanation": "AMPK는 세포의 에너지 센서입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "biochemistry",
+ "id": "l3-convergence-biochemistry-u08"
+}

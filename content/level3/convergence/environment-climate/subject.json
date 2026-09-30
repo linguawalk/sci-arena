@@ -1,0 +1,162 @@
+{
+ "level": 3,
+ "track": "convergence",
+ "id": "environment-climate",
+ "title": "환경·기후과학",
+ "tagline": "기후 시스템의 물리와 생지화학, 기후 모델과 전망, 환경 오염, 그리고 대응",
+ "overview": [
+  "환경·기후과학은 대기·해양·육지·생물권이 얽힌 지구 시스템을 대상으로, 기후가 어떻게 결정되고 변하는지와 인간 활동이 환경에 어떤 영향을 주는지를 다룹니다. 복사 강제력과 되먹임, 탄소 순환, 고기후, 기후 모델 같은 기후과학의 핵심과 대기·수질·토양 오염 같은 환경과학을 함께 다룹니다.",
+  "대기과학, 해양학, 생태학, 물리화학, 분석화학의 내용이 모두 모이는 융합 과목입니다. 이 가이드는 IPCC 제6차 평가 보고서의 구성을 참고해, 물리 과학적 근거(1~5단원), 환경 오염(6~7단원), 대응(8단원)의 순서로 진행합니다.",
+  "환경과학·대기과학·지구과학 교육의 전공 과목이며, 정책·경제 분야에서 기후 문제를 다루려는 사람에게도 과학적 기초가 됩니다. 레벨2 과학사와 과학의 방법의 에너지 전환 단원과 이어집니다."
+ ],
+ "level_note": "레벨 3 (학부 3학년 전공·융합). 목차 검증 기준: IPCC AR6 보고서 구성, Hartmann 『Global Physical Climatology』, Kump 『The Earth System』 목차.",
+ "prereq": {
+  "text": "레벨2 지구과학개론의 복사 수지·기후 변화 단원이 선수이며, 레벨3 대기과학·해양학을 함께 보면 좋습니다.",
+  "links": [
+   {
+    "title": "레벨2 지구과학개론 · 9단원 기후 변화",
+    "href": "guide.html?lv=2&t=earth&s=earth-science&u=9"
+   },
+   {
+    "title": "레벨3 대기과학 · 4단원 대기 복사와 에너지 수지",
+    "href": "guide.html?lv=3&t=earth&s=atmospheric-science&u=4"
+   },
+   {
+    "title": "레벨3 해양학 · 3단원 해양 화학과 탄소 순환",
+    "href": "guide.html?lv=3&t=earth&s=oceanography&u=3"
+   },
+   {
+    "title": "레벨2 과학사와 과학의 방법 · 8단원 에너지 전환과 지속 가능성",
+    "href": "guide.html?lv=2&t=convergence&s=science-method&u=8"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "흑체의 절대 온도가 2배가 되면 복사 세기는 몇 배일까요?",
+    "answer": "16",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "E ∝ T⁴ (지구과학개론 6단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "산업화 이전 대기 CO₂ 농도는 약 몇 ppm이었을까요?",
+    "answer": "280",
+    "answer_format": "integer",
+    "tolerance": 10,
+    "explanation": "(지구과학개론 9단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "기온 상승으로 얼음이 녹아 알베도가 작아지고 더 많은 에너지를 흡수하는 것은 {{1}}의 되먹임입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "양",
+       "양성",
+       "+"
+      ]
+     }
+    ],
+    "explanation": "(지구과학개론 9단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "tech-arena 레벨2~3 · 환경·에너지 공학",
+   "note": "오염 처리 기술과 에너지 시스템"
+  },
+  {
+   "title": "레벨3 · 생태학과 진화",
+   "note": "기후 변화와 생물 다양성"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "지구 시스템과 기후 시스템",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "복사 강제력과 기후 민감도",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "탄소 순환과 생지화학",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "고기후와 자연 기후 변동",
+   "hours": 5,
+   "after": [
+    2
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "기후 모델과 미래 전망",
+   "hours": 6,
+   "after": [
+    2,
+    3
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "대기 오염과 환경 화학",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "수질·토양 오염과 물 순환 변화",
+   "hours": 5,
+   "after": [
+    3
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "기후 변화 대응: 완화, 적응, 에너지 전환",
+   "hours": 5,
+   "after": [
+    5
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 42
+}

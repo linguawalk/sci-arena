@@ -1,0 +1,95 @@
+{
+ "no": 3,
+ "title": "항성 내부와 에너지 생성",
+ "hours": 6,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "항성 구조 방정식(정역학 평형, 에너지 수송)을 설명할 수 있다.",
+  "pp 연쇄와 CNO 순환으로 핵융합 에너지를 계산할 수 있다.",
+  "태양의 구조와 활동을 설명할 수 있다."
+ ],
+ "checklist": [
+  "정역학 평형 dP/dr = −Gmρ/r²",
+  "비리얼 정리와 켈빈–헬름홀츠 시간 척도",
+  "핵융합: pp 연쇄, CNO 순환, 삼중 알파 반응",
+  "질량 결손과 E = mc²(수소 → 헬륨 약 0.7%)",
+  "에너지 수송: 복사와 대류",
+  "태양의 내부 구조, 광구·채층·코로나",
+  "태양 중성미자와 일진학"
+ ],
+ "advice": [
+  "별은 중력(안으로)과 압력(밖으로)이 평형을 이룬 기체 공입니다. 정역학 평형으로 태양 중심 압력을 어림하고, 핵융합 없이 중력 수축만으로는 태양이 수천만 년밖에 빛날 수 없다는 켈빈–헬름홀츠 계산을 따라가 보세요. 이 모순이 핵에너지의 발견으로 풀린 과정은 천체물리의 역사에서 가장 극적인 장면 가운데 하나입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Carroll · Ostlie, An Introduction to Modern Astrophysics (번역본 『현대 천체물리학』)",
+   "part": "10~11장 The Interiors of Stars, The Sun"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e",
+   "lang": "영어",
+   "part": "15~16장 The Sun: A Garden-Variety Star, The Sun: A Nuclear Powerhouse"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "태양 같은 저질량 별의 중심에서 주로 일어나는 수소 핵융합 반응 경로는 {{1}} 연쇄입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "pp",
+      "양성자–양성자",
+      "양성자-양성자"
+     ]
+    }
+   ],
+   "explanation": "무거운 별에서는 CNO 순환이 우세합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "수소 4개가 헬륨 1개로 융합할 때 질량의 약 몇 분의 일(소수)이 에너지로 바뀔까요?",
+   "answer": "0.007",
+   "answer_format": "decimal",
+   "tolerance": 0.0005,
+   "explanation": "약 0.7%가 질량 결손으로 E = mc²의 에너지가 됩니다.",
+   "hint": "약 0.7%입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "별의 각 층에서 중력과 압력 경도력이 균형을 이루는 상태를 {{1}} 평형이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정역학"
+     ]
+    }
+   ],
+   "explanation": "dP/dr = −Gmρ/r²",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "astronomy",
+ "id": "l3-earth-astronomy-u03"
+}

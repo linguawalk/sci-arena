@@ -1,0 +1,96 @@
+{
+ "no": 6,
+ "title": "호흡 생리",
+ "hours": 5,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "폐 환기의 역학과 폐용적을 설명할 수 있다.",
+  "분압과 확산으로 기체 교환을 설명할 수 있다.",
+  "헤모글로빈의 산소 해리 곡선과 호흡 조절을 설명할 수 있다."
+ ],
+ "checklist": [
+  "보일 법칙과 흡기·호기, 폐 탄성과 계면 활성제",
+  "폐용적, 폐활량, 폐포 환기량",
+  "분압(돌턴 법칙)과 폐포·조직의 기체 교환",
+  "헤모글로빈 산소 해리 곡선과 협동성",
+  "보어 효과와 CO₂ 운반(HCO₃⁻)",
+  "화학 수용기와 호흡 중추",
+  "고산 적응"
+ ],
+ "advice": [
+  "호흡 생리는 기체 법칙(보일, 돌턴, 헨리)을 몸에 적용하는 단원입니다. 해수면과 고산에서 폐포의 산소 분압을 직접 계산해 보고, 헤모글로빈 해리 곡선이 S자라서 분압이 조금 떨어져도 포화도가 잘 유지된다는 점을 확인하세요. 호흡을 조절하는 주된 자극이 산소 부족이 아니라 CO₂ 증가라는 사실은 의외라서 자주 출제됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Dee U. Silverthorn, Human Physiology: An Integrated Approach (번역본 『인체생리학』)",
+   "part": "17~18장 Mechanics of Breathing, Gas Exchange and Transport"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "lang": "영어",
+   "part": "22장 The Respiratory System"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "해수면 대기압 760 mmHg에서 산소(21%)의 분압은 약 몇 mmHg일까요?",
+   "answer": "160",
+   "answer_format": "integer",
+   "tolerance": 1,
+   "explanation": "760 × 0.21 ≈ 160 mmHg",
+   "hint": "돌턴 분압 법칙입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "CO₂와 H⁺가 늘면 헤모글로빈 산소 해리 곡선이 {{1}}쪽으로 이동해 조직에 산소를 더 많이 내놓습니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "오른"
+     ]
+    }
+   ],
+   "explanation": "보어 효과입니다.\n같은 산소 분압에서 포화도가 낮아져 산소를 더 많이 내놓습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "정상 상태에서 호흡을 조절하는 가장 중요한 화학적 자극은 혈중 {{1}} 농도의 증가입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "이산화 탄소",
+      "이산화탄소",
+      "CO₂",
+      "CO2"
+     ]
+    }
+   ],
+   "explanation": "중추 화학 수용기가 CO₂에 의한 뇌척수액의 pH 변화를 감지합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "physiology",
+ "id": "l3-biology-physiology-u06"
+}

@@ -1,0 +1,93 @@
+{
+ "no": 1,
+ "title": "생체 분자의 구조",
+ "hours": 6,
+ "after": [],
+ "objectives": [
+  "아미노산의 산–염기 성질과 등전점을 계산할 수 있다.",
+  "단백질 구조의 계층과 안정화 힘을 설명할 수 있다.",
+  "탄수화물·지질·핵산의 구조적 특징을 설명할 수 있다."
+ ],
+ "checklist": [
+  "물의 성질, 약한 상호작용(수소 결합, 이온, 소수성 효과)",
+  "아미노산의 구조, pKa와 등전점 pI",
+  "펩타이드 결합의 평면성과 라마찬드란 도표",
+  "2차 구조(α 나선, β 병풍), 3·4차 구조",
+  "단백질 접힘과 변성",
+  "단당류·다당류(글리코사이드 결합)",
+  "지질(지방산, 인지질, 스테로이드)과 핵산의 구조"
+ ],
+ "advice": [
+  "생화학의 출발점은 약한 상호작용입니다. 공유 결합보다 훨씬 약한 수소 결합, 이온 결합, 소수성 효과가 수천 개 모여 단백질 모양과 막 구조를 만든다는 관점으로 보세요. 아미노산의 적정 곡선을 그려 등전점을 구하는 연습은 일반화학의 산·염기 평형을 생체 분자에 적용하는 첫 연습입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Nelson · Cox, Lehninger Principles of Biochemistry (번역본 『레닌저 생화학』)",
+   "part": "2~8장 (물, 아미노산, 단백질 구조, 탄수화물, 뉴클레오타이드)"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Berg 외, Biochemistry (Stryer, 번역본 『생화학』)",
+   "part": "1~2장, 11~12장"
+  },
+  {
+   "kind": "book",
+   "provider": "NCBI Bookshelf (무료 공개)",
+   "title": "Berg · Tymoczko · Stryer, Biochemistry 5판 등 공개 교재 (Bookshelf에서 책 제목으로 검색)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/",
+   "lang": "영어",
+   "part": "Berg Biochemistry 5판 해당 장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "글라이신의 pKa가 2.34(카복실기)와 9.60(아미노기)일 때 등전점 pI는? (소수 둘째 자리까지)",
+   "answer": "5.97",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "explanation": "pI = (2.34 + 9.60)/2 = 5.97",
+   "hint": "두 pKa의 평균입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "α 나선 구조는 주사슬의 C=O와 N–H 사이의 {{1}} 결합으로 안정화됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "수소"
+     ]
+    }
+   ],
+   "explanation": "i번째 잔기의 C=O와 i + 4번째 잔기의 N–H가 결합합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "아미노산 3개로 된 트라이펩타이드에는 펩타이드 결합이 몇 개 있을까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "n개 아미노산 → n − 1개 펩타이드 결합",
+   "hint": "n − 1입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "biochemistry",
+ "id": "l3-convergence-biochemistry-u01"
+}

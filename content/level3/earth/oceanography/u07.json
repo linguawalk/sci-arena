@@ -1,0 +1,105 @@
+{
+ "no": 7,
+ "title": "해양–대기 상호작용과 기후",
+ "hours": 5,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "해양이 기후 시스템에서 하는 역할(열 저장, 열 수송)을 설명할 수 있다.",
+  "엘니뇨–남방 진동(ENSO)의 메커니즘을 설명할 수 있다.",
+  "해수면 상승의 원인과 영향을 설명할 수 있다."
+ ],
+ "checklist": [
+  "해양의 열용량과 열 수송",
+  "해양–대기 열·수증기 교환",
+  "워커 순환과 ENSO(엘니뇨, 라니냐)",
+  "몬순과 인도양 쌍극자",
+  "10년 규모 변동(PDO, AMO)",
+  "해양 열함량 증가와 해수면 상승(열팽창, 빙하 융해)",
+  "해양 열파"
+ ],
+ "advice": [
+  "ENSO는 해양과 대기가 서로 되먹임을 주고받는 대표적인 현상입니다. '무역풍 약화 → 따뜻한 물이 동쪽으로 이동 → 동태평양 수온 상승 → 워커 순환 약화 → 무역풍 더 약화'의 양의 되먹임 고리를 그림으로 그려 보세요. 해수면 상승의 절반 가까이가 물의 열팽창 때문이라는 사실은 해양의 거대한 열 저장 능력을 보여 줍니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics",
+   "part": "12장 Climate and the oceans"
+  },
+  {
+   "kind": "book",
+   "provider": "Roger Williams University Open Publishing (무료 공개 교재)",
+   "title": "Paul Webb, Introduction to Oceanography",
+   "url": "https://rwu.pressbooks.pub/webboceanography/",
+   "lang": "영어",
+   "part": "8장 Oceans and Climate"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "12.003 Atmosphere, Ocean and Climate Dynamics (2008년 가을)",
+   "url": "https://ocw.mit.edu/courses/12-003-atmosphere-ocean-and-climate-dynamics-fall-2008/",
+   "lang": "영어",
+   "part": "Lecture (ENSO, climate)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "적도 동태평양의 해수면 온도가 평년보다 높아지는 현상을 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "엘니뇨"
+     ]
+    }
+   ],
+   "explanation": "반대로 낮아지면 라니냐입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "적도 태평양에서 서쪽 상승, 동쪽 하강으로 이루어진 동서 방향의 대기 순환을 {{1}} 순환이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "워커"
+     ]
+    }
+   ],
+   "explanation": "엘니뇨 때 약해집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "지구 온난화로 인한 해수면 상승의 주요 원인 두 가지는 빙하·빙상의 융해와 해수의 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "열팽창"
+     ]
+    }
+   ],
+   "explanation": "따뜻해진 물은 부피가 늘어납니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "oceanography",
+ "id": "l3-earth-oceanography-u07"
+}

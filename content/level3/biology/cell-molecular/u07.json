@@ -1,0 +1,96 @@
+{
+ "no": 7,
+ "title": "세포 주기, 세포 사멸, 암",
+ "hours": 5,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "사이클린–CDK에 의한 세포 주기 조절과 체크포인트를 설명할 수 있다.",
+  "세포 자멸사의 경로를 설명할 수 있다.",
+  "암유전자와 종양 억제 유전자로 암의 발생을 설명할 수 있다."
+ ],
+ "checklist": [
+  "세포 주기 단계와 사이클린–CDK",
+  "G₁/S, G₂/M, 방추체 체크포인트",
+  "유사 분열과 세포질 분열의 분자 기구",
+  "세포 자멸사(카스페이스, 내재·외인 경로)",
+  "암유전자(Ras, Myc)와 종양 억제 유전자(p53, Rb)",
+  "암의 특징(hallmarks)과 다단계 발암"
+ ],
+ "advice": [
+  "세포 주기는 '사이클린의 양이 오르내리며 CDK를 켜고 끈다'는 시계 장치로 이해하세요. 암은 이 시계의 가속 페달(암유전자)이 고장 나 계속 눌리거나 브레이크(종양 억제 유전자)가 고장 난 상태라는 비유가 유용합니다. p53이 'DNA 손상 → 세포 주기 정지 또는 자멸사'를 결정하는 과정을 그림으로 그려 두세요."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Alberts 외, Molecular Biology of the Cell (7판, 번역본 『세포의 분자생물학』)",
+   "part": "17~18장 The Cell Cycle, Cell Death, 20장 Cancer"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Lodish 외, Molecular Cell Biology (번역본 『분자세포생물학』)",
+   "part": "19장, 24장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "세포 주기의 각 단계를 진행시키는 인산화 효소는 사이클린 의존성 인산화 효소, 약자로 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "CDK"
+     ]
+    }
+   ],
+   "explanation": "사이클린과 결합해야 활성을 가집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "p53처럼 기능을 잃으면 암이 생기기 쉬운 유전자를 종양 {{1}} 유전자라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "억제"
+     ]
+    }
+   ],
+   "explanation": "두 대립유전자가 모두 망가져야 영향이 나타나는 경우가 많습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "카스페이스가 활성화되어 세포가 스스로 질서 있게 죽는 과정을 세포 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "자멸사",
+      "사멸",
+      "아폽토시스"
+     ]
+    }
+   ],
+   "explanation": "발생 과정과 손상된 세포 제거에 중요합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "cell-molecular",
+ "id": "l3-biology-cell-molecular-u07"
+}

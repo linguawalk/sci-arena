@@ -1,0 +1,93 @@
+{
+ "no": 2,
+ "title": "항성의 성질",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "연주 시차로 별까지의 거리를 계산할 수 있다.",
+  "광도·반지름·온도의 관계(L = 4πR²σT⁴)를 적용할 수 있다.",
+  "쌍성으로 별의 질량을 구하고 H–R도를 해석할 수 있다."
+ ],
+ "checklist": [
+  "연주 시차와 파섹 d(pc) = 1/p(″)",
+  "광도, 복사 플럭스, 거리 역제곱 법칙",
+  "L = 4πR²σT⁴",
+  "스펙트럼형(OBAFGKM)과 광도 계급",
+  "안시·분광·식쌍성과 질량 결정",
+  "질량–광도 관계 L ∝ M^3.5",
+  "H–R도와 주계열"
+ ],
+ "advice": [
+  "별의 네 가지 기본량(거리, 광도, 온도, 반지름, 그리고 질량)을 각각 어떤 관측으로 구하는지 표로 정리하세요. L = 4πR²σT⁴ 하나로 H–R도의 오른쪽 위 별은 크고(거성) 왼쪽 아래 별은 작다(백색 왜성)는 것이 설명됩니다. 쌍성의 질량 결정은 고전역학 5단원의 케플러 제3법칙을 그대로 쓰는 좋은 연습입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Carroll · Ostlie, An Introduction to Modern Astrophysics (번역본 『현대 천체물리학』)",
+   "part": "7~8장 Binary Systems, The Classification of Stellar Spectra"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e",
+   "lang": "영어",
+   "part": "17~19장 Analyzing Starlight, The Stars: A Celestial Census, Celestial Distances"
+  },
+  {
+   "kind": "lecture",
+   "provider": "Open Yale Courses",
+   "title": "ASTR 160 Frontiers and Controversies in Astrophysics (Bailyn, 24강)",
+   "url": "https://oyc.yale.edu/astronomy/astr-160",
+   "lang": "영어",
+   "part": "2강 Planetary Orbits(케플러 법칙 복습)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "연주 시차가 0.1″인 별까지의 거리는 몇 pc일까요?",
+   "answer": "10",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "d = 1/p = 1/0.1 = 10 pc",
+   "hint": "d = 1/p입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "표면 온도가 같고 반지름이 2배인 별의 광도는 몇 배일까요?",
+   "answer": "4",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "L ∝ R²T⁴\n2² = 4배",
+   "hint": "L ∝ R²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "거리 지수 m − M = 5인 별까지의 거리는 몇 pc일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "5 log d − 5 = 5\nd = 100 pc",
+   "hint": "m − M = 5 log d − 5입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "astronomy",
+ "id": "l3-earth-astronomy-u02"
+}

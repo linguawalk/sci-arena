@@ -1,0 +1,99 @@
+{
+ "no": 2,
+ "title": "유전체, 염색질, DNA 복제와 수선",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "염색질의 구조와 뉴클레오솜을 설명할 수 있다.",
+  "원핵·진핵생물의 DNA 복제 단백질을 설명할 수 있다.",
+  "여러 DNA 수선 경로와 재조합을 설명할 수 있다."
+ ],
+ "checklist": [
+  "유전체의 구성(유전자, 반복 서열, 전이 인자)",
+  "뉴클레오솜(약 147 bp)과 염색질 응축",
+  "복제 원점, 헬리케이스, 프라이메이스, DNA 중합 효소, 연결 효소",
+  "텔로미어와 텔로머레이스",
+  "교정과 불일치 수선",
+  "염기 절제·뉴클레오타이드 절제 수선",
+  "이중 가닥 절단: 상동 재조합과 비상동 말단 연결"
+ ],
+ "advice": [
+  "복제와 수선은 등장하는 효소가 많아 헷갈리기 쉽습니다. 효소마다 '무엇을 인식해서 무엇을 하는가'를 한 줄로 적은 표를 만들고, 복제 분기점 그림에 효소를 직접 배치해 보세요. 이중 가닥 절단 수선의 두 경로는 CRISPR 유전자 편집이 작동하는 원리이므로 정확히 구별해 두어야 합니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Alberts 외, Molecular Biology of the Cell (7판, 번역본 『세포의 분자생물학』)",
+   "part": "4~5장 DNA, Chromosomes, and Genomes; DNA Replication, Repair, and Recombination"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Lodish 외, Molecular Cell Biology (번역본 『분자세포생물학』)",
+   "part": "8~10장"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "7.016 Introductory Biology (2018년 가을)",
+   "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/",
+   "lang": "영어",
+   "part": "Lecture (DNA replication and repair)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "뉴클레오솜 하나의 히스톤 8량체를 감싸는 DNA는 약 몇 bp일까요?",
+   "answer": "147",
+   "answer_format": "integer",
+   "tolerance": 5,
+   "explanation": "약 147 bp가 히스톤 8량체를 약 1.7바퀴 감쌉니다.",
+   "hint": "150 근처입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "복제 중 잘못 짝지어진 염기를 찾아 고치는 수선을 {{1}} 수선이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "불일치"
+     ]
+    }
+   ],
+   "explanation": "복제 오류를 약 100~1000배 줄입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "DNA 이중 가닥 절단을 자매 염색분체를 주형으로 정확히 고치는 경로는 {{1}} 재조합입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "상동"
+     ]
+    }
+   ],
+   "explanation": "비상동 말단 연결은 빠르지만 염기가 빠지거나 더해질 수 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "cell-molecular",
+ "id": "l3-biology-cell-molecular-u02"
+}

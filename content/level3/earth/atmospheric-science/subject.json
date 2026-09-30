@@ -1,0 +1,159 @@
+{
+ "level": 3,
+ "track": "earth",
+ "id": "atmospheric-science",
+ "title": "대기과학",
+ "tagline": "대기 열역학과 역학으로 구름, 바람, 날씨 시스템, 그리고 예보와 기후를 설명한다",
+ "overview": [
+  "대기과학은 대기의 구조와 운동, 그 안에서 일어나는 물리 과정을 다룹니다. 앞부분은 대기 열역학(단열 과정, 온위, 안정도)과 구름 물리, 복사를 다루고, 뒷부분은 대기 역학(운동 방정식, 지균풍, 와도)으로 대순환과 온대 저기압, 태풍 같은 날씨 시스템을 설명합니다.",
+  "레벨2 지구과학개론과 레벨1 지학Ⅱ에서 결과로 배운 지균풍, 단열 감률, 대기 대순환이 이 과목에서 물리 법칙으로 유도됩니다. 마지막 단원은 기상 관측, 수치 예보, 기후 모델을 개관합니다.",
+  "대기과학과 전공 핵심이며 중등 지구과학 임용시험의 대기 영역에 해당합니다. 일반물리의 열역학과 유체, 다변수 미적분이 주요 도구이며, 해양학·환경·기후과학의 선수 과목입니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Wallace·Hobbs 『Atmospheric Science』, Holton 『Dynamic Meteorology』 목차와 중등 지구과학 임용시험 대기 영역.",
+ "prereq": {
+  "text": "레벨2 지구과학개론의 대기 단원, 일반물리의 열역학과 회전 운동, 다변수 미적분(편미분)이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 지구과학개론 · 6단원 대기의 구조와 복사 수지",
+    "href": "guide.html?lv=2&t=earth&s=earth-science&u=6"
+   },
+   {
+    "title": "레벨2 지구과학개론 · 7단원 대기 운동과 날씨",
+    "href": "guide.html?lv=2&t=earth&s=earth-science&u=7"
+   },
+   {
+    "title": "레벨2 일반물리 · 7단원 유체와 열역학",
+    "href": "guide.html?lv=2&t=physics&s=general-physics&u=7"
+   },
+   {
+    "title": "math-arena 레벨2 · 대학 미적분학(다변수)",
+    "href": "https://math-arena.org/guide.html?lv=2&t=analysis&s=calculus"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "건조 단열 감률이 10 °C/km일 때 불포화 공기가 1.5 km 상승하면 온도는 몇 °C 내려갈까요?",
+    "answer": "15",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "10 × 1.5 = 15 °C (지구과학개론 7단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "흑체의 절대 온도가 2배가 되면 복사 세기는 몇 배일까요?",
+    "answer": "16",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "E ∝ T⁴ (지구과학개론 6단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "상층에서 기압 경도력과 전향력이 평형을 이루어 부는 바람은 {{1}}입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "지균풍"
+      ]
+     }
+    ],
+    "explanation": "(지학Ⅱ 챕터 4)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 해양학",
+   "note": "대기–해양 상호작용과 해양 순환"
+  },
+  {
+   "title": "융합 레벨3 · 환경·기후과학",
+   "note": "기후 시스템과 기후 변화"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "대기의 조성, 구조, 정역학 평형",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "대기 열역학과 안정도",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "구름 물리와 강수",
+   "hours": 5,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "대기 복사와 에너지 수지",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "대기 역학 기초",
+   "hours": 7,
+   "after": [
+    2
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "대기 대순환과 중위도 요란",
+   "hours": 6,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "중규모 기상과 악기상",
+   "hours": 5,
+   "after": [
+    6
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "관측, 예보, 기후",
+   "hours": 5,
+   "after": [
+    6
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 44
+}

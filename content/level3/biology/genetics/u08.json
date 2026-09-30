@@ -1,0 +1,100 @@
+{
+ "no": 8,
+ "title": "집단 유전학",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "하디–바인베르크 평형으로 유전자형 빈도를 계산할 수 있다.",
+  "선택, 돌연변이, 이주, 유전적 부동이 대립유전자 빈도를 바꾸는 과정을 정량적으로 설명할 수 있다.",
+  "근친교배의 효과를 근교 계수로 설명할 수 있다."
+ ],
+ "checklist": [
+  "대립유전자·유전자형 빈도와 하디–바인베르크 평형",
+  "X 연관 유전자의 평형",
+  "자연선택과 적응도, 선택 계수",
+  "돌연변이–선택 평형",
+  "이주와 유전자 흐름",
+  "유전적 부동과 유효 집단 크기",
+  "근친교배와 근교 계수 F"
+ ],
+ "advice": [
+  "집단 유전학은 진화를 숫자로 다루는 분야입니다. 한 세대의 선택으로 대립유전자 빈도가 얼마나 바뀌는지 스프레드시트로 여러 세대 반복 계산해 보세요. 열성 해로운 대립유전자가 선택으로 좀처럼 사라지지 않는 이유(대부분이 보인자 속에 숨어 있음)가 숫자로 보입니다. 생태학과 진화 과목으로 바로 이어집니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Griffiths 외, Introduction to Genetic Analysis (번역본 『유전학』)",
+   "part": "18장 Population Genetics"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Benjamin Pierce, Genetics: A Conceptual Approach (번역본 『유전학』)",
+   "part": "25장 Population Genetics"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "19장 The Evolution of Populations"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "평형 집단에서 열성 유전병(aa)의 빈도가 0.01이면 보인자(Aa)의 빈도는? (소수로)",
+   "answer": "0.18",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "q = 0.1, p = 0.9\n2pq = 0.18",
+   "hint": "q부터 구하세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "사촌 사이에서 태어난 자녀의 근교 계수 F는 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "1/16",
+      "0.0625"
+     ]
+    }
+   ],
+   "explanation": "공통 조상 두 명을 거치는 경로를 따라 계산하면 1/16입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "집단 사이의 이주로 일어나는 유전자 흐름은 집단 사이의 유전적 차이를 {{1}}시킵니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "감소"
+     ]
+    }
+   ],
+   "explanation": "대립유전자가 섞여 집단이 비슷해집니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "genetics",
+ "id": "l3-biology-genetics-u08"
+}

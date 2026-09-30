@@ -1,0 +1,101 @@
+{
+ "no": 8,
+ "title": "일반 상대성과 고에너지 천체물리",
+ "hours": 5,
+ "after": [
+  4
+ ],
+ "objectives": [
+  "등가 원리와 시공간의 휘어짐을 개념적으로 설명할 수 있다.",
+  "슈바르츠실트 반지름과 블랙홀의 성질을 설명할 수 있다.",
+  "중력 렌즈와 중력파 관측을 설명할 수 있다."
+ ],
+ "checklist": [
+  "등가 원리와 중력 적색 편이",
+  "일반 상대성의 고전적 검증(수성 근일점, 빛의 휘어짐)",
+  "슈바르츠실트 반지름 R_s = 2GM/c²",
+  "블랙홀의 사건의 지평선, 강착 원반, 제트",
+  "중력 렌즈와 미세 중력 렌즈",
+  "중력파와 LIGO(2015년 첫 검출)",
+  "감마선 폭발과 다중 신호 천문학, 사건의 지평선 망원경"
+ ],
+ "advice": [
+  "일반 상대성의 수학은 학부 수준을 넘지만, 등가 원리와 휘어진 시공간이라는 개념, 슈바르츠실트 반지름의 계산은 충분히 다룰 수 있습니다. 태양이 블랙홀이 되려면 반지름 약 3 km로 압축되어야 한다는 계산을 해 보세요. 2015년 중력파 검출과 2019년 블랙홀 그림자 촬영은 이 단원의 내용이 실제로 확인된 최근의 사건입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Carroll · Ostlie, An Introduction to Modern Astrophysics (번역본 『현대 천체물리학』)",
+   "part": "17장 The Fate of Massive Stars 후반, 18장 The Degenerate Remnants of Stars 후반, 28장 Active Galaxies (필요한 부분)"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e",
+   "lang": "영어",
+   "part": "24장 Black Holes and Curved Spacetime"
+  },
+  {
+   "kind": "lecture",
+   "provider": "Open Yale Courses",
+   "title": "ASTR 160 Frontiers and Controversies in Astrophysics (Bailyn, 24강)",
+   "url": "https://oyc.yale.edu/astronomy/astr-160",
+   "lang": "영어",
+   "part": "8~11강 Introduction to Black Holes, Special and General Relativity, Tests of Relativity"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "태양 질량 천체의 슈바르츠실트 반지름은 약 몇 km일까요?",
+   "answer": "2.95",
+   "answer_format": "decimal",
+   "tolerance": 0.1,
+   "explanation": "R_s = 2GM☉/c² ≈ 2 × 6.67 × 10⁻¹¹ × 2 × 10³⁰ / (3 × 10⁸)² ≈ 2.95 km",
+   "hint": "R_s = 2GM/c²입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "2015년 LIGO가 처음 검출한 중력파는 두 {{1}}의 병합에서 나온 것입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "블랙홀"
+     ]
+    }
+   ],
+   "explanation": "2017년 노벨 물리학상 주제입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "앞쪽 천체의 중력이 뒤쪽 천체의 빛을 휘게 해 상이 여러 개로 보이거나 밝아지는 현상을 중력 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "렌즈"
+     ]
+    }
+   ],
+   "explanation": "암흑 물질 분포와 외계 행성 탐사에 쓰입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "astronomy",
+ "id": "l3-earth-astronomy-u08"
+}

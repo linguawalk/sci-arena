@@ -1,0 +1,93 @@
+{
+ "no": 7,
+ "title": "우주론",
+ "hours": 6,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "허블 법칙과 우주 팽창을 척도 인자로 설명할 수 있다.",
+  "프리드만 방정식으로 우주의 구성과 운명을 설명할 수 있다.",
+  "우주 배경 복사, 빅뱅 핵합성, 암흑 에너지의 증거를 설명할 수 있다."
+ ],
+ "checklist": [
+  "우주론 원리와 허블 법칙",
+  "척도 인자 a(t)와 적색 편이 1 + z = 1/a",
+  "허블 시간 1/H₀와 우주의 나이",
+  "프리드만 방정식과 임계 밀도, 밀도 매개변수 Ω",
+  "우주 배경 복사와 그 비등방성",
+  "빅뱅 핵합성과 가벼운 원소",
+  "Ia형 초신성과 가속 팽창, 암흑 에너지, ΛCDM 모형"
+ ],
+ "advice": [
+  "우주론의 계산은 척도 인자 a(t) 하나로 정리됩니다. 적색 편이 z = 1인 은하의 빛이 출발할 때 우주의 크기가 지금의 절반이었다는 것처럼 z와 a를 바꿔 말하는 연습을 하세요. Ia형 초신성 관측으로 팽창이 가속되고 있다는 것이 밝혀진 과정은 Yale 강의 16~23강에 잘 설명되어 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Barbara Ryden, Introduction to Cosmology (우주론)",
+   "part": "1~6장, 9~10장"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e",
+   "lang": "영어",
+   "part": "29~30장 The Big Bang, Life in the Universe 앞부분"
+  },
+  {
+   "kind": "lecture",
+   "provider": "Open Yale Courses",
+   "title": "ASTR 160 Frontiers and Controversies in Astrophysics (Bailyn, 24강)",
+   "url": "https://oyc.yale.edu/astronomy/astr-160",
+   "lang": "영어",
+   "part": "16~23강 Hubble's Law and the Big Bang ~ Cosmic Microwave Background"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "허블 상수가 70 km/s/Mpc일 때 허블 시간 1/H₀는 약 몇 십억 년일까요? (1/(1 km/s/Mpc) ≈ 978십억 년)",
+   "answer": "14",
+   "answer_format": "decimal",
+   "tolerance": 0.3,
+   "explanation": "978 / 70 ≈ 14.0십억 년",
+   "hint": "978을 70으로 나누세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "현재 우주 배경 복사의 온도는 약 몇 K일까요?",
+   "answer": "2.7",
+   "answer_format": "decimal",
+   "tolerance": 0.05,
+   "explanation": "약 2.725 K의 흑체 복사입니다.",
+   "hint": "3 K보다 조금 낮습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "적색 편이 z = 1인 은하의 빛이 출발할 때 우주의 척도 인자는 지금의 몇 배였을까요?",
+   "answer": "0.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "1 + z = 1/a\na = 1/2 = 0.5",
+   "hint": "1 + z = 1/a입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "astronomy",
+ "id": "l3-earth-astronomy-u07"
+}

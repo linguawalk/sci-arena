@@ -1,0 +1,90 @@
+{
+ "no": 7,
+ "title": "콩팥, 체액, 산염기 조절",
+ "hours": 6,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "네프론의 여과·재흡수·분비와 사구체 여과율을 설명할 수 있다.",
+  "청소율을 계산하고 해석할 수 있다.",
+  "역류 증폭과 호르몬(ADH, 알도스테론)에 의한 수분·염 조절, 산염기 조절을 설명할 수 있다."
+ ],
+ "checklist": [
+  "네프론 구조와 사구체 여과(GFR 약 125 mL/분)",
+  "근위 세관의 재흡수와 운반체 포화(당뇨)",
+  "청소율 C = UV/P",
+  "헨레 고리의 역류 증폭과 오줌 농축",
+  "ADH, 알도스테론, 레닌–안지오텐신계",
+  "체액 부피와 삼투 농도 조절",
+  "산염기 조절(완충계, 호흡, 콩팥)과 산증·알칼리증"
+ ],
+ "advice": [
+  "콩팥 생리는 하루 약 180 L를 걸러 1.5 L만 오줌으로 내보내는 거대한 재흡수 장치라는 숫자에서 출발하세요. 청소율 공식으로 어떤 물질이 재흡수되는지(청소율 < GFR), 분비되는지(청소율 > GFR) 판단하는 연습을 하면 콩팥 기능 검사의 원리가 보입니다. 산염기 조절은 일반화학의 완충 용액과 헨더슨–하셀바흐 식이 그대로 쓰입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Dee U. Silverthorn, Human Physiology: An Integrated Approach (번역본 『인체생리학』)",
+   "part": "19~20장 The Kidneys, Integrative Physiology II: Fluid and Electrolyte Balance"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "lang": "영어",
+   "part": "25~26장 (비뇨계, 체액·산염기 균형)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "건강한 성인의 사구체 여과율은 약 몇 mL/분일까요?",
+   "answer": "125",
+   "answer_format": "integer",
+   "tolerance": 5,
+   "explanation": "약 125 mL/분 (하루 약 180 L)",
+   "hint": "100을 조금 넘습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "오줌 속 농도 100 mg/mL, 오줌 생성 속도 1 mL/분, 혈장 농도 1 mg/mL인 물질의 청소율은 몇 mL/분일까요?",
+   "answer": "100",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "C = UV/P = 100 × 1 / 1 = 100 mL/분",
+   "hint": "C = UV/P입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "헨레 고리가 콩팥 속질에 높은 삼투 농도 기울기를 만드는 원리를 {{1}}라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역류 증폭",
+      "역류증폭"
+     ]
+    }
+   ],
+   "explanation": "이 기울기 덕분에 진한 오줌을 만들 수 있습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "physiology",
+ "id": "l3-biology-physiology-u07"
+}

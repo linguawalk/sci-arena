@@ -1,0 +1,169 @@
+{
+ "level": 3,
+ "track": "biology",
+ "id": "cell-molecular",
+ "title": "세포·분자생물학",
+ "tagline": "유전 정보의 흐름과 세포의 작동 원리를 분자 수준의 메커니즘과 실험 증거로",
+ "overview": [
+  "세포·분자생물학은 세포가 어떻게 유전 정보를 보관·복제·발현하고, 단백질을 만들어 제자리로 보내며, 신호에 반응하고 분열하는지를 분자 수준에서 다룹니다. 일반생물에서 그림으로 배운 과정들이 어떤 단백질과 어떤 실험으로 밝혀졌는지가 이 과목의 중심입니다.",
+  "이 가이드는 미생물학을 별도 과목으로 두지 않고 마지막 단원에 통합했습니다. 원핵세포의 구조와 성장, 대사의 다양성, 세균 유전학과 바이러스를 세포·분자생물학의 관점에서 다룹니다.",
+  "생명과학과 전공필수이며 중등 생물 임용시험의 핵심 과목입니다. 유기화학의 기초가 있으면 단백질·핵산의 화학이 쉬워지고, 유전학·생화학과 함께 공부하면 좋습니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Alberts 『Molecular Biology of the Cell』, Lodish 『Molecular Cell Biology』 목차와 중등 생물 임용시험 세포·분자 영역.",
+ "prereq": {
+  "text": "레벨2 일반생물의 세포, 신호 전달, 분자 유전 단원이 선수입니다. 레벨1 생물Ⅱ의 유전자 발현 조절도 복습해 두면 좋습니다.",
+  "links": [
+   {
+    "title": "레벨2 일반생물 · 2단원 세포 구조와 막",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=2"
+   },
+   {
+    "title": "레벨2 일반생물 · 4단원 세포 신호 전달과 세포 주기",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=4"
+   },
+   {
+    "title": "레벨2 일반생물 · 6단원 분자 유전: 복제, 유전자 발현, 조절",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=6"
+   },
+   {
+    "title": "생물Ⅱ · 챕터 6 유전자 발현과 조절",
+    "href": "browse.html?c=c7#ch06"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "아미노산 100개로 된 폴리펩타이드를 암호화하는 mRNA 부위는 종결 코돈을 포함해 몇 염기일까요?",
+    "answer": "303",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "100 × 3 + 3 = 303 (일반생물 6단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "fill_blank",
+    "prompt": "많은 호르몬 신호를 세포 안으로 전달하는 대표적인 2차 전달자는 {{1}}입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "cAMP",
+       "고리형 AMP"
+      ]
+     }
+    ],
+    "explanation": "(일반생물 4단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "분비 단백질이 합성되는 리보솜은 {{1}} 소포체에 붙어 있습니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "거친면"
+      ]
+     }
+    ],
+    "explanation": "(일반생물 2단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 유전학",
+   "note": "유전자 기능을 돌연변이와 교배로 분석"
+  },
+  {
+   "title": "융합 레벨3 · 생화학",
+   "note": "대사 경로와 효소의 화학"
+  },
+  {
+   "title": "레벨3 · 생리학",
+   "note": "세포 수준의 원리를 기관계에 적용"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "세포 연구 방법과 단백질",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "유전체, 염색질, DNA 복제와 수선",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "전사, RNA 가공, 번역",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "유전자 발현의 조절",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "막 수송과 세포 내 단백질 표적화",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "세포 신호 전달과 세포 골격",
+   "hours": 6,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "세포 주기, 세포 사멸, 암",
+   "hours": 5,
+   "after": [
+    6
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "미생물의 세포 생물학",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 46
+}

@@ -1,0 +1,168 @@
+{
+ "level": 3,
+ "track": "earth",
+ "id": "geology",
+ "title": "지질학",
+ "tagline": "광물과 암석의 성인에서 지질 구조, 판구조 과정, 지구의 역사와 응용 지질까지",
+ "overview": [
+  "지질학은 고체 지구의 물질, 구조, 역사를 연구합니다. 광물학과 암석학(화성·퇴적·변성)으로 지구를 이루는 물질이 어떤 조건에서 만들어지는지 배우고, 구조지질학으로 지각이 어떻게 변형되는지, 층서학과 연대학으로 그 일들이 언제 일어났는지를 밝힙니다.",
+  "학부 지질학은 광물학, 암석학, 구조지질학, 층서학, 지구물리학 입문 등 여러 과목으로 나뉘어 있습니다. 이 가이드는 각 분야의 핵심을 한 단원씩 묶고, 마지막에 지하수·자원·지질 재해 같은 응용 지질과 야외 조사를 다룹니다.",
+  "지질학과 전공 핵심이며 중등 지구과학 임용시험의 고체 지구 영역에 해당합니다. 물리화학의 상평형과 열역학을 알면 암석학이 훨씬 쉬워집니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: 광물학·암석학·구조지질학·층서학 표준 교재 목차와 중등 지구과학 임용시험 지질 영역.",
+ "prereq": {
+  "text": "레벨2 지구과학개론의 광물·암석, 판 구조론, 지질 시대 단원과 일반화학의 결합·상평형 개념이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 지구과학개론 · 2단원 광물과 암석",
+    "href": "guide.html?lv=2&t=earth&s=earth-science&u=2"
+   },
+   {
+    "title": "레벨2 지구과학개론 · 3단원 지구 내부와 판 구조론",
+    "href": "guide.html?lv=2&t=earth&s=earth-science&u=3"
+   },
+   {
+    "title": "레벨2 지구과학개론 · 5단원 지질 시대와 지사 해석",
+    "href": "guide.html?lv=2&t=earth&s=earth-science&u=5"
+   },
+   {
+    "title": "지학Ⅱ · 챕터 3 지질 구조와 한반도",
+    "href": "browse.html?c=c8#ch03"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "fill_blank",
+    "prompt": "마그마가 땅속 깊은 곳에서 천천히 식어 결정이 큰 화성암을 {{1}}암이라고 합니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "심성"
+      ]
+     }
+    ],
+    "explanation": "(지구과학개론 2단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "반감기가 3번 지나면 모원소는 처음의 몇 %가 남을까요?",
+    "answer": "12.5",
+    "answer_format": "decimal",
+    "tolerance": 0.1,
+    "explanation": "(1/2)³ = 12.5% (지구과학개론 5단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "장력을 받아 상반이 아래로 내려간 단층은 {{1}}입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "정단층"
+      ]
+     }
+    ],
+    "explanation": "(지학Ⅱ 챕터 3)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 해양학",
+   "note": "해저 지질과 퇴적"
+  },
+  {
+   "title": "융합 레벨3 · 환경·기후과학",
+   "note": "지구 시스템과 고기후"
+  },
+  {
+   "title": "tech-arena 레벨2 · 토목(지반 공학)",
+   "note": "흙과 암반의 역학"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "광물학",
+   "hours": 6,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "화성암석학",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "퇴적학과 층서학",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "변성암석학",
+   "hours": 5,
+   "after": [
+    2
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "구조지질학",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "판구조 과정과 지구물리",
+   "hours": 6,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "지질 연대학과 지구의 역사",
+   "hours": 5,
+   "after": [
+    3
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "응용 지질과 야외 조사",
+   "hours": 5,
+   "after": [
+    5
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 45
+}

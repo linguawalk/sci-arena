@@ -1,0 +1,154 @@
+{
+ "level": 3,
+ "track": "earth",
+ "id": "astronomy",
+ "title": "천문학과 천체물리",
+ "tagline": "빛으로 별의 성질을 재고, 별의 일생과 은하, 우주의 역사를 물리 법칙으로 설명한다",
+ "overview": [
+  "천문학은 우주의 천체와 현상을 관측하고, 천체물리는 그것을 물리 법칙으로 설명합니다. 이 가이드는 두 분야를 하나로 합쳐, 복사와 관측에서 시작해 항성의 성질과 내부 구조, 항성 진화, 성간 물질과 별·행성의 탄생, 은하, 우주론, 일반 상대성과 고에너지 천체물리의 순서로 진행합니다.",
+  "레벨1 지학Ⅱ와 레벨2 지구과학개론에서 결과로 배운 H–R도, 허블 법칙, 별의 진화가 여기서 정역학 평형, 핵융합, 복사 전달, 프리드만 방정식 같은 물리로 설명됩니다. 물리 트랙의 고전역학(케플러 문제), 열·통계물리(흑체 복사, 축퇴압), 양자역학(스펙트럼선)이 모두 쓰입니다.",
+  "천문학과 전공 핵심이며 중등 지구과학 임용시험의 천체 영역입니다. 물리 트랙 레벨3을 함께 공부하면 가장 효과적입니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Carroll·Ostlie 『An Introduction to Modern Astrophysics』 목차와 중등 지구과학 임용시험 천체 영역.",
+ "prereq": {
+  "text": "레벨2 지구과학개론의 천문 단원, 레벨2 일반물리, 레벨3 물리의 열·통계물리(흑체 복사)를 알고 있으면 좋습니다.",
+  "links": [
+   {
+    "title": "레벨2 지구과학개론 · 10단원 태양계와 천체 관측",
+    "href": "guide.html?lv=2&t=earth&s=earth-science&u=10"
+   },
+   {
+    "title": "레벨2 지구과학개론 · 11단원 별과 은하, 우주론",
+    "href": "guide.html?lv=2&t=earth&s=earth-science&u=11"
+   },
+   {
+    "title": "레벨3 물리 · 열·통계물리 7단원 흑체 복사",
+    "href": "guide.html?lv=3&t=physics&s=thermal-statistical&u=7"
+   },
+   {
+    "title": "레벨3 물리 · 고전역학 5단원 중심력과 궤도",
+    "href": "guide.html?lv=3&t=physics&s=classical-mechanics&u=5"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "겉보기 등급이 5등급 차이 나는 두 별의 밝기는 몇 배 차이일까요?",
+    "answer": "100",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "(지구과학개론 11단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "허블 상수 70 km/s/Mpc일 때 100 Mpc 떨어진 은하의 후퇴 속도는 몇 km/s일까요?",
+    "answer": "7000",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "v = H₀d (지구과학개론 11단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "numeric",
+    "prompt": "흑체의 절대 온도가 2배가 되면 단위 면적당 복사 에너지는 몇 배일까요?",
+    "answer": "16",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "E ∝ T⁴ (지구과학개론 6단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "레벨3 · 양자역학과 현대물리",
+   "note": "원자 스펙트럼과 핵물리의 이론적 기초"
+  },
+  {
+   "title": "레벨3 · 열·통계물리",
+   "note": "축퇴 기체와 백색 왜성·중성자별"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "관측 천문학과 복사",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "항성의 성질",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "항성 내부와 에너지 생성",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "항성 진화와 최후",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "성간 물질과 별·행성의 탄생",
+   "hours": 5,
+   "after": [
+    3
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "우리은하와 외부 은하",
+   "hours": 6,
+   "after": [
+    4
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "우주론",
+   "hours": 6,
+   "after": [
+    6
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "일반 상대성과 고에너지 천체물리",
+   "hours": 5,
+   "after": [
+    4
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 45
+}

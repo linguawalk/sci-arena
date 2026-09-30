@@ -1,0 +1,159 @@
+{
+ "level": 3,
+ "track": "biology",
+ "id": "physiology",
+ "title": "생리학",
+ "tagline": "항상성의 관점에서 신경·근육·내분비·순환·호흡·배설·소화가 어떻게 협력하는지",
+ "overview": [
+  "생리학은 생물의 몸이 어떻게 작동하는지를 다룹니다. 세포·분자생물학에서 배운 막 수송, 이온 통로, 신호 전달이 기관과 기관계 수준에서 어떻게 협력해 체온, 혈압, 혈당, 체액의 pH를 일정하게 유지하는지(항상성)를 정량적으로 이해하는 것이 목표입니다.",
+  "과목은 세포 생리와 신경계에서 시작해 근육, 내분비와 생식, 심혈관, 호흡, 콩팥, 소화·대사와 면역의 순서로 기관계를 차례로 다룹니다. 이 가이드는 사람 생리학을 중심으로 하되 비교 생리학의 예를 곳곳에 넣었습니다.",
+  "생명과학과 전공 과목이며 의학·약학·간호·체육 계열의 기초 과목이자 중등 생물 임용시험의 동물 생리 영역입니다. 일반물리의 유체·전기 개념(압력, 저항, 전위)이 자주 쓰입니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Silverthorn 『Human Physiology』, Guyton·Hall 교재 목차와 중등 생물 임용시험 동물 생리 영역.",
+ "prereq": {
+  "text": "레벨2 일반생물의 동물 생리 단원과 레벨3 세포·분자생물학의 막 수송·신호 전달 단원이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 일반생물 · 11단원 동물 생리: 순환, 호흡, 배설, 면역",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=11"
+   },
+   {
+    "title": "레벨2 일반생물 · 12단원 동물 생리: 신경, 내분비, 생식",
+    "href": "guide.html?lv=2&t=biology&s=general-biology&u=12"
+   },
+   {
+    "title": "레벨3 세포·분자생물학 · 5단원 막 수송과 단백질 표적화",
+    "href": "guide.html?lv=3&t=biology&s=cell-molecular&u=5"
+   },
+   {
+    "title": "레벨3 세포·분자생물학 · 6단원 세포 신호 전달과 세포 골격",
+    "href": "guide.html?lv=3&t=biology&s=cell-molecular&u=6"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "뉴런의 휴지 전위는 약 몇 mV일까요?",
+    "answer": "-70",
+    "answer_format": "decimal",
+    "tolerance": 5,
+    "explanation": "(일반생물 12단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "1회 박출량 70 mL, 심박수 72회/분이면 심박출량은 약 몇 L/분일까요?",
+    "answer": "5.04",
+    "answer_format": "decimal",
+    "tolerance": 0.02,
+    "explanation": "70 × 72 = 5040 mL (일반생물 11단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "G 단백질은 {{1}}와 결합했을 때 활성 상태가 됩니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "GTP"
+      ]
+     }
+    ],
+    "explanation": "(세포·분자생물학 6단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "융합 레벨3 · 생화학",
+   "note": "대사 경로와 호르몬 조절의 분자적 기초"
+  },
+  {
+   "title": "레벨3 · 생태학과 진화",
+   "note": "생리적 적응과 생활사"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "항상성과 세포 생리",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "신경 생리",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "감각과 근육",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "내분비와 생식",
+   "hours": 6,
+   "after": [
+    1
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "심혈관 생리",
+   "hours": 6,
+   "after": [
+    3
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "호흡 생리",
+   "hours": 5,
+   "after": [
+    5
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "콩팥, 체액, 산염기 조절",
+   "hours": 6,
+   "after": [
+    5
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "소화, 대사, 면역",
+   "hours": 5,
+   "after": [
+    4
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 45
+}

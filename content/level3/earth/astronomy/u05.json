@@ -1,0 +1,101 @@
+{
+ "no": 5,
+ "title": "성간 물질과 별·행성의 탄생",
+ "hours": 5,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "성간 물질의 상(기체, 먼지)과 관측 방법을 설명할 수 있다.",
+  "진스 조건으로 분자운의 중력 붕괴를 설명할 수 있다.",
+  "원시별과 원시 행성 원반, 외계 행성 탐사를 설명할 수 있다."
+ ],
+ "checklist": [
+  "성간 기체의 상(분자운, 중성 수소, 전리 영역)",
+  "성간 소광과 적색화",
+  "중성 수소 21 cm선",
+  "진스 질량과 중력 붕괴",
+  "원시별, T 타우리 별, 쌍극 분출",
+  "원시 행성 원반과 행성 형성",
+  "외계 행성 탐사(시선 속도, 통과, 직접 촬영)와 생명 가능 지대"
+ ],
+ "advice": [
+  "별은 성간 물질에서 태어나 다시 성간 물질로 돌아갑니다(4단원). 분자운이 붕괴하려면 중력이 열운동 압력을 이겨야 한다는 진스 조건을 비리얼 정리로 이해하세요. 외계 행성 탐사는 지학Ⅱ에서 다룬 방법을 정량적으로 확장하며, Yale 강의의 외계 행성 부분(4~7강)이 이 단원에 잘 맞습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Carroll · Ostlie, An Introduction to Modern Astrophysics (번역본 『현대 천체물리학』)",
+   "part": "12장 The Interstellar Medium and Star Formation, 19장 The Physical Processes in Solar Systems"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Astronomy 2e",
+   "url": "https://openstax.org/details/books/astronomy-2e",
+   "lang": "영어",
+   "part": "20~21장 Between the Stars, The Birth of Stars and the Discovery of Planets outside the Solar System"
+  },
+  {
+   "kind": "lecture",
+   "provider": "Open Yale Courses",
+   "title": "ASTR 160 Frontiers and Controversies in Astrophysics (Bailyn, 24강)",
+   "url": "https://oyc.yale.edu/astronomy/astr-160",
+   "lang": "영어",
+   "part": "4~7강 Discovering Exoplanets, Planetary Transits, Microlensing, Direct Imaging"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "분자운이 스스로의 중력으로 붕괴하기 위해 넘어야 하는 최소 질량을 {{1}} 질량이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "진스"
+     ]
+    }
+   ],
+   "explanation": "온도가 낮고 밀도가 높을수록 작아집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "갓 태어난 별을 둘러싸고 행성이 만들어지는 기체와 먼지의 원반을 원시 {{1}} 원반이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "행성"
+     ]
+    }
+   ],
+   "explanation": "ALMA 망원경으로 원반의 틈(행성의 흔적)이 관측됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "우리은하 나선팔 구조를 밝히는 데 쓰인 중성 수소선의 파장은 몇 cm일까요?",
+   "answer": "21",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "21 cm선(1420 MHz)",
+   "hint": "20 cm 근처입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "astronomy",
+ "id": "l3-earth-astronomy-u05"
+}

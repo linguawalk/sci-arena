@@ -1,0 +1,90 @@
+{
+ "no": 1,
+ "title": "항상성과 세포 생리",
+ "hours": 5,
+ "after": [],
+ "objectives": [
+  "항상성과 되먹임 조절의 원리를 설명할 수 있다.",
+  "네른스트·골드만 식으로 막전위를 계산할 수 있다.",
+  "체액 구획과 삼투를 설명할 수 있다."
+ ],
+ "checklist": [
+  "항상성, 설정점, 음성·양성 되먹임",
+  "체액 구획(세포 내액, 간질액, 혈장)",
+  "삼투, 삼투압, 등장·고장·저장액",
+  "평형 전위와 네른스트 식 E = (61.5/z) log([X]ₒ/[X]ᵢ) (mV, 37 °C)",
+  "골드만–호지킨–카츠 식과 휴지 전위",
+  "세포 간 신호(측분비, 내분비, 신경)"
+ ],
+ "advice": [
+  "생리학 전체를 관통하는 사고방식은 '무엇이 감지되고(수용기), 어디서 비교되며(조절 중추), 무엇이 반응하는가(효과기)'라는 되먹임 고리입니다. 이 단원에서 체온 조절을 예로 고리 그림을 그려 두고, 이후 모든 기관계 단원에서 같은 그림을 반복해 그려 보세요. 네른스트 식은 신경과 근육, 콩팥 단원에서 계속 쓰입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Dee U. Silverthorn, Human Physiology: An Integrated Approach (번역본 『인체생리학』)",
+   "part": "1장, 5~6장 Membrane Dynamics, Communication, Integration, and Homeostasis"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "lang": "영어",
+   "part": "1장 An Introduction to the Human Body, 3장 The Cellular Level of Organization"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "37 °C에서 세포 밖 K⁺ 5 mM, 세포 안 K⁺ 140 mM일 때 K⁺의 평형 전위는 약 몇 mV일까요?",
+   "answer": "-89",
+   "answer_format": "decimal",
+   "tolerance": 2,
+   "explanation": "E = 61.5 × log(5/140) ≈ 61.5 × (−1.447) ≈ −89 mV",
+   "hint": "네른스트 식(z = +1)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "결과가 원인을 억제해 변수를 설정점 가까이 유지하는 조절을 {{1}} 되먹임이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "음성"
+     ]
+    }
+   ],
+   "explanation": "대부분의 항상성 조절이 음성 되먹임입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "세포와 삼투압이 같아 세포의 부피가 변하지 않는 용액을 {{1}}액이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "등장"
+     ]
+    }
+   ],
+   "explanation": "0.9% 생리 식염수가 대표적입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "physiology",
+ "id": "l3-biology-physiology-u01"
+}

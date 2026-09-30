@@ -1,0 +1,92 @@
+{
+ "no": 4,
+ "title": "돌연변이, DNA 수선, 염색체 이상",
+ "hours": 5,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "점 돌연변이의 종류와 단백질에 미치는 영향을 구별할 수 있다.",
+  "돌연변이원과 에임스 검사를 설명할 수 있다.",
+  "염색체 구조·수 이상과 그 결과를 설명할 수 있다."
+ ],
+ "checklist": [
+  "염기 치환(전이, 전환)과 틀 이동",
+  "침묵·미스센스·넌센스 돌연변이",
+  "기능 상실·기능 획득 돌연변이",
+  "자발적·유도 돌연변이와 돌연변이원",
+  "에임스 검사",
+  "염색체 구조 이상(결실, 중복, 역위, 전좌)",
+  "이수성(삼염색체성)과 배수성, 비분리"
+ ],
+ "advice": [
+  "돌연변이 문제는 코돈표를 옆에 두고 염기 하나가 바뀔 때 무슨 일이 생기는지 직접 따라가는 것이 가장 확실합니다. 염색체 이상은 감수 분열의 어느 단계에서 비분리가 일어나면 어떤 생식세포가 생기는지 그림으로 그려 보세요. 역위와 전좌가 감수 분열 때 만드는 특이한 모양(고리, 십자형)을 이해하면 불임과 연결할 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Griffiths 외, Introduction to Genetic Analysis (번역본 『유전학』)",
+   "part": "15~17장 The Gene Mutation, Chromosomal Mutation"
+  },
+  {
+   "kind": "book",
+   "provider": "Macmillan",
+   "title": "Benjamin Pierce, Genetics: A Conceptual Approach (번역본 『유전학』)",
+   "part": "8장, 18장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "염기 하나가 바뀌어 아미노산 코돈이 종결 코돈으로 바뀌는 돌연변이를 {{1}} 돌연변이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "넌센스"
+     ]
+    }
+   ],
+   "explanation": "단백질이 중간에서 끊깁니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "21번 염색체가 3개인 다운 증후군 사람의 체세포 염색체 수는?",
+   "answer": "47",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "46 + 1 = 47",
+   "hint": "한 개가 더 있습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "살모넬라 균주의 복귀 돌연변이 빈도로 화학 물질의 {{1}}성을 검사하는 방법을 에임스 검사라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "돌연변이원",
+      "돌연변이 유발"
+     ]
+    }
+   ],
+   "explanation": "많은 돌연변이원은 발암 물질이기도 합니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "genetics",
+ "id": "l3-biology-genetics-u04"
+}

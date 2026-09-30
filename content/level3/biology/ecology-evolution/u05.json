@@ -1,0 +1,95 @@
+{
+ "no": 5,
+ "title": "개체군 생태학",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "생명표와 생존 곡선을 해석할 수 있다.",
+  "지수·로지스틱 생장 모형으로 개체군 변화를 계산할 수 있다.",
+  "생활사 전략과 메타개체군을 설명할 수 있다."
+ ],
+ "checklist": [
+  "개체군 밀도, 분포, 연령 구조",
+  "생명표, 생존 곡선(Ⅰ·Ⅱ·Ⅲ형), 순번식률 R₀",
+  "지수 생장 dN/dt = rN, 기하 생장 N_t = N₀λᵗ",
+  "로지스틱 생장 dN/dt = rN(1 − N/K)",
+  "밀도 의존·비의존 요인",
+  "생활사 전략(r·K 선택), 번식 투자의 균형",
+  "메타개체군과 보전"
+ ],
+ "advice": [
+  "개체군 모형은 간단한 미분방정식이지만 자원 관리와 보전 정책의 기초입니다. 스프레드시트로 로지스틱 모형을 시간에 따라 계산하고, r과 K를 바꿔 보며 곡선 모양이 어떻게 달라지는지 확인하세요. 최대 지속 생산량이 K/2에서 나오는 이유를 dN/dt 그래프로 설명할 수 있으면 어업 관리 문제를 풀 수 있습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "Begon · Townsend · Harper, Ecology: From Individuals to Ecosystems (번역본 『생태학』)",
+   "part": "4~6장 (생활사, 개체군 동태)"
+  },
+  {
+   "kind": "book",
+   "provider": "W. H. Freeman",
+   "title": "Ricklefs · Relyea, Ecology: The Economy of Nature (번역본 『생태학』)",
+   "part": "개체군 생태 장"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Biology 2e",
+   "url": "https://openstax.org/details/books/biology-2e",
+   "lang": "영어",
+   "part": "45장 Population and Community Ecology 45.1~45.5절"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "해마다 1.2배씩 증가하는(λ = 1.2) 개체군이 100마리에서 시작하면 2년 뒤 몇 마리일까요?",
+   "answer": "144",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "N₂ = 100 × 1.2² = 144",
+   "hint": "N₀λᵗ입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "r = 0.5, K = 1000인 로지스틱 개체군에서 N = 500일 때 dN/dt는?",
+   "answer": "125",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "0.5 × 500 × (1 − 500/1000) = 125",
+   "hint": "rN(1 − N/K)입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "많은 자손을 낳고 빠르게 성장하는 생활사 전략을 {{1}} 선택이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "r"
+     ]
+    }
+   ],
+   "explanation": "환경 수용력 근처에서 경쟁에 강한 전략은 K 선택입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "ecology-evolution",
+ "id": "l3-biology-ecology-evolution-u05"
+}

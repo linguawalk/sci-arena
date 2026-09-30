@@ -1,0 +1,93 @@
+{
+ "no": 4,
+ "title": "행동 생태학",
+ "hours": 5,
+ "after": [
+  2
+ ],
+ "objectives": [
+  "최적 섭식 이론으로 행동을 비용과 이익으로 분석할 수 있다.",
+  "성선택과 배우 체계를 설명할 수 있다.",
+  "혈연 선택과 해밀턴 규칙으로 이타적 행동을 설명할 수 있다."
+ ],
+ "checklist": [
+  "행동의 근접 원인과 궁극 원인",
+  "최적 섭식 이론과 한계값 정리",
+  "성선택(수컷 경쟁, 암컷 선택)과 성적 이형성",
+  "배우 체계와 부모 양육",
+  "혈연 선택, 포괄 적응도, 해밀턴 규칙 rB > C",
+  "상호 이타성과 진화적 게임 이론(매–비둘기)",
+  "사회성 곤충"
+ ],
+ "advice": [
+  "행동 생태학은 동물의 행동을 '번식 성공을 최대화하는 전략'으로 분석합니다. 해밀턴 규칙을 형제, 사촌 등 여러 관계에 적용해 보고, 일벌이 스스로 번식하지 않고 여왕을 돕는 이유를 반수배수성의 근연도로 설명해 보세요. 게임 이론(매–비둘기 게임)은 경제학과 같은 수학을 쓴다는 점도 흥미로운 연결입니다."
+ ],
+ "resources": [
+  {
+   "kind": "lecture",
+   "provider": "Open Yale Courses",
+   "title": "EEB 122 Principles of Evolution, Ecology and Behavior (Stearns, 36강)",
+   "url": "https://oyc.yale.edu/ecology-and-evolutionary-biology/eeb-122",
+   "lang": "영어",
+   "part": "13강 Sexual Selection, 32~36강 Foraging, Game Theory, Mating Systems, Selfishness and Altruism"
+  },
+  {
+   "kind": "book",
+   "provider": "Oxford University Press",
+   "title": "Futuyma · Kirkpatrick, Evolution (번역본 『진화학』)",
+   "part": "행동 진화 장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "형제자매(근연도 r = 0.5)를 돕는 행동의 이익 B가 3, 비용 C가 1일 때 해밀턴 규칙의 rB 값은? (소수로)",
+   "answer": "1.5",
+   "answer_format": "decimal",
+   "tolerance": 0.01,
+   "explanation": "rB = 0.5 × 3 = 1.5 > C = 1\n이타적 행동이 선택될 수 있습니다.",
+   "hint": "근연도 × 이익입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "공작 수컷의 화려한 깃털처럼 짝짓기 성공을 높이는 형질이 선택되는 과정을 {{1}}선택이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "성"
+     ]
+    }
+   ],
+   "explanation": "다윈이 자연선택과 구별해 제안했습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "먹이를 찾는 동물이 단위 시간당 얻는 에너지를 최대화하도록 행동한다는 이론을 {{1}} 섭식 이론이라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "최적"
+     ]
+    }
+   ],
+   "explanation": "한계값 정리가 대표적인 모형입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "ecology-evolution",
+ "id": "l3-biology-ecology-evolution-u04"
+}

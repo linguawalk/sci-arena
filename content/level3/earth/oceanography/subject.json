@@ -1,0 +1,156 @@
+{
+ "level": 3,
+ "track": "earth",
+ "id": "oceanography",
+ "title": "해양학",
+ "tagline": "해저 지질, 해수의 물리·화학, 해양 순환과 파랑, 그리고 기후와 해양 생태계까지",
+ "overview": [
+  "해양학은 지구 표면의 약 71%를 덮은 바다를 지질·물리·화학·생물의 네 측면에서 연구합니다. 해저 지형과 퇴적물(해양 지질), 수온·염분·밀도와 해수의 운동(물리 해양), 용존 기체와 탄산염 화학(화학 해양), 1차 생산과 생지화학 순환(생물 해양)이 서로 얽혀 있습니다.",
+  "이 가이드는 물리 해양학을 중심에 두고, 대기과학에서 배운 회전 유체 역학을 바다에 적용해 에크만 수송, 지형류, 대양 순환, 파랑과 조석을 다룹니다. 마지막 두 단원은 엘니뇨 같은 해양–대기 상호작용과 한반도 주변 바다를 다룹니다.",
+  "해양학과 전공 핵심이며 중등 지구과학 임용시험의 해양 영역입니다. 대기과학을 먼저 또는 함께 공부하면 4~7단원이 훨씬 쉬워집니다."
+ ],
+ "level_note": "레벨 3 (학부 2~3학년 전공). 목차 검증 기준: Talley 『Descriptive Physical Oceanography』, Garrison 『Oceanography』 목차와 중등 지구과학 임용시험 해양 영역.",
+ "prereq": {
+  "text": "레벨2 지구과학개론의 해양 단원과 레벨3 대기과학의 대기 역학 단원이 선수입니다.",
+  "links": [
+   {
+    "title": "레벨2 지구과학개론 · 8단원 해양의 성질과 순환",
+    "href": "guide.html?lv=2&t=earth&s=earth-science&u=8"
+   },
+   {
+    "title": "레벨3 대기과학 · 5단원 대기 역학 기초",
+    "href": "guide.html?lv=3&t=earth&s=atmospheric-science&u=5"
+   },
+   {
+    "title": "지학Ⅱ · 챕터 5 해수의 운동",
+    "href": "browse.html?c=c8#ch05"
+   }
+  ],
+  "questions": [
+   {
+    "type": "question",
+    "id": "p1",
+    "qtype": "numeric",
+    "prompt": "북반구에서 에크만 수송은 바람 방향의 오른쪽 몇 °로 일어날까요?",
+    "answer": "90",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "(지구과학개론 8단원)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p2",
+    "qtype": "numeric",
+    "prompt": "수심 40 m를 지나는 천해파의 속력은 몇 m/s일까요? (g = 10 m/s²)",
+    "answer": "20",
+    "answer_format": "integer",
+    "tolerance": 0,
+    "explanation": "√(gh) = √400 = 20 (지학Ⅱ 챕터 5)",
+    "stage": "prereq"
+   },
+   {
+    "type": "question",
+    "id": "p3",
+    "qtype": "fill_blank",
+    "prompt": "기압 경도력과 전향력이 평형을 이루어 부는 바람은 {{1}}입니다.",
+    "blanks": [
+     {
+      "id": 1,
+      "answers": [
+       "지균풍"
+      ]
+     }
+    ],
+    "explanation": "해양에서는 같은 원리로 지형류가 흐릅니다. (대기과학 5단원)",
+    "stage": "prereq"
+   }
+  ]
+ },
+ "next": [
+  {
+   "title": "융합 레벨3 · 환경·기후과학",
+   "note": "해양의 탄소 흡수와 기후 변화"
+  },
+  {
+   "title": "레벨3 · 생태학과 진화",
+   "note": "해양 생태계와 생지화학 순환"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_subject",
+ "units": [
+  {
+   "no": 1,
+   "title": "해양 분지와 해저 지질",
+   "hours": 5,
+   "after": [],
+   "file": "u01.json"
+  },
+  {
+   "no": 2,
+   "title": "해수의 물리적 성질",
+   "hours": 5,
+   "after": [
+    1
+   ],
+   "file": "u02.json"
+  },
+  {
+   "no": 3,
+   "title": "해양 화학과 탄소 순환",
+   "hours": 5,
+   "after": [
+    2
+   ],
+   "file": "u03.json"
+  },
+  {
+   "no": 4,
+   "title": "해양 역학 기초",
+   "hours": 6,
+   "after": [
+    2
+   ],
+   "file": "u04.json"
+  },
+  {
+   "no": 5,
+   "title": "대양 순환",
+   "hours": 6,
+   "after": [
+    4
+   ],
+   "file": "u05.json"
+  },
+  {
+   "no": 6,
+   "title": "파랑과 조석",
+   "hours": 5,
+   "after": [
+    4
+   ],
+   "file": "u06.json"
+  },
+  {
+   "no": 7,
+   "title": "해양–대기 상호작용과 기후",
+   "hours": 5,
+   "after": [
+    5
+   ],
+   "file": "u07.json"
+  },
+  {
+   "no": 8,
+   "title": "해양 생물·생지화학과 한반도 주변 바다",
+   "hours": 5,
+   "after": [
+    3,
+    5
+   ],
+   "file": "u08.json"
+  }
+ ],
+ "total_hours": 42
+}

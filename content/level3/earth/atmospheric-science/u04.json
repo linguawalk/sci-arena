@@ -1,0 +1,95 @@
+{
+ "no": 4,
+ "title": "대기 복사와 에너지 수지",
+ "hours": 5,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "흑체 복사 법칙으로 복사 평형 온도를 계산할 수 있다.",
+  "대기의 흡수·산란과 온실 효과를 설명할 수 있다.",
+  "복사 강제력과 기후 민감도를 설명할 수 있다."
+ ],
+ "checklist": [
+  "흑체 복사와 플랑크·빈·슈테판–볼츠만 법칙",
+  "태양 상수와 지구의 복사 평형 온도(약 255 K)",
+  "기체의 흡수대와 대기의 창",
+  "레일리 산란과 미 산란",
+  "온실 효과 모형(한 층 대기 모형)",
+  "지구 에너지 수지 그림",
+  "복사 강제력(CO₂ 2배 약 3.7 W/m²)과 기후 민감도"
+ ],
+ "advice": [
+  "지구의 복사 평형 온도 255 K를 직접 계산하고, 실제 평균 기온 288 K와의 차이 33 K가 온실 효과라는 흐름을 스스로 재현해 보세요. 한 층 대기 모형은 단순하지만 온실 효과의 핵심을 정확히 보여 주며, 기후 변화 논의의 정량적 출발점이 됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Wallace · Hobbs, Atmospheric Science: An Introductory Survey (2판, 번역본 『대기과학』)",
+   "part": "4장 Radiative Transfer"
+  },
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics: An Introductory Text",
+   "part": "2장 The global energy balance"
+  },
+  {
+   "kind": "lecture",
+   "provider": "MIT OpenCourseWare",
+   "title": "12.003 Atmosphere, Ocean and Climate Dynamics (2008년 가을)",
+   "url": "https://ocw.mit.edu/courses/12-003-atmosphere-ocean-and-climate-dynamics-fall-2008/",
+   "lang": "영어",
+   "part": "Lecture (radiation and greenhouse effect)"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "태양 상수 1361 W/m², 알베도 0.3일 때 지구의 복사 평형 온도는 약 몇 K일까요? (σ = 5.67 × 10⁻⁸)",
+   "answer": "255",
+   "answer_format": "integer",
+   "tolerance": 3,
+   "explanation": "T = [S(1 − α)/(4σ)]^(1/4) ≈ 255 K",
+   "hint": "들어오는 복사를 지구 표면적으로 나누세요(1/4).",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "하늘이 파랗게 보이는 것은 짧은 파장의 빛이 공기 분자에 더 많이 산란되는 {{1}} 산란 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "레일리"
+     ]
+    }
+   ],
+   "explanation": "산란 세기 ∝ 1/λ⁴입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "대기 중 CO₂ 농도가 2배가 될 때의 복사 강제력은 약 몇 W/m²일까요?",
+   "answer": "3.7",
+   "answer_format": "decimal",
+   "tolerance": 0.3,
+   "explanation": "약 3.7 W/m²\n기후 민감도에 곱하면 평형 기온 상승이 됩니다.",
+   "hint": "4보다 조금 작습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "atmospheric-science",
+ "id": "l3-earth-atmospheric-science-u04"
+}

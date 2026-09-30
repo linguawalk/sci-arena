@@ -1,0 +1,107 @@
+{
+ "no": 2,
+ "title": "신경 생리",
+ "hours": 6,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "활동 전위의 이온 기전과 전도를 설명할 수 있다.",
+  "화학적 시냅스의 전달과 시냅스 통합을 설명할 수 있다.",
+  "중추·말초·자율 신경계의 구성과 기능을 설명할 수 있다."
+ ],
+ "checklist": [
+  "전압 개폐 Na⁺·K⁺ 통로와 활동 전위",
+  "역치, 실무율, 불응기",
+  "무수 신경과 유수 신경, 도약 전도",
+  "시냅스 전달, 흥분성·억제성 시냅스 후 전위",
+  "시간적·공간적 가중",
+  "신경 전달 물질(아세틸콜린, 글루탐산, GABA, 도파민)",
+  "자율 신경계(교감·부교감)와 뇌의 구조"
+ ],
+ "advice": [
+  "활동 전위는 이온 통로가 열리고 닫히는 순서만 정확히 알면 모든 현상(역치, 불응기, 한 방향 전도)이 설명됩니다. 막전위 그래프 위에 각 시점의 Na⁺·K⁺ 통로 상태를 표시하는 그림을 직접 그려 보세요. 시냅스 통합은 뉴런이 여러 입력을 더해 '결정'을 내리는 계산 장치라는 관점으로 이해하면 좋습니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Dee U. Silverthorn, Human Physiology: An Integrated Approach (번역본 『인체생리학』)",
+   "part": "8~11장 Neurons, The Central Nervous System, Sensory Physiology, Efferent Division"
+  },
+  {
+   "kind": "book",
+   "provider": "OpenStax (무료 공개 교재)",
+   "title": "Anatomy and Physiology 2e",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "lang": "영어",
+   "part": "12~15장 (신경계)"
+  },
+  {
+   "kind": "book",
+   "provider": "Elsevier",
+   "title": "Hall, Guyton and Hall Textbook of Medical Physiology (번역본 『가이톤 의학생리학』)",
+   "part": "신경 생리 단원"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "활동 전위의 탈분극 단계는 전압 개폐 {{1}} 통로가 열려 이온이 세포 안으로 들어오기 때문입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "Na⁺",
+      "Na+",
+      "나트륨",
+      "Na"
+     ]
+    }
+   ],
+   "explanation": "Na⁺의 평형 전위(약 +60 mV) 쪽으로 막전위가 올라갑니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "유수 신경에서 활동 전위가 말이집 사이의 {{1}} 결절에서만 일어나 빠르게 전도됩니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "랑비에"
+     ]
+    }
+   ],
+   "explanation": "이를 도약 전도라고 합니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "중추 신경계의 주된 흥분성 신경 전달 물질은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "글루탐산",
+      "글루타메이트"
+     ]
+    }
+   ],
+   "explanation": "주된 억제성 전달 물질은 GABA입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "biology",
+ "subject": "physiology",
+ "id": "l3-biology-physiology-u02"
+}

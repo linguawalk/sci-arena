@@ -1,0 +1,93 @@
+{
+ "no": 5,
+ "title": "구조지질학",
+ "hours": 6,
+ "after": [
+  3
+ ],
+ "objectives": [
+  "응력과 변형률, 암석의 역학적 거동을 설명할 수 있다.",
+  "단층과 습곡을 응력 조건과 연결해 분류할 수 있다.",
+  "주향·경사 자료를 스테레오 투영으로 분석할 수 있다."
+ ],
+ "checklist": [
+  "응력 텐서와 세 주응력(σ₁ ≥ σ₂ ≥ σ₃)",
+  "변형률, 취성·연성 변형",
+  "앤더슨 단층 이론(정·역·주향 이동 단층)",
+  "습곡의 기하와 분류",
+  "절리, 엽리, 선구조",
+  "스테레오 투영(슈미트망)",
+  "지질도와 단면도 작성"
+ ],
+ "advice": [
+  "구조지질학은 3차원 공간 감각을 요구합니다. 주향과 경사, 선구조 자료를 스테레오넷에 직접 찍어 보는 연습이 가장 중요합니다(무료 스테레오넷 프로그램이 여러 가지 있습니다). 앤더슨 단층 이론으로 '어떤 주응력이 연직인가'에 따라 단층 종류가 정해진다는 것을 이해하면 레벨1의 단층 분류가 역학적으로 설명됩니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Cambridge University Press",
+   "title": "Haakon Fossen, Structural Geology (구조지질학)",
+   "part": "1~12장 (필요한 부분)"
+  },
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "12장 Geological Structures"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "최대 주응력이 수평일 때(횡압력) 주로 생기는 단층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "역단층"
+     ]
+    }
+   ],
+   "explanation": "앤더슨 이론: σ₁ 수평, σ₃ 연직 → 역단층",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "3차원 응력 상태를 나타내는 서로 수직인 주응력은 몇 개일까요?",
+   "answer": "3",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "σ₁ ≥ σ₂ ≥ σ₃의 세 개",
+   "hint": "3차원입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "최소 주응력이 수평일 때(장력) 주로 생기는 단층은 {{1}}입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "정단층"
+     ]
+    }
+   ],
+   "explanation": "σ₁ 연직, σ₃ 수평 → 정단층",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "geology",
+ "id": "l3-earth-geology-u05"
+}

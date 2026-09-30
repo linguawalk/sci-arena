@@ -1,0 +1,103 @@
+{
+ "no": 6,
+ "title": "판구조 과정과 지구물리",
+ "hours": 6,
+ "after": [
+  5
+ ],
+ "objectives": [
+  "지진파·중력·지자기 자료로 지구 내부와 판 운동을 해석할 수 있다.",
+  "판 경계별 지질 과정(열곡, 섭입, 충돌)을 설명할 수 있다.",
+  "맨틀 대류와 판 구동력을 설명할 수 있다."
+ ],
+ "checklist": [
+  "지진파 토모그래피와 지구 내부 구조",
+  "지각 평형(아이소스타시)과 중력 이상",
+  "고지자기와 지자기 역전 연대",
+  "발산 경계: 열곡과 해령",
+  "수렴 경계: 섭입대, 베니오프대, 호상 열도, 대륙 충돌",
+  "보존 경계와 변환 단층",
+  "열점, 맨틀 플룸, 판 구동력"
+ ],
+ "advice": [
+  "이 단원은 레벨2의 판 구조론을 정량 자료로 다시 보는 곳입니다. 해양 지각의 고지자기 줄무늬 폭과 연대로 확장 속도를 직접 계산해 보고, 섭입대의 지진 깊이 분포(베니오프대)로 섭입 각도를 추정해 보세요. 지각 평형은 산이 뿌리를 가진다는 개념으로, 레벨3 물리 트랙의 부력과 같은 원리입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "BCcampus Open Education (무료 공개 교재)",
+   "title": "Steven Earle, Physical Geology (2판)",
+   "url": "https://opentextbc.ca/physicalgeology2ed/",
+   "lang": "영어",
+   "part": "9~11장 Earth's Interior, Plate Tectonics, Earthquakes"
+  },
+  {
+   "kind": "book",
+   "provider": "W. W. Norton",
+   "title": "Stephen Marshak, Earth: Portrait of a Planet (번역본 『지구: 행성의 초상』)",
+   "part": "판 구조론 장"
+  },
+  {
+   "kind": "web",
+   "provider": "USGS (미국 지질조사국)",
+   "title": "지진·화산·지하수·광물 자원 자료",
+   "url": "https://www.usgs.gov/",
+   "lang": "영어",
+   "part": "Earthquake Hazards Program 자료"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "해령에서 한쪽으로 5 cm/년씩 확장한다면 해령에서 100 km 떨어진 해양 지각의 나이는 약 몇 백만 년일까요?",
+   "answer": "2",
+   "answer_format": "integer",
+   "tolerance": 0,
+   "explanation": "100 km = 10⁷ cm\n10⁷ ÷ 5 = 2 × 10⁶년",
+   "hint": "단위를 cm로 맞추세요.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "섭입하는 판을 따라 지진의 진원이 비스듬히 깊어지는 영역을 {{1}}대라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "베니오프",
+      "와다티–베니오프",
+      "와다티-베니오프"
+     ]
+    }
+   ],
+   "explanation": "깊이 약 700 km까지 이어집니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "fill_blank",
+   "prompt": "판 경계에서 멀리 떨어진 곳에 고정된 맨틀 상승류로 화산이 줄지어 생기는 대표적인 예는 {{1}} 열도입니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "하와이"
+     ]
+    }
+   ],
+   "explanation": "열점 위를 판이 지나가며 화산의 나이가 순서대로 달라집니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "geology",
+ "id": "l3-earth-geology-u06"
+}

@@ -1,0 +1,91 @@
+{
+ "no": 3,
+ "title": "탄소 순환과 생지화학",
+ "hours": 5,
+ "after": [
+  1
+ ],
+ "objectives": [
+  "빠른·느린 탄소 순환의 저장고와 흐름을 설명할 수 있다.",
+  "인위적 탄소 배출의 행방(대기, 해양, 육지)을 정량적으로 설명할 수 있다.",
+  "메테인·질소 순환과 온실 기체의 관계를 설명할 수 있다."
+ ],
+ "checklist": [
+  "탄소 저장고(대기, 해양, 육상 생물권, 암석권)와 흐름",
+  "화석 연료·토지 이용 배출",
+  "대기 증가분, 해양 흡수원, 육상 흡수원(각각 약 절반, 1/4, 1/4)",
+  "1 ppm CO₂ ≈ 2.13 GtC",
+  "해양 산성화",
+  "메테인 순환과 지구 온난화 지수(GWP)",
+  "질소 순환과 N₂O, 되먹임(영구 동토층, 산불)"
+ ],
+ "advice": [
+  "인간이 내보낸 CO₂의 약 절반만 대기에 남고 나머지는 바다와 육지가 흡수한다는 사실이 탄소 순환의 핵심 숫자입니다. 연간 배출량(GtC)과 대기 농도 증가(ppm)를 1 ppm ≈ 2.13 GtC로 바꿔 가며 이 비율을 직접 계산해 보세요. 흡수원이 앞으로도 같은 비율로 작동할지가 기후 전망의 중요한 불확실성입니다."
+ ],
+ "resources": [
+  {
+   "kind": "web",
+   "provider": "IPCC",
+   "title": "제6차 평가 보고서(AR6) 종합 보고서와 제1실무그룹 보고서",
+   "url": "https://www.ipcc.ch/report/ar6/syr/",
+   "lang": "영어(기상청 한국어 번역본 있음)",
+   "part": "제1실무그룹 5장 Global Carbon and other Biogeochemical Cycles and Feedbacks"
+  },
+  {
+   "kind": "book",
+   "provider": "Pearson",
+   "title": "Kump · Kasting · Crane, The Earth System (번역본 『지구 시스템의 이해』)",
+   "part": "8장 The Carbon Cycle and Climate"
+  },
+  {
+   "kind": "book",
+   "provider": "Wiley",
+   "title": "David Archer, Global Warming: Understanding the Forecast",
+   "part": "8~10장"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "numeric",
+   "prompt": "대기 CO₂ 농도 1 ppm은 약 몇 GtC(기가톤 탄소)에 해당할까요?",
+   "answer": "2.13",
+   "answer_format": "decimal",
+   "tolerance": 0.02,
+   "explanation": "1 ppm ≈ 2.13 GtC",
+   "hint": "2와 조금 넘는 값입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "numeric",
+   "prompt": "인위적 CO₂ 배출량 가운데 대기에 남는 비율(대기 잔류 비율)은 약 몇 %일까요?",
+   "answer": "45",
+   "answer_format": "integer",
+   "tolerance": 10,
+   "explanation": "약 45%가 대기에 남고, 나머지는 해양과 육지가 흡수합니다.",
+   "hint": "약 절반입니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "100년 기준 메테인의 지구 온난화 지수(GWP₁₀₀)는 CO₂의 약 몇 배일까요?",
+   "answer": "28",
+   "answer_format": "integer",
+   "tolerance": 3,
+   "explanation": "IPCC AR5·AR6 기준 약 27~30배",
+   "hint": "20대 후반입니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "convergence",
+ "subject": "environment-climate",
+ "id": "l3-convergence-environment-climate-u03"
+}

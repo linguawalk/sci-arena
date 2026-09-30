@@ -1,0 +1,99 @@
+{
+ "no": 8,
+ "title": "관측, 예보, 기후",
+ "hours": 5,
+ "after": [
+  6
+ ],
+ "objectives": [
+  "지상·고층·위성·레이더 관측 체계를 설명할 수 있다.",
+  "수치 예보의 원리와 한계(카오스, 앙상블)를 설명할 수 있다.",
+  "기후 모델과 기후 전망의 불확실성을 설명할 수 있다."
+ ],
+ "checklist": [
+  "지상·고층 관측과 자동 기상 관측망",
+  "기상 위성(정지 궤도, 극궤도)과 채널",
+  "자료 동화와 초기 조건",
+  "수치 예보 모형과 격자, 모수화",
+  "카오스와 예측 가능성의 한계(나비 효과)",
+  "앙상블 예보와 확률 예보",
+  "기후 모델, 시나리오, 기후 전망"
+ ],
+ "advice": [
+  "일기 예보가 약 2주 이상 정확할 수 없는 이유는 모형이 나빠서가 아니라 대기 자체의 카오스적 성질 때문입니다. 로렌츠의 나비 효과 이야기를 읽어 보고, 그렇다면 수십 년 뒤의 기후 전망은 어떻게 가능한지(날씨는 초기값 문제, 기후는 경계값 문제) 설명해 보세요. 이 구분이 환경·기후과학 과목의 출발점입니다."
+ ],
+ "resources": [
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Wallace · Hobbs, Atmospheric Science: An Introductory Survey (2판, 번역본 『대기과학』)",
+   "part": "9~10장 Atmospheric Boundary Layer, Climate Dynamics"
+  },
+  {
+   "kind": "book",
+   "provider": "Academic Press",
+   "title": "Marshall · Plumb, Atmosphere, Ocean, and Climate Dynamics: An Introductory Text",
+   "part": "마지막 장 Climate variability and change 앞부분"
+  },
+  {
+   "kind": "web",
+   "provider": "UCAR COMET MetEd (무료 기상 교육 모듈, 가입 필요)",
+   "title": "MetEd 기상학 학습 모듈",
+   "url": "https://www.meted.ucar.edu/",
+   "lang": "영어(일부 한국어)",
+   "part": "수치 예보(NWP) 모듈"
+  }
+ ],
+ "selfcheck": [
+  {
+   "type": "question",
+   "id": "q1",
+   "qtype": "fill_blank",
+   "prompt": "초기 조건의 아주 작은 차이가 시간이 지나며 큰 차이로 자라는 대기의 성질을 {{1}} 효과라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "나비"
+     ]
+    }
+   ],
+   "explanation": "로렌츠가 1960년대에 발견했습니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q2",
+   "qtype": "fill_blank",
+   "prompt": "초기 조건을 조금씩 바꾼 여러 예보를 함께 돌려 불확실성을 추정하는 방법을 {{1}} 예보라고 합니다.",
+   "blanks": [
+    {
+     "id": 1,
+     "answers": [
+      "앙상블"
+     ]
+    }
+   ],
+   "explanation": "강수 확률 같은 확률 예보의 근거가 됩니다.",
+   "stage": "selfcheck"
+  },
+  {
+   "type": "question",
+   "id": "q3",
+   "qtype": "numeric",
+   "prompt": "정지 궤도 기상 위성의 고도는 약 몇 km일까요?",
+   "answer": "36000",
+   "answer_format": "integer",
+   "tolerance": 500,
+   "explanation": "약 35 786 km\n지구 자전과 같은 주기로 돌아 한 지역을 계속 관측합니다.",
+   "hint": "3만 km를 넘습니다.",
+   "stage": "selfcheck"
+  }
+ ],
+ "schema_version": "1.0",
+ "type": "guide_unit",
+ "level": 3,
+ "track": "earth",
+ "subject": "atmospheric-science",
+ "id": "l3-earth-atmospheric-science-u08"
+}
