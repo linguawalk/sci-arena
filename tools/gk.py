@@ -10,10 +10,10 @@ import json, os
 CONTENT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "content")
 
 TRACKS = [
-    {"id": "physics", "title": "물리", "note": "미적분 기반 일반물리에서 시작해 역학·전자기학·양자역학으로 나아갑니다.",
+    {"id": "physics", "title": "물리", "note": "미적분 기반 일반물리에서 시작해 고전역학·전자기학·열통계·양자역학의 네 기둥으로 나아갑니다.",
      "l2": [["general-physics", "일반물리"]],
-     "l3": [["classical-mechanics", "고전역학"], ["electromagnetism", "전자기학"], ["thermal-statistical", "열·통계물리"],
-            ["waves-optics", "파동·광학"], ["quantum-mechanics", "양자역학"], ["modern-physics", "상대성이론과 현대물리"]]},
+     "l3": [["classical-mechanics", "고전역학"], ["electromagnetism", "전자기학과 광학"], ["thermal-statistical", "열·통계물리"],
+            ["quantum-mechanics", "양자역학과 현대물리"]]},
     {"id": "chemistry", "title": "화학", "note": "원자 구조와 결합에서 시작해 물리·유기·무기·분석화학의 네 기둥으로 나뉩니다.",
      "l2": [["general-chemistry", "일반화학"]],
      "l3": [["physical-chemistry", "물리화학"], ["organic-chemistry", "유기화학"], ["inorganic-chemistry", "무기화학"],
@@ -21,14 +21,13 @@ TRACKS = [
     {"id": "biology", "title": "생명과학", "note": "분자에서 생태계까지. 세포·분자와 유전학을 먼저 공부하면 나머지가 쉬워집니다.",
      "l2": [["general-biology", "일반생물"]],
      "l3": [["cell-molecular", "세포·분자생물학"], ["genetics", "유전학"], ["physiology", "생리학"],
-            ["ecology-evolution", "생태학과 진화"], ["microbiology", "미생물학"]]},
+            ["ecology-evolution", "생태학과 진화"]]},
     {"id": "earth", "title": "지구과학", "note": "고체 지구, 대기, 해양, 우주의 네 분야. 물리·화학 레벨2와 함께 공부하면 좋습니다.",
      "l2": [["earth-science", "지구과학개론"]],
-     "l3": [["geology", "지질학"], ["atmospheric-science", "대기과학"], ["oceanography", "해양학"], ["astronomy", "천문학"]]},
-    {"id": "convergence", "title": "융합", "note": "분과를 가로지르는 주제. 레벨2는 과학의 방법, 레벨3은 분과가 만나는 응용 분야입니다.",
+     "l3": [["geology", "지질학"], ["atmospheric-science", "대기과학"], ["oceanography", "해양학"], ["astronomy", "천문학과 천체물리"]]},
+    {"id": "convergence", "title": "융합", "note": "분과를 가로지르는 주제. 레벨2는 과학의 방법, 레벨3은 분과가 만나는 분야입니다. 재료과학은 tech-arena에서 다룹니다.",
      "l2": [["science-method", "과학사와 과학의 방법"]],
-     "l3": [["biochemistry", "생화학"], ["environment-climate", "환경·기후과학"], ["materials-science", "재료과학"],
-            ["biotechnology", "생명공학"], ["astrophysics", "천체물리"]]},
+     "l3": [["biochemistry", "생화학"], ["environment-climate", "환경·기후과학"]]},
 ]
 LEVELS = {"2": "대학 일반과학 (전문대졸·대학 1학년 수준)", "3": "전공 핵심 (대졸·학부 전공 수준)"}
 VALIDATION = {"2": "대학 일반물리·일반화학·일반생물·지구과학개론 표준 교재의 목차",
